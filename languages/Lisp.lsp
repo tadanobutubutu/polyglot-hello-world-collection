@@ -1,0 +1,1 @@
+; LISP\n(DEFUN hello ()\n  (PRINT (LIST 'HELLO 'WORLD))\n)\n\n(hello)\n

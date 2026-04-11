@@ -1,0 +1,1 @@
+implement Hello;\n\ninclude \"sys.m\";\n\tsys: Sys;\ninclude \"draw.m\";\n\nHello: module\n{\n\tinit:\tfn(ctxt: ref Draw->Context, argv: list of string);\n};\n\ninit(ctxt: ref Draw->Context, argv: list of string)\n{\n\tsys = load Sys Sys->PATH;\n\tsys->print(\"Hello World\\n\");\n}\n

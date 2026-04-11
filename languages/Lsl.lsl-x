@@ -1,0 +1,1 @@
+default\n{\n    state_entry()\n    {\n        llSay(0, \"Hello World\");\n    }\n}

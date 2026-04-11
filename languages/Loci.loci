@@ -1,0 +1,1 @@
+import standard.io;\n\nvoid main() {\n  standard.print(\"Hello World\");\n}\n

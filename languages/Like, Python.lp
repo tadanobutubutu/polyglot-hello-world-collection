@@ -1,0 +1,1 @@
+#!usr/bin/python\n\nyo just print like \"Hello World\" bro\n

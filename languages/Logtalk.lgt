@@ -1,0 +1,1 @@
+:- object(hello_world).\n\n\t:- initialization(write('Hello World')).\n\n:- end_object.\n

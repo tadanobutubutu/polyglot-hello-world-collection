@@ -1,0 +1,1 @@
+HAI\nCAN HAS STDIO?\nVISIBLE \"Hello World\"\nKTHXBYE\n
