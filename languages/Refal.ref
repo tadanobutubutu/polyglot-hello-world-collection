@@ -1,0 +1,1 @@
+$ENTRY Go { = <Hello>;}\nHello {\n   = <Prout 'Hello World'>;\n}
