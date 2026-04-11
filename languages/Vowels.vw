@@ -1,0 +1,1 @@
+ue\nyeouo\neuea\neuai\neuai\neuoa\neaiu\neaao\neioo\neuoa\neuou\neuai\neuee\neaai\neeoe\neeee\ny\n

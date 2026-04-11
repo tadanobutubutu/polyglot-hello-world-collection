@@ -1,0 +1,1 @@
+(func main (result int)\n  (print \"Hello World\")\n  (return 0)\n)\n
