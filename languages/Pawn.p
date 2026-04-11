@@ -1,0 +1,1 @@
+#include <core>\n \nmain(){\n    print(\"Hello World\");   \n}\n

@@ -1,0 +1,1 @@
+link CUI entry main\n\ninclude \"Windows.inc\"\ninclude \"Console.inc\"\n\nfunc main()\n{\n\tConsole.Init(\"Console\")\n\tConsole.Write(\"Hello World\")\n}\n
