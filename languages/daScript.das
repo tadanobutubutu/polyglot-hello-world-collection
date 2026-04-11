@@ -1,0 +1,1 @@
+[export]\ndef main\n\tprint(\"Hello World\\n\")\n
