@@ -1,0 +1,1 @@
+10 PRINT \"Hello World\"\n20 END\n
