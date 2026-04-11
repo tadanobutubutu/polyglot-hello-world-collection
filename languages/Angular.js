@@ -1,0 +1,1 @@
+$scope.$log = $log;\n$scope.message = \"Hello World\";\n

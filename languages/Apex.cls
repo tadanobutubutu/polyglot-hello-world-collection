@@ -1,0 +1,1 @@
+global with sharing class HelloWorld {\n  global static void main() {\n    System.debug('Hello World');\n  }\n}
