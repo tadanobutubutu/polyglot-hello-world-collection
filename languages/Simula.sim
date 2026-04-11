@@ -1,0 +1,1 @@
+Begin\n   OutText (\"Hello World\");\n   Outimage;\nEnd;

@@ -1,0 +1,1 @@
+>(Add      72 >(Output) \n>(Add      29 >(Output)\n>(Add      7  >(Output) \n              >(Output)\n>(Add      3  >(Output)\n>(Subtract 67 >(Output)\n>(Subtract 12 >(Output) \n>(Add      55 >(Output)\n>(Add      24 >(Output)\n>(Add      3  >(Output)\n>(Subtract 6  >(Output)\n>(Subtract 8  >(Output)\n>(Subtract 67 >(Output)\n
