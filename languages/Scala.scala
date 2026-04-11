@@ -1,0 +1,1 @@
+object HelloWorld {\n  def main(args: Array[String]) {\n    println(\"Hello World\")\n  }\n}\n
