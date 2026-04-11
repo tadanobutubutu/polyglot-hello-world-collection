@@ -1,0 +1,1 @@
+import React from \"react\";\nimport { Text, View } from \"react-native\";\n\nexport default function HelloWorld() {\n    return (\n        <View>\n            <Text>Hello World</Text>\n        </View>\n    );\n}\n

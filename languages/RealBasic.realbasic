@@ -1,0 +1,1 @@
+Function Run(args() as String) As Integer\n  Print \"Hello World\"\n  Quit\nEnd Function\n
