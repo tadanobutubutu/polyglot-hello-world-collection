@@ -1,0 +1,1 @@
+#!/usr/bin/env zx\nconsole.log(\"Hello World\")\n

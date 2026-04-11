@@ -1,0 +1,1 @@
+public class HelloCi\n{\n    public static string GetMessage()\n    {\n        return \"Hello World\";\n    }\n}\n
