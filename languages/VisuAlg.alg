@@ -1,0 +1,1 @@
+Algoritmo \" \"\nInicio\nescreva(\"Hello World\")\nFimalgoritmo\n
