@@ -1,0 +1,1 @@
+from libavg import avg\n\nplayer = avg.Player.get()\ncanvas = player.createMainCanvas(size=(640,480))\nrootNode = canvas.getRootNode()\navg.WordsNode(pos=(10,10), font=\"arial\", \n        text=\"Hello World\", parent=rootNode)\nplayer.play()\n
