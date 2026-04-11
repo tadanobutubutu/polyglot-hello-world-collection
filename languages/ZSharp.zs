@@ -1,0 +1,1 @@
+func Main()\n{\n\tPrintl(\"Hello World\")\n}\n
