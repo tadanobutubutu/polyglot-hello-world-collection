@@ -1,0 +1,1 @@
+#!/usr/bin/env qore\n%exec-class HelloWorld\nclass HelloWorld\n{\n    constructor()\n    {\n\t    background $.say(\"Hello World\");\n    }\n    private say($arg)\n    {\n\t    printf(\"%s\\n\", $arg);\n    }\n}\n

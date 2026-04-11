@@ -1,0 +1,1 @@
+begin\n\t?hello = \"Hello World\"\n\tif 1 == 1 then\n\t\toutput ?hello\n\tfi\nend\n
