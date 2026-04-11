@@ -1,0 +1,1 @@
+require stdout\n\nstdout.print(\"Hello World\")\n
