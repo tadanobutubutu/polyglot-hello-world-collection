@@ -1,0 +1,1 @@
+module helloworld\n\n\tdefine(EOF,(-1))\n\t\n\timport printf from \"ylib.d\"\n\n\tmain()\n\t\tprintf(\"Hello World\\n\")\n\tend\nend
