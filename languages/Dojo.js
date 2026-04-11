@@ -1,0 +1,1 @@
+shibe \"Hello World\"\nplz console.log with \"Hello World\"\nwow\n

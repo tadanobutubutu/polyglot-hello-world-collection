@@ -1,0 +1,1 @@
+import std.stdio;\n\nvoid main()\n{\n    writeln(\"Hello World\");\n}\n

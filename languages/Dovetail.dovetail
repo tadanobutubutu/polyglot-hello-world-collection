@@ -1,0 +1,1 @@
+require([\"dojo/dom\", \"dojo/domReady!\"], function(dom){\n  dom.set(\"Hello World\");\n});\n
