@@ -1,0 +1,1 @@
+main :: [sys_message]\nmain = [Stdout \"Hello World\"]\n

@@ -1,0 +1,1 @@
+component Main {\n  fun render : Html {\n    <div>\"Hello World\"</div>\n  }\n}\n

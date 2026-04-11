@@ -1,0 +1,1 @@
+fn main():\n  print(\"Hello World\")\n

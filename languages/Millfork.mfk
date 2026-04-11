@@ -1,0 +1,1 @@
+import stdio\n\nvoid main() {\n    putstrz(\"Hello World\"z)\n}\n

@@ -1,0 +1,1 @@
+MODULE HelloWorld;\nIMPORT Io;\nBEGIN\n    IO.Put (\"Hello World\\n\")\nEND HelloWorld.

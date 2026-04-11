@@ -1,0 +1,1 @@
+Function Main()\n  Print \"Hello World\"\nEnd Function\n

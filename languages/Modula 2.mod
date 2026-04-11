@@ -1,0 +1,1 @@
+MODULE HelloWorld;\n\nFROM Terminal2 IMPORT WriteString, WriteLn;\n\nBEGIN\n\n    WriteString(\"Hello World\");\n    WriteLn;\n    \nEND HelloWorld.

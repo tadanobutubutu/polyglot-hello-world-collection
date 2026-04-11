@@ -1,0 +1,1 @@
+from manim import *\n\nclass HelloWorld(Scene):\n  def construct(self):\n    self.add(Text(\"Hello World\"))\n
