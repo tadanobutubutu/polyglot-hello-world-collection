@@ -1,0 +1,1 @@
+import sys\nfrom PyQt5.QtWidgets import QApplication, QWidget, QLabel\n\napp = QApplication(sys.argv)\nwidget = QWidget()\n\nhelloWorld = QLabel(widget)\nhelloWorld.setText(\"Hello World\")\n\nwidget.show()\nsys.exit(app.exec_())\n

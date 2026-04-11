@@ -1,0 +1,1 @@
+import sys\nfrom PySide2.QtWidgets import QApplication, QLabel\n\napp = QApplication(sys.argv)\nlabel = QLabel(\"Hello World\")\nlabel.show()\napp.exec_()\n
