@@ -1,0 +1,1 @@
+// Hello World in ClojureScript\n(enable-console-print!)\n(println \"Hello World\")\n

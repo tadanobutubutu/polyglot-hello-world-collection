@@ -1,0 +1,1 @@
+shared void hello() {\n    print(\"Hello World\");\n}\n

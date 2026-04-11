@@ -1,0 +1,1 @@
+\u05d1\u05e7\u05e8\u05d4.\u05ea\u05e2\u05d3(\"Hello World\")\n

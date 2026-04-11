@@ -1,0 +1,1 @@
+// Hello World in Clojure\n(println \"Hello World\")\n

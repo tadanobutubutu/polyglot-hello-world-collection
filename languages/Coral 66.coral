@@ -1,0 +1,1 @@
+Require Import Io.Core.\n\nDefinition main := println \"Hello World\".\n

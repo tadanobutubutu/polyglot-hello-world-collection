@@ -1,0 +1,1 @@
+Main-Class: HelloWorld\n\nclass HelloWorld {\n  static void main(String[] args) {\n    println \"Hello World\"\n  }\n}\n
