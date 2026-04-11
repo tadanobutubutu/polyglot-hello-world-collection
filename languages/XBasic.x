@@ -1,0 +1,1 @@
+IMPORT \"xst\"\nDECLARE FUNCTION  Hello ()\n\nFUNCTION  Hello ()\n XstDisplayConsole ()\n PRINT \"Hello World\"\nEND FUNCTION\nEND PROGRAM\n
