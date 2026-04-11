@@ -1,0 +1,1 @@
+task main()\n{\n    TextOut(0, LCD_LINE1, \"Hello World\");\n}\n

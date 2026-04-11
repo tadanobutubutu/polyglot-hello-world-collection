@@ -1,0 +1,1 @@
+functor\nimport\n     Application\n     System\ndefine\n    {System.showInfo 'Hello World'}\n    {Application.exit 0} \nend\n
