@@ -1,0 +1,1 @@
+#COMPILE EXE\n#DIM ALL\n\nFUNCTION PBMAIN () AS LONG\n\n    MSGBOX \"Hello World\"\n\nEND FUNCTION\n
