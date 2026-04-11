@@ -1,0 +1,1 @@
+include \"std.porth\"\n\nproc main in\n  \"Hello, World\\n\" puts\nend\n

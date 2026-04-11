@@ -1,0 +1,1 @@
+algoritmo \"Hello World\"\n\nvar\n \ninicio\nescreva (\"Hello World\")\nfimalgoritmo\n

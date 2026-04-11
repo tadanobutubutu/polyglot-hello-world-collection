@@ -1,0 +1,1 @@
+actor Main\n  new create(env: Env) =>\n    env.out.print(\"Hello World\")\n
