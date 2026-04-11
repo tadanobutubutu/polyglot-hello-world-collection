@@ -1,0 +1,1 @@
+.class public LHelloWorld;\n\n.super Ljava/lang/Object;\n\n.method public static main([Ljava/lang/String;)V\n    .registers 2\n\n    sget-object v0, Ljava/lang/System;->out:Ljava/io/PrintStream;\n\n    const-string\tv1, \"Hello World\"\n\n    invoke-virtual {v0, v1}, Ljava/io/PrintStream;->println(Ljava/lang/String;)V\n\n    return-void\n.end method\n

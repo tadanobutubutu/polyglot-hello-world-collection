@@ -1,0 +1,1 @@
+on load:\n\tbroadcast \"Hello World\"\n

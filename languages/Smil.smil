@@ -1,0 +1,1 @@
+<smil>\n <head>\n  <layout>\n   <root-layout width=\"300\" height=\"160\" background-color=\"white\"/>\n   <region id=\"text_region\" left=\"115\" top=\"60\"/>\n  </layout>\n </head>\n <body>\n  <text src=\"data:,Hello%20World!\" region=\"text_region\">\n   <param name=\"fontFace\" value=\"Arial\"/>\n  </text>\n </body>\n</smil>
