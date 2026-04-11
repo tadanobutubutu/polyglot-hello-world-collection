@@ -1,1 +1,1 @@
-(display \"Hello World\\n\")\n
+class Main inherits IO {\n   main(): Object {\n\tout_string(\"Hello World.\\n\")\n   };\n};\n

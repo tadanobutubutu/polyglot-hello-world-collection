@@ -1,0 +1,1 @@
+CREATE (Hello:Word { val: 'Hello' }), (World:Word { val: 'World' }),\n(Hello)-[:SPACE]->(World)\nRETURN Hello,World\n

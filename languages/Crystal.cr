@@ -1,0 +1,1 @@
+:set ascii=on\n\"Hello World\"

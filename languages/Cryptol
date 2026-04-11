@@ -1,0 +1,1 @@
+fn helloworld(): string {\n  return \"Hello World\"\n}\n\nhelloworld()\n

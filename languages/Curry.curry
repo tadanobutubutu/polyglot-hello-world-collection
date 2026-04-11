@@ -1,0 +1,1 @@
+def greet() -> <out : Str>\nin Bash *{\n  out=\"Hello World\"\n}*\n\n( greet()|out );\n

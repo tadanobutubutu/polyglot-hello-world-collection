@@ -1,0 +1,1 @@
+program HelloWorld;\nbegin\n  Writeln('Hello World');\nend.\n

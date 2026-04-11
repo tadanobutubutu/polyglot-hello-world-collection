@@ -1,0 +1,1 @@
+Require Import Coq.Lists.List.\nRequire Import Io.All.\nRequire Import Io.System.All.\nRequire Import ListString.All.\n\nImport ListNotations.\nImport C.Notations.\n\n(** The classic Hello World program. *)\nDefinition hello_world (argv : list LString.t) : C.t System.effect unit :=\n  System.log (LString.s \"Hello World\").

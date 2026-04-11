@@ -1,0 +1,1 @@
+-- \"Hello World\" demo for the Tcl/Tk library\n\nimport Tk\n\nmain = runWidget \"Hello\"\n          (TkCol [] [TkLabel [TkText \"Hello World\"],\n                     TkButton tkExit [TkText \"Stop\"]])\n

@@ -1,0 +1,1 @@
+'external' (\n   'procedure' write (\n      'value''integer', 'byte''array', 'value''integer');\n)\n\n'begin'\n   'byte''array' Buf [1:12] := \"Hello World\", 10;\n\n   write (1, Buf, 12);\n'end'\n
