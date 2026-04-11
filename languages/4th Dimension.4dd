@@ -1,0 +1,1 @@
+OPEN WINDOW (10;45;500;330;0;\"Hello Window\")\nWhile (True)\n  MESSAGE (\"Hello World\")\nEnd while\n
