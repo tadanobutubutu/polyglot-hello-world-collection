@@ -1,0 +1,1 @@
+@main[]\n  ^rem{Will print \"Hello World\" when run as CGI script}\n  $hello[Hello World]\n  $result[$hello]\n

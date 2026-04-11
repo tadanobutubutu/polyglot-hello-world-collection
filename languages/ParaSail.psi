@@ -1,0 +1,1 @@
+func Hello_World(var IO) is\n    IO.Println(\"Hello World\");\nend func Hello_World;\n

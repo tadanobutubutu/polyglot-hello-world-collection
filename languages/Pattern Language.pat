@@ -1,0 +1,1 @@
+#include <std/sys.pat>\nstd::print(\"Hello World\");\n

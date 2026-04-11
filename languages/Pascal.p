@@ -1,0 +1,1 @@
+program HelloWorld(output);\nbegin\n        writeln('Hello World');\nend.\n
