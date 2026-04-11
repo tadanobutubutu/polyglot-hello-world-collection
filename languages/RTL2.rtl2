@@ -1,0 +1,1 @@
+TITLE Hello World;\n\nLET NL=10;\n\nEXT PROC(REF ARRAY BYTE) TWRT;\n\nENT PROC INT RRJOB();\n\n    TWRT(\"Hello World#NL#\");\n    RETURN(1);\n\nENDPROC;\n
