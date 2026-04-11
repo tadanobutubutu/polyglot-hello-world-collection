@@ -1,0 +1,1 @@
+#!/usr/bin/env fish\necho \"Hello World\"\n

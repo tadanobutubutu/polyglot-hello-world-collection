@@ -1,0 +1,1 @@
+USING: io ;\n\"Hello World\" print\n\n

@@ -1,0 +1,1 @@
+import 'package:flutter/widgets.dart';\n\nvoid main() {\n  runApp(\n    Text(\n      'Hello World',\n      textDirection: TextDirection.ltr,\n    ),\n  );\n}\n

@@ -1,0 +1,1 @@
+// Hello from Fantom!\nclass HelloWorld {\n  static Void main() {\n    echo(\"Hello World\")\n  }\n}\n

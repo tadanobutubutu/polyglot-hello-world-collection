@@ -1,0 +1,1 @@
+extends Node2D\n\nfunc _ready():\n\tprint(\"Hello World\")\n

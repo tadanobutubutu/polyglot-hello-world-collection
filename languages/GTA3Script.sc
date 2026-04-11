@@ -1,0 +1,1 @@
+SCRIPT_START\n{\nNOP\n\nWAIT 0\nPRINT_STRING_NOW \"Hello World\"\n}\nSCRIPT_END\n

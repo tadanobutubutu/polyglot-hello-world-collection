@@ -1,0 +1,1 @@
+main() -> main {\n\tprint(string) -> \"Hello World\"\n\tprint(newline)\n} main;
