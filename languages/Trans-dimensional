@@ -1,0 +1,1 @@
+dimension X;\nput [X:1] -> \"Hello World\";\noutput get [X:1];\n

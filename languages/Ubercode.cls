@@ -1,0 +1,1 @@
+  Ubercode 1 class HelloWorld  \n\n  public function Main()\n  code\n    call Msgbox(\"Hello World\", \"My first program\", \"OK\")\n  end function\n\n  end class\n
