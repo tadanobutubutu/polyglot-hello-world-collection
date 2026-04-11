@@ -1,0 +1,1 @@
+program ObjectPascalExample;\n\ntype\n   THelloWorld = class\n      procedure Put;\n   end;\n\nprocedure THelloWorld.Put;\nbegin\n   Writeln('Hello World');\nend;\n\nvar\n   HelloWorld: THelloWorld;\n\nbegin\n   HelloWorld := THelloWorld.Create;\n   HelloWorld.Put;\n   HelloWorld.Free;\nend.

@@ -1,0 +1,1 @@
+MODULE HelloWorld;                     \nIMPORT Out;\nBEGIN\n  Out.String( \"Hello World\" );\n  Out.Ln;\nEND HelloWorld.
