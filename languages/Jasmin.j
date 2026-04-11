@@ -1,0 +1,1 @@
+function main() {\n    println(\"Hello World\")\n}\n

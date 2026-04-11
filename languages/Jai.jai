@@ -1,0 +1,1 @@
+helloWorld();\n\nbegin\n   write \"Hello World\";\nend;

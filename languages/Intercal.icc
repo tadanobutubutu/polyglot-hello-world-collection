@@ -1,0 +1,1 @@
+import std.stdio\n\nfn main {\n  stdio.stdout.print('Hello World\\n')\n}\n

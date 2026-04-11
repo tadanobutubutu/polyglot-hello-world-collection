@@ -1,0 +1,1 @@
+(setq hello-world \"Hello World\")\n(print hello-world)\n

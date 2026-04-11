@@ -1,0 +1,1 @@
+var React = require('react');\n\nvar HelloWorld = function() {\n    return <span>Hello World</span>;\n};\nHelloWorld.displayName = 'HelloWorld';\n\nconsole.log(React.renderToString(<HelloWorld />));\n

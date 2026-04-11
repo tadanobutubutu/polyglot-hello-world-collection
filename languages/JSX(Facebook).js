@@ -1,0 +1,1 @@
+ class _Main {\n     static function main(args : string[]) : void {\n         log \"Hello World\";\n     }\n }\n

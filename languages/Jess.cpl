@@ -1,0 +1,1 @@
+pipeline {\n    agent any\n    stages {\n        stage('Print Message') {\n            steps {\n                echo 'Hello World'\n            }\n        }\n    }\n}\n

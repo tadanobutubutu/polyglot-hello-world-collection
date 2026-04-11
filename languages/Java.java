@@ -1,0 +1,1 @@
+!greeting.\n+!greeting : true <- .print(\"Hello World\").

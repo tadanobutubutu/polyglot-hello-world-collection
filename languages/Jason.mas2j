@@ -1,0 +1,1 @@
+.class public Jasmin\n.super java/lang/Object\n\n.method public static main([Ljava/lang/String;)V\n\t.limit stack 2\n\tgetstatic java/lang/System/out Ljava/io/PrintStream;\n\tldc \"Hello World\"\n\tinvokevirtual java/io/PrintStream/println(Ljava/lang/String;)V\n\treturn\t\n.end method\n
