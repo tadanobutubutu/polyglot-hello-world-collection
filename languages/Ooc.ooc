@@ -1,0 +1,1 @@
+main: func {\n    \"Hello World\" println()\n}\n\n

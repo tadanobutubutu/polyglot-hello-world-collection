@@ -1,0 +1,1 @@
+package main\n\nimport \"core:fmt\"\n\nmain :: proc() {\n  fmt.println(\"Hello World\");\n}\n

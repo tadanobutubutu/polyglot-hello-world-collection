@@ -1,0 +1,1 @@
+{- HelloWorld.orc -- Orc program HelloWorld\n -\n - $Id$\n -\n - Created by xbony2 on Nov 8, 2014 8:30:25 PM\n - Licensed under public domain.\n -}\n\nPrintln(\"Hello World\") >>\nstop\n
