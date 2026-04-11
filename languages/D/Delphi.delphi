@@ -1,0 +1,1 @@
+// Hello World in Delphi\nProgram Hello_World;\n\n($APPTYPE CONSOLE)\n\nBegin\n  WriteLn('Hello World');\nEnd.\n

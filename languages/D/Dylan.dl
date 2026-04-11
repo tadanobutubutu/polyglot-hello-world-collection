@@ -1,0 +1,1 @@
+define method main (#rest args)\n  princ("Hello World");\nend;\n\nmain();\n

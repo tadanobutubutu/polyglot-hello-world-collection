@@ -1,0 +1,1 @@
+proc main()void:\n    writeln("Hello World");\ncorp;\n

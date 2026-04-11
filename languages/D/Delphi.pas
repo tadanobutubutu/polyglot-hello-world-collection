@@ -1,0 +1,1 @@
+program HelloWorld;\n{$APPTYPE CONSOLE}\n\nbegin\n	WriteLn('Hello World');\nend.

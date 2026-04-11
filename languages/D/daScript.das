@@ -1,0 +1,1 @@
+[export]\ndef main\n	print("Hello World\n")\n

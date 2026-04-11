@@ -1,0 +1,1 @@
+#!/usr/sbin/dtrace -qs\nBEGIN {\n	printf("Hello World");\n	exit(0);\n}\n

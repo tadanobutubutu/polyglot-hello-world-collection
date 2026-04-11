@@ -1,0 +1,1 @@
+mob\n	Login()\n		world << "Hello World"\n
