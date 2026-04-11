@@ -1,0 +1,1 @@
+#VRML V2.0 utf8\nShape {\n    geometry Text {\n        string \"Hello World\"\n    }\n}

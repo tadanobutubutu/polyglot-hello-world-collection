@@ -1,0 +1,1 @@
+static void main (string[] args)\n{\n\tstdout.printf (\"Hello World\\n\");\n}\n\n

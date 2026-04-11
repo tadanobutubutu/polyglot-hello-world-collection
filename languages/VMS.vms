@@ -1,0 +1,1 @@
+$top:\n$write sys$output \"Hello World\"\n$wait 00:00:10\n$goto top\n
