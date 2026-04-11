@@ -1,0 +1,1 @@
+helloWorld :-\n  write('Hello World').\n\n:- helloWorld.\n

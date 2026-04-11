@@ -1,0 +1,1 @@
+If OpenConsole()\n  PrintN(\"Hello World\")\nEndIf\n

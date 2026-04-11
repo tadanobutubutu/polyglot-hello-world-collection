@@ -1,0 +1,1 @@
+module Main where\n\nimport Debug.Trace\n\nmain = trace \"Hello World\"\n
