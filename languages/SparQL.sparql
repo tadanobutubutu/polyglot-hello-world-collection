@@ -1,0 +1,1 @@
+SELECT ?h WHERE { \n  VALUES ?h { \"Hello World\" } \n}\n

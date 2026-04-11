@@ -1,0 +1,1 @@
+pragma solidity ^0.8.9;\n\ncontract HelloWorld {\n    function render () public pure returns (string memory) {\n        return 'Hello World';\n    }\n}\n
