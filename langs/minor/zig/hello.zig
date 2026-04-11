@@ -1,0 +1,1 @@
+const std = @import("std"); pub func main() !void { std.debug.print("Hello, World!\n", .{}); }
