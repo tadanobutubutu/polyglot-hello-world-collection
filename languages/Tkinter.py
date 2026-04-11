@@ -1,0 +1,1 @@
+import tkinter as tk\nroot = tk.Tk()\ngreeting = tk.Label(text=\"Hello World\")\ngreeting.pack()\nroot.mainloop()\n

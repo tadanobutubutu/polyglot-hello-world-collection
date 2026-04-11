@@ -1,0 +1,1 @@
+fmt := import(\"fmt\")\nfmt.print(\"Hello World\")\n
