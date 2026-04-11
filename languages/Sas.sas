@@ -1,0 +1,1 @@
+%macro putit( string= ); \n     %put &string; \n     %mend; \n\n%putit(string=Hello World)\n

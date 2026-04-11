@@ -1,0 +1,1 @@
+proc main()\n    loop\n        WriteLine(\"Hello World\")\n    endloop\nend\n

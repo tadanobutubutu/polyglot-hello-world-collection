@@ -1,0 +1,1 @@
+class MAIN is\n   main is \n      loop \n         #OUT + \"Hello World\\n\" \n      end \n   end\nend\n
