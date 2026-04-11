@@ -1,0 +1,1 @@
+#!/usr/bin/yorick -batch\nprint, \"Hello World\";\n

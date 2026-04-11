@@ -1,0 +1,1 @@
+using universal delay 200\nusing loop False\n\ntypewrite Hello World

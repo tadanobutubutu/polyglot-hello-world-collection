@@ -1,0 +1,1 @@
+#!/bin/zsh\necho \"Hello World\"\n
