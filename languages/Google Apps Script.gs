@@ -1,0 +1,1 @@
+function helloWorld() {\n  Logger.log(\"Hello World\");\n}\n

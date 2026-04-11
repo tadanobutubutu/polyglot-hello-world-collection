@@ -1,0 +1,1 @@
+#HELLO WORLD.\n\n@width 3\n@height 1\n\n(1,1):START\n(3,1):PRINT 'Hello World' \n

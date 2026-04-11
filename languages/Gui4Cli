@@ -1,0 +1,1 @@
+G4C MyGui\nWindow 10 10 200 300 \"My window\"\n\nxOnLoad\n   GuiOpen MyGui\n\nxButton 10 10 100 20 \"Hello World\"\n   GuiQuit MyGui\n

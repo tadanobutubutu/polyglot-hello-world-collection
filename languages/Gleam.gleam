@@ -1,0 +1,1 @@
+import gleam/io\n\npub fn main() {\n  io.println(\"Hello World\")\n}\n

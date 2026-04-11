@@ -1,0 +1,1 @@
+class HelloWorld {\n    static function main() {\n        trace(\"Hello World\");\n    }\n}

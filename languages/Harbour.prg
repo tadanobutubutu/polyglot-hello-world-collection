@@ -1,0 +1,1 @@
+PROCEDURE Main()\n\n   ? \"Hello World\"\n\n   RETURN\n

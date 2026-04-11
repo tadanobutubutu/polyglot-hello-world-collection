@@ -1,0 +1,1 @@
+let io = import! std.io\nio.print \"Hello World\"\n

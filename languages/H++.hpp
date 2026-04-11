@@ -1,0 +1,1 @@
+import \"stdhpp\\stdapi.hcc\";\n\nusing printf = Console::WriteLn;\n\nnamespace\n{\n    class Application\n    {\n        public static void main()\n        {\n            printf(\"Hello World\");\n            return;\n        }\n    };\n};

@@ -1,0 +1,1 @@
+name: Hello World\n\non:\n  workflow_dispatch\n\njobs:\n  hello:\n    runs-on: ubuntu-latest\n    steps:\n      - run: echo \"Hello World\"\n
