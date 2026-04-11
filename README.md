@@ -2,33 +2,172 @@
 
 世界中のあらゆるプログラミング言語のハローワールドを網羅した博物館です。
 
-## 🏛️ 展示ルーム（カテゴリー別）
-以下のリンクから順に全言語を巡回できます。
+## 有名言語リスト
+### JavaScript
+```js
+console.log("Hello World");
+```
+[ソースファイル](languages/JavaScript.js)
 
-1. **[✨ 有名言語 (ここからスタート)](lists/famous.md)**
-- [Japanese カテゴリー](lists/japanese.md)
-- [Legacy カテゴリー](lists/legacy.md)
-- [Esoteric カテゴリー](lists/esoteric.md)
-- [Research カテゴリー](lists/research.md)
-- [マイナー言語 Part 1](lists/minor_1.md)
-- [マイナー言語 Part 2](lists/minor_2.md)
-- [マイナー言語 Part 3](lists/minor_3.md)
-- [マイナー言語 Part 4](lists/minor_4.md)
-- [マイナー言語 Part 5](lists/minor_5.md)
-- [マイナー言語 Part 6](lists/minor_6.md)
-- [マイナー言語 Part 7](lists/minor_7.md)
-- [マイナー言語 Part 8](lists/minor_8.md)
-- [マイナー言語 Part 9](lists/minor_9.md)
-- [マイナー言語 Part 10](lists/minor_10.md)
-- [マイナー言語 Part 11](lists/minor_11.md)
-- [マイナー言語 Part 12](lists/minor_12.md)
-- [マイナー言語 Part 13](lists/minor_13.md)
-- [マイナー言語 Part 14](lists/minor_14.md)
-- [マイナー言語 Part 15](lists/minor_15.md)
-- [マイナー言語 Part 16](lists/minor_16.md)
-- [マイナー言語 Part 17](lists/minor_17.md)
-- [マイナー言語 Part 18](lists/minor_18.md)
-- [マイナー言語 Part 19](lists/minor_19.md)
+### C
+```c
+#include <stdio.h>
+
+int main(void) {
+	printf("Hello World\n");
+}
+```
+[ソースファイル](languages/C.c)
+
+### Java
+```java
+public class Java {
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	}
+}
+```
+[ソースファイル](languages/Java.java)
+
+### C++
+```cpp
+#include <iostream>
+
+int main()
+{
+   std::cout << "Hello World" << std::endl;
+}
+```
+[ソースファイル](languages/C++.cpp)
+
+### PHP
+```php
+<?php
+
+echo 'Hello World';
+```
+[ソースファイル](languages/PHP.php)
+
+### TypeScript
+```ts
+console.log("Hello World");
+```
+[ソースファイル](languages/TypeScript.ts)
+
+### Go
+```go
+package main
+
+import "fmt"
+
+func main() {
+  fmt.Println("Hello World")
+}
+```
+[ソースファイル](languages/Go.go)
+
+### Rust
+```rs
+fn main() {
+    println!("Hello World");
+}
+```
+[ソースファイル](languages/Rust.rs)
+
+### Swift
+```swift
+print("Hello World")
+```
+[ソースファイル](languages/Swift.swift)
+
+### Kotlin
+```kt
+fun main() {
+  println("Hello World")
+}
+```
+[ソースファイル](languages/Kotlin.kt)
+
+### Ruby
+```rb
+#!/usr/bin/env ruby
+print "Hello World"
+```
+[ソースファイル](languages/Ruby.rb)
+
+### SQL
+```sql
+SELECT 'Hello World';
+```
+[ソースファイル](languages/SQL.sql)
+
+### Dart
+```dart
+main() {
+  print('Hello World');
+}
+```
+[ソースファイル](languages/Dart.dart)
+
+### Shell
+```sh
+#!/bin/sh
+echo "Hello World"
+```
+[ソースファイル](languages/Shell.sh)
+
+### MATLAB
+```m
+disp('Hello World')
+```
+[ソースファイル](languages/MATLAB.m)
+
+### R
+```r
+cat("Hello World")
+```
+[ソースファイル](languages/R.R)
+
+### Perl
+```pl
+#!/usr/bin/perl
+print "Hello World\n";
+```
+[ソースファイル](languages/Perl.pl)
+
+### Scala
+```scala
+object HelloWorld extends App {
+  println("Hello World")
+}
+```
+[ソースファイル](languages/Scala.scala)
+
+### Haskell
+```hs
+module Main where
+
+main = putStrLn "Hello World"
+```
+[ソースファイル](languages/Haskell.hs)
+
+### Julia
+```jl
+println("Hello World")
+```
+[ソースファイル](languages/Julia.jl)
+
+### Lua
+```lua
+print("Hello World")
+```
+[ソースファイル](languages/Lua.lua)
 
 ---
-Created by Antigravity AI for tadanobutubutu.
+## その他のカテゴリー
+さらに多くの言語を探索する：
+
+- [レガシー言語 カテゴリー](lists/legacy.md)
+- [ジョーク言語 カテゴリー](lists/esoteric.md)
+- [研究用言語 カテゴリー](lists/research.md)
+- [マイナー言語 カテゴリー](lists/minor_1.md)
