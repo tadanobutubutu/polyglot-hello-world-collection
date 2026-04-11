@@ -1,0 +1,1 @@
+DECLARE @message varchar(128)\nSELECT  @message = 'Hello World'\nPRINT   @message\n
