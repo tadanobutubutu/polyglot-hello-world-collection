@@ -1,0 +1,1 @@
+global start\n\nsection .text\nstart:\n    mov         rax, 0x2000004 \n    mov         rdi, 1         \n    mov         rsi, msg\n    mov         rdx, msg.len\n    syscall\n\n    mov         rax, 0x2000001 \n    mov         rdi, 0\n    syscall\n\nsection .data\nmsg:    db      \"Hello World\", 10\n.len:   equ     $ - msg\n

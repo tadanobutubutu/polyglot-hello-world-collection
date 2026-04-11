@@ -1,0 +1,1 @@
+program HelloWorld;\n\n#include( \"stdlib.hhf\" );\n\nbegin HelloWorld;\n  stdout.put( \"Hello World\", nl );\nend HelloWorld;\n

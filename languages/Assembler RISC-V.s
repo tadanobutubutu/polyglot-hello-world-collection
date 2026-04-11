@@ -1,0 +1,1 @@
+.data\nhello_world: .asciiz \"Hello World\"\n\n.text\nmain:   la      a1, hello_world\n        li      a0, 4\n        ecall\n\n        li      a0, 10\n        ecall\n

@@ -1,0 +1,1 @@
+BITS\t32\nglobal\t_main\nextern\t_printf\nsection\t.text\n\tpush\tmsg\n\tcall\t_printf\n\tadd\t\tesp,4\n\tret\nsection\t.data\n\tmsg:\tdb\t\"Hello World\",0Ah,0\n

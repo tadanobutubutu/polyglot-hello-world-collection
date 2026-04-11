@@ -1,0 +1,1 @@
+\tTITLE Hello World\n\nA==1\nB==2\nTYO==1\n\nSTART:\t.OPEN TYO,[.UAO,,'TTY]\n\t .LOSE\n\tMOVE A,[440700,,HELLO]\nLOOP:\tILDB B,A\n\tJUMPE B,[.LOGOUT 1,]\n\t.IOT TYO,B\n\tJRST LOOP\n\nHELLO:\tASCIZ /Hello World/\n\n\tEND START\n

@@ -1,0 +1,1 @@
+IDEAL\nMODEL SMALL\nSTACK 100h\n\nDATASEG\nmsg\t\t\tdb \"Hello World\", 0dh, 0ah, \"$\"\n\nCODESEG\nstart:\n\tmov\t\ tax, @data\n\tmov\t\tds, ax\n\t\n\tmov\t\tdx, offset msg\n\tmov\t\tah, 9\n\tint\t\t21h\n\t\n\tmov\t\tah, 4ch\n\tint\t\t21h\n\nend start\n

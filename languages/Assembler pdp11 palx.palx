@@ -1,0 +1,1 @@
+\t.TITLE Hello World\n\nR0=%0\nR1=%1\nTPS==177564\nTPB==177566\n\n\t.=400\n\nSTART:\tMOV #1,@#TPS\n\tMOV #HELLO,R0\nLOOP:\tTSTB @#TPS\n\tBPL LOOP\n\tMOVB (R0)+,R1\n\tBEQ STOP\n\tMOVB R1,@#TPB\n\tBR LOOP\n\nSTOP:\tHALT\n\nHELLO:\t.ASCIZ /Hello World/\n\n\t.END START\n

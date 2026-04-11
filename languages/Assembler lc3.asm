@@ -1,0 +1,1 @@
+\t\t\t.ORIG x3000\n\n\t\t\tLEA R0, HELLOWORLD\n\t\t\tPUTS\n\t\t\tHALT\n\t\nHELLOWORLD\t.STRINGZ \"Hello World\\n\"\n\n\t\t\t.END\n

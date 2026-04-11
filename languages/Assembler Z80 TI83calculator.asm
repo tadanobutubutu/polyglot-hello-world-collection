@@ -1,0 +1,1 @@
+.NOLIST\n#define   EQU   .equ\n#define   equ   .equ\n#define   END   .end\n#define   end   .end\n#include \"ti83plus.inc\"\n.LIST\n     .org 9D93h\n      .db $BB,$6D\n      ld a,0\n      ld (CURCOL),a\n      ld (CURROW),a\n      ld hl,text\n      B_CALL(_PutS)\n      B_CALL(_NewLine)\n      ret\ntext:\n      .db \"Hello World\",0\n.end\nend\n

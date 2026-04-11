@@ -1,0 +1,1 @@
+#include \"kernel.inc\"\n    .db \"KEXC\"\n    .db KEXC_ENTRY_POINT\n    .dw start\nstart:\n    pcall(getLcdLock)\n\n    pcall(allocScreenBuffer)\n    pcall(clearScreen)\n\n    kld(hl, message)\n    ld de, 0\n    pcall(drawStr)\n\nmessage:\n    .db \"Hello World\", 0\n

@@ -1,0 +1,1 @@
+.data\nhw:\n\t.ascii \"Hello World\\12\"\n.text\n\t.align 1\n.globl _main\n_main:\n\t.word 0\n\tpushl $13\n\tpushab hw\n\tpushl $1\n\tcalls $3,_write\n\tret\n
