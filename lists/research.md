@@ -1,45 +1,87 @@
-# Research Languages
+# Research Languages Exhibition Hall
 
-Academic and experimental paradigms showcasing the future of computation.
+Formal systems, academic proofs, and experimental logic.
+
+---
+
+### Coq
+
+```coq
+Require Import Io.Standard.
+Definition main := print_line "Hello World".
+```
+
+[Source File](../languages/Coq.v)
+
+---
+
+### Lean
+
+```lean
+def main : IO Unit :=
+  IO.println "Hello World"
+```
+
+[Source File](../languages/Lean.lean)
 
 ---
 
 ### Agda
 
 ```agda
-module agda where
+module hello-world where
 open import IO
-main = run (putStrLn \"Hello World\")
+main = run (putStrLn "Hello World")
 ```
 
 [Source File](../languages/Agda.agda)
 
-### Coq
+---
 
-```coq
-Require Import Io.System.All.
-Import ListNotations.
-Definition hello_world : C.t System.effect unit :=
-  System.log (LString.s \"Hello World\").
+### Idris
+
+```idris
+module Main
+main : IO ()
+main = putStrLn "Hello World"
 ```
 
-[Source File](../languages/Coq.v)
+[Source File](../languages/Idris.idr)
 
-### J
+---
 
-```j
-'Hello World'
+### Prolog
+
+```prolog
+main :- write('Hello World'), nl.
 ```
 
-[Source File](../languages/J.j)
+[Source File](../languages/Prolog.pl)
 
-### K
+---
 
-```k
-\"Hello World\\n\"
+### Mercury
+
+```mercury
+:- module hello.
+:- interface.
+:- import_module io.
+:- pred main(io::di, io::uo) is det.
+:- implementation.
+main(!IO) :- io.write_string("Hello World\n", !IO).
 ```
 
-[Source File](../languages/K.k)
+[Source File](../languages/Mercury.m)
+
+---
+
+### Curry
+
+```curry
+main = putStrLn "Hello World"
+```
+
+[Source File](../languages/Curry.curry)
 
 ---
 

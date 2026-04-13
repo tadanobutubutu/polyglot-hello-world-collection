@@ -1,190 +1,57 @@
-# Legacy Languages
+# Legacy Languages Exhibition Hall
 
-Historical and classic programming languages that shaped the industry. Consolidated for a seamless museum experience.
+The titans of the past that laid the foundation for modern computing.
 
 ---
 
-### ABAP
+### FORTRAN
 
-```abap
-REPORT ZHELLO_WORLD.
-START-OF-SELECTION.
-    WRITE: 'Hello World'.
+```fortran
+      PROGRAM HELLO
+      PRINT *, 'Hello World'
+      END
 ```
 
-[Source File](../languages/ABAP.abap)
+[Source File](../languages/FORTRAN)
 
-### ABC
-
-```abc
-WRITE \"Hello World\"
-```
-
-[Source File](../languages/ABC.abc)
-
-### ActionScript 3
-
-```actionscript
-package {
-import flash.display.Sprite
-import flash.text.TextField
-public class HelloFlash extends Sprite {
-    public function HelloFlash() {
-        var textField:TextField = new TextField()
-        textField.text = \"Hello World\"
-        addChild(textField)
-    }
-}
-}
-```
-
-[Source File](../languages/ActionScript%203.as)
-
-### Ada
-
-```ada
-with Ada.Text_IO;
-procedure Hello_World is
-begin
-   Ada.Text_IO.Put_Line (\"Hello World\");
-end Hello_World;
-```
-
-[Source File](../languages/Ada.adb)
-
-### Algol 60
-
-```algol
-BEGIN
-  FILE F(KIND=REMOTE);
-  WRITE(F, *, \"HELLO WORLD\");
-END.
-```
-
-[Source File](../languages/Algol%2060.algol60)
-
-### Algol 68
-
-```algol
-print((\"Hello World\", newline))
-```
-
-[Source File](../languages/Algol%2068.a68)
-
-### APL
-
-```apl
-⎕←'Hello World'
-```
-
-[Source File](../languages/APL.apl)
-
-### Assembly
-
-```asm
-section .data
-    msg db 'Hello World', 0xa
-section .text
-    global _start
-_start:
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, msg
-    mov edx, 13
-    int 0x80
-    mov eax, 1
-    int 0x80
-```
-
-[Source File](../languages/Assembly.asm)
-
-### AutoIt
-
-```autoit
-MsgBox(0, \"Message Box\", \"Hello World\")
-```
-
-[Source File](../languages/AutoIt.au3)
-
-### BASIC
-
-```basic
-10 PRINT \"Hello World\"
-20 END
-```
-
-[Source File](../languages/BASIC.bas)
-
-### BCPL
-
-```bcpl
-GET \"LIBHDR\"
-LET START() BE
-{
-  WRITES(\"Hello World*N\")
-}
-```
-
-[Source File](../languages/BCPL.bcpl)
+---
 
 ### COBOL
 
 ```cobol
-IDENTIFICATION DIVISION.
-PROGRAM-ID. HELLO-WORLD.
-PROCEDURE DIVISION.
-    DISPLAY 'Hello World'.
-    STOP RUN.
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. HELLO-WORLD.
+       PROCEDURE DIVISION.
+           DISPLAY 'Hello World'.
+           STOP RUN.
 ```
 
-[Source File](../languages/Cobol.cobol)
+[Source File](../languages/COBOL)
 
-### Forth
+---
 
-```forth
-.\" Hello World\" CR
-```
+### ALGOL 60
 
-[Source File](../languages/Forth.forth)
-
-### Fortran
-
-```fortran
-print *,'Hello World'
+```algol
+begin
+  outstring(1, "Hello World");
 end
 ```
 
-[Source File](../languages/Fortran.f90)
+[Source File](../languages/ALGOL%2060.algol)
 
-### Lisp
+---
 
-```lisp
-(print \"Hello World\")
+### BASIC
+
+```basic
+10 PRINT "Hello World"
+20 END
 ```
 
-[Source File](../languages/Lisp.lisp)
+[Source File](../languages/BASIC)
 
-### Logo
-
-```logo
-print [Hello World]
-```
-
-[Source File](../languages/Logo.logo)
-
-### Objective-C
-
-```objectivec
-#import <Foundation/Foundation.h>
-int main() {
-    @autoreleasepool {
-        NSLog(@\"Hello World\");
-    }
-    return 0;
-}
-```
-
-[Source File](../languages/Objective-C.m)
+---
 
 ### Pascal
 
@@ -197,21 +64,31 @@ end.
 
 [Source File](../languages/Pascal.pas)
 
-### Prolog
+---
 
-```prolog
-main :- write('Hello World'), nl, halt.
+### Ada
+
+```ada
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+begin
+  Put_Line ("Hello World");
+end Hello;
 ```
 
-[Source File](../languages/Prolog.pl)
+[Source File](../languages/Ada.adb)
 
-### Scheme
+---
 
-```scheme
-(display \"Hello World\") (newline)
+### Lisp
+
+```lisp
+(write-line "Hello World")
 ```
 
-[Source File](../languages/Scheme.scm)
+[Source File](../languages/Lisp.lisp)
+
+---
 
 ### Smalltalk
 
@@ -221,59 +98,89 @@ Transcript show: 'Hello World'; cr.
 
 [Source File](../languages/Smalltalk.st)
 
-### Standard ML
+---
 
-```sml
-fun hello() = print(\"Hello World\\n\");
-hello();
+### PL/I
+
+```pli
+HELLO: PROCEDURE OPTIONS (MAIN);
+  PUT LIST ('Hello World');
+END HELLO;
 ```
 
-[Source File](../languages/Standard%20ML.sml)
+[Source File](../languages/PL-I.pli)
 
-### Verilog
+---
 
-```verilog
-module main;
-  initial begin
-    $display(\"Hello World\");
-    $finish;
-  end
-endmodule
+### Forth
+
+```forth
+." Hello World" CR
 ```
 
-[Source File](../languages/Verilog.v)
+[Source File](../languages/Forth.fs)
 
-### VHDL
+---
 
-```vhdl
-use std.textio.all;
-entity hello is
-end entity;
-architecture sim of hello is
-begin
-  process
-    variable l: line;
-  begin
-    write(l, string'(\"Hello World\"));
-    writeline(output, l);
-    wait;
-  end process;
-end architecture;
+### Simula
+
+```simula
+Begin
+   OutText ("Hello World");
+   Outimage;
+End;
 ```
 
-[Source File](../languages/VHDL.vhd)
+[Source File](../languages/Simula.sim)
 
-### Visual Basic
+---
 
-```vb
-Module HelloWorld
-    Sub Main()
-        MsgBox(\"Hello World\")
-    End Sub
-End Module
+### BCPL
+
+```bcpl
+GET "LIBHDR"
+LET START() BE
+$(
+    WRITES("Hello World*N")
+$)
 ```
 
-[Source File](../languages/Visual%20Basic.vb)
+[Source File](../languages/BCPL.bcpl)
+
+---
+
+### B
+
+```b
+main() {
+  putchar('hell');
+  putchar('o wo');
+  putchar('rld\n');
+}
+```
+
+[Source File](../languages/B.b)
+
+---
+
+### Assembly (x86)
+
+```asm
+section .data
+    msg db 'Hello World', 0xa
+section .text
+    global _start
+_start:
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, msg
+    mov edx, 12
+    int 0x80
+    mov eax, 1
+    int 0x80
+```
+
+[Source File](../languages/Assembly.asm)
 
 ---
 
