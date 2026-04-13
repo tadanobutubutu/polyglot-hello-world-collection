@@ -1,320 +1,270 @@
-# Legacy カテゴリー
+# Legacy Languages
 
-収録数: 44
+Historical and classic programming languages that shaped the industry. Consolidated for a seamless museum experience.
 
 ---
 
-## ALGOL 68
-```algol68
-begin
-  print(("Hello World",newline))
-end
-```
-[ソースファイル](../languages/ALGOL 68.algol68)
+### ABAP
 
-## ALGOL W
-```algol
-begin
-    write( "Hello World" )
-end.
+```abap
+REPORT ZHELLO_WORLD.
+START-OF-SELECTION.
+    WRITE: 'Hello World'.
 ```
-[ソースファイル](../languages/ALGOL W.algol)
 
-## Ada
-```adb
+[Source File](../languages/ABAP.abap)
+
+### ABC
+
+```abc
+WRITE "Hello World"
+```
+
+[Source File](../languages/ABC.abc)
+
+### ActionScript 3
+
+```actionscript
+package {
+import flash.display.Sprite
+import flash.text.TextField
+public class HelloFlash extends Sprite {
+    public function HelloFlash() {
+        var textField:TextField = new TextField()
+        textField.text = "Hello World"
+        addChild(textField)
+    }
+}
+}
+```
+
+[Source File](../languages/ActionScript%203.as)
+
+### Ada
+
+```ada
 with Ada.Text_IO;
-
 procedure Hello_World is
-   use Ada.Text_IO;
 begin
-   Put_line ("Hello World");
+   Ada.Text_IO.Put_Line ("Hello World");
 end Hello_World;
 ```
-[ソースファイル](../languages/Ada.adb)
 
-## Applesoft BASIC
-```
-10 PRINT "HELLO WORLD"
-```
-[ソースファイル](../languages/Applesoft BASIC)
+[Source File](../languages/Ada.adb)
 
-## AutoLISP
-```lsp
-(alert "Hello World")
-```
-[ソースファイル](../languages/AutoLISP.lsp)
+### Algol 60
 
-## BASIC
-```bas
+```algol
+BEGIN
+  FILE F(KIND=REMOTE);
+  WRITE(F, *, "HELLO WORLD");
+END.
+```
+
+[Source File](../languages/Algol%2060.algol60)
+
+### Algol 68
+
+```algol
+print(("Hello World", newline))
+```
+
+[Source File](../languages/Algol%2068.a68)
+
+### APL
+
+```apl
+⎕←'Hello World'
+```
+
+[Source File](../languages/APL.apl)
+
+### Assembly
+
+```asm
+section .data
+    msg db 'Hello World', 0xa
+section .text
+    global _start
+_start:
+    mov eax, 4
+    mov ebx, 1
+    mov ecx, msg
+    mov edx, 13
+    int 0x80
+    mov eax, 1
+    int 0x80
+```
+
+[Source File](../languages/Assembly.asm)
+
+### AutoIt
+
+```autoit
+MsgBox(0, "Message Box", "Hello World")
+```
+
+[Source File](../languages/AutoIt.au3)
+
+### BASIC
+
+```basic
 10 PRINT "Hello World"
 20 END
 ```
-[ソースファイル](../languages/BASIC.bas)
 
-## BASIC 256
-```kbs
-Print "Hello World"
-```
-[ソースファイル](../languages/BASIC 256.kbs)
+[Source File](../languages/BASIC.bas)
 
-## BBC BASIC
-```bbc
-PRINT "Hello World"
-```
-[ソースファイル](../languages/BBC BASIC.bbc)
+### BCPL
 
-## CLISP
-```lisp
-(write-line "Hello World")
+```bcpl
+GET "LIBHDR"
+LET START() BE
+{
+  WRITES("Hello World*N")
+}
 ```
-[ソースファイル](../languages/CLISP.lisp)
 
-## COBOL
-```cbl
-identification division.
-       program-id. cobol.
-       procedure division.
-       main.
-           display 'Hello World.' end-display.
-           stop run.
-```
-[ソースファイル](../languages/COBOL.cbl)
+[Source File](../languages/BCPL.bcpl)
 
-## Casio BASIC
-```
-"Hello World"
-```
-[ソースファイル](../languages/Casio BASIC)
+### COBOL
 
-## CobolScript
-```cbl
-DISPLAY `Content-type: text/html `.
-DISPLAY LINEFEED.
-DISPLAY `<HTML><BODY>`.
-DISPLAY `<CENTER>Hello World</CENTER>`.
-DISPLAY `</BODY></HTML>`.
-GOBACK.
+```cobol
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO-WORLD.
+PROCEDURE DIVISION.
+    DISPLAY 'Hello World'.
+    STOP RUN.
 ```
-[ソースファイル](../languages/CobolScript.cbl)
 
-## Common Lisp
-```lisp
-(print "Hello World")
+[Source File](../languages/Cobol.cobol)
+
+### Forth
+
+```forth
+." Hello World" CR
 ```
-[ソースファイル](../languages/Common Lisp.lisp)
 
-## EchoLisp
-```echolisp
-(display "Hello World" "color:blue")
-```
-[ソースファイル](../languages/EchoLisp.echolisp)
+[Source File](../languages/Forth.forth)
 
-## EmacsLisp
-```el
-(message "Hello World")
-```
-[ソースファイル](../languages/EmacsLisp.el)
+### Fortran
 
-## Fortran
-```f90
+```fortran
 print *,'Hello World'
 end
 ```
-[ソースファイル](../languages/Fortran.f90)
 
-## Fortran77
-```f77
-PROGRAM HELLOW
-      WRITE(UNIT=*, FMT=*) 'Hello World'
-      END
-```
-[ソースファイル](../languages/Fortran77.f77)
+[Source File](../languages/Fortran.f90)
 
-## G-BASIC
-```
-カケ Hello World
-```
-[ソースファイル](../languages/G-BASIC)
+### Lisp
 
-## GFA Basic
-```
-PRINT "Hello World"
-```
-[ソースファイル](../languages/GFA Basic)
-
-## ISLISP
 ```lisp
-(format (standard-output) "Hello World")
+(print "Hello World")
 ```
-[ソースファイル](../languages/ISLISP.lisp)
 
-## LibreOffice Basic
-```bas
-﻿REM  *****  BASIC  *****
+[Source File](../languages/Lisp.lisp)
 
-Sub Main
- msgbox "Hello World"
-End Sub
-```
-[ソースファイル](../languages/LibreOffice Basic.bas)
+### Logo
 
-## Lisp
-```lsp
-; LISP
-(DEFUN hello ()
-  (PRINT (LIST 'HELLO 'WORLD))
-)
-
-(hello)
-```
-[ソースファイル](../languages/Lisp.lsp)
-
-## Locomotive Basic
-```b
-10 print "Hello World"
-run
-```
-[ソースファイル](../languages/Locomotive Basic.b)
-
-## Logo
-```lg
+```logo
 print [Hello World]
 ```
-[ソースファイル](../languages/Logo.lg)
 
-## MacLisp
-```lisp
-(comment) ;-*- Lisp -*-
-(progn
-  (defun hello-world ()
-    (princ "Hello World")
-    (quit))
-  (close (prog1 infile (inpush -1)))
-  (sstatus feature noldmsg)
-  (gctwa)
-  (gc)
-  (sstatus flush t)
-  (suspend ":KILL " '(ts hello))
-  (hello-world))
+[Source File](../languages/Logo.logo)
+
+### Objective-C
+
+```objectivec
+#import <Foundation/Foundation.h>
+int main() {
+    @autoreleasepool {
+        NSLog(@"Hello World");
+    }
+    return 0;
+}
 ```
-[ソースファイル](../languages/MacLisp.lisp)
 
-## MemeAssembly
-```memeasm
-I like to have fun, fun, fun, fun, fun, fun, fun, fun, fun, fun main
-    what can I say except H
-    what can I say except e
-    what can I say except l
-    what can I say except l
-    what can I say except o
-    what can I say except \s
-    what can I say except W
-    what can I say except o
-    what can I say except r
-    what can I say except l
-    what can I say except d
-    what can I say except \n
+[Source File](../languages/Objective-C.m)
 
-    I see this as an absolute win
-```
-[ソースファイル](../languages/MemeAssembly.memeasm)
+### Pascal
 
-## NewLISP
-```lsp
-#!/usr/bin/newlisp
-(print "Hello World\n")
-(exit)
-```
-[ソースファイル](../languages/NewLISP.lsp)
-
-## Object Pascal
-```pp
-program ObjectPascalExample;
-
-type
-   THelloWorld = class
-      procedure Put;
-   end;
-
-procedure THelloWorld.Put;
+```pascal
+program HelloWorld;
 begin
-   Writeln('Hello World');
-end;
-
-var
-   HelloWorld: THelloWorld;
-
-begin
-   HelloWorld := THelloWorld.Create;
-   HelloWorld.Put;
-   HelloWorld.Free;
+  writeln('Hello World');
 end.
 ```
-[ソースファイル](../languages/Object Pascal.pp)
 
-## Pascal
-```p
-program HelloWorld(output);
+[Source File](../languages/Pascal.pas)
+
+### Prolog
+
+```prolog
+main :- write('Hello World'), nl, halt.
+```
+
+[Source File](../languages/Prolog.pl)
+
+### Scheme
+
+```scheme
+(display "Hello World") (newline)
+```
+
+[Source File](../languages/Scheme.scm)
+
+### Smalltalk
+
+```smalltalk
+Transcript show: 'Hello World'; cr.
+```
+
+[Source File](../languages/Smalltalk.st)
+
+### Standard ML
+
+```sml
+fun hello() = print("Hello World\n");
+hello();
+```
+
+[Source File](../languages/Standard%20ML.sml)
+
+### Verilog
+
+```verilog
+module main;
+  initial begin
+    $display("Hello World");
+    $finish;
+  end
+endmodule
+```
+
+[Source File](../languages/Verilog.v)
+
+### VHDL
+
+```vhdl
+use std.textio.all;
+entity hello is
+end entity;
+architecture sim of hello is
 begin
-        writeln('Hello World');
-end.
+  process
+    variable l: line;
+  begin
+    write(l, string'("Hello World"));
+    writeline(output, l);
+    wait;
+  end process;
+end architecture;
 ```
-[ソースファイル](../languages/Pascal.p)
 
-## PureBasic
-```pb
-If OpenConsole()
-  PrintN("Hello World")
-EndIf
-```
-[ソースファイル](../languages/PureBasic.pb)
+[Source File](../languages/VHDL.vhd)
 
-## QBasic
-```bas
-PRINT "Hello World"
-```
-[ソースファイル](../languages/QBasic.bas)
+### Visual Basic
 
-## RealBasic
-```realbasic
-Function Run(args() as String) As Integer
-  Print "Hello World"
-  Quit
-End Function
-```
-[ソースファイル](../languages/RealBasic.realbasic)
-
-## S Algol
-```
-write "Hello World"
-?
-```
-[ソースファイル](../languages/S Algol)
-
-## SmallTalk
-```sm
-Transcript show: 'Hello World'.
-```
-[ソースファイル](../languages/SmallTalk.sm)
-
-## SmallTalk GNU
-```st
-'Hello World' printNl !
-```
-[ソースファイル](../languages/SmallTalk GNU.st)
-
-## SmileBASIC
-```bas
-PRINT "Hello World"
-```
-[ソースファイル](../languages/SmileBASIC.bas)
-
-## TIBasic
-> [!NOTE]
-> この言語のプログラムはバイナリまたは専用形式のため、ソースファイル自体をご確認ください。
-[ソースファイル](../languages/TIBasic.ti)
-
-## Visual Basic
 ```vb
 Module HelloWorld
     Sub Main()
@@ -322,124 +272,9 @@ Module HelloWorld
     End Sub
 End Module
 ```
-[ソースファイル](../languages/Visual Basic.vb)
 
-## Visual Basic Script
-```vbs
-MsgBox "Hello World"
-```
-[ソースファイル](../languages/Visual Basic Script.vbs)
-
-## Visual Basic for Applications
-```vba
-Sub HelloWorld()
-    Call MsgBox("Hello World")
-End Sub
-```
-[ソースファイル](../languages/Visual Basic for Applications.vba)
-
-## WebAssembly
-```wat
-(module
-    (import "wasi_unstable" "fd_write"
-        (func $fd_write (param i32 i32 i32 i32) (result i32))
-    )
-
-    (memory 1)
-    (export "memory" (memory 0))
-
-    (data (i32.const 0) "\08\00\00\00\0c\00\00\00Hello World\n")
-
-    (func $main (export "_start")
-        i32.const 1
-        i32.const 0
-        i32.const 1
-        i32.const 20
-        call $fd_write
-        drop
-    )
-)
-```
-[ソースファイル](../languages/WebAssembly.wat)
-
-## XBasic
-```x
-IMPORT "xst"
-DECLARE FUNCTION  Hello ()
-
-FUNCTION  Hello ()
- XstDisplayConsole ()
- PRINT "Hello World"
-END FUNCTION
-END PROGRAM
-```
-[ソースファイル](../languages/XBasic.x)
-
-## XLisp
-```xlisp
-(DISPLAY "Hello World")
-(NEWLINE)
-```
-[ソースファイル](../languages/XLisp.xlisp)
-
-## Xlogo
-```lgo
-to HelloWorld
- resetall
- hideturtle
- fd 20 left 180
- fd 40 left 180
- fd 20 right 90
- fd 20 left 90
- fd 20 left 180
- fd 40 left 90
- fd 20 left 90
- fd 20 right 90
- fd 20 right 90
- fd 10 right 90
- fd 20 left 90
- fd 10 left 90
- fd 30 left 90
- fd 40 left 180
- fd 40 left 90
- fd 20 left 90
- fd 40 left 180
- fd 40 left 90
- fd 40 left 90
- fd 20 left 90
- fd 20 left 90
- fd 20 left 90
- fd 60 left 90
- fd 40 left 180
- fd 40 left 90
- fd 20 left 90
- fd 20 left 180
- fd 20 left 90
- fd 20 left 90
- fd 40 left 180
- fd 40 left 90
- fd 40 left 90
- fd 20 left 90
- fd 20 left 90
- fd 20 left 90
- fd 40 left 90
- fd 20 right 90
- fd 20 right 90
- fd 5  left 90  
- fd 5  left 90  
- fd 25 left 180
- fd 40 left 90
- fd 40 left 90
- fd 20 left 90
- fd 20 left 90
- fd 20 left 90
- fd 20 left 90
- fd 40 left 180
- fd 40
-end
-```
-[ソースファイル](../languages/Xlogo.lgo)
+[Source File](../languages/Visual%20Basic.vb)
 
 ---
-### 🚀 次のリストへ進む
-**[Esoteric カテゴリー はこちら](esoteric.md)**
+
+[Back to README](../README.md)
