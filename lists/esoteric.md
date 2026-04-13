@@ -1,94 +1,81 @@
-# Esoteric Category (Esoteric Languages)
+# Esoteric Languages
 
-Num Languages: 111
+Weird, wonderful, and mind-bending programming languages. Consolidated for a seamless museum experience.
+
+---
+
+### Brainfuck
+
+```brainfuck
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+```
+
+[Source File](../languages/Brainfuck.bf)
+
+### Chef
+
+```chef
+Hello World Sauce.
+
+Ingredients.
+72 g ice cream
+101 g chocolate
+108 g sugar
+108 g butter
+111 g milk
+44 g flakes
+32 g honey
+87 g vanilla
+111 g cocoa
+114 g carmel
+108 g walnuts
+100 g eggs
+33 g sprinkles
+
+Method.
+Put sprinkles into the mixing bowl.
+Put eggs into the mixing bowl.
+Put walnuts into the mixing bowl.
+Put carmel into the mixing bowl.
+Put cocoa into the mixing bowl.
+Put vanilla into the mixing bowl.
+Put honey into the mixing bowl.
+Put flakes into the mixing bowl.
+Put milk into the mixing bowl.
+Put butter into the mixing bowl.
+Put sugar into the mixing bowl.
+Put chocolate into the mixing bowl.
+Put ice cream into the mixing bowl.
+Liquefy contents of the mixing bowl.
+Pour contents of the mixing bowl into the baking dish.
+
+Serves 1.
+```
+
+[Source File](../languages/Chef.chef)
+
+### LOLCODE
+
+```lolcode
+HAI
+CAN HAS STDIO?
+VISIBLE "Hello World"
+KTHXBYE
+```
+
+[Source File](../languages/LOLCODE.lol)
+
+### Whitespace
+
+```whitespace
+[Space][Space][Space][Tab][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space]
+[Space][Space][Space][Tab][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space]
+[Space][Space][Space][Tab][Space][Space][Space][Space][Space][Space][Space][Space][Space][Space]
+(Visualization of spaces, tabs, and newlines)
+```
+
+[Source File](../languages/Whitespace.ws)
 
 ---
 
-## !@#$%^&*()_+
-```
-dlroW olleH(@)
-```
-[Source File](../languages/!@#$%^&\u2217()_+)
-
-## ()˸;#？!
-```
-:H:e:l:l:o: :W:o:r:l:d!
-```
-[Source File](../languages/()\u02f8;#\uff1f!)
-
-## 0(nop^)
-```
-1$(Hello World
-")`
-```
-[Source File](../languages/0(nop^))
-
-## 0587
-```
-04(Hello World)
-```
-[Source File](../languages/0587)
-
-## 0815.0815
-```
-<:48:x<:65:=<:6C:$=$=$$~<:03:+\n$~<:ffffffffffffffb1:+$<:77:~$\n~<:fffffffffffff8:x+$~<:03:+$~\n<:06:x-$x<:0e:x-$=x<:43:x-$\n
-```
-[Source File](../languages/0815.0815)
-
-## 1+
-```
-11+\"\"\"1+\"****\"; [H]\n111++\"\"**1+(D|/\"\\\"/^\\)1++; [e]\n(D)11+\"\"**++\"\";; [ll]\n111+++\"; [o]\n\"11+\"*+; [ ]\n\"111++\"/*\\+; [W]\n\\\"; [o]\n111+++; [r]\n(D)11+\"\"**++; [l]\n+; [d]\n111++\"*1+; [\\n]\n
-```
-[Source File](../languages/1+)
-
-## 123
-```
-2221222212121121121121121121121122221222212121121121121121121\n222222111211211121121211222222211121121112112\n2222221112111121121122222221112111121\n2222221112111121121122222221112111121\n2222221112111112121122222221112111112\n222221111112222211111122222211111122222111112\n2222221121112111112222222112111211112\n2222221112111112121122222221112111112\n2222221111211211121122222221111211211\n2222221112111121121122222221112111121\n22222211121121112112112222222111211211121\n
-```
-[Source File](../languages/123)
-
-## 256.256
-```
-Hello World
-```
-[Source File](../languages/256.256)
-
-## 2B.2b
-```
-+0+0+0+0+0+0+0+2)+0+0+9)+7))+3)-0-0-0-0-0-0-0-9)+0+0+0+0+0+0+0+0+7)-8)+3)-6)-8)-7-0-0-0-0-0-0)\n
-```
-[Source File](../languages/2B.2b)
-
-## 420.420
-```
-420\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it\nblaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it\n\nblaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it\n\nblaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it\nblaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it\n\nblaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it\n\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it\n\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it\nblaze it blaze it blaze it blaze it blaze it blaze it\n
-```
-[Source File](../languages/420.420)
-
-## 6969 Assembler
-```
-MOV C*::Hello World\n
-```
-[Source File](../languages/6969 Assembler)
-
-## @tention!
-```
-A@=;AH'<;Ae'<;Al'<;Al'<;Ao'<;A '<;AW'<;Ao'<;Ar'<;Al'<;Ad'<;A!{A$>};\n
-```
-[Source File](../languages/@tention!)
-
-## @text
-```
-@@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@?@@@@@@@@@@@@@@@@@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@\n
-```
-[Source File](../languages/@text)
-
-## ACIDIC.acidic
-```
-Hello World\nwP\n
-```
-[Source File](../languages/ACIDIC.acidic)
-
----
-### 🚀 Next Page
-**[Japanese Category is here](japanese.md)**
+[Back to README](../README.md)
