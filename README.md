@@ -1,6 +1,6 @@
 # Polyglot Hello World Collection
 
-A curated museum of 2,005 'Hello World' programs. Every entry includes the original source code and a link to its dedicated file.
+A curated museum of 1,043 'Hello World' programs. Every entry includes the original source code and a link to its dedicated file.
 
 ## Category Exploration
 
@@ -11,7 +11,7 @@ Step into our specialized halls to explore the vast history of programming.
 3. [Legacy Languages](lists/legacy.md) — The foundations of the digital age.
 4. [Esoteric Languages](lists/esoteric.md) — Artistic and mind-bending experiments.
 5. [Research Languages](lists/research.md) — Theoretical and academic paradigms.
-6. **Minor Languages** — 1,323 niche and specialized languages:
+6. **Minor Languages** — 967 niche and specialized languages:
    - [Hall A-I](lists/minor_a-i.md) | [Hall J-R](lists/minor_j-r.md) | [Hall S-Z](lists/minor_s-z.md)
 
 ---

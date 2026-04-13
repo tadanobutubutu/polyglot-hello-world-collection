@@ -1,42 +1,53 @@
 # Modern Languages
 
-State-of-the-art programming languages with standard hello-world implementations. Consolidated for a seamless museum experience.
+The latest and greatest in the programming world. High-performance, memory-safe, and productive.
 
 ---
 
-### Bun
-
-```javascript
-console.log("Hello World");
-```
-
-[Source File](../languages/Bun.js)
-
 ### Carbon
 
-```carbon
-package HelloWorld api
+```cpp
+package Sample api;
 fn Main() -> i32 {
-  Print("Hello World")
-  return 0
+    Print(\"Hello World\");
+    return 0;
 }
 ```
 
 [Source File](../languages/Carbon.carbon)
 
+### Clojure
+
+```clojure
+(println \"Hello World\")
+```
+
+[Source File](../languages/Clojure.clj)
+
 ### Crystal
 
 ```crystal
-puts "Hello World"
+puts \"Hello World\"
 ```
 
 [Source File](../languages/Crystal.cr)
 
+### D
+
+```d
+import std.stdio;
+void main() {
+    writeln(\"Hello World\");
+}
+```
+
+[Source File](../languages/D.d)
+
 ### Dart
 
 ```dart
-main() {
-  print('Hello World')
+void main() {
+  print('Hello World');
 }
 ```
 
@@ -45,7 +56,7 @@ main() {
 ### Elixir
 
 ```elixir
-IO.puts "Hello World"
+IO.puts \"Hello World\"
 ```
 
 [Source File](../languages/Elixir.ex)
@@ -54,126 +65,141 @@ IO.puts "Hello World"
 
 ```elm
 import Html exposing (text)
-main =
-  text "Hello World"
+main = text \"Hello World\"
 ```
 
 [Source File](../languages/Elm.elm)
 
+### Erlang
+
+```erlang
+-module(hello).
+-export([hello_world/0]).
+hello_world() -> io:format(\"Hello World~n\").
+```
+
+[Source File](../languages/Erlang.erl)
+
 ### F#
 
 ```fsharp
-printfn "Hello World"
+printfn \"Hello World\"
 ```
 
-[Source File](../languages/FSharp.fs)
+[Source File](../languages/F#.fs)
 
 ### Gleam
 
 ```gleam
 import gleam/io
 pub fn main() {
-  io.println("Hello World")
+  io.println(\"Hello World\")
 }
 ```
 
 [Source File](../languages/Gleam.gleam)
 
-### Go
+### Groovy
 
-```go
-package main
-import "fmt"
-func main() {
-  fmt.Println("Hello World")
+```groovy
+println \"Hello World\"
+```
+
+[Source File](../languages/Groovy.groovy)
+
+### Hack
+
+```hack
+<?hh
+<<__EntryPoint>>
+function main(): void {
+  echo \"Hello World\\n\";
 }
 ```
 
-[Source File](../languages/Go.go)
+[Source File](../languages/Hack.hh)
+
+### Haskell
+
+```haskell
+main = putStrLn \"Hello World\"
+```
+
+[Source File](../languages/Haskell.hs)
 
 ### Haxe
 
 ```haxe
-class HelloWorld {
+class Main {
     static function main() {
-        trace("Hello World")
+        trace(\"Hello World\");
     }
 }
 ```
 
 [Source File](../languages/Haxe.hx)
 
-### Idris
+### Julia
 
-```idris
-module Main
-main : IO ()
-main = putStrLn "Hello World"
+```julia
+println(\"Hello World\")
 ```
 
-[Source File](../languages/Idris.idr)
+[Source File](../languages/Julia.jl)
 
-### Kotlin
+### Lua
 
-```kotlin
-fun main() {
-  println("Hello World")
-}
+```lua
+print(\"Hello World\")
 ```
 
-[Source File](../languages/Kotlin.kt)
-
-### Mojo
-
-```python
-fn main():
-    print("Hello World")
-```
-
-[Source File](../languages/Mojo.mojo)
+[Source File](../languages/Lua.lua)
 
 ### Nim
 
 ```nim
-echo("Hello World")
+echo \"Hello World\"
 ```
 
 [Source File](../languages/Nim.nim)
 
-### Odin
-
-```odin
-package main
-import "core:fmt"
-main :: proc() {
-  fmt.println("Hello World")
-}
-```
-
-[Source File](../languages/Odin.odin)
-
-### PureScript
-
-```haskell
-module Main where
-import Debug.Trace
-main = trace "Hello World"
-```
-
-[Source File](../languages/PureScript.purs)
-
-### Reason
+### OCaml
 
 ```ocaml
-print_string "Hello World"
+print_endline \"Hello World\"
 ```
 
-[Source File](../languages/Reason.re)
+[Source File](../languages/OCaml.ml)
+
+### Perl
+
+```perl
+print \"Hello World\\n\";
+```
+
+[Source File](../languages/Perl.pl)
+
+### R
+
+```r
+cat(\"Hello World\\n\")
+```
+
+[Source File](../languages/R.R)
+
+### Racket
+
+```racket
+#lang racket
+(displayln \"Hello World\")
+```
+
+[Source File](../languages/Racket.rkt)
 
 ### ReScript
 
 ```rescript
-Js.log("Hello World")
+Js.log(\"Hello World\")
 ```
 
 [Source File](../languages/ReScript.res)
@@ -182,7 +208,7 @@ Js.log("Hello World")
 
 ```rust
 fn main() {
-    println!("Hello World")
+    println!(\"Hello World\")
 }
 ```
 
@@ -204,7 +230,7 @@ contract HelloWorld {
 ### Swift
 
 ```swift
-print("Hello World")
+print(\"Hello World\")
 ```
 
 [Source File](../languages/Swift.swift)
@@ -212,7 +238,7 @@ print("Hello World")
 ### Tcl
 
 ```tcl
-puts "Hello World"
+puts \"Hello World\"
 ```
 
 [Source File](../languages/Tcl.tcl)
@@ -220,7 +246,7 @@ puts "Hello World"
 ### TypeScript
 
 ```typescript
-console.log("Hello World")
+console.log(\"Hello World\")
 ```
 
 [Source File](../languages/TypeScript.ts)
@@ -228,7 +254,7 @@ console.log("Hello World")
 ### V
 
 ```v
-println("Hello World")
+println(\"Hello World\")
 ```
 
 [Source File](../languages/V.v)
@@ -238,7 +264,7 @@ println("Hello World")
 ```vala
 static void main (string[] args)
 {
-	stdout.printf ("Hello World\n")
+	stdout.printf (\"Hello World\\n\")
 }
 ```
 
@@ -248,13 +274,13 @@ static void main (string[] args)
 
 ```wat
 (module
-    (import "wasi_unstable" "fd_write"
+    (import \"wasi_unstable\" \"fd_write\"
         (func $fd_write (param i32 i32 i32 i32) (result i32))
     )
     (memory 1)
-    (export "memory" (memory 0))
-    (data (i32.const 0) "\08\00\00\00\0c\00\00\00Hello World\n")
-    (func $main (export "_start")
+    (export \"memory\" (memory 0))
+    (data (i32.const 0) \"\\08\\00\\00\\00\\0c\\00\\00\\00Hello World\\n\")
+    (func $main (export \"_start\")
         i32.const 1
         i32.const 0
         i32.const 1
@@ -270,7 +296,7 @@ static void main (string[] args)
 ### Wren
 
 ```wren
-IO.print("Hello World")
+IO.print(\"Hello World\")
 ```
 
 [Source File](../languages/Wren.wren)
@@ -278,10 +304,10 @@ IO.print("Hello World")
 ### Zig
 
 ```zig
-const std = @import("std")
+const std = @import(\"std\")
 pub fn main() !void {
     const stdout = std.io.getStdOut().writer()
-    try stdout.print("Hello World", .{})
+    try stdout.print(\"Hello World\", .{})
 }
 ```
 

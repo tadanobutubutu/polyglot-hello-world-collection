@@ -17,7 +17,7 @@ START-OF-SELECTION.
 ### ABC
 
 ```abc
-WRITE "Hello World"
+WRITE \"Hello World\"
 ```
 
 [Source File](../languages/ABC.abc)
@@ -31,7 +31,7 @@ import flash.text.TextField
 public class HelloFlash extends Sprite {
     public function HelloFlash() {
         var textField:TextField = new TextField()
-        textField.text = "Hello World"
+        textField.text = \"Hello World\"
         addChild(textField)
     }
 }
@@ -46,7 +46,7 @@ public class HelloFlash extends Sprite {
 with Ada.Text_IO;
 procedure Hello_World is
 begin
-   Ada.Text_IO.Put_Line ("Hello World");
+   Ada.Text_IO.Put_Line (\"Hello World\");
 end Hello_World;
 ```
 
@@ -57,7 +57,7 @@ end Hello_World;
 ```algol
 BEGIN
   FILE F(KIND=REMOTE);
-  WRITE(F, *, "HELLO WORLD");
+  WRITE(F, *, \"HELLO WORLD\");
 END.
 ```
 
@@ -66,7 +66,7 @@ END.
 ### Algol 68
 
 ```algol
-print(("Hello World", newline))
+print((\"Hello World\", newline))
 ```
 
 [Source File](../languages/Algol%2068.a68)
@@ -101,7 +101,7 @@ _start:
 ### AutoIt
 
 ```autoit
-MsgBox(0, "Message Box", "Hello World")
+MsgBox(0, \"Message Box\", \"Hello World\")
 ```
 
 [Source File](../languages/AutoIt.au3)
@@ -109,7 +109,7 @@ MsgBox(0, "Message Box", "Hello World")
 ### BASIC
 
 ```basic
-10 PRINT "Hello World"
+10 PRINT \"Hello World\"
 20 END
 ```
 
@@ -118,10 +118,10 @@ MsgBox(0, "Message Box", "Hello World")
 ### BCPL
 
 ```bcpl
-GET "LIBHDR"
+GET \"LIBHDR\"
 LET START() BE
 {
-  WRITES("Hello World*N")
+  WRITES(\"Hello World*N\")
 }
 ```
 
@@ -142,7 +142,7 @@ PROCEDURE DIVISION.
 ### Forth
 
 ```forth
-." Hello World" CR
+.\" Hello World\" CR
 ```
 
 [Source File](../languages/Forth.forth)
@@ -159,7 +159,7 @@ end
 ### Lisp
 
 ```lisp
-(print "Hello World")
+(print \"Hello World\")
 ```
 
 [Source File](../languages/Lisp.lisp)
@@ -178,7 +178,7 @@ print [Hello World]
 #import <Foundation/Foundation.h>
 int main() {
     @autoreleasepool {
-        NSLog(@"Hello World");
+        NSLog(@\"Hello World\");
     }
     return 0;
 }
@@ -208,7 +208,7 @@ main :- write('Hello World'), nl, halt.
 ### Scheme
 
 ```scheme
-(display "Hello World") (newline)
+(display \"Hello World\") (newline)
 ```
 
 [Source File](../languages/Scheme.scm)
@@ -224,7 +224,7 @@ Transcript show: 'Hello World'; cr.
 ### Standard ML
 
 ```sml
-fun hello() = print("Hello World\n");
+fun hello() = print(\"Hello World\\n\");
 hello();
 ```
 
@@ -235,7 +235,7 @@ hello();
 ```verilog
 module main;
   initial begin
-    $display("Hello World");
+    $display(\"Hello World\");
     $finish;
   end
 endmodule
@@ -254,7 +254,7 @@ begin
   process
     variable l: line;
   begin
-    write(l, string'("Hello World"));
+    write(l, string'(\"Hello World\"));
     writeline(output, l);
     wait;
   end process;
@@ -268,7 +268,7 @@ end architecture;
 ```vb
 Module HelloWorld
     Sub Main()
-        MsgBox("Hello World")
+        MsgBox(\"Hello World\")
     End Sub
 End Module
 ```

@@ -9,7 +9,7 @@ Academic and experimental paradigms showcasing the future of computation.
 ```agda
 module agda where
 open import IO
-main = run (putStrLn "Hello World")
+main = run (putStrLn \"Hello World\")
 ```
 
 [Source File](../languages/Agda.agda)
@@ -20,7 +20,7 @@ main = run (putStrLn "Hello World")
 Require Import Io.System.All.
 Import ListNotations.
 Definition hello_world : C.t System.effect unit :=
-  System.log (LString.s "Hello World").
+  System.log (LString.s \"Hello World\").
 ```
 
 [Source File](../languages/Coq.v)
@@ -36,7 +36,7 @@ Definition hello_world : C.t System.effect unit :=
 ### K
 
 ```k
-"Hello World\n"
+\"Hello World\\n\"
 ```
 
 [Source File](../languages/K.k)
