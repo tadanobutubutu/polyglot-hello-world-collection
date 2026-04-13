@@ -1,152 +1,45 @@
-# Modern Languages Exhibition Hall
+# Modern Languages
 
-Standard and widely-used languages powering today's technology.
-
----
-
-### Python
-
-```python
-print("Hello World")
-```
-
-[Source File](../languages/Python.py)
+High-performance, memory-safe, and contemporary programming languages. Consolidated for a seamless museum experience.
 
 ---
 
-### Rust
-
-```rust
-fn main() {
-    println!("Hello World");
-}
-```
-
-[Source File](../languages/Rust.rs)
-
----
-
-### Go
-
-```go
-package main
-import "fmt"
-
-func main() {
-    fmt.Println("Hello World")
-}
-```
-
-[Source File](../languages/Go.go)
-
----
-
-### TypeScript
-
-```typescript
-console.log("Hello World");
-```
-
-[Source File](../languages/TypeScript.ts)
-
----
-
-### Swift
-
-```swift
-print("Hello World")
-```
-
-[Source File](../languages/Swift.swift)
-
----
-
-### Kotlin
-
-```kotlin
-fun main() {
-    println("Hello World")
-}
-```
-
-[Source File](../languages/Kotlin.kt)
-
----
-
-### Java
-
-```java
-public class HelloWorld {
-    public static void main(String[] args) {
-        System.out.println("Hello World");
-    }
-}
-```
-
-[Source File](../languages/Java.java)
-
----
-
-### C++
+### Carbon
 
 ```cpp
-#include <iostream>
+package Sample api;
 
-int main() {
-    std::cout << "Hello World" << std::endl;
+fn Main() -> i32 {
+    Print("Hello World");
     return 0;
 }
 ```
 
-[Source File](../languages/C++.cpp)
+[Source File](../languages/Carbon.carbon)
 
 ---
 
-### JavaScript
+### Crystal
 
-```javascript
-console.log("Hello World");
-```
-
-[Source File](../languages/JavaScript.js)
-
----
-
-### C#
-
-```csharp
-using System;
-
-class Program {
-    static void main() {
-        Console.WriteLine("Hello World");
-    }
-}
-```
-
-[Source File](../languages/C%23.cs)
-
----
-
-### PHP
-
-```php
-<?php
-echo "Hello World";
-?>
-```
-
-[Source File](../languages/PHP.php)
-
----
-
-### Ruby
-
-```ruby
+```crystal
 puts "Hello World"
 ```
 
-[Source File](../languages/Ruby.rb)
+[Source File](../languages/Crystal.cr)
+
+---
+
+### D
+
+```d
+import std.stdio;
+
+void main() {
+    writeln("Hello World");
+}
+```
+
+[Source File](../languages/D.d)
 
 ---
 
@@ -162,17 +55,46 @@ void main() {
 
 ---
 
-### Zig
+### Elixir
 
-```zig
-const std = @import("std");
-
-pub fn main() !void {
-    std.debug.print("Hello World\n", .{});
-}
+```elixir
+IO.puts "Hello World"
 ```
 
-[Source File](../languages/Zig.zig)
+[Source File](../languages/Elixir.ex)
+
+---
+
+### Elm
+
+```elm
+import Html exposing (text)
+
+main =
+  text "Hello World"
+```
+
+[Source File](../languages/Elm.elm)
+
+---
+
+### F#
+
+```fsharp
+printfn "Hello World"
+```
+
+[Source File](../languages/F#.fs)
+
+---
+
+### Grain
+
+```grain
+print("Hello World")
+```
+
+[Source File](../languages/Grain.gr)
 
 ---
 
@@ -184,6 +106,114 @@ fn main():
 ```
 
 [Source File](../languages/Mojo.mojo)
+
+---
+
+### Nim
+
+```nim
+echo "Hello World"
+```
+
+[Source File](../languages/Nim.nim)
+
+---
+
+### Pony
+
+```pony
+actor Main
+  new create(env: Env) =>
+    env.out.print("Hello World")
+```
+
+[Source File](../languages/Pony.pony)
+
+---
+
+### Swift
+
+```swift
+print("Hello World")
+```
+
+[Source File](../languages/Swift.swift)
+
+---
+
+### V
+
+```v
+fn main() {
+    println('Hello World')
+}
+```
+
+[Source File](../languages/V.v)
+
+---
+
+### Vala
+
+```vala
+void main() {
+    print("Hello World\n");
+}
+```
+
+[Source File](../languages/Vala.vala)
+
+---
+
+### WebAssembly
+
+```wat
+(module
+    (import "wasi_unstable" "fd_write"
+        (func $fd_write (param i32 i32 i32 i32) (result i32))
+    )
+
+    (memory 1)
+    (export "memory" (memory 0))
+
+    (data (i32.const 0) "\08\00\00\00\0c\00\00\00Hello World\n")
+
+    (func $main (export "_start")
+        i32.const 1
+        i32.const 0
+        i32.const 1
+        i32.const 20
+        call $fd_write
+        drop
+    )
+)
+```
+
+[Source File](../languages/WebAssembly.wat)
+
+---
+
+### Wren
+
+```wren
+IO.print("Hello World")
+```
+
+[Source File](../languages/Wren.wren)
+
+---
+
+### Zig
+
+```zig
+const std = @import("std");
+
+pub fn main() !void {
+    std.debug.print("Hello World\n", .{});
+}
+```
+
+[Source File](../languages/Zig.zig)
 
 ---
 

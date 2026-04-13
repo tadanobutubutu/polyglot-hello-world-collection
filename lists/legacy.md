@@ -1,169 +1,112 @@
-# Legacy Languages Exhibition Hall
+# Legacy Languages
 
-The titans of the past that laid the foundation for modern computing.
-
----
-
-### FORTRAN
-
-```fortran
-      PROGRAM HELLO
-      PRINT *, 'Hello World'
-      END
-```
-
-[Source File](../languages/FORTRAN)
+Historical and classic programming languages that shaped the industry. Consolidated for a seamless museum experience.
 
 ---
 
-### COBOL
+### ABAP
 
-```cobol
-       IDENTIFICATION DIVISION.
-       PROGRAM-ID. HELLO-WORLD.
-       PROCEDURE DIVISION.
-           DISPLAY 'Hello World'.
-           STOP RUN.
+```
+REPORT ZHELLO_WORLD.
+
+START-OF-SELECTION.
+    WRITE: 'Hello World'.
 ```
 
-[Source File](../languages/COBOL)
+[Source File](../languages/A/ABAP.abap)
 
 ---
 
-### ALGOL 60
+### ABC
 
-```algol
-begin
-  outstring(1, "Hello World");
-end
+```
+WRITE "Hello World"
 ```
 
-[Source File](../languages/ALGOL%2060.algol)
+[Source File](../languages/A/ABC.abc)
 
 ---
 
-### BASIC
+### APL
 
-```basic
-10 PRINT "Hello World"
-20 END
+```
+⎕←'Hello World'
 ```
 
-[Source File](../languages/BASIC)
+[Source File](../languages/A/APL.apl)
 
 ---
 
-### Pascal
+### ActionScript 3
 
-```pascal
-program HelloWorld;
-begin
-  writeln('Hello World');
-end.
+```
+package {
+
+import flash.display.Sprite;
+import flash.text.TextField;
+import flash.text.TextFieldAutoSize;
+import flash.text.TextFormat;
+
+[SWF(width='800', height='600', backgroundColor='#cccccc', frameRate='30')]
+
+	public class HelloFlash extends Sprite
+	{
+		public function HelloFlash()
+		{
+			var format:TextFormat = new TextFormat();
+			format.font = "Arial";
+			format.size = 20;
+			format.color = 0x0000;
+
+			var textField:TextField = new TextField();
+			textField.defaultTextFormat = format;
+
+			textField.border = false;
+			textField.autoSize = TextFieldAutoSize.LEFT;
+			textField.selectable = false;
+
+			textField.text = "Hello World";
+			addChild(textField);
+
+
+		}
+	}
+}
 ```
 
-[Source File](../languages/Pascal.pas)
+[Source File](../languages/A/ActionScript%203.as)
 
 ---
 
 ### Ada
 
 ```ada
-with Ada.Text_IO; use Ada.Text_IO;
-procedure Hello is
+with Ada.Text_IO;
+
+procedure Hello_World is
+   use Ada.Text_IO;
 begin
-  Put_Line ("Hello World");
-end Hello;
+   Put_line ("Hello World");
+end Hello_World;
 ```
 
-[Source File](../languages/Ada.adb)
+[Source File](../languages/A/Ada.adb)
 
 ---
 
-### Lisp
+### Algol 60
 
-```lisp
-(write-line "Hello World")
+```
+BEGIN
+  DISPLAY "Hello World"
+END.
 ```
 
-[Source File](../languages/Lisp.lisp)
+[Source File](../languages/Algol%2060.algol60)
 
 ---
 
-### Smalltalk
-
-```smalltalk
-Transcript show: 'Hello World'; cr.
-```
-
-[Source File](../languages/Smalltalk.st)
-
----
-
-### PL/I
-
-```pli
-HELLO: PROCEDURE OPTIONS (MAIN);
-  PUT LIST ('Hello World');
-END HELLO;
-```
-
-[Source File](../languages/PL-I.pli)
-
----
-
-### Forth
-
-```forth
-." Hello World" CR
-```
-
-[Source File](../languages/Forth.fs)
-
----
-
-### Simula
-
-```simula
-Begin
-   OutText ("Hello World");
-   Outimage;
-End;
-```
-
-[Source File](../languages/Simula.sim)
-
----
-
-### BCPL
-
-```bcpl
-GET "LIBHDR"
-LET START() BE
-$(
-    WRITES("Hello World*N")
-$)
-```
-
-[Source File](../languages/BCPL.bcpl)
-
----
-
-### B
-
-```b
-main() {
-  putchar('hell');
-  putchar('o wo');
-  putchar('rld\n');
-}
-```
-
-[Source File](../languages/B.b)
-
----
-
-### Assembly (x86)
+### Assembly
 
 ```asm
 section .data
@@ -181,6 +124,170 @@ _start:
 ```
 
 [Source File](../languages/Assembly.asm)
+
+---
+
+### AutoIt
+
+```
+Print, Hello World
+```
+
+[Source File](../languages/AutoIt.au3)
+
+---
+
+### BCPL
+
+```
+main() {
+  BCPL.writef("Hello World\n");
+}
+```
+
+[Source File](../languages/BCPL.bcpl)
+
+---
+
+### Forth
+
+```
+.( Hello World)
+```
+
+[Source File](../languages/Forth.fth)
+
+---
+
+### Fortran
+
+```fortran
+print *,'Hello World'
+end
+```
+
+[Source File](../languages/Fortran.f90)
+
+---
+
+### Lisp
+
+```
+(format t "Hello World~%")
+```
+
+[Source File](../languages/Lisp.lisp)
+
+---
+
+### Pascal
+
+```
+program HelloWorld(output);
+begin
+        writeln('Hello World');
+end.
+```
+
+[Source File](../languages/Pascal.p)
+
+---
+
+### Prolog
+
+```
+helloWorld :-
+  write('Hello World').
+
+:- helloWorld.
+```
+
+[Source File](../languages/Prolog.pro)
+
+---
+
+### Scheme
+
+```scheme
+(display "Hello World")
+(newline)
+```
+
+[Source File](../languages/Scheme.scm)
+
+---
+
+### Smalltalk
+
+```
+Transcript show: 'Hello World'.
+```
+
+[Source File](../languages/SmallTalk.sm)
+
+---
+
+### Standard ML
+
+```
+fun hello() = print("Hello World\n");
+
+hello()
+```
+
+[Source File](../languages/Standard%20ML.sml)
+
+---
+
+### VHDL
+
+```
+use std.textio.all;
+
+entity hello_world is
+end hello_world;
+
+architecture behaviour of hello_world is
+begin
+	process
+    begin
+       write (output, String'("Hello World"));
+       wait;
+    end process;
+end behaviour;
+```
+
+[Source File](../languages/VHDL.vhdl)
+
+---
+
+### Verilog
+
+```coq
+module main;
+  initial
+    begin
+      $display("Hello World");
+      $finish;
+    end
+endmodule
+```
+
+[Source File](../languages/Verilog.v)
+
+---
+
+### Visual Basic
+
+```
+Module HelloWorld
+    Sub Main()
+        MsgBox("Hello World")
+    End Sub
+End Module
+```
+
+[Source File](../languages/Visual%20Basic.vb)
 
 ---
 
