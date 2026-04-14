@@ -1,0 +1,1 @@
+global _start : greet s" Hello world!\n" print ; : _start greet bye ;
