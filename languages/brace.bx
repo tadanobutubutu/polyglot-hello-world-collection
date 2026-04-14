@@ -1,0 +1,1 @@
+#!/usr/bin/env bx use b Main: say("Hello world!")

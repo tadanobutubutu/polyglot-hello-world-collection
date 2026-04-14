@@ -1,0 +1,1 @@
+report "Hello world!";

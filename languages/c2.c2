@@ -1,0 +1,1 @@
+module hello_world; import stdio as io; func i32 main() { io.printf("Hello World!\n"); return 0; }
