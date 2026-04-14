@@ -1,0 +1,2 @@
+import "std"
+print("Hello World")

@@ -1,0 +1,1 @@
+write_line("Hello World").
