@@ -1,1 +1,1 @@
-(display \"Hello World\\n\")\n
+printf("Hello World\n");

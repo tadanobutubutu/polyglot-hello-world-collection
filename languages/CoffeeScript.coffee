@@ -1,1 +1,1 @@
-(display \"Hello World\\n\")\n
+console.log "Hello World"
