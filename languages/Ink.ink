@@ -1,1 +1,1 @@
-The Greeting is a room.  When play begins, say \"Hello World\".\n
+print "Hello World"
