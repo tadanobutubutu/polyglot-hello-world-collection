@@ -1,1 +1,1 @@
-let $hello := \"Hello World\"\nreturn $hello\n
+print "Hello World"
