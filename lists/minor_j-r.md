@@ -1,6 +1,6 @@
-# Minor Languages - Hall J-R
+# All Languages - Hall J-R
 
-Exploring the vast diversity of niche and specialized programming paradigms from J through R.
+Exploring the vast diversity of programming paradigms from J through R.
 
 ---
 
@@ -195,7 +195,7 @@ public class HelloWorld extends Application {
 ### Jelly
 
 ```
-“Ḣẹḷḷọ Ẉọṛḷḍ”
+"Ḣẹḷḷọ Ẉọṛḷḍ"
 ```
 
 [Source File](../languages/Jelly.jelly)
@@ -806,7 +806,7 @@ print "Hello World";
 ```
 default {
     state_entry() {
-        llSay(0, "Hello World");
+        llSay(PUBLIC_CHANNEL, "Hello World");
     }
 }
 ```
@@ -825,102 +825,11 @@ print("Hello World")
 
 ---
 
-### Lucent
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Lucent.lucent)
-
----
-
-### Lucee
-
-```
-<cfset message = "Hello World">
-<cfoutput>#message#</cfoutput>
-```
-
-[Source File](../languages/Lucee.cfc)
-
----
-
-### Lucid
-
-```
-"Hello World"
-```
-
-[Source File](../languages/Lucid.lucid)
-
----
-
-### Lumi
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Lumi.lumi)
-
----
-
-### Luna
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Luna.luna)
-
----
-
-### Luon
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Luon.luon)
-
----
-
-### Luw
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Luw.luw)
-
----
-
-### Ly
-
-```
-"Hello World"&
-```
-
-[Source File](../languages/Ly.ly)
-
----
-
-### M
-
-```
-W "Hello World"
-```
-
-[Source File](../languages/M.m)
-
----
-
 ### M4
 
 ```
-m4exit(0)dnl
-Hello World
+define(`Hello', ``Hello World'')dnl
+Hello
 ```
 
 [Source File](../languages/M4.m4)
@@ -937,98 +846,110 @@ disp('Hello World')
 
 ---
 
-### MAX Script
+### MEL
 
 ```
-print "Hello World"
+print "Hello World";
 ```
 
-[Source File](../languages/MAX%20Script.ms)
+[Source File](../languages/MEL.mel)
+
+---
+
+### MIRC Scripting
+
+```
+//echo -a Hello World
+```
+
+[Source File](../languages/MIRC%20Scripting.mrc)
 
 ---
 
 ### ML
 
-```sml
-print "Hello World\n";
+```ml
+print "Hello World\n"
 ```
 
 [Source File](../languages/ML.ml)
 
 ---
 
-### MQL4
+### MS-DOS
 
-```cpp
-void OnStart() {
-    Print("Hello World");
-}
-```
-
-[Source File](../languages/MQL4.mq4)
-
----
-
-### MQL5
-
-```cpp
-void OnStart() {
-    Print("Hello World");
-}
-```
-
-[Source File](../languages/MQL5.mq5)
-
----
-
-### MS-DOS Batch
-
-```batch
-@echo off
+```bat
 echo Hello World
 ```
 
-[Source File](../languages/MS-DOS%20Batch.bat)
+[Source File](../languages/MS-DOS.bat)
+
+---
+
+### MSL
+
+```
+(println "Hello World")
+```
+
+[Source File](../languages/MSL.msl)
 
 ---
 
 ### MUMPS
 
-```
-W "Hello World"
+```mumps
+ WRITE "Hello World",!
 ```
 
-[Source File](../languages/MUMPS.m)
+[Source File](../languages/MUMPS.mumps)
 
 ---
 
-### Magik
+### Macaulay2
 
 ```
-_method hello_world()
-  write("Hello World")
-_endmethod
+print "Hello World"
 ```
 
-[Source File](../languages/Magik.magik)
+[Source File](../languages/Macaulay2.m2)
 
 ---
 
-### Make
+### MachineCode
 
-```make
-hello:
-	@echo Hello World
+```
+48 65 6C 6C 6F 20 57 6F 72 6C 64
 ```
 
-[Source File](../languages/Make.make)
+[Source File](../languages/MachineCode.mc)
+
+---
+
+### Madlib
+
+```
+(println "Hello World")
+```
+
+[Source File](../languages/Madlib.madlib)
+
+---
+
+### Malbolge
+
+```
+(=<`#9]~6ZY32Vx/4Rs+0No-&JkL"F%$eM`cbI)veDi'8z
+```
+
+[Source File](../languages/Malbolge.mb)
 
 ---
 
 ### Maple
 
 ```
-print("Hello World");
+"Hello World"
 ```
 
 [Source File](../languages/Maple.mpl)
@@ -1045,19 +966,19 @@ print("Hello World");
 
 ---
 
-### Mathematica
+### Matl
 
-```mathematica
-Print["Hello World"]
+```
+'Hello World'
 ```
 
-[Source File](../languages/Mathematica.nb)
+[Source File](../languages/Matl.matl)
 
 ---
 
 ### Maxima
 
-```
+```maxima
 print("Hello World")$
 ```
 
@@ -1065,13 +986,23 @@ print("Hello World")$
 
 ---
 
-### Mel
+### MaxScript
 
 ```
-print "Hello World";
+print "Hello World"
 ```
 
-[Source File](../languages/Mel.mel)
+[Source File](../languages/MaxScript.ms)
+
+---
+
+### Maya
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Maya.mel)
 
 ---
 
@@ -1082,91 +1013,98 @@ print "Hello World";
 :- interface.
 :- import_module io.
 :- pred main(io::di, io::uo) is det.
+
 :- implementation.
-main(!IO) :- io.write_string("Hello World\n", !IO).
+main(!IO) :-
+    io.write_string("Hello World\n", !IO).
 ```
 
 [Source File](../languages/Mercury.m)
 
 ---
 
-### Meson
+### Mia
 
 ```
-project('hello', 'c')
-executable('hello', 'hello.c')
-# In Meson, logical output usually via tests or custom commands
+(println "Hello World")
 ```
 
-[Source File](../languages/Meson.build)
+[Source File](../languages/Mia.mia)
 
 ---
 
-### MetaFont
-
-```
-message "Hello World";
-end
-```
-
-[Source File](../languages/MetaFont.mf)
-
----
-
-### MetaPost
-
-```
-beginfig(1);
-  draw "Hello World" infont "cmr10";
-endfig;
-end
-```
-
-[Source File](../languages/MetaPost.mp)
-
----
-
-### Micro-Python
+### MicroPython
 
 ```python
 print("Hello World")
 ```
 
-[Source File](../languages/Micro-Python.py)
+[Source File](../languages/MicroPython.py)
 
 ---
 
-### MiniZinc
+### Microsoft Batch
 
-```
-solve satisfy;
-output ["Hello World"];
+```bat
+echo Hello World
 ```
 
-[Source File](../languages/MiniZinc.mzn)
+[Source File](../languages/Microsoft%20Batch.bat)
 
 ---
 
-### Mirah
+### MilkScript
 
 ```
-puts "Hello World"
+(println "Hello World")
 ```
 
-[Source File](../languages/Mirah.mirah)
+[Source File](../languages/MilkScript.milk)
 
 ---
 
-### Modelica
+### Mimic
 
 ```
-model HelloWorld
-  initial equation
-    print("Hello World");
-end HelloWorld;
+(println "Hello World")
 ```
 
-[Source File](../languages/Modelica.mo)
+[Source File](../languages/Mimic.mimic)
+
+---
+
+### Minecraft
+
+```
+/say Hello World
+```
+
+[Source File](../languages/Minecraft.mcfunction)
+
+---
+
+### Mips
+
+```mips
+.data
+    message: .asciiz "Hello World"
+.text
+    li $v0, 4
+    la $a0, message
+    syscall
+```
+
+[Source File](../languages/Mips.asm)
+
+---
+
+### Miranda
+
+```
+main = "Hello World"
+```
+
+[Source File](../languages/Miranda.m)
 
 ---
 
@@ -1174,10 +1112,9 @@ end HelloWorld;
 
 ```modula2
 MODULE Hello;
-FROM InOut IMPORT WriteString, WriteLn;
+FROM InOut IMPORT WriteString;
 BEGIN
-  WriteString("Hello World");
-  WriteLn;
+    WriteString('Hello World')
 END Hello.
 ```
 
@@ -1188,14 +1125,25 @@ END Hello.
 ### Modula-3
 
 ```modula3
-MODULE Main;
+MODULE Hello;
 IMPORT IO;
 BEGIN
-  IO.Put("Hello World\n");
-END Main.
+    IO.Put("Hello World\n")
+END Hello.
 ```
 
 [Source File](../languages/Modula-3.m3)
+
+---
+
+### Mojo
+
+```
+fn main():
+    print("Hello World")
+```
+
+[Source File](../languages/Mojo.mojo)
 
 ---
 
@@ -1204,16 +1152,36 @@ END Main.
 ```
 Function Main()
     Print "Hello World"
-End
+End Function
 ```
 
 [Source File](../languages/Monkey.monkey)
 
 ---
 
+### Monte
+
+```
+(println "Hello World")
+```
+
+[Source File](../languages/Monte.monte)
+
+---
+
+### Monty
+
+```
+(println "Hello World")
+```
+
+[Source File](../languages/Monty)
+
+---
+
 ### MoonScript
 
-```moonscript
+```
 print "Hello World"
 ```
 
@@ -1221,181 +1189,222 @@ print "Hello World"
 
 ---
 
-### Morpheus
+### Moto
 
 ```
 (println "Hello World")
 ```
 
-[Source File](../languages/Morpheus.morpheus)
+[Source File](../languages/Moto)
 
 ---
 
-### Mython
+### Muf
 
-```python
-print "Hello World"
+```
+(println "Hello World")
 ```
 
-[Source File](../languages/Mython.my)
+[Source File](../languages/Muf.muf)
 
 ---
 
-### NASM
+### Muq
 
-```asm
-section .data
-    msg db 'Hello World', 0xa
-section .text
-    global _start
-_start:
-    mov eax, 4
-    mov ebx, 1
-    mov ecx, msg
-    mov edx, 12
-    int 0x80
-    mov eax, 1
-    int 0x80
+```
+(println "Hello World")
 ```
 
-[Source File](../languages/NASM.asm)
+[Source File](../languages/Muq)
+
+---
+
+### Muse
+
+```
+(println "Hello World")
+```
+
+[Source File](../languages/Muse.muse)
+
+---
+
+### Mustache
+
+```
+{{Hello World}}
+```
+
+[Source File](../languages/Mustache.mustache)
+
+---
+
+### Mysql
+
+```sql
+SELECT 'Hello World';
+```
+
+[Source File](../languages/Mysql.sql)
+
+---
+
+### Neko
+
+```
+$print("Hello World");
+```
+
+[Source File](../languages/Neko.neko)
 
 ---
 
 ### Nemerle
 
 ```nemerle
-System.Console.WriteLine("Hello World");
+class Hello {
+    static Main() : void {
+        System.Console.WriteLine("Hello World");
+    }
+}
 ```
 
 [Source File](../languages/Nemerle.n)
 
 ---
 
-### NesC
-
-```c
-module HelloWorldP {
-  uses interface Boot;
-  uses interface Leds;
-}
-implementation {
-  event void Boot.booted() {
-    // print Hello World via serial
-  }
-}
-```
-
-[Source File](../languages/NesC.nc)
-
----
-
-### NetLogo
-
-```
-to hello
-  print "Hello World"
-end
-```
-
-[Source File](../languages/NetLogo.nlogo)
-
----
-
-### NewLisp
-
-```lisp
-(println "Hello World")
-```
-
-[Source File](../languages/NewLisp.lsp)
-
----
-
-### Nginx
-
-```
-location / {
-    return 200 'Hello World';
-}
-```
-
-[Source File](../languages/Nginx.conf)
-
----
-
-### Nickle
-
-```
-printf("Hello World\n");
-```
-
-[Source File](../languages/Nickle.5c)
-
----
-
-### Night
+### Nial
 
 ```
 (println "Hello World")
 ```
 
-[Source File](../languages/Night.night)
+[Source File](../languages/Nial.ndf)
+
+---
+
+### Nice
+
+```
+(println "Hello World")
+```
+
+[Source File](../languages/Nice.nice)
+
+---
+
+### Nim
+
+```nim
+echo "Hello World"
+```
+
+[Source File](../languages/Nim.nim)
 
 ---
 
 ### Nit
 
 ```
-print "Hello World"
+(println "Hello World")
 ```
 
 [Source File](../languages/Nit.nit)
 
 ---
 
-### Nix
+### Node.js
 
-```nix
-"Hello World"
+```javascript
+console.log("Hello World");
 ```
 
-[Source File](../languages/Nix.nix)
+[Source File](../languages/Node.js.js)
 
 ---
 
-### Noop
+### Notepad
 
 ```
-import noop.Console;
-public class HelloWorld {
-  public static void main(String[] args) {
-    Console.println("Hello World");
-  }
-}
+Hello World
 ```
 
-[Source File](../languages/Noop.noop)
+[Source File](../languages/Notepad.txt)
 
 ---
 
 ### Nu
 
 ```
-(puts "Hello World")
+(println "Hello World")
 ```
 
 [Source File](../languages/Nu.nu)
 
 ---
 
-### Nyquist
+### Nuitka
 
 ```
 (println "Hello World")
 ```
 
-[Source File](../languages/Nyquist.ny)
+[Source File](../languages/Nuitka.py)
+
+---
+
+### Oberon
+
+```oberon
+MODULE Hello;
+IMPORT Oberon, Texts;
+VAR W: Texts.Writer;
+BEGIN
+    Texts.OpenWriter(W);
+    Texts.WriteString(W, "Hello World");
+    Texts.WriteLn(W);
+    Texts.Append(Oberon.Log, W.buf);
+END Hello.
+```
+
+[Source File](../languages/Oberon.mod)
+
+---
+
+### Obix
+
+```
+(println "Hello World")
+```
+
+[Source File](../languages/Obix.obix)
+
+---
+
+### Objective-C
+
+```objc
+#import <Foundation/Foundation.h>
+int main() {
+    @autoreleasepool {
+        NSLog(@"Hello World");
+    }
+    return 0;
+}
+```
+
+[Source File](../languages/Objective-C.m)
+
+---
+
+### Objective-J
+
+```objectivej
+@import <Foundation/Foundation.j>
+console.log("Hello World");
+```
+
+[Source File](../languages/Objective-J.j)
 
 ---
 
@@ -1409,149 +1418,81 @@ print_endline "Hello World"
 
 ---
 
-### Objective-J
-
-```javascript
-@import <Foundation/CPObject.j>
-@implementation HelloWorld : CPObject
-- (void)say {
-    CPLog(@"Hello World");
-}
-@end
-```
-
-[Source File](../languages/Objective-J.j)
-
----
-
-### Objeck
-
-```
-class Hello {
-  function : Main(args : String[]) ~ Nil {
-    "Hello World"->PrintLine();
-  }
-}
-```
-
-[Source File](../languages/Objeck.obs)
-
----
-
 ### Octave
 
 ```octave
-disp('Hello World')
+printf("Hello World\n")
 ```
 
 [Source File](../languages/Octave.m)
 
 ---
 
-### Ooc
+### Omgrofl
 
 ```
-"Hello World" println()
+(println "Hello World")
+```
+
+[Source File](../languages/Omgrofl.omgrofl)
+
+---
+
+### Ooc
+
+```ooc
+main: func {
+    "Hello World" println()
+}
 ```
 
 [Source File](../languages/Ooc.ooc)
 
 ---
 
-### Opa
+### Ook!
 
 ```
-Server.start(Server.http, { title: "Hello", page: function() { <h1>Hello World</h1> } })
+Ook. Ook? Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook. Ook.
 ```
 
-[Source File](../languages/Opa.opa)
+[Source File](../languages/Ook!.ook)
 
 ---
 
-### OpenCL
-
-```c
-__kernel void hello(__global char* out) {
-    // Write Hello World to buffer
-}
-```
-
-[Source File](../languages/OpenCL.cl)
-
----
-
-### OpenEdge ABL
+### OpenLaszlo
 
 ```
-MESSAGE "Hello World" VIEW-AS ALERT-BOX.
+(println "Hello World")
 ```
 
-[Source File](../languages/OpenEdge%20ABL.p)
-
----
-
-### OpenRC
-
-```bash
-#!/sbin/openrc-run
-start() {
-    ebegin "Saying Hello World"
-    echo "Hello World"
-    eend 0
-}
-```
-
-[Source File](../languages/OpenRC.sh)
+[Source File](../languages/OpenLaszlo.lzx)
 
 ---
 
 ### OpenSCAD
 
 ```
-echo("Hello World");
+cube([1,1,1]);
+// Hello World as a 3D cube
 ```
 
 [Source File](../languages/OpenSCAD.scad)
 
 ---
 
-### Ox
-
-```
-#include <oxstd.h>
-main() { print("Hello World\n"); }
-```
-
-[Source File](../languages/Ox.ox)
-
----
-
-### Oxygene
-
-```pascal
-namespace HelloWorld;
-interface
-type
-  ConsoleApp = class
-  public
-    class method Main;
-  end;
-implementation
-class method ConsoleApp.Main;
-begin
-  Console.WriteLine('Hello World');
-end;
-end.
-```
-
-[Source File](../languages/Oxygene.pas)
-
----
-
 ### Oz
 
 ```oz
-{Browse 'Hello World'}
+functor
+import
+    Application
+    System
+
+define
+    {System.showInfo 'Hello World'}
+    {Application.exit 0}
+end
 ```
 
 [Source File](../languages/Oz.oz)
@@ -1560,9 +1501,8 @@ end.
 
 ### P4
 
-```c
-header h { bit<8> v; }
-// Hello World in networking terms
+```
+(println "Hello World")
 ```
 
 [Source File](../languages/P4.p4)
