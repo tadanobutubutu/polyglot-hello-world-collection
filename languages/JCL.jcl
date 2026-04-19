@@ -1,1 +1,1 @@
-function main takes nothing returns nothing\n    call BJDebugMsg(\"Hello World\")\nendfunction\n
+print "Hello World"
