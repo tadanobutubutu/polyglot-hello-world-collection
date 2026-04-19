@@ -1,1 +1,1 @@
-<?php\n\necho 'Hello World';\n
+print("Hello World")
