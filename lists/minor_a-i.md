@@ -1,6 +1,6 @@
-# Minor Languages - Hall A-I
+# All Languages - Hall A-I
 
-Exploring the vast diversity of niche and specialized programming paradigms from A through I.
+Exploring the vast diversity of programming paradigms from A through I.
 
 ---
 
