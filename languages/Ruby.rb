@@ -1,1 +1,1 @@
-#!/usr/bin/env ruby\nprint \"Hello World\"\n
+print("Hello World")

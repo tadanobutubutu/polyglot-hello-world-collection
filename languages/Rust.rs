@@ -1,1 +1,1 @@
-fn main() {\n    println!(\"Hello World\");\n}\n
+println!("Hello World")
