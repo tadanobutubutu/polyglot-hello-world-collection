@@ -1,1 +1,1 @@
-write \"Hello World\\n\"\n
+print "Hello World"
