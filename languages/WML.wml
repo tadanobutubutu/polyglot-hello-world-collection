@@ -1,1 +1,1 @@
-#define HELLOWORLD\n  [message]\n    speaker=\"narrator\"\n    message=_\"Hello World\"\n  [/message]\n#enddef
+print "Hello World"
