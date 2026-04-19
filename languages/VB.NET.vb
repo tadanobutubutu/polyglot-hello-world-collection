@@ -1,1 +1,1 @@
-Module HelloWorld\n    Sub Main()\n        System.Console.WriteLine(\"Hello World\")\n    End Sub\nEnd Module
+print("Hello World")
