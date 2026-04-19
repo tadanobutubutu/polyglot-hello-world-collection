@@ -1,1 +1,1 @@
-Hello WorldPIGHello World\n
+print "Hello World"
