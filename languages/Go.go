@@ -1,1 +1,5 @@
-package main\n\nimport \"fmt\"\n\nfunc main() {\n  fmt.Println(\"Hello World\")\n}\n
+package main
+import "fmt"
+func main() {
+    fmt.Println("Hello World")
+}
