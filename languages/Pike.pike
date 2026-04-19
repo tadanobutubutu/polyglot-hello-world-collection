@@ -1,1 +1,4 @@
-int main() {\n    write(\"Hello World\\n\");\n    return 0;\n}\n
+int main() {
+    write("Hello World\n");
+    return 0;
+}
