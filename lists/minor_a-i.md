@@ -167,6 +167,16 @@ PRINT "Hello World"
 
 ---
 
+### ABC
+
+```abc
+print "Hello World"
+```
+
+[Source File](../languages/ABC.abc)
+
+---
+
 ### ABS
 
 ```abs
@@ -208,6 +218,26 @@ ACSHello World
 
 ---
 
+### Acute
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Acute.ac)
+
+---
+
+### Ada
+
+```ada
+print "Hello World"
+```
+
+[Source File](../languages/Ada.adb)
+
+---
+
 ### ALAGUF
 
 ```
@@ -227,6 +257,26 @@ end.
 ```
 
 [Source File](../languages/ALGOL%20W.algol)
+
+---
+
+### Algol68
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Algol68.a68)
+
+---
+
+### APL
+
+```apl
+"Hello World"
+```
+
+[Source File](../languages/APL.apl)
 
 ---
 
@@ -280,10 +330,30 @@ ATS2Hello World
 
 ---
 
+### AtScript
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/AtScript.ats)
+
+---
+
+### AutoIt3
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/AutoIt3.au3)
+
+---
+
 ### AWK
 
 ```
-AWKHello World
+BEGIN { print "Hello World" }
 ```
 
 [Source File](../languages/AWK.awk)
@@ -339,7 +409,7 @@ mytext.setTextFormat(myformat);
 ### ActionScript
 
 ```
-ActionScriptHello World
+console.log("Hello World");
 ```
 
 [Source File](../languages/ActionScript.as)
@@ -393,6 +463,16 @@ AimeHello World
 ```
 
 [Source File](../languages/Aime.aime)
+
+---
+
+### Alda
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Alda.alda)
 
 ---
 
@@ -647,229 +727,690 @@ AvailHello World
 
 ---
 
-### CLI
+### Ballerina
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Ballerina.bal)
+
+---
+
+### Bash
+
+```bash
+echo "Hello World"
+```
+
+[Source File](../languages/Bash.sh)
+
+---
+
+### Befunge
+
+```
+"Hello World"
+```
+
+[Source File](../languages/Befunge.befunge)
+
+---
+
+### BETA
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/BETA.bet)
+
+---
+
+### BLISS
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/BLISS.bliss)
+
+---
+
+### Boo
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Boo.boo)
+
+---
+
+### Bosque
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Bosque.bsq)
+
+---
+
+### BourneShell
+
+```bash
+echo "Hello World"
+```
+
+[Source File](../languages/BourneShell.sh)
+
+---
+
+### Brainfuck
+
+```
+++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++.
+```
+
+[Source File](../languages/Brainfuck.bf)
+
+---
+
+### C
+
+```c
+#include <stdio.h>
+int main() {
+    printf("Hello World\n");
+    return 0;
+}
+```
+
+[Source File](../languages/C.c)
+
+---
+
+### C++
 
 ```cpp
-CLI.cpp
+#include <iostream>
+int main() {
+    std::cout << "Hello World" << std::endl;
+    return 0;
+}
 ```
 
-[Source File](../languages/C++/CLI.cpp)
+[Source File](../languages/C++.cpp)
 
 ---
 
-### CX
+### C#
 
-```cpp
-CX.cpp
+```csharp
+using System;
+class Program {
+    static void Main() {
+        Console.WriteLine("Hello World");
+    }
+}
 ```
 
-[Source File](../languages/C++/CX.cpp)
+[Source File](../languages/C#.cs)
 
 ---
 
-### DTrace
+### Caml
 
 ```
-DTrace.d
+printf("Hello World\n");
 ```
 
-[Source File](../languages/D/DTrace.d)
+[Source File](../languages/Caml.ml)
 
 ---
 
-### DUP
+### CEEMAC
 
 ```
-DUP.dup
+print "Hello World"
 ```
 
-[Source File](../languages/D/DUP.dup)
+[Source File](../languages/CEEMAC.ceemac)
 
 ---
 
-### Darwin
+### Ceylon
 
 ```
-Darwin.drw
+print "Hello World"
 ```
 
-[Source File](../languages/D/Darwin.drw)
+[Source File](../languages/Ceylon.ceylon)
 
 ---
 
-### DataFlex
+### Charity
 
 ```
-DataFlex
+print "Hello World"
 ```
 
-[Source File](../languages/D/DataFlex)
+[Source File](../languages/Charity.ch)
 
 ---
 
-### Db2
+### Chef
 
-```sql
-Db2.sql
+```chef
+Hello World Cake with Chocolate sauce.
+
+This prints hello world, while being tastier than Hello World Souffle. The main
+ chef makes a " world!" cake, which he puts in the baking dish. When he gets the
+ sous chef to make the "Hello" chocolate sauce, it gets put into the baking dish
+ and then the whole thing is printed when he refrigerates the sauce. When
+ actually cooking, I'm interpreting the chocolate sauce baking dish to be separate
+ from the cake one and Liquify to mean either melt or blend depending on context.
+
+Ingredients.
+33 g chocolate chips
+100 g butter
+54 ml double cream
+2 pinches of baking powder
+114 g sugar
+111 ml beaten eggs
+119 g flour
+32 g cocoa powder
+87 ml water
+
+Method.
+Put chocolate chips into the mixing bowl.
+Put butter into the mixing bowl.
+Put sugar into the mixing bowl.
+Put beaten eggs into the mixing bowl.
+Put flour into the mixing bowl.
+Put baking powder into the mixing bowl.
+Put cocoa  powder into the mixing bowl.
+Stir the mixing bowl for 1 minutes.
+Combine double cream into the mixing bowl.
+Stir the mixing bowl for 4 minutes.
+Liquify the contents of the mixing bowl.
+Pour contents of the mixing bowl into the baking dish.
+bake the baking dish.
+Wait until baked.
+Serve with chocolate sauce.
+
+chocolate sauce.
+
+Ingredients.
+111 g sugar
+109 ml water
+109 ml double cream
+86 g chocolate chips
+
+Method.
+Put sugar into the mixing bowl.
+Put water into the mixing bowl.
+Put double cream into the mixing bowl.
+Liquify the contents of the mixing bowl.
+Put chocolate chips into the mixing bowl.
+Stir the mixing bowl for 1 minutes.
+Liquify the contents of the mixing bowl.
+Pour contents of the mixing bowl into the baking dish.
+Refrigerate the baking dish for 1 hours.
 ```
 
-[Source File](../languages/D/Db2.sql)
+[Source File](../languages/Chef.chef)
 
 ---
 
-### Dc
+### Chicken
 
 ```
-Dc.dc
+chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken chicken
 ```
 
-[Source File](../languages/D/Dc.dc)
+[Source File](../languages/Chicken.chicken)
 
 ---
 
-### Decimal
+### CLIPS
 
 ```
-Decimal.dec
+(printout t "Hello World" crlf)
 ```
 
-[Source File](../languages/D/Decimal.dec)
+[Source File](../languages/CLIPS.clp)
+
+---
+
+### CLU
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/CLU.clu)
+
+---
+
+### CMake
+
+```
+message("Hello World")
+```
+
+[Source File](../languages/CMake.cmake)
+
+---
+
+### COBOL
+
+```cobol
+IDENTIFICATION DIVISION.
+PROGRAM-ID. HELLO.
+PROCEDURE DIVISION.
+    DISPLAY "Hello World".
+    STOP RUN.
+```
+
+[Source File](../languages/COBOL.cbl)
+
+---
+
+### COBOLScript
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/COBOLScript.cob)
+
+---
+
+### CoffeeScript
+
+```coffeescript
+console.log "Hello World"
+```
+
+[Source File](../languages/CoffeeScript.coffee)
+
+---
+
+### Cobra
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Cobra.cobra)
+
+---
+
+### CommonLisp
+
+```lisp
+(format t "Hello World~%")
+```
+
+[Source File](../languages/CommonLisp.lisp)
+
+---
+
+### Cow
+
+```
+MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO MoO
+```
+
+[Source File](../languages/Cow.cow)
+
+---
+
+### Crystal
+
+```
+puts "Hello World"
+```
+
+[Source File](../languages/Crystal.cr)
+
+---
+
+### Csh
+
+```csh
+echo Hello World
+```
+
+[Source File](../languages/Csh.csh)
+
+---
+
+### Curl
+
+```
+let curl hello = "Hello World"
+```
+
+[Source File](../languages/Curl.curl)
+
+---
+
+### D
+
+```d
+import std.stdio;
+void main() {
+    writeln("Hello World");
+}
+```
+
+[Source File](../languages/D.d)
+
+---
+
+### Dafny
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Dafny.dfy)
+
+---
+
+### Dart
+
+```dart
+void main() {
+  print('Hello World');
+}
+```
+
+[Source File](../languages/Dart.dart)
+
+---
+
+### DEL
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/DEL.d)
 
 ---
 
 ### Delphi
 
 ```
-Delphi.delphi
+program hello;
+begin
+  writeln('Hello World');
+end.
 ```
 
-[Source File](../languages/D/Delphi.delphi)
-
----
-
-### Dpatl Python
-
-```
-DPATL Python.dpatl
-```
-
-[Source File](../languages/D/DPATL%20Python.dpatl)
-
----
-
-### DreamMaker
-
-```
-DreamMaker.dm
-```
-
-[Source File](../languages/D/DreamMaker.dm)
-
----
-
-### Drive-In Window
-
-```
-Drive-In Window.diw
-```
-
-[Source File](../languages/D/Drive-In%20Window.diw)
+[Source File](../languages/Delphi.delphi)
 
 ---
 
 ### Dylan
 
 ```
-Dylan.dl
+print("Hello World")
 ```
 
-[Source File](../languages/D/Dylan.dl)
+[Source File](../languages/Dylan.dylan)
 
 ---
 
-### Dyvil
+### Egel
 
 ```
-Dyvil.dyv
+print "Hello World"
 ```
 
-[Source File](../languages/D/Dyvil.dyv)
+[Source File](../languages/Egel.eg)
 
 ---
 
-### daScript
+### Eiffel
 
-```
-daScript.das
+```eiffel
+class HELLO creation make feature make is do io.put_string("Hello World") end end
 ```
 
-[Source File](../languages/D/daScript.das)
+[Source File](../languages/Eiffel.e)
 
 ---
 
-### dark
+### EmacsLisp
 
-```
-dark.txt
+```elisp
+(message "Hello World")
 ```
 
-[Source File](../languages/D/dark.txt)
+[Source File](../languages/EmacsLisp.el)
 
 ---
 
-### dBase
+### Euphoria
 
 ```
-dBase.dbf
+puts(1, "Hello World")
 ```
 
-[Source File](../languages/D/dBase.dbf)
+[Source File](../languages/Euphoria.e)
 
 ---
 
-### dg
+### Factor
 
 ```
-dg.dg
+"Hello World" print
 ```
 
-[Source File](../languages/D/dg.dg)
+[Source File](../languages/Factor.factor)
 
 ---
 
-### dongbei
+### Ferite
 
 ```
-dongbei.dongbei
+print "Hello World"
 ```
 
-[Source File](../languages/D/dongbei.dongbei)
+[Source File](../languages/Ferite.fe)
 
 ---
 
-### dos
+### Fish
 
 ```
-dos.bat
+"Hello World"
 ```
 
-[Source File](../languages/D/dos.bat)
+[Source File](../languages/Fish.fish)
 
 ---
 
-### Groot
+### FLUX
 
 ```
-I am Groot
+print "Hello World"
 ```
 
-[Source File](../languages/Groot.groot)
+[Source File](../languages/FLUX.flux)
+
+---
+
+### Focal
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Focal.focal)
+
+---
+
+### Forth
+
+```forth
+." Hello World" CR
+```
+
+[Source File](../languages/Forth.forth)
+
+---
+
+### Fortran
+
+```fortran
+program hello
+  print *, "Hello World"
+end program hello
+```
+
+[Source File](../languages/Fortran.f90)
+
+---
+
+### FreeBASIC
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/FreeBASIC.bas)
+
+---
+
+### FSharp
+
+```fsharp
+printfn "Hello World"
+```
+
+[Source File](../languages/FSharp.fs)
+
+---
+
+### Futhark
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Futhark.fut)
+
+---
+
+### Gambas
+
+```
+PRINT "Hello World"
+```
+
+[Source File](../languages/Gambas.gbs)
+
+---
+
+### Gambas3
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Gambas3.gambas)
+
+---
+
+### GAP
+
+```
+Print("Hello World");
+```
+
+[Source File](../languages/GAP.g)
+
+---
+
+### Gawk
+
+```awk
+BEGIN { print "Hello World" }
+```
+
+[Source File](../languages/Gawk.gawk)
+
+---
+
+### Genie
+
+```
+println("Hello World")
+```
+
+[Source File](../languages/Genie.gs)
+
+---
+
+### Gerbil
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/Gerbil.gerbil)
+
+---
+
+### GML
+
+```
+print "Hello World"
+```
+
+[Source File](../languages/GML.gml)
+
+---
+
+### Gnuplot
+
+```
+plot "Hello World"
+```
+
+[Source File](../languages/Gnuplot.gnu)
+
+---
+
+### Golo
+
+```
+println("Hello World")
+```
+
+[Source File](../languages/Golo.golo)
+
+---
+
+### Gosu
+
+```gosu
+print "Hello World"
+```
+
+[Source File](../languages/Gosu.gosu)
 
 ---
 
 ### Groovy
 
-```
+```groovy
 println "Hello World"
 ```
 
@@ -877,246 +1418,41 @@ println "Hello World"
 
 ---
 
-### Gui4Cli
-
-```
-G4C MyGui
-Window 10 10 200 300 "My window"
-
-xOnLoad
-   GuiOpen MyGui
-
-xButton 10 10 100 20 "Hello World"
-   GuiQuit MyGui
-```
-
-[Source File](../languages/Gui4Cli)
-
----
-
-### H++
-
-```
-import "stdhpp\stdapi.hcc";
-
-using printf = Console::WriteLn;
-
-namespace
-{
-    class Application
-    {
-        public static void main()
-        {
-            printf("Hello World");
-            return;
-        }
-    };
-};
-```
-
-[Source File](../languages/H++.hpp)
-
----
-
-### HEX
-
-```
-GBL;
-Bug("1", "Hello World");
-Scuttle("1");
-Write;
-```
-
-[Source File](../languages/HEX.hex)
-
----
-
-### HOP
-
-```
-(define-service (hello-world)
-  (<HTML>
-     (<HEAD>
-        (<TITLE> "Hello World"))
-     (<BODY>
-        "Hello World")))
-```
-
-[Source File](../languages/HOP)
-
----
-
-### HP_41C
-
-```
-01 LBL "HELLO"
-02 "HELLO WORLD"
-03 AVIEW
-```
-
-[Source File](../languages/HP_41C)
-
----
-
-### HQ9++
-
-```
-H
-```
-
-[Source File](../languages/HQ9++)
-
----
-
-### HQ9+
-
-```h
-H
-```
-
-[Source File](../languages/HQ9+.h)
-
----
-
-### HQ9funge
-
-```
-H
-```
-
-[Source File](../languages/HQ9funge)
-
----
-
-### HSP
-
-```
-mes "Hello World"
-stop
-```
-
-[Source File](../languages/HSP.hsp)
-
----
-
-### HTML
-
-```
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hello World</title>
-</head>
-<body>
-  <h1>Hello World</h1>
-</body>
-</html>
-```
-
-[Source File](../languages/HTML.html)
-
----
-
-### HTTP
-
-```python
-import http.server
-import socketserver
-from http import HTTPStatus
-
-
-class Handler(http.server.SimpleHTTPRequestHandler):
-    def do_GET(self):
-        self.send_response(HTTPStatus.OK)
-        self.end_headers()
-        self.wfile.write(b'Hello World')
-
-
-httpd = socketserver.TCPServer(('', 8000), Handler)
-httpd.serve_forever()
-```
-
-[Source File](../languages/HTTP.py)
-
----
-
 ### Hack
 
-```
-<?hh 
-echo "Hello World";
+```hack
+<?hh echo "Hello World";
 ```
 
-[Source File](../languages/Hack.hh)
+[Source File](../languages/Hack.hack)
 
 ---
 
-### Haifuckqueue
+### HacketyHack
 
 ```
-{Hel}
-$3{lo }
-$3{W}
-$1{o}
-$1{rld}
-$3{ }
-$1|10
-$1ooooo
-ooooo
+print "Hello World"
 ```
 
-[Source File](../languages/Haifuckqueue)
+[Source File](../languages/HacketyHack.hack)
 
 ---
 
-### Haml
+### HackHHVM
 
 ```
-%html
-  %title Hello World
-  %body
-    %h1 Hello World 吐く
+print "Hello World"
 ```
 
-[Source File](../languages/Haml.haml)
-
----
-
-### Hamler
-
-```
-module Main where
-import Prelude
-main = print "Hello, World!"
-```
-
-[Source File](../languages/Hamler.hm)
-
----
-
-### Harbour
-
-```
-PROCEDURE Main()
-
-   ? "Hello World"
-
-   RETURN
-```
-
-[Source File](../languages/Harbour.prg)
+[Source File](../languages/HackHHVM.hack)
 
 ---
 
 ### Hare
 
 ```
-use fmt;
-
-export fn main() void = {
-	fmt::println("Hello World")!;
+fn main() void {
+    fmt::println("Hello World")!;
 };
 ```
 
@@ -1134,132 +1470,39 @@ main = putStrLn "Hello World"
 
 ---
 
-### Hello
+### HLSL
 
-```
-h
-```
-
-[Source File](../languages/Hello)
-
----
-
-### Hello++
-
-```
-h
-```
-
-[Source File](../languages/Hello++)
-
----
-
-### Hexish
-
-```
-0902160E48656C6C6F20776F726C6421001001161508
-```
-
-[Source File](../languages/Hexish.hexish)
-
----
-
-### Higher Subleq
-
-```
-int printf();
-int main()
-{
-  printf("Hello World\n");
+```hlsl
+float4 main() : SV_TARGET {
+    return float4(1.0, 0.0, 0.0, 1.0);
 }
 ```
 
-[Source File](../languages/Higher%20Subleq.higher_subleq)
+[Source File](../languages/HLSL.hlsl)
 
 ---
 
-### Hodor
+### Hope
 
 ```
-hodor.hod('Hhodor? Hodor!? Hodor!? o, Hooodorrhodor orHodor!? d!');
+print "Hello World"
 ```
 
-[Source File](../languages/Hodor.hd)
+[Source File](../languages/Hope.hope)
 
 ---
 
-### Hollow
+### Hubbble
 
 ```
-{Hello World.9}:?
+print "Hello World"
 ```
 
-[Source File](../languages/Hollow.hollow)
+[Source File](../languages/Hubbble.hbl)
 
 ---
 
-### Hy
-
-```
-(setq hello-world "Hello World")
-(print hello-world)
-```
-
-[Source File](../languages/Hy.hy)
-
----
-
-### HyperTalk
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/HyperTalk.ht)
-
----
-
-### I-S-L
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/I-S-L.isl)
-
----
-
-### IBM-RPC
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/IBM-RPC.rpc)
-
----
-
-### ICI
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/ICI.ici)
-
----
-
-### ICON
-
-```
-printf("Hello World\n");
-```
-
-[Source File](../languages/ICON.icon)
-
----
-
-### IDL
+### Icon
 
 ```
 procedure main()
@@ -1267,260 +1510,63 @@ procedure main()
 end
 ```
 
-[Source File](../languages/IDL.idl)
+[Source File](../languages/Icon.icn)
 
 ---
 
-### IO
+### Idris
 
-```
-print, "Hello World"
-end
+```idris
+main : IO ()
+main = putStrLn "Hello World"
 ```
 
-[Source File](../languages/IO.io)
+[Source File](../languages/Idris.idr)
 
 ---
 
-### IPL-V
+### Ioke
 
 ```
 "Hello World" println
 ```
 
-[Source File](../languages/IPL-V.iplv)
+[Source File](../languages/Ioke.ik)
 
 ---
 
-### ISL-9
+### INTERCAL
 
 ```
-(println "Hello World")
+DO ,1 <- #13
+PLEASE DO ,1 SUB #1 <- #238
+DO ,1 SUB #2 <- #108
+DO ,1 SUB #3 <- #112
+PLEASE DO ,1 SUB #4 <- #0
+DO ,1 SUB #5 <- #64
+DO ,1 SUB #6 <- #194
+PLEASE DO ,1 SUB #7 <- #48
+DO ,1 SUB #8 <- #22
+PLEASE DO ,1 SUB #9 <- #248
+DO ,1 SUB #10 <- #168
+PLEASE DO ,1 SUB #11 <- #24
+DO ,1 SUB #12 <- #16
+PLEASE DO ,1 SUB #13 <- #162
+DO READ OUT ,1
+PLEASE GIVE UP
 ```
 
-[Source File](../languages/ISL-9.isl9)
-
----
-
-### Ice
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Ice.ice)
-
----
-
-### Icon
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Icon.icn)
-
----
-
-### Idus
-
-```
-module Main
-
-main : IO ()
-main = putStrLn "Hello World"
-```
-
-[Source File](../languages/Idus.idus)
-
----
-
-### Inform
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Inform.inf)
-
----
-
-### Inform7
-
-```
-[ Main;
-  "Hello World";
-];
-```
-
-[Source File](../languages/Inform7.ni)
-
----
-
-### Ink
-
-```
-The Greeting is a room.  When play begins, say "Hello World".
-```
-
-[Source File](../languages/Ink.ink)
-
----
-
-### Inko
-
-```
-Hello World
-```
-
-[Source File](../languages/Inko.inko)
-
----
-
-### Intercal
-
-```
-import std.stdio
-
-fn main {
-  stdio.stdout.print('Hello World\n')
-}
-```
-
-[Source File](../languages/Intercal.icc)
+[Source File](../languages/INTERCAL.intercal)
 
 ---
 
 ### Io
 
 ```
-PLEASE DO ,1 <- #13
-DO ,1 SUB #1 <- #238
-DO ,1 SUB #2 <- #108
-DO ,1 SUB #3 <- #112
-DO ,1 SUB #4 <- #0
-DO ,1 SUB #5 <- #64
-DO ,1 SUB #6 <- #194
-DO ,1 SUB #7 <- #48
-DO ,1 SUB #8 <- #22
-DO ,1 SUB #9 <- #248
-DO ,1 SUB #10 <- #168
-DO ,1 SUB #11 <- #24
-DO ,1 SUB #12 <- #16
-DO ,1 SUB #13 <- #162
-PLEASE READ OUT ,1
-PLEASE GIVE UP
-```
-
-[Source File](../languages/Io.io-x)
-
----
-
-### Iolite
-
-```
 "Hello World" println
 ```
 
-[Source File](../languages/Iolite.iol)
-
----
-
-### Iota
-
-```
-println("Hello World")
-```
-
-[Source File](../languages/Iota.iota)
-
----
-
-### Irie Pascal
-
-```pascal
-(println "Hello World")
-```
-
-[Source File](../languages/Irie%20Pascal.pas)
-
----
-
-### Irvine
-
-```asm
-program hello;
-begin
-  writeln('Hello World');
-end.
-```
-
-[Source File](../languages/Irvine.asm)
-
----
-
-### Isabelle
-
-```
-(println "Hello World")
-```
-
-[Source File](../languages/Isabelle.thy)
-
----
-
-### Iter
-
-```
-theory Hello
-imports Main
-begin
-  print "Hello World"
-end
-```
-
-[Source File](../languages/Iter.iter)
-
----
-
-### aardio
-
-```
-import console
-console.log("Hello World")
-```
-
-[Source File](../languages/aardio.aardio)
-
----
-
-### cat
-
-```
-Hello World
-```
-
-[Source File](../languages/cat.cat)
-
----
-
-### e62qpodb593
-
-```
-tqqqyoyyyyyypoyqqooqqqoztkkkkkkppotyyyyyppo2oqqqokpokkqqo
-```
-
-[Source File](../languages/e62qpodb593)
-
----
-
-### haystack
-
-```
-"Hello World"o|
-```
-
-[Source File](../languages/haystack.hstk)
+[Source File](../languages/Io.io)
 
 ---
 
