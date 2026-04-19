@@ -1,1 +1,1 @@
-module hello.world\n\nfunction main = |args| {\n  println(\"Hello World\")\n}\n
+print "Hello World"
