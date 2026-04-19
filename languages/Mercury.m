@@ -1,1 +1,6 @@
-:- module hello.\n:- interface.\n:- import_module io.\n:- pred main(io::di, io::uo) is det.\n\n:- implementation.\nmain(!IO) :-\n\tio.write_string(\"Hello World\\n\", !IO).\n
+:- module hello.
+:- interface.
+:- import_module io.
+:- pred main(io::di, io::uo) is det.
+:- implementation.
+main(!IO) :- io.write_string("Hello World\n", !IO).
