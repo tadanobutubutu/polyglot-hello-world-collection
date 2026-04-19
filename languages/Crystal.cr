@@ -1,1 +1,1 @@
-:set ascii=on\n\"Hello World\"
+println("Hello World")
