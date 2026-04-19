@@ -1,1 +1,1 @@
-module main;\n  initial\n    begin\n      $display(\"Hello World\");\n      $finish;\n    end\nendmodule\n
+print("Hello World")

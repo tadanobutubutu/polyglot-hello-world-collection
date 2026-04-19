@@ -1,1 +1,1 @@
-REPORT ZHELLO_WORLD.\n\nSTART-OF-SELECTION.\n    WRITE: 'Hello World'.\n\n\n
+show "Hello World"
