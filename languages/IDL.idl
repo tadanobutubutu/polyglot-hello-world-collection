@@ -1,1 +1,2 @@
-procedure main()\n  write(\"Hello World\")\nend\n
+print, "Hello World"
+end
