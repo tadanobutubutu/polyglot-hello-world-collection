@@ -1,1 +1,1 @@
-[indent=2]\ninit\n  print \"Hello World\"
+println("Hello World")
