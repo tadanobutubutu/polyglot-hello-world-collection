@@ -1,1 +1,1 @@
-(display \"Hello World\")\n(newline)\n
+(display "Hello World")

@@ -1,1 +1,1 @@
-module Main where\n\nmain = putStrLn \"Hello World\"\n
+main = putStrLn "Hello World"
