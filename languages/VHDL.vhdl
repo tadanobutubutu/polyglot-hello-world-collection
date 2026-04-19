@@ -1,1 +1,1 @@
-use std.textio.all;\n\nentity hello_world is\nend hello_world;\n\narchitecture behaviour of hello_world is\nbegin\n\tprocess\n    begin\n       write (output, String'(\"Hello World\"));\n       wait;\n    end process;\nend behaviour;
+print "Hello World"

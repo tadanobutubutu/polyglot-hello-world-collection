@@ -1,1 +1,1 @@
-$ include \"seed7_05.s7i\";\n\nconst proc: main is func\n  begin\n    writeln(\"Hello World\");\n  end func;\n
+print "Hello World"
