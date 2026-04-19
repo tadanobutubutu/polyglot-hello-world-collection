@@ -1,1 +1,3 @@
-(println \"Hello World\")\n
+procedure main()
+  write("Hello World")
+end

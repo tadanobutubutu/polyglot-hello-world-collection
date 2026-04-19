@@ -1,1 +1,5 @@
-class HelloWorld {\n    static function main() {\n        trace(\"Hello World\");\n    }\n}
+class Main {
+  static public function main():Void {
+    trace("Hello World");
+  }
+}
