@@ -1,1 +1,2 @@
-print_string \"Hello World\\n\"
+let () =
+  print_endline "Hello World"
