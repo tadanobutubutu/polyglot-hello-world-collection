@@ -1,1 +1,7 @@
-void setup() {\n  Serial.begin(9600);\n  Serial.println(\"Hello World\");\n}\n\nvoid loop() {\n\n}\n
+void setup() {
+  Serial.begin(9600);
+  Serial.println("Hello World");
+}
+
+void loop() {
+}
