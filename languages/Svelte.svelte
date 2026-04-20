@@ -1,1 +1,1 @@
-<script>\n  let message = 'Hello World';\n</script>\n\n<p>{ message }</p>
+<h1>Hello World</h1>
