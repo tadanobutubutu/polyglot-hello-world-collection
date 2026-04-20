@@ -1,1 +1,16 @@
-import 'package:flutter/widgets.dart';\n\nvoid main() {\n  runApp(\n    Text(\n      'Hello World',\n      textDirection: TextDirection.ltr,\n    ),\n  );\n}\n
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: Center(child: Text('Hello World')),
+      ),
+    );
+  }
+}
