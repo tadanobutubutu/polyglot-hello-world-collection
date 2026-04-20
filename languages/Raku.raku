@@ -1,1 +1,1 @@
-say \"Hello World\";\n
+say "Hello World"
