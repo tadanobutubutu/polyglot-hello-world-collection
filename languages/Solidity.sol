@@ -1,1 +1,8 @@
-pragma solidity ^0.8.9;\n\ncontract HelloWorld {\n    function render () public pure returns (string memory) {\n        return 'Hello World';\n    }\n}\n
+// SPDX-License-Identifier: MIT
+pragma solidity ^0.8.0;
+
+contract HelloWorld {
+    function sayHello() public pure returns (string memory) {
+        return "Hello World";
+    }
+}
