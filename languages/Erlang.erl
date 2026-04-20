@@ -1,1 +1,1 @@
-print("Hello World")
+io:format("Hello World~n").
