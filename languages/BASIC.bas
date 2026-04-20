@@ -1,1 +1,3 @@
-print("Hello World")
+REM Hello World in BASIC
+PRINT "Hello World"
+END
