@@ -1,1 +1,1 @@
-BEGIN PROGRAM.\nprint \"Hello World\"\nEND PROGRAM.
+print("Hello World")
