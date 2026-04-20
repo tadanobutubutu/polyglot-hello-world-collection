@@ -1,1 +1,2 @@
-print("Hello World")
+<?php
+echo "Hello World\n";
