@@ -1,1 +1,7 @@
----\n- name: Print \n  hosts: 127.0.0.1\n  connection: local\n\n  tasks:\n  - name: Print Hello World\n    debug:\n      msg: Hello World\n
+---
+- name: Hello World
+  hosts: localhost
+  tasks:
+    - name: Print Hello World
+      debug:
+        msg: "Hello World"
