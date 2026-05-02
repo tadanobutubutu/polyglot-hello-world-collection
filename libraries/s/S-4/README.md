@@ -1,0 +1,24 @@
+# Libraries S-4 (So-Sz)
+
+Libraries starting with So through Sz.
+
+## Files
+
+- Sorrel.sorrel
+- Tansy.tansy
+- Tarn.tarn
+- Thyme.thyme
+- Uva.uva
+- Vale.vale
+- Vetch.vetch
+- Vine.vine
+- Woad.woad
+- Willow.willow
+- Xanthium.xanthium
+- Yarrow.yarrow
+- Yam.yam
+- Zea.zea
+
+## Note
+
+This is part of the alphabetical reorganization to comply with GitHub's 1000-file limit.
