@@ -1,1 +1,0 @@
-class Hello\n{\n    static Main () : void\n    {\n        System.Console.WriteLine (\"Hello World\");\n    }\n}

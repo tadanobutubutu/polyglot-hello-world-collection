@@ -1,1 +1,0 @@
-#!/usr/bin/newlisp\n(print \"Hello World\\n\")\n(exit)\n

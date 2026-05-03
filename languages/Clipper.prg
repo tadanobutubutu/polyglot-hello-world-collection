@@ -1,1 +1,0 @@
-#include <stdio.h>\n\nvoid main()\n{\n    printf(\"Hello World\\n\");\n}\n

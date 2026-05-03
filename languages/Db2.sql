@@ -1,1 +1,0 @@
-/tela\n\nHello World\n\n/*\n\clearscreen\n\npage tela\n

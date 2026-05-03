@@ -1,1 +1,0 @@
-{start python}\nprint(\"Hello World\")\n{end python}\n
