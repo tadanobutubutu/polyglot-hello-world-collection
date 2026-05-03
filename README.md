@@ -1560,7 +1560,7 @@ int main() {
 }
 ```
 
-[Source File](languages/C++.cpp)
+[Source File](libraries/c/C-1/C++.cpp)
 
 ### C#
 
@@ -1574,7 +1574,7 @@ class Program {
 }
 ```
 
-[Source File](languages/C#.cs)
+[Source File](libraries/c/C-1/C#.cs)
 
 ### Go
 
@@ -1588,7 +1588,7 @@ func main() {
 }
 ```
 
-[Source File](languages/Go.go)
+[Source File](libraries/g/G-1/Go.go)
 
 ### Java
 
@@ -1643,7 +1643,7 @@ print "Hello World"
 print "Hello World"
 ```
 
-[Source File](languages/Python2.py)
+[Source File](libraries/p/P-2/Python2.py)
 
 ### Python 3
 
@@ -1651,7 +1651,7 @@ print "Hello World"
 print("Hello World")
 ```
 
-[Source File](languages/Python3.py)
+[Source File](libraries/p/P-2/Python3.py)
 
 ### Ruby
 
@@ -1695,7 +1695,7 @@ print("Hello World")
 console.log("Hello World");
 ```
 
-[Source File](languages/TypeScript.ts)
+[Source File](libraries/t/T-2/TypeScript.ts)
 
 ---
 
