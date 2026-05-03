@@ -8,7 +8,8 @@ A curated museum of 8,000+ 'Hello World' programs. Every entry includes the orig
 
 ## All Libraries (A-Z)
 
-### Categories
+<details><summary><b>View All Libraries (A-Z)</b></summary>
+
 
 - [Famous Languages](#famous-languages) — Industry standard languages with source code
 - [Modern Languages](#modern-languages) — Future-proof and high-performance
@@ -16,9 +17,7 @@ A curated museum of 8,000+ 'Hello World' programs. Every entry includes the orig
 - [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments
 - [Research Languages](#research-languages) — Theoretical and academic paradigms
 
----
 
-### A — Libraries starting with A
 
 <details>
 <summary><b>A — Click to expand</b></summary>
@@ -69,9 +68,7 @@ print("Hello World")
 
 </details>
 
----
 
-### B — Libraries starting with B
 
 <details>
 <summary><b>B — Click to expand</b></summary>
@@ -114,9 +111,7 @@ print("Hello World")
 
 </details>
 
----
 
-### C — Libraries starting with C
 
 <details>
 <summary><b>C — Click to expand</b></summary>
@@ -159,9 +154,7 @@ print("Hello World")
 
 </details>
 
----
 
-### D — Libraries starting with D
 
 <details>
 <summary><b>D — Click to expand</b></summary>
@@ -204,9 +197,7 @@ print("Hello World")
 
 </details>
 
----
 
-### E — Libraries starting with E
 
 <details>
 <summary><b>E — Click to expand</b></summary>
@@ -233,9 +224,7 @@ print("Hello World")
 
 </details>
 
----
 
-### F — Libraries starting with F
 
 <details>
 <summary><b>F — Click to expand</b></summary>
@@ -278,9 +267,7 @@ print("Hello World")
 
 </details>
 
----
 
-### G — Libraries starting with G
 
 <details>
 <summary><b>G — Click to expand</b></summary>
@@ -323,9 +310,7 @@ print("Hello World")
 
 </details>
 
----
 
-### H — Libraries starting with H
 
 <details>
 <summary><b>H — Click to expand</b></summary>
@@ -368,9 +353,7 @@ print("Hello World")
 
 </details>
 
----
 
-### I — Libraries starting with I
 
 <details>
 <summary><b>I — Click to expand</b></summary>
@@ -405,9 +388,7 @@ print("Hello World")
 
 </details>
 
----
 
-### J — Libraries starting with J
 
 <details>
 <summary><b>J — Click to expand</b></summary>
@@ -442,9 +423,7 @@ print("Hello World")
 
 </details>
 
----
 
-### K — Libraries starting with K
 
 <details>
 <summary><b>K — Click to expand</b></summary>
@@ -471,9 +450,7 @@ print("Hello World")
 
 </details>
 
----
 
-### L — Libraries starting with L
 
 <details>
 <summary><b>L — Click to expand</b></summary>
@@ -508,9 +485,7 @@ print("Hello World")
 
 </details>
 
----
 
-### M — Libraries starting with M
 
 <details>
 <summary><b>M — Click to expand</b></summary>
@@ -577,9 +552,7 @@ print("Hello World")
 
 </details>
 
----
 
-### N — Libraries starting with N
 
 <details>
 <summary><b>N — Click to expand</b></summary>
@@ -622,9 +595,7 @@ print("Hello World")
 
 </details>
 
----
 
-### O — Libraries starting with O
 
 <details>
 <summary><b>O — Click to expand</b></summary>
@@ -659,9 +630,7 @@ print("Hello World")
 
 </details>
 
----
 
-### P — Libraries starting with P
 
 <details>
 <summary><b>P — Click to expand</b></summary>
@@ -712,9 +681,7 @@ print("Hello World")
 
 </details>
 
----
 
-### Q — Libraries starting with Q
 
 <details>
 <summary><b>Q — Click to expand</b></summary>
@@ -749,9 +716,7 @@ print("Hello World")
 
 </details>
 
----
 
-### R — Libraries starting with R
 
 <details>
 <summary><b>R — Click to expand</b></summary>
@@ -810,9 +775,7 @@ print("Hello World")
 
 </details>
 
----
 
-### S — Libraries starting with S
 
 <details>
 <summary><b>S — Click to expand</b></summary>
@@ -1015,9 +978,7 @@ print("Hello World")
 
 </details>
 
----
 
-### T — Libraries starting with T
 
 <details>
 <summary><b>T — Click to expand</b></summary>
@@ -1092,9 +1053,7 @@ print("Hello World")
 
 </details>
 
----
 
-### U — Libraries starting with U
 
 <details>
 <summary><b>U — Click to expand</b></summary>
@@ -1145,9 +1104,7 @@ print("Hello World")
 
 </details>
 
----
 
-### V — Libraries starting with V
 
 <details>
 <summary><b>V — Click to expand</b></summary>
@@ -1246,9 +1203,7 @@ print("Hello World")
 
 </details>
 
----
 
-### W — Libraries starting with W
 
 <details>
 <summary><b>W — Click to expand</b></summary>
@@ -1339,9 +1294,7 @@ print("Hello World")
 
 </details>
 
----
 
-### X — Libraries starting with X
 
 <details>
 <summary><b>X — Click to expand</b></summary>
@@ -1392,9 +1345,7 @@ print("Hello World")
 
 </details>
 
----
 
-### Y — Libraries starting with Y
 
 <details>
 <summary><b>Y — Click to expand</b></summary>
@@ -1437,9 +1388,7 @@ print("Hello World")
 
 </details>
 
----
 
-### Z — Libraries starting with Z
 
 <details>
 <summary><b>Z — Click to expand</b></summary>
@@ -1506,9 +1455,7 @@ print("Hello World")
 
 </details>
 
----
 
-### Symbols and Numbers
 
 <details>
 <summary><b>Symbols — Click to expand</b></summary>
@@ -1519,9 +1466,7 @@ print("Hello World")
 
 </details>
 
----
 
-### Non-English / Joke Languages
 
 <details>
 <summary><b>Non-English — Click to expand</b></summary>
@@ -1532,7 +1477,9 @@ print("Hello World")
 
 </details>
 
----
+
+
+</details>
 
 ## Famous Languages
 
