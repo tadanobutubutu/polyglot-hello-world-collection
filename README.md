@@ -10,26 +10,17 @@ A curated museum of 8,000+ 'Hello World' programs. Every entry includes the orig
 
 ### Category Exploration
 
-1. [Modern Languages](lists/modern.md) — Future-proof and high-performance.
-2. [Legacy Languages](lists/legacy.md) — The foundations of the digital age.
-3. [Esoteric Languages](lists/esoteric.md) — Artistic and mind-bending experiments.
-4. [Research Languages](lists/research.md) — Theoretical and academic paradigms.
+1. [Modern Languages](#modern-languages) — Future-proof and high-performance.
+2. [Legacy Languages](#legacy-languages) — The foundations of the digital age.
+3. [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments.
+4. [Research Languages](#research-languages) — Theoretical and academic paradigms.
 
 <details><summary><b>View All Libraries (A-Z)</b></summary>
-
-
-- [Famous Languages](#famous-languages) — Industry standard languages with source code
-- [Modern Languages](#modern-languages) — Future-proof and high-performance
-- [Legacy Languages](#legacy-languages) — The foundations of the digital age
-- [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments
-- [Research Languages](#research-languages) — Theoretical and academic paradigms
 
 
 
 <details>
 <summary><b>A — Click to expand</b></summary>
-
-**Full List:** [A Libraries Batch](libraries/A_BATCH_1.md)
 
 **Subdivisions:** [A-1: A-Ac](libraries/a/A-1/) | [A-2: Ac-Aj](libraries/a/A-2/) | [A-3: Aj-Ar](libraries/a/A-3/) | [A-4: Ar-Az](libraries/a/A-4/)
 
@@ -80,8 +71,6 @@ print("Hello World")
 <details>
 <summary><b>B — Click to expand</b></summary>
 
-**Full List:** [B Libraries Batch](libraries/B_BATCH_1.md)
-
 **Subdivisions:** [B-1: B-Be](libraries/b/B-1/) | [B-2: Be-Bo](libraries/b/B-2/) | [B-3: Bo-Br](libraries/b/B-3/) | [B-4: Br-Bz](libraries/b/B-4/)
 
 ##### Blaze
@@ -90,7 +79,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Blaze.blaze)
+[Source File](libraries/b/B-3/Blaze.blaze)
 
 ##### Bliss
 
@@ -98,7 +87,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Bliss.bliss)
+[Source File](libraries/b/B-3/Bliss.bliss)
 
 ##### Breeze
 
@@ -106,7 +95,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Breeze.breeze)
+[Source File](libraries/b/B-3/Breeze.breeze)
 
 ##### Brook
 
@@ -114,7 +103,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Brook.brook)
+[Source File](libraries/b/B-3/Brook.brook)
 
 </details>
 
@@ -122,8 +111,6 @@ print("Hello World")
 
 <details>
 <summary><b>C — Click to expand</b></summary>
-
-**Full List:** [C Libraries Batch](libraries/C_BATCH_1.md)
 
 **Subdivisions:** [C-1: C-Ca](libraries/c/C-1/) | [C-2: Ca-Ch](libraries/c/C-2/) | [C-3: Ch-Co](libraries/c/C-3/) | [C-4: Co-Cz](libraries/c/C-4/)
 
@@ -133,7 +120,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Chaos.chaos)
+[Source File](libraries/c/C-1/Chaos.chaos)
 
 ##### Cloud
 
@@ -141,7 +128,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Cloud.cloud)
+[Source File](libraries/c/C-1/Cloud.cloud)
 
 ##### Crystal
 
@@ -149,7 +136,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Crystal.crystal)
+[Source File](libraries/c/C-1/Crystal.crystal)
 
 ##### Cove
 
@@ -157,7 +144,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Cove.cove)
+[Source File](libraries/c/C-3/Cove.cove)
 
 </details>
 
@@ -165,8 +152,6 @@ print("Hello World")
 
 <details>
 <summary><b>D — Click to expand</b></summary>
-
-**Full List:** [D Libraries Batch](libraries/D_BATCH_1.md)
 
 **Subdivisions:** [D-1: D-Di](libraries/d/D-1/) | [D-2: Di-Do](libraries/d/D-2/) | [D-3: Do-Dz](libraries/d/D-3/)
 
@@ -176,7 +161,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Dawn.dawn)
+[Source File](libraries/d/D-1/Dawn.dawn)
 
 ##### Dream
 
@@ -184,7 +169,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Dream.dream)
+[Source File](libraries/d/D-3/Dream.dream)
 
 ##### Dash
 
@@ -192,7 +177,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Dash.dash)
+[Source File](libraries/d/D-1/Dash.dash)
 
 ##### Drift
 
@@ -200,7 +185,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Drift.drift)
+[Source File](libraries/d/D-3/Drift.drift)
 
 </details>
 
@@ -208,8 +193,6 @@ print("Hello World")
 
 <details>
 <summary><b>E — Click to expand</b></summary>
-
-**Full List:** [E Libraries Batch](libraries/E_BATCH_1.md)
 
 **Subdivisions:** [E-1: E-El](libraries/e/E-1/) | [E-2: El-Ez](libraries/e/E-2/)
 
@@ -219,7 +202,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Echo.echo)
+[Source File](libraries/e/E-1/Echo.echo)
 
 ##### Elite
 
@@ -227,7 +210,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Elite.elite)
+[Source File](libraries/e/E-2/Elite.elite)
 
 </details>
 
@@ -235,8 +218,6 @@ print("Hello World")
 
 <details>
 <summary><b>F — Click to expand</b></summary>
-
-**Full List:** [F Libraries Batch](libraries/F_BATCH_1.md)
 
 **Subdivisions:** [F-1: F-Fi](libraries/f/F-1/) | [F-2: Fi-Fz](libraries/f/F-2/)
 
@@ -246,7 +227,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Flame.flame)
+[Source File](libraries/f/F-1/Flame.flame)
 
 ##### Flare
 
@@ -254,7 +235,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Flare.flare)
+[Source File](libraries/f/F-1/Flare.flare)
 
 ##### Flux
 
@@ -262,7 +243,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Flux.flux)
+[Source File](libraries/f/F-2/Flux.flux)
 
 ##### Frost
 
@@ -270,7 +251,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Frost.frost)
+[Source File](libraries/f/F-2/Frost.frost)
 
 </details>
 
@@ -278,8 +259,6 @@ print("Hello World")
 
 <details>
 <summary><b>G — Click to expand</b></summary>
-
-**Full List:** [G Libraries Batch](libraries/G_BATCH_1.md)
 
 **Subdivisions:** [G-1: G-Go](libraries/g/G-1/) | [G-2: Go-Gr](libraries/g/G-2/) | [G-3: Gr-Gz](libraries/g/G-3/)
 
@@ -289,7 +268,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Glide.glide)
+[Source File](libraries/g/G-1/Glide.glide)
 
 ##### Glitter
 
@@ -297,7 +276,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Glitter.glitter)
+[Source File](libraries/g/G-1/Glitter.glitter)
 
 ##### Glow
 
@@ -305,7 +284,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Glow.glow)
+[Source File](libraries/g/G-1/Glow.glow)
 
 ##### Grit
 
@@ -313,7 +292,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Grit.grit)
+[Source File](libraries/g/G-3/Grit.grit)
 
 </details>
 
@@ -321,8 +300,6 @@ print("Hello World")
 
 <details>
 <summary><b>H — Click to expand</b></summary>
-
-**Full List:** [H Libraries Batch](libraries/H_BATCH_1.md)
 
 **Subdivisions:** [H-1: H-He](libraries/h/H-1/) | [H-2: He-Ho](libraries/h/H-2/) | [H-3: Ho-Hz](libraries/h/H-3/)
 
@@ -332,7 +309,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Harmony.harmony)
+[Source File](libraries/h/H-1/Harmony.harmony)
 
 ##### Haze
 
@@ -340,7 +317,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Haze.haze)
+[Source File](libraries/h/H-1/Haze.haze)
 
 ##### Horizon
 
@@ -348,7 +325,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Horizon.horizon)
+[Source File](libraries/h/H-3/Horizon.horizon)
 
 ##### Hush
 
@@ -356,7 +333,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Hush.hush)
+[Source File](libraries/h/H-3/Hush.hush)
 
 </details>
 
@@ -364,8 +341,6 @@ print("Hello World")
 
 <details>
 <summary><b>I — Click to expand</b></summary>
-
-**Full List:** [I Libraries Batch](libraries/I_BATCH_1.md)
 
 **Subdivisions:** [I-1: I-In](libraries/i/I-1/) | [I-2: In-Iz](libraries/i/I-2/)
 
@@ -375,7 +350,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Icy.icy)
+[Source File](libraries/i/I-1/Icy.icy)
 
 ##### Idle
 
@@ -383,7 +358,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Idle.idle)
+[Source File](libraries/i/I-1/Idle.idle)
 
 ##### Illite
 
@@ -391,7 +366,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Illite.illite)
+[Source File](libraries/i/I-1/Illite.illite)
 
 </details>
 
@@ -399,8 +374,6 @@ print("Hello World")
 
 <details>
 <summary><b>J — Click to expand</b></summary>
-
-**Full List:** [J Libraries Batch](libraries/J_BATCH_1.md)
 
 **Subdivisions:** [J-1: J-Ja](libraries/j/J-1/) | [J-2: Ja-Jo](libraries/j/J-2/) | [J-3: Jo-Jz](libraries/j/J-3/)
 
@@ -410,7 +383,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Jagged.jagged)
+[Source File](libraries/j/J-1/Jagged.jagged)
 
 ##### Jolt
 
@@ -418,7 +391,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Jolt.jolt)
+[Source File](libraries/j/J-3/Jolt.jolt)
 
 ##### Jolly
 
@@ -426,7 +399,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Jolly.jolly)
+[Source File](libraries/j/J-3/Jolly.jolly)
 
 </details>
 
@@ -434,8 +407,6 @@ print("Hello World")
 
 <details>
 <summary><b>K — Click to expand</b></summary>
-
-**Full List:** [K and L Libraries Batch](libraries/K_L_BATCH_1.md)
 
 **Subdivisions:** [K-1: K-Ka](libraries/k/K-1/) | [K-2: Ka-Ko](libraries/k/K-2/) | [K-3: Ko-Kz](libraries/k/K-3/)
 
@@ -445,7 +416,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Keen.keen)
+[Source File](libraries/k/K-1/Keen.keen)
 
 ##### Komatiite
 
@@ -453,7 +424,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Komatiite.komatiite)
+[Source File](libraries/k/K-3/Komatiite.komatiite)
 
 </details>
 
@@ -461,8 +432,6 @@ print("Hello World")
 
 <details>
 <summary><b>L — Click to expand</b></summary>
-
-**Full List:** [K and L Libraries Batch](libraries/K_L_BATCH_1.md)
 
 **Subdivisions:** [L-1: L-La](libraries/l/L-1/) | [L-2: La-Li](libraries/l/L-2/) | [L-3: Li-Lz](libraries/l/L-3/)
 
@@ -472,7 +441,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Lamproite.lamproite)
+[Source File](libraries/l/L-1/Lamproite.lamproite)
 
 ##### Lanky
 
@@ -480,7 +449,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Lanky.lanky)
+[Source File](libraries/l/L-1/Lanky.lanky)
 
 ##### Lazulite
 
@@ -488,7 +457,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Lazulite.lazulite)
+[Source File](libraries/l/L-2/Lazulite.lazulite)
 
 </details>
 
@@ -496,8 +465,6 @@ print("Hello World")
 
 <details>
 <summary><b>M — Click to expand</b></summary>
-
-**Full List:** [M Libraries Batch](libraries/M_BATCH_1.md)
 
 **Subdivisions:** [M-1: M-Ma](libraries/m/M-1/) | [M-2: Ma-Mi](libraries/m/M-2/) | [M-3: Mi-Mz](libraries/m/M-3/)
 
@@ -507,7 +474,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Magic.magic)
+[Source File](libraries/m/M-1/Magic.magic)
 
 ##### Marble
 
@@ -515,7 +482,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Marble.marble)
+[Source File](libraries/m/M-1/Marble.marble)
 
 ##### Meek
 
@@ -523,7 +490,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Meek.meek)
+[Source File](libraries/m/M-2/Meek.meek)
 
 ##### Mellow
 
@@ -531,7 +498,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Mellow.mellow)
+[Source File](libraries/m/M-2/Mellow.mellow)
 
 ##### Migmatite
 
@@ -539,7 +506,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Migmatite.migmatite)
+[Source File](libraries/m/M-2/Migmatite.migmatite)
 
 ##### Mist
 
@@ -547,7 +514,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Mist.mist)
+[Source File](libraries/m/M-3/Mist.mist)
 
 ##### Moon
 
@@ -555,7 +522,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Moon.moon)
+[Source File](libraries/m/M-3/Moon.moon)
 
 </details>
 
@@ -563,8 +530,6 @@ print("Hello World")
 
 <details>
 <summary><b>N — Click to expand</b></summary>
-
-**Full List:** [N Libraries Batch](libraries/N_BATCH_1.md)
 
 **Subdivisions:** [N-1: N-Na](libraries/n/N-1/) | [N-2: Na-Ni](libraries/n/N-2/) | [N-3: Ni-Nz](libraries/n/N-3/)
 
@@ -574,7 +539,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Nickeline.nickeline)
+[Source File](libraries/n/N-2/Nickeline.nickeline)
 
 ##### Nifty
 
@@ -582,7 +547,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Nifty.nifty)
+[Source File](libraries/n/N-2/Nifty.nifty)
 
 ##### Null
 
@@ -590,7 +555,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Null.null)
+[Source File](libraries/n/N-3/Null.null)
 
 ##### Novaculite
 
@@ -598,7 +563,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Novaculite.novaculite)
+[Source File](libraries/n/N-3/Novaculite.novaculite)
 
 </details>
 
@@ -606,8 +571,6 @@ print("Hello World")
 
 <details>
 <summary><b>O — Click to expand</b></summary>
-
-**Full List:** [O Libraries Batch](libraries/O_BATCH_1.md)
 
 **Subdivisions:** [O-1: O-Op](libraries/o/O-1/) | [O-2: Op-Oz](libraries/o/O-2/)
 
@@ -617,7 +580,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Odd.odd)
+[Source File](libraries/o/O-1/Odd.odd)
 
 ##### Orbit
 
@@ -625,7 +588,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Orbit.orbit)
+[Source File](libraries/o/O-2/Orbit.orbit)
 
 ##### Orpiment
 
@@ -633,7 +596,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Orpiment.orpiment)
+[Source File](libraries/o/O-2/Orpiment.orpiment)
 
 </details>
 
@@ -641,8 +604,6 @@ print("Hello World")
 
 <details>
 <summary><b>P — Click to expand</b></summary>
-
-**Full List:** [P Libraries Batch](libraries/P_BATCH_1.md)
 
 **Subdivisions:** [P-1: P-Pe](libraries/p/P-1/) | [P-2: Pe-Po](libraries/p/P-2/) | [P-3: Po-Pz](libraries/p/P-3/)
 
@@ -652,7 +613,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Pale.pale)
+[Source File](libraries/p/P-1/Pale.pale)
 
 ##### Peppy
 
@@ -660,7 +621,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Peppy.peppy)
+[Source File](libraries/p/P-2/Peppy.peppy)
 
 ##### Pluck
 
@@ -668,7 +629,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Pluck.pluck)
+[Source File](libraries/p/P-3/Pluck.pluck)
 
 ##### Prism
 
@@ -676,7 +637,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Prism.prism)
+[Source File](libraries/p/P-3/Prism.prism)
 
 ##### Pulse
 
@@ -684,7 +645,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Pulse.pulse)
+[Source File](libraries/p/P-3/Pulse.pulse)
 
 </details>
 
@@ -692,8 +653,6 @@ print("Hello World")
 
 <details>
 <summary><b>Q — Click to expand</b></summary>
-
-**Full List:** [Q Libraries Batch](libraries/Q_BATCH_1.md)
 
 **Subdivisions:** [Q-1: Q-Qh](libraries/q/Q-1/) | [Q-2: Qh-Qu](libraries/q/Q-2/) | [Q-3: Qu-Qz](libraries/q/Q-3/)
 
@@ -703,7 +662,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Quaint.quaint)
+[Source File](libraries/q/Q-1/Quaint.quaint)
 
 ##### Quark
 
@@ -711,7 +670,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Quark.quark)
+[Source File](libraries/q/Q-1/Quark.quark)
 
 ##### Quartzic
 
@@ -719,7 +678,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Quartzic.quartzic)
+[Source File](libraries/q/Q-2/Quartzic.quartzic)
 
 </details>
 
@@ -727,8 +686,6 @@ print("Hello World")
 
 <details>
 <summary><b>R — Click to expand</b></summary>
-
-**Full List:** [R Libraries Batch](libraries/R_BATCH_1.md)
 
 **Subdivisions:** [R-1: R-Re](libraries/r/R-1/) | [R-2: Re-Ro](libraries/r/R-2/) | [R-3: Ro-Rz](libraries/r/R-3/)
 
@@ -738,7 +695,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Rainbow.rainbow)
+[Source File](libraries/r/R-1/Rainbow.rainbow)
 
 ##### Rash
 
@@ -746,7 +703,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Rash.rash)
+[Source File](libraries/r/R-1/Rash.rash)
 
 ##### Rift
 
@@ -754,7 +711,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Rift.rift)
+[Source File](libraries/r/R-2/Rift.rift)
 
 ##### Rigid
 
@@ -762,7 +719,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Rigid.rigid)
+[Source File](libraries/r/R-2/Rigid.rigid)
 
 ##### Ripple
 
@@ -770,7 +727,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Ripple.ripple)
+[Source File](libraries/r/R-2/Ripple.ripple)
 
 ##### Rock
 
@@ -778,7 +735,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Rock.rock)
+[Source File](libraries/r/R-2/Rock.rock)
 
 </details>
 
@@ -786,8 +743,6 @@ print("Hello World")
 
 <details>
 <summary><b>S — Click to expand</b></summary>
-
-**Full List:** [S Libraries Batch](libraries/S_BATCH_1.md)
 
 **Subdivisions:** [S-1: S-Sa](libraries/s/S-1/) | [S-2: Sa-Se](libraries/s/S-2/) | [S-3: Se-So](libraries/s/S-3/) | [S-4: So-Sz](libraries/s/S-4/)
 
@@ -797,7 +752,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Sandstone.sandstone)
+[Source File](libraries/s/S-1/Sandstone.sandstone)
 
 ##### Sarcolite
 
@@ -805,7 +760,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Sarcolite.sarcolite)
+[Source File](libraries/s/S-1/Sarcolite.sarcolite)
 
 ##### Shadow
 
@@ -813,7 +768,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Shadow.shadow)
+[Source File](libraries/s/S-3/Shadow.shadow)
 
 ##### Sleek
 
@@ -821,7 +776,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Sleek.sleek)
+[Source File](libraries/s/S-3/Sleek.sleek)
 
 ##### Sly
 
@@ -829,7 +784,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Sly.sly)
+[Source File](libraries/s/S-3/Sly.sly)
 
 ##### Spark
 
@@ -837,7 +792,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Spark.spark)
+[Source File](libraries/s/S-3/Spark.spark)
 
 ##### Spry
 
@@ -845,7 +800,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Spry.spry)
+[Source File](libraries/s/S-3/Spry.spry)
 
 ##### Star
 
@@ -853,7 +808,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Star.star)
+[Source File](libraries/s/S-3/Star.star)
 
 ##### Stern
 
@@ -861,7 +816,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Stern.stern)
+[Source File](libraries/s/S-3/Stern.stern)
 
 ##### Stibnite
 
@@ -869,7 +824,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Stibnite.stibnite)
+[Source File](libraries/s/S-3/Stibnite.stibnite)
 
 ##### Sorrel
 
@@ -990,8 +945,6 @@ print("Hello World")
 <details>
 <summary><b>T — Click to expand</b></summary>
 
-**Full List:** [T Libraries Batch](libraries/T_BATCH_1.md)
-
 **Subdivisions:** [T-1: T-Te](libraries/t/T-1/) | [T-2: Te-Th](libraries/t/T-2/) | [T-3: Th-To](libraries/t/T-3/) | [T-4: To-Tz](libraries/t/T-4/)
 
 ##### Tarn
@@ -1000,7 +953,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Tarn.tarn)
+[Source File](libraries/t/T-1/Tarn.tarn)
 
 ##### Tame
 
@@ -1008,7 +961,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Tame.tame)
+[Source File](libraries/t/T-1/Tame.tame)
 
 ##### Thrive
 
@@ -1016,7 +969,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Thrive.thrive)
+[Source File](libraries/t/T-3/Thrive.thrive)
 
 ##### Thunder
 
@@ -1024,7 +977,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Thunder.thunder)
+[Source File](libraries/t/T-3/Thunder.thunder)
 
 ##### Thyme
 
@@ -1032,7 +985,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Thyme.thyme)
+[Source File](libraries/t/T-3/Thyme.thyme)
 
 ##### Tide
 
@@ -1040,7 +993,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Tide.tide)
+[Source File](libraries/t/T-3/Tide.tide)
 
 ##### Tidy
 
@@ -1048,7 +1001,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Tidy.tidy)
+[Source File](libraries/t/T-3/Tidy.tidy)
 
 ##### Twist
 
@@ -1056,7 +1009,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Twist.twist)
+[Source File](libraries/t/T-4/Twist.twist)
 
 </details>
 
@@ -1064,8 +1017,6 @@ print("Hello World")
 
 <details>
 <summary><b>U — Click to expand</b></summary>
-
-**Full List:** [U Libraries Batch](libraries/U_BATCH_1.md)
 
 **Subdivisions:** [U-1: U-Ul](libraries/u/U-1/) | [U-2: Ul-Uz](libraries/u/U-2/)
 
@@ -1075,7 +1026,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Urban.urban)
+[Source File](libraries/u/U-2/Urban.urban)
 
 ##### Uranium
 
@@ -1083,7 +1034,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Uranium.uranium)
+[Source File](libraries/u/U-2/Uranium.uranium)
 
 ##### Uranophane
 
@@ -1091,7 +1042,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Uranophane.uranophane)
+[Source File](libraries/u/U-2/Uranophane.uranophane)
 
 ##### Uralite
 
@@ -1099,7 +1050,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Uralite.uralite)
+[Source File](libraries/u/U-1/Uralite.uralite)
 
 ##### Uva
 
@@ -1107,7 +1058,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Uva.uva)
+[Source File](libraries/u/U-2/Uva.uva)
 
 </details>
 
@@ -1115,8 +1066,6 @@ print("Hello World")
 
 <details>
 <summary><b>V — Click to expand</b></summary>
-
-**Full List:** [V Libraries Batch](libraries/V_BATCH_1.md)
 
 **Subdivisions:** [V-1: V-Ve](libraries/v/V-1/) | [V-2: Ve-Vo](libraries/v/V-2/) | [V-3: Vo-Vz](libraries/v/V-3/)
 
@@ -1126,7 +1075,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Vague.vague)
+[Source File](libraries/v/V-1/Vague.vague)
 
 ##### Vale
 
@@ -1134,7 +1083,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Vale.vale)
+[Source File](libraries/v/V-1/Vale.vale)
 
 ##### Vapor
 
@@ -1142,7 +1091,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Vapor.vapor)
+[Source File](libraries/v/V-1/Vapor.vapor)
 
 ##### Veer
 
@@ -1150,7 +1099,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Veer.veer)
+[Source File](libraries/v/V-1/Veer.veer)
 
 ##### Vetch
 
@@ -1158,7 +1107,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Vetch.vetch)
+[Source File](libraries/v/V-1/Vetch.vetch)
 
 ##### Verge
 
@@ -1166,7 +1115,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Verge.verge)
+[Source File](libraries/v/V-1/Verge.verge)
 
 ##### Vex
 
@@ -1174,7 +1123,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Vex.vex)
+[Source File](libraries/v/V-1/Vex.vex)
 
 ##### Vesuvianite
 
@@ -1182,7 +1131,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Vesuvianite.vesuvianite)
+[Source File](libraries/v/V-1/Vesuvianite.vesuvianite)
 
 ##### Vine
 
@@ -1190,7 +1139,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Vine.vine)
+[Source File](libraries/v/V-2/Vine.vine)
 
 ##### Void
 
@@ -1198,7 +1147,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Void.void)
+[Source File](libraries/v/V-2/Void.void)
 
 ##### Volcanic
 
@@ -1206,7 +1155,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Volcanic.volcanic)
+[Source File](libraries/v/V-3/Volcanic.volcanic)
 
 </details>
 
@@ -1214,8 +1163,6 @@ print("Hello World")
 
 <details>
 <summary><b>W — Click to expand</b></summary>
-
-**Full List:** [W Libraries Batch](libraries/W_BATCH_1.md)
 
 **Subdivisions:** [W-1: W-We](libraries/w/W-1/) | [W-2: We-Wh](libraries/w/W-2/) | [W-3: Wh-Wo](libraries/w/W-3/) | [W-4: Wo-Wz](libraries/w/W-4/)
 
@@ -1225,7 +1172,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Wacke.wacke)
+[Source File](libraries/w/W-1/Wacke.wacke)
 
 ##### Warp
 
@@ -1233,7 +1180,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Warp.warp)
+[Source File](libraries/w/W-1/Warp.warp)
 
 ##### Wary
 
@@ -1241,7 +1188,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Wary.wary)
+[Source File](libraries/w/W-1/Wary.wary)
 
 ##### Wave
 
@@ -1249,7 +1196,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Wave.wave)
+[Source File](libraries/w/W-1/Wave.wave)
 
 ##### Willow
 
@@ -1257,7 +1204,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Willow.willow)
+[Source File](libraries/w/W-3/Willow.willow)
 
 ##### Whisper
 
@@ -1265,7 +1212,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Whisper.whisper)
+[Source File](libraries/w/W-2/Whisper.whisper)
 
 ##### Wily
 
@@ -1273,7 +1220,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Wily.wily)
+[Source File](libraries/w/W-3/Wily.wily)
 
 ##### Wisp
 
@@ -1281,7 +1228,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Wisp.wisp)
+[Source File](libraries/w/W-3/Wisp.wisp)
 
 ##### Woad
 
@@ -1289,7 +1236,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Woad.woad)
+[Source File](libraries/w/W-4/Woad.woad)
 
 ##### Wurtzite
 
@@ -1297,7 +1244,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Wurtzite.wurtzite)
+[Source File](libraries/w/W-4/Wurtzite.wurtzite)
 
 </details>
 
@@ -1305,8 +1252,6 @@ print("Hello World")
 
 <details>
 <summary><b>X — Click to expand</b></summary>
-
-**Full List:** [X Libraries Batch](libraries/X_BATCH_1.md)
 
 **Subdivisions:** [X-1: X-Xe](libraries/x/X-1/) | [X-2: Xe-Xz](libraries/x/X-2/)
 
@@ -1316,7 +1261,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Xanthium.xanthium)
+[Source File](libraries/x/X-1/Xanthium.xanthium)
 
 ##### Xenoliths
 
@@ -1324,7 +1269,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Xenoliths.xenoliths)
+[Source File](libraries/x/X-2/Xenoliths.xenoliths)
 
 ##### Xenotime
 
@@ -1332,7 +1277,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Xenotime.xenotime)
+[Source File](libraries/x/X-2/Xenotime.xenotime)
 
 ##### Xilingolite
 
@@ -1340,7 +1285,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Xilingolite.xilingolite)
+[Source File](libraries/x/X-2/Xilingolite.xilingolite)
 
 ##### Xonotlite
 
@@ -1348,7 +1293,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Xonotlite.xonotlite)
+[Source File](libraries/x/X-2/Xonotlite.xonotlite)
 
 </details>
 
@@ -1356,8 +1301,6 @@ print("Hello World")
 
 <details>
 <summary><b>Y — Click to expand</b></summary>
-
-**Full List:** [Y Libraries Batch](libraries/Y_BATCH_1.md)
 
 **Subdivisions:** [Y-1: Y-Ye](libraries/y/Y-1/) | [Y-2: Ye-Yo](libraries/y/Y-2/) | [Y-3: Yo-Yz](libraries/y/Y-3/)
 
@@ -1367,7 +1310,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Yam.yam)
+[Source File](libraries/y/Y-1/Yam.yam)
 
 ##### Yarrow
 
@@ -1375,7 +1318,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Yarrow.yarrow)
+[Source File](libraries/y/Y-1/Yarrow.yarrow)
 
 ##### Yellowrock
 
@@ -1383,7 +1326,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Yellowrock.yellowrock)
+[Source File](libraries/y/Y-2/Yellowrock.yellowrock)
 
 ##### Yukonite
 
@@ -1391,7 +1334,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Yukonite.yukonite)
+[Source File](libraries/y/Y-3/Yukonite.yukonite)
 
 </details>
 
@@ -1399,8 +1342,6 @@ print("Hello World")
 
 <details>
 <summary><b>Z — Click to expand</b></summary>
-
-**Full List:** [Z Libraries Batch](libraries/Z_BATCH_1.md)
 
 **Subdivisions:** [Z-1: Z-Zi](libraries/z/Z-1/) | [Z-2: Zi-Zz](libraries/z/Z-2/)
 
@@ -1410,7 +1351,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Zany.zany)
+[Source File](libraries/z/Z-1/Zany.zany)
 
 ##### Zap
 
@@ -1418,7 +1359,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Zap.zap)
+[Source File](libraries/z/Z-1/Zap.zap)
 
 ##### Zea
 
@@ -1426,7 +1367,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Zea.zea)
+[Source File](libraries/z/Z-1/Zea.zea)
 
 ##### Zektzerite
 
@@ -1434,7 +1375,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Zektzerite.zektzerite)
+[Source File](libraries/z/Z-1/Zektzerite.zektzerite)
 
 ##### Zinkenite
 
@@ -1442,7 +1383,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Zinkenite.zinkenite)
+[Source File](libraries/z/Z-2/Zinkenite.zinkenite)
 
 ##### Zirconia
 
@@ -1450,7 +1391,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Zirconia.zirconia)
+[Source File](libraries/z/Z-2/Zirconia.zirconia)
 
 ##### Zorgite
 
@@ -1458,7 +1399,7 @@ print("Hello World")
 print("Hello World")
 ```
 
-[Source File](libraries/Zorgite.zorgite)
+[Source File](libraries/z/Z-2/Zorgite.zorgite)
 
 </details>
 
@@ -1466,8 +1407,6 @@ print("Hello World")
 
 <details>
 <summary><b>Symbols — Click to expand</b></summary>
-
-**Full List:** [Symbols Libraries Batch](libraries/SYMBOLS_BATCH_1.md)
 
 **Subdivisions:** [Symbols-1: 0-9](libraries/symbols/Symbols-1/) | [Symbols-2: Special](libraries/symbols/Symbols-2/)
 
@@ -1477,8 +1416,6 @@ print("Hello World")
 
 <details>
 <summary><b>Non-English — Click to expand</b></summary>
-
-**Full List:** [NonEnglish Libraries Batch](libraries/NONENGLISH_BATCH_1.md)
 
 **Subdivisions:** [NonEnglish-1: Asian](libraries/nonenglish/NonEnglish-1/) | [NonEnglish-2: European](libraries/nonenglish/NonEnglish-2/) | [NonEnglish-3: Others](libraries/nonenglish/NonEnglish-3/)
 
@@ -1681,16 +1618,13 @@ See [lists/research.md](lists/research.md)
 
 ```
 polyglot-hello-world-collection/
-├── languages/              # Programming languages
-├── libraries/              # Libraries organized alphabetically
-│   ├── a/A-1/ ~ a/A-4/   # A libraries
-│   ├── b/B-1/ ~ b/B-4/   # B libraries
-│   ├── ...               # C through Y
-│   ├── s/S-1/ ~ s/S-4/   # S libraries (largest)
-│   ├── z/Z-1/, z/Z-2/    # Z libraries
-│   ├── symbols/            # Symbol/number libraries
-│   └── nonenglish/         # Non-English named libraries
-└── lists/                  # Categorized lists
+├── languages/                    # Programming languages
+├── libraries/                    # Libraries organized alphabetically
+│   ├── a/ ~ z/                   # A through Z subdirectories
+│   │   └── X-1/ ~ X-N/          # Further alphabetical subdivisions
+│   ├── symbols/                  # Symbol/number libraries
+│   └── nonenglish/               # Non-English named libraries
+└── lists/                        # Categorized lists
 ```
 
 ---
