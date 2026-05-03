@@ -8,14 +8,19 @@ A curated museum of 8,000+ 'Hello World' programs. Every entry includes the orig
 
 ### Category Exploration
 
-1. [Modern Languages](#modern-languages) — Future-proof and high-performance.
-2. [Legacy Languages](#legacy-languages) — The foundations of the digital age.
-3. [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments.
-4. [Research Languages](#research-languages) — Theoretical and academic paradigms.
+1. [Famous Languages](#famous-languages) — Industry standard languages with source code.
+2. [Modern Languages](#modern-languages) — Future-proof and high-performance.
+3. [Legacy Languages](#legacy-languages) — The foundations of the digital age.
+4. [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments.
+5. [Research Languages](#research-languages) — Theoretical and academic paradigms.
 
 <details><summary><b>View All Libraries (A-Z)</b></summary>
 
-
+- [Famous Languages](#famous-languages) — Industry standard languages with source code
+- [Modern Languages](#modern-languages) — Future-proof and high-performance
+- [Legacy Languages](#legacy-languages) — The foundations of the digital age
+- [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments
+- [Research Languages](#research-languages) — Theoretical and academic paradigms
 
 <details>
 <summary><b>A — Click to expand</b></summary>
@@ -1618,12 +1623,17 @@ See [lists/research.md](lists/research.md)
 polyglot-hello-world-collection/
 ├── languages/                    # Programming languages
 ├── libraries/                    # Libraries organized alphabetically
-│   ├── a/ ~ z/                   # A through Z subdirectories
-│   │   └── X-1/ ~ X-N/          # Further alphabetical subdivisions
+│   ├── a/A-1/ ~ a/A-4/          # A libraries
+│   ├── b/B-1/ ~ b/B-4/          # B libraries
+│   ├── ...                       # C through Y
+│   ├── s/S-1/ ~ s/S-4/          # S libraries (largest)
+│   ├── z/Z-1/, z/Z-2/           # Z libraries
 │   ├── symbols/                  # Symbol/number libraries
 │   └── nonenglish/               # Non-English named libraries
 └── lists/                        # Categorized lists
 ```
+
+> **Note:** Due to GitHub's 1,000 file limit per directory, libraries are organized alphabetically into subdirectories.
 
 ---
 
