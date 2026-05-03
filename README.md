@@ -16,12 +16,6 @@ A curated museum of 8,000+ 'Hello World' programs. Every entry includes the orig
 
 <details><summary><b>View All Libraries (A-Z)</b></summary>
 
-- [Famous Languages](#famous-languages) — Industry standard languages with source code
-- [Modern Languages](#modern-languages) — Future-proof and high-performance
-- [Legacy Languages](#legacy-languages) — The foundations of the digital age
-- [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments
-- [Research Languages](#research-languages) — Theoretical and academic paradigms
-
 <details>
 <summary><b>A — Click to expand</b></summary>
 
