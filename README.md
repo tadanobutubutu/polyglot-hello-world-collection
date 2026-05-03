@@ -8,6 +8,13 @@ A curated museum of 8,000+ 'Hello World' programs. Every entry includes the orig
 
 ## All Libraries (A-Z)
 
+### Category Exploration
+
+1. [Modern Languages](lists/modern.md) — Future-proof and high-performance.
+2. [Legacy Languages](lists/legacy.md) — The foundations of the digital age.
+3. [Esoteric Languages](lists/esoteric.md) — Artistic and mind-bending experiments.
+4. [Research Languages](lists/research.md) — Theoretical and academic paradigms.
+
 <details><summary><b>View All Libraries (A-Z)</b></summary>
 
 
@@ -1576,7 +1583,7 @@ echo "Hello World";
 
 [Source File](languages/PHP.php)
 
-### Python 1
+### Python
 
 ```python
 print "Hello World"
