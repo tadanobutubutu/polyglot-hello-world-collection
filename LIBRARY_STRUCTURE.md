@@ -32,14 +32,12 @@ polyglot-hello-world-collection/
 │       ├── NonEnglish-2/          # European languages
 │       └── NonEnglish-3/          # Others
 │
-└── lists/                         # Categorized language lists
-    ├── modern.md
-    ├── legacy.md
-    ├── esoteric.md
-    ├── research.md
-    ├── minor_a-i.md
-    ├── minor_j-r.md
-    └── minor_s-z.md
+└── lists/                         # Categorized language lists (60+ files)
+    ├── A1.md through Z2.md        # Lists for every alphabetical subdivision
+    ├── modern.md                  # Modern high-performance languages
+    ├── legacy.md                  # Historic and foundational languages
+    ├── esoteric.md                # Artistic and unusual languages
+    └── research.md                # Academic and paradigm-shifting languages
 ```
 
 ## Organization System

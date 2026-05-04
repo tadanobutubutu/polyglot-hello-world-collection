@@ -1435,7 +1435,7 @@ int main() {
 }
 ```
 
-[Source File](languages/C.c)
+[Source File](libraries/c/C-1/c.c)
 
 ### C++
 
@@ -1488,7 +1488,7 @@ public class HelloWorld {
 }
 ```
 
-[Source File](languages/Java.java)
+[Source File](libraries/j/J-1/java.java)
 
 ### JavaScript
 
@@ -1496,7 +1496,7 @@ public class HelloWorld {
 console.log("Hello World");
 ```
 
-[Source File](languages/JavaScript.js)
+[Source File](libraries/j/J-1/javascript.js)
 
 ### Kotlin
 
@@ -1506,7 +1506,7 @@ fun main() {
 }
 ```
 
-[Source File](languages/Kotlin.kt)
+[Source File](libraries/k/K-2/kotlin.kt)
 
 ### PHP
 
@@ -1515,7 +1515,7 @@ fun main() {
 echo "Hello World";
 ```
 
-[Source File](languages/PHP.php)
+[Source File](libraries/p/P-1/php.php)
 
 ### Python
 
@@ -1523,7 +1523,7 @@ echo "Hello World";
 print "Hello World"
 ```
 
-[Source File](languages/Python.py)
+[Source File](libraries/p/P-2/python.py)
 
 ### Python 2
 
@@ -1547,7 +1547,7 @@ print("Hello World")
 puts "Hello World"
 ```
 
-[Source File](languages/Ruby.rb)
+[Source File](libraries/r/R-2/ruby.rb)
 
 ### Rust
 
@@ -1557,7 +1557,7 @@ fn main() {
 }
 ```
 
-[Source File](languages/Rust.rs)
+[Source File](libraries/r/R-2/rust.rs)
 
 ### Scala
 
@@ -1567,7 +1567,7 @@ object HelloWorld extends App {
 }
 ```
 
-[Source File](languages/Scala.scala)
+[Source File](libraries/s/S-1/scala.scala)
 
 ### Swift
 
@@ -1575,7 +1575,7 @@ object HelloWorld extends App {
 print("Hello World")
 ```
 
-[Source File](languages/Swift.swift)
+[Source File](libraries/s/S-4/swift.swift)
 
 ### TypeScript
 
@@ -1615,7 +1615,6 @@ See [lists/research.md](lists/research.md)
 
 ```
 polyglot-hello-world-collection/
-├── languages/                    # ~50 industry-standard languages
 ├── libraries/                    # 8,000+ libraries organized alphabetically
 │   ├── a/ through z/             # Alphabetical subdirectories (e.g., a/A-1/)
 │   ├── symbols/                  # Symbol and number-based libraries
