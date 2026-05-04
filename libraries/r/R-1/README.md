@@ -1,11 +1,8 @@
-# ⚠️ Libraries Directory - Migration in Progress
+# Libraries R-1 (R-Re)
 
 ## Status
 
-This directory contains ~8,000 library files but **GitHub truncates the view to 1,000 files**.
-
-You may see the message:
-> "Sorry, we had to truncate this directory to 1,000 files. 2,264 entries were omitted from the list."
+This directory contains library files starting with R through Re.
 
 ## New Organization
 
@@ -36,5 +33,3 @@ Files here are still accessible directly via URL:
 ```
 https://github.com/tadanobutubutu/polyglot-hello-world-collection/blob/main/libraries/Filename.extension
 ```
-
-But browsing via GitHub UI is limited to 1,000 files.

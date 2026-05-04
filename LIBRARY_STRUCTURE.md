@@ -9,11 +9,6 @@ polyglot-hello-world-collection/
 ├── LIBRARY_STRUCTURE.md           # This file - visual tree
 ├── LICENSE.md                     # MIT License
 │
-├── languages/                     # ~50 industry-standard languages
-│   ├── c.c
-│   ├── python.py
-│   └── ...
-│
 ├── libraries/                     # 8,000+ libraries organized alphabetically
 │   ├── a/                         # Libraries starting with A
 │   │   ├── A-1/                   # A-Ac

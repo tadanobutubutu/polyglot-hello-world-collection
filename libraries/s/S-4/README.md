@@ -18,7 +18,3 @@ Libraries starting with So through Sz.
 - Yarrow.yarrow
 - Yam.yam
 - Zea.zea
-
-## Note
-
-This is part of the alphabetical reorganization to comply with GitHub's 1000-file limit.
