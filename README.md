@@ -1615,19 +1615,16 @@ See [lists/research.md](lists/research.md)
 
 ```
 polyglot-hello-world-collection/
-├── languages/                    # Programming languages
-├── libraries/                    # Libraries organized alphabetically
-│   ├── a/A-1/ ~ a/A-4/          # A libraries
-│   ├── b/B-1/ ~ b/B-4/          # B libraries
-│   ├── ...                       # C through Y
-│   ├── s/S-1/ ~ s/S-4/          # S libraries (largest)
-│   ├── z/Z-1/, z/Z-2/           # Z libraries
-│   ├── symbols/                  # Symbol/number libraries
-│   └── nonenglish/               # Non-English named libraries
-└── lists/                        # Categorized lists
+├── languages/                    # ~50 industry-standard languages
+├── libraries/                    # 8,000+ libraries organized alphabetically
+│   ├── a/ through z/             # Alphabetical subdirectories (e.g., a/A-1/)
+│   ├── symbols/                  # Symbol and number-based libraries
+│   └── nonenglish/               # Libraries with non-English names
+├── lists/                        # Categorized language lists (modern, legacy, etc.)
+├── README.md                     # Main entry point
+├── LIBRARY_STRUCTURE.md          # Visual repository map
+└── LIBRARY_ORGANIZATION.md      # Detailed organization guide
 ```
-
-> **Note:** Due to GitHub's 1,000 file limit per directory, libraries are organized alphabetically into subdirectories.
 
 ---
 
