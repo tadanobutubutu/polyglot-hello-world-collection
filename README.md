@@ -9,10 +9,10 @@ A curated museum of 8,000+ 'Hello World' programs. Every entry includes the orig
 ### Category Exploration
 
 1. [Famous Languages](#famous-languages) — Industry standard languages with source code.
-2. [Modern Languages](#modern-languages) — Future-proof and high-performance.
-3. [Legacy Languages](#legacy-languages) — The foundations of the digital age.
-4. [Esoteric Languages](#esoteric-languages) — Artistic and mind-bending experiments.
-5. [Research Languages](#research-languages) — Theoretical and academic paradigms.
+2. [Modern Languages](lists/modern.md) — Future-proof and high-performance.
+3. [Legacy Languages](lists/legacy.md) — The foundations of the digital age.
+4. [Esoteric Languages](lists/esoteric.md) — Artistic and mind-bending experiments.
+5. [Research Languages](lists/research.md) — Theoretical and academic paradigms.
 
 <details><summary><b>View All Libraries (A-Z)</b></summary>
 
@@ -1587,30 +1587,6 @@ console.log("Hello World");
 
 ---
 
-## Modern Languages
-
-See [lists/modern.md](lists/modern.md)
-
----
-
-## Legacy Languages
-
-See [lists/legacy.md](lists/legacy.md)
-
----
-
-## Esoteric Languages
-
-See [lists/esoteric.md](lists/esoteric.md)
-
----
-
-## Research Languages
-
-See [lists/research.md](lists/research.md)
-
----
-
 ## Repository Structure
 
 ```
@@ -1620,9 +1596,7 @@ polyglot-hello-world-collection/
 │   ├── symbols/                  # Symbol and number-based libraries
 │   └── nonenglish/               # Libraries with non-English names
 ├── lists/                        # Categorized language lists (modern, legacy, etc.)
-├── README.md                     # Main entry point
-├── LIBRARY_STRUCTURE.md          # Visual repository map
-└── LIBRARY_ORGANIZATION.md      # Detailed organization guide
+└── README.md                     # Main entry point
 ```
 
 ---
