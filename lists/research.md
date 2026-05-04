@@ -1,3 +1,5 @@
+[← Back to Home](../README.md)
+
 # Research Languages
 
 A collection of research programming languages, sorted by industry relevance and popularity.
@@ -55,3 +57,6 @@ print("Hello World")
 ```
 [Source File](../libraries/h/H-1/Haskell.ghc)
 
+
+
+[← Back to Home](../README.md)

@@ -1,3 +1,5 @@
+[← Back to Home](../README.md)
+
 # NonEnglish - List 1
 
 ##### ()˸;#？!
@@ -54,3 +56,6 @@ public class HelloCi\n{\n    public static string GetMessage()\n    {\n        r
 ```
 [Source File](../libraries/nonenglish/NonEnglish-1/قلب)
 
+
+
+[← Back to Home](../README.md)

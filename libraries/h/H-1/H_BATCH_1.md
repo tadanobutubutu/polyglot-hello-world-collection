@@ -1,3 +1,5 @@
+[← Back to Home](../../../README.md)
+
 ##### Hainite
 
 ```python
@@ -93,3 +95,6 @@ print("Hello World")
 ```
 
 [Source File](libraries/Hush.hush)
+
+
+[← Back to Home](../../../README.md)

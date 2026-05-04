@@ -1,3 +1,5 @@
+[← Back to Home](../README.md)
+
 # NonEnglish - List 2
 
 ##### ᚱᚢᚾᛅᛦ
@@ -54,3 +56,6 @@ N4IgLglmA2CmIC4QAlbWgewAQHUMCdoATEAGhCNgGcBjREM8COKgNVn3oBEBGAdh4AmAEaMqGAK74asZ
 ```
 [Source File](../libraries/nonenglish/NonEnglish-2/プロデル.rdr)
 
+
+
+[← Back to Home](../README.md)

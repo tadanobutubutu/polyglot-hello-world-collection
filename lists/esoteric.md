@@ -1,3 +1,5 @@
+[← Back to Home](../README.md)
+
 # Esoteric Languages
 
 A collection of esoteric programming languages, sorted by industry relevance and popularity.
@@ -74,3 +76,6 @@ KTHXBYE
 ```
 [Source File](../libraries/l/L-2/LOLCODE.lol)
 
+
+
+[← Back to Home](../README.md)

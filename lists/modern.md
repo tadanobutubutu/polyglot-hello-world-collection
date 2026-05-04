@@ -1,3 +1,5 @@
+[← Back to Home](../README.md)
+
 # Modern Languages
 
 A collection of modern programming languages, sorted by industry relevance and popularity.
@@ -64,3 +66,6 @@ print("Hello World")
 ```
 [Source File](../libraries/c/C-2/Crystal.crystal)
 
+
+
+[← Back to Home](../README.md)

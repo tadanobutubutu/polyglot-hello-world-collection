@@ -1,3 +1,5 @@
+[← Back to Home](../../../README.md)
+
 ##### Famatinite
 
 ```python
@@ -93,3 +95,6 @@ print("Hello World")
 ```
 
 [Source File](libraries/Fuse.fuse)
+
+
+[← Back to Home](../../../README.md)

@@ -1,3 +1,5 @@
+[← Back to Home](../../../README.md)
+
 ##### Pale
 
 ```python
@@ -85,3 +87,6 @@ print("Hello World")
 ```
 
 [Source File](libraries/Pulse.pulse)
+
+
+[← Back to Home](../../../README.md)

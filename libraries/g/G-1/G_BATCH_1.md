@@ -1,3 +1,5 @@
+[← Back to Home](../../../README.md)
+
 ##### Gad
 
 ```python
@@ -93,3 +95,6 @@ print("Hello World")
 ```
 
 [Source File](libraries/Gritty.gritty)
+
+
+[← Back to Home](../../../README.md)

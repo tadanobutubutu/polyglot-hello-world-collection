@@ -1,3 +1,5 @@
+[← Back to Home](../../../README.md)
+
 ##### Zany
 
 ```python
@@ -53,3 +55,6 @@ print("Hello World")
 ```
 
 [Source File](libraries/Zorgite.zorgite)
+
+
+[← Back to Home](../../../README.md)

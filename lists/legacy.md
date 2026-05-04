@@ -1,3 +1,5 @@
+[← Back to Home](../README.md)
+
 # Legacy Languages
 
 A collection of legacy programming languages, sorted by industry relevance and popularity.
@@ -67,3 +69,6 @@ print("Hello World")
 ```
 [Source File](../libraries/s/S-2/Smalltalk.st)
 
+
+
+[← Back to Home](../README.md)

@@ -1,3 +1,5 @@
+[← Back to Home](../../README.md)
+
 # Non-English Libraries
 
 Libraries with names in non-English languages or joke/esoteric naming.
@@ -11,3 +13,6 @@ Libraries with names in non-English languages or joke/esoteric naming.
 ## Note
 
 These are joke or esoteric libraries with non-English names for variety and fun.
+
+
+[← Back to Home](../../README.md)
