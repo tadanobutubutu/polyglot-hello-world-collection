@@ -1,1 +1,1 @@
-println_str \"Hello World\"\n
+println_str "Hello World"

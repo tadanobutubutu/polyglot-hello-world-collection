@@ -1,1 +1,6 @@
-// Hello from Fantom!\nclass HelloWorld {\n  static Void main() {\n    echo(\"Hello World\")\n  }\n}\n
+// Hello from Fantom!
+class HelloWorld {
+  static Void main() {
+    echo("Hello World")
+  }
+}

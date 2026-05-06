@@ -1,1 +1,1 @@
-print "Hello World"
+^XA^FDHello World^XZ~PS

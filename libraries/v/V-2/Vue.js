@@ -1,1 +1,11 @@
-<div id=\"app\">\n  <p>{{ message }}</p>\n</div>\n<script>\nnew Vue({\n  el: '#app',\n  data: {\n    message: 'Hello World'\n  }\n})\n</script>\n
+<div id="app">
+  <p>{{ message }}</p>
+</div>
+<script>
+new Vue({
+  el: '#app',
+  data: {
+    message: 'Hello World'
+  }
+})
+</script>

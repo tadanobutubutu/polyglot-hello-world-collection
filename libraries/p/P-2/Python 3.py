@@ -1,1 +1,2 @@
-#!/usr/bin/env python3\nprint(\"Hello World\")\n
+#!/usr/bin/env python3
+print("Hello World")

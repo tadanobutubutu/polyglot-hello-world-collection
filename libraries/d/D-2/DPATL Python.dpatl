@@ -1,1 +1,3 @@
-{start python}\nprint("Hello World")\n{end python}\n
+{start python}
+print("Hello World")
+{end python}

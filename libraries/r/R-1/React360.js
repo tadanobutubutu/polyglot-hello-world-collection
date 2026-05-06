@@ -1,1 +1,36 @@
-import React from \"react\";\nimport { AppRegistry, Text, View, StyleSheet } from \"react-360\";\n\nexport default class hello_world extends React.Component {\n    render() {\n        return (\n            <View style={styles.panel}>\n                <View style={styles.greetingBox}>\n                    <Text style={styles.greeting}>Hello World</Text>\n                </View>\n            </View>\n        );\n    }\n}\n\nconst styles = StyleSheet.create({\n    panel: {\n        // Fill the entire surface\n        width: 1000,\n        height: 600,\n        backgroundColor: \"rgba(255, 255, 255, 0.4)\",\n        justifyContent: \"center\",\n        alignItems: \"center\",\n    },\n    greetingBox: {\n        padding: 20,\n        backgroundColor: \"#000000\",\n        borderColor: \"#639dda\",\n        borderWidth: 2,\n    },\n    greeting: {\n        fontSize: 30,\n    },\n});\n\nAppRegistry.registerComponent(\"hello_world\", () => hello_world);\n
+import React from "react";
+import { AppRegistry, Text, View, StyleSheet } from "react-360";
+
+export default class hello_world extends React.Component {
+    render() {
+        return (
+            <View style={styles.panel}>
+                <View style={styles.greetingBox}>
+                    <Text style={styles.greeting}>Hello World</Text>
+                </View>
+            </View>
+        );
+    }
+}
+
+const styles = StyleSheet.create({
+    panel: {
+        // Fill the entire surface
+        width: 1000,
+        height: 600,
+        backgroundColor: "rgba(255, 255, 255, 0.4)",
+        justifyContent: "center",
+        alignItems: "center",
+    },
+    greetingBox: {
+        padding: 20,
+        backgroundColor: "#000000",
+        borderColor: "#639dda",
+        borderWidth: 2,
+    },
+    greeting: {
+        fontSize: 30,
+    },
+});
+
+AppRegistry.registerComponent("hello_world", () => hello_world);

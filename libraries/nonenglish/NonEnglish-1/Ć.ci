@@ -1,1 +1,7 @@
-public class HelloCi\n{\n    public static string GetMessage()\n    {\n        return \"Hello World\";\n    }\n}\n
+public class HelloCi
+{
+    public static string GetMessage()
+    {
+        return "Hello World";
+    }
+}

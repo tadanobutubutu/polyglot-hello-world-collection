@@ -1,1 +1,2 @@
-WScript.Echo \"Hello World\"\nWScript.Quit
+WScript.Echo "Hello World"
+WScript.Quit

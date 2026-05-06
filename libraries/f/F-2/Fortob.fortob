@@ -1,1 +1,2 @@
-@print[$!.readcom.println;$\\.push:'\\;]\nprint \"Hello World\"\\;\n
+@print[$!.readcom.println;$\.push:'\;]\;
+print "Hello World"\;

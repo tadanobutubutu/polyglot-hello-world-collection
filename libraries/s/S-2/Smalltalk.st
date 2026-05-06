@@ -1,1 +1,1 @@
-print("Hello World")
+Transcript show: 'Hello World'.

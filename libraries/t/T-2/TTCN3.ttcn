@@ -1,1 +1,7 @@
-module HelloWorld\n{\n    control\n    {\n        log(\"Hello World\");\n    }\n }\n
+module HelloWorld
+{
+    control
+    {
+        log("Hello World");
+    }
+ }

@@ -1,1 +1,3 @@
-do while .t.\n ? 'Hello World'\nenddo\n
+do while .t.
+ ? 'Hello World'
+enddo

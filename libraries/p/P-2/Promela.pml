@@ -1,1 +1,3 @@
-active proctype main(){\n  printf(\"Hello World\")\n}\n
+active proctype main(){
+  printf("Hello World")
+}

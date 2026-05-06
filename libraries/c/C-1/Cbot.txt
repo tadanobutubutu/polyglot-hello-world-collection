@@ -1,1 +1,6 @@
-extern void object::New()\n{\n\nmessage(\"Hello World\");\n\n}\n
+extern void object::New()
+{
+
+message("Hello World");
+
+}

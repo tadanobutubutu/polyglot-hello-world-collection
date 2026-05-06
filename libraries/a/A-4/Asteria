@@ -1,1 +1,1 @@
-std.io.putln(\"Hello World\");\n
+std.io.putln("Hello World");

@@ -1,1 +1,4 @@
-print "Hello World"
+main: func {
+    "Hello World" println()
+}
+

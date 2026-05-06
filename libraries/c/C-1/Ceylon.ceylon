@@ -1,1 +1,3 @@
-print "Hello World"
+shared void hello() {
+    print("Hello World");
+}

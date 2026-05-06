@@ -1,1 +1,8 @@
-import cherrypy\n\nclass HelloWorld(object):\n    @cherrypy.expose\n    def index(self):\n        return \"Hello World\"\n\ncherrypy.quickstart(HelloWorld())\n
+import cherrypy
+
+class HelloWorld(object):
+    @cherrypy.expose
+    def index(self):
+        return "Hello World"
+
+cherrypy.quickstart(HelloWorld())

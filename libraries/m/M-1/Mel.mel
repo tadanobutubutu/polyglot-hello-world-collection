@@ -1,1 +1,4 @@
-proc helloWorld () {\n   print \"Hello World\\n\";\n}\nhelloWorld;\n
+proc helloWorld () {
+   print "Hello World\n";
+}
+helloWorld;

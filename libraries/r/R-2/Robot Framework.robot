@@ -1,1 +1,3 @@
-*** Task ***\nDisplay Greeting\n    Log To Console    Hello World\n
+*** Task ***
+Display Greeting
+    Log To Console    Hello World

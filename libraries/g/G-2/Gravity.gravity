@@ -1,1 +1,3 @@
-func main() {\n  System.print(\"Hello World\");\n}\n
+func main() {
+  System.print("Hello World");
+}

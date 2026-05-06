@@ -1,1 +1,20 @@
-IDEAL\nMODEL SMALL\nSTACK 100h\n\nDATASEG\nmsg\t\t\tdb \"Hello World\", 0dh, 0ah, \"$\"\n\nCODESEG\nstart:\n\tmov\t\ tax, @data\n\tmov\t\tds, ax\n\t\n\tmov\t\tdx, offset msg\n\tmov\t\tah, 9\n\tint\t\t21h\n\t\n\tmov\t\tah, 4ch\n\tint\t\t21h\n\nend start\n
+IDEAL
+MODEL SMALL
+STACK 100h
+
+DATASEG
+msg			db "Hello World", 0dh, 0ah, "$"
+
+CODESEG
+start:
+	mov		ax, @data
+	mov		ds, ax
+	
+	mov		dx, offset msg
+	mov		ah, 9
+	int		21h
+	
+	mov		ah, 4ch
+	int		21h
+
+end start

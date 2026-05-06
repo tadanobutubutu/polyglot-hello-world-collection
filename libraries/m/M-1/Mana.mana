@@ -1,1 +1,4 @@
-print("Hello World")
+action HelloWorldActor::init
+{
+ print ("Hello World\n") ;
+}

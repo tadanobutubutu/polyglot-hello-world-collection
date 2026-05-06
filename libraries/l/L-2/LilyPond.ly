@@ -1,1 +1,1 @@
-print("Hello World")
+\markup { Hello World }

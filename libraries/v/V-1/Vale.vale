@@ -1,1 +1,5 @@
-print("Hello World")
+import stdlib.*;
+
+exported func main() {
+  println("Hello World");
+}

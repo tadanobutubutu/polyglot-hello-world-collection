@@ -1,1 +1,4 @@
-print "Hello World"
+module HelloWorld;
+begin
+    writeln("Hello World");
+end HelloWorld.    

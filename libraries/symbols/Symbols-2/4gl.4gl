@@ -1,1 +1,3 @@
-main\n    display \"Hello World\"\nend main\n
+main
+    display "Hello World"
+end main

@@ -1,1 +1,4 @@
-<?LassoScript\n\tVariable: 'ScreenText' = 'Hello World';\n\t$ScreenText;\n?>\n
+<?LassoScript
+	Variable: 'ScreenText' = 'Hello World';
+	$ScreenText;
+?>

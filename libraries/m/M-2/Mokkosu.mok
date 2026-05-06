@@ -1,1 +1,1 @@
-do println \"Hello World\";\n
+do println "Hello World";

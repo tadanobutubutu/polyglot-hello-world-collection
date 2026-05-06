@@ -1,1 +1,4 @@
-BEGIN\n  dbms_output.put_line('Hello World');\nEND;\n/\n
+BEGIN
+  dbms_output.put_line('Hello World');
+END;
+/

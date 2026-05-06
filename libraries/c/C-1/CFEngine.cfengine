@@ -1,1 +1,11 @@
-print("Hello World")
+body common control
+{
+  bundlesequence => { "run" };
+}
+
+bundle agent run
+{
+  reports:
+    cfengine::
+      "Hello World";
+}

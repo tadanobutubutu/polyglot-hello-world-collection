@@ -1,1 +1,6 @@
-MODULE HelloWorld;                     \nIMPORT Out;\nBEGIN\n  Out.String( \"Hello World\" );\n  Out.Ln;\nEND HelloWorld.
+MODULE HelloWorld;                     
+IMPORT Out;
+BEGIN
+  Out.String( "Hello World" );
+  Out.Ln;
+END HelloWorld.

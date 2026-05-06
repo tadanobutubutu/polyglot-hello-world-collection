@@ -1,1 +1,3 @@
-import PySimpleGUI\n\nPySimpleGUI.popup_no_buttons(\"Hello World\")\n
+import PySimpleGUI
+
+PySimpleGUI.popup_no_buttons("Hello World")

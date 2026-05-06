@@ -1,1 +1,3 @@
-shh such hello dogescript very next-gen wow difficulty\n\nplz console.loge with "Hello World"\n
+shh such hello dogescript very next-gen wow difficulty
+
+plz console.loge with "Hello World"

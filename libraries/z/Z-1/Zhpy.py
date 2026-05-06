@@ -1,1 +1,1 @@
-印出 'Hello World'\n
+印出 'Hello World'

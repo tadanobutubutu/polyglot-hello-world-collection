@@ -1,1 +1,1 @@
-PROC main() IS WriteF('Hello World\\n')\n
+PROC main() IS WriteF('Hello World\n')

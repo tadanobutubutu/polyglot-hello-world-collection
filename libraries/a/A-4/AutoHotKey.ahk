@@ -1,1 +1,1 @@
-MsgBox, Hello World\n
+MsgBox, Hello World

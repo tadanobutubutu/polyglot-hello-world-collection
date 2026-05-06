@@ -1,1 +1,12 @@
-(comment) ;-*- Lisp -*-\n(progn\n  (defun hello-world ()\n    (princ \"Hello World\")\n    (quit))\n  (close (prog1 infile (inpush -1)))\n  (sstatus feature noldmsg)\n  (gctwa)\n  (gc)\n  (sstatus flush t)\n  (suspend \":KILL \" '(ts hello))\n  (hello-world))\n
+(comment) ;-*- Lisp -*-
+(progn
+  (defun hello-world ()
+    (princ "Hello World")
+    (quit))
+  (close (prog1 infile (inpush -1)))
+  (sstatus feature noldmsg)
+  (gctwa)
+  (gc)
+  (sstatus flush t)
+  (suspend ":KILL " '(ts hello))
+  (hello-world))

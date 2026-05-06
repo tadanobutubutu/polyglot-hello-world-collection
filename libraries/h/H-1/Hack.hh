@@ -1,1 +1,2 @@
-<?hh \necho \"Hello World\";\n
+<?hh 
+echo "Hello World";

@@ -1,1 +1,15 @@
-// Hello World in Lisaac\n\nSection Header\n\t+ name\t\t:= HELLO_WORLD;\n\nSection Inherit\n\n\t- parent_object:OBJECT := OBJECT;\n\nSection Public\n\n\t- main <-\n\t(\n\t\t\"Hello World !\\n\".print;\n\t);\n
+// Hello World in Lisaac
+
+Section Header
+	+ name		:= HELLO_WORLD;
+
+Section Inherit
+
+	- parent_object:OBJECT := OBJECT;
+
+Section Public
+
+	- main <-
+	(
+		"Hello World !\n".print;
+	);

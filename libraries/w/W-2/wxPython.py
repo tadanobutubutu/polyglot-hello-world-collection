@@ -1,1 +1,8 @@
-import wx \n \napp = wx.App() \nwindow = wx.Frame(None)\npanel = wx.Panel(window) \nlabel = wx.StaticText(panel, label = \"Hello World\")\nwindow.Show(True) \napp.MainLoop()\n
+import wx 
+ 
+app = wx.App() 
+window = wx.Frame(None)
+panel = wx.Panel(window) 
+label = wx.StaticText(panel, label = "Hello World")
+window.Show(True) 
+app.MainLoop()

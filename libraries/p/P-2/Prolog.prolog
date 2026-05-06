@@ -1,1 +1,4 @@
-print("Hello World")
+helloWorld :-
+  write('Hello World').
+
+:- helloWorld.

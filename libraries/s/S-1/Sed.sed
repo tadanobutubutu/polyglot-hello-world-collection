@@ -1,1 +1,4 @@
-#!/usr/bin/sed -f sed.sed\nc\\\nHello World\nq\n
+#!/usr/bin/sed -f sed.sed
+c\
+Hello World
+q

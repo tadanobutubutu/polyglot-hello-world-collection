@@ -1,1 +1,1 @@
-display dialog \"Hello World\"  \n
+display dialog "Hello World"  

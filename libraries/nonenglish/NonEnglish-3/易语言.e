@@ -1,1 +1,1 @@
-调试输出(“Hello World”）\n
+调试输出(“Hello World”）

@@ -1,1 +1,1 @@
-(println \"Hello World\")\n
+bark "Hello World\n"

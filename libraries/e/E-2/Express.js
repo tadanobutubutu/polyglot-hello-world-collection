@@ -1,1 +1,6 @@
-const express = require('express')\nconst app = express()\n\napp.get('/', (_, res) => res.send(\"Hello World\"))\n\napp.listen(8080)\n
+const express = require('express')
+const app = express()
+
+app.get('/', (_, res) => res.send("Hello World"))
+
+app.listen(8080)

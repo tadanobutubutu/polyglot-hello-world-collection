@@ -1,1 +1,1 @@
-use fmt; export func main() void { fmt.println("Hello, World!"); };
+h

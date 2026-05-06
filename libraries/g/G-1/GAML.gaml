@@ -1,1 +1,9 @@
-model GAML\n\nglobal {\n\tinit {\n\t\twrite(\"Hello World\");\n\t}\n}\n\nexperiment GAML {}
+model GAML
+
+global {
+	init {
+		write("Hello World");
+	}
+}
+
+experiment GAML {}

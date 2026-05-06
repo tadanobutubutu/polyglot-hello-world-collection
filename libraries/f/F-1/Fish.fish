@@ -1,1 +1,2 @@
-print("Hello World")
+#!/usr/bin/env fish
+echo "Hello World"

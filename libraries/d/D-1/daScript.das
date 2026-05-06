@@ -1,1 +1,3 @@
-[export]\ndef main\n	print("Hello World\n")\n
+[export]
+def main
+	print("Hello World\n")

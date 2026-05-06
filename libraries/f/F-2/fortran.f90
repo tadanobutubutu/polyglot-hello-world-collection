@@ -1,3 +1,2 @@
-PROGRAM HELLO
-  PRINT *, 'Hello World'
-END PROGRAM HELLO
+print *,'Hello World'
+end

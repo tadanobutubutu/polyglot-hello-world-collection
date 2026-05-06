@@ -1,1 +1,8 @@
-MODULE HelloWorld;\n\nIMPORT Out;\n\nBEGIN\n   Out.Open;\n   Out.String('Hello World');\nEND HelloWorld.\n
+MODULE HelloWorld;
+
+IMPORT Out;
+
+BEGIN
+   Out.Open;
+   Out.String('Hello World');
+END HelloWorld.

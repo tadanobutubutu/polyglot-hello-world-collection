@@ -1,1 +1,2 @@
-'hello world!' -> print
+export fn main argv:
+  "Hello World" -> console.log

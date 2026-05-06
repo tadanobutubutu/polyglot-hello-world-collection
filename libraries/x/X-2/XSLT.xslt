@@ -1,1 +1,6 @@
-<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<xsl:stylesheet version=\"1.0\" xmlns:xsl=\"http://www.w3.org/1999/XSL/Transform\">\n    <xsl:template match=\"/\">\n        <xsl:text>Hello World</xsl:text>\n    </xsl:template>\n</xsl:stylesheet>\n
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:template match="/">
+        <xsl:text>Hello World</xsl:text>
+    </xsl:template>
+</xsl:stylesheet>

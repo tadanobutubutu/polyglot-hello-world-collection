@@ -1,1 +1,3 @@
-      PROGRAM HELLOW\n      WRITE(UNIT=*, FMT=*) 'Hello World'\n      END\n
+      PROGRAM HELLOW
+      WRITE(UNIT=*, FMT=*) 'Hello World'
+      END

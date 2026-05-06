@@ -1,1 +1,1 @@
-." Hello World" cr
+.( Hello World)

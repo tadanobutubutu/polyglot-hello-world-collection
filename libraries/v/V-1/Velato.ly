@@ -1,1 +1,102 @@
-on \"2.19.64\"\n\n\\header{\n  title = \"Hello World\"\n}\n\n\\language \"english\"\n\n\\paper {\n  top-margin = 1.5\\in\n  left-margin = 2.0\\in\n  right-margin = 2.0\\in\n}\n\n\\score {\n  \\transpose c c' {\n    % H\n    <c a>4\n    g8(\n    e8 f8\n    gs8 d8\n    g8) |\n\n    % e\n    a8\n    <g e>4.\n    <f cs>4\n    c16( cs16\n    g8 |\n\n    % l\n    a8)\n    <g e>8\n    <f cs>4\n    <c a>4\n    g4( |\n\n    % l\n    a16 g16\n    e16 f8\n    cs8.) <c a g>2 |\n\n    % o\n    a8( g8 e8)\n    f8.\n    cs16( cs8 cs8 g8 |\n\n    % ,\n    a8 g4\n    e8 f8\n    e e\n    g8) |\n\n    % space\n    a8\n    <g e>4.\n    f8(\n    ds d\n    g8 |\n\n    % W\n    a8 g4\n    e8 f8\n    a8 gs8\n    g8) |\n\n    % o\n    a8( g8\n    e8 f8\n    cs8 cs8) <cs g>4 |\n\n    % r\n    a8( g8\n    e8 f8\n    cs8 cs8 e8. g16 |\n\n    % l\n    c16 a16)\n    <g e>8\n    <f cs>4\n    <c a>4\n    g4( |\n\n    % d\n    a8 g4\n    e16 f16\n    cs8 c8 c8\n    g8 |\n\n    % !\n    a16)\n    <g e>4\n    f16( ds16 ds16)\n    <g c>2 |\n  }\n  \\layout {\n    indent = 0\\cm\n  }\n  \\midi {\n    \\tempo 4 = 120\n  }\n}\n
+on "2.19.64"
+
+\header{
+  title = "Hello World"
+}
+
+\language "english"
+
+\paper {
+  top-margin = 1.5\in
+  left-margin = 2.0\in
+  right-margin = 2.0\in
+}
+
+\score {
+  \transpose c c' {
+    % H
+    <c a>4
+    g8(
+    e8 f8
+    gs8 d8
+    g8) |
+
+    % e
+    a8
+    <g e>4.
+    <f cs>4
+    c16( cs16
+    g8 |
+
+    % l
+    a8)
+    <g e>8
+    <f cs>4
+    <c a>4
+    g4( |
+
+    % l
+    a16 g16
+    e16 f8
+    cs8.) <c a g>2 |
+
+    % o
+    a8( g8 e8)
+    f8.
+    cs16( cs8 cs8 g8 |
+
+    % ,
+    a8 g4
+    e8 f8
+    e e
+    g8) |
+
+    % space
+    a8
+    <g e>4.
+    f8(
+    ds d
+    g8 |
+
+    % W
+    a8 g4
+    e8 f8
+    a8 gs8
+    g8) |
+
+    % o
+    a8( g8
+    e8 f8
+    cs8 cs8) <cs g>4 |
+
+    % r
+    a8( g8
+    e8 f8
+    cs8 cs8 e8. g16 |
+
+    % l
+    c16 a16)
+    <g e>8
+    <f cs>4
+    <c a>4
+    g4( |
+
+    % d
+    a8 g4
+    e16 f16
+    cs8 c8 c8
+    g8 |
+
+    % !
+    a16)
+    <g e>4
+    f16( ds16 ds16)
+    <g c>2 |
+  }
+  \layout {
+    indent = 0\cm
+  }
+  \midi {
+    \tempo 4 = 120
+  }
+}

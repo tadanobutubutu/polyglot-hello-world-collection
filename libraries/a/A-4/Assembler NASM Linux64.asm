@@ -1,1 +1,16 @@
-section .rodata\n    msg db \"Hello World\", 0xA     \n    len equ $- msg           \nsection\t.text\n    global _start            \n\n_start:\n\tmov\teax, 1        \n\tmov\tedi, eax             \n\tmov\tesi, msg           \n    mov edx, len\n\tsyscall                  \n\n    mov eax, 60                 \n\txor\tedi, edi              \n\tsyscall              \n
+section .rodata
+    msg db "Hello World", 0xA     
+    len equ $- msg           
+section	.text
+    global _start            
+
+_start:
+	mov	eax, 1        
+	mov	edi, eax             
+	mov	esi, msg           
+    mov edx, len
+	syscall                  
+
+    mov eax, 60                 
+	xor	edi, edi              
+	syscall              

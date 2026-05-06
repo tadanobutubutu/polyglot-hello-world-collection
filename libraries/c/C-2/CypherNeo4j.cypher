@@ -1,1 +1,3 @@
-#include <stdio.h>\nint main() {\n printf(\"Hello World\\n\");\n return 0;\n}\n
+CREATE (Hello:Word { val: 'Hello' }), (World:Word { val: 'World' }),
+(Hello)-[:SPACE]->(World)
+RETURN Hello,World

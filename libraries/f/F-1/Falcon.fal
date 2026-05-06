@@ -1,1 +1,3 @@
-#!/usr/bin/env falcon\n\n> \"Hello World\"\n
+#!/usr/bin/env falcon
+
+> "Hello World"

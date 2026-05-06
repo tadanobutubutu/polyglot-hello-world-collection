@@ -1,1 +1,1 @@
-writeln(\"Hello World\");\n
+writeln("Hello World");

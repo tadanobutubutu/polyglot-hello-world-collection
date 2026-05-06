@@ -1,1 +1,1 @@
-(write \"Hello World\\n\")\n
+(alert "Hello World")

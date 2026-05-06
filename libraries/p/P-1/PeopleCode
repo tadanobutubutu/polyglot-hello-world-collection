@@ -1,1 +1,1 @@
-MessageBox(0, \"\", 0, 0, \"Hello World\");\n
+MessageBox(0, "", 0, 0, "Hello World");

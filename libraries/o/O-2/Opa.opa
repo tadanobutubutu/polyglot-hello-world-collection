@@ -1,1 +1,1 @@
-print "Hello World"
+jlog("Hello World")

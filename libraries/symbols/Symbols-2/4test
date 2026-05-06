@@ -1,1 +1,2 @@
-testcase printHelloWorld()\n    print(\"Hello World\")\n
+testcase printHelloWorld()
+    print("Hello World")

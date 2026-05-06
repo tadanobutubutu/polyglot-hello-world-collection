@@ -1,1 +1,5 @@
-(printout t \"Hello World\")
+include "console.iol"
+
+main {
+	println@Console("Hello World")()
+}

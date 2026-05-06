@@ -1,1 +1,2 @@
-\"Hello World\" print\n
+
+PRINT "Hello World"

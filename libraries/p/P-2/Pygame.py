@@ -1,1 +1,18 @@
-import pygame, sys\nfrom pygame.locals import QUIT\n\npygame.init()\ndisplay_surface = pygame.display.set_mode((400, 300))\nfont = pygame.font.Font(pygame.font.get_default_font(), 32)\ntext = font.render('Hello World', True, (0, 0, 0))\ntextRect = text.get_rect()\n\nwhile True:\n    display_surface.fill((255, 255, 255))\n    display_surface.blit(text, textRect)\n    for event in pygame.event.get():\n        if event.type == QUIT:\n            pygame.quit()\n            sys.exit()\n\n    pygame.display.update()\n
+import pygame, sys
+from pygame.locals import QUIT
+
+pygame.init()
+display_surface = pygame.display.set_mode((400, 300))
+font = pygame.font.Font(pygame.font.get_default_font(), 32)
+text = font.render('Hello World', True, (0, 0, 0))
+textRect = text.get_rect()
+
+while True:
+    display_surface.fill((255, 255, 255))
+    display_surface.blit(text, textRect)
+    for event in pygame.event.get():
+        if event.type == QUIT:
+            pygame.quit()
+            sys.exit()
+
+    pygame.display.update()

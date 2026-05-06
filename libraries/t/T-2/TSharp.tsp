@@ -1,1 +1,1 @@
-push \"Hello World\" print
+push "Hello World" print

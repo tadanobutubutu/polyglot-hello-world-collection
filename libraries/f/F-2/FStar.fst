@@ -1,1 +1,3 @@
-module Hello\n\nlet main = FStar.IO.print_string \"Hello World\\n\"
+module Hello
+
+let main = FStar.IO.print_string "Hello World\n"

@@ -1,1 +1,3 @@
-import yoix.stdio.*;\n\nprintf(\"Hello World\");\n
+import yoix.stdio.*;
+
+printf("Hello World");

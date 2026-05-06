@@ -1,1 +1,2 @@
-print("Hello World")
+$(info "Hello World")
+all:

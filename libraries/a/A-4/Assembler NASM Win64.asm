@@ -1,1 +1,120 @@
-BITS 64\nSECTION .text\nglobal main\nmain:\nxor rcx, rcx            \nmov rax, [gs:rcx + 0x60]\nmov rax, [rax + 0x18]   \nmov rsi, [rax + 0x20]  \nlodsq                   \nxchg rax, rsi         \nlodsq                   \nmov rbx, [rax + 0x20]    \nxor r8, r8                \nmov r8d, [rbx + 0x3c]    \nmov rdx, r8               \nadd rdx, rbx             \nmov r8d, [rdx + 0x88]     \nadd r8, rbx             \nxor rsi, rsi               \nmov esi, [r8 + 0x20]       \nadd rsi, rbx               \nxor rcx, rcx              \nmov r9, 0x41636f7250746547 \n\n\nGet_Function:\n\ninc rcx                    \nxor rax, rax               \nmov eax, [rsi + rcx * 4]   \nadd rax, rbx              \ncmp QWORD [rax], r9        \njnz Get_Function\nxor rsi, rsi             \nmov esi, [r8 + 0x24]       \nadd rsi, rbx               \nmov cx, [rsi + rcx * 2] \nxor rsi, rsi               \nmov esi, [r8 + 0x1c]       \nadd rsi, rbx           \nxor rdx, rdx               \nmov edx, [rsi + rcx * 4]   \nadd rdx, rbx             \nmov rdi, rdx              \n\n\nmov rcx, 0x41797261         \npush rcx                    \nmov rcx, 0x7262694c64616f4c  \npush rcx                     \nmov rdx, rsp                 \nmov rcx, rbx                \nsub rsp, 0x30               \ncall rdi                   \nadd rsp, 0x30                \nadd rsp, 0x10                \nmov rsi, rax                 \n\nmov rcx, 0x41656C6F73 \npush rcx\nmov rcx, 0x6E6F436574697257\npush rcx\nmov rdx, rsp\nmov rcx, rbx\nsub rsp, 0x30\ncall rdi\nmov rsi, rax\n\n\nmov rcx, 0x656C646E\npush rcx\nmov rcx, 0x6148647453746547   \npush rcx                      \nmov rdx, rsp                 \nmov rcx, rbx              \nsub rsp, 0x30                \ncall rdi                \nadd rsp, 0x28                \nadd rsp, 0x18               \nmov r15, rax \n\nmov rcx, offset\nsub rsp, 0x30\ncall r15\nmov r15, rax\nadd   RSP, 32                                 \n\nsub   RSP, 32 + 8 + 8  \nmov rcx, r15\nmov rdx, message\nmov r8, len\nmov r9,  written\nmov qword[rsp+2*8], 0\nsub rsp, 0x30\ncall rsi\n\nxor rcx, rcx           \nmov rcx, 0x737365         \npush rcx                \nmov rcx, 0x636f725074697845  \npush rcx \nmov rdx, rsp                \nmov rcx, rbx                 \nsub rsp, 0x30            \ncall rdi                    \nadd rsp, 0x30                \nadd rsp, 0x10         \nmov r15, rax                 \n\n\nmov rcx, 0     \ncall r15      \nsection .data\n\n\toffset equ -11\n\tmessage db \"Hello World\",0\n\tlen equ $-message\n\nsection .bss\n\twritten resq 1\n
+BITS 64
+SECTION .text
+global main
+main:
+xor rcx, rcx            
+mov rax, [gs:rcx + 0x60]
+mov rax, [rax + 0x18]   
+mov rsi, [rax + 0x20]  
+lodsq                   
+xchg rax, rsi         
+lodsq                   
+mov rbx, [rax + 0x20]    
+xor r8, r8                
+mov r8d, [rbx + 0x3c]    
+mov rdx, r8               
+add rdx, rbx             
+mov r8d, [rdx + 0x88]     
+add r8, rbx             
+xor rsi, rsi               
+mov esi, [r8 + 0x20]       
+add rsi, rbx               
+xor rcx, rcx              
+mov r9, 0x41636f7250746547 
+
+
+Get_Function:
+
+inc rcx                    
+xor rax, rax               
+mov eax, [rsi + rcx * 4]   
+add rax, rbx              
+cmp QWORD [rax], r9        
+jnz Get_Function
+xor rsi, rsi             
+mov esi, [r8 + 0x24]       
+add rsi, rbx               
+mov cx, [rsi + rcx * 2] 
+xor rsi, rsi               
+mov esi, [r8 + 0x1c]       
+add rsi, rbx           
+xor rdx, rdx               
+mov edx, [rsi + rcx * 4]   
+add rdx, rbx             
+mov rdi, rdx              
+
+
+mov rcx, 0x41797261         
+push rcx                    
+mov rcx, 0x7262694c64616f4c  
+push rcx                     
+mov rdx, rsp                 
+mov rcx, rbx                
+sub rsp, 0x30               
+call rdi                   
+add rsp, 0x30                
+add rsp, 0x10                
+mov rsi, rax                 
+
+mov rcx, 0x41656C6F73 
+push rcx
+mov rcx, 0x6E6F436574697257
+push rcx
+mov rdx, rsp
+mov rcx, rbx
+sub rsp, 0x30
+call rdi
+mov rsi, rax
+
+
+mov rcx, 0x656C646E
+push rcx
+mov rcx, 0x6148647453746547   
+push rcx                      
+mov rdx, rsp                 
+mov rcx, rbx              
+sub rsp, 0x30                
+call rdi                
+add rsp, 0x28                
+add rsp, 0x18               
+mov r15, rax 
+
+mov rcx, offset
+sub rsp, 0x30
+call r15
+mov r15, rax
+add   RSP, 32                                 
+
+sub   RSP, 32 + 8 + 8  
+mov rcx, r15
+mov rdx, message
+mov r8, len
+mov r9,  written
+mov qword[rsp+2*8], 0
+sub rsp, 0x30
+call rsi
+
+xor rcx, rcx           
+mov rcx, 0x737365         
+push rcx                
+mov rcx, 0x636f725074697845  
+push rcx 
+mov rdx, rsp                
+mov rcx, rbx                 
+sub rsp, 0x30            
+call rdi                    
+add rsp, 0x30                
+add rsp, 0x10         
+mov r15, rax                 
+
+
+mov rcx, 0     
+call r15      
+section .data
+
+	offset equ -11
+	message db "Hello World",0
+	len equ $-message
+
+section .bss
+	written resq 1

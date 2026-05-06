@@ -1,1 +1,16 @@
-package com.example.helloworld;\n\nimport android.app.Activity;\nimport android.os.Bundle;\nimport android.widget.TextView;\n\npublic class HelloWorld extends Activity {\n\n   @Override\n   public void onCreate(Bundle savedInstanceState) {\n       super.onCreate(savedInstanceState);\n       TextView tv = new TextView(this);\n       tv.setText(\"Hello World\");\n       setContentView(tv);\n   }\n}\n
+package com.example.helloworld;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.widget.TextView;
+
+public class HelloWorld extends Activity {
+
+   @Override
+   public void onCreate(Bundle savedInstanceState) {
+       super.onCreate(savedInstanceState);
+       TextView tv = new TextView(this);
+       tv.setText("Hello World");
+       setContentView(tv);
+   }
+}

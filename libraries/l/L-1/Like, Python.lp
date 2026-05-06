@@ -1,1 +1,3 @@
-#!usr/bin/python\n\nyo just print like \"Hello World\" bro\n
+#!usr/bin/python
+
+yo just print like "Hello World" bro

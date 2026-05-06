@@ -1,1 +1,3 @@
-dimension X;\nput [X:1] -> \"Hello World\";\noutput get [X:1];\n
+dimension X;
+put [X:1] -> "Hello World";
+output get [X:1];

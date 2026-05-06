@@ -1,1 +1,43 @@
-\n* Hello World for TI-99/4a computer with TMS9900 CPU\n* by Frog ( http://frog.enlight.ru )\n* 15 April 2016\n*\n****************************************************************************\n\n        DEF     START\n\nWRKSP   EQU     >8300\n\nVDPWD   EQU     >8C00        \nVDPWA   EQU     >8C02\n\n\nSTART   LIMI    0            \n        LWPI    WRKSP\n\n        LI      R0,>0000\n        ORI     R0,>4000\n        SWPB    R0\n        MOVB    R0,@VDPWA\n        SWPB    R0\n        MOVB    R0,@VDPWA\n\n        LI      R1,HELLOWORLD   \n        LI      R2,12          \n\nNEXTCHAR\n        MOVB    *R1+,@VDPWD     \n        DEC     R2\n        JNE     NEXTCHAR\n\nLOOPBACK\n        JMP LOOPBACK\n\n\nHELLOWORLD\n        TEXT 'HELLO WORLD'\n\n        BYTE 0\n\n        END\n
+
+* Hello World for TI-99/4a computer with TMS9900 CPU
+* by Frog ( http://frog.enlight.ru )
+* 15 April 2016
+*
+****************************************************************************
+
+        DEF     START
+
+WRKSP   EQU     >8300
+
+VDPWD   EQU     >8C00        
+VDPWA   EQU     >8C02
+
+
+START   LIMI    0            
+        LWPI    WRKSP
+
+        LI      R0,>0000
+        ORI     R0,>4000
+        SWPB    R0
+        MOVB    R0,@VDPWA
+        SWPB    R0
+        MOVB    R0,@VDPWA
+
+        LI      R1,HELLOWORLD   
+        LI      R2,12          
+
+NEXTCHAR
+        MOVB    *R1+,@VDPWD     
+        DEC     R2
+        JNE     NEXTCHAR
+
+LOOPBACK
+        JMP LOOPBACK
+
+
+HELLOWORLD
+        TEXT 'HELLO WORLD'
+
+        BYTE 0
+
+        END

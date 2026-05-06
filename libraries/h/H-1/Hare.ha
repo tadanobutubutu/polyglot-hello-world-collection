@@ -1,1 +1,5 @@
-print "Hello World"
+use fmt;
+
+export fn main() void = {
+	fmt::println("Hello World")!;
+};

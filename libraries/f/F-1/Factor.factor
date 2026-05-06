@@ -1,1 +1,3 @@
-[ "Hello World" print ]
+USING: io ;
+"Hello World" print
+

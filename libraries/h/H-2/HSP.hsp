@@ -1,1 +1,2 @@
-mes \"Hello World\"\nstop\n
+mes "Hello World"
+stop

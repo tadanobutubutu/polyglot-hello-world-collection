@@ -1,1 +1,1 @@
-print("Hello World")
+stdout println:'Hello World'.

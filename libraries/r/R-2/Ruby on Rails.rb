@@ -1,1 +1,4 @@
-class HelloWorld < app\n  print \"Hello World\"\n  end\nend\n
+class HelloWorld < app
+  print "Hello World"
+  end
+end

@@ -1,1 +1,5 @@
-struct HelloWorld extends array\n    private static method onInit takes nothing returns nothing\n        call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 0, \"Hello World\")\n    endmethod\nendstruct\n
+struct HelloWorld extends array
+    private static method onInit takes nothing returns nothing
+        call DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 0, "Hello World")
+    endmethod
+endstruct

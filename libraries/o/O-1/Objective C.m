@@ -1,1 +1,14 @@
-/*\n Build on OS X: \n clang -framework Foundation -fobjc-arc objc.m -o objc\n \n Build on Linux with GNUstep:\n clang `gnustep-config --objc-flags` `gnustep-config --base-libs` -fobjc-nonfragile-abi -fobjc-arc objc.m -o objc\n */\n\n#import <Foundation/Foundation.h>\n\nint main(void)\n{\n    NSLog(@\"Hello World\");\n}\n
+/*
+ Build on OS X: 
+ clang -framework Foundation -fobjc-arc objc.m -o objc
+ 
+ Build on Linux with GNUstep:
+ clang `gnustep-config --objc-flags` `gnustep-config --base-libs` -fobjc-nonfragile-abi -fobjc-arc objc.m -o objc
+ */
+
+#import <Foundation/Foundation.h>
+
+int main(void)
+{
+    NSLog(@"Hello World");
+}

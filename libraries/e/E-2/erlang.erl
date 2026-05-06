@@ -1,3 +1,5 @@
--module(hello).
--export([hello_world/0]).
-hello_world() -> io:fwrite("Hello World\n").
+-module(erlang_hw).
+-export([start/0]).
+
+start() ->
+  io:format("Hello World~n").

@@ -1,3 +1,3 @@
-WRITE(*,*) 'Hello World'
-      STOP
+      PROGRAM HELLOW
+      WRITE(UNIT=*, FMT=*) 'Hello World'
       END

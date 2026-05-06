@@ -1,1 +1,4 @@
-action HelloWorldActor::init\n{\n print (\"Hello World\\n\") ;\n}\n
+action HelloWorldActor::init
+{
+ print ("Hello World\n") ;
+}

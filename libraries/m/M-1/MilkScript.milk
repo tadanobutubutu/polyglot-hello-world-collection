@@ -1,1 +1,2 @@
-#import \"basic\"\nprint(\"Hello World\")\n
+#import "basic"
+print("Hello World")

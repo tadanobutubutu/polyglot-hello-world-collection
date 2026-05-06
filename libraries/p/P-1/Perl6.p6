@@ -1,1 +1,6 @@
-#!/usr/bin/env perl6\n\nv6;\n\nsay \"Hello World\";\n\n
+#!/usr/bin/env perl6
+
+v6;
+
+say "Hello World";
+

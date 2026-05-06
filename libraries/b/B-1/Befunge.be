@@ -1,1 +1,1 @@
--1 \"Hello World\" 10 print\n
+>"dlroW olleH",,,,,,,,,,,@

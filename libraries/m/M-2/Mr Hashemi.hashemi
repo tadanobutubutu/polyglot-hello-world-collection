@@ -1,1 +1,3 @@
-bebin azinja() {\n  bechap(\"Hello World\");\n}
+bebin azinja() {
+  bechap("Hello World");
+}

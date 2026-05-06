@@ -1,1 +1,3 @@
-print("Hello World")
+@program hello:run
+player:tell("Hello World");
+.

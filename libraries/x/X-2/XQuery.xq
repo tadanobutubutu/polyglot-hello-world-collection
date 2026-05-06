@@ -1,1 +1,2 @@
-print "Hello World"
+let $hello := "Hello World"
+return $hello

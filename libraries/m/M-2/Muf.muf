@@ -1,1 +1,3 @@
-: main\n    me @ \"Hello World\" notify\n;\n
+: main
+    me @ "Hello World" notify
+;

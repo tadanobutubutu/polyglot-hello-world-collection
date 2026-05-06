@@ -1,1 +1,3 @@
-If OpenConsole()\n  PrintN(\"Hello World\")\nEndIf\n
+If OpenConsole()
+  PrintN("Hello World")
+EndIf

@@ -1,1 +1,1 @@
-include \"console.iol\"\n\nmain {\n\tprintln@Console(\"Hello World\")()\n}\n
+{ "hello": "world" }

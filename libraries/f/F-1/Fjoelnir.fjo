@@ -1,1 +1,11 @@
-\"hello\" < main\n{\n    main ->\n    stef(;)\n    stofn\n        skrifastreng(;\"Hello World\"),\n    stofnlok\n}\n*\n\"GRUNNUR\"\n;
+"hello" < main
+{
+    main ->
+    stef(;)
+    stofn
+        skrifastreng(;"Hello World"),
+    stofnlok
+}
+*
+"GRUNNUR"
+;

@@ -1,1 +1,2 @@
-label .l -text \"Hello World\"\npack .l\n
+label .l -text "Hello World"
+pack .l

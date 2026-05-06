@@ -1,1 +1,5 @@
-printf(fmt cstring) int #Foreign(\"printf\") #VarArgs\n\nmain() {\n\tprintf(\"Hello World\")\n}\n
+printf(fmt cstring) int #Foreign("printf") #VarArgs
+
+main() {
+	printf("Hello World")
+}

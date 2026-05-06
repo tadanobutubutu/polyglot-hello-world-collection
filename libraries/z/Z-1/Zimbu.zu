@@ -1,1 +1,4 @@
-FUNC Main() int\n  IO.write(\"Hello World\\n\")\n  RETURN 0\n}\n
+FUNC Main() int
+  IO.write("Hello World\n")
+  RETURN 0
+}

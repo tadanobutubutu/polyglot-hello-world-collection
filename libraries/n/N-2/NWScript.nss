@@ -1,1 +1,4 @@
-// Place in the OnClientEnter event of the module's properties\n{\n    SendMessageToPC(GetEnteringObject(), \"Hello World\");\n}\n
+// Place in the OnClientEnter event of the module's properties
+{
+    SendMessageToPC(GetEnteringObject(), "Hello World");
+}

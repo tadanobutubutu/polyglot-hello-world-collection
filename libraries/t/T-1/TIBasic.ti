@@ -1,1 +1,3 @@
-PROGRAM:HELLOW\n:ClrHome\n:Disp \"Hello World\"
+PROGRAM:HELLOW
+:ClrHome
+:Disp "Hello World"

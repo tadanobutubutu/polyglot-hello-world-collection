@@ -1,1 +1,2 @@
-kturtle-script-v1.0\n@(print) \"Hello World\"
+kturtle-script-v1.0
+@(print) "Hello World"

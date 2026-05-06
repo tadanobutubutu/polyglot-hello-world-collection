@@ -1,1 +1,1 @@
-printfn \"Hello World\"\n
+printfn "Hello World"

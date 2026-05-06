@@ -1,1 +1,1 @@
-show me what you got \"Hello World\"\n
+show me what you got "Hello World"

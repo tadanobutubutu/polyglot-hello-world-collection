@@ -1,1 +1,14 @@
-import http.server\nimport socketserver\nfrom http import HTTPStatus\n\n\nclass Handler(http.server.SimpleHTTPRequestHandler):\n    def do_GET(self):\n        self.send_response(HTTPStatus.OK)\n        self.end_headers()\n        self.wfile.write(b'Hello World')\n\n\nhttpd = socketserver.TCPServer(('', 8000), Handler)\nhttpd.serve_forever()\n
+import http.server
+import socketserver
+from http import HTTPStatus
+
+
+class Handler(http.server.SimpleHTTPRequestHandler):
+    def do_GET(self):
+        self.send_response(HTTPStatus.OK)
+        self.end_headers()
+        self.wfile.write(b'Hello World')
+
+
+httpd = socketserver.TCPServer(('', 8000), Handler)
+httpd.serve_forever()

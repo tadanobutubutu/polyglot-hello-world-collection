@@ -1,1 +1,4 @@
-func Main()\n{\n\tPrintl(\"Hello World\")\n}\n
+func Main()
+{
+	Printl("Hello World")
+}

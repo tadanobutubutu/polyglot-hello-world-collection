@@ -1,2 +1,1 @@
-(bind ?s "Hello World")
-(printout t ?s crlf)
+(printout t "Hello World")

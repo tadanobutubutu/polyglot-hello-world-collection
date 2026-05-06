@@ -1,1 +1,3 @@
-main() {\n  print('Hello World');\n}\n
+main() {
+  print('Hello World');
+}

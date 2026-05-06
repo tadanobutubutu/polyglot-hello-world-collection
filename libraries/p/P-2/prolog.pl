@@ -1,1 +1,4 @@
-write_line("Hello World").
+helloWorld :-
+  write('Hello World').
+
+:- helloWorld.

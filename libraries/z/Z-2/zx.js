@@ -1,1 +1,2 @@
-#!/usr/bin/env zx\nconsole.log(\"Hello World\")\n
+#!/usr/bin/env zx
+console.log("Hello World")

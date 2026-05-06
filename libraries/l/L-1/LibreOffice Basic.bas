@@ -1,1 +1,5 @@
-\ufeffREM  *****  BASIC  *****\n\nSub Main\n msgbox \"Hello World\"\nEnd Sub\n
+﻿REM  *****  BASIC  *****
+
+Sub Main
+ msgbox "Hello World"
+End Sub

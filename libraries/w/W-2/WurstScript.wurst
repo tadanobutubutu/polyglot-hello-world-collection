@@ -1,1 +1,5 @@
-package HelloWurst\nimport Printing\n\ninit\n\tprint(\"Hello World\")\n
+package HelloWurst
+import Printing
+
+init
+	print("Hello World")

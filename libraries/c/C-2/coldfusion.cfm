@@ -1,1 +1,2 @@
-<cfoutput>Hello world!</cfoutput>
+<cfset message = "Hello World">
+<cfoutput> #message#</cfoutput>

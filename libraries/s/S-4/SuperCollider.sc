@@ -1,1 +1,1 @@
-\"Hello World\".postln;\n
+"Hello World".postln;

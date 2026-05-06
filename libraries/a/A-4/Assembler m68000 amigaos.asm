@@ -1,1 +1,30 @@
-\n\nExecBase     = 4\nOpenLibrary  = -552\nCloseLibrary = -414\nPutStr       = -948\n\n\tsection \"main\", code\n\n\n\tmove.l\tExecBase, a6\n\tlea\tlib, a1\n\tmoveq\t#0, d0\n\tjsr\t(OpenLibrary, a6)\n\tmove.l\td0, a6\n\n\n\tmove.l\t#msg, d1\n\tjsr\t(PutStr, a6)\n\n\n\tmove.l\ta6, a1\n\tmove.l\tExecBase, a6\n\tjsr\t(CloseLibrary, a6)\n\n\tmoveq\t#0, d0\n\trts\n\nlib\tdc.b\t\"dos.library\", 0\nmsg\tdc.b\t\"Hello World\\n\", 0\n
+
+
+ExecBase     = 4
+OpenLibrary  = -552
+CloseLibrary = -414
+PutStr       = -948
+
+	section "main", code
+
+
+	move.l	ExecBase, a6
+	lea	lib, a1
+	moveq	#0, d0
+	jsr	(OpenLibrary, a6)
+	move.l	d0, a6
+
+
+	move.l	#msg, d1
+	jsr	(PutStr, a6)
+
+
+	move.l	a6, a1
+	move.l	ExecBase, a6
+	jsr	(CloseLibrary, a6)
+
+	moveq	#0, d0
+	rts
+
+lib	dc.b	"dos.library", 0
+msg	dc.b	"Hello World\n", 0

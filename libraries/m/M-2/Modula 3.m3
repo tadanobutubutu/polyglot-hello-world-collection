@@ -1,1 +1,5 @@
-MODULE HelloWorld;\nIMPORT Io;\nBEGIN\n    IO.Put (\"Hello World\\n\")\nEND HelloWorld.
+MODULE HelloWorld;
+IMPORT Io;
+BEGIN
+    IO.Put ("Hello World\n")
+END HelloWorld.

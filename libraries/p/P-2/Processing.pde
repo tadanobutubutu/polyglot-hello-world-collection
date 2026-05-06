@@ -1,1 +1,5 @@
-size(128, 128);\nbackground(0);\ntextAlign(CENTER, CENTER);\nfill(255);\ntext(\"Hello World\", width / 2, height / 2);\n
+size(128, 128);
+background(0);
+textAlign(CENTER, CENTER);
+fill(255);
+text("Hello World", width / 2, height / 2);

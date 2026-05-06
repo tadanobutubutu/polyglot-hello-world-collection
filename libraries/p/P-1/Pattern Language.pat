@@ -1,1 +1,2 @@
-#include <std/sys.pat>\nstd::print(\"Hello World\");\n
+#include <std/sys.pat>
+std::print("Hello World");

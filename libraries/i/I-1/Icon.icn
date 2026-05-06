@@ -1,1 +1,3 @@
-print "Hello World"
+procedure main()
+    write("Hello World");
+end

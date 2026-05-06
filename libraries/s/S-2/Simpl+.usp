@@ -1,1 +1,5 @@
-// Hello World in Crestron's SIMPL+\nFunction Main\n{\n    Print(\"Hello World\\n\");\n}\n
+// Hello World in Crestron's SIMPL+
+Function Main
+{
+    Print("Hello World\n");
+}

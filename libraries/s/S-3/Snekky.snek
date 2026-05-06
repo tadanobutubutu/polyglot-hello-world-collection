@@ -1,1 +1,1 @@
-Sys.println(\"Hello World\");
+Sys.println("Hello World");

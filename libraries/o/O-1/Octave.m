@@ -1,1 +1,1 @@
-disp('Hello World')
+printf("Hello World");

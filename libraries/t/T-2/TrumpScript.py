@@ -1,1 +1,2 @@
-say \"Hello World\"!\nAmerica is great.\n
+say "Hello World"!
+America is great.

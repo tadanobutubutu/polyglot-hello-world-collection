@@ -1,1 +1,3 @@
-proc main()void:\n    writeln("Hello World");\ncorp;\n
+proc main()void:
+    writeln("Hello World");
+corp;

@@ -1,1 +1,5 @@
-import std::ascii\nimport std::io\n\nmethod main(ascii::string[] args):\n    io::println(\"Hello World\")\n
+import std::ascii
+import std::io
+
+method main(ascii::string[] args):
+    io::println("Hello World")

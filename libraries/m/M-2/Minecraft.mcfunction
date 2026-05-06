@@ -1,1 +1,1 @@
-tellraw @p \"Hello World\"\n
+tellraw @p "Hello World"

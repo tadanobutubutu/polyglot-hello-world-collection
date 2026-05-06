@@ -1,1 +1,1 @@
-(display "Hello, World!") (newline)
+h

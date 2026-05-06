@@ -1,1 +1,2 @@
-print("Hello World")
+#!/bin/tcsh
+echo "Hello World"

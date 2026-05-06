@@ -1,1 +1,23 @@
-lol iz 72\nrofl lol\nlol iz 101\nrofl lol\nlol iz 108\nrofl lol\nrofl lol\nlool iz 111\nrofl lool\nloool iz 44\nrofl loool\nloool iz 32\nrofl loool\nloool iz 87\nrofl loool\nrofl lool\nlool iz 114\nrofl lool\nrofl lol\nlol iz 100\nrofl lol\nlol iz 33\nrofl lol\n
+lol iz 72
+rofl lol
+lol iz 101
+rofl lol
+lol iz 108
+rofl lol
+rofl lol
+lool iz 111
+rofl lool
+loool iz 44
+rofl loool
+loool iz 32
+rofl loool
+loool iz 87
+rofl loool
+rofl lool
+lool iz 114
+rofl lool
+rofl lol
+lol iz 100
+rofl lol
+lol iz 33
+rofl lol

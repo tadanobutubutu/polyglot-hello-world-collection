@@ -1,1 +1,1 @@
-print "Hello World"
+WRITE SYS$OUTPUT "Hello World"

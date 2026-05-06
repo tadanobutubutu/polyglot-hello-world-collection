@@ -1,1 +1,3 @@
-print "Hello World"
+do while .t.
+ ? 'Hello World'
+enddo

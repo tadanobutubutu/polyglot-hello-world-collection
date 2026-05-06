@@ -1,1 +1,5 @@
-function Hello() {\n  return <h1>Hello World</h1>;\n}\n\nReact.render(<Hello />, document.body);\n
+function Hello() {
+  return <h1>Hello World</h1>;
+}
+
+React.render(<Hello />, document.body);

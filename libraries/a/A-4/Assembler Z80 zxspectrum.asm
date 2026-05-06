@@ -1,1 +1,21 @@
-org $6000\n\tld bc, STRING\n\tld de, SCR\n\nLOOP\n\tld a, (bc)\n\tcp 0\n\tjr z, EXIT\n\trst $10\n\tinc bc\n\tinc de\n\tjr LOOP\n\nEXIT\n\tret\n\t\nSCR equ 16384\n\nSTRING\n\tdefb \"Hello World\"\n\tdefb 13, 0\n
+org $6000
+	ld bc, STRING
+	ld de, SCR
+
+LOOP
+	ld a, (bc)
+	cp 0
+	jr z, EXIT
+	rst $10
+	inc bc
+	inc de
+	jr LOOP
+
+EXIT
+	ret
+	
+SCR equ 16384
+
+STRING
+	defb "Hello World"
+	defb 13, 0

@@ -1,1 +1,3 @@
-require stdout\n\nstdout.print(\"Hello World\")\n
+require stdout
+
+stdout.print("Hello World")

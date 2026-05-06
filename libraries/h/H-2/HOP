@@ -1,1 +1,6 @@
-(define-service (hello-world)\n  (<HTML>\n     (<HEAD>\n        (<TITLE> \"Hello World\"))\n     (<BODY>\n        \"Hello World\")))\n
+(define-service (hello-world)
+  (<HTML>
+     (<HEAD>
+        (<TITLE> "Hello World"))
+     (<BODY>
+        "Hello World")))

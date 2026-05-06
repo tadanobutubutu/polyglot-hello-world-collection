@@ -1,1 +1,3 @@
-print("Hello World")
+proc main()void:
+    writeln("Hello World");
+corp;

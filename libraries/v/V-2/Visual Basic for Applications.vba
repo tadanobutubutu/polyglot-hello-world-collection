@@ -1,1 +1,3 @@
-Sub HelloWorld()\n    Call MsgBox(\"Hello World\")\nEnd Sub
+Sub HelloWorld()
+    Call MsgBox("Hello World")
+End Sub

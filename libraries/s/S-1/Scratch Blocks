@@ -1,1 +1,2 @@
-when flag clicked\nsay [hello world]\n
+when flag clicked
+say [hello world]

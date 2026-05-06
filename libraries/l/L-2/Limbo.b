@@ -1,1 +1,16 @@
-implement Hello;\n\ninclude \"sys.m\";\n\tsys: Sys;\ninclude \"draw.m\";\n\nHello: module\n{\n\tinit:\tfn(ctxt: ref Draw->Context, argv: list of string);\n};\n\ninit(ctxt: ref Draw->Context, argv: list of string)\n{\n\tsys = load Sys Sys->PATH;\n\tsys->print(\"Hello World\\n\");\n}\n
+implement Hello;
+
+include "sys.m";
+	sys: Sys;
+include "draw.m";
+
+Hello: module
+{
+	init:	fn(ctxt: ref Draw->Context, argv: list of string);
+};
+
+init(ctxt: ref Draw->Context, argv: list of string)
+{
+	sys = load Sys Sys->PATH;
+	sys->print("Hello World\n");
+}

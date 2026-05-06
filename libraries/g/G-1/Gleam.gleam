@@ -1,1 +1,5 @@
-print "Hello World"
+import gleam/io
+
+pub fn main() {
+  io.println("Hello World")
+}

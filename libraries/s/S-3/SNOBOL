@@ -1,1 +1,2 @@
-          OUTPUT = \"Hello World\"\nEND\n
+          OUTPUT = "Hello World"
+END

@@ -1,1 +1,1 @@
-print "Hello World"
+IO.print("Hello World")

@@ -1,1 +1,4 @@
-(print \"Hello World\")\n
+import stdio::*
+
+fn main():
+  print <- "Hello World"

@@ -1,1 +1,3 @@
-procedure hello_world() {\n  println(\"Hello World\");\n}\n
+procedure hello_world() {
+  println("Hello World");
+}

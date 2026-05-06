@@ -1,1 +1,6 @@
-use std\n\nconst main = {\n    std.put(\"Hello World\\n\")\n}\n\n
+use std
+
+const main = {
+    std.put("Hello World\n")
+}
+

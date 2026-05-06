@@ -1,1 +1,4 @@
-class Dyvil\n{\n	static func main(args: [String]) = print 'Hello World'\n}\n
+class Dyvil
+{
+	static func main(args: [String]) = print 'Hello World'
+}

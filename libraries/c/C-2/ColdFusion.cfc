@@ -1,1 +1,2 @@
-WriteOutput(\"Hello World\");\n
+<cfset message = "Hello World">
+<cfoutput> #message#</cfoutput>

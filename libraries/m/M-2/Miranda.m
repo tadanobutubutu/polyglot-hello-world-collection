@@ -1,1 +1,2 @@
-main :: [sys_message]\nmain = [Stdout \"Hello World\"]\n
+main :: [sys_message]
+main = [Stdout "Hello World"]

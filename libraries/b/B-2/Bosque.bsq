@@ -1,1 +1,5 @@
-print("Hello World")
+namespace NSMain;
+
+entrypoint function main(): String {  
+    return "Hello World";
+}

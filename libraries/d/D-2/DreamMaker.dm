@@ -1,1 +1,3 @@
-mob\n	Login()\n		world << "Hello World"\n
+mob
+	Login()
+		world << "Hello World"

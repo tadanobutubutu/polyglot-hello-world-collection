@@ -1,1 +1,2 @@
-Red [Needs: 'View]\nview [text \"Hello World\"] 极
+Red [Needs: 'View]
+view [text "Hello World"] 

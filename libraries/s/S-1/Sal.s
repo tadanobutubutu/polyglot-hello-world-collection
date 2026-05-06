@@ -1,1 +1,5 @@
-proc main()\n    loop\n        WriteLine(\"Hello World\")\n    endloop\nend\n
+proc main()
+    loop
+        WriteLine("Hello World")
+    endloop
+end

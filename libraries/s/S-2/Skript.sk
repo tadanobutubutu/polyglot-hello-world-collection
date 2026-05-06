@@ -1,1 +1,2 @@
-on load:\n\tbroadcast \"Hello World\"\n
+on load:
+	broadcast "Hello World"

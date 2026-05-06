@@ -1,1 +1,2 @@
-(def 'impure main\n     (λ () (putStrLn \"Hello World\")))\n
+(def 'impure main
+     (λ () (putStrLn "Hello World")))

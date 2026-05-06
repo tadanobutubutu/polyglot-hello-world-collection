@@ -1,1 +1,7 @@
-class HelloWorld extends Mutator;\n\nfunction PostBeginPlay()\n{\n  Super.PostBeginPlay();\n  Log(\"Hello World\");\n}\n
+class HelloWorld extends Mutator;
+
+function PostBeginPlay()
+{
+  Super.PostBeginPlay();
+  Log("Hello World");
+}

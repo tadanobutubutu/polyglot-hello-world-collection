@@ -1,1 +1,6 @@
-#include <iostream>\n\nint main() {\n    std::cout << \"Hello World\";\n    return 0;\n}\n
+#include <iostream>
+
+int main()
+{
+   std::cout << "Hello World" << std::endl;
+}

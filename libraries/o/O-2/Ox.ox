@@ -1,1 +1,1 @@
-print("Hello World")
+{Show 'Hello World'}

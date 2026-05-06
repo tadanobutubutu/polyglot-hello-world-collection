@@ -1,1 +1,9 @@
-import sys\nfrom PyQt4 import QtGui\n\napp = QtGui.QApplication(sys.argv)\nwidget = QtGui.QWidget()\nhelloWorld = QtGui.QLabel(widget)\nhelloWorld.setText(\"Hello World\")\nwidget.show()\nsys.exit(app.exec_())\n
+import sys
+from PyQt4 import QtGui
+
+app = QtGui.QApplication(sys.argv)
+widget = QtGui.QWidget()
+helloWorld = QtGui.QLabel(widget)
+helloWorld.setText("Hello World")
+widget.show()
+sys.exit(app.exec_())

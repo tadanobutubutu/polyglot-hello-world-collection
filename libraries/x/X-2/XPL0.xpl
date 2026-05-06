@@ -1,1 +1,2 @@
-code Text=12;\nText(0, \"Hello World\")\n
+code Text=12;
+Text(0, "Hello World")

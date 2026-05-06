@@ -1,1 +1,7 @@
-//! zinc\nlibrary HelloWorld {\n    private function onInit() {\n        DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 0, \"Hello World\");\n    }\n}\n//! endzinc\n
+//! zinc
+library HelloWorld {
+    private function onInit() {
+        DisplayTimedTextToPlayer(GetLocalPlayer(), 0, 0, 0, "Hello World");
+    }
+}
+//! endzinc

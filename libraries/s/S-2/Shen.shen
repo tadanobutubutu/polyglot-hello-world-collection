@@ -1,1 +1,1 @@
-(pr \"Hello World\")\n
+(pr "Hello World")

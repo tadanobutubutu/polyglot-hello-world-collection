@@ -1,1 +1,1 @@
-bprint(\"Hello World\\n\");
+bprint("Hello World\n");

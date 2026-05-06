@@ -1,1 +1,1 @@
-program HelloWorld;\nbegin\n  Writeln('Hello World');\nend.\n
+console.log("Hello World");

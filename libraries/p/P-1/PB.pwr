@@ -1,1 +1,5 @@
-; Hello World in \"PowerBatch Plus+\" from Computing Systems Design, Inc.\n\nVariable        Msg,13,\"Hello World\"\n\nWrite           Msg\n
+; Hello World in "PowerBatch Plus+" from Computing Systems Design, Inc.
+
+Variable        Msg,13,"Hello World"
+
+Write           Msg

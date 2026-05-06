@@ -1,1 +1,1 @@
-rebmu [p\"Hello World\"]\n
+rebmu [p"Hello World"]

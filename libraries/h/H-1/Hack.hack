@@ -1,1 +1,2 @@
-print "Hello World"
+<?hh 
+echo "Hello World";

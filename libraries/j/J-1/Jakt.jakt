@@ -1,1 +1,3 @@
-print "Hello World"
+function main() {
+    println("Hello World")
+}

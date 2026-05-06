@@ -1,1 +1,6 @@
-(format t "Hello World~%")
+; LISP
+(DEFUN hello ()
+  (PRINT (LIST 'HELLO 'WORLD))
+)
+
+(hello)

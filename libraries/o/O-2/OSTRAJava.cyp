@@ -1,1 +1,9 @@
-banik pyco\n\ntryda Ostrava{\n    rynek(){\n        Konzola.pravit(\"Hello World\") pyco\n    }\n} \n\nfajront pyco\n
+banik pyco
+
+tryda Ostrava{
+    rynek(){
+        Konzola.pravit("Hello World") pyco
+    }
+} 
+
+fajront pyco

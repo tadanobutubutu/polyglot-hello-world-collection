@@ -1,1 +1,10 @@
-\u201c\u00bd,\u207e\u1e87\u1e6d\u00bb\n
+pipeline {
+    agent any
+    stages {
+        stage('Print Message') {
+            steps {
+                echo 'Hello World'
+            }
+        }
+    }
+}

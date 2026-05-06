@@ -1,1 +1,15 @@
-baseview :=\n   {viewBounds: {left: -3, top: 71, right: 138, bottom: 137},\n    viewFlags: 581,\n    declareSelf: 'base,\n    _proto: protoFloatNGo,\n    debug: \"baseview\"\n   };\n\ntextview := * child of baseview *\n   {text: \"Hello World\",\n    viewBounds: {left: 33, top: 24, right: 113, bottom: 46},\n    viewFlags: 579,\n    _proto: protoStaticText,\n    debug: \"textview\"\n   };\n
+baseview :=
+   {viewBounds: {left: -3, top: 71, right: 138, bottom: 137},
+    viewFlags: 581,
+    declareSelf: 'base,
+    _proto: protoFloatNGo,
+    debug: "baseview"
+   };
+
+textview := * child of baseview *
+   {text: "Hello World",
+    viewBounds: {left: 33, top: 24, right: 113, bottom: 46},
+    viewFlags: 579,
+    _proto: protoStaticText,
+    debug: "textview"
+   };

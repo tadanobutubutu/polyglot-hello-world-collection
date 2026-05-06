@@ -1,1 +1,3 @@
-Importar \"Pauscal.prp\"\nMensaje(\"Hello World\")\nFin
+Importar "Pauscal.prp"
+Mensaje("Hello World")
+Fin

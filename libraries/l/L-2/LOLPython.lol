@@ -1,1 +1,1 @@
-VISIBLE \"Hello World\"\n
+VISIBLE "Hello World"

@@ -1,1 +1,8 @@
-implementation\n\nclass method ConsoleApp.Main;\nbegin\n  Console.WriteLine('Hello World');\nend;\n\nend.\n
+implementation
+
+class method ConsoleApp.Main;
+begin
+  Console.WriteLine('Hello World');
+end;
+
+end.

@@ -1,1 +1,5 @@
-#include <core>\n \nmain(){\n    print(\"Hello World\");   \n}\n
+#include <core>
+ 
+main(){
+    print("Hello World");   
+}

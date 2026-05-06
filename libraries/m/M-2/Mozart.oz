@@ -1,1 +1,8 @@
-functor\nimport\n     Application\n     System\ndefine\n    {System.showInfo 'Hello World'}\n    {Application.exit 0} \nend\n
+functor
+import
+     Application
+     System
+define
+    {System.showInfo 'Hello World'}
+    {Application.exit 0} 
+end

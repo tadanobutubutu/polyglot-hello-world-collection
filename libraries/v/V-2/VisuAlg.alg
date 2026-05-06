@@ -1,1 +1,4 @@
-Algoritmo \" \"\nInicio\nescreva(\"Hello World\")\nFimalgoritmo\n
+Algoritmo " "
+Inicio
+escreva("Hello World")
+Fimalgoritmo

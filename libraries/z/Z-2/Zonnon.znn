@@ -1,1 +1,4 @@
-module HelloWorld;\nbegin\n    writeln(\"Hello World\");\nend HelloWorld.    
+module HelloWorld;
+begin
+    writeln("Hello World");
+end HelloWorld.    

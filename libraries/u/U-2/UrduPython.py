@@ -1,1 +1,1 @@
-لکھو (\"Hello World\")\n
+لکھو ("Hello World")
