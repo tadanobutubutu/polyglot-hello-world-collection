@@ -1,0 +1,4 @@
+% Hello World in MetaPost
+beginfig(0);
+  label("Hello, world!", (10,10));
+endfig;

@@ -1,0 +1,5 @@
+system(&runnow);
+
+reset({
+	debug.print(#"Hello, world!");
+});

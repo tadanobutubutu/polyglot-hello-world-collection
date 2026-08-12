@@ -1,0 +1,6 @@
+// Hello world in ELENA 4.0
+
+public program()
+{
+    console.writeLine("Hello world!")
+}

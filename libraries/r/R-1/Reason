@@ -1,0 +1,3 @@
+/* Hello world in Reason */
+
+Js.log("Hello World!")

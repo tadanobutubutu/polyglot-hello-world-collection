@@ -1,0 +1,3 @@
+helloworld = "Hello, "
+helloworld = $$ "World!"
+out helloworld

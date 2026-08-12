@@ -1,0 +1,3 @@
+#!/usr/bin/squirrelsh
+// Hello world in Squirrel
+printl("Hello, world!");

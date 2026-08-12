@@ -1,0 +1,5 @@
+// Hello World in Linotte
+
+BonjourLeMonde:
+   début
+     affiche "Hello World!"

@@ -1,0 +1,1 @@
+| makeresults `comment("Hello world in Splunk SPL")` | eval mystring="Hello, World!"

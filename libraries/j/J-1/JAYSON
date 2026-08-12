@@ -1,0 +1,10 @@
+{
+  "program": {
+    "main": [
+      {
+        "operation": "print",
+        "value": "Hello, World!"
+      }
+    ]
+  }
+}

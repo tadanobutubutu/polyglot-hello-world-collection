@@ -1,0 +1,13 @@
+%% Write "Hello, World!"
+h:=72
+ @wy := h
+h+=29  @wy := h
+h+=7   @wy := h @wy := h
+h:=111 @wy := h
+h:=44  @wy := h @wy := @spacja
+h:=87  @wy := h
+h+=24  @wy := h
+h+=3   @wy := h
+h+=-6  @wy := h
+h-=8   @wy := h
+h:=33  @wy := h

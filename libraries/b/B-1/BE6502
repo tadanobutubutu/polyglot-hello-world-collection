@@ -1,0 +1,9 @@
+system(&BE6502);
+include(#"lcd.sc");
+
+reset({
+	$lcd.init(:lcd.init.8x10);
+	$lcd.print(:hworld);
+});
+
+mem(:hworld,#"Hello, world!");

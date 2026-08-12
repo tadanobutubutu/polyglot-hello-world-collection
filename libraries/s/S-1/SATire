@@ -1,0 +1,9 @@
+Please fill out the following form.
+greeting: "Hello, world!\0A"
+Calculator section.
+
+(1) Evaluate 1. Round up.
+a. ([] # greeting) # 1
+b. ["",2,]
+c. ["",3,]
+d. ["",None-of-the-above,]

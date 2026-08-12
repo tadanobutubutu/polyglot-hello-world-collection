@@ -1,0 +1,6 @@
+<set>
+    <main>
+    <function>
+        <print>"Hello, world!"</print>
+    </function>
+</set>

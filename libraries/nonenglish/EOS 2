@@ -1,0 +1,7 @@
+// Hello world in EOS 2
+
+Fenster:Fenster
+Text:Textfeld
+
+Fenster.zeichne(Text)
+Text.zeileHinzufügen("Hello, World!")

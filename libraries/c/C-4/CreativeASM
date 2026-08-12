@@ -1,0 +1,2 @@
+put rax "Hello, world!"
+int rax 01h

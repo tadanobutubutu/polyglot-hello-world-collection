@@ -1,0 +1,8 @@
+!print--:#out:--:#c:#n:/wrote--:'@output--:#out: #c:#n:
+!print--:#out:eol:     /wrote- :'@output--:#out:&0a:
+!wrote--:'@iopair--:#out:#c:#n:/print--:#out:#n:
+!wrote- :'@iopair--:#out:#c:   /#out:
+
+!'@run-:#: / print--:#:
+--:'H:--:'e:--:'l:--:'l:--:'o:--:',:--:' :
+--:'w:--:'o:--:'r:--:'l:--:'d:--:'!:eol:

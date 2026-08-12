@@ -1,0 +1,26 @@
+def var 0
+inc 0 rpt 72
+outchr 0
+inc 0 rpt 29
+outchr 0
+inc 0 rpt 7
+outchr 0 rpt 2
+inc 0 rpt 3
+outchr 0
+dec 0 rpt 67
+outchr 0
+dec 0 rpt 12
+outchr 0
+inc 0 rpt 55
+outchr 0
+inc 0 rpt 24
+outchr 0
+inc 0 rpt 3
+outchr 0
+dec 0 rpt 6
+outchr 0
+dec 0 rpt 8
+outchr 0
+dec 0 rpt 67
+outchr 0
+ter

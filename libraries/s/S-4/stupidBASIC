@@ -1,0 +1,3 @@
+program
+ say Hello, world!
+end program

@@ -1,0 +1,2 @@
+SET_STRING A Hello, world!
+GET_STRING A

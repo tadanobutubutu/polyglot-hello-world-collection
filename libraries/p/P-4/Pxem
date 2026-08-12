@@ -1,0 +1,9 @@
+Hello.p	Prints "Hello"
+Aa.-	Makes ' '
+Am.-	Makes ','
+.p	Prints ", "
+world.p	Prints "world"
+ak.-	Makes '\n'
+Ab.-	Makes '!'
+.p	Prints "!\n"
+xe

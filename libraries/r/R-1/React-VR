@@ -1,0 +1,15 @@
+// Hello world in React-VR
+
+import React from 'react';
+import { AppRegistry, asset, Text, View,} from 'react-vr';
+ 
+export default class HelloWorld extends React.Component {
+  render() { return (
+      <View>
+        <Text
+          style={{transform: [{translate: [0, 0, -3]}],}}>
+          Hello World
+        </Text>
+      </View>
+    );   } };
+AppRegistry.registerComponent('HelloWorld', () => HelloWorld);

@@ -1,0 +1,13 @@
+;; Hello World in Fjölnir (Icelandic programming language)
+
+"hello" < main
+{
+   main ->
+   stef(;)
+   stofn
+       skrifastreng(;"Halló Veröld!"),
+   stofnlok
+}
+*
+"GRUNNUR"
+;

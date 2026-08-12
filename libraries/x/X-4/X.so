@@ -1,0 +1,9 @@
+/**
+ * Hello world in X.so.
+ */
+$HelloWorld (
+    $Main(
+        !Include("X")
+        !X.Show("Hello, world!\n")
+    )
+)

@@ -1,0 +1,16 @@
+############################################
+#  FileName:   helloworld.sq
+#  Author:     Lawrence Woodman
+#  Date:       26th March 2009
+#===========================================
+#  Outputs 'hello, world'
+############################################
+loop:       hello (-1)              # Outputs character pointed to by hello
+            minusOne loop           # Increments character output pointer to next character
+            minusOne checkEnd+1     # Increments end of string pointer to next character
+checkEnd:   Z hello (-1)            # Halts program if character at pointer is zero
+            Z Z loop                # Jumps to loop
+				
+# Data Storage				
+. minusOne: -1                      # Used to increment pointer
+. hello: "hello, world\n" Z: 0      # Zero terminated string to print

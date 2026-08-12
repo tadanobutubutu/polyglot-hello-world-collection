@@ -1,0 +1,9 @@
+//beginning Hello World in Rey:
+ 
+korzystaj "Konsola";
+ 
+program
+{
+    PiszLinia("Hello World");
+}
+//end Hello World in Rey

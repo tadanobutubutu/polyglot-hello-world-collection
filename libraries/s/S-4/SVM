@@ -1,0 +1,6 @@
+## The hello world program in SVM code
+AM =0000000C
+CM $Hello World!,=0000000C,*00000000
+DD *00000000,=0000000C
+IC *00000000
+EP

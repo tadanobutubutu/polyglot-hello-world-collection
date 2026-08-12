@@ -1,0 +1,13 @@
+       ;start
+IO:    ;
+start:
+       output "Hello, World!\n"
+end:   ;end
+
+def output_bit bit < IO {
+    bit ? IO+1 : IO;  // output (0/1) is done by flipping the 2w / 2w+1 bits.
+}
+
+def output str {
+    rep(((#str)+7)&(0-8), i) output_bit (str>>i)&1  // # is the number of bits needed to represent the number. calls strbitlen() times to output_bit.
+}

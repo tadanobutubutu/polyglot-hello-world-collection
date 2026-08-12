@@ -1,0 +1,9 @@
+Main
+| IO<_> -> Main<>
+| Main<> -> IO<IO.0<IO.1<IO.0<IO.0<IO.1<IO.0<IO.0<IO.0<IO.0<IO.1<IO.1<IO.0<IO.0<IO.1<IO.0<IO.1<
+IO.0<IO.1<IO.1<IO.0<IO.1<IO.1<IO.0<IO.0<IO.0<IO.1<IO.1<IO.0<IO.1<IO.1<IO.0<IO.0<IO.0<IO.1<IO.1<
+IO.0<IO.1<IO.1<IO.1<IO.1<IO.0<IO.0<IO.1<IO.0<IO.1<IO.1<IO.0<IO.0<IO.0<IO.0<IO.1<IO.0<IO.0<IO.0<
+IO.0<IO.0<IO.0<IO.1<IO.1<IO.1<IO.0<IO.1<IO.1<IO.1<IO.0<IO.1<IO.1<IO.0<IO.1<IO.1<IO.1<IO.1<IO.0<
+IO.1<IO.1<IO.1<IO.0<IO.0<IO.1<IO.0<IO.0<IO.1<IO.1<IO.0<IO.1<IO.1<IO.0<IO.0<IO.0<IO.1<IO.1<IO.0<
+IO.0<IO.1<IO.0<IO.0<IO.0<IO.0<IO.1<IO.0<IO.0<IO.0<IO.0<IO.1<IO.null<>>>>>>>>>>>>>>>>>>>>>>>>>>>
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>

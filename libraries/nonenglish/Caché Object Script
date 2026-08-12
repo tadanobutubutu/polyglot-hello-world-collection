@@ -1,0 +1,4 @@
+HelloWorld	;Hello World in Caché Object Script
+Start	;
+    Write "Hello world"
+    Quit

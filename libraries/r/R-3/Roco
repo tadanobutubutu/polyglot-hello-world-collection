@@ -1,0 +1,13 @@
+co H{cout 72 yi ro}
+co e{cout 101 yi ro}
+co l{cout 108 yi ro}
+co o{cout 111 yi ro}
+co spc{cout 32 yi ro}
+co w{cout 119 yi ro}
+co r{cout 114 yi ro}
+co d{cout 100 yi ro}
+co excl{cout 33 yi ro}
+
+yi H yi e yi l yi l yi o yi spc
+yi w yi o yi r yi l yi d yi excl
+ac

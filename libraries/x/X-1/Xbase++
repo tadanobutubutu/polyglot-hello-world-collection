@@ -1,0 +1,4 @@
+Hello World in Xbase++
+func Main()
+  Qout("Hello World!")
+return 1

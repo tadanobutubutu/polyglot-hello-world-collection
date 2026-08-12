@@ -1,0 +1,5 @@
+"Hello World in Smalltalk MT
+
+FrameWindow new
+   title: 'Hello World';
+   open

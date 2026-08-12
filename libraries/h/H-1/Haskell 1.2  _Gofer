@@ -1,0 +1,1 @@
+main = appendChan stdout "Hello, World!" exit done
