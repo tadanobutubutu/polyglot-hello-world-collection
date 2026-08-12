@@ -1,6 +1,6 @@
 # All libraries
 
-5791 entries.
+5799 entries.
 
 ##### !
 ```text
@@ -4994,6 +4994,12 @@ PEICE OF SHIT - [
 I CAN GO IN YOUR HOUSE WHENEVER I WANT - ]
 ```
 [Source File](../libraries/a/A-3/Angry people outside my house)
+
+##### Anguish
+```text
+‌﻿⁣‌⁣‍﻿⁣⁣﻿﻿﻿⁡﻿⁢﻿​⁠﻿‌‍⁣⁣‍⁡⁡⁡⁡⁡⁡⁡⁡‌⁠⁡⁡⁡⁡‌⁠⁡⁡⁠⁡⁡⁡⁠⁡⁡⁡⁠⁡​​​​⁢‍⁠⁡⁠⁡⁠⁢⁠⁠⁡‌​‍​⁢‍⁠⁠⁣⁠⁢⁢⁢⁣⁡⁡⁡⁡⁡⁡⁡⁣⁣⁡⁡⁡⁣⁠⁠⁣​⁢⁣​⁣⁡⁡⁡⁣⁢⁢⁢⁢⁢⁢⁣⁢⁢⁢⁢⁢⁢⁢⁢⁣⁠⁠⁡⁣⁠⁡⁡⁣
+```
+[Source File](../libraries/a/A-3/Anguish)
 
 ##### Angular
 ```javascript
@@ -17270,6 +17276,112 @@ cathy
 ```
 [Source File](../libraries/c/C-1/CATHY)
 
+##### Catrobat
+```text
+PK  �{OT               code.xmlF��<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<program>
+  <header>
+    <applicationBuildName></applicationBuildName>
+    <applicationBuildNumber>0</applicationBuildNumber>
+    <applicationBuildType>signedRelease</applicationBuildType>
+    <applicationName>ポケット
+コード</applicationName>
+    <applicationVersion>1.0.3</applicationVersion>
+    <catrobatLanguageVersion>1.03</catrobatLanguageVersion>
+    <dateTimeUpload></dateTimeUpload>
+    <description></description>
+    <deviceName>Redmi Note 8 Pro</deviceName>
+    <isCastProject>false</isCastProject>
+    <landscapeMode>false</landscapeMode>
+    <listeningLanguageTag></listeningLanguageTag>
+    <mediaLicense></mediaLicense>
+    <notesAndCredits></notesAndCredits>
+    <platform>Android</platform>
+    <platformVersion>31</platformVersion>
+    <programLicense></programLicense>
+    <programName>Hello World</programName>
+    <remixOf></remixOf>
+    <scenesEnabled>true</scenesEnabled>
+    <screenHeight>2132</screenHeight>
+    <screenMode>STRETCH</screenMode>
+    <screenWidth>1080</screenWidth>
+    <tags></tags>
+    <url></url>
+    <userHandle></userHandle>
+  </header>
+  <settings/>
+  <scenes>
+    <scene>
+      <name>シーン 1</name>
+      <objectList>
+        <object type="Sprite" name="背景">
+          <lookList/>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetVariableBrick">
+                  <brickId>b89c300e-b7d4-46a4-bcf5-de285bb0c7a6</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Hello World</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable type="UserVariable" serialization="custom">
+                    <userVariable>
+                      <default>
+                        <deviceValueKey>0cfcefe5-9160-4612-b314-6b5289e5721e</deviceValueKey>
+                        <name>helloworld</name>
+                      </default>
+                    </userVariable>
+                  </userVariable>
+                </brick>
+                <brick type="ShowTextBrick">
+                  <brickId>20e0363d-5259-4e3b-b2aa-3447f3043ed2</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="X_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                    <formula category="Y_POSITION">
+                      <additionalChildren/>
+                      <type>NUMBER</type>
+                      <value>0</value>
+                    </formula>
+                  </formulaList>
+                  <userVariable reference="../../brick/userVariable"/>
+                </brick>
+              </brickList>
+              <commentedOut>false</commentedOut>
+              <scriptId>d5b62bc8-03cd-4e94-813f-f9dc94203167</scriptId>
+            </script>
+          </scriptList>
+          <nfcTagList/>
+          <userVariables/>
+          <userLists/>
+          <userDefinedBrickList/>
+        </object>
+      </objectList>
+    </scene>
+  </scenes>
+  <programVariableList>
+    <userVariable reference="../../scenes/scene/objectList/object/scriptList/script/brickList/brick/userVariable"/>
+  </programVariableList>
+  <programListOfLists/>
+  <programMultiplayerVariableList/>
+</program>PK�BYK  F  PK  �{OT               manual_screenshot.png46�ɉPNG
+
+   
+IHDR  8  T   T���   sRGB ���   sBIT|d�    IDATx��ڱ	�@�{��[�/�*�x�33;    a��    �zw8   �6    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �   
+…
+```
+[Source File](../libraries/c/C-1/Catrobat.catrobat)
+
 ##### Catshark
 ```text
 import sys
@@ -27847,6 +27959,80 @@ outchr 0
 ter
 ```
 [Source File](../libraries/e/E-4/Execode)
+
+##### Executable
+```text
+MZ�       ��  �       @                                   �   � �	�!�L�!This program cannot be run in DOS mode.
+
+$       PE  d�
+      � 	  � "  �  x     ��      @                       �#         `�                                             �! �                           �! �g                                                   � H                          .text   ǵ     �                   `.rdata  ��	  �  �	  �             @  @.data      �  x  �             @  �/4         �     �             @ B/19     ��  �  �  �             @ B/32     �V   �  X   �             @ B/46     0                       @ B/65     �     "               @ B/78     ��  @  �  :             @ B/90     ��    !  �   �             @ B.idata  �   �!     �             @  �.reloc  �g   �!  h   �             @  B.symtab 8s   "  t  �                B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                � Go build ID: "QZjqEdmx3ZPf4J3eMNCB/HQ39YR8qPGotj50ADPCQ/Yw4P9adDlqQykmizk6zI/wbK2GzuWMZXyNce5zLSn"
+ ��������������������������I;fv8H��H�l$H�l$H�D$ H�\$(f��{  H�D$ H�\$(�,   H�l$H���H�D$H�\$�3� H�D$H�\$��������L�d$�M;f��  H��   H��$�   H��$�   H��$�   �H��L��H���  1��  H������H��}E1�1�H���1@ H9���  H�qH9��}  H)�H�{�I��H��H��?H!�H�H��|��8cpu.u�1� �I  H������H�t$pL�D$PH���K  �H9��  H���  H�z�I��H��H��?H��H�8L�RL9���  L�L$HH�\$`H)�L�Y�L�\$M��I��I��?M!�N�L�\$XH��uF�fA��ont!�fH��u`F�,fA��ofuSF�TA��fuGH��u)D�8fA��alu�|8@��luH�=m 1� ��  H�L$@H�W H�T$81��r   �5 H�|^
+ �   �> H�D$XH�\$�{> H���
+ �    �j> H�D$`H�\$H�[> H�->
+ �   �J> ��5 H�t$pL�D$P�&���H�L$ H�D$h�'5 H�
+�
+ �!   �> H�D$hH�\$ �> H��=
+ �   ��= �q5 H�t$pL�D$P�����H�� H�
+t H��~	H�D$P1��H��$�   H�Ĩ   �H�� �$�   A�$�   ��$�    �	  H�T$HH�L$x��$�   ��tyH��$�   �> t��ur�fH��$�   H�D$pH��$�   H�L$@�E4 H�.�
+ �   �4= H�D$pH�\$@�%= H�b~
+ �   �= �4 H�D$PH�L$xH�T$H�z��$�    uH��$�   ��dH��$�   H�D$pH��$�   H�L$@��3 H�P�
+ �   �< H�D$pH�\$@�< H���
+ �   �< �4 H�D$PH�L$xH�T$HH�H9����������H��H9��l����4f�@��,u��b���H��H9�������<D  @��=u�����I�BH9���   H�=�
+ L��
+ L9��  I��H��L�\H�<�M9�u�H�D$0L�T$(H��L���F  ��u%H�L$@H�T$8H�\$`H�t$pL�D$PL�L$HL�T$(�H�
+^
+ H�5O
+ H�D$(H9���   H�|$0�D>H�
+8
+ H�5)
+ H9�snH�<>H�L�L$@I���H�t$pL�D$P�Q�����[2 H�	�
+ �   �J; H�D$`H�\$H�;; H�
+;
+ �   �*; �2 H�t$pL�D$P������ �� L���� E�TI�AH9������L�
+� L�� @ L9�s`I��H��A�DH��u
+A�   f��L�_ L�P M9�s$E�TL�F L�%7 M9�r�L��L���g� L��L�ѐ�[� L���S� L���� �   H�� ��� H��H��H���m� H��H���� H���Z� �H�D$H�\$�
+� H�D$H�\$��������������������������������I;f�R  H��0H�l$(H�l$(H�!9	 ��{�  H��H�5An f�     �     H�l$�H�l$��M� H�m �=�K  fD  ��   H�
+�Q H�HH�
+�Q H�H0H�
+Q H�HPH�
+uQ H�HpH�
+kQ H���   H�
+^Q H���   H�
+QQ H���   H�
+DQ H���   H�
+8Q H��  H�
++Q H��0  H�
+Q H��P  H�
+Q H��p  H�
+Q H���  H�
+�P H���  H�
+�P H���  �  H�xH�
+�P @ ��� H�x0H�
+�P �� H�xPH�
+�P �۲ H�xpH�
+�P �˲ H���   H�
+�P 踲 H���   H�
+oP 襲 H���   H�
+]P 蒲 H���   H�
+KP @ �{� H��  H�
+6P �h� H��0  H�
+$P �U� H��P  H�
+P �B� H��p  H�
+P �/� H���  H�
+�O ��� H���  H�
+�O �� H���  H�
+�O ��� H�R	    H�O	    �=�I  u	H�/	 �H�=&	 ��� H�$    ��  EW�eL�4%(   M��    �D$����  �D$ �   �H�$��  EW�eL�4%(   M��    �D$��F H�$   �  EW�eL�4%(   M��    �D$�L$����N �� ��N ����N ��	��N ����N ����N ����N ����N �����
+�N ����!ʈ�N ��f�r1��7�D$$�  EW�eL�4%(   M��    �$��s	�����1����D$$����!Ȉ6N �D$ ��s
+H�l$(H��0ÈL$H�$   �   EW�eL�4%(   M��    �D$����M �����T$!ʈ�M ����M ��	��M ����M H�l$(H��0�H�l$(H��0�@ �{� �������������������������̋D$�L$��D$�\$�L$�T$�����̹    ЉD$�T$����������������I;fvcH�� H�l$H�l$H�HH�H�0f�H9KuH�D$(H�\$0H��H���e  ��u1��H�T$(H�BH�T$0H�Z�   �A  H�l$H�� �H�D$H�\$訋 H�D$H�\$�y����������������������������I;fvoH�� H�l$H�l$H�D$(H�\$01��H�T$H�JH�D$(H�\$0H��}+H�L$H��H�4H�H��H���
+�����u�1�H�l$H�� ø   H�l$H�� �H�D$H�\$���� H�D$H�\$�l���������������H��H��H�UUUUUUUUH!�H!�H�H��H��H�33333333H!�H!�H�H��H��H�H�H!�H��H��H�H��H��H�H��H�� H�H�������������������̀=|K  t
+H��C ?   �H��C    �������������������������������H9��"  H9�I��LL�I����   I��?v�=K ��  �  I��v[�o�oft�f��H5��  u*H��H��I����H��0H��0�H�� H�� �H��H��H��H1��:��H�E�����I��vH�H�H9�uJ�D�J�L�H9�tuH�H�H1�H��H��H��H�E�����J��    H��tK@���wH�6�J�t�H��H��@���wH�?�J�|�H��H��H�H�H1�tH��H��H��H�u�����H1�H1�H9�����H�DA���o�oft�f��H5��  �!����oF�oOft�f��H5��  ������oF �oO ft�f��H5��  ������oF0�oO0ft�f��H5��  �����H��@H��@I��@I��@�i����o�����o��o��of ��oo ��t�����5����u#��t�����5����uH��@H��@I��@I��@r���w�`�����w�F�����w�����������������������H��H��H������������������������H����   H��@��   �=�H thH��@��   �o�o�oV�o_�of �oo �ov0�o0ft�ft�ft�ft�f��f��f��f��H��@H��@H��@����  t�H1��H��@r=��o��o��oV ��o_ ��t���t���������H��@H��@H��@������t���wH1����wH��vH�H�H��H��H��H9�t�H1��H�L�H�T�H9����H�� t7H��    H��@���wH�6�H�t�H��@���wH�?�H�|�H��H)�H�������H9�uH��   �H��H��H�����������H9�uH��   �H��H��H�Z��������fHn�f`�f`�fp� H��|TH��H�� ��   H�D���oft�f����u%H��H9�r�H���oft�f����uI� �����H)�H�I�8�H��t�H�Ff��t�oft�f����t�9�s�I���oL�ft�f�щ�������t�I�À=�F �f���fHn�L�\���}x���o��t���}�u&H�� L9�|�L����o��t���}�u��wI� �����������H)�H�I���w����������H�t$H�\$�D$L�D$ �������������I;fv"H�� H�l$H�l$�
+  �b���H�l$H�� �H�D$H�\$�Ʉ H�D$H�\$������������������������������I;fv"H�� H�l$H�l$�   袥 H�l$H�� �H�D$H�\$�i� H�D$H�\$������������������������������I;fv)H�� H�l$H�l$H�H�HH��f��{f  H�l$H�� �H�D$H�\$�� H�D$H�\$�����������������������I;f��   H�� H�l$H�l$� W�.�u{y.�u{^I�N0���   ���   ���   ����1���1���1����1׉��   �>H1�H�!�Vj�nu H1�H��c��k�R H��H�l$H�� ù   �k� H�l$H�� �H�!�Vj�nu H1�H��c��k�R H��H�l$H�� �H�D$H�\$�
+� H�D$H�\$ �������������������������������I;f��   H�� H�l$H�l$� W�f.�u{zf.�u{^I�N0���   ���   ���   ����1���1���1����1׉��   �>H1�H�!�Vj�nu H1�H��c��k�R H��H�l$H�� ù   �i� H�l$H�� �H�!�Vj�nu H1�H��c��k�R H��H�l$H�� �H�D$H�\$�� H�D$H�\$��������������������������������I;fv=H��H�l$H�l$H�D$ � D  �����H�L$ H��H��H�������H�l$H���H�D$H�\$莁 H�D$H�\$���I;fv=H��H�l$H�l$H�D$ � D  �{���H�L$ H��H��H���g���H�l$H���H�D$H�\$�.� H�D$H�\$���I;f��   H��0H�l$(H�l$(H�D  H��t}H�RH�z t�r@�� t4H�pH�!�Vj�nu H1�H��H����  H��c��k�R H��H�l$(H��0�H�pH�!�Vj�nu H1�H��H���  H��c��k�R H��H�l$(H��0�H��H�l$(H��0�H���I �   H��H��1�H�6p
+ ��] ��q  H��H�AU	 ��; �H�D$H�\$�+� H�D$H�\$���������������������������������I;f��   H��0H�l$(H�l$(H�D  H��tyH�z t�r@�� t4H�pH�!�Vj�nu H1�H��H����   H��c��k�R H��H�l$(H��0�H�pH�!�Vj�nu H1�H��H���   H��c��k�R H��H�l$(H��0�H��H�l$(H��0�H���- �   H��H��1�H�o
+ �\ ��p  H��H�%T	 D  �  �H�D$H�\$� H�D$H�\$���������������������������������I;f��  H��pH�l$hH�l$h�P@ ���&  �P������   H��$�   ��wT��uH�D$x1��T  f�     ���;
+…
+```
+[Source File](../libraries/e/E-4/Executable.exe)
 
 ##### Exemoji
 ```text
@@ -42626,6 +42812,77 @@ END
 ```
 [Source File](../libraries/l/L-2/LindenMASM)
 
+##### LINE entry
+```text
+�      �M� F{�t�eJҫ����Ÿ���(c $�-�f����_q M$B���R�/�mtہK���k��@�f�'�
+|�FM��x��{n�KT��x�昛�j��l��ݪ�5B
+>�Z)�B�U���_a� ���|���'iw��Q6�I�����J�J%����T ��ڕ��7O{ܼ�qӲ�͛�r��E�%@������%�%�ܤ%��
+ �� Ȩ2�A��ʂT���Լ��Ҽ��Ғ�������l���Ģ��b���Ҝ�X�0b��35�,
+��/KL��RHI�I-0O�8�0�+����?� $:z�)&���(ǡ���;�;��s-��a�(�'rG�8B� *����v�t�n�ň� �#�E+���Z�F/�}�3��9�YZb9�|�������G��|
+f��%��LpBڐ�uNs�E��m��Ak|�6A� ��
+R%�L >1�{^+�@~�њ�&��SA�dE*z��4�Cs�����`򵤕$�yIQ�Lf��d���Ő���QVtL�hyW:uĕo��:��4})=7�l�j��>���dNApF��Āw�@��˿�i:8q��X/�j	M�R���}�]�ƺ�/�L ��xp���&�$���'�'�$&[ -˗en�!���j������i9)�xC��� ��R-�!@�f�B�)�Yd�@Ny��YN�6wdZf�
+cRC �G(�� !�!!�!�4/�R:(szrIjJ $�x"e����lXnW�%��`� ��J�`�(5�c���� s���9	���Am 
+�"���<K g�M���x@��e楦T( ]^�Y��
+EP�S�3��@�N!�4*7mܼ
+��*K,��c
+pE;7w<nn~�<_M+��FX�I*��@�pe�9��`?�L�Fh	0m�4;�䗦�5d�&�d�"�H)pI,A�@
+Lh��sp���9�� =_;�qc́�e���d����ļ�r*����pt��̹�����N���,��8�[� P���-��̼�Ԣ��dp�̜��Фa�LN�+K,����D`n�����=�� ���@�j~bfhIf�zC�H,J)O,J�V/��
+�(/1�7?��B4Ap�����Nu�QH�CX��� v�a�Wjp���
+/�H�J-9+W�6p\��"R-�d�?5K)_,�q6�gN|��Kl�_/���q��Y��-����]�~vc�qJ~�*���{QW}z���+YG$��y0�p��
+��.���?�����Hu+����
+㯡����?��
+�������`�5����������� 
+%�����GI�V���Wk�3У�5�w#�{�����5tWg��;/��������100:p�Y+"� )���bn!f�t�((a���Rq��\�&7#��wo{�*�(���U����[	II���2�}���t\�@cR��)�.J�t�y+,H�ӭ�����}�	� <U3�Q��������_�)~5g�Uhl�������޿�������K0S�k��:�λqk�՟��U�0|�m�����D�[g�gbr����Q�ǮG�LlC�*,�^�-��pv�G�׹�C����{��������y?  ����<��_������O�����=>��z���nx� ����%�뛿�D����������z�yo(М����ړlJH��=���_�m!' ��|��ޙ���{BN ⰵ��&l�5}o9�| <Ū-)?  ����?���Ǐ�S?z2�����ׅ�7|yby���ӯ��W�x(�C����x�����?x����4�ޟ��s'��}�,��B�<�xb��y����I�~H*!�� uD�G�#��D�O�ҍ�{:*��QfNȭI  ���ߞ���Q�?Y�I��ɟ��F�,۫/��7���t�;�3�RҶ������zG/�,���9��g���ƍ�/�a���i���ܣ���}��L��l1�ء�-��q�F��+)��O���g�g[�y�q��  ��."�������L�HꑔfP$Z�xKy��9eȔ��~�$|�sf"eN!Y�b��!�=
+�ܤ��ݲd��]e���Xb_n�HJR�yME,��3��
+E�m�d�ٗ�\��-�t�M��+o���Q�&ea  ���\�<�т�攕S�PӰ5֔�:��.�\����|}���|b�>�ea�b['`bX�Y��U��`j�w�ZE�w�3F�8�pk��qleuE�����S�=�:K�91���k�:ŨUt`��5}�M
+  ���]ȣ�<�LWV�BfW�}/���H�M_�������3���`i4�������orTjO1h��#�� ���@����w�����O�[�U_%�R=�󞎰+��{�}��)La�^RzCS  ������4qm�>H�V��a�<�´1�0dzR ��>b:*�s"��T��O�v�#�+�-v���v�p�oO�|��� b��2|o��E_S���F^1�
+����Ѧ����9�I�=��[�퍙z��^��  ��|o�K��.qD s��	c��&������h]����:��F�	`]��|��>�o:p�/�|m�n�>��
+?C6�U��[�!h]��hA-8��_AL&��k���S"�>����BFH���5��,�  ��|�Kֽձ��1,]�-���)~���%/o5���s2R܅r̶UY�B�㱚{NTjG�.�}�����c�1�	m����㓿5��G�3~��ѳmKh;,MĸWL���5vkvy�0�g��[�F�+�J�  ��N���&��i�\�|�%u����i��"�����4*���]7�F�|r�y'� *&u7�����gz)C�q��Z���\ ���Jrl�L�����4�)���N�x�t�mr�-aY���9D  ���v��5��4\N4<)�1��-���V��1�� {
+ѿ4
+n������M�+�0V��o�W�����=X�6
+��	pG몫%�M�[;��_��1]�DH�S^Yw&��f9!-U���z�q���-�=� � }��fX�rZ�J,�96���[|[yx9�9��'�s����OR7�a��x�&�;BX���&^����R�U�����5GT��]�a=zM򖯳��k��b[
+>�*�;����؈��hh]����z���M  ��vn���.a��v-���������G����p^3�pv��F8;�	*ld�l���CY���FV��r/P�Uz6Ԇ��wه����F���@ˡ�F`��r�3����D�&Y��+<ֆ`#[�D���  ��6�~fV�g�Ʀ2mr�2�d��@(?�:��0y��<Aa�h����,,b.��_r8�W�8�x������QgA�{��q����//G��IN�AbfQ����\N�hS���"&���r#���F�g*�� � ~��^ǒ�Z#��%斊,�Z�UI��ӄ��y�2�����ٻ9F� f��e��D�Wl�L"BY�ٚ���iG��[�)�@�V�� ��1c�/��	1�1c�b2U2`UIĄ��L�;S�11�	1/��������  ��?>���>���?�������?�|��ϯ�ϕ>&�B+����Љ����{��/�c���g���W�l &����O��%���M�ey���X�^+����Ldryȯ|�����;��G�u��_��=��w�  ����7�=~��~��5���y��m��/~�]��>���}DFp�-�U�����6���ʿ~��y��q�%�Ă�њd򪐳u�j�V{0kl")dmJ�:bBΨ���q1�=����d�����Vmy�N�q � ~��++c_\��7UO���I(۔���6�C�Ⱦ�ݐ�pm�nM��F#]O�l1��#���	�h]
+[�p � �-	i�;e�s!�9��޲Iu���o;~�3�7!�,@������d��<V,�B�
+  ��am�Ζ�2��k7��^kC$�������Nҽ�'�=I�����2�{��5�$���[Ƙ�
+�/󺴖ʬ�4�ՖH"bJb�X�F�v&C( ��.�S�mb�u�y{�#1�j�&���Ĕ����=�-  ��pK�����#�K?���/��jG56�0�Q��� 
+1˭�cv�~���I�L�xp_b��)������h]������!�MKL��ٕ�9ӡ�ݚ�A8����ޥV �@L�Շ�<
+g�C�]����M�  ���!�܉���s%�º�`�K��ٽ�SL�t%��H�y�%�|��ɽ�V�cO�U��7!��%o���U�֍4�
+��n�n�$V����\A�*���;��?�x�����
+R�����AC7vx���6  ���vͺB]��M<�B;.�%����k6���$���/�
+�C��������:��k6��m���2���jb7�ѷ��sV�Wؾ޼Mҕ�s��:&H6�.�q0��4��(���tH��Ķ���R� � ~�C$�)��9�
+<!��y��EC��i3z���آN��D!�-Z�sF�ʔV��^�*�ycL�r���+C\���q���z9��&���̱=����=
+aU��xP�٦����"�/rΕ�z�[[�+i���IO���  �����>}�s���D�P��	s�P��"Ha���)��e<��s���o��;7r":����{�)AEHi`编�E�P��ዐ6�J�CK�6�L!�Z6QED���8��g_�'�ݦ�Cؾ�za\��&;��  ��)���K�oR�
+{����R٦)���c
+9�P[���ӡ�E��V�9!e�ʽ�y��E| 9�_S����4�^.��R9�.���q;�-K�9���S�E	9��7듔�+� fJrJ��a����$��  ��;!o�UڽC�xJ��M���(Ȝ
+?* ��3!fs�Bv��������V<��gB�f���X2�B��� Luy�cOO�RLG�@︱5�>���R��x�u��O3t����ei���
+�Q
+�A��TW  ��Y��v�w�8�<��u��~��U��c�}�C�|��s�Y;F/阉|����$��[_Ȫ�����'��:�s�^�\`�7"�jغs}(���x�.a��e*��}�J7.�BƑ�f�_�\^��0��� �R�  ��&l�E0�,�9�$Y���\Ry��D]���6��_}.�r�ƐV8^�Y�I��Kx���C�/#�L�q��E�Kk��"6_8�Դ*ϸ�lN��rAӄ�>Y��c�L:>�u��똊.�������4.WS$�  ��#��^vA�>'o�1ͪ���a�j��պ�c�чG�r�)o��%C����s�H���wk:��%{�S^y0���(^�ߕI2��I
+a��yeV!읙�u嗁P+$�K>*Ϣ�[^/D�r�?�  �����#��K3�k���	b���"�
+S��rq�B���S�<�UNU�{3�=<���C9�5��y\� �狄z���sl���|^Rf%$��û{������"�L��u��D<}��|z!���z  ��B_�>%2Q�'
+��&�ۘ��։"B�}Ж�>k��b�b�OUd��֞+)�)-�҇�h�3Dm�Q��1��=�)��6���
+�*�M�YC^P?O�P?_a��<�u�&�{/o�bj����L��9��0�  ���?WO�/!�okŹ%rc2FE�0�6�>���6띇'����\��0be+�N�J
+jҁ�a�V��3e��O����؆�}�j�1��eW]�h
+�����!f�[��i��1�M�Y�/���ZX��ߴ�  ��-B�Jr�����|�el�'b ����!1Q�`��2��4b��p�H#���EV�k��u.B� d7�׮c5�K{�HE �"n�W�����E�>f���)�$��l@�͖�N��l*�6�6I���m�  ��!�y2�%�;�A�{��8�E��\�qa��XK��!\A���r�[�-�X���X��HN�}j�Jh&���ͭn��B������갈�������f�u��|��4�iQ,/�cc9sج��L��EX  ��(/օ�]����U2�@�{tdx˰�ܰ�n2�ޕ�	,�J���.ב��s�jc�w ^�K{��N k�(4�ݟ����MF���]�8����9���H���g\Gxr6/�W��=2���R��ae��J,<a�5  �����MXp�蓏g]��/
+ee.�V�>`ؑ_�����ZEO?��h�e�0�ɒ�H�/���~�_�䨊�k��(����Td�x�=�
+$%&DK�-W+��o	 &� �9hߒJ,��1�U�� � |��l���X@��}!��T� o	#��%�u*��.B
+��욣z#�"_ݲ1������ ��ɱ43��yf�
+�76u��Լ%W��l/���=�v���B�=$k��Y]�p=t����;  ��
+>�	@���zzyF4&��:�n��}bc2^]Y\��p(�;nʇN![�j���,i���Q��^q�31�J�΂�qg��ޛ�����9W?x~k�T��ʰ�'��v��<�{�9n�U8���<��Mg  ��/J�
+�PY�����]�P\��y�`��X����.i��55�*$De>��y�I��������N�)$9z��s�f^�\s�[���yM �Ͳa���
+
+�e�ŵ]=�YC;��D  ��j�u��s�<����������Y�9Ӛ	��nA +��[(�z]��;��LGH�"i��!g�y&m� ��w�#���^���8g^���������b�![#>��ȉ:b���H�BCҮ�V��"DK  ��BLD�Z����LI��NB[���;��嘗rP��*V�ě����	|޲�`��`=xO�9�eK�l(ZַB#tH�f��%,L�5"
+m�ʍZ�_h=�[�f�X�����=}��EP�Tj��ds^樨|  ����d"�okqYO�[�Ҡ���>����ۂ������ٚ��7�f���U�堞�?�I2ǭ�Њ���P�uxK6�j��^*���s�z.��[�ꢭ�ߦ�
+�
+E���p?b6�MK�"��S�C  ��!��\�`|�,4t��ȫJ���P�Ȝa�L���*&t�s��d��$����D/�yt��X�P)wCPK�1{���Κ�a��X�\��͎��pS>(
+'�)w��>Ƌ^�X���G/)��?c\	��  ����p[�`���xz�C�4 A�� ����c��n+����>��"���"�"�TD
+�-�p�@*w��!'Q<}̝���:{�]l^*�ʣ*��(&�����W���D@�<��l ��v�g/MRi��  ��U�MU8�&t���K]N[���`�^�8���p��AH����Cn�x�{ӿ����M�]<j��[BV�ҋT�nC����������>� \vw���a�k�X����6 f�+;��3�ul�c� �  ���d�Kw�P�,y� ��훜�(ˍ����d�E]�	�% ���#rJӥ��!%5 ����u�^<#[��hIέ�Y�Q�'U�F�
+)�)cj�ke��S-�@J `�󞦙d�[� 葠M�yZ�%b�`;m��]O�{�>��ۍ�g�wa��ԇ�4����e�SB����J c�����L��������`��s�������k���	߀���pF�^�ʦ7y���
+�ZZ\LF\\]�2DutI->6�F�$5���>[���7]3��]���2���}� � }�$}1}�_��iҴ�������r��z��}���[߹�9{�{�k����|4�G��|4�ǝ?&�<�޿(��������{��c��uL8yP� >
+eJa����w� �em?O�6á���L�D�S����Sx(��?3�  ���U���6ѝ@r�C��,N��Q϶�)#�ʋ�i�W�ێ/�՞�1��Gvč?		��c_���E���Gb���U?���A�8�)P��@t�v�ڲ7ϯ�e�S��=73I{�0U;�t��b��  ���)ѽ�{M�!�v@�Q��aXp �jך��iE���������Q(F��)���6�x�S�n�\��m˙H��jO����qڦ��ګ��9���y�.����(y1�E�HE<@���y6��KsR)=�  ��z�ir=�j�͔�4�i�Z�� 9L���!�뎙I�G���A8����	��,���^�R���Xݮe���ts�����邵_���
+…
+```
+[Source File](../libraries/l/L-2/LINE entry.ent)
+
 ##### Line Feed
 ```text
 code = "\n\n"
@@ -46158,6 +46415,13 @@ put {{{ Hello World! }}} 0x1
 mov 13 0x1
 ```
 [Source File](../libraries/m/M-2/Minaac)
+
+##### Mind
+```text
+�ᥤ��Ȥ�
+����������Hello World�פ�ɽ�����ơ����Ԥ��뤳�ȡ�
+```
+[Source File](../libraries/m/M-1/Mind.src)
 
 ##### MindScuffed
 ```text
@@ -57664,6 +57928,15 @@ xe
 ```
 [Source File](../libraries/p/P-4/Pxem)
 
+##### Pxem
+```text
+PK
+     �vjTC߈4         Hello World.p.pxe 
+PK?
+     �vjTC߈4                 ��    Hello World.p.pxePK      ?   1     
+```
+[Source File](../libraries/p/P-4/Pxem.zip)
+
 ##### PyChr
 ```text
 6>^5165_~h1'>>6(I()5<11'h?~|8
@@ -67784,6 +68057,55 @@ println("Hello, world!")
 ```
 [Source File](../libraries/s/S-4/Swift _2)
 
+##### Swift Playgrounds
+```text
+PK   MgbR        �  X   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Manifest.plistUT
+ ӊ>`��B`B�bux �  �  }��N�0D��+\ߓ-7��TдR�P,�8Z�*X8�eB���J����h����נ�'Z'G���ٚ���I�ohS�;���*�w�+����7�U�#4x0F!@Q�W�KM`���yo��i�Dte�8D�nG���U��!�u��a͉��NP;��<�a�8�G1 �8�yz�O3�J̽?t�`Q�@��Q�#=�B}����c��?���K��6��#�q���
+�$�Ӎ~>�'�PK��c��   �  PK   MgbR        Q  {   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/Manifest.plistUT
+ ӊ>`��B`B�bux �  �  e�]K�0�����rߞy'�e��⠛;��Ҝ�`��4[��7uC��/��Ö��&'���fAo�9%h+�it_=�wt�6˟�՛(�ӪD�W�fMh
+���F��ʉ(7/� Ŏ����!�'W��n2� �u��XƲ42$�3��+��J��ܰ�����E�>r��H����ۣ�.�%P��*
+�be��?ԺG�k�Z�o�II�f5�x��:�n08�1�F��PK���   Q  PK   MgbR           w   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swiftUT
+ ӊ>`��B`B�bux �  �  � PK��2      PK   MgbR        Q  v   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/Manifest.plistUT
+ ӊ>`��B`B�bux �  �  e�]O� ����@�ۣw�0�ָ�N�����U"-��j���-��
+!�y?���,9���������iӷ����
+]�]�Ok�**�	��ݪެ	�Pʒ�z�,I� ���з�-�8���]E��@���:��)P�i�9���$U�&�삽�ķ�C�/	!��K�U�Pm:��S�6|18V�E���'�W6 �5>:�o��h��j*q�>l��`p�c��γ/PK����   Q  PK   MgbR           r   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swiftUT
+ ӊ>`��B`B�bux �  �  � PK��2      PK   �~�S        �  4   My Playground.playgroundbook/Contents/Manifest.plistUT
+ d�ad�aB�bux �  �  u�Qo�0ǟ�S0ޥ���,�q��nDq�;8���M[T������|i���~w��S��hä�}��u@$2e"��x���q�
+>f�W4wg�:��u��G�T)�q�D�p;� d��:��Z�B��x�h��Y�AC"-h[-Q�C�Km�b���g��,��n��C5������'��ִ����j����{��*ײiҔ|r� F.\c��a��X=��N~��j5�7�bk�q}6K�E�R@qY��T�`�����Zc�= ��fא��D�Y�h��7h�$��kl
+�iieX(�-����8��Zɴ���b�kxB�Ϣ��荚P����k0`#����e�@�O��'��ո�PK-De  �  PK   MgbR        K   f   My Playground.playgroundbook/Contents/UserModules/UserModule.playgroundmodule/Sources/SharedCode.swiftUT
+ ӊ>`��B`B�bux �  �  
+��
+�0��Lq�!�$4T�5�X��l�r)�\�f����b؉��S��G^9��)|\���G�e]~PK���D   K   PK   �FVT        �   �   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plistUT
+ e�be�be�bux �  �  U���0D��k�z3��(hb��D8x$�A"ЦT����o����C�W��S��V]H�����J%�
+I�����G��9ή|��{<ߦ����Ѻ��I� O��qw"@n��5�0A1��R�S�Gn��Ǝ����+�{���qTԥeތ���NE+)N��5n';���b��zt��z�E�-��PK
+�Ҹ   �   PK   �FVT        R  �   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.deltaUT
+ e�be�be�bux �  �  }QOO�0?�OQ{�D��'cʈnI@1����m��\�ߝJ^�����72�Z��Lŕ��`�d�r.�!^���-���Q������(Y>̦�}�{���%��K����	#��V��u�Ӗ�gj�+H����f���N��6�.f�~T�ms����wք1/
+�������ۑ��Y)i��ߡ�5�e�v_{��
+�*#r|�أ'>�T����;�F7�ϩnax�%g��K��%����F.�N���_ڔF}�<ۭ �%�`ޠ� �ai�r�W5/�o������
+PKMRq4  R  PK   �FVT          l   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/UserManifest.plistUT
+ e�be�be�bux �  �  U��N�0D��W��B�+hZ�R K$���
+�mن��gC+$n��y3�wߓ#_&e��ޱ[J���~�Ҿ;��t'*~Ӽ<��l.D�O�iOh
+��3 M�ٞ�:� �J�{)�`�g�V´3��Iei1�F��)�\���AUۡ�j�?�"�l�T�9Zg��L���U)����\���N-c
+�^��wF�9\M�p)��;CT?PKO�Na�     PK   �FVT        �  D   My Playground.playgroundbook/Edits/UserEdits.diffpack/Manifest.plistUT
+ e�be�be�bux �  �  �R�n�@=�Wl���[� FE���&=n�E7�aW)�EP<ؤ�i'3�ͼy���+�Б���dd�G�$��%ۑ�{���1��փ�2�>�9�
+��t��!c 0"� �� w�|��0���)%��,3q�2@	n�MU����`E=��~!Gg	���Y{��S,�{Y��H�T��kk�U\��.�^.�5ܗ4��:b��[7��6凄L9�_378�0�����J�3�I�����+�FV6��	!��K=�)>E
+�.XT�.rՌ���@[��2.�R	�5��PBW�0y�R���u[[�iP��E]w����4s��}����Z�[�Ybʌ��$4R�b��8\#�N�^ȉ�U����s��=��PK&�  �  PK   MgbR��c��   �  X           ��    My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Manifest.plistUT
+ ӊ>`��B`B�bux �  �  PK   MgbR���   Q  {           ���  My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/Manifest.plistUT
+ ӊ>`��B`B�bux �  �  PK   MgbR��2      w           ��A  My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swiftUT
+ ӊ>`��B`B�bux �  �  PK   MgbR����   Q  v           ��	  My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/Manifest.plistUT
+ ӊ>`��B`B�bux �  �  PK   MgbR��2      r           ���  My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swiftUT
+ ӊ>`��B`B�bux �  �  PK   �~�S-De  �  4           ��r  My Playground.playgroundbook/Contents/Manifest.plistUT
+ d�ad�aB�bux �  �  PK   MgbR���D   K   f           ��Y  My Playground.playgroundbook/Contents/UserModules/UserModule.playgroundmodule/Sources/SharedCode.swiftUT
+ ӊ>`��B`B�bux �  �  PK   �FVT
+�Ҹ   �   �           ��Q	  My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plistUT
+ e�be�be�bux �  �  PK   �FVTMRq4  R  �           ���
+  My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.deltaUT
+ e�be�be�bux �  �  PK   �FVTO�Na�     l           ���  My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/UserManifest.plistUT
+ e�be�be�bux �  �  PK   �FVT&�  �  D           ���  My Playground.playgroundbook/Edits/UserEdits.diffpack/Manifest.plistUT
+ e�be�be�bux �  �  PK      �  �    
+```
+[Source File](../libraries/s/S-4/Swift Playgrounds.playgroundbook)
+
 ##### Swift
 ```swift
 print("Hello World")
@@ -75436,6 +75758,36 @@ Hello #World #in #Whitespace	* # #	* # # #
 +
 ```
 [Source File](../libraries/w/W-2/Whitespace)
+
+##### Whitespace
+```text
+   	  	   
+	
+     		  	 	
+	
+     		 		  
+	
+     		 		  
+	
+     		 				
+	
+      	     
+	
+     	 	 			
+	
+     		 				
+	
+     			  	 
+	
+     		 		  
+	
+     		  	  
+	
+  
+
+
+```
+[Source File](../libraries/w/W-1/Whitespace.ws)
 
 ##### Whizz
 ```text
