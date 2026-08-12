@@ -20,25 +20,19 @@
 ```text
 dlroW olleH(@)
 ```
-[Source File](../libraries/nonenglish/!@#$%^&∗ __+)
+[Source File](../libraries/s/S-1/!@#$%^&∗ __+)
 
-##### !@#$%^&∗()_+
+##### !@#$%^&∗ __+
 ```text
 dlroW olleH(@)
 ```
-[Source File](../libraries/s/S-1/!@#$%^&∗()_+)
+[Source File](../libraries/nonenglish/!@#$%^&∗ __+)
 
 ##### !@sharp$pct^andstar_+
 ```text
  ^dlroW ,olleH(@)
 ```
 [Source File](../libraries/symbols/Symbols-2/!@sharp$pct^andstar_+.ecndpcaalr)
-
-##### ()˸;#？!
-```text
-:H:e:l:l:o: :W:o:r:l:d!
-```
-[Source File](../libraries/s/S-1/()˸;#？!)
 
 ##### *><>
 ```text
@@ -72,12 +66,12 @@ R:
 ```
 [Source File](../libraries/n/N-3/0 _nop^)
 
-##### 0(nop^)
+##### 0 _nop^
 ```text
 1$(Hello World
 ")`
 ```
-[Source File](../libraries/n/N-1/0(nop^))
+[Source File](../libraries/n/N-1/0 _nop^)
 
 ##### 0587
 ```text
@@ -872,6 +866,12 @@ A@=;AH'<;Ae'<;Al'<;Al'<;Ao'<;A '<;AW'<;Ao'<;Ar'<;Al'<;Ad'<;A!{A$>};
 @@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@?@@@@@@@@@@@@@@@@@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ```
 [Source File](../libraries/symbols/Symbols-2/@text)
+
+##### _˸;#？!
+```text
+:H:e:l:l:o: :W:o:r:l:d!
+```
+[Source File](../libraries/s/S-1/_˸;#？!)
 
 ##### A Pear Tree
 ```text
@@ -20461,6 +20461,16 @@ puts("Hello world!")
 ```
 [Source File](../libraries/j/J-4/JSX _DeNA.jsx)
 
+##### JSX _DeNA
+```text
+ class _Main {
+     static function main(args : string[]) : void {
+         log "Hello World";
+     }
+ }
+```
+[Source File](../libraries/j/J-1/JSX _DeNA.jsx)
+
 ##### JSX _Facebook
 ```javascript
 var React = require('react');
@@ -20474,17 +20484,7 @@ console.log(React.renderToString(<HelloWorld />));
 ```
 [Source File](../libraries/j/J-4/JSX _Facebook.js)
 
-##### JSX(DeNA)
-```text
- class _Main {
-     static function main(args : string[]) : void {
-         log "Hello World";
-     }
- }
-```
-[Source File](../libraries/j/J-1/JSX(DeNA).jsx)
-
-##### JSX(Facebook)
+##### JSX _Facebook
 ```javascript
 var React = require('react');
 
@@ -20495,7 +20495,7 @@ HelloWorld.displayName = 'HelloWorld';
 
 console.log(React.renderToString(<HelloWorld />));
 ```
-[Source File](../libraries/j/J-1/JSX(Facebook).js)
+[Source File](../libraries/j/J-1/JSX _Facebook.js)
 
 ##### JSX_DeNA
 ```text
@@ -24099,7 +24099,7 @@ IOTXP:Hello World;
 ```
 [Source File](../libraries/m/M-3/MML-AXE10)
 
-##### Mmmm()
+##### Mmmm _
 ```text
 Mmm=m[m.m()].m(m.m());
 Mmmm=m[mm].m();
@@ -24162,7 +24162,7 @@ m[mmmm].m(mmmmmm);
 m[mmmm].m(mmmmmmmm);
 m[mmmm].m(mmmmmmmmmmm);
 ```
-[Source File](../libraries/m/M-1/Mmmm().mmmm)
+[Source File](../libraries/m/M-1/Mmmm _.mmmm)
 
 ##### Mmmm
 ```text
