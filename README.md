@@ -1,6 +1,6 @@
 # Polyglot Hello World Collection
 
-A curated museum of **6257** real Hello World programs (including **75** binary / image / sound / block-based sources).
+A curated museum of **6263** real Hello World programs (including **75** binary / image / sound / block-based sources).
 Every text entry includes source code and a link to its dedicated file; non-textual languages link to the actual program artifact.
 
 ## Inclusion policy
@@ -464,7 +464,7 @@ Hello #World #in #Whitespace	* # #	* # # #
 ## Repository Structure
 
 ```
-libraries/                 # published Hello World artifacts (6257 files)
+libraries/                 # published Hello World artifacts (6263 files)
   a/…/z/                   # letter buckets with A-1… subdivisions
   nonenglish/              # non-ASCII language names
   symbols/                 # symbolic / numeric language names

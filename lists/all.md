@@ -1,6 +1,6 @@
 # All libraries
 
-6257 entries.
+6263 entries.
 
 ##### !
 ```text
@@ -5180,6 +5180,13 @@ IDK WHAT GREEN IS BUT ITS BETWEEN 65 AND 90            //Generates random letter
 GREEN CAN VOUCH GO AND TELL THEM COME ON               //Outputs random letter
 ```
 [Source File](../libraries/a/A-3/AMONGUSISABIGSUSSYBAKAHAHAHAHAHATHISLANGUAGEISREALLYCOOLPLEASEUSEITMYLIFEDEPENDSONITORELSEPLSPLSPLSP _4)
+
+##### AMONGUSISABIGSUSSYBAKAHAHAHAHAHATHISLANGUAGEISREALLYCOOLPLEASEUSEITMYLIFEDEPENDSONITORELSEPLSPLSPLSP _5
+```text
+IDK WHAT GREEN IS BUT ITS BETWEEN 65 AND 90            //Generates random letter
+GREEN CAN VOUCH GO AND TELL THEM COME ON               //Outputs random letter
+```
+[Source File](../libraries/a/A-3/AMONGUSISABIGSUSSYBAKAHAHAHAHAHATHISLANGUAGEISREALLYCOOLPLEASEUSEITMYLIFEDEPENDSONITORELSEPLSPLSPLSP _5)
 
 ##### AMOS
 ```text
@@ -28270,6 +28277,12 @@ Hello, world!
 ```
 [Source File](../libraries/e/E-4/Error: The system didn't find the object, program, or command that you're trying to access or execut _4)
 
+##### Error: The system didn't find the object, program, or command that you're trying to access or execut _5
+```text
+Hello, world!
+```
+[Source File](../libraries/e/E-4/Error: The system didn't find the object, program, or command that you're trying to access or execut _5)
+
 ##### ErrorFuck
 ```text
 import sys
@@ -38543,6 +38556,59 @@ OutChar
 ```
 [Source File](../libraries/i/I-1/I Ate 562 Metric Tons Of Air And Now I Am Floating Into The Atmosphere's Various Layers At Approxima _4)
 
+##### I Ate 562 Metric Tons Of Air And Now I Am Floating Into The Atmosphere's Various Layers At Approxima _5
+```text
+# H
+x35 562
+x478 0.401m/s
+OutChar
+# e
+x36 562
+x491 0.401m/s
+OutChar
+# l
+x32 562
+x436 0.401m/s
+OutChar
+# l
+x32 562
+x436 0.401m/s
+OutChar
+# o
+562
+x11 0.401m/s
+OutChar
+# comma
+x10 562
+x136 0.401m/s
+OutChar
+# space
+x11 562
+x150 0.401m/s
+OutChar
+# w
+x14 562
+x189 0.401m/s
+OutChar
+# o
+562
+x11 0.401m/s
+OutChar
+# r
+x11 562
+x148 0.401m/s
+OutChar
+# l
+x32 562
+x436 0.401m/s
+OutChar
+# d
+x19 562
+x258 0.401m/s
+OutChar
+```
+[Source File](../libraries/i/I-1/I Ate 562 Metric Tons Of Air And Now I Am Floating Into The Atmosphere's Various Layers At Approxima _5)
+
 ##### I fuck, you fuck
 ```text
 fuck "SGVsbG8sIFdvcmxkIQ=="
@@ -40359,6 +40425,47 @@ def interpret(prompt):
 interpret('> ')
 ```
 [Source File](../libraries/i/I-4/Is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spe _4)
+
+##### Is not recognized as the name of a cmdlet, function, script file, or operable program
+```text
+print('INRATNOACFSFOOPCTSOTNOIAPWIVTTPICATA interpreter')
+print('Send EOF to stop')
+w='is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.'
+import tkinter
+from tkinter.messagebox import showerror
+def interpret(prompt):
+    while 1:
+        try:
+            k=input(prompt).strip()
+        except:
+            return
+        if k=='You\'re':
+            x=tkinter.Tk()
+            x.withdraw()
+            showerror('SCREAMS AT YOU','THIS IS THE INTERNET!!',parent=x)
+        elif k==w:
+            print('Hello, World!')
+        elif k==w*2:
+            print(input())
+        elif k==w*3:
+            print(''.join(reversed(input())))
+        elif k==w*4:
+            a=input()
+            if int(a):
+                while 1:
+                    print(1)
+            else:
+                print(0)
+        elif k==w*5:
+            for i in range(99,2,-1):
+                print(f'{i} bottles of beer on the wall, {i} bottles of beer.\nTake one down and pass it around, {i-1} bottles of beer on the wall.\n')
+            print(f'2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake one down and pass it around, no bottles of beer on the wall.\n\nNo bottles of beer on the wall, no bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.')
+        elif k==w*6:
+            print('Self interpreting...')
+            interpret('>'+prompt)
+interpret('> ')
+```
+[Source File](../libraries/i/I-4/Is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spe _5)
 
 ##### IS-BASIC
 ```text
@@ -55514,6 +55621,24 @@ clocherio clocherio. Clocha clochativo clochans. Clochans clocha clochando et cl
 clochando. Clochando clochativo.
 ```
 [Source File](../libraries/o/O-3/Omnis Clocha Clochabilis in Clocherio Clochando Clochans Clochativo Clochare facit Clochabiliter Clo _4)
+
+##### Omnis Clocha Clochabilis in Clocherio Clochando Clochans Clochativo Clochare facit Clochabiliter Clo _5
+```text
+Clochando clocha clochando, clochando clochando clochando, clochando clochando, clochando. Clochabilis clocha
+clochans clochando, clochando clochando clochando. Clocha clochabilis clochans, clochando clocha clochando
+clochans. Clochando clochando clochando: clocha clochans clochando clochando et clochando clochans, clochando
+clocha et clochare clochare. Clochare clocha clochare in clocherio clochabiliter clochans, facit clochando
+clochans clochando. Clocha clochans clocherio clochans, clocha clochans clochando clochabilis: clochare clocha
+et clochabiliter clocha clochare in clocherio clochabiliter. Clocha clochans, clochans clochativo, clochans
+clocherio et clocherio clocha. Clocherio clochativo clochando, clochando clochando clochando, clocha clochando
+clochando, et clochando clochativo. Clocha clochativo clochando. Clochando clocha clochando clochativo clochans.
+Clocha habet clochans, et clochativo clochare in clocherio clocha clochativo: clochare clochativo clocha,
+clochando clochando clochando et clochativo in clocherio clocha. Clocherio in clocherio et clocherio et clocherio
+in clocherio. Clocha clochativo in clocherio. Clocherio clocha et clocherio clocherio clocherio, clocherio
+clocherio clocherio. Clocha clochativo clochans. Clochans clocha clochando et clochativo facit clocha clochans
+clochando. Clochando clochativo.
+```
+[Source File](../libraries/o/O-3/Omnis Clocha Clochabilis in Clocherio Clochando Clochans Clochativo Clochare facit Clochabiliter Clo _5)
 
 ##### ON THE WAY TO WHO KNOWS WHERE
 ```text
@@ -75382,6 +75507,13 @@ print("Hello World")
 (textout "Hello, World!")
 ```
 [Source File](../libraries/t/T-4/Transd)
+
+##### Transet
+```text
+0 : {}
+successor of n : {n}
+```
+[Source File](../libraries/t/T-4/Transet)
 
 ##### TransFORTH
 ```text
