@@ -1,6 +1,6 @@
 # All libraries
 
-6658 entries.
+6651 entries.
 
 ##### !
 ```text
@@ -25132,15 +25132,6 @@ buzz=5
 ```
 [Source File](../libraries/d/D-2/DJ%20Qarkegs%20-%20Above%20The%20Sky)
 
-##### Django
-```text
-from django.http import HttpResponse
-
-def index(request):
-    return HttpResponse("Hello World")
-```
-[Source File](../libraries/d/D-2/Django)
-
 ##### DJN OISC
 ```text
 X Y
@@ -30150,17 +30141,6 @@ a .
 ```
 [Source File](../libraries/e/E-2/Explode.explode)
 
-##### Express
-```text
-const express = require('express')
-const app = express()
-
-app.get('/', (_, res) => res.send("Hello World"))
-
-app.listen(8080)
-```
-[Source File](../libraries/e/E-4/Express)
-
 ##### Expression
 ```text
 (•o•) "Hello World!"
@@ -30816,18 +30796,6 @@ howl
 "Hello, World!"
 ```
 [Source File](../libraries/f/F-1/Farnsworth.farnsworth)
-
-##### FastAPI
-```text
-from fastapi import Body, FastAPI
-
-app = FastAPI()
-
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
-```
-[Source File](../libraries/f/F-1/FastAPI)
 
 ##### Fastlane
 ```text
@@ -31746,20 +31714,6 @@ main() -> main {
 aueI90ds¢£³m%#oiDijij@¨!&#&#IO21(()=§§ªD@@
 ```
 [Source File](../libraries/f/F-3/Flash%20shockwave%20has%20been%20discontinued)
-
-##### Flask
-```text
-from flask import Flask
-app = Flask(__name__)
-
-@app.route("/")
-def hello():
-    return "Hello World"
-
-if __name__ == "__main__":
-    app.run()
-```
-[Source File](../libraries/f/F-3/Flask)
 
 ##### FlatBuffers
 ```text
@@ -65721,16 +65675,6 @@ AppRegistry.registerComponent('HelloWorld', () => HelloWorld);
 ```
 [Source File](../libraries/r/R-1/React-VR)
 
-##### React
-```javascript
-function Hello() {
-  return <h1>Hello World</h1>;
-}
-
-React.render(<Hello />, document.body);
-```
-[Source File](../libraries/r/R-1/React.js)
-
 ##### React360
 ```javascript
 import React from "react";
@@ -77930,16 +77874,6 @@ pack .l
 ```
 [Source File](../libraries/t/T-1/Tk.tk)
 
-##### Tkinter
-```text
-import tkinter as tk
-root = tk.Tk()
-greeting = tk.Label(text="Hello World")
-greeting.pack()
-root.mainloop()
-```
-[Source File](../libraries/t/T-3/Tkinter)
-
 ##### TL
 ```text
 ---
@@ -82882,22 +82816,6 @@ func main() {
 10 ?="Hello world!"
 ```
 [Source File](../libraries/v/V-4/VTL-2)
-
-##### Vue
-```javascript
-<div id="app">
-  <p>{{ message }}</p>
-</div>
-<script>
-new Vue({
-  el: '#app',
-  data: {
-    message: 'Hello World'
-  }
-})
-</script>
-```
-[Source File](../libraries/v/V-2/Vue.js)
 
 ##### Vv
 ```text
