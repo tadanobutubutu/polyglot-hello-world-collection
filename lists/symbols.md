@@ -1,34 +1,49 @@
-# symbols
+<div align="center">
 
-85 entries.
+# 🔣 Symbols & Numerals
 
-##### !
+Languages named with symbols or digits.
+
+**85 exhibits** in this wing
+
+[⬅ Museum entrance](../README.md) · [🏛 Full catalog](all.md)
+
+</div>
+
+---
+
+## !
+
 ```text
 !-
 #_Hello World
 -!
 ```
-[Source File](../libraries/symbols/!)
+<sub>📄 [Source File](../libraries/symbols/!)</sub>
 
-##### !@#$%^&* __+
+## !@#$%^&* __+
+
 ```text
  ^dlroW ,olleH(@)
 ```
-[Source File](../libraries/symbols/!@#$%^&*%20__+)
+<sub>📄 [Source File](../libraries/symbols/!@%23$%^&*%20__+)</sub>
 
-##### !@$%^&* _+
+## !@$%^&* _+
+
 ```text
  ^dlroW ,olleH(@)
 ```
-[Source File](../libraries/symbols/!@$%^&*%20_+)
+<sub>📄 [Source File](../libraries/symbols/!@$%^&*%20_+)</sub>
 
-##### !@sharp$pct^andstar_+
+## !@sharp$pct^andstar_+
+
 ```text
  ^dlroW ,olleH(@)
 ```
-[Source File](../libraries/symbols/Symbols-2/!@sharp$pct^andstar_+.ecndpcaalr)
+<sub>📄 [Source File](../libraries/symbols/Symbols-2/!@sharp$pct^andstar_+.ecndpcaalr)</sub>
 
-##### $+-?
+## $+-?
+
 ```text
 $+++++++++A?b$++++++++$-aB$
 $+++C?d$++++++++++$-cD$-
@@ -44,36 +59,41 @@ $++++++I?j$++++$-iJ$
 --------
 $++++++++K?l$--------$-kL$---
 ```
-[Source File](../libraries/symbols/$+-?)
+<sub>📄 [Source File](../libraries/symbols/$+-?)</sub>
 
-##### %^2^-1
+## %^2^-1
+
 ```text
 spmmmmmmiiiiiiiieiepssipeepipe'spmmmmemmiiiesiiepipeiieiise'spmmmmpipse
 ```
-[Source File](../libraries/symbols/%^2^-1)
+<sub>📄 [Source File](../libraries/symbols/%^2^-1)</sub>
 
-##### *><>
+## *><>
+
 ```text
 "Hello, World!"r>Ool?u!|;
 ```
-[Source File](../libraries/symbols/*><>)
+<sub>📄 [Source File](../libraries/symbols/*><>)</sub>
 
-##### ++
+## ++
+
 ```text
 int main() {
   while (1) {
   }
 }
 ```
-[Source File](../libraries/symbols/++)
+<sub>📄 [Source File](../libraries/symbols/++)</sub>
 
-##### +++
+## +++
+
 ```text
 72 !$ 101 !$ +7 !$ !$ +3 !$ 44 !$ 32 !$ 87 !$ 111 !$ 114 !$ 108 !$ +-8 !$ 33 !$
 ```
-[Source File](../libraries/symbols/+++)
+<sub>📄 [Source File](../libraries/symbols/+++)</sub>
 
-##### +
+## +
+
 ```text
 def run_plus_period_star(code: str, starting_input=''):
     pointer = 0  # for instructions
@@ -108,40 +128,46 @@ def run_plus_period_star(code: str, starting_input=''):
         pointer += 1
     return tape
 ```
-[Source File](../libraries/symbols/+.*)
+<sub>📄 [Source File](../libraries/symbols/+.*)</sub>
 
-##### ,,,
+## ,,,
+
 ```text
 "Hello, World!
 ```
-[Source File](../libraries/symbols/,,,)
+<sub>📄 [Source File](../libraries/symbols/,,,)</sub>
 
-##### ---
+## ---
+
 ```text
 Hello, World!
 ```
-[Source File](../libraries/symbols/---)
+<sub>📄 [Source File](../libraries/symbols/---)</sub>
 
-##### 0
+## 0
+
 ```text
 0 - calculates 0
 ```
-[Source File](../libraries/symbols/0)
+<sub>📄 [Source File](../libraries/symbols/0)</sub>
 
-##### 0,1
+## 0,1
+
 ```text
 --==-=-::~,.++++":=[.]
 ```
-[Source File](../libraries/symbols/0,1)
+<sub>📄 [Source File](../libraries/symbols/0,1)</sub>
 
-##### 01
+## 01
+
 ```text
 hello=0100100001100101011011000110110001101111001000000
 1110111011011110111001001101100011001000010000100001010.
 ```
-[Source File](../libraries/symbols/01)
+<sub>📄 [Source File](../libraries/symbols/01)</sub>
 
-##### 0123456789!
+## 0123456789!
+
 ```text
 # (0123456789!?)
 
@@ -220,48 +246,55 @@ def run(fname="numberesolang/input.txt"):
 
 run()
 ```
-[Source File](../libraries/symbols/0123456789!)
+<sub>📄 [Source File](../libraries/symbols/0123456789!)</sub>
 
-##### 0587
+## 0587
+
 ```text
 04(Hello World)
 ```
-[Source File](../libraries/symbols/0587)
+<sub>📄 [Source File](../libraries/symbols/0587)</sub>
 
-##### 05AB1E
+## 05AB1E
+
 ```text
 "Hello World
 ```
-[Source File](../libraries/symbols/Symbols-1/05AB1E)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/05AB1E)</sub>
 
-##### 05AB1E _legacy
+## 05AB1E _legacy
+
 ```text
 "Hello, World!"
 ```
-[Source File](../libraries/symbols/Symbols-1/05AB1E%20_legacy.05ab1e)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/05AB1E%20_legacy.05ab1e)</sub>
 
-##### 0815
+## 0815
+
 ```text
 <:48:x<:65:=<:6C:$=$=$$~<:03:+$~<:ffffffffffffffbd:+$<:ffffffffffffffb1:+$<:57:~$~<:18:x+$~<:03:+$~<:06:x-$x<:0e:x-$=x<:43:x-$
 ```
-[Source File](../libraries/symbols/0815)
+<sub>📄 [Source File](../libraries/symbols/0815)</sub>
 
-##### 0815
+## 0815
+
 ```text
 <:48:x<:65:=<:6C:$=$=$$~<:03:+
 $~<:ffffffffffffffb1:+$<:77:~$
 ~<:fffffffffffff8:x+$~<:03:+$~
 <:06:x-$x<:0e:x-$=x<:43:x-$
 ```
-[Source File](../libraries/symbols/Symbols-1/0815.0815)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/0815.0815)</sub>
 
-##### 1
+## 1
+
 ```text
 H111*,e111*,l111*,l111*,o111*, 111*,W111*,o111*,r111*,l111*,d111*,!111*,
 ```
-[Source File](../libraries/symbols/1)
+<sub>📄 [Source File](../libraries/symbols/1)</sub>
 
-##### 1+
+## 1+
+
 ```text
 11+"""1+"****"; [H]
 111++""**1+(D|/"\"/^\)1++; [e]
@@ -275,36 +308,41 @@ H111*,e111*,l111*,l111*,o111*, 111*,W111*,o111*,r111*,l111*,d111*,!111*,
 +; [d]
 111++"*1+; [\n]
 ```
-[Source File](../libraries/symbols/Symbols-1/1+)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/1+)</sub>
 
-##### 10 1
+## 10 1
+
 ```text
 东东东东东东东东东东崛巨东巨东东东巨东东东东东东东巨东东东东东东东东东东龙龙龙龙方起巨巨巨东东正巨东正东东东东东东东正正东东东正龙龙东东正巨东东东东东东东东东东东东东东东正巨正东东东正方方方方方方正方方方方方方方方正龙龙东正龙正
 ```
-[Source File](../libraries/symbols/10%201)
+<sub>📄 [Source File](../libraries/symbols/10%201)</sub>
 
-##### 1066
+## 1066
+
 ```text
 九冖丫乣吇乣乢吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇乣乢吇也矕乡也矕乡也邟乞
 九邟丫乣吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇乣乢吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣吇乣吇乣乢吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇也矕乡也人乞
 九矕丫乣吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣吇乣吇乣乞
 九人丫乣吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣乢吇乣吇乣乞
 ```
-[Source File](../libraries/symbols/1066)
+<sub>📄 [Source File](../libraries/symbols/1066)</sub>
 
-##### 111
+## 111
+
 ```text
 1110010
 ```
-[Source File](../libraries/symbols/111)
+<sub>📄 [Source File](../libraries/symbols/111)</sub>
 
-##### 123
+## 123
+
 ```text
 222122221212112112112112112112112222122221212112112112112112122222211121121112112121122222221112112111211222222211121111211211222222211121111212222221112111121121122222221112111121222222111211111212112222222111211111222222111111222221111112222221111112222211111222222211211121111122222221121112111122222221112111112121122222221112111112222222111121121112112222222111121121122222211121111211211222222211121111212222221112112111211211222222211121121112122222112112112112111222222112112112112112
 ```
-[Source File](../libraries/symbols/123)
+<sub>📄 [Source File](../libraries/symbols/123)</sub>
 
-##### 123
+## 123
+
 ```text
 2221222212121121121121121121121122221222212121121121121121121
 222222111211211121121211222222211121121112112
@@ -318,24 +356,27 @@ H111*,e111*,l111*,l111*,o111*, 111*,W111*,o111*,r111*,l111*,d111*,!111*,
 2222221112111121121122222221112111121
 22222211121121112112112222222111211211121
 ```
-[Source File](../libraries/symbols/Symbols-1/123)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/123)</sub>
 
-##### 12345678
+## 12345678
+
 ```text
 一一一一一一一一七四一一一一七四一一四一一一四一一一四一三三三三二八四一四一四二四四一七三八三二八四四六四二二二六一一 一一一一一六六一一一六四四六三二六三六一一一六二二二二二二六二二二二二二二二六四四一六四一一六
 ```
-[Source File](../libraries/symbols/12345678)
+<sub>📄 [Source File](../libraries/symbols/12345678)</sub>
 
-##### 1234567890
+## 1234567890
+
 ```text
 ---START 01---
 hello=0100100001100101011011000110110001101111001000000
 1110111011011110111001001101100011001000010000100001010.
 ---END---
 ```
-[Source File](../libraries/symbols/1234567890)
+<sub>📄 [Source File](../libraries/symbols/1234567890)</sub>
 
-##### 129
+## 129
+
 ```text
 (()(()())()) Version Stack
 ((( Pushes a stack that contains:
@@ -351,9 +392,10 @@ hello=0100100001100101011011000110110001101111001000000
 )))
 ((((()))())(())) And run the program.
 ```
-[Source File](../libraries/symbols/129)
+<sub>📄 [Source File](../libraries/symbols/129)</sub>
 
-##### 1337
+## 1337
+
 ```text
 data SkExp = CombS | CombK | SkApp SkExp SkExp
 
@@ -367,21 +409,24 @@ skToNum (SkApp x y) = xs++[n]++ys
 		ys = skToNum y
 		n = max (maximum xs) (maximum ys + 1)
 ```
-[Source File](../libraries/symbols/1337)
+<sub>📄 [Source File](../libraries/symbols/1337)</sub>
 
-##### 1=0+1
+## 1=0+1
+
 ```text
 x=y1+y2+...+ym
 ```
-[Source File](../libraries/symbols/1=0+1)
+<sub>📄 [Source File](../libraries/symbols/1=0+1)</sub>
 
-##### 1C Enterprise
+## 1C Enterprise
+
 ```text
 Message("Hello World");
 ```
-[Source File](../libraries/symbols/Symbols-1/1C%20Enterprise)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/1C%20Enterprise)</sub>
 
-##### 1L_a
+## 1L_a
+
 ```text
  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx x
  xxxx   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx x
@@ -411,9 +456,10 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx xxxxx x
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx       x
 xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
-[Source File](../libraries/symbols/Symbols-1/1L_a.1l)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/1L_a.1l)</sub>
 
-##### 1L_AOI
+## 1L_AOI
+
 ```text
     +
  ++
@@ -500,27 +546,31 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
  +  ++  +
 ```
-[Source File](../libraries/symbols/Symbols-1/1L_AOI.1l)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/1L_AOI.1l)</sub>
 
-##### 2
+## 2
+
 ```text
 #t,"Hello, World\!\n!,*t,c,[:>c!
 ```
-[Source File](../libraries/symbols/2)
+<sub>📄 [Source File](../libraries/symbols/2)</sub>
 
-##### 2
+## 2
+
 ```text
 s=2o=.i=+d=-iisiiiisiiiiiiiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiioiiiiiiiooiiiodddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddodddddddddddddddddddddsddoddddddddoiiioddddddoddddddddo
 ```
-[Source File](../libraries/symbols/2.+-)
+<sub>📄 [Source File](../libraries/symbols/2.+-)</sub>
 
-##### 200
+## 200
+
 ```text
 202202202202202202202202222200202202202202202202202202002020000200202202202202202202202202022200202202202202202202202202222200202202202202202202202202202202202202002020000200202202202202202022202202202202202202202022022202202202022200202202202202202202202202222200202202202202202002020000200202202202202022020020020020020020020020020020020020022002002002002202202202202202202202202202202202202202202202022200200022202202202022020020020020020020022020020020020020020020020022200200202022
 ```
-[Source File](../libraries/symbols/200)
+<sub>📄 [Source File](../libraries/symbols/200)</sub>
 
-##### 2014
+## 2014
+
 ```text
 "use strict";
 const server="129.6.15.30"; // Currently a NIST server; change this to the address of the "2014 server" if it exists.
@@ -545,9 +595,10 @@ net.connect(37,server).on("data",x=>{
   process.exit(2);
 });
 ```
-[Source File](../libraries/symbols/2014)
+<sub>📄 [Source File](../libraries/symbols/2014)</sub>
 
-##### 2017
+## 2017
+
 ```text
 "use strict";
 const server="129.6.15.30"; // Currently a NIST server; change this to the address of the "2017 server" if it exists.
@@ -572,9 +623,10 @@ net.connect(37,server).on("data",x=>{
   process.exit(2);
 });
 ```
-[Source File](../libraries/symbols/2017)
+<sub>📄 [Source File](../libraries/symbols/2017)</sub>
 
-##### 2023
+## 2023
+
 ```text
 import sys,datetime,os
 def bf(code):
@@ -617,16 +669,18 @@ else:
  os.remove(sys.argv[0])
  os.remove(sys.argv[1])
 ```
-[Source File](../libraries/symbols/2023)
+<sub>📄 [Source File](../libraries/symbols/2023)</sub>
 
-##### 2050706
+## 2050706
+
 ```text
 3001505510
 5300
 ```
-[Source File](../libraries/symbols/2050706)
+<sub>📄 [Source File](../libraries/symbols/2050706)</sub>
 
-##### 24
+## 24
+
 ```text
 (defun interpret-24 (&key (interactive-p NIL))
   "Launches the 24 interpreter, either evaluating the current year, or
@@ -658,15 +712,17 @@ else:
         (when (<= last-two-year-digits 24)
           (format T "~&ham n eggs"))))))
 ```
-[Source File](../libraries/symbols/24)
+<sub>📄 [Source File](../libraries/symbols/24)</sub>
 
-##### 256
+## 256
+
 ```text
 Hello World
 ```
-[Source File](../libraries/symbols/Symbols-1/256.256)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/256.256)</sub>
 
-##### 2L
+## 2L
+
 ```text
 *   +
 *+*
@@ -678,51 +734,59 @@ Hello World
 +                               +
   +                                +
 ```
-[Source File](../libraries/symbols/Symbols-1/2L.2l)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/2L.2l)</sub>
 
-##### 2sable
+## 2sable
+
 ```text
 "Hello, World!"
 ```
-[Source File](../libraries/symbols/Symbols-1/2sable.2sable)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/2sable.2sable)</sub>
 
-##### 3
+## 3
+
 ```text
 for "Hello, world!" i do put-char latter i all
 ```
-[Source File](../libraries/symbols/3)
+<sub>📄 [Source File](../libraries/symbols/3)</sub>
 
-##### 33
+## 33
+
 ```text
 "Hello, World!"p
 ```
-[Source File](../libraries/symbols/33)
+<sub>📄 [Source File](../libraries/symbols/33)</sub>
 
-##### 3var
+## 3var
+
 ```text
 iisssaa/>emaa->e#aamam->e#dddddddddddddddddddddddddPiiiiiiiiiiiiiiiiiiiiiiiiiiiiiPiiiiiiiPPiiiPriissaa*>iiiiiiiiiiiiPriisaamaaaa*>Priisssaa/>emaa->e#aamam->e#ddddddddddPiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiddddddddPiiiPddddddPddddddddPriissaa*>iP
 ```
-[Source File](../libraries/symbols/Symbols-1/3var.3var)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/3var.3var)</sub>
 
-##### 4
+## 4
+
 ```text
 :72:101:108:108:111:44:32:119:111:114:108:100:33:10
 ```
-[Source File](../libraries/symbols/4)
+<sub>📄 [Source File](../libraries/symbols/4)</sub>
 
-##### 4
+## 4
+
 ```text
 3.6000160103602136033260433605446067260787008070200908000120902111120111011015065095105105115055035075115125105085044
 ```
-[Source File](../libraries/symbols/Symbols-1/4.4)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/4.4)</sub>
 
-##### 42
+## 42
+
 ```text
 {mapped Gödel number} = 42 - {input program's Brainfoctal value} + {interpreter's Brainfoctal value}
 ```
-[Source File](../libraries/symbols/42)
+<sub>📄 [Source File](../libraries/symbols/42)</sub>
 
-##### 420
+## 420
+
 ```text
 420
 blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it
@@ -785,39 +849,44 @@ blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it
 blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it blaze it
 blaze it blaze it blaze it blaze it blaze it blaze it
 ```
-[Source File](../libraries/symbols/Symbols-1/420.420)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/420.420)</sub>
 
-##### 4gl
+## 4gl
+
 ```text
 main
     display "Hello World"
 end main
 ```
-[Source File](../libraries/symbols/Symbols-1/4gl.4gl)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/4gl.4gl)</sub>
 
-##### 4test
+## 4test
+
 ```text
 testcase printHelloWorld()
     print("Hello World")
 ```
-[Source File](../libraries/symbols/Symbols-1/4test)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/4test)</sub>
 
-##### 4th Dimension
+## 4th Dimension
+
 ```text
 OPEN WINDOW (10;45;500;330;0;"Hello Window")
 While (True)
   MESSAGE ("Hello World")
 End while
 ```
-[Source File](../libraries/symbols/Symbols-1/4th%20Dimension.4dd)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/4th%20Dimension.4dd)</sub>
 
-##### 5
+## 5
+
 ```text
 `Hello, World!`
 ```
-[Source File](../libraries/symbols/5)
+<sub>📄 [Source File](../libraries/symbols/5)</sub>
 
-##### 5++
+## 5++
+
 ```text
 0055000000500000055055550555005000500000005505050055555500005050P ^[ Prints "0 or 5?" ]~
 i
@@ -848,21 +917,24 @@ i
 )
 Px              ^[ Print contents of output buffer and Ends program]~
 ```
-[Source File](../libraries/symbols/5++)
+<sub>📄 [Source File](../libraries/symbols/5++)</sub>
 
-##### 512
+## 512
+
 ```text
 pHello World!
 ```
-[Source File](../libraries/symbols/512)
+<sub>📄 [Source File](../libraries/symbols/512)</sub>
 
-##### 6
+## 6
+
 ```text
 .(Hello, world!)
 ```
-[Source File](../libraries/symbols/6)
+<sub>📄 [Source File](../libraries/symbols/6)</sub>
 
-##### 6-5
+## 6-5
+
 ```text
 666666666666A C initialize the first cell to 72 and print H
 66665A C change the cell to 101 and print e
@@ -876,15 +948,17 @@ pHello World!
 9A C change the cell to 108 and print l
 95959A C change the cell to 100 and print d
 ```
-[Source File](../libraries/symbols/6-5)
+<sub>📄 [Source File](../libraries/symbols/6-5)</sub>
 
-##### 6673846770
+## 6673846770
+
 ```text
 ]!!!!!!!!!!!!:!;`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!}|!!!}|!!!!!!!}}!!!}`...!!}.....!!!!!}|!!!!!!!!}|!!!}|!!!!!!}!!!!!!!!}`^
 ```
-[Source File](../libraries/symbols/6673846770)
+<sub>📄 [Source File](../libraries/symbols/6673846770)</sub>
 
-##### 6673846771
+## 6673846771
+
 ```text
 push 0c, 72
 push 1c, 101
@@ -911,15 +985,17 @@ snd out, 8c
 
 cll out
 ```
-[Source File](../libraries/symbols/6673846771)
+<sub>📄 [Source File](../libraries/symbols/6673846771)</sub>
 
-##### 6969 Assembler
+## 6969 Assembler
+
 ```text
 MOV C*::Hello World
 ```
-[Source File](../libraries/symbols/Symbols-1/6969%20Assembler)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/6969%20Assembler)</sub>
 
-##### 7-8
+## 7-8
+
 ```text
 7-8 7-8 7-8 7-8
 7-8 7-8 7-8 7-8
@@ -1028,41 +1104,47 @@ MOV C*::Hello World
 7-8 7-8 7-8 7-8
 7-8 7-8 7-8
 ```
-[Source File](../libraries/symbols/7-8)
+<sub>📄 [Source File](../libraries/symbols/7-8)</sub>
 
-##### 7
+## 7
+
 ```text
 5325101303040432004513151401430134321027403
 ```
-[Source File](../libraries/symbols/Symbols-1/7.7)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/7.7)</sub>
 
-##### 8
+## 8
+
 ```text
 1:[“Hello, World!”]:
 0::
 ```
-[Source File](../libraries/symbols/8)
+<sub>📄 [Source File](../libraries/symbols/8)</sub>
 
-##### 8th
+## 8th
+
 ```text
 "Hello World\n" .
 ```
-[Source File](../libraries/symbols/Symbols-1/8th)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/8th)</sub>
 
-##### 95-98
+## 95-98
+
 ```text
 103-105 100-102 107-109 107-109 110-112 43-45 31-33 118-120 110-112 113-115 107-109 99-101 32-34 0-1
 ```
-[Source File](../libraries/symbols/95-98)
+<sub>📄 [Source File](../libraries/symbols/95-98)</sub>
 
-##### 96
+## 96
+
 ```text
 ; [?"] ;
 [?(";$ )]
 ```
-[Source File](../libraries/symbols/96)
+<sub>📄 [Source File](../libraries/symbols/96)</sub>
 
-##### 99
+## 99
+
 ```text
 999 9 9
 99 99999999 999 9
@@ -1090,9 +1172,10 @@ MOV C*::Hello World
 99 99999 9999999 9
 99
 ```
-[Source File](../libraries/symbols/Symbols-1/99.99)
+<sub>📄 [Source File](../libraries/symbols/Symbols-1/99.99)</sub>
 
-##### :.
+## :.
+
 ```text
 .:...............:...............:...............:......................:.......:........:.......:.:
 ..............::......:......:...............:...............:......................:.......:.......
@@ -1111,58 +1194,67 @@ MOV C*::Hello World
 .:.......:.:..............::......:......:...............:......................:.......:........:..
 .....:.:..............::......:.....
 ```
-[Source File](../libraries/symbols/:..:)
+<sub>📄 [Source File](../libraries/symbols/:..:)</sub>
 
-##### :;#?!
+## :;#?!
+
 ```text
 :H:e:l:l:o:,: :w:o:r:l:d:!
 ```
-[Source File](../libraries/symbols/:;#?!)
+<sub>📄 [Source File](../libraries/symbols/:;%23?!)</sub>
 
-##### ;#+
+## ;#+
+
 ```text
 ;;;;;;;;;~++++++++>#<+++;;:>#<+-;;>#<#<-;;;>#<-+++++++;;;;-:>#<-+;;;#::<;;;-++#:<#<;;;#-<;;;#<+;;#-:<-+;;#
 ```
-[Source File](../libraries/symbols/;#+)
+<sub>📄 [Source File](../libraries/symbols/;%23+)</sub>
 
-##### =5
+## =5
+
 ```text
 ((()))(((())))
 ```
-[Source File](../libraries/symbols/=5)
+<sub>📄 [Source File](../libraries/symbols/=5)</sub>
 
-##### ><>
+## ><>
+
 ```text
 !v"Hello, World!"r!
  >l?!;o
 ```
-[Source File](../libraries/symbols/><>)
+<sub>📄 [Source File](../libraries/symbols/><>)</sub>
 
-##### ???
+## ???
+
 ```text
 ,;;..;...;.;,,,,;,,"......";...........-,'",-.";;,,,,!;...!;,!!...!;;;!-!-!-!...!,,,,,,!-,!;;;.!
 ```
-[Source File](../libraries/symbols/???)
+<sub>📄 [Source File](../libraries/symbols/???)</sub>
 
-##### @tention!
+## @tention!
+
 ```text
 A@=;AH'<;Ae'<;Al'<;Al'<;Ao'<;A '<;AW'<;Ao'<;Ar'<;Al'<;Ad'<;A!{A$>};
 ```
-[Source File](../libraries/symbols/Symbols-2/@tention!)
+<sub>📄 [Source File](../libraries/symbols/Symbols-2/@tention!)</sub>
 
-##### @text
+## @text
+
 ```text
 @@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@?@@@@@@@@@@@@@@@@@@@@@@@+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 ```
-[Source File](../libraries/symbols/Symbols-2/@text)
+<sub>📄 [Source File](../libraries/symbols/Symbols-2/@text)</sub>
 
-##### star
+## star
+
 ```text
 "Hello, World!"r>Ool?u!|;
 ```
-[Source File](../libraries/symbols/Symbols-2/star.starfish)
+<sub>📄 [Source File](../libraries/symbols/Symbols-2/star.starfish)</sub>
 
-##### unnamed
+## unnamed
+
 ```text
 Let A = (()())
 Let H = (()(())())
@@ -1177,24 +1269,34 @@ Let d = (()()()())
 Let ! = ((())()())
 ((((()()))((()(())())((()))()()(())(()()())((())())(()(()))(())(((())))()(()()()())((())()()))))(()((()())))
 ```
-[Source File](../libraries/symbols/unnamed)
+<sub>📄 [Source File](../libraries/symbols/unnamed)</sub>
 
-##### ~English
+## ~English
+
 ```text
 Display "Hello World" and a newline.
 Stop the program.
 ```
-[Source File](../libraries/symbols/Symbols-2/~English)
+<sub>📄 [Source File](../libraries/symbols/Symbols-2/~English)</sub>
 
-##### ˸;sharp？!
+## ˸;sharp？!
+
 ```text
 :H:e:l:l:o: :W:o:r:l:d!
 ```
-[Source File](../libraries/symbols/Symbols-2/˸;sharp？!)
+<sub>📄 [Source File](../libraries/symbols/Symbols-2/˸;sharp？!)</sub>
 
-##### قلب
+## قلب
+
 ```text
 ‫(قول "مرحبا يا عالم")
 ```
-[Source File](../libraries/symbols/قلب)
+<sub>📄 [Source File](../libraries/symbols/قلب)</sub>
 
+---
+
+<div align="center">
+
+[⬅ Museum entrance](../README.md) · [🏛 Full catalog](all.md) · [⬆ Top](#)
+
+</div>
