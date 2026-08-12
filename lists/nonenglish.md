@@ -24,7 +24,7 @@
 ```text
 Ebiil⿽Tloia
 ```
-[Source File](../libraries/nonenglish/1⅞ bytes :3)
+[Source File](../libraries/nonenglish/1⅞%20bytes%20:3)
 
 ##### :iI1l!¡
 ```text
@@ -43,7 +43,7 @@ Scope(\) {
 	}	
 }
 ```
-[Source File](../libraries/nonenglish/ACPI Source Language)
+[Source File](../libraries/nonenglish/ACPI%20Source%20Language)
 
 ##### Actionscript  _Flash 5
 ```text
@@ -51,7 +51,7 @@ Scope(\) {
 
 trace ("Hello World");
 ```
-[Source File](../libraries/nonenglish/Actionscript  _Flash 5)
+[Source File](../libraries/nonenglish/Actionscript%20%20_Flash%205)
 
 ##### ActionScript  _Flash 8
 ```text
@@ -73,7 +73,7 @@ class HelloWorld
 import HelloWorld;
 var hw:HelloWorld = new HelloWorld( this );
 ```
-[Source File](../libraries/nonenglish/ActionScript  _Flash 8)
+[Source File](../libraries/nonenglish/ActionScript%20%20_Flash%208)
 
 ##### Actionscript  _Flash MX
 ```text
@@ -92,7 +92,7 @@ myformat.underline = true;
 mytext.text = "Hello World!";
 mytext.setTextFormat(myformat);
 ```
-[Source File](../libraries/nonenglish/Actionscript  _Flash MX)
+[Source File](../libraries/nonenglish/Actionscript%20%20_Flash%20MX)
 
 ##### ActionScript 3
 ```text
@@ -101,7 +101,7 @@ var t:TextField=new TextField();
 t.text="Hello World!";
 addChild(t);
 ```
-[Source File](../libraries/nonenglish/ActionScript 3.0)
+[Source File](../libraries/nonenglish/ActionScript%203.0)
 
 ##### Amazon States Language
 ```text
@@ -117,7 +117,7 @@ addChild(t);
   }
 }
 ```
-[Source File](../libraries/nonenglish/Amazon States Language)
+[Source File](../libraries/nonenglish/Amazon%20States%20Language)
 
 ##### AMiaBF’!?
 ```text
@@ -138,7 +138,7 @@ H`e`l`l`o`,` `W`o`r`l`d`!`
 <% @ Page Language="C#" %>
 <% ="Hello World!" %>
 ```
-[Source File](../libraries/nonenglish/ASP  _C♯)
+[Source File](../libraries/nonenglish/ASP%20%20_C♯)
 
 ##### ASP  _JavaScript
 ```text
@@ -151,7 +151,7 @@ Response.Write('Hello World!');
 %>
 </body></html>
 ```
-[Source File](../libraries/nonenglish/ASP  _JavaScript)
+[Source File](../libraries/nonenglish/ASP%20%20_JavaScript)
 
 ##### ASP  _VBE
 ```text
@@ -160,7 +160,7 @@ Response.Write('Hello World!');
 <script language="VBScript.Encode">#@~^HQAAAA==@#@&HdTAK6PrCsVKP    WMV[Zr@#@&HwcAAA==^#~@</script>
 </html>
 ```
-[Source File](../libraries/nonenglish/ASP  _VBE)
+[Source File](../libraries/nonenglish/ASP%20%20_VBE)
 
 ##### ASP  _VBS
 ```text
@@ -173,7 +173,7 @@ Response.write "Hello World!"
 %>
 </body></html>
 ```
-[Source File](../libraries/nonenglish/ASP  _VBS)
+[Source File](../libraries/nonenglish/ASP%20%20_VBS)
 
 ##### Assembler  _6502, Apple II
 ```text
@@ -191,7 +191,7 @@ STROUT 	EQU	$DB3A ;OUTPUTS AY-POINTED NULL TERMINATED STRING
 
 HELLO	ASC	"HELLO WORLD!",00
 ```
-[Source File](../libraries/nonenglish/Assembler  _6502, Apple II)
+[Source File](../libraries/nonenglish/Assembler%20%20_6502,%20Apple%20II)
 
 ##### Assembler  _6502, C64
 ```text
@@ -209,7 +209,7 @@ rts
 hello: .tx "Hello World!"
        .by 13,10,0
 ```
-[Source File](../libraries/nonenglish/Assembler  _6502, C64)
+[Source File](../libraries/nonenglish/Assembler%20%20_6502,%20C64)
 
 ##### Assembler  _68000, Amiga
 ```text
@@ -235,7 +235,7 @@ B)      jsr     -$03B4          ;PutStr
 DOS          dc.b    'dos.library',0
 HelloWorld   dc.b    'Hello World!',$A,0
 ```
-[Source File](../libraries/nonenglish/Assembler  _68000, Amiga)
+[Source File](../libraries/nonenglish/Assembler%20%20_68000,%20Amiga)
 
 ##### Assembler  _68000, Atari ST
 ```text
@@ -250,7 +250,7 @@ HelloWorld   dc.b    'Hello World!',$A,0
 helloworld:
      dc.b "Hello World!",$0d,$0a,0
 ```
-[Source File](../libraries/nonenglish/Assembler  _68000, Atari ST)
+[Source File](../libraries/nonenglish/Assembler%20%20_68000,%20Atari%20ST)
 
 ##### Assembler  _8051
 ```text
@@ -275,7 +275,7 @@ end:
 msg:
     db 'Hello World",0
 ```
-[Source File](../libraries/nonenglish/Assembler  _8051)
+[Source File](../libraries/nonenglish/Assembler%20%20_8051)
 
 ##### Assembler  _ARM, Android
 ```text
@@ -300,7 +300,7 @@ _start:
     mov     %r7, $1
     swi     $0
 ```
-[Source File](../libraries/nonenglish/Assembler  _ARM, Android)
+[Source File](../libraries/nonenglish/Assembler%20%20_ARM,%20Android)
 
 ##### Assembler  _ARM, RISC OS
 ```text
@@ -312,7 +312,7 @@ EQUB 0
 ALIGN
 MOV PC,R14
 ```
-[Source File](../libraries/nonenglish/Assembler  _ARM, RISC OS)
+[Source File](../libraries/nonenglish/Assembler%20%20_ARM,%20RISC%20OS)
 
 ##### Assembler  _DG-Nova
 ```text
@@ -359,7 +359,7 @@ MOV PC,R14
 41
 42                      .END START
 ```
-[Source File](../libraries/nonenglish/Assembler  _DG-Nova)
+[Source File](../libraries/nonenglish/Assembler%20%20_DG-Nova)
 
 ##### Assembler  _HLA
 ```text
@@ -371,7 +371,7 @@ begin HELLO;
        stdout.put("Hello World",nl);
 end HELLO;
 ```
-[Source File](../libraries/nonenglish/Assembler  _HLA)
+[Source File](../libraries/nonenglish/Assembler%20%20_HLA)
 
 ##### Assembler  _HP-85
 ```text
@@ -397,7 +397,7 @@ end HELLO;
 220 OUTSTR  DAD 35052
 300         FIN
 ```
-[Source File](../libraries/nonenglish/Assembler  _HP-85)
+[Source File](../libraries/nonenglish/Assembler%20%20_HP-85)
 
 ##### Assembler  _IBM 370
 ```text
@@ -413,7 +413,7 @@ BR    14
 *
 END   HELLO
 ```
-[Source File](../libraries/nonenglish/Assembler  _IBM 370)
+[Source File](../libraries/nonenglish/Assembler%20%20_IBM%20370)
 
 ##### Assembler  _Intel
 ```text
@@ -430,7 +430,7 @@ int 21h
 Hello:
   db "Hello World!",13,10,"$"
 ```
-[Source File](../libraries/nonenglish/Assembler  _Intel)
+[Source File](../libraries/nonenglish/Assembler%20%20_Intel)
 
 ##### Assembler  _Itanium
 ```text
@@ -468,7 +468,7 @@ main:
         mov r12 = r34
         br.ret.sptk.many b0
 ```
-[Source File](../libraries/nonenglish/Assembler  _Itanium)
+[Source File](../libraries/nonenglish/Assembler%20%20_Itanium)
 
 ##### Assembler  _MIPS
 ```text
@@ -512,7 +512,7 @@ done:   lw $4, 0($30)           #restore values
        addi $30, $30, 4        #in register 4
        jr $31                  #return to the main
 ```
-[Source File](../libraries/nonenglish/Assembler  _MIPS)
+[Source File](../libraries/nonenglish/Assembler%20%20_MIPS)
 
 ##### Assembler  _MMIX
 ```text
@@ -525,7 +525,7 @@ Main   GETA  $255,String
        TRAP  0,Halt,0
 String BYTE  "Hello, world!",#a,0
 ```
-[Source File](../libraries/nonenglish/Assembler  _MMIX)
+[Source File](../libraries/nonenglish/Assembler%20%20_MMIX)
 
 ##### Assembler  _PA-RISC
 ```text
@@ -574,7 +574,7 @@ M$3
     .IMPORT printf,CODE
     .END
 ```
-[Source File](../libraries/nonenglish/Assembler  _PA-RISC)
+[Source File](../libraries/nonenglish/Assembler%20%20_PA-RISC)
 
 ##### Assembler  _PDP-11
 ```text
@@ -592,7 +592,7 @@ str:    .ascii / Hello World!/
         len=.-str
         .end start
 ```
-[Source File](../libraries/nonenglish/Assembler  _PDP-11)
+[Source File](../libraries/nonenglish/Assembler%20%20_PDP-11)
 
 ##### Assembler  _PDP-8
 ```text
@@ -635,7 +635,7 @@ count,    0
 ir1 = 10
 $
 ```
-[Source File](../libraries/nonenglish/Assembler  _PDP-8)
+[Source File](../libraries/nonenglish/Assembler%20%20_PDP-8)
 
 ##### Assembler  _PPC, Darwin
 ```text
@@ -661,7 +661,7 @@ li r0,1
 li r3,0
 sc
 ```
-[Source File](../libraries/nonenglish/Assembler  _PPC, Darwin)
+[Source File](../libraries/nonenglish/Assembler%20%20_PPC,%20Darwin)
 
 ##### Assembler  _SPARC
 ```text
@@ -681,7 +681,7 @@ main:
 	nop
 	restore
 ```
-[Source File](../libraries/nonenglish/Assembler  _SPARC)
+[Source File](../libraries/nonenglish/Assembler%20%20_SPARC)
 
 ##### Assembler  _TAS
 ```text
@@ -694,7 +694,7 @@ VB616=FB616/AG, 3/H, TEXT/AG, 3/H,
 TEXT=''*020Hello World!'',
 ENDE,
 ```
-[Source File](../libraries/nonenglish/Assembler  _TAS)
+[Source File](../libraries/nonenglish/Assembler%20%20_TAS)
 
 ##### Assembler  _VP
 ```text
@@ -715,7 +715,7 @@ hello_world:
 
 toolend
 ```
-[Source File](../libraries/nonenglish/Assembler  _VP)
+[Source File](../libraries/nonenglish/Assembler%20%20_VP)
 
 ##### Assembler  _Win32
 ```text
@@ -740,7 +740,7 @@ caption	db "Hi",0
 start_data Ends
 End begin
 ```
-[Source File](../libraries/nonenglish/Assembler  _Win32)
+[Source File](../libraries/nonenglish/Assembler%20%20_Win32)
 
 ##### Assembler  _X1
 ```text
@@ -769,7 +769,7 @@ End begin
 
                   de 0 zz 0
 ```
-[Source File](../libraries/nonenglish/Assembler  _X1)
+[Source File](../libraries/nonenglish/Assembler%20%20_X1)
 
 ##### Assembler  _X8
 ```text
@@ -819,7 +819,7 @@ DAG:    37                              " letters, red print
         2                               " cr
         8                               " nl
 ```
-[Source File](../libraries/nonenglish/Assembler  _X8)
+[Source File](../libraries/nonenglish/Assembler%20%20_X8)
 
 ##### Assembler  _z390
 ```text
@@ -831,7 +831,7 @@ HELLO CSECT
      BR 14
      END
 ```
-[Source File](../libraries/nonenglish/Assembler  _z390)
+[Source File](../libraries/nonenglish/Assembler%20%20_z390)
 
 ##### Assembler  _Z80 Console
 ```text
@@ -1061,7 +1061,7 @@ DEFB %01101000
 DEFB %00000000
 chars_end:
 ```
-[Source File](../libraries/nonenglish/Assembler  _Z80 Console)
+[Source File](../libraries/nonenglish/Assembler%20%20_Z80%20Console)
 
 ##### Assembler  _Z80, CP-M
 ```text
@@ -1078,7 +1078,7 @@ WRTLINE equ     09h
 ;
 sHello  db      'Hello, World!$'
 ```
-[Source File](../libraries/nonenglish/Assembler  _Z80, CP-M)
+[Source File](../libraries/nonenglish/Assembler%20%20_Z80,%20CP-M)
 
 ##### Assembler  _ZX81
 ```text
@@ -1097,13 +1097,13 @@ SPRINT    POP HL
           CALL PRINT
           JR SPRINT
 ```
-[Source File](../libraries/nonenglish/Assembler  _ZX81)
+[Source File](../libraries/nonenglish/Assembler%20%20_ZX81)
 
 ##### Binary Lambda Calculus
 ```text
 !Hello, world
 ```
-[Source File](../libraries/nonenglish/Binary Lambda Calculus)
+[Source File](../libraries/nonenglish/Binary%20Lambda%20Calculus)
 
 ##### BMC Remedy
 ```text
@@ -1133,7 +1133,7 @@ begin active link
    object-prop    : 2\60016\4\1\0\60017\4\1\0\
 end
 ```
-[Source File](../libraries/nonenglish/BMC Remedy)
+[Source File](../libraries/nonenglish/BMC%20Remedy)
 
 ##### Brain-Flāk
 ```text
@@ -1156,7 +1156,7 @@ int aaMain(int argc, char **argv)
    return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _Amiga Anywhere)
+[Source File](../libraries/nonenglish/C%20%20_Amiga%20Anywhere)
 
 ##### C  _ANSI
 ```text
@@ -1171,7 +1171,7 @@ int main(void)
   return EXIT_SUCCESS;
 }
 ```
-[Source File](../libraries/nonenglish/C  _ANSI)
+[Source File](../libraries/nonenglish/C%20%20_ANSI)
 
 ##### C  _Curses
 ```text
@@ -1187,7 +1187,7 @@ main()
   return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _Curses)
+[Source File](../libraries/nonenglish/C%20%20_Curses)
 
 ##### C  _GEM
 ```text
@@ -1202,7 +1202,7 @@ main()
   return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _GEM)
+[Source File](../libraries/nonenglish/C%20%20_GEM)
 
 ##### C  _Intuition
 ```text
@@ -1223,7 +1223,7 @@ void main(void)
    CloseLibrary(IntuitionBase);
 }
 ```
-[Source File](../libraries/nonenglish/C  _Intuition)
+[Source File](../libraries/nonenglish/C%20%20_Intuition)
 
 ##### C  _K&R
 ```text
@@ -1235,7 +1235,7 @@ main()
   return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _K&R)
+[Source File](../libraries/nonenglish/C%20%20_K&R)
 
 ##### C  _OpenGL
 ```text
@@ -1285,7 +1285,7 @@ int main(int argc, char **argv)
  return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _OpenGL)
+[Source File](../libraries/nonenglish/C%20%20_OpenGL)
 
 ##### C  _PresentationManager
 ```text
@@ -1309,7 +1309,7 @@ int main( void )
    return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _PresentationManager)
+[Source File](../libraries/nonenglish/C%20%20_PresentationManager)
 
 ##### C  _Windows
 ```text
@@ -1324,7 +1324,7 @@ int PASCAL WinMain(HINSTANCE hInstance,
   return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _Windows)
+[Source File](../libraries/nonenglish/C%20%20_Windows)
 
 ##### C  _X11 Athena
 ```text
@@ -1350,7 +1350,7 @@ main(int argc,char **argv)
   return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C  _X11 Athena)
+[Source File](../libraries/nonenglish/C%20%20_X11%20Athena)
 
 ##### C++  _
 ```text
@@ -1363,7 +1363,7 @@ void main()
     Console::WriteLine("Hello World");
 }
 ```
-[Source File](../libraries/nonenglish/C++  _.NET CLI)
+[Source File](../libraries/nonenglish/C++%20%20_.NET%20CLI)
 
 ##### C++  _Epoc
 ```text
@@ -1459,7 +1459,7 @@ void CHelloWorldAppUi::ConstructL()
     informationNote->ExecuteLD(message);
     }
 ```
-[Source File](../libraries/nonenglish/C++  _Epoc)
+[Source File](../libraries/nonenglish/C++%20%20_Epoc)
 
 ##### C++  _FLTK
 ```text
@@ -1479,7 +1479,7 @@ int main(int argc, char **argv) {
    return Fl::run();
 }
 ```
-[Source File](../libraries/nonenglish/C++  _FLTK)
+[Source File](../libraries/nonenglish/C++%20%20_FLTK)
 
 ##### C++  _Gtk++
 ```text
@@ -1510,7 +1510,7 @@ int main (int argc, char *argv[])
 	return 0;
 }
 ```
-[Source File](../libraries/nonenglish/C++  _Gtk++)
+[Source File](../libraries/nonenglish/C++%20%20_Gtk++)
 
 ##### C++  _ISO
 ```text
@@ -1523,7 +1523,7 @@ int main()
     std::cout << "Hello World!" << std::endl;
 }
 ```
-[Source File](../libraries/nonenglish/C++  _ISO)
+[Source File](../libraries/nonenglish/C++%20%20_ISO)
 
 ##### C++  _MFC
 ```text
@@ -1557,7 +1557,7 @@ BOOL CHelloApp::InitInstance()
 
 CHelloApp theApp;
 ```
-[Source File](../libraries/nonenglish/C++  _MFC)
+[Source File](../libraries/nonenglish/C++%20%20_MFC)
 
 ##### C++  _Qt
 ```text
@@ -1578,7 +1578,7 @@ int main(int argc, char *argv[])
   return(a.exec());
 }
 ```
-[Source File](../libraries/nonenglish/C++  _Qt)
+[Source File](../libraries/nonenglish/C++%20%20_Qt)
 
 ##### CA-Easytrieve Plus
 ```text
@@ -1587,7 +1587,7 @@ int main(int argc, char *argv[])
 JOB
     DISPLAY 'HELLO, WORLD!'
 ```
-[Source File](../libraries/nonenglish/CA-Easytrieve Plus)
+[Source File](../libraries/nonenglish/CA-Easytrieve%20Plus)
 
 ##### Caché Object Script
 ```text
@@ -1596,14 +1596,14 @@ Start	;
     Write "Hello world"
     Quit
 ```
-[Source File](../libraries/nonenglish/Caché Object Script)
+[Source File](../libraries/nonenglish/Caché%20Object%20Script)
 
 ##### Casio BASIC
 ```text
 'Hello World in Casio-Basic. [new line symbol here (press EXE)]
 "Hello World!"
 ```
-[Source File](../libraries/nonenglish/Casio BASIC)
+[Source File](../libraries/nonenglish/Casio%20BASIC)
 
 ##### Cheß
 ```text
@@ -1617,7 +1617,7 @@ A2 to A4 // Location to location, only legal moves in the standard interval of w
 ויהי שלם ושמו מצחיק ויהי שבע ושישים:
 ויהי שניצל ושמו בצורת־ארץ־ישראל:
 ```
-[Source File](../libraries/nonenglish/Codesh  _קודש)
+[Source File](../libraries/nonenglish/Codesh%20%20_קודש)
 
 ##### Common Lisp
 ```text
@@ -1625,7 +1625,7 @@ A2 to A4 // Location to location, only legal moves in the standard interval of w
 
 (print "Hello World")
 ```
-[Source File](../libraries/nonenglish/Common Lisp)
+[Source File](../libraries/nonenglish/Common%20Lisp)
 
 ##### Console Postscript
 ```text
@@ -1640,7 +1640,7 @@ showpage
 
 %% End
 ```
-[Source File](../libraries/nonenglish/Console Postscript)
+[Source File](../libraries/nonenglish/Console%20Postscript)
 
 ##### Céu
 ```text
@@ -1718,7 +1718,7 @@ class HelloWorld
 ```text
 !print "Hello world!"
 ```
-[Source File](../libraries/nonenglish/Déjà Vu)
+[Source File](../libraries/nonenglish/Déjà%20Vu)
 
 ##### ELENA 3
 ```text
@@ -1729,7 +1729,7 @@ program =
     console writeLine:"Hello world!".
 ].
 ```
-[Source File](../libraries/nonenglish/ELENA 3.0)
+[Source File](../libraries/nonenglish/ELENA%203.0)
 
 ##### ELENA 4
 ```text
@@ -1740,7 +1740,7 @@ public program()
     console.writeLine("Hello world!")
 }
 ```
-[Source File](../libraries/nonenglish/ELENA 4.0)
+[Source File](../libraries/nonenglish/ELENA%204.0)
 
 ##### Enterprise™
 ```text
@@ -1801,14 +1801,14 @@ Text:Textfeld
 Fenster.zeichne(Text)
 Text.zeileHinzufügen("Hello, World!")
 ```
-[Source File](../libraries/nonenglish/EOS 2)
+[Source File](../libraries/nonenglish/EOS%202)
 
 ##### FISH WALKING 🚶
 ```text
 OMG FISH WITH LEGS 👣
 FISH DIE 💀
 ```
-[Source File](../libraries/nonenglish/FISH WALKING 🚶)
+[Source File](../libraries/nonenglish/FISH%20WALKING%20🚶)
 
 ##### Fjölnir
 ```text
@@ -1834,7 +1834,7 @@ FISH DIE 💀
 
 Write "Hello world".
 ```
-[Source File](../libraries/nonenglish/Flaming Thunder)
+[Source File](../libraries/nonenglish/Flaming%20Thunder)
 
 ##### Forþ
 ```text
@@ -1848,7 +1848,7 @@ Write "Hello world".
 
 print("Hello World");
 ```
-[Source File](../libraries/nonenglish/GameMonkey Script)
+[Source File](../libraries/nonenglish/GameMonkey%20Script)
 
 ##### Genero BDL
 ```text
@@ -1858,7 +1858,7 @@ main
    display "hello world"
 end main
 ```
-[Source File](../libraries/nonenglish/Genero BDL)
+[Source File](../libraries/nonenglish/Genero%20BDL)
 
 ##### Gödelang
 ```text
@@ -1935,7 +1935,7 @@ BEGIN
     SEND_MESSAGE("HELLO WORLD")
 END
 ```
-[Source File](../libraries/nonenglish/ICL SCL)
+[Source File](../libraries/nonenglish/ICL%20SCL)
 
 ##### Inflexión
 ```text
@@ -1954,7 +1954,7 @@ MAIN
 
 END MAIN
 ```
-[Source File](../libraries/nonenglish/Informix 4GL)
+[Source File](../libraries/nonenglish/Informix%204GL)
 
 ##### Ingres ABF
 ```text
@@ -1964,7 +1964,7 @@ begin
   message 'Hello, World' with style=popup;
 end
 ```
-[Source File](../libraries/nonenglish/Ingres ABF)
+[Source File](../libraries/nonenglish/Ingres%20ABF)
 
 ##### Java  _Mobile
 ```text
@@ -1991,7 +1991,7 @@ public class HelloWorld extends MIDlet {
     javax.microedition.midlet.MIDletStateChangeException {  }
 }
 ```
-[Source File](../libraries/nonenglish/Java  _Mobile)
+[Source File](../libraries/nonenglish/Java%20%20_Mobile)
 
 ##### Java  _Servlet
 ```text
@@ -2016,7 +2016,7 @@ out.println("</body></html>");
 }
 }
 ```
-[Source File](../libraries/nonenglish/Java  _Servlet)
+[Source File](../libraries/nonenglish/Java%20%20_Servlet)
 
 ##### Java  _Swing
 ```text
@@ -2028,7 +2028,7 @@ class HelloWorldSwing {
   }
 }
 ```
-[Source File](../libraries/nonenglish/Java  _Swing)
+[Source File](../libraries/nonenglish/Java%20%20_Swing)
 
 ##### Java Server Pages
 ```text
@@ -2037,13 +2037,13 @@ class HelloWorldSwing {
 <%@ page language='java' %>
 <%="Hello World!" %>
 ```
-[Source File](../libraries/nonenglish/Java Server Pages)
+[Source File](../libraries/nonenglish/Java%20Server%20Pages)
 
 ##### KaoLang  _👉ﾟヮﾟ👉
 ```text
 o(( >ω<))o 👈(⌒▽⌒)👉 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔)  👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔ 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) ✍️(◔◡◔) ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉
 ```
-[Source File](../libraries/nonenglish/KaoLang  _👉ﾟヮﾟ👉)
+[Source File](../libraries/nonenglish/KaoLang%20%20_👉ﾟヮﾟ👉)
 
 ##### La Weá
 ```text
@@ -2055,21 +2055,21 @@ ctm puta puta maraco maraco maraco maraco maraco maraco maraco ctm puta ctm aweo
 maraco maraco ctm chucha aweonao aweonao aweonao aweonao aweonao aweonao weón ctm chucha chucha weón
 ctm puta puta puta puta aweonao aweonao aweonao aweonao aweonao ctm
 ```
-[Source File](../libraries/nonenglish/La Weá)
+[Source File](../libraries/nonenglish/La%20Weá)
 
 ##### Laughing my ⁫ off
 ```text
 (ASS, U+206B):⁫ Switch to the next command
 ⁪​(ISS, U+206A): Run the command
 ```
-[Source File](../libraries/nonenglish/Laughing my ⁫ off)
+[Source File](../libraries/nonenglish/Laughing%20my%20⁫%20off)
 
 ##### LIMS Basic
 ```text
 'Hello World in LIMS Basic
 msgbox("hello world")
 ```
-[Source File](../libraries/nonenglish/LIMS Basic)
+[Source File](../libraries/nonenglish/LIMS%20Basic)
 
 ##### Logo  _graphical
 ```text
@@ -2125,14 +2125,14 @@ go 20 , left 90 ,
 go 40 , left 180,
 go 40 ,
 ```
-[Source File](../libraries/nonenglish/Logo  _graphical)
+[Source File](../libraries/nonenglish/Logo%20%20_graphical)
 
 ##### Lotus Note Formula
 ```text
 REM "Lotus Note Formula Language";
 @Prompt([ok];"Hi there";"Hello World");
 ```
-[Source File](../libraries/nonenglish/Lotus Note Formula)
+[Source File](../libraries/nonenglish/Lotus%20Note%20Formula)
 
 ##### Lotus Script
 ```text
@@ -2141,7 +2141,7 @@ Sub Initialize
         Msgbox "Hello world", 0, "Hi there!"
 End Sub
 ```
-[Source File](../libraries/nonenglish/Lotus Script)
+[Source File](../libraries/nonenglish/Lotus%20Script)
 
 ##### LZ∞
 ```text
@@ -2169,7 +2169,7 @@ end
 mdm.Dialogs.prompt("Hello World");
 mdm.Application.exit();
 ```
-[Source File](../libraries/nonenglish/MDM Zinc)
+[Source File](../libraries/nonenglish/MDM%20Zinc)
 
 ##### MPLAB IDE
 ```text
@@ -2214,7 +2214,7 @@ braSL
 DONE_MESSAGE
 nop
 ```
-[Source File](../libraries/nonenglish/MPLAB IDE)
+[Source File](../libraries/nonenglish/MPLAB%20IDE)
 
 ##### MS Small Basic
 ```text
@@ -2222,7 +2222,7 @@ nop
 
 TextWindow.WriteLine("Hello, World")
 ```
-[Source File](../libraries/nonenglish/MS Small Basic)
+[Source File](../libraries/nonenglish/MS%20Small%20Basic)
 
 ##### MySQL FUNCTION
 ```text
@@ -2238,7 +2238,7 @@ DELIMITER ;
  
 SELECT hello_world();
 ```
-[Source File](../libraries/nonenglish/MySQL FUNCTION)
+[Source File](../libraries/nonenglish/MySQL%20FUNCTION)
 
 ##### Mеmоrу
 ```text
@@ -2294,7 +2294,7 @@ BEGIN
   DoneWinCRT;
 END.
 ```
-[Source File](../libraries/nonenglish/Pascal  _Windows)
+[Source File](../libraries/nonenglish/Pascal%20%20_Windows)
 
 ##### Perl 6
 ```text
@@ -2302,7 +2302,7 @@ END.
 
 say 'Hello World!';
 ```
-[Source File](../libraries/nonenglish/Perl 6)
+[Source File](../libraries/nonenglish/Perl%206)
 
 ##### Pește mort
 ```text
@@ -2311,13 +2311,13 @@ sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssissssssssssss
 ssssssssssssssssssssspssissssssssicccissssssissssssssi
 sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssi
 ```
-[Source File](../libraries/nonenglish/Pește mort)
+[Source File](../libraries/nonenglish/Pește%20mort)
 
 ##### Pește mort+
 ```text
 cccpspccccccccdcccccccccccccccccccccccccccccdcccccccddcccdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdssssssssssssdssssssssssssssssssssspssdssssssssdcccdssssssdssssssssdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd
 ```
-[Source File](../libraries/nonenglish/Pește mort+)
+[Source File](../libraries/nonenglish/Pește%20mort+)
 
 ##### Plankalkül
 ```text
@@ -2339,7 +2339,7 @@ Type in and turn calculator upside down.
 
 0.7734
 ```
-[Source File](../libraries/nonenglish/Pocket Calculator)
+[Source File](../libraries/nonenglish/Pocket%20Calculator)
 
 ##### PokéBattle
 ```text
@@ -2481,7 +2481,7 @@ OpenConsole()
    PrintN ("Hello World!")
 CloseConsole()
 ```
-[Source File](../libraries/nonenglish/PureBasic  _Console)
+[Source File](../libraries/nonenglish/PureBasic%20%20_Console)
 
 ##### PureBasic  _Messagebox
 ```text
@@ -2489,7 +2489,7 @@ CloseConsole()
 
 MessageRequester("Hello World Messagebox","Hello World!")
 ```
-[Source File](../libraries/nonenglish/PureBasic  _Messagebox)
+[Source File](../libraries/nonenglish/PureBasic%20%20_Messagebox)
 
 ##### PureBasic  _Window
 ```text
@@ -2504,7 +2504,7 @@ EndIf
 Repeat    ; Message Loop
 Until WaitWindowEvent() = #PB_EventCloseWindow
 ```
-[Source File](../libraries/nonenglish/PureBasic  _Window)
+[Source File](../libraries/nonenglish/PureBasic%20%20_Window)
 
 ##### Python 2
 ```text
@@ -2512,7 +2512,7 @@ Until WaitWindowEvent() = #PB_EventCloseWindow
 
 print "Hello World"
 ```
-[Source File](../libraries/nonenglish/Python 2)
+[Source File](../libraries/nonenglish/Python%202)
 
 ##### Python 3
 ```text
@@ -2520,7 +2520,7 @@ print "Hello World"
 
 print("Hello World")
 ```
-[Source File](../libraries/nonenglish/Python 3)
+[Source File](../libraries/nonenglish/Python%203)
 
 ##### P′′
 ```text
@@ -2562,7 +2562,7 @@ Sub Main
     RoseApp.WriteErrorLog "Hello, World!"	
 End Sub
 ```
-[Source File](../libraries/nonenglish/Rational Rose)
+[Source File](../libraries/nonenglish/Rational%20Rose)
 
 ##### Regular Expression
 ```text
@@ -2573,7 +2573,7 @@ For use with vi, sed, etc.
 Search String :  ^.*$
 Replace String: 'Hello World'
 ```
-[Source File](../libraries/nonenglish/Regular Expression)
+[Source File](../libraries/nonenglish/Regular%20Expression)
 
 ##### Rexx  _simple
 ```text
@@ -2582,7 +2582,7 @@ Replace String: 'Hello World'
 say 'Hello World!'
 exit
 ```
-[Source File](../libraries/nonenglish/Rexx  _simple)
+[Source File](../libraries/nonenglish/Rexx%20%20_simple)
 
 ##### Rexx  _window
 ```text
@@ -2593,7 +2593,7 @@ call SysLoadFuncs
 call RxMessageBox 'Hello World!', 'Hello World Window', 'OK', 'EXCLAMATION'
 exit
 ```
-[Source File](../libraries/nonenglish/Rexx  _window)
+[Source File](../libraries/nonenglish/Rexx%20%20_window)
 
 ##### RPG IV v3-4
 ```text
@@ -2609,7 +2609,7 @@ C     msg           dsply                   wait
 
 C                   eval      *inlr = *on
 ```
-[Source File](../libraries/nonenglish/RPG IV v3-4)
+[Source File](../libraries/nonenglish/RPG%20IV%20v3-4)
 
 ##### RPG IV v5
 ```text
@@ -2622,7 +2622,7 @@ D wait           S              1
 
    *inlr = *on;
 ```
-[Source File](../libraries/nonenglish/RPG IV v5)
+[Source File](../libraries/nonenglish/RPG%20IV%20v5)
 
 ##### RPG IV v7
 ```text
@@ -2634,7 +2634,7 @@ dsply ( 'Hello World!') ' ' wait;
 
 *inlr = *on;
 ```
-[Source File](../libraries/nonenglish/RPG IV v7.1)
+[Source File](../libraries/nonenglish/RPG%20IV%20v7.1)
 
 ##### Rеlаng
 ```text
@@ -2664,7 +2664,7 @@ a{3} [][][] (aaa)?a\{3\}
 
 Transcript show: 'Hello World!'.
 ```
-[Source File](../libraries/nonenglish/Smalltalk  _simple)
+[Source File](../libraries/nonenglish/Smalltalk%20%20_simple)
 
 ##### Smalltalk  _window
 ```text
@@ -2689,7 +2689,7 @@ open
 	window component: self new.
 	window open.
 ```
-[Source File](../libraries/nonenglish/Smalltalk  _window)
+[Source File](../libraries/nonenglish/Smalltalk%20%20_window)
 
 ##### Smalltalk MT
 ```text
@@ -2699,19 +2699,19 @@ FrameWindow new
    title: 'Hello World';
    open
 ```
-[Source File](../libraries/nonenglish/Smalltalk MT)
+[Source File](../libraries/nonenglish/Smalltalk%20MT)
 
 ##### Smasnug 🕳️ABrainFIsHCHIHqFRSI9efuck+-~B2D
 ```text
 H #hello, world
 ```
-[Source File](../libraries/nonenglish/Smasnug 🕳️ABrainFIsHCHIHqFRSI9efuck+-~B2D)
+[Source File](../libraries/nonenglish/Smasnug%20🕳️ABrainFIsHCHIHqFRSI9efuck+-~B2D)
 
 ##### Splunk SPL
 ```text
 | makeresults `comment("Hello world in Splunk SPL")` | eval mystring="Hello, World!"
 ```
-[Source File](../libraries/nonenglish/Splunk SPL)
+[Source File](../libraries/nonenglish/Splunk%20SPL)
 
 ##### SQL  _Advantage
 ```text
@@ -2719,14 +2719,14 @@ H #hello, world
  
 select 'Hello World' from system.iota
 ```
-[Source File](../libraries/nonenglish/SQL  _Advantage)
+[Source File](../libraries/nonenglish/SQL%20%20_Advantage)
 
 ##### SQL  _DB2
 ```text
 -- Hello World in SQL for DB2
 VALUES('hello world')
 ```
-[Source File](../libraries/nonenglish/SQL  _DB2)
+[Source File](../libraries/nonenglish/SQL%20%20_DB2)
 
 ##### SQL  _Oracle
 ```text
@@ -2734,7 +2734,7 @@ VALUES('hello world')
 
 SELECT 'Hello World' FROM dual;
 ```
-[Source File](../libraries/nonenglish/SQL  _Oracle)
+[Source File](../libraries/nonenglish/SQL%20%20_Oracle)
 
 ##### Stæck
 ```text
@@ -2750,7 +2750,7 @@ SELECT 'Hello World' FROM dual;
 110 PRINT "HELLO WORLD"
 120 GOTO 120
 ```
-[Source File](../libraries/nonenglish/TI BASIC)
+[Source File](../libraries/nonenglish/TI%20BASIC)
 
 ##### TI Extended BASIC
 ```text
@@ -2758,7 +2758,7 @@ SELECT 'Hello World' FROM dual;
 20 REM for the TI99 series computer
 100 CALL CLEAR :: DISPLAY AT(10,5):"Hello World" :: ACCEPT AT(20,4):A$
 ```
-[Source File](../libraries/nonenglish/TI Extended BASIC)
+[Source File](../libraries/nonenglish/TI%20Extended%20BASIC)
 
 ##### Tjʊrɪŋ məʃin
 ```text
@@ -2787,7 +2787,7 @@ read(10)
 read(11)
 read(12)
 ```
-[Source File](../libraries/nonenglish/Tjʊrɪŋ məʃin)
+[Source File](../libraries/nonenglish/Tjʊrɪŋ%20məʃin)
 
 ##### Translated 中文
 ```text
@@ -2796,7 +2796,7 @@ nothing here
 nothing here
 nothing here-
 ```
-[Source File](../libraries/nonenglish/Translated 中文)
+[Source File](../libraries/nonenglish/Translated%20中文)
 
 ##### TSO CLIST
 ```text
@@ -2804,7 +2804,7 @@ PROC 0
 /* Hello World in TSO CLIST */
 write Hello World!
 ```
-[Source File](../libraries/nonenglish/TSO CLIST)
+[Source File](../libraries/nonenglish/TSO%20CLIST)
 
 ##### Turing Machine
 ```text
@@ -2825,7 +2825,7 @@ State   Read   |   Write     Step    Next state
 11      empty  |   d         >       12
 12      empty  |   !         >       STOP
 ```
-[Source File](../libraries/nonenglish/Turing Machine)
+[Source File](../libraries/nonenglish/Turing%20Machine)
 
 ##### Unix Shell
 ```text
@@ -2833,7 +2833,7 @@ State   Read   |   Write     Step    Next state
 
 echo Hello World
 ```
-[Source File](../libraries/nonenglish/Unix Shell)
+[Source File](../libraries/nonenglish/Unix%20Shell)
 
 ##### Uniсode
 ```text
@@ -2892,7 +2892,7 @@ message
         ret                             ; GTFOH
         .end    helloworld              ;
 ```
-[Source File](../libraries/nonenglish/VAX Macro)
+[Source File](../libraries/nonenglish/VAX%20Macro)
 
 ##### VAX-11 Macro
 ```text
@@ -2925,7 +2925,7 @@ error:  halt ; error condition
 
         .end start
 ```
-[Source File](../libraries/nonenglish/VAX-11 Macro)
+[Source File](../libraries/nonenglish/VAX-11%20Macro)
 
 ##### VBA  _Excel
 ```text
@@ -2935,7 +2935,7 @@ Private Sub Workbook_Open()
     MsgBox "Hello world!"
 End Sub
 ```
-[Source File](../libraries/nonenglish/VBA  _Excel)
+[Source File](../libraries/nonenglish/VBA%20%20_Excel)
 
 ##### VBA  _Word
 ```text
@@ -2945,7 +2945,7 @@ Private Sub Document_Open()
     MsgBox "Hello world!"
 End Sub
 ```
-[Source File](../libraries/nonenglish/VBA  _Word)
+[Source File](../libraries/nonenglish/VBA%20%20_Word)
 
 ##### Vim script
 ```text
@@ -2953,7 +2953,7 @@ End Sub
 
 :echom "Hello world!"
 ```
-[Source File](../libraries/nonenglish/Vim script)
+[Source File](../libraries/nonenglish/Vim%20script)
 
 ##### Visual Basic
 ```text
@@ -2984,7 +2984,7 @@ Begin Form Form1
 End
 Option Explicit
 ```
-[Source File](../libraries/nonenglish/Visual Basic)
+[Source File](../libraries/nonenglish/Visual%20Basic)
 
 ##### Visual Basic 
 ```text
@@ -3000,7 +3000,7 @@ Class HelloWorld
 
 End Class
 ```
-[Source File](../libraries/nonenglish/Visual Basic .NET)
+[Source File](../libraries/nonenglish/Visual%20Basic%20.NET)
 
 ##### Visual Basic 6
 ```text
@@ -3010,14 +3010,14 @@ Private Sub Form_Load()
 Print "Hello World"
 End Sub
 ```
-[Source File](../libraries/nonenglish/Visual Basic 6)
+[Source File](../libraries/nonenglish/Visual%20Basic%206)
 
 ##### Visual FoxPro
 ```text
 *Hello World in Microsoft Visual FoxPro 5-9
 ? "Hello World!"
 ```
-[Source File](../libraries/nonenglish/Visual FoxPro)
+[Source File](../libraries/nonenglish/Visual%20FoxPro)
 
 ##### Visual Prolog
 ```text
@@ -3027,7 +3027,7 @@ goal
     console::init(),
     stdio::write("Hello World!").
 ```
-[Source File](../libraries/nonenglish/Visual Prolog)
+[Source File](../libraries/nonenglish/Visual%20Prolog)
 
 ##### VisualWorks Smalltalk
 ```text
@@ -3035,7 +3035,7 @@ goal
 
 Dialog warn: 'Hello World!'.
 ```
-[Source File](../libraries/nonenglish/VisualWorks Smalltalk)
+[Source File](../libraries/nonenglish/VisualWorks%20Smalltalk)
 
 ##### Waïdyoudoudat
 ```text
@@ -3099,7 +3099,7 @@ int main(int argc, char*argv[]) {
 	return 0;
 }
 ```
-[Source File](../libraries/nonenglish/XOṘ Mạchịne)
+[Source File](../libraries/nonenglish/XOṘ%20Mạchịne)
 
 ##### µ6
 ```text
@@ -3111,7 +3111,7 @@ int main(int argc, char*argv[]) {
 ```text
 11II IIII
 ```
-[Source File](../libraries/nonenglish/¼ bytes :3)
+[Source File](../libraries/nonenglish/¼%20bytes%20:3)
 
 ##### Ć
 ```text
@@ -3167,7 +3167,7 @@ Hello world in قلب
 
 ‫(قول "مرحبا يا عالم!")
 ```
-[Source File](../libraries/nonenglish/قلب _2)
+[Source File](../libraries/nonenglish/قلب%20_2)
 
 ##### உயிர்-Uyir
 ```text
@@ -3189,7 +3189,7 @@ Hello world in قلب
 僧伽罗语书写采用源自古印度北部婆罗米文而形成的僧伽罗文。
 在僧伽罗语中，有一些字母很像《在我们之间》里面的角色，比如说 D（ඩ） 或者是 Ng（ඞ） 。
 ```
-[Source File](../libraries/nonenglish/ඞlang without Quine)
+[Source File](../libraries/nonenglish/ඞlang%20without%20Quine)
 
 ##### ඞlang without Quine with Quine
 ```text
@@ -3201,7 +3201,7 @@ Hello world in قلب
 僧伽罗语书写采用源自古印度北部婆罗米文而形成的僧伽罗文。
 在僧伽罗语中，有一些字母很像《在我们之间》里面的角色，比如说 D（ඩ） 或者是 Ng（ඞ） 。
 ```
-[Source File](../libraries/nonenglish/ඞlang without Quine with Quine)
+[Source File](../libraries/nonenglish/ඞlang%20without%20Quine%20with%20Quine)
 
 ##### ᚱᚢᚾᛅᛦ
 ```text
@@ -3227,7 +3227,7 @@ while true:
 ```text
 0x00
 ```
-[Source File](../libraries/nonenglish/⅜ bytes :lennyface:)
+[Source File](../libraries/nonenglish/⅜%20bytes%20:lennyface:)
 
 ##### ↓110010000100110110010
 ```text
@@ -3287,7 +3287,7 @@ N4IgLglmA2CmIC4QAlbWgewAQHUMCdoATEAGhCNgGcBjREM8COKgNVn3oBEBGAdh4AmAEaMqGAK74asZ
 ```text
 扒[='Hello, World!'=]喵~
 ```
-[Source File](../libraries/nonenglish/喵谕 Meaoiu)
+[Source File](../libraries/nonenglish/喵谕%20Meaoiu)
 
 ##### 文言
 ```text

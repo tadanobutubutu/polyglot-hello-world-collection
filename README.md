@@ -1,31 +1,16 @@
 # Polyglot Hello World Collection
 
-A curated museum of **6263** real Hello World programs (including **75** binary / image / sound / block-based sources).
-Every text entry includes source code and a link to its dedicated file; non-textual languages link to the actual program artifact.
-
-## Inclusion policy
-
-Entries are drawn from and cross-checked against:
-
-- [leachim6/hello-world](https://github.com/leachim6/hello-world) (vendored under `source_of_truth_leachim6/`)
-- [Try It Online](https://tio.run) catalog + hello tests (`tio_languages.json`)
-- [The Hello World Collection](http://helloworldcollection.de/)
-- [Esolangs wiki](https://esolangs.org/) Hello world program pages
-- [Rosetta Code — Hello world/Text](https://rosettacode.org/wiki/Hello_world/Text)
-- [Esolangs Category:Implemented](https://esolangs.org/wiki/Category:Implemented) page crawl for Hello/examples
-- Curated non-textual samples (Piet images, Velato MIDI, Scratch projects, etc.)
-
-**Keep:** documented languages with a real interpreter/compiler/spec and a genuine Hello World artifact.
+A curated museum of **6263** real Hello World programs (including **69** image / sound / block-based sourcesKeep:** documented languages with a real interpreter/compiler/spec and a genuine Hello World artifact.
 **Skip:** invented placeholders, pure duplicate names without distinct code, secret-scanner-hostile formats (e.g. Power Fx `.pfx`).
 
 Non-textual media:
 
-| Kind | Examples in tree |
-|------|------------------|
-| Images (Piet, …) | `libraries/p/P-2/Piet.gif`, PNG variants |
-| Sound / MIDI (Velato) | `libraries/v/V-1/Velato.mid` |
-| Block / binary projects | Scratch `.sb`/`.sb2`/`.sb3`, App Inventor `.aia` |
-| SVG as program text | `libraries/s/S-4/SVG.svg` |
+| Kind | Display in lists / README |
+|------|---------------------------|
+| Images (Piet, Brainloller, …) | Embedded preview `![…](…)` + Source File link |
+| Sound / MIDI (Velato, …) | Generated **score** + **piano roll** images, **WAV/MP3** audio, MIDI download |
+| Block / binary projects | Description + Source File (Scratch `.sb*`, App Inventor `.aia`) |
+| SVG as program | Embedded image |
 
 ---
 
@@ -406,16 +391,30 @@ SELECT 'Hello World';
 [Source File](libraries/s/S-3/SQL.sql)
 
 ##### Piet
-```text
-[binary gif — 7287 bytes]
-```
+
+![Piet Hello World](libraries/p/P-2/Piet.gif)
+
+*画像プログラミング言語（GIF / 7287 bytes）*
+
 [Source File](libraries/p/P-2/Piet.gif)
 
+
 ##### Velato
-```text
-[binary mid — 1170 bytes]
-```
+
+**譜面**
+
+![Velato score](libraries/v/V-1/Velato.score.png)
+
+**ピアノロール**
+
+![Velato piano roll](libraries/v/V-1/Velato.pianoroll.png)
+
+**音源:** [MP3](libraries/v/V-1/Velato.mp3) · [WAV](libraries/v/V-1/Velato.wav) · [MIDI](libraries/v/V-1/Velato.mid) · [LilyPond](libraries/v/V-1/Velato.ly)
+
+<audio controls preload="none" src="libraries/v/V-1/Velato.mp3">MP3 リンクを利用してください。</audio>
+
 [Source File](libraries/v/V-1/Velato.mid)
+
 
 ##### Brainfuck
 ```brainfuck

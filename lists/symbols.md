@@ -14,13 +14,13 @@
 ```text
  ^dlroW ,olleH(@)
 ```
-[Source File](../libraries/symbols/!@#$%^&* __+)
+[Source File](../libraries/symbols/!@#$%^&*%20__+)
 
 ##### !@$%^&* _+
 ```text
  ^dlroW ,olleH(@)
 ```
-[Source File](../libraries/symbols/!@$%^&* _+)
+[Source File](../libraries/symbols/!@$%^&*%20_+)
 
 ##### !@sharp$pct^andstar_+
 ```text
@@ -238,7 +238,7 @@ run()
 ```text
 "Hello, World!"
 ```
-[Source File](../libraries/symbols/Symbols-1/05AB1E _legacy.05ab1e)
+[Source File](../libraries/symbols/Symbols-1/05AB1E%20_legacy.05ab1e)
 
 ##### 0815
 ```text
@@ -281,7 +281,7 @@ H111*,e111*,l111*,l111*,o111*, 111*,W111*,o111*,r111*,l111*,d111*,!111*,
 ```text
 东东东东东东东东东东崛巨东巨东东东巨东东东东东东东巨东东东东东东东东东东龙龙龙龙方起巨巨巨东东正巨东正东东东东东东东正正东东东正龙龙东东正巨东东东东东东东东东东东东东东东正巨正东东东正方方方方方方正方方方方方方方方正龙龙东正龙正
 ```
-[Source File](../libraries/symbols/10 1)
+[Source File](../libraries/symbols/10%201)
 
 ##### 1066
 ```text
@@ -379,7 +379,7 @@ x=y1+y2+...+ym
 ```text
 Message("Hello World");
 ```
-[Source File](../libraries/symbols/Symbols-1/1C Enterprise)
+[Source File](../libraries/symbols/Symbols-1/1C%20Enterprise)
 
 ##### 1L_a
 ```text
@@ -809,7 +809,7 @@ While (True)
   MESSAGE ("Hello World")
 End while
 ```
-[Source File](../libraries/symbols/Symbols-1/4th Dimension.4dd)
+[Source File](../libraries/symbols/Symbols-1/4th%20Dimension.4dd)
 
 ##### 5
 ```text
@@ -917,7 +917,7 @@ cll out
 ```text
 MOV C*::Hello World
 ```
-[Source File](../libraries/symbols/Symbols-1/6969 Assembler)
+[Source File](../libraries/symbols/Symbols-1/6969%20Assembler)
 
 ##### 7-8
 ```text
