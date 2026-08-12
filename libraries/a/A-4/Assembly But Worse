@@ -1,0 +1,8 @@
+#define HELLO "Hello, World!"
+goto main
+
+main:
+  echo HELLO
+  quit
+
+; Output: "Hello, World!"

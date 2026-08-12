@@ -1,0 +1,11 @@
+push "!dlrow"
+push 32 
+push "olleh"
+start:
+len
+if 1 end
+pop 
+printc
+goto start
+end:
+die

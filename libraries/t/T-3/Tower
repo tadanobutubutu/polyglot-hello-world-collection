@@ -1,0 +1,14 @@
+# Calculates and says the sum of two entered numbers
+
+    ask num
+^   ask num
++
+say
+
+
+# Concatenates and says two messages
+
+    ask
+^   ask
+@
+say

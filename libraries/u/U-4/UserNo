@@ -1,0 +1,4 @@
+User:No - Increment Accumulator in positive (because i am positive)
+User:Yes - Decrement Accumulator (because negative)
+User:Zero - Print Accumulator as number (because number)
+Any Other - Print as ascii

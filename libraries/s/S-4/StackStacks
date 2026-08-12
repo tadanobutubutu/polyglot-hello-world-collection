@@ -1,0 +1,4 @@
+main
+{
+   'Hello World!\n' outa //'"Hello World!\n" outs' is also viable
+}

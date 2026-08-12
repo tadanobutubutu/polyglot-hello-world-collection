@@ -1,0 +1,61 @@
+import sys
+c=sys.stdin.read().strip()
+s=[]
+delset=set()
+useloops=0
+for i,j in enumerate(c):
+    if j=='[':
+        s.append(i)
+    elif j==']':
+        if not s:
+            continue
+        useloops=1
+        delset.add(s.pop())
+        delset.add(i)
+if useloops:
+    print('Loops in BF make your program unpredictable, please remove the loops and be predictable. -> ',end='')
+    newc=''
+    for i,j in enumerate(c):
+        if i not in delset:
+            newc+=j
+    c=newc
+    print(newc)
+newc=''
+usered=0
+for i in c:
+    if i not in '+-><,.[]':
+        usered=1
+    else:
+        newc+=i
+if usered:
+    print('I see redundant characters in your program, delete them and be optimized. -> ',end='')
+    c=newc
+    print(newc)
+if '+' in c:
+    print("Only idiots use +!!! -> ",end='')
+    c=c.replace('+','')
+    print(c)
+if '-' in c:
+    print("Using - on a zeroed cell causes different behaviors on different interpreters, so please remove all the -'s. -> ",end='')
+    c=c.replace('-','')
+    print(c)
+if ',' in c:
+    print("Using , will let the user decide the value of current cell. Your program is yours, not the user's, so please don't use input and have whole control on your program. -> ",end='')
+    c=c.replace(',','')
+    print(c)
+if '.' in c:
+    print("Using . is a sign of debugging, which in fact proves that you're stupid, so please don't use output. -> ",end='')
+    c=c.replace('.','')
+    print(c)
+if '<' in c:
+    print("< sometimes causes undefined behavior on many interpreters, so please don't use it. -> ",end='')
+    c=c.replace('<','')
+    print(c)
+if '>' in c:
+    print("Without <, > is unnecessary. -> ",end='')
+    c=c.replace('>','')
+    print(c)
+if c:
+    print('Unmatched bracket.')
+else:
+    print('Are you crazy?! Why did you give me an empty program???')

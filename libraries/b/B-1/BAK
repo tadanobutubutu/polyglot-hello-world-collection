@@ -1,0 +1,13 @@
+$  here   push current location to the stack
+:  jump   a -> jump to a
+<  min    a, b -> min(a,b)
+>  max    a, b -> max(a,b)
+;  arith  a, b, c -> a + c - b  
++  input  a, b -> if at EOF, jump to b, else *a = getchar()
+-  out    a -> putchar(*a)
+@  find   a, b, c -> first location of *a between b and c
+=  copy   a, b -> *a := *b
+*  dup
+/  swap 
+\  rot
+!  drop

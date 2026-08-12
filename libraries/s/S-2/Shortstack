@@ -1,0 +1,19 @@
+i=open("f","r").read()
+s=[]
+l={}
+for a,x in enumerate(i):
+	if x=="[":s.append(a)
+	if x=="]":b=s.pop(0);l[b]=a;l[a]=b
+t=[0]
+p=0
+a=0
+while a!=len(i):
+	x=i[a]
+	if x in"<>":
+		p+=ord(x)-61
+		if p==len(t):t.append(0)
+	if x==",":t[p]=1-t[p]
+	if x=="["and not t[p]:a=l[a]
+	if x=="]"and t[p]:a=l[a]
+	print(t)
+	a+=1

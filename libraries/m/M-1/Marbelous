@@ -1,0 +1,48 @@
+# prints out "Hello, world!"
+48 65 6C 6C 6F 2C 20 77 6F 72 6C 64 21
+
+# {0 = }0 + }1
+}0 .. }1
+\\ {0 //
+
+# {0 = }0 * }1
+# masks out bits of }1
+# shifts copies of }0 left that many times
+# sums shifted copies
+.. }1 }1 }1 }1 }1 }1 }1 }1
+00 ^7 ^6 ^5 ^4 ^3 ^2 ^1 ^0
+.. =1 =1 =1 =1 =1 =1 =1 =1
+.. &7 &6 &5 &4 &3 &2 &1 &0
+.. }0 .. .. .. .. .. .. ..
+.. &7 }0 .. .. .. .. .. ..
+.. << &6 }0 .. .. .. .. ..
+.. << << &5 }0 .. .. .. ..
+.. << << << &4 }0 .. .. ..
+.. << << << << &3 }0 .. ..
+.. << << << << << &2 }0 ..
+.. << << << << << << &1 }0
+.. << << << << << << << &0
+{0 // // // // // // // //
+
+# calculates the nth fibonacci number, recursively.
+:Fb
+}0 }0 }0 .. # three copies of }0, call them A B C
+-- &0 >1 {0 # decrement A, hold B for sync, return C if it's <2
+&0 -- >4 -- # hold A for sync, decrement B, divert and decrement C if it's <5
+-- Fb &0 {0 # decrement A, recurse with B, release sync or return C-1
+Fb .. \/ .. # recurse with A, do nothing with B, trash C
+\\ {0 .. .. # add A to B and return it
+# pseudocode equivalent:
+# fib(x):
+#   A=B=C=x
+#   A--
+#   if C<2:
+#     return C
+#   B--
+#   if C<5:
+#     C--
+#     return C
+#   A--
+#   B=fib(B)
+#   A=fib(A)
+#   return A+B

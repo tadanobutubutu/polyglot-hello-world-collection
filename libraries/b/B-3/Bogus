@@ -1,0 +1,7 @@
+; ( n -- gcd(n,R) )
+f(Rd~!(yRd~)oos-?(s)oo-!(oo-!(d>-<oo-)soo-)y)
+
+; Repeating 30 times was sufficient in my 150000000 tests on 32-bit random numbers.
+; 50 times should be an overkill, but adding even more will increase accuracy.
+
+1(ffffffffffffffffffffffffffffffffffffffffffffffffff)

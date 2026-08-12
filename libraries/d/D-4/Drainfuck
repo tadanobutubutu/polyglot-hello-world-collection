@@ -1,0 +1,8 @@
++ Increment the cell.
+- Decrement the cell.
+> Move the pointer right.
+< Move the pointer left.
+. Output the character.
+, Input a character.
+[ Jump to associated ] if zero.
+] Jump to associated [ if not zero.

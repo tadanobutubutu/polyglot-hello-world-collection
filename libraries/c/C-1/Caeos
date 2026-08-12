@@ -1,0 +1,3 @@
+{{Hello, world!}}
+Anything not between brackets is ignored, so this is a comment.
+This program may or may not result in the output being hello world.

@@ -1,0 +1,3 @@
+module hello::world {
+    public fun greeting(): vector<u8> { b"Hello World" }
+}

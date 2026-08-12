@@ -1,0 +1,14 @@
+# waitforme interpreter  
+import time  
+
+for c in input():  
+    if c == "1": time.sleep(1)  
+    elif c == "2": time.sleep(2)  
+    elif c == "3": time.sleep(3)  
+    elif c == "4": time.sleep(4)  
+    elif c == "5": time.sleep(5)  
+    elif c == "6": time.sleep(6)  
+    elif c == "7": time.sleep(7)  
+    elif c == "8": time.sleep(8)  
+    elif c == "9": time.sleep(9)  
+    elif c == "0": time.sleep(0)

@@ -1,0 +1,10 @@
+% Arithmetic Sequence 1 +2 +3 +4
+start
+ mvto b;
+ mvto a;
+ while 4 do begin
+  incr;
+  mvto b;
+  add a;
+ end
+finish

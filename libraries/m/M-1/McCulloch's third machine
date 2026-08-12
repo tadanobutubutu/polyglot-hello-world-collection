@@ -1,0 +1,10 @@
+sub m3 { 
+    if ($_[0]=~/\A([456]*)2([1-9]+)2\z/) { 
+        my$t=$2; for my$p(reverse split//,$1) { 
+        $t = 6 eq$p ? 2 .$t : 4 eq$p ? reverse$t : 5 eq$p ? $t x2 : die;
+        }
+        return $t;
+    } else {
+        return undef; 
+    } 
+}

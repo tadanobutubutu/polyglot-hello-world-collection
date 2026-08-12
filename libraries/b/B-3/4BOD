@@ -1,0 +1,18 @@
+   0000 -           Do nothing.
+   0001 arg1 -      Sets the accumulator to the value stored at the address arg1. 
+   0010 arg1 -      Writes the accumulator to the address arg1. 
+   0011 arg1 -      Sets the accumulator to arg1. 
+   0100 -           Sets the accumulator to the states of the arrow keys in the order D|U|R|L.
+   0101 -           Increments the accumulator, overflowing if it goes above 15. 
+   0110 -           Clears the screen. (setting all VRAM to 0)
+   0111 -           Shifts the accumulator left.
+   1000 -           Shifts the accumulator right.  
+   1001 arg1 arg2 - Sets the accumulator to the state of the pixel at the X and Y coordinates of the values at addresses arg1 and arg2,
+                    respectively.  
+   1010 arg1 arg2 - Flips the state of the pixel at the X and Y coordinates of the values at addresses arg1 and arg2, respectively.   
+   1011 arg1 -      Creates a flag named arg1. 
+   1100 arg1 -      Jumps to the flag named after the value stored at the address arg1. (If 2 flags have the same ID the one later in the code
+                    is the one jumped to)
+   1101 arg1 -      Only perform next instruction if the value at address arg1 is equal to the accumulator.
+   1110 arg1 -      Only perform next instruction if the value at address arg1 is greater than the accumulator.
+   1111 arg1 -      Only perform next instruction if the value at address arg1 is less than the accumulator.

@@ -1,0 +1,5 @@
+1x 1 0 (1 and 0 is NANDed, the resulting 1 is placed in the beginning)
+1x 1 1 0 (1 NAND 1, 0 added in the beginning)
+0 1 1 1 0x (the last character is removed, thus the 0 removes itself)
+0x 1 1 1 (the last character, 1, is removed)
+0 1x 1 (1 NAND 0, 1 is added in the beginning -- and so forth...)

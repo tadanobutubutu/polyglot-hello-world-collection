@@ -1,0 +1,5 @@
+I?^>        // If there is a void, go up, otherwise go right
+D?()W~      // If there is bottom line, do nothing, otherwise toggle the white circle
+L?(<B)(Bv)  // If there is left line, go left and toggle black circle, otherwise toggle black circle and go down
+W?U?>v<     // If there is not a white circle, go left, otherwise if there is top line, go right, otherwise go down
+X?,()       // No effects

@@ -1,0 +1,19 @@
+! comment_test.txt --- a test for the new single-line comment syntax in EXDotSF.
+
+! This is a comment.
+!You can also comment like this too!
+!! And also like this!!!!!!!
+
+#cH#ce#cl#cl#co#c #cw#co#cr#cl#cd#c!0     ! Pushes the string "Hello world!\0" onto the stack. 
+A       ! Define our label 'A' here.
+  ~     ! Move the next character from the bottom of the stack to the top of the stack.
+  _     ! Make a copy of the current character for comparison against 0. (because the '[' operator pops off the top of the stack)
+  [     ! Goes into here if the character is not zero. if the char IS zero then this block is skipped.
+    ;   ! Print the character to stdout as ASCII.
+    a   ! Rewinds execution back to A because there's more characters.
+  ]     ! block terminator.
+
+#n10\   ! push an ASCII linefeed character to the top of the stack.
+;       ! print the linefeed to stdout.
+
+! And we are done here! The program will now terminate.

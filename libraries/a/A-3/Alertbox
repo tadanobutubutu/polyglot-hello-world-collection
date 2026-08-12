@@ -1,0 +1,5 @@
+function alertbox(x){
+    for(let i of x){
+         if(i=="a"){alert("Hello, World!")}
+    }
+}

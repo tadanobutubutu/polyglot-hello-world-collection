@@ -1,0 +1,6 @@
+A = mem[IP+0]
+B = mem[IP+1]
+C = mem[IP+2]
+IP += 3
+if mem[A] <= mem[B]: IP = C
+mem[A] -= mem[B]

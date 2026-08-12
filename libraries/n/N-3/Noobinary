@@ -1,0 +1,27 @@
+NOOBINARY: BINARY FOR NOOBS
+
+noobinary specifications:
+
+1 is instruction symbol.
+0 is also an instruction symbol.
+The only whitespace is newline.
+
+commands(command - description)
+
+1 - push 1 on to the stack
+11 - pops the top two stack values and adds them
+111 - pops the top two stack values and subtracts them
+1111 - pops the top two stack values and multiplies them
+11111 - pops the top two stack values and divides them
+111111 - copies the top stack value
+1111111 - pops top stack value and outputs an integer
+11111111 - pops top stack value and outputs a UTF-32 character
+111111111 - accept input
+1111111111 - terminate program
+
+0 - nop for distinguishing between different 1 commands
+00 - loop tag
+000 - if top stack value = 0, then continue.  If not, then go back to previous loop tag or beginning of the program, whichever comes later in the code
+0000 - if top stack value != 0, then continue.  If not, then go back to previous loop tag or beginning of the program, whichever comes later in the code
+00000 - like 000, but takes the stack value and goes that many tags backward.
+000000 - pops the top value off of the stack

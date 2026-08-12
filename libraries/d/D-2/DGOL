@@ -1,0 +1,31 @@
+module = { use-declaration | newline }, { subroutine-definition | newline }, ( program-definition | library-definition ), { newline } ;
+
+use-declaration = "USE", identifier, newline ;
+
+subroutine-definition = "SUBROUTINE", identifier, "(", [ identifier, { ",", identifier } ], ")", newline, statements, "END", identifier, newline ;
+
+program-definition = "PROGRAM", identifier, newline, statements, "END", identifier, newline ;
+
+library-definition = "LIBRARY", identifier, { subroutine-declaration | newline }, "END", identifier, newline ;
+
+subroutine-declaration = "SUBROUTINE", identifier, newline ;
+
+statements = { [ statement ], newline } ;
+
+statement = let-statement | if-statement | do-statement | call-statement | return-statement | exit-statement ;
+
+identifier-or-0 = identifier | "0" ;
+
+let-statement = "LET", identifier, ( "=", identifier-or-0 | "<", identifier | ">", identifier-or-0 ) ;
+
+if-statement = if-head, { "ELSE", if-head }, [ "ELSE", newline, statements ], "END", "IF" ;
+
+if-head = "IF", identifier, ( "=" | ">" ), identifier, newline, statements ;
+
+do-statement = "DO", identifier, [ "<", identifier ], newline, statements, "END", "DO" ;
+
+call-statement = "CALL", identifier, [ ".", identifier ], "(", [ identifier-or-0, { ",", identifier-or-0 } ], ")" ;
+
+return-statement = "RETURN" ;
+
+exit-statement = "EXIT", identifier ;

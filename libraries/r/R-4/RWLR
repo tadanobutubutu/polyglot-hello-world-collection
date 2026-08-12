@@ -1,0 +1,35 @@
+def Go (n =[1,5,0,16,4,0,18,1,12,2,1,2,3,1,-19,0,-15,-4,5,40,0,-16,6,-5,0,0],r = 0, w = 0, outp = True):
+    mvd = False
+    k = 0
+    while True:
+        temp = n
+        lr = r
+        lw = w
+        if outp: print k,' -> R: ',r,' ; W: ',w,' ; Tape: ',n
+        
+        if n[r]==0:
+            r += n[r+1]
+            mvd = True
+        elif n[r]==1: w += n[r+1]
+        elif n[r]==2:
+            n[w] += 1
+            r -= 1
+        elif n[r]==3:
+            n[w] -= 1
+            r -= 1
+        elif n[r]==4:
+            if n[r+1]>0:
+                r += 3
+            else:
+                r += n[r+2]
+            mvd = True
+        elif n[r]==5: n[w] = n[r+1]
+        elif n[r]==6: print n[r+n[r+1]]
+         
+        if mvd==False: r += 2
+        else: mvd = False
+        k += 1
+         
+        if ((temp==n) and (lr==r) and (lw==w)) or (r>=len(n)):
+            print 'Machine Halted'
+            break

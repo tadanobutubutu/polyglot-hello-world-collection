@@ -1,0 +1,19 @@
+try:
+    f = open("code.hq")
+    code = f.read()
+    f.close()
+except FileNotFoundError:
+    print("Error: file 'code.hq' does not exist")
+    exit(1)
+
+acc = 0
+
+for c in code:
+    if c == "H":
+        print("hi god")
+    elif c == "q":
+        print(ord(code[0]))
+    elif c == "(":
+        print("No bottles of beer on the wall.")
+    elif c == "-":
+        acc += 0

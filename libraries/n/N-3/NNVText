@@ -1,0 +1,6 @@
+import sys
+code=sys.stdin.read()
+if not code:
+    raise ValueError("Program invalid")
+else:
+    print(code)

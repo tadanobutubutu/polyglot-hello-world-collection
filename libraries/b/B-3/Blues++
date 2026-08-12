@@ -1,0 +1,50 @@
+movq %rax, $1
+movq %rbx, $2
+movq %rcx, $8
+addq %rcx, $2
+multq %rcx, $4
+multq %rcx, $2
+syscall  
+movq %rax, $1
+movq %rdi, $3
+negq %rdi
+// 8
+addq %rax, %rdi
+syscall
+addq %rcx, $7
+movq %rax, $1
+syscall
+movq %rax, $1
+syscall
+addq %rcx, $3
+movq %rax, $1
+syscall
+movq %rax, $1
+movq %rcx, $8
+multq %rcx, $4
+syscall
+movq %rax, $1
+multq %rcx, $3
+addq %rcx, $10
+addq %rcx, $10
+addq %rcx, $3
+syscall
+movq %rax, $1
+multq %multq, $3
+addq %rcx, %rdi
+addq %rcx, $1
+movq %rax, $1
+addq %rcx, $3
+syscall
+movq %rax, $1
+addq %rcx, %rdi
+addq %rcx, %rdi
+syscall
+movq %rax, $1
+addq %rcx, %rdi
+addq %rcx, $2
+syscall
+movq %rax, $10
+multq %rax, $6
+movq %rbx, $0
+syscall

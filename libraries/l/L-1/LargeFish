@@ -1,0 +1,7 @@
+i x - increment x
+d x - decrement x
+s x - square x
+o - output x
+e x y - set x to y
+loop x - loop x times
+endloop - end loop

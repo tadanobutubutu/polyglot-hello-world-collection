@@ -1,0 +1,2 @@
+cpyjmp len, offset | (copy the instructions at the address ip-len..ip (exclusive)
+to the end of the program, then jump to ip + offset + 1)

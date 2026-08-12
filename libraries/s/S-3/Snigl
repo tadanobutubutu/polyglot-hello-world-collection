@@ -1,0 +1,6 @@
+   func: fib-rec (0) _
+   func: fib-rec (1) _
+   func: fib-rec (Int) (-- dup fib-rec swap -- fib-rec +)
+   20 fib-rec
+   
+ [6765]

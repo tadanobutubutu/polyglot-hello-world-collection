@@ -1,0 +1,4 @@
+&    Replace the jump point whose ID is in the current cell with the current jump point, and
+     change the current cell to 0 if we come from & or the argument if we come from %.
+
+%    Jump to the point whose ID is in the current cell, using the next cell as an argument.

@@ -1,0 +1,7 @@
+! f t c -> jump (t if c else f)
+" x -> -x
+# ... n2 n1 n0 2 1 -> ... n1 n2 n0
+# ... n2 n1 n0 1 -1 -> ... n2 n0
+$ x y -> x+y
+% x -> x x
+anything else (apart from whitespace) append to tape (% 127) - 38

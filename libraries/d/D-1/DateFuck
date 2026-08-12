@@ -1,0 +1,22 @@
+DateFuck is a programming language designed for writing text-based dating sims.
+It is not useful for much else.
+
+Syntax:
+
+There is one internal variable, initially set to one. Each non-indented line
+is a line of dialogue/info. Labels are numbers representing the state necessary
+to go to that piece of dialogue, followed immediately by a colon. It is in
+hexadecimal. Indented lines are options, preceeded with labels which are xor'd
+with the internal state variable if that option is chosen. The list of options
+terminates at the next non-indented label.
+
+Example:
+
+1:What do you want to say?
+        2:Hello World!
+        5:Hello Sailor!
+        1:Exit
+3:Hello World!
+        3:Exit
+4:Hello Sailor!
+        4:Exit

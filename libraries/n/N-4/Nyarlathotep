@@ -1,0 +1,10 @@
+  Set B to the data in memory at C.
+  'Decrypt' B.
+  Set A to CRC32 ( CRC32(L) + B * 39 + C ) mod 64.
+  Set L to B.
+  Interpret A as an instruction.
+  C is set to (C + 1) % 6436343.
+  R0 is set to (R0 + 1) % 6436343.
+  Rotate R0 one duodecatrit to the left. (2J8FM (795454) => J8FM2 (5422758))
+  R1 is set to (R0 + R1) % 6436343.
+  Repeat until program hits a stop instruction.

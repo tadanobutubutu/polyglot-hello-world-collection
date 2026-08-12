@@ -1,0 +1,4 @@
+STROUT Hello,d
+STOP
+Hello: .ASCII "Hello World\x00"
+.END

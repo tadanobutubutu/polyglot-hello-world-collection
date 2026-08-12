@@ -1,0 +1,6 @@
+ADD <VALUE> ,<TARGET>     Adds a value to the cell numbered as...
+SUB <VALUE> ,<TARGET>     Subtracts a value from the cell numbered as...
+MOV <VALUE>, <TARGET>     Moves the object to the target.
+CMP <CELL NUMBER>,<NNUMBER>Compares the cell with a number.
+JE  <TAG>                 Jumps to the tag if CMP is equal.
+JNE <TAG>                 Jumps to the tag if CMP is unequal.

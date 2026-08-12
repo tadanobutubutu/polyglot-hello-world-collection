@@ -1,0 +1,9 @@
+fifo str."Hello World!\n"
+
+loop {
+  if ?str > 0 {
+    print char ~str
+  }else {
+    break
+  }
+}

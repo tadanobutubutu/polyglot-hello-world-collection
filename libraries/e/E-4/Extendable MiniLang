@@ -1,0 +1,44 @@
+# 初始化
+INC a
+INC a
+INC a  # a = 3 (Multiplier)
+INC b
+INC b  # b = 2 (Multiplicand)
+
+# 乘法循环
+outer_loop:
+JNZ b transfer  # If b ≠ 0 then transfer a to temp
+JMP end
+
+transfer:
+DEC b
+JNZ a copy      # Assign temp with a
+JMP outer_loop
+
+copy:
+DEC a
+INC temp
+INC a_copy
+JMP copy        # Copy again
+
+restore:
+JNZ a_copy restore_a  # Restore a
+JMP add_temp
+
+restore_a:
+DEC a_copy
+INC a
+JMP restore
+
+add_temp:
+JNZ temp add_to_c     # Add temp into c
+JMP outer_loop
+
+add_to_c:
+DEC temp
+INC c
+JMP add_temp
+
+end:
+PRINT c  # Output 6
+HALT

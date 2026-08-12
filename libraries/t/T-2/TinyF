@@ -1,0 +1,53 @@
+#include <iostream>
+#include <vector>
+
+class TinyFInterpreter {
+private:
+    std::vector<int> tape;
+    int ptr;
+
+public:
+    TinyFInterpreter() : tape(30000, 0), ptr(0) {}
+
+    void interpret(const std::string& code) {
+        for (size_t i = 0; i < code.size(); ++i) {
+            switch (code[i]) {
+                case '>':
+                    ++ptr;
+                    break;
+                case '<':
+                    --ptr;
+                    break;
+                case '+':
+                    ++tape[ptr];
+                    break;
+                case '-':
+                    --tape[ptr];
+                    break;
+                case '.':
+                    std::cout << static_cast<char>(tape[ptr]);
+                    break;
+                case ',':
+                    tape[ptr] = std::cin.get();
+                    break;
+                case '*':
+                    tape[ptr] *= tape[ptr + 1];
+                    break;
+                case '!':
+                    if (tape[ptr] == 0 && i + 1 < code.size()) {
+                        ++i; // Skip the next command
+                    }
+                    break;
+            }
+        }
+    }
+};
+
+int main() {
+    TinyFInterpreter interpreter;
+    std::string code;
+    std::cout << "Enter TinyF code: ";
+    std::getline(std::cin, code);
+    interpreter.interpret(code);
+    return 0;
+}

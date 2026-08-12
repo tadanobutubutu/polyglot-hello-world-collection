@@ -1,0 +1,4 @@
+@ Simple Hello World program
+var = "Hello World"
+PRINT var
+END

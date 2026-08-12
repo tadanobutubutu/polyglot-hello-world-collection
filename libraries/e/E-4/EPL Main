@@ -1,0 +1,10 @@
+extern printf ExitProcess
+
+sect data
+string hello "Hello, world!"
+
+sect text
+gfunc main
+printf hello
+ExitProcess 0
+return

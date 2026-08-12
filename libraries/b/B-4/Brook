@@ -1,0 +1,10 @@
+n^      pushes n to the queue
+v       pops a number from the queue and discards it
+U       pops a number from the queue and pushes it twice
+@       pops a number from the queue and pushes it once
++       pops two numbers from the queue and pushes their sum
+-       pops two numbers from the queue and pushes their absolute difference
+i       pushes the ASCII (or Unicode, or whatever) value of the next character from input into the queue
+o       pops a number from the queue and prints the character with it as its character code
+c       pops a number from the queue and adds the character with it as its character code to the current continuity's subcontinuity
+I, O, and C work like their lower case equivalent but use numbers rather than characters

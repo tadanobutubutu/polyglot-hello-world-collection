@@ -1,0 +1,4 @@
+b - move pointer to right and flip bit
+i - move pointer to left
+n - goto a if current bit is 0
+a - goto n if current bit is not 0

@@ -1,0 +1,76 @@
+# (0123456789!?)
+
+import requests
+import re
+
+stuffamt = 50
+stuff = [0 for i in range(stuffamt)]
+cursor = 0
+
+skipln = False
+
+def run(fname="numberesolang/input.txt"):
+  global cursor, stuff, stuffamt, skipln
+  with open(fname, "r") as file:
+    lines = file.readlines()
+    for i in lines:
+      if skipln:
+        skipln = False
+        continue
+      for j in i.strip():
+        if j == "0":
+          cursor = 0
+        if j == "1":
+          if cursor >= stuffamt-1:
+            print(f"CursorError: cursor value {cursor} exceeds maximum {stuffamt}")
+            break
+          cursor += 1
+        if j == "2":
+          if cursor <= 0:
+            print(f"CursorError: cursor value {cursor} is less than 0")
+            break
+          cursor -= 1
+        if j == "3":
+          stuff[cursor] += 1
+        if j == "4":
+          stuff[cursor] += 10
+        if j == "5":
+          stuff[cursor] -= 1
+        if j == "6":
+          print(stuff[cursor])
+        if j == "7":
+          astr = ""
+          for k in stuff:
+            if k != 0:
+              astr += chr(k)
+          print(astr)
+        if j == "8":
+          for k in stuff:
+            if k != 0:
+              print(k)
+        if j == "9":
+          inp = input(" > ")
+          if re.search(r"[^0-9]", inp):
+            for k in inp:
+              stuff[cursor] = ord(k)
+              cursor += 1
+          else:
+            stuff[cursor] = int(inp)
+        if j == "(":
+          stuff = [0 for i in range(stuffamt)]
+        if j == ")":
+          astr = ""
+          for k in stuff:
+            if k != 0:
+              astr += chr(int(k))
+          res = requests.get(astr)
+          stuff[cursor] = res.text
+        if j == "!":
+          stuff[cursor] = ord(str(stuff[cursor]))
+        if j == "?":
+          if stuff[cursor] <= 0:
+            skipln = True
+        if j == ".":
+          stuff[cursor] = 0
+
+run()

@@ -1,0 +1,18 @@
+inc a
+inc a
+inc a
+inc a
+inc a
+
+:l2
+push l1
+outs Hello
+push l1
+outs World
+push l1
+outnl
+dec a
+if a > z goto l2
+
+:l1
+!selfprint

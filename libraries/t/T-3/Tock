@@ -1,0 +1,7 @@
+halt 10 {
+  halt - 1
+}
+
+out 0 {
+  out + 1
+}

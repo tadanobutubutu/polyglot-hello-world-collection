@@ -1,0 +1,4 @@
+import sys
+for i in input():
+    if i==',':sys.stdin.read(1)
+    if i==']':raise Exception('Unmatch [')

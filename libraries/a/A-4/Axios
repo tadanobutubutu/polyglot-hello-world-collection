@@ -1,0 +1,18 @@
+Every twenty-one two operators output a character. Since the current cell alternates between zero and one, the current state
+moves in a back-and-forth pattern, generally traveling upwards until the termination state. The character(s) each line prints
+are noted on the left.
+
+       00001
+  !    22222222222222201   00001       222201   200001
+d & !  2222222222222201    200001      2201     2200001    22
+l & d  2222222222222201    200001      201      2200001    22
+r & l  2222222222222201    2200001     2201     22200001   2
+o & r  2222222222222201    200001      201      2200001
+w & o  2222222222222201    222200001   201      22200001
+  & w  22222222222222201   22200001    22222
+, &    22222222222222201   200001      201      200001     22
+o & ,  2222222222222201    2200001     201      2200001
+l & o  2222222222222201    222200001   201      2200001    22
+l & l  2222222222222201    2200001     201      2200001    22
+e & l  2222222222222201    2200001     2201     2200001    201     200001
+H & e  2222222222222201    200001      2201     200001     22201   20000

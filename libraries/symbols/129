@@ -1,0 +1,13 @@
+(()(()())()) Version Stack
+((( Pushes a stack that contains:
+ (()((()()))) Input
+ (((()()))()) Output
+ ((())(()())) Duplicate
+ ((((()))())(())) Run
+)( And push the same stack again.
+ (()((()()))) Input
+ (((()()))()) Output
+ ((())(()())) Duplicate
+ ((((()))())(())) Run
+)))
+((((()))())(())) And run the program.

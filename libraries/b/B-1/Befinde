@@ -1,0 +1,5 @@
+    [<]    get to next zero cell
+   *[<]&   set current cell to 0
+   *[&>*]  point to zero and increase indirection with 1
+   [*>&<]  increment all cells until we find the pointer (the pointer must be positive)
+   [*<&>]  increment all cells until we find the pointer (the pointer must be negative)

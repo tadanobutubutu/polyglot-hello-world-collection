@@ -1,0 +1,1 @@
+<MTSetVar name="hello" value="Hello World"><$MTGetVar name="hello"$>

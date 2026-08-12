@@ -1,0 +1,12 @@
+ // Basic OOP
+ class Foo {
+   fn new() {
+     return Foo {};
+   }
+   fn greet(self) {
+     print("Hello world!");
+   }
+ }
+ // Note the differences between dispatch types
+ let instance = Foo.new();
+ instance->greet();

@@ -1,0 +1,44 @@
+   v = 0
+   varvals = []
+   varnames = []
+   code = open("code.dpasm","r").readlines()
+   linenum = 0
+   printer = ""
+   userinput = ""
+   for line in code:
+       linenum += 1
+       #print(line)
+       #print(v)
+       line = line.strip("\n")
+       commands = line.split(" ")
+       if commands[0] == "SET":
+           if not len(commands) > 3:
+               if not commands[2] in varnames:
+                   varnames.append(commands[2])
+                   varvals.append(0)
+               varvals[varnames.index(commands[2])] = int(commands[1])
+           else:
+               print("SYNTAX ERROR: Unexpected argument on line",str(linenum))
+       elif commands[0] == "OUT":
+           if not len(commands) > 2:
+               printer += chr(varvals[varnames.index(commands[1])])
+           else:
+               print("SYNTAX ERROR: Unexpected argument on line",str(linenum))
+       elif commands[0] == "IN":
+           if not len(commands) > 1:
+               userinput = input()
+           else:
+               print("SYNTAX ERROR: Unexpected argument on line",str(linenum))
+       elif commands[0] == "GET":
+           if not len(commands) > 3:
+               if not commands[1] in varnames:
+                   varnames.append(commands[1])
+                   varvals.append(0)
+               varvals[varnames.index(commands[1])] = ord(userinput[int(commands[2])])
+           else:
+               print("SYNTAX ERROR: Unexpected argument on line",str(linenum))
+       elif commands[0] == "--":
+           pass
+       else:
+           print(f"ERROR: Unknown command {commands[0]!r} on line {str(linenum)}")
+   print(printer)

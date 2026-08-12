@@ -1,0 +1,2 @@
+(cond ~a True ~b) -> (unw ~a)
+(cond ~a False ~b) -> (unw ~b)

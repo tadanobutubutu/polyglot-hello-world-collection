@@ -1,0 +1,19 @@
+Program: 00111
+Initial Data-string: 101
+System evolution:
+Commands    Data-
+Executed    String
+--------    -------
+    0       101
+    0       10
+   11       1
+   10       11
+    0       110
+   11       11
+   10       111
+    0       1110
+   11       111
+   10       1111
+    0       11110
+   11       1111
+  ...

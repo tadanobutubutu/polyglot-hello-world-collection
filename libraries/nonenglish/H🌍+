@@ -1,0 +1,15 @@
+h - Prints out "Hello!".
+w - Prints out "World!".
+hw - Prints out "Hello, world!".
+hh - Prints out "Hello, hello!".
+wh - Prints out "World, hello!".
+ww - Prints out "World, world!".
+hww - Prints out "Hello, world, world!".
+hwh - Prints out "Hello, world, hello!".
+hhw - Prints out "Hello, hello, world!".
+hhh - Prints out "Hello, hello, hello!".
+whh - Prints out "World, hello, hello!".
+whw - Prints out "World, hello, world!".
+wwh - Prints out "Word, word, hello!".
+www - Prints out "World, world, world!".
+hwww - Prints out "Hello, world, world, world!".

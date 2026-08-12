@@ -1,0 +1,25 @@
+/ PRIME NUMBERS /
+JAO 2
+PEB [X] 3
+:LY [X] VEA 100
+    PEB [A] [X]
+    PLE [X] 2
+    PEB [H] [X]
+    PEB [X] [A]
+    PEB [Y] 2
+    :LY [Y] VEA [H]
+        PEB [A] [X]
+        ROV [X] [Y]
+        PEB [B] [X]
+        PEB [X] [A]
+        .IK [B] AOS 0
+            PEB [Y] [H]
+        ,
+        GUN [Y] 1
+    ;
+    .IK [Y] AOS [H]
+        JAO [X]
+    ,
+    GUN [X] 2
+;
+DAK

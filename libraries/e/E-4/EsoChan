@@ -1,0 +1,3 @@
+> if ascii 104
+> print linebreak
+> print string hello

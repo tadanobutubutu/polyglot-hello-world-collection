@@ -1,0 +1,12 @@
+i = id
+k = const
+(#) = flip
+infixr 9 #
+infixr 9 !
+f g = g (f g)
+(!) a b c = a c (b c)
+t a b c = if a then b else c
+
+main=getLine>>=(putStrLn.unwords.map show.f(((take.fromIntegral)#).
+  ((map.(((#).((!)(t.(>0)).(((!).((#)((.).((sum.).filter.((>0).).
+  (mod#)))))#i)))#1))#[0..]))).(read::String->Integer)

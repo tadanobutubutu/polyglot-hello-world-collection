@@ -1,0 +1,2 @@
+ego = new Object with behavior FollowLaneBehavior
+# Hello World scenario note

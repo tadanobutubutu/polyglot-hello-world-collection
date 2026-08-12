@@ -1,0 +1,24 @@
+inc  1 72
+inc  2 69
+inc  3 76
+inc  4 76
+inc  5 79
+inc  6 44
+inc  7 32
+inc  8 87
+inc  9 79
+inc 10 82
+inc 11 76
+inc 12 68
+inc 13 33
+
+inc 14 1
+inc 15 12
+
+lbl print
+out *14
+inc  14  1
+dec  15  1 end
+dec  15 15 print
+
+lbl end

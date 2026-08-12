@@ -1,0 +1,18 @@
+let cpuData = 0
+let cpuBits = 4
+let cpuIndex = 0
+let cpuStore = false
+let cpuAccum = 0
+
+function spin() {
+    cpuData = cpuData << 1 | (cpuData >> (cpuBits - 1))
+}
+
+function gate() {
+    if (cpuStore) {
+        cpuData = (cpuData & -2) | !(cpuAccum & (cpuData & 1))
+    } else {
+        cpuAccum = cpuData & 1
+    }
+    cpuStore = !cpuStore
+}

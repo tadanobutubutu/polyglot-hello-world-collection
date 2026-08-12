@@ -1,0 +1,28 @@
+0055000000500000055055550555005000500000005505050055555500005050P ^[ Prints "0 or 5?" ]~
+i
+(
+    ^[ If input is 0, then execute ]~
+    ^[ Puts "Hello!" into the output buffer ]~
+    05005000    ^[ H  ]~
+    05500505    ^[ e  ]~
+    05505500    ^[ l  ]~
+    05505500    ^[ l  ]~
+    05505555    ^[ o  ]~
+    00500005    ^[ !  ]~
+    00005050    ^[ \n ]~
+)
+
+^[ If this cell is untainted, the program will taint the neighboring cell ]~
+(
+    5++65--     ^[ Increment 8, Taint cell, Decrement 8 ]~
+)
+5++             ^[ Increment 8 ]~
+(
+    ^[ If input is 5, then execute ]~
+    05000050    ^[ B  ]~
+    05555005    ^[ y  ]~
+    05500505    ^[ e  ]~
+    00500005    ^[ !  ]~
+    00005050    ^[ \n ]~
+)
+Px              ^[ Print contents of output buffer and Ends program]~

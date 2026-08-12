@@ -1,0 +1,1 @@
+computehash=lambda x:sum((ord(j)*pow(256,i,7))%7 for i,j in enumerate(x))%7

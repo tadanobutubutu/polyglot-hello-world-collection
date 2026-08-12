@@ -1,0 +1,9 @@
+1 inc A 2
+2 inc A 4
+3 dec A 4 5
+4 inc B 3
+5 inc A 6
+6 inc A 7
+7 dec A 8 9
+8 dec B 7 7
+9 inc C 9

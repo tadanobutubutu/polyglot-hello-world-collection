@@ -1,0 +1,7 @@
+when program loads
+hello is "Hello, world!"
+end
+
+when program draws
+write hello
+end

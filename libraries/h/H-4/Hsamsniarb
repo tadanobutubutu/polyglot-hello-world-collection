@@ -1,0 +1,26 @@
+Option Explicit On
+Option Strict On
+Module Module1
+    Dim val As Integer = 0
+    Sub Main()
+        Dim code As String = ""
+        Try : code = My.Computer.FileSystem.ReadAllText(Command().Trim(""""c))
+        Catch : End Try
+        For Each C As Char In code
+            Interpret(C)
+        Next
+        While True
+            Console.Write(">> ") : Interpret(Console.ReadKey.KeyChar)
+        End While
+    End Sub
+    Sub Interpret(ByVal C As Char)
+        Select Case C
+            Case "+"c : val += 1 : Console.WriteLine()
+            Case "-"c : val -= 1 : Console.WriteLine()
+            Case "w"c : Console.WriteLine() : Console.WriteLine(val.ToString())
+            Case "s"c : val = CInt(val ^ 2) : Console.WriteLine()
+        End Select
+        If (val < 0) Or (val > 256) Then val = 0
+    End Sub
+
+End Module

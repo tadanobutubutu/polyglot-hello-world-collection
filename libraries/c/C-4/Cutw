@@ -1,0 +1,8 @@
+j - Move pointer right.
+i - Move pointer left.
+w - Puts input at cell at pointer.
+t - Outputs cell at pointer as ASCII.
+u - Branflake's [.
+c - Branflake's ].
+n - Increments cell at pointer.
+m - Decrements cell at pointer.

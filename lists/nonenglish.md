@@ -1,12 +1,36 @@
 # nonenglish
 
-152 entries.
+202 entries.
 
-##### !@#$%^&∗ __+
+##### !lyricly☭demote☭establish☭communism!
 ```text
-dlroW olleH(@)
+☭
 ```
-[Source File](../libraries/nonenglish/!@#$%^&∗ __+)
+[Source File](../libraries/nonenglish/!lyricly☭demote☭establish☭communism!)
+
+##### -gɹəʊguː-
+```text
+<{![}+!,;{<!]?
+```
+[Source File](../libraries/nonenglish/-gɹəʊguː-)
+
+##### -ˈæmbiːɛf-
+```text
+ 0  0 ±1  0 ±1  0 ±1 ±1  0 ±1  0 ±1  0 ±1  0  0  0
+```
+[Source File](../libraries/nonenglish/-ˈæmbiːɛf-)
+
+##### 1⅞ bytes :3
+```text
+Ebiil⿽Tloia
+```
+[Source File](../libraries/nonenglish/1⅞ bytes :3)
+
+##### :iI1l!¡
+```text
+ilII.Il..i.IIIII::1:II:III1.I|...i|..||iiil|.1::::|iii|IIIIII|::I|....i|
+```
+[Source File](../libraries/nonenglish/:iI1l!¡)
 
 ##### ACPI Source Language
 ```text
@@ -94,6 +118,19 @@ addChild(t);
 }
 ```
 [Source File](../libraries/nonenglish/Amazon States Language)
+
+##### AMiaBF’!?
+```text
+?aA?aB
+```
+[Source File](../libraries/nonenglish/AMiaBF’!?)
+
+##### Ascii²
+```text
+H`e`l`l`o`,` `W`o`r`l`d`!`
+`
+```
+[Source File](../libraries/nonenglish/Ascii²)
 
 ##### ASP  _C♯
 ```text
@@ -1098,6 +1135,12 @@ end
 ```
 [Source File](../libraries/nonenglish/BMC Remedy)
 
+##### Brain-Flāk
+```text
+阳四阴四阴阴
+```
+[Source File](../libraries/nonenglish/Brain-Flāk)
+
 ##### C  _Amiga Anywhere
 ```text
 /* Hello World in C for Amiga Anywhere 2 (AA2) */
@@ -1562,6 +1605,20 @@ Start	;
 ```
 [Source File](../libraries/nonenglish/Casio BASIC)
 
+##### Cheß
+```text
+A2 to A4 // Location to location, only legal moves in the standard interval of white to black, beginning with white.
+```
+[Source File](../libraries/nonenglish/Cheß)
+
+##### Codesh  _קודש
+```text
+ויהי מעשה ושמו שחרר־את־עמי ...
+ויהי שלם ושמו מצחיק ויהי שבע ושישים:
+ויהי שניצל ושמו בצורת־ארץ־ישראל:
+```
+[Source File](../libraries/nonenglish/Codesh  _קודש)
+
 ##### Common Lisp
 ```text
 ;;; Hello world in Common Lisp
@@ -1584,6 +1641,37 @@ showpage
 %% End
 ```
 [Source File](../libraries/nonenglish/Console Postscript)
+
+##### Cíonom
+```text
+copy*[+]=c 3
+printc* 1
+alloc 1
+free* 1
+
+main 0
+:
+    alloc 14
+
+    copy*[+]=c 0 0 72
+    copy*[+]=c 0 1 101
+    copy*[+]=c 0 2 108
+    copy*[+]=c 0 3 108
+    copy*[+]=c 0 4 111
+    copy*[+]=c 0 5 44
+    copy*[+]=c 0 6 32
+    copy*[+]=c 0 7 119
+    copy*[+]=c 0 8 111
+    copy*[+]=c 0 9 114
+    copy*[+]=c 0 10 108
+    copy*[+]=c 0 11 100
+    copy*[+]=c 0 12 33
+
+    printc* 0
+    free* 0
+:
+```
+[Source File](../libraries/nonenglish/Cíonom)
 
 ##### Cω
 ```csharp
@@ -1643,6 +1731,55 @@ public program()
 ```
 [Source File](../libraries/nonenglish/ELENA 4.0)
 
+##### Enterprise™
+```text
+ /©
+   This code is property of Enterprise™.
+ ©/
+ 
+ import disruptive library com.disruptive.IO.write.delegator.dlIOWriteDelegator;;;
+ 
+ /NDA
+   This document is regulated by NDA 758-1.
+ NDA/
+ 
+ final disruptive class fdcFizzBuzzDelegator {
+   final immutable void main () {
+     var Money x = 0;;;
+     var String out = "";;;
+ 
+     while (x < 1k) {
+       if(x % 5 == 0 && x % 3 == 0) {
+         write("Fizz Buzz");;;
+       } else {
+         if(x % 3 == 0) {
+           write("Fizz");;;
+         } else {
+           if(x % 5 == 0) {
+             write("Buzz");;;
+           } else {
+             write(x);;;
+           }
+         }
+       }
+ 
+       mutate x++;;;
+     }
+   }
+ 
+   final unnecessary Money appleValuation () {
+     /?
+       This code is so useful.
+     ?/
+ 
+     unnecessary var Money applVltn = 2T;;;
+ 
+     return applVltn;
+   }
+ }
+```
+[Source File](../libraries/nonenglish/Enterprise™)
+
 ##### EOS 2
 ```text
 // Hello world in EOS 2
@@ -1654,6 +1791,13 @@ Fenster.zeichne(Text)
 Text.zeileHinzufügen("Hello, World!")
 ```
 [Source File](../libraries/nonenglish/EOS 2)
+
+##### FISH WALKING 🚶
+```text
+OMG FISH WITH LEGS 👣
+FISH DIE 💀
+```
+[Source File](../libraries/nonenglish/FISH WALKING 🚶)
 
 ##### Fjölnir
 ```text
@@ -1681,6 +1825,12 @@ Write "Hello world".
 ```
 [Source File](../libraries/nonenglish/Flaming Thunder)
 
+##### Forþ
+```text
+0F2*3+F6*A+F7*3+F7*9+F7*6+F7*E+F2*2+F2*E+F7*6+F7*3+F7*3+F6*B+F4*C+[.]
+```
+[Source File](../libraries/nonenglish/Forþ)
+
 ##### GameMonkey Script
 ```text
 // Hello World in GameMonkey Script
@@ -1699,6 +1849,66 @@ end main
 ```
 [Source File](../libraries/nonenglish/Genero BDL)
 
+##### Gödelang
+```text
+59250896327476337572570276385712371250000000000
+```
+[Source File](../libraries/nonenglish/Gödelang)
+
+##### Gödelfish
+```text
+Hello World!
+```
+[Source File](../libraries/nonenglish/Gödelfish)
+
+##### HeacunQ9+×
+```text
+AC-1CNNEAE
+```
+[Source File](../libraries/nonenglish/HeacunQ9+×)
+
+##### Hárdfish
+```text
+code=input()
+x=0
+while code:
+    c=code[0]
+    code=code[1:]
+    if c=='i':
+        x+=1
+    if c=='o':
+        print(x)
+    if c=='r':
+        code+=code
+    if c=='c':
+        x=(3*x+1 if x%2 else x>>1)
+    if c=='q':
+        x=(2*x+1 if x%3 else x//3)
+    if x in (-1,256):
+        x=0
+```
+[Source File](../libraries/nonenglish/Hárdfish)
+
+##### H🌍+
+```text
+h - Prints out "Hello!".
+w - Prints out "World!".
+hw - Prints out "Hello, world!".
+hh - Prints out "Hello, hello!".
+wh - Prints out "World, hello!".
+ww - Prints out "World, world!".
+hww - Prints out "Hello, world, world!".
+hwh - Prints out "Hello, world, hello!".
+hhw - Prints out "Hello, hello, world!".
+hhh - Prints out "Hello, hello, hello!".
+whh - Prints out "World, hello, hello!".
+whw - Prints out "World, hello, world!".
+wwh - Prints out "Word, word, hello!".
+www - Prints out "World, world, world!".
+hwww - Prints out "Hello, world, world, world!".
+```
+[Source File](../libraries/nonenglish/H🌍+)
+
 ##### ICL SCL
 ```text
 @ HELLO WORLD IN ICL SCL
@@ -1707,6 +1917,13 @@ BEGIN
 END
 ```
 [Source File](../libraries/nonenglish/ICL SCL)
+
+##### Inflexión
+```text
+El saludo es "Hola, mundo".
+Decilo.
+```
+[Source File](../libraries/nonenglish/Inflexión)
 
 ##### Informix 4GL
 ```text
@@ -1803,6 +2020,31 @@ class HelloWorldSwing {
 ```
 [Source File](../libraries/nonenglish/Java Server Pages)
 
+##### KaoLang  _👉ﾟヮﾟ👉
+```text
+o(( >ω<))o 👈(⌒▽⌒)👉 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔)  👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔ 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) ✍️(◔◡◔) ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉
+```
+[Source File](../libraries/nonenglish/KaoLang  _👉ﾟヮﾟ👉)
+
+##### La Weá
+```text
+aweonao aweonao aweonao aweonao aweonao pichula puta aweonao aweonao puta aweonao aweonao aweonao
+weón puta aweonao aweonao aweonao aweonao aweonao puta aweonao aweonao aweonao aweonao aweonao weón
+chucha chucha chucha chucha maricón tula puta puta aweonao ctm puta weón ctm puta maraco ctm ctm
+aweonao weón ctm chucha chucha chucha aweonao aweonao ctm maraco maraco maraco maraco maraco maraco
+ctm puta puta maraco maraco maraco maraco maraco maraco maraco ctm puta ctm aweonao weón ctm maraco
+maraco maraco ctm chucha aweonao aweonao aweonao aweonao aweonao aweonao weón ctm chucha chucha weón
+ctm puta puta puta puta aweonao aweonao aweonao aweonao aweonao ctm
+```
+[Source File](../libraries/nonenglish/La Weá)
+
+##### Laughing my ⁫ off
+```text
+(ASS, U+206B):⁫ Switch to the next command
+⁪​(ISS, U+206A): Run the command
+```
+[Source File](../libraries/nonenglish/Laughing my ⁫ off)
+
 ##### LIMS Basic
 ```text
 'Hello World in LIMS Basic
@@ -1881,6 +2123,15 @@ Sub Initialize
 End Sub
 ```
 [Source File](../libraries/nonenglish/Lotus Script)
+
+##### LZ∞
+```text
+ copy idx, len | (copy the instructions from 
+               ip - idx..ip - idx + len (exclusive) 
+               to the end of the program, and goto 
+               next instruction (ip + 1))
+```
+[Source File](../libraries/nonenglish/LZ∞)
 
 ##### LÖVE
 ```text
@@ -1970,6 +2221,44 @@ SELECT hello_world();
 ```
 [Source File](../libraries/nonenglish/MySQL FUNCTION)
 
+##### Mеmоrу
+```text
+0. Do nothing
+72. Do nothing
+101. Do nothing
+108. Do nothing
+108. Do nothing
+111. Do nothing
+44. Do nothing
+32. Do nothing
+87. Do nothing
+111. Do nothing
+114. Do nothing
+108. Do nothing
+100. Do nothing
+33. Do nothing
+```
+[Source File](../libraries/nonenglish/Mеmоrу)
+
+##### NH₃
+```text
+Hello World!
+```
+[Source File](../libraries/nonenglish/NH₃)
+
+##### Ogú
+```text
+   main () =
+       println! "hello world"
+```
+[Source File](../libraries/nonenglish/Ogú)
+
+##### Olvasható
+```text
+deftype
+```
+[Source File](../libraries/nonenglish/Olvasható)
+
 ##### Pascal  _Windows
 ```text
 { Hello World in Borland Pascal 7 for MS-Windows}
@@ -1996,6 +2285,21 @@ say 'Hello World!';
 ```
 [Source File](../libraries/nonenglish/Perl 6)
 
+##### Pește mort
+```text
+cccpspcccccccciccccccccccccccccccccccccccccciccccccciiccci
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssissssssssssssi
+ssssssssssssssssssssspssissssssssicccissssssissssssssi
+sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssi
+```
+[Source File](../libraries/nonenglish/Pește mort)
+
+##### Pește mort+
+```text
+cccpspccccccccdcccccccccccccccccccccccccccccdcccccccddcccdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssdssssssssssssdssssssssssssssssssssspssdssssssssdcccdssssssdssssssssdsssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssd
+```
+[Source File](../libraries/nonenglish/Pește mort+)
+
 ##### Plankalkül
 ```text
 R1.1(V0[:sig]) => R0
@@ -2017,6 +2321,137 @@ Type in and turn calculator upside down.
 0.7734
 ```
 [Source File](../libraries/nonenglish/Pocket Calculator)
+
+##### PokéBattle
+```text
+Trainer 1: XsnEpW
+ D4FsrWgQ
+ fi8EO3ku
+ w83FLQif
+ QmA1hQ2c
+ nSOw73FE
+ Z39FOEar
+Trainer 2: ThrMsQ
+ sVRuwk2j
+ SNJ18Fkd
+ hE8wodiQ
+ xdi8aho2
+ jlie3jFW
+ QudFLei3 
+‌
+Battle Start!
+Turn 0:
+ XsnEpW: QmA1hQ2c Go!
+ ThrMsQ: QudFLei3 Go!
+
+Turn 1:
+ QmA1hQ2c uses Absorb!
+ QudFLei3 uses Absorb!
+
+Turn 2:
+ QmA1hQ2c uses Absorb!
+ QudFLei3 uses Absorb!
+
+Turn 3:
+ XsnEpW: That's enough! Go Z39FOEar!
+ QudFLei3 uses Splash!
+
+Turn 4:
+ Z39FOEar uses Absorb!
+ ThrMsQ: That's enough! Go SNJ18Fkd!
+
+Turn 5:
+ XsnEpW: That's enough! Go QmA1hQ2c!
+ SNJ18Fkd uses Absorb!
+
+Turn 6:
+ QmA1hQ2c uses Splash!
+ ThrMsQ: That's enough! Go QudFLei3!
+
+Turn 7:
+ QmA1hQ2c uses Absorb!
+ QudFLei3 uses Absorb!
+
+Turn 8:
+ XsnEpW uses Max Potion!
+ QudFLei3 uses Tackle! It's not very effective.
+
+Turn 9:
+ QmA1hQ2c uses Flamethrower!
+ QudFLei3 uses Splash!
+
+Turn 10:
+ QmA1hQ2c uses Swords Dance!
+ QudFLei3 uses Swords Dance!
+
+Turn 11:
+ QmA1hQ2c uses Tackle! It's not very effective.
+ ThrMsQ uses Max Potion!
+
+Turn 12:
+ QmA1hQ2c uses Skill Swap!
+ QudFLei3 uses Swords Dance!
+
+Turn 13:
+ QmA1hQ2c uses Swords Dance!
+ QudFLei3 uses Tackle! It's not very effective.
+
+Turn 14:
+ XsnEpW uses Hyper Potion!
+ ThrMsQ: That's enough! Go SNJ18Fkd!
+
+Turn 15:
+ QmA1hQ2c uses Swords Dance!
+ ThrMsQ uses Super Potion!
+
+Turn 16:
+ XsnEpW: That's enough! Go Z39FOEar!
+ SNJ18Fkd uses Tackle! It's not very effective.
+
+Turn 17:
+ Z39FOEar uses Swords Dance!
+ SNJ18Fkd uses Swords Dance!
+
+Turn 18:
+ XsnEpW: That's enough! Go QmA1hQ2c!
+ ThrMsQ uses Potion!
+
+Turn 19:
+ XsnEpW uses Max Potion!
+ ThrMsQ: That's enough! Go QudFLei3!
+
+Turn 20:
+ QmA1hQ2c uses Swords Dance!
+ QudFLei3 uses Flamethrower! It's super effective!
+
+Turn 21:
+ QmA1hQ2c uses Swords Dance!
+ QudFLei3 uses Tackle! It's not very effective.
+
+Turn 22:
+ XsnEpW uses Hyper Potion!
+ QudFLei3 uses Splash!
+
+Turn 23:
+ QmA1hQ2c uses Swords Dance!
+ QudFLei3 uses Swords Dance!
+
+Turn 24:
+ QmA1hQ2c uses Flamethrower! It's super effective!
+ QudFLei3 uses Swords Dance!
+
+Turn 25:
+ XsnEpW: That's enough! Go nSOw73FE!
+ ThrMsQ: That's enough! Go SNJ18Fkd!
+
+Turn 26:
+ nSOw73FE uses Splash!
+ SNJ18Fkd uses Swords Dance!
+
+Battle End!
+Winner: XsnEpW
+```
+[Source File](../libraries/nonenglish/PokéBattle)
 
 ##### PureBasic  _Console
 ```text
@@ -2067,6 +2502,39 @@ print "Hello World"
 print("Hello World")
 ```
 [Source File](../libraries/nonenglish/Python 3)
+
+##### P′′
+```text
+{-# LANGUAGE TypeOperators #-}
+
+module P'' where
+
+import Control.Category ((>>>))
+import Control.Lens hiding (Tape)
+import Control.Monad
+
+data Term = R | L | Seq Term Term | Loop Term
+type Tape = Top :>> [Int] :>> Int
+
+-- Run a P'' term over a tape, in an alphabet of size n.
+-- Returns Nothing if the program moves off the tape. Note
+-- that directions are flipped; the left-infinite tape is
+-- implemented as a right-infinite list zipper.
+runTerm :: Int -> Term -> Tape -> Maybe Tape
+runTerm n R         = leftward
+runTerm n L         = focus %~ (\x -> succ x `mod` n) >>> rightward
+runTerm n (Seq p q) = runTerm n p >=> runTerm n q
+runTerm n (Loop p)  = \tape ->
+    case tape ^. focus of
+        0 -> Just tape
+        _ -> runTerm n p >=> runTerm n (Loop p) $ tape
+
+-- Run a P'' program over an empty tape.
+runP'' :: Int -> Term -> Maybe Tape
+runP'' n p = runTerm n p blankTape
+    where blankTape = zipper (repeat 0) & fromWithin traverse
+```
+[Source File](../libraries/nonenglish/P′′)
 
 ##### Rational Rose
 ```text
@@ -2149,6 +2617,28 @@ dsply ( 'Hello World!') ' ' wait;
 ```
 [Source File](../libraries/nonenglish/RPG IV v7.1)
 
+##### Rеlаng
+```text
+a{3} [][][] (aaa)?a\{3\}
+```
+[Source File](../libraries/nonenglish/Rеlаng)
+
+##### Semiconkéfalos
+```text
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;
+```
+[Source File](../libraries/nonenglish/Semiconkéfalos)
+
+##### SIASL²
+```text
+(#??..#)
+(#..??#)
+```
+[Source File](../libraries/nonenglish/SIASL²)
+
 ##### Smalltalk  _simple
 ```text
 "Hello World in Smalltalk (simple version)"
@@ -2221,6 +2711,12 @@ SELECT 'Hello World' FROM dual;
 ```
 [Source File](../libraries/nonenglish/SQL  _Oracle)
 
+##### Stæck
+```text
+'.'.'.".'.'.".'.".'.".'.'.".".'.'.'.".".'.".".'.'.'.".".'.".".'.".".".".'.".".'.'.'.".".'.".'.'.'.'.'.'.'.".'.'.".".".'.".'.".'.".".".".'.".".'.'.".'.'.".".".'.'.'.".".'.".".'.'.'.".'.'.".".'.".'.'.'.'.".'.'.
+```
+[Source File](../libraries/nonenglish/Stæck)
+
 ##### TI BASIC
 ```text
 10 REM Hello World in TI BASIC
@@ -2238,6 +2734,35 @@ SELECT 'Hello World' FROM dual;
 100 CALL CLEAR :: DISPLAY AT(10,5):"Hello World" :: ACCEPT AT(20,4):A$
 ```
 [Source File](../libraries/nonenglish/TI Extended BASIC)
+
+##### Tjʊrɪŋ məʃin
+```text
+write(72,1)
+write(101,2)
+write(108,3)
+write(108,4)
+write(111,5)
+write(32,6)
+write(119,7)
+write(111,8)
+write(114,9)
+write(108,10)
+write(100,11)
+write(33,12)
+read(1)
+read(2)
+read(3)
+read(4)
+read(5)
+read(6)
+read(7)
+read(8)
+read(9)
+read(10)
+read(11)
+read(12)
+```
+[Source File](../libraries/nonenglish/Tjʊrɪŋ məʃin)
 
 ##### TSO CLIST
 ```text
@@ -2275,6 +2800,36 @@ State   Read   |   Write     Step    Next state
 echo Hello World
 ```
 [Source File](../libraries/nonenglish/Unix Shell)
+
+##### Uniсode
+```text
+Program:  ccссс
+
+Execution sequence:  ccссс (ccссс) (ccссс) (ccссс) ...
+                   = c (c сс сc) (c сс сc) (c сс сc) ...
+
+Initial data-string: сcс 
+
+System evolution: 
+
+Commands    Data-
+Executed    String
+--------    -------
+    c       сcс
+    c        cс
+   сс         с
+   сc         сс 
+    c         ссc
+   сс          сc
+   сc          сcс
+    c          сcсc
+   сс           cсc
+   сc           cсc
+    c           cсc
+   сс            сc
+  ...            ...
+```
+[Source File](../libraries/nonenglish/Uniсode)
 
 ##### VAX Macro
 ```text
@@ -2448,11 +3003,81 @@ Dialog warn: 'Hello World!'.
 ```
 [Source File](../libraries/nonenglish/VisualWorks Smalltalk)
 
+##### Waïdyoudoudat
+```text
+INSERT TO CONSOLE AS ASCII: 72 101 108 108 111 44 32 87 111 114 108 100 33
+
+EXIT THE PROGRAM:
+```
+[Source File](../libraries/nonenglish/Waïdyoudoudat)
+
+##### Windows找不到文件“啊”。请确认文件名正确后再试一次。
+```text
+Windows找不到文件“(command name)”。请确认文件名正确后再试一次。
+```
+[Source File](../libraries/nonenglish/Windows找不到文件“啊”。请确认文件名正确后再试一次。)
+
+##### Xcf4••
+```text
+☺☺ +
+☻☻ -
+ππ .
+π☺ <
+π☻ >
+☺π [
+☻π ]
+☺☻ ,
+☻☺ [>+<-]
+```
+[Source File](../libraries/nonenglish/Xcf4••)
+
+##### XOṘ Mạchịne
+```text
+#include <stdio.h>
+int main(int argc, char*argv[]) {
+	FILE *fp=fopen(argv[1],"r");
+	char code[99999];
+	int c;
+	for(int i=0;(c=fgetc(fp))!=EOF;i++)
+		code[i]=c;
+	char a,b;
+	char s[3];
+	scanf("%s",&s);
+	a=s[0]-48;
+	b=s[1]-48;
+	//debug
+	for(int i=0;code[i]!='\0';i+=2) {
+		if(code[i]=='a'&&code[i+1]=='a')
+			a ^= a;
+		else if(code[i]=='a'&&code[i+1]=='b')
+			a ^= b;
+		else if(code[i]=='a'&&code[i+1]=='1')
+			a ^= 1;
+		else if(code[i]=='b'&&code[i+1]=='a')
+			b ^= a;
+		else if(code[i]=='b'&&code[i+1]=='b')
+			b ^= b;
+		else if(code[i]=='b'&&code[i+1]=='1')
+			b ^= 1;
+		
+	}
+	printf("%d",a>b);
+	return 0;
+}
+```
+[Source File](../libraries/nonenglish/XOṘ Mạchịne)
+
 ##### µ6
 ```text
 ,200,245,300,300,303,112,52,223,303,310,300,244,53
 ```
 [Source File](../libraries/nonenglish/NonEnglish-1/µ6.mu6)
+
+##### ¼ bytes :3
+```text
+11II IIII
+```
+[Source File](../libraries/nonenglish/¼ bytes :3)
 
 ##### Ć
 ```text
@@ -2465,6 +3090,12 @@ public class HelloCi
 }
 ```
 [Source File](../libraries/nonenglish/Ć.ci)
+
+##### ƎↃИAЯT
+```text
+add(x, y): x + y
+```
+[Source File](../libraries/nonenglish/ƎↃИAЯT)
 
 ##### ˸;#？!
 ```text
@@ -2490,6 +3121,12 @@ v  ΘEEEEEEEEEEς      <
 ```
 [Source File](../libraries/nonenglish/μλ)
 
+##### Πie
+```text
+>
+```
+[Source File](../libraries/nonenglish/Πie)
+
 ##### قلب _2
 ```text
 Hello world in قلب
@@ -2508,6 +3145,30 @@ Hello world in قلب
 ```
 [Source File](../libraries/nonenglish/உயிர்-Uyir)
 
+##### ඞlang without Quine
+```text
+僧伽罗语（සිංහල），是斯里兰卡的官方语言之一。
+是占斯里兰卡大多数人口的僧伽罗人的语言；使用人口大约一千九百万。
+从1956年开始，僧伽罗语及泰米尔语同时都是《斯里兰卡宪法》上承认的官方语言。 
+僧伽罗语是属于印欧语系的印度-伊朗语族的印度-雅利安语支的一种语言。
+马尔代夫官方语言之一的迪维希语是与之相近的语言。
+僧伽罗语书写采用源自古印度北部婆罗米文而形成的僧伽罗文。
+在僧伽罗语中，有一些字母很像《在我们之间》里面的角色，比如说 D（ඩ） 或者是 Ng（ඞ） 。
+```
+[Source File](../libraries/nonenglish/ඞlang without Quine)
+
+##### ඞlang without Quine with Quine
+```text
+僧伽罗语（සිංහල），是斯里兰卡的官方语言之一。
+是占斯里兰卡大多数人口的僧伽罗人的语言；使用人口大约一千九百万。
+从1956年开始，僧伽罗语及泰米尔语同时都是《斯里兰卡宪法》上承认的官方语言。 
+僧伽罗语是属于印欧语系的印度-伊朗语族的印度-雅利安语支的一种语言。
+马尔代夫官方语言之一的迪维希语是与之相近的语言。
+僧伽罗语书写采用源自古印度北部婆罗米文而形成的僧伽罗文。
+在僧伽罗语中，有一些字母很像《在我们之间》里面的角色，比如说 D（ඩ） 或者是 Ng（ඞ） 。
+```
+[Source File](../libraries/nonenglish/ඞlang without Quine with Quine)
+
 ##### ᚱᚢᚾᛅᛦ
 ```text
 ᛋᚭᚭᚭᚭᚭᚭᚭᚭᚭᚭᚭ
@@ -2515,11 +3176,36 @@ Hello world in قلب
 ```
 [Source File](../libraries/nonenglish/ᚱᚢᚾᛅᛦ)
 
-##### ∗
+##### ›*&«&^Jj
 ```text
-*
+J[^J]
 ```
-[Source File](../libraries/nonenglish/∗)
+[Source File](../libraries/nonenglish/›*&«&^Jj)
+
+##### ℒight
+```text
+while true:
+    print "#"
+```
+[Source File](../libraries/nonenglish/ℒight)
+
+##### ⅜ bytes :lennyface:
+```text
+0x00
+```
+[Source File](../libraries/nonenglish/⅜ bytes :lennyface:)
+
+##### ↓110010000100110110010
+```text
+1010
+1000
+1011 
+100
+111
+11
+halts
+```
+[Source File](../libraries/nonenglish/↓110010000100110110010)
 
 ##### ∗﹥﹤﹥
 ```text
@@ -2562,6 +3248,12 @@ N4IgLglmA2CmIC4QAlbWgewAQHUMCdoATEAGhCNgGcBjREM8COKgNVn3oBEBGAdh4AmAEaMqGAK74asZ
 「Hello World」と出力する
 ```
 [Source File](../libraries/nonenglish/プロデル.rdr)
+
+##### 喵谕 Meaoiu
+```text
+扒[='Hello, World!'=]喵~
+```
+[Source File](../libraries/nonenglish/喵谕 Meaoiu)
 
 ##### 文言
 ```text

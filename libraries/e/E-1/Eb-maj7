@@ -1,0 +1,80 @@
+Fuer Elise in A Minor
+Ludwig van Beethoven
+Composed in 1802
+Composed in a Saloon
+
+Time: 138
+
+opening in Hello World
+
+# Comment style 1
+
+Bar: Hello World
+  play Write in ens Muda
+  play print
+
+Chord: Write in ens Muda
+  # init index 0
+  LeftHand := C
+  RightHand := C
+
+  # Write H to index
+  Saloon/LeftHand := AF#, D # 72
+
+  # Increment index by 1
+  LeftHand := LeftHand, C#
+
+  # Write e
+  # etc...
+  Saloon/LeftHand := AA, C# # 101
+  LeftHand := LeftHand, C#
+
+  # l
+  Saloon/LeftHand := AA#, d # 108 (10x11 - 2)
+  LeftHand := LeftHand, C#
+
+  # l
+  Saloon/LeftHand := AA, G # 108 (10x10 + 8)
+  LeftHand := LeftHand, C#
+
+  # o
+  Saloon/LeftHand := AA, A# # 111
+  LeftHand := LeftHand, C#
+
+  # " "
+  Saloon/LeftHand := EED # 32
+  LeftHand := LeftHand, C#
+
+  # W
+  Saloon/LeftHand := EDA, F#
+  LeftHand := LeftHand, C#
+
+  # o
+  Saloon/LeftHand := AA, A# # 111
+  LeftHand := LeftHand, C#
+
+  # r
+  Saloon/LeftHand := AA#, E
+  LeftHand := LeftHand, C#
+
+  # l
+  Saloon/LeftHand := AA, G # 108
+  LeftHand := LeftHand, C#
+
+  # d
+  Saloon/LeftHand := AA # 100
+  LeftHand := LeftHand, C#
+
+  # !
+  Saloon/LeftHand := EED, C# # 33
+  LeftHand := LeftHand, C#
+
+
+Chord: print
+    # One could also print the chars directly in the Chord above.
+    # This Chord only exists to demonstrate for loops
+    LeftHand := C
+    12|:
+        press Saloon/LeftHand
+        LeftHand := LeftHand, C#
+    :|

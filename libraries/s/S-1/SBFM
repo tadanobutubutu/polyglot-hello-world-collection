@@ -1,0 +1,3 @@
+> - move pointer right
+{ - flip bit and start while not zero loop
+} - end while not zero loop and move pointer left

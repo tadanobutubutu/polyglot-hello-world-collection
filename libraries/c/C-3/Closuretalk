@@ -1,0 +1,27 @@
+'Vector' import.
+
+Square :=
+  [at: origin WithSize: size
+    corner := origin + (Vector makeX: size Y: size).
+    [contains: point
+      point >= origin and: point < corner
+    |origin  origin
+    |corner  corner]].
+
+Circle :=
+  [at: centre WithRadius: radius
+    [contains: point  (point - centre) size < radius
+    |origin  Vector makeX: centre x - radius Y: centre y - radius
+    |corner  Vector makeX: centre x + radius Y: centre y + radius]].
+
+Union :=
+  [of: shapeA And: shapeB
+    [contains: point  shapeA contains: point or: (shapeB contains: point)
+    |origin  shapeA origin origin: shapeB origin
+    |corner  shapeA corner corner: shapeB corner]].
+
+Intersection :=
+  [of: shapeA And: shapeB
+    [contains: point  shapeA contains: point and: (shapeB contains: point)
+    |origin  shapeA origin corner: shapeB origin
+    |corner  shapeA corner origin: shapeB corner]].

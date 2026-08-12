@@ -1,0 +1,32 @@
+def interpret_echolang(code, input_stream=None):
+    # Initialize memory and pointer
+    memory = [0] * 30000
+    pointer = 0
+    output = []
+    input_index = 0
+
+    # Convert input stream to a list of ASCII values if provided
+    if input_stream:
+        input_stream = list(map(ord, input_stream))
+
+    # Iterate over each command in the code
+    for command in code:
+        if command == '+':
+            memory[pointer] = (memory[pointer] + 1) % 256
+        elif command == '-':
+            memory[pointer] = (memory[pointer] - 1) % 256
+        elif command == '>':
+            pointer = (pointer + 1) % len(memory)
+        elif command == '<':
+            pointer = (pointer - 1) % len(memory)
+        elif command == '.':
+            output.append(chr(memory[pointer]))
+        elif command == ',':
+            if input_stream and input_index < len(input_stream):
+                memory[pointer] = input_stream[input_index]
+                input_index += 1
+            else:
+                memory[pointer] = 0  # Default to 0 if no input is available
+
+    # Return the output as a string
+    return ''.join(output)

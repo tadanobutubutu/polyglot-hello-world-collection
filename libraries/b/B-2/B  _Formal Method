@@ -1,0 +1,4 @@
+MACHINE Hello
+OPERATIONS
+  ww = BEGIN ww := "Hello World" END
+END

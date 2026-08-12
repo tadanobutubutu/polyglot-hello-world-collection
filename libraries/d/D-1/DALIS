@@ -1,0 +1,11 @@
+LOOP e= 1.1,d = 0, h = 0
+  LOOP b=-2
+     n = 0, h = 127
+     LOOP r=0
+        r = r*r-n*n+b
+        n = 2*d*n+e
+     REPEAT d = r, h=h-1 IF ((r*r)+(n*n) < 4) AND (h > 32)
+     WRITE (h)
+  REPEAT b = b+ 0.04 IF b < 1
+  WRITE EOL
+REPEAT e = e - 0.1 IF e > -1.2

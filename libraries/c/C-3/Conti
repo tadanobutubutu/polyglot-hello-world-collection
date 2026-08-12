@@ -1,0 +1,49 @@
+id = \a cb, cb a
+
+0 = \a b, b id
+1 = \a b, a id
+
+ite = \b x y cb, b (\_, cb x) (\_, cb y)
+not = \b cb, ite b 0 1 cb
+
+pair = \a b cb, cb \c, c a b
+nil = \c, c 0 id
+cons = \a b cb, pair a b \p, pair 1 p cb
+
+caseList = \xs cbNil cbCons,
+  xs \k d, k (\_, d cbCons) \_, cbNil id
+
+foldl = \z f xs cb,
+  caseList xs (\_, cb z) \x xs,
+  f z x \z, foldl z f xs cb
+
+foldr = \z f xs cb,
+  caseList xs (\_, cb z) \x xs,
+  foldr z f xs \z, f x z cb
+
+reverse = \xs cb,
+  foldl nil (\xs x cb, cons x xs cb) xs cb
+
+map = \f xs cb,
+  foldr nil (\x xs cb, f x \x, cons x xs cb) xs cb
+
+invert = \bs cb,
+  map not bs cb
+
+readBits = \inp cb,
+  inp \neof, not neof \eof,
+  eof (\_, cb nil) \_, inp \b,
+  readBits inp \bs, cons b bs cb
+
+writeBits = \out bs cb,
+  foldl id (\_ b cb, out 1 \_, out b cb) bs cb
+
+ioRun = \f inp out,
+  readBits inp \bs, f bs \bs,
+  writeBits out bs \_, out 0 id
+
+main = \inp out,
+  ioRun main1 inp out
+
+main1 = \bs cb,
+  reverse bs \bs, invert bs cb

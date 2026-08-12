@@ -1,0 +1,15 @@
+# //[^\n]* := 
+# /\*.*\*/ :=
+// For while
+# wh\s+(.*?)\s*:\s*(.*?)\s+hw := {\2} {\1} w!
+// For functions
+# fn\s+(.+)\s*:\s*(.*?)\s+nf := #\1\\s*\\((.*?)\\) := \\1\\s\2\\s\n
+# reduce whitespace
+fn test: // a function
+    wh 10 .<:
+        ^^
+        \\/ // we must use a double back-slash because of a technical limitation
+        1 .+
+    hw
+nf
+test(5)

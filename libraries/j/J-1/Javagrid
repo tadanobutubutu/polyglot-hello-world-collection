@@ -1,0 +1,20 @@
+                 |i:number,j:number|                 
+                 |print(i)         |                 
+                 |down(i+1,j)      |                 
+                 |                 |                 
+                 |                 |                 
+                 |                 |                 
+-----------------@-----------------@-----------------
+i:number,j:number|i:number,j:number|i:number,j:number
+print("Fizz")    |i>j end()        |print("FizzBuzz")
+right(i+1,j)     |i%15=0 right(i,j)|left(i+1,j)      
+                 |i%5=0 down(i,j)  |                 
+                 |i%3=0 left(i,j)  |                 
+                 |up(i,j)          |                 
+-----------------@-----------------@-----------------
+                 |i:number,j:number|                 
+                 |print("Buzz")    |                 
+                 |up(i+1,j)        |                 
+                 |                 |                 
+                 |                 |                 
+                 |                 |

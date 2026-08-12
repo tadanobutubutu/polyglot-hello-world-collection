@@ -1,0 +1,12 @@
+?              (a,b,x)->(a/b)          Pop a, b and x. Then execute If (x) { Push a } Else { Push b }
+0-F            ()->(n)                 Push hexadecimal digit to stack
+(00)-(FF)      ()->(n)                 Push a byte to stack
+('c)           ()->(n)                 Push ascii value of char c
+(var), var     ()->(a)                 Push content of variable var to stack. If var is not defined it pushes nothing.
+[vars:code]    ()->(f)                 Define lambda with input
+[code]         ()->(f)                 Define lambda with no input
+'              (f)->(),(n)->()         Pop and execute lambda f or Pop number and use it as bitwise operator (with lambdas "' has the same effect as ')
+"              (f)->(f), (n)->(f)      Convert lambda with input or number to lambda with no input (5[x;0Fx?]"->[0F5?]) (5"->[5]). If it is used with lambda with no input it does nothing.
+`var           (a)->()                 Pop a and store it to global variable var
+I              ()->(n)                 Input a byte
+O              (n)->()                 Pop and output a byte

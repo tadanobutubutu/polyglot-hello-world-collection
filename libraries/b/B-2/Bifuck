@@ -1,0 +1,8 @@
+Length 1 (bifuck: .+.) converts to (brainfuck: >)
+Length 2 (bifuck: .++.) converts to (brainfuck: <)
+Length 3 (bifuck: .+++.) converts to (brainfuck: +)
+Length 4 (bifuck: .++++.) converts to (brainfuck: -)
+Length 5 (bifuck: .+++++.) converts to (brainfuck: .)
+Length 6 (bifuck: .++++++.) converts to (brainfuck: ,)
+Length 7 (bifuck: .+++++++.) converts to (brainfuck: [)
+Length 8 (bifuck: .++++++++.) converts to (brainfuck: ])

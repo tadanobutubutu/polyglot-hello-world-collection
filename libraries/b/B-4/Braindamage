@@ -1,0 +1,20 @@
++++++ +++++ adds 10 to cell 0
+(           starts a for loop for 10 times because the current cell value is 10
+> +++++ ++  moves to cell 1 and adds 7
+> +         moves to cell 2 and adds 1
+> +++       moves to cell 3 and adds 3
+<<<         comes back to cell 0
+)           end of the loop, now cell 1 have 70, cell 2 have 10 and cell 3 have 30
+> ++ .      moves to cell 1 (the loop ended in cell 0), addes 2 so the value is 72 and prints the ASCII charecter 'H'
+> *+ .      moves to cell 2, multiplies it itself so now it's equal 100, adds 1 and prints 'e'
++++++ ++ .  adds 7 to cell 2 and print 'l'
+.{=         prints 'l' again and stored this value into a so a = 108
++++ .       adds 3 and prints 'o'
+> ++ .      moves to cell 3 which is 30, adds 2 so it's 32 and prints ' '
+<< +++++ +++++ +++++ . moves to cell 1 which is 72, addes 15 so its 87 and print 'W'
+> .         moves to cell 2 which is 111 and prints 'o'
++++ .       adds 3 and prints 'r'
+}=.         sets cell 2 to a which is 108 and prints 'l'
+----- --- . subtracts 8 and prints 'd'
+> + .       moves to cell 3 which is 32, adds 1 and print '!'
+<<< .       moves to cell 0 which is 10 and prints a new line

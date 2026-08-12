@@ -1,0 +1,4 @@
+:. inputs -> output
+ : subinputs 1 -> suboutput 1
+ ...
+ : subinputs k -> suboutput k

@@ -1,0 +1,3 @@
+   Every byte is set to one at the beginning.
+   Bytes can go as high or as low as you need
+   There are 2 lanes : a processing lane and a graphics lane (both work the same, but those are their intended purposes and official names.)

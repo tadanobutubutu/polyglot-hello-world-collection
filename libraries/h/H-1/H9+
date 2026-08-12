@@ -1,0 +1,1 @@
+var hqplus=(c,a=0)=>c.map(h=>{(h=="H"||h=="h")&&alert("hello, world");h=="9"&&(()=>{for(x=99,z=(a=' on the wall')=>`${x||99} bottle${1-x?'s':''} of beer`+a;x;)alert(z()+', '+z`.`+(--x?'Take one down and pass it around, ':'Go to the store and buy some more, ')+z()+'.')})();h=="+"&&a++;});

@@ -1,0 +1,6 @@
+%module hello
+%{
+#include <stdio.h>
+void hi(void){ puts("Hello World"); }
+%}
+void hi(void);

@@ -1,0 +1,17 @@
+while pc >= 0:
+	a = m[pc + 0]
+	b = m[pc + 1]
+	c = m[pc + 2]
+	pc = pc + 3
+	if a == -1:
+		m[b] = get_byte()
+	else if b == -1:
+		put_byte(m[a])
+	else if c != -1 and c < 0:
+       c = abs(c)
+		m[b] = (m[a] & ~m[c]) | (m[b] & m[c])
+	else:
+		r = m[b] - m[a]
+		if r <= 0:
+			pc = c
+		m[b] = r

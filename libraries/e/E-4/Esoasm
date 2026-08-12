@@ -1,0 +1,82 @@
+function assemble(asm_code) {
+  let bin_code = [];
+  let lineNum = 0;
+  let OPS = ["SET", "ADD", "SUB", "MUL", "GETMEM", "SETMEM", "BRANCH", "INPUT", "OUTPUT"];
+  for (let line of asm_code.split("\n")) {
+    let parts = line.split(" ");
+    if (OPS.includes(parts[0])) {
+      lineNum++;
+    } else if (parts[0] == "LABEL") {
+      asm_code = asm_code.split(`%${parts[1]}`).join(lineNum);
+    }
+  }
+  for (let line of asm_code.split("\n")) {
+    let nextLine = [-1, 0, 0];
+    let parts = line.split(" ");
+    if (parts[0] == "SET") {
+      nextLine[0] = 0;
+      nextLine[1] = parts[1].slice(1);
+      nextLine[2] = parts[2];
+      if (parts[2][0] == "$"){
+        nextLine[0]++;
+        nextLine[2] = parts[2].slice(1);
+      }
+    }
+    else if (parts[0] == "ADD") {
+      nextLine[0] = 2;
+      nextLine[1] = parts[1].slice(1);
+      nextLine[2] = parts[2];
+      if (parts[2][0] == "$") {
+        nextLine[0]++;
+        nextLine[2] = parts[2].slice(1);
+      }
+    }
+    else if (parts[0] == "SUB") {
+      nextLine[0] = 4;
+      nextLine[1] = parts[1].slice(1);
+      nextLine[2] = parts[2];
+      if (parts[2][0] == "$") {
+        nextLine[0]++;
+        nextLine[2] = parts[2].slice(1);
+      }
+    }
+    else if (parts[0] == "MUL") {
+      nextLine[0] = 6;
+      nextLine[1] = parts[1].slice(1);
+      nextLine[2] = parts[2];
+      if (parts[2][0] == "$") {
+        nextLine[0]++;
+        nextLine[2] = parts[2].slice(1);
+      }
+    }
+    else if (parts[0] == "GETMEM") {
+      nextLine[0] = 8;
+      nextLine[1] = parts[1].slice(1);
+      nextLine[2] = parts[2].slice(1);
+    }
+    else if (parts[0] == "SETMEM") {
+      nextLine[0] = 9;
+      nextLine[1] = parts[1].slice(1);
+      nextLine[2] = parts[2].slice(1);
+    }
+    else if (parts[0] == "BRANCH") {
+      nextLine[0] = 10;
+      nextLine[1] = parts[1].slice(1);
+      nextLine[2] = parts[2];
+      if (parts[2][0] == "$") {
+        nextLine[0]++;
+        nextLine[2] = parts[2].slice(1);
+      }
+    }
+    else if (parts[0] == "INPUT") {
+      nextLine[0] = 12;
+      nextLine[1] = parts[1].slice(1);
+    }
+    else if (parts[0] == "OUTPUT") {
+      nextLine[0] = 13;
+      nextLine[1] = parts[1].slice(1);
+    }
+    if (nextLine[0]>=0) bin_code.push(nextLine);
+  }
+  return bin_code;
+}

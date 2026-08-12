@@ -1,0 +1,9 @@
+Commands:
+0	Center of code (only to clarify)	
+#	Does nothing(used only to make sure that the number of commands is an odd number)	
+> 	Move the pointer to the right
+< 	Move the pointer to the left
++ 	Increment the memory cell under the pointer
+- 	Decrement the memory cell under the pointer
+. 	Output the character signified by the cell at the pointer
+, 	Input a character and store it in the cell at the pointer

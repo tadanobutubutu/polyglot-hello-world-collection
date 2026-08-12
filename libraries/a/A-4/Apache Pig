@@ -1,0 +1,3 @@
+A = LOAD 'data' AS (f:chararray);
+B = FOREACH A GENERATE 'Hello World';
+DUMP B;

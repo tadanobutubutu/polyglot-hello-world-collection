@@ -1,0 +1,3 @@
+sim> at cdr foo.txt
+sim> set lpt default
+sim> b cdr

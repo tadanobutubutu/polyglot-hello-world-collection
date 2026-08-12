@@ -1,0 +1,39 @@
+Solve the Halting Problem For the file <file> In <language>
+Print <value> [Without a Newline]?
+Stop Running the Program
+Create [Qubit|String|Fixed Point at <integer>|Bit] <var>
+Access Qubit From <var> into <var>
+Push <val> To the [Top|Bottom] of the Deque
+Pop From the [Top|Bottom] of the Deque [Into <var>]?
+Push <val> To the Stack
+Pop From the Stack [Into <var>]?
+Write <val> To the Tape
+Read From the Tape into <var>
+Move the Tape Head [Left|Right]
+Evaluate [<string>|<var>] [As <language>]? In [A New|The Current] Context [Asynchronously]? [And Put the Result Into <var>]?
+Run File <file> In [A New|the Current] Context [Synchronously|In a new Thread]
+Read [a [Line|Character] from the|the Entire] File <file> into <var>
+Empty the File <file>
+Write <value> to the File <file>
+Execute the Math Expression [<var>|<string>|<mathexpr>] and Put the Result into <var>
+Print the Exact Age of The Universe In Milliseconds
+Redirect the Output of The Last Executed Command into <var>
+Create a New Class into <var>
+Add a new Property Of Type [String|Qubit|Bit|Fixed Point at <integer>] That Is called <var> to the Class <var>
+Begin a Method That Returns [Nada|String|Qubit|Bit|Fixed Point at <integer>] for Class <var>
+Return from the Method Early [with Value <value>]?
+End the Method and add it to the Aforementioned Class
+Create a new Object <var> of Class <var>
+Access the Property <var> Of Object <var> and Put its Value into <var>
+Set the Property <var> Of Object <var> To <value>
+Call The Method <var> Of Object <var> [Asynchronously]? [And put the Result Into <var>]?
+Rewrite the String [<var>|<string>] [Using Regex]? [Replacing <string> With <string>]* into <var>
+Set a List of Writeover Possibilities Denoted by the String [<string>|<var>] Seperated By [<var>|<string>] into <var>
+Begin If for <value> [[Equals|Not Equals] <value>]?
+End the Aforementioned If
+Begin While for <value> [[Equals|Not Equals] <value>]?
+End the Aforementioned While
+Set the Variable <var> to The [Equality|Inequality] of <value> And <value>
+Change [Character|Line] [<var>|<integer>] To Be [<var>|<string>]
+Cast <var> To a String [In Place|and Put the Result into <var>]
+Copy <var> into <var>

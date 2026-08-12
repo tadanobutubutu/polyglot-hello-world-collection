@@ -1,0 +1,9 @@
+and t t = t.
+and t f = f.
+and f t = f.
+and f f = f.
+
+or t t = t.
+or t f = t.
+or f t = t.
+or f f = f.

@@ -1,0 +1,6 @@
+import sys
+while True:
+   cmd = input("bitswitch > ")
+   if cmd in DIGITS: print(int(not(int(cmd))))
+   elif 'b' in cmd: print(cmd)
+   else: print('Syntax Error')

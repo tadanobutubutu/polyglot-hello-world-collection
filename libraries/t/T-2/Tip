@@ -1,0 +1,12 @@
+Initial IP: 1
+Program: [1/4 196608 16 0 3 16]
+IP 1: running command: 196608 (index 1 of program)
+IP 196608: running command: 1/4 (index 0 of program)
+IP 49152: running command: 1/4 (index 0 of program)
+IP 12288: running command: 1/4 (index 0 of program)
+IP 3072: running command: 1/4 (index 0 of program)
+IP 768: running command: 1/4 (index 0 of program)
+IP 192: running command: 1/4 (index 0 of program)
+IP 48: running command: 1/4 (index 0 of program)
+IP 12: running command: 1/4 (index 0 of program)
+IP 3: running command: 0 (index 3 of program)

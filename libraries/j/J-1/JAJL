@@ -1,0 +1,107 @@
+; Hello world program
+; (c) 2023 WinFan3672, some rights reserved.
+; Licenced under GNU GPL2-only.
+
+inc 00ab
+push 00ab
+pop 00ab
+pop 00ab
+inc 00ab
+rstk
+incb aaaa
+sbfr ; H
+
+push 00ab
+pop fffe
+push 00ab
+push 00ab
+pop 00ab
+inc 00ab
+incb aaaa
+sbfr ; e
+
+rstk
+push fffe
+int 00ab
+pop 00ab
+incb aaaa
+sbfr ; l
+sbfr ; l
+rstk
+push aaaa
+pop efff
+
+inc aaaa
+inc aaaa
+inc aaaa
+rstk
+push aaaa
+pop effd
+sbfr ; 0
+
+rstk
+push aaaa
+pop ffff
+rstk
+int bbbb
+inc bbbb
+push bbbb
+push bbbb
+int bbbb
+pop bbbb
+push bbbb
+int bbbb
+pop bbbb
+push bbbb
+int bbbb
+pop bbbb
+push bbbb
+int bbbb
+pop bbbb
+push bbbb
+int bbbb
+pop bbbb
+int aaaa
+pop aaaa
+sbfr ; space
+
+rstk
+int aaaa
+push ffff
+push fffe
+pop aaaa
+inc aaaa
+sbfr ; w
+
+rstk
+push effd
+int aaaa
+pop aaaa
+sbfr ; o
+
+inc aaaa
+inc aaaa
+inc aaaa
+sbfr ; r
+
+rstk
+push ffff
+int aaaa
+pop aaaa
+dec aaaa
+dec aaaa
+dec aaaa
+sbfr ; l
+
+inc 00ab
+decb aaaa
+sbfr ; d
+
+inc bbbb
+rstk
+push bbbb
+int aaaa
+pop aaaa
+sbfr ; !
+
+prnt ; prints contents of string buffer

@@ -1,0 +1,5 @@
++  Increment the cell under the pointer
+-  Decrement the cell under the pointer
+>  Move the pointer right
+*  If the current cell is 0, get input. Else, print the cell's ASCII value.
+/  If the cell is 0, skip the next instruction. Else, move the pointer left. Relative jump the number under the pointer (negative goes backwards, positive goes forwards).

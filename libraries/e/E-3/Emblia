@@ -1,0 +1,4 @@
+inst0 R1 inst1 inst3
+inst1 R2 inst3 inst3
+inst2 R3 inst1 inst3
+inst3 R1 inst0 inst2

@@ -1,0 +1,4 @@
+code = input("Code? ")
+def parse(code):
+    pass
+parse(code)

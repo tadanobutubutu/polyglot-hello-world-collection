@@ -1,0 +1,26 @@
+#!/usr/bin/perl -w
+use strict;
+my $pref = <<'EOP'; my $haskell = <<'EOH'; my $core = <<'EOC';
+#!/usr/bin/perl -w
+use strict;
+my $pref = <<'EOP'; my $haskell = <<'EOH'; my $core = <<'EOC';
+EOP
+main = putStr . program $ ("Haskell", program history) : history
+
+program h = core ++ show core ++ "\n\nhistory = " ++ show h ++ "\n"
+
+core = "main = putStr . program $ (\"Haskell\", program history) : history\n\nprogram h = core ++ show core ++ \"\\n\\nhistory = \" ++ show h ++ \"\\n\"\n\ncore = "
+
+history = [("Perl","
+EOH
+chop $haskell; print $haskell;
+my $perl = $pref x 2 . "EOP\n$haskell\nEOH\n${core}EOC\n$core";
+$perl =~ s/(["\\])/\\$1/g;
+$perl =~ s/\n/\\n/g;
+print $perl . "\")]\n";
+EOC
+chop $haskell; print $haskell;
+my $perl = $pref x 2 . "EOP\n$haskell\nEOH\n${core}EOC\n$core";
+$perl =~ s/(["\\])/\\$1/g;
+$perl =~ s/\n/\\n/g;
+print $perl . "\")]\n";

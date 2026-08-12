@@ -1,0 +1,13 @@
+NUM 12
+NUM 42 CALL
+NUMOUT // prints 479001600
+
+FUNCTION FACTORIAL: // (address 42)
+  DUP NUM 0 EQ
+  IF:
+    POP
+    NUM 1
+  ELSE:
+    DUP NUM 1 SUB
+    NUM 42 CALL // recursive call
+    MUL

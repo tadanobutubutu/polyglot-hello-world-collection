@@ -1,0 +1,22 @@
+program        := mainProgram, [ subroutines ] ;
+mainProgram    := "."
+                | command, { command }, "." ;
+subroutines    := subroutine, { subroutine } ;
+subroutine     := command, { command }, ";" ;
+command        := "^"
+                | ">"
+                | "<"
+                | "#"
+                | "&"
+                | "%"
+                | numericCommand ;
+numericCommand := number, "+"
+                | number, "-"
+                | number, ":"
+                | number, "?"
+                | number, "!"
+                | number, "$"
+                | number, "@" ;
+number         := literalNumber | "v" ;
+literalNumber  := [ "+" | "-" ], digit, { digit } ;
+digit          := "0" | "1" | "2" | "3" | "4" | "5" | "6" | "7" | "8" | "9" ;

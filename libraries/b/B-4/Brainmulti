@@ -1,0 +1,12 @@
+> pointer north
+< pointer south
+^ pointer west
+v pointer east
+o pointer up
+O pointer down
++ increment cell at pointer
+- decrement cell at pointer
+. output cell at pointer ASCII
+, input cell at pointer ASCII
+[ you know what it is
+] you know what it is

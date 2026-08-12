@@ -1,0 +1,3 @@
+p:
+sc Writer;
+Writer.write("Hello, world!");

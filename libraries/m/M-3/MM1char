@@ -1,0 +1,8 @@
++ - increment register 1
+- - decrement register 1
+* - increment register 2
+/ - decrement register 2
+[abc] - declare label abc
+(abc) - goto label abc
+~ - if register 1 is zero skip next command
+` - if register 2 is zero skip next command

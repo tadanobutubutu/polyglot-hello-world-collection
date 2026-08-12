@@ -1,0 +1,3 @@
+! - flip bit and move to the first cell
+> - move right
+{...} - while not zero

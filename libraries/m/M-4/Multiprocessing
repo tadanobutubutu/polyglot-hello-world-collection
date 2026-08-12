@@ -1,0 +1,5 @@
+import os,sys
+c=input()
+for i in c:
+    if i=='*':
+        os.system('start '+sys.executable+' '+sys.argv[0])

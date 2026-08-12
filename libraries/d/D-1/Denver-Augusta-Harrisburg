@@ -1,0 +1,24 @@
+ program = routine-definition*
+ 
+ routine-definition = routine-identifier variable-identifier* body
+ body = '{' statement* '}'
+ 
+ statement = guard* (assignment-statement | break-statement |
+                     continue-statement | loop-statement | message-statement)
+ assignment-statement = variable-identifier '<' (expression | spawn)
+ break-statement = loop-identifier? 'break'
+ continue-statement = loop-identifier? 'continue'
+ loop-statement = loop-identifier? body
+ message-statement = '[' message-statement-arm* ']'
+ 
+ expression = variable-identifier | 'null' | 'self'
+ guard = expression? ('=' | '!') expression
+ spawn = '[' routine-identifier expression* ']'
+ 
+ message-statement-arm = guard* (receive | send) body
+ receive = variable-identifier variable-identifier '<' expression*
+ send = expression '<' expression
+ 
+ loop-identifier = identifier
+ routine-identifier = identifier
+ variable-identifier = identifier

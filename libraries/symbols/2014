@@ -1,0 +1,22 @@
+"use strict";
+const server="129.6.15.30"; // Currently a NIST server; change this to the address of the "2014 server" if it exists.
+const net=require("net");
+let d=Buffer.allocUnsafe(0);
+net.connect(37,server).on("data",x=>{
+  d=Buffer.concat([d,x]);
+  if(d.length>=4) {
+    if(new Date((d.readUInt32BE(0)-2208988800)*1000).getFullYear()==2014) {
+      console.log("Hello, world!");
+      process.exit(0);
+    } else {
+      console.error("");
+      process.exit(1);
+    }
+  }
+}).on("error",()=>{
+  console.error("Error communicating with 2014 server.");
+  process.exit(2);
+}).on("end",()=>{
+  console.error("Failed to receive four bytes of data from server.");
+  process.exit(2);
+});

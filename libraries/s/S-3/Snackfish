@@ -1,0 +1,45 @@
+(declaim (type (simple-array simple-string (11)) +SNACBIT-STATES+))
+
+(defparameter +SNACBIT-STATES+
+  (make-array 11
+    :element-type 'string
+    :initial-contents
+      '("Peanut butter cracker"
+        "Cosmic brownie"
+        "Cheezit"
+        "Cheeto"
+        "Dorito"
+        "Tortilla chip"
+        "Cheese cracker"
+        "Potato chip"
+        "Applesauce"
+        "Peanut butter cup"
+        "Pickle")))
+
+(defun normalize-state-number (state-number)
+  (declare (type integer state-number))
+  (the (integer 1 11)
+    (+ 1 (mod (- state-number 1) 11))))
+
+(defun interpret-Snackfish (&optional (initial-code "" initial-code-supplied-p))
+  "Launches the Snackfish interpreter, contingently processing the INITIAL-CODE, if supplied, and repeatedly querying the user for a command sequence until a completely empty line is issued, consequently returning NIL."
+  (declare (type string initial-code))
+  (declare (type T      initial-code-supplied-p))
+  (loop
+    with state-number of-type (integer 1 11) = 1
+    for  first-cycle-p of-type boolean = T then NIL
+    for  commands of-type string
+      = (if (and first-cycle-p initial-code-supplied-p)
+          initial-code
+          (progn
+            (format T "~&>> ")
+            (read-line *standard-input* NIL "")))
+    while (plusp (length commands))
+    do
+      (loop for token of-type character across commands do
+        (case token
+          (#\i       (setf state-number (normalize-state-number (1+ state-number))))
+          (#\d       (setf state-number (normalize-state-number (1- state-number))))
+          (#\s       (setf state-number (normalize-state-number (* state-number state-number))))
+          (#\o       (print (aref +SNACBIT-STATES+ (1- state-number))))
+          (otherwise (terpri))))))

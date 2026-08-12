@@ -1,0 +1,40 @@
+race {
+ annual
+ name "Indy 500"
+ car {
+  name "Ford Prius"
+  driver {
+   name "Bob the Walrus"
+  }
+  raceTeam {
+   colors {blue green yellow}
+  }
+  topSpeed 75
+  brakeSpeed 0.12
+ }
+ car {
+  name "The NesQuickening"
+  driver {
+   name "Mario Andretti"
+   age 56
+  }
+  raceTeam {
+   colors {blue green yellow}
+  }
+  topSpeed 175
+  brakeSpeed 0.12
+ }
+ car {
+  name "Big Bessie"
+  type truck // The default value for "type" is "car", change to "truck"
+  driver {
+   name "Austin Bearing"
+   age 25
+  }
+  raceTeam {
+   colors {#F31 white green}
+  }
+  topSpeed 185
+  brakeSpeed 0.06
+ }
+}

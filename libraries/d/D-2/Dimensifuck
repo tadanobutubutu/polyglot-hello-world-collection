@@ -1,0 +1,10 @@
++ Same as in Brainfuck
+- Same as in Brainfuck
+> Same as in Brainfuck
+< Same as in Brainfuck
+. Same as in Brainfuck
+, Same as in Brainfuck
+= Increases dimension to be operated on.
+_ Decreases dimension to be operated on.
+^ Starts moving positively on the dimension to be operated on if and only if the current cell is nonzero.
+v Starts moving negatively on the dimension to be operated on if and only if the current cell is nonzero.

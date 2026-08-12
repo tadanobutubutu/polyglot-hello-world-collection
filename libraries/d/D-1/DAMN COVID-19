@@ -1,0 +1,13 @@
+1 // The tape has 1 cell (single bit)
+?!@{ // Repeat until all cities are infected
+  ?.( // If the current bit on the tape is 1
+    // If can go to the right, go right, otherwise flip the bit on the tape
+    ?>(>):(!)
+  ):(
+    // If can go to the left, go left, otherwise flip the bit on the tape
+    ?<(<):(!)
+  )
+}
+// Now all cities are infected (since we are outside of the loop)
+?<{<} // Go to the leftmost city
+?#{@>} // Delete all cities

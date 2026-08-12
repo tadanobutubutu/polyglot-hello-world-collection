@@ -1,0 +1,21 @@
+i1 . + . a . i2
+i2 . + . a . i3
+i3 . + . . . i3n . + . i4
+i3n . + . + n b1 i3s i4
+i3s . d . i4
+i4 . + n a1 i4e i6
+i4e . c . i5
+i5 . + . b . i4
+i6 . + . i6
+n + +
+e + + n
+.
+a . a . + . +
+b . b . + . + . +
+a1 n a2 n + + n
+a2 n e n + n a1 a1 n + + n
+c . . c c + +
+b1 n b2 n + + n
+b2 n b3 n + + n
+b3 n e n + n b1 b1 n + + n
+d . . . . d d + +

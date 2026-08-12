@@ -1,0 +1,6 @@
+for (){}
+if (){} //including else and else if
+while (){}
+do {} while ();
+switch(){}
+?:

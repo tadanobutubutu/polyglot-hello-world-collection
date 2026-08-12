@@ -1,0 +1,3 @@
+macro main
+ pr Hello[]World
+ # Note that the [] is printed as a space

@@ -1,0 +1,15 @@
+(
+  MyClass(
+    myAttribute TypeOfTheAttribute
+    someOtherAttribute SomeOtherType
+  )
+
+  TypeOfTheAttribute ~ MyClass(
+    recursiveAttribute MyClass
+    myString .String
+  )
+
+  SomeOtherType ~ MyClass(
+    // No attributes
+  )
+)

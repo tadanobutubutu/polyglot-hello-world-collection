@@ -1,0 +1,12 @@
++be'cellheight'#s{[cellheight=50]}
++be'cellwidth'#s{[cellwidth=50]}
+
++fi'clear'#a{$}
++im'image'#s{>>>3_>>>>>>>>v%
+>3l3_>3l>3l3_>>3l>>3l>3g>3p>>v%
+>3l>3l>3l3_>>3l3_>>3l3_>3t>3Q>>v%
+v%
+>3l>3l>3l>>3l3D>>3l>>3l3p>>v%
+>3V>3V>3O>>3l3K>>3l3_>>3l3Q>>v%
+v%
+}

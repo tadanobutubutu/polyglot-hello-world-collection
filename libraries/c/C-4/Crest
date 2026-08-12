@@ -1,0 +1,15 @@
+left 90
+
+forever [
+    ; Fetch the input pixel
+    setpos 599 399
+    setpencolor pixel
+    
+    ; Completely fill the screen
+    repeat 600 [
+        forward 599
+        setpos 599 minus ycor 1
+    ]
+    
+    nextframe
+]

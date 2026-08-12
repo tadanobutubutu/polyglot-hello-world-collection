@@ -1,0 +1,16 @@
+name = `\\a.\\a*`
+
+greeting (name n) {
+	'print(\"Hello, ' n '!\")'
+}
+greeting_list (greeting g) {
+	g
+}
+greeting_list (greeting_list l, greeting g) {
+	l
+	g
+}
+hello_lang (greeting_list, over) {
+	'#!/usr/bin/lua\n'
+	greeting_list
+}

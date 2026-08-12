@@ -1,0 +1,12 @@
+ up A 72; print A;
+ up B 101; print B;
+ up C 108; print C; print C;
+ up E 111; print E;
+ up F 44; print F;
+ up G 32; print G;
+ up H 87; print H;
+ print E;
+ up I 114; print I;
+ print C;
+ up J 100; print J;
+ up K 33; print K;

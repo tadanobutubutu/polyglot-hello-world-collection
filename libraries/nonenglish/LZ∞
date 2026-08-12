@@ -1,0 +1,4 @@
+ copy idx, len | (copy the instructions from 
+               ip - idx..ip - idx + len (exclusive) 
+               to the end of the program, and goto 
+               next instruction (ip + 1))

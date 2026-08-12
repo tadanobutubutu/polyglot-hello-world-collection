@@ -1,0 +1,20 @@
+ program = statement*
+ 
+ statement = assignment | break | continue | fork | loop | receive | send
+ assignment = variable '=' expression '.'
+ break = loop-identifier? 'break' expression? '.'
+ continue = loop-identifier? 'continue' expression? '.'
+ fork = queue '+' (queue '.' | loop-body)
+ loop = loop-identifier? loop-body
+ receive = queue '>' ((variable | '>') loop-identifier?)? '.'
+ send = queue '<' expression ('.' | loop-body)
+ 
+ loop-body = '{' statement* '}'
+ 
+ expression = variable | previous-variable | nand | '(' expression ')'
+ previous-variable = variable '<' expression
+ nand = expression expression
+ 
+ loop-identifier = identifier
+ queue = identifier
+ variable = identifier

@@ -1,0 +1,20 @@
+var reg = [0,0,0,0];
+var progp = 0;
+var regp = 0;
+var MMME = function (prog) {
+ while (true) {
+  if (prog[progp] >= 0) {
+   regp = regp + 1 % reg.length;
+   reg[regp] += prog[progp];
+   progp++;
+  } else {
+   if (reg[regp] > 0) {
+    reg[regp]--;
+    progp++;
+   } else {
+    progp = progp + abs(prog[progp]) % prog.length;
+   }
+  }
+ return reg;
+ }
+}

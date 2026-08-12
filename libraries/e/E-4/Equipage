@@ -1,0 +1,11 @@
+   !        apply
+   ;        push *apply* onto the stack
+   .        push *compose* onto the stack
+   $        push *pop* onto the stack
+   \        push *swap* onto the stack
+   +        push *add* onto the stack
+   -        push *sub* onto the stack
+   %        push *sign* onto the stack
+   ~        push *pick* onto the stack
+   1        push *one* onto the stack
+   <space>  nop

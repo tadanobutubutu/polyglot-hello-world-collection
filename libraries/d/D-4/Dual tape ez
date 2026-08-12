@@ -1,0 +1,31 @@
+@hello_str . cH # Hello World
+. ce
+. cl
+. cl
+. co
+. 32
+. cW
+. co
+. cr
+. cl
+. cd
+. c!
+. 10
+. 0
+
+@ r @ptr
+t
+t
+r @exit
+z
+r @ptr
+t
+t
+c
+r @ptr
+t
+r 1
+a
+@ptr w @hello_str
+j @
+@exit h

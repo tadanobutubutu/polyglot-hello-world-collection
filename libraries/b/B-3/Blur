@@ -1,0 +1,4 @@
+int blur() {
+    print("Hello, World!");
+    return 0;
+}

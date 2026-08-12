@@ -1,0 +1,15 @@
+{
+    initial word
+
+    <
+    T TP
+    
+    Da=?{1a 1b 1c ... GGGGGG ...}
+    Db=?{1a 1b 1c ... GGGGGG ...}
+    Dh=?{0  0  0  ... GGG ...}
+    
+    RP
+    
+    ?G ?G ?G ...
+    ?>
+}

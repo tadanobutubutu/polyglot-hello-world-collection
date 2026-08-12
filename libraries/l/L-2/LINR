@@ -1,0 +1,16 @@
+ ;
+ a;
+ b;
+ c;
+ d;
+ e;
+ @
+ ADD 1 0 a;
+ ADD 2 0 b;
+ ADD 3 0 c;
+ ADD a b e;
+ ADD c e e;
+ MUL c b d;
+ DIV e 2.43 e;
+ SUB e 6.78 e;
+ NUL Literally anything can go here, probably;

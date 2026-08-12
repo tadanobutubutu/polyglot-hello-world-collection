@@ -1,0 +1,2 @@
+local string, start, stop = "hello world", 2, 7
+print(string[start..stop])

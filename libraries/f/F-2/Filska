@@ -1,0 +1,55 @@
+{ main
+    set,0
+    tmy             " Y=0
+    jmp,incS        " S++
+    rnd
+    tmz
+    mul,m=mz
+    tmx
+    rnd
+    tmz
+    mul,m=mz
+    add,m=mx        " x^2+y^2
+    cmp,1
+    tst,l,2
+    gto,2
+    jmp,incC
+    set,1
+    tmy
+    jmp,incC
+    tzm
+    jmp,incS
+    div,m=mz
+    tmz
+    jmp,print
+}
+{ print
+    set,4
+    mul,m=mz
+    prt
+    set,10
+    chr
+    jpr,main
+}
+{ incS
+    swp,my
+    cmp,1
+    tst,e,4
+    swp,my
+    inc
+    jpr,main
+    swp,my
+    tmz
+    jpr,main
+}
+{ incC
+    swp,my
+    cmp,1
+    tst,e,4
+    swp,my
+    inc
+    jpr,main
+    swp,my
+    tmz
+    jpr,main
+}

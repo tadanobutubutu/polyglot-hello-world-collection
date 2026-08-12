@@ -1,0 +1,7 @@
+ ADD <addr | label | register> <addr | label | register> :
+   Converts to a two word instruction
+ LABEL <name> : Creates a symbol <name> to be used in place
+   of the word which points to the current address
+ DATA <*immediate_word> : Instantiates words directly into
+   memory
+ NOP : Equivalent to ADD R0 <- R0

@@ -1,0 +1,14 @@
+    # output *p; 
+    p a
+    a:0 (-1)
+
+    # p++
+    p p
+
+    # check if p!=E
+    p t
+    E t (-1)
+    Z Z0 0
+
+. p:H-1 Z:-1 Z0:0 t:0
+. H: "Hello, World!\n" E:E-1

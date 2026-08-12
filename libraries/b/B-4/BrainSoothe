@@ -1,0 +1,21 @@
+from typing import Sequence
+
+def run(instructions: Sequence[int], value: int) -> int:
+    instr_count = len(instructions)
+    assert instr_count != 0
+    assert all(instr >= 0 for instr in instructions)
+    assert instr_count == len(set(instructions))
+    instr_index = 0
+    while True:
+        value += 1
+        instr = instructions[instr_index]
+        test = value % instr if instr != 0 else value
+        if test == 0:
+            value -= instr
+            instr_index += instr
+            if instr_index >= instr_count:
+                return value
+        else:
+            instr_index += 1
+            if instr_index == instr_count:
+                instr_index = 0

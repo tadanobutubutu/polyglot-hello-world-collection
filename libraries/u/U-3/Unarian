@@ -1,0 +1,57 @@
+# This is a comment.
+
+# This is a basic function definition.
+function_name { function_definition }
+
+# Extra spacing doesn't matter.
+example_func {
+    extra
+    spacing
+    doesn't
+    matter
+}
+
+# Function names can contain any characters except whitespace and '#'.
+# Tokens '{', '|', and '}' are special keywords and cannot be function names.
+# Tokens '+', '-', '?', '!', and '@' are built-in and cannot be redefined.
+*10 { multiply_by_10 }
+/10 { divide_by_10 }
+^2 { square }
+
+# Functions can call themselves recursively.
+infinite_loop { infinite_loop solve_p_vs_np }
+
+# There are two primary builtin functions: '+' and '-'.
+# Applying '+' to input x returns x + 1
+# Applying '-' to input x returns x - 1 if x > 0 and fails if x = 0
+add_1 { + }
+add_2 { + + }
+add_3 { + + + }
+subtract_2_or_fail { - - }
+
+# There are three builtin functions used for debugging: '?', '!', and '@'.
+# Applying '?' reads a value from standard input and returns it.
+# Applying '!' to input x prints x to standard input and returns x.
+# Applying '@' to input x prints the stack trace and returns x.
+print_then_add_1 { ! + }
+print_stack_trace { @ }
+
+# Functions can have branching execution paths. The special token '|', called
+# alternation, is used to separate alternate paths.
+do_A_or_B_or_C { A | B | C }
+
+# Empty alternates act as the identity function.
+subtract_2_or_do_nothing { - - | }
+
+# A bracketed group starts with '{' and ends with '}'. Such groups are
+# evaluated as if their contents had been defined in a separate function.
+complex { a { b | c } d | { e | { f } } g }
+
+code_1 { b | c }
+code_2 { f }
+code_3 { e | code_2 }
+less_complex { a code_1 d | code_3 g }   # This is equivalent to 'complex'.
+
+# The main function is the default entry-point for a program. It's evaluated
+# when we run this program.
+main { get_nth_prime }

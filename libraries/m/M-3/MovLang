@@ -1,0 +1,17 @@
+// hello.txt
+Hello World
+
+// program.movl
+#embed C[0] "hello.txt"
+// will be converted to
+C[0+0] 'H'
+C[0+1] 'e'
+C[0+2] 'l'
+C[0+3] 'l'
+C[0+4] 'o'
+C[0+5] ' '
+C[0+6] 'W'
+C[0+7] 'o'
+C[0+8] 'r'
+C[0+9] 'l'
+C[0+A] 'd'

@@ -1,0 +1,4 @@
+[0|ret 0, - 1, sto 0, 0, + 2, out$ @, + 1, sto 2, ret 0, > 15, push 0]
+[1|32, sto 8, 101, sto 4, 72, sto 3]
+[2|33, sto 14, 100, sto 13, 108, sto 12, sto 6, sto 5, 114, sto 11, 111, sto 10, sto 7, 87, sto 9]
+[3|12, sto 0, 1, sto 1, 3, sto 2, 0, sto 15]

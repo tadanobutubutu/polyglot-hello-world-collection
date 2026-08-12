@@ -1,7 +1,6 @@
-Editor
-write "Hello, world!"
-copy
-minimise
-Email
-paste
-send
+%hook SpringBoard
+-(void)applicationDidFinishLaunching:(id)application {
+ %orig;
+ NSLog(@"Hello World");
+}
+%end

@@ -1,0 +1,7 @@
++++ +++< sets the value of X to 6 and adds 6 to LI
+
+R( resets the value of X and adds ' ' to LI
+
++( sets X to 1 and adds 'a' to LI
+
++((; sets X to 2 and adds 'b'to LI 2 times and then joins the elements and prints them

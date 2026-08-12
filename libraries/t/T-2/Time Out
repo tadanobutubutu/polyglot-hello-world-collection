@@ -1,0 +1,27 @@
+timeOut.Set(87); // !
+timeOut.Set(132); // d
+timeOut.Set(8); // l
+timeOut.Set(6); // r
+timeOut.Set(197); // o
+timeOut.Set(34); // W
+timeOut.Set(4); // space
+timeOut.Set(4); // ,
+timeOut.Set(158); // o
+timeOut.Set(197); // l
+timeOut.Set(200); // l
+timeOut.Set(193); // e
+timeOut.Set(29); // H
+timeOut.Set(59); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(200); // CONCAT
+timeOut.Set(8); // EMIT
+timeOut.Set(forever);

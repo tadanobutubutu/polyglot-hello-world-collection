@@ -1,0 +1,14 @@
+0 - Set the tape pointer to 0.
+
+1 - Increment tape pointer.
+
+2 - Decrement tape pointer.
+
+3 - Increment byte.
+
+4 - Decrement byte.
+
+5 - Take input as a string. 
+    Write each character to the next byte and increment the pointer.
+
+6 - Output byte as ASCII character.

@@ -1,0 +1,21 @@
++: +1 to the char pointer
+- -1 from the char pointer
+× +4 to the char pointer (Unicode ×)
+÷ -4 from the char pointer (Unicode ÷)
+^ +8 to the char pointer
+@ -8 from the char pointer
+? +16 to the char pointer
+! -16 from the char pointer
+& +32 to the char pointer
+% -32 from the char pointer
+$ +64 to the char pointer
+# -64 from the char pointer
+: +128 to the char pointer
+; -128 from the char pointer
+[ Start a Multiplication loop
+, Sepereate a set of instructions to be multiplied by a number chosen by more instructions
+] End a Multiplication loop
+' Double the Pointer Value
+. Halve the pointer Value
+< Push the character onto the stack which is where the char pointer is pointing
+= Output the code to the user

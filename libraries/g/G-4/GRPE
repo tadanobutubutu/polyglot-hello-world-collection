@@ -1,0 +1,59 @@
+x - 195 => xx
+y - 70 ^ 2 => yy
+xx ^ 2 + yy ^ .5 => oone
+
+x - 80 => xx
+y - 120 ^ 2 => yy
+xx ^ 2 + yy ^ .5 => otwo
+
+x - 185 => xx
+y - 120 ^ 2 => yy
+xx ^ 2 + yy ^ .5 => othree
+
+x - 115 => xx
+y - 112 ^ 2 => yy
+xx ^ 2 + yy ^ .5 => rcircle
+
+y / 3 + x => lslant
+y / 3 - x => rslant
+
+#000000
+
+(x,10>(x,15< (y,50>(y,90< #ffffff
+(x,10>(x,40< (y,65>(y,70< #ffffff
+(x,35>(x,40< (y,50>(y,90< #ffffff
+
+(x,55>(x,60< (y,50>(y,90< #ffffff
+(x,55>(x,80< (y,50>(y,55< #ffffff
+(x,55>(x,80< (y,85>(y,90< #ffffff
+(x,55>(x,80< (y,65>(y,70< #ffffff
+
+(x,95>(x,100< (y,50>(y,90< #ffffff
+(x,95>(x,125< (y,85>(y,90< #ffffff
+
+(x,135>(x,140< (y,50>(y,90< #ffffff
+(x,135>(x,165< (y,85>(y,90< #ffffff
+
+(oone,20<(oone,15> #ffffff
+
+(lslant,250>(lslant,255< (y,75>(y,90< #ffffff
+
+(rslant,17>(rslant,22< (y,100>(y,140< #ffffff
+(lslant,70>(lslant,75< (y,115>(y,140< #ffffff
+(rslant,0>(rslant,5< (y,115>(y,140< #ffffff
+(lslant,87>(lslant,92< (y,100>(y,140< #ffffff
+
+(otwo,20<(otwo,15> #ffffff
+
+(rcircle,12<(rcircle,7>(x,109> #ffffff
+(x,105>(x,110< (y,100>(y,140< #ffffff
+(rslant,-80>(rslant,-75< (y,120>(y,140< #ffffff
+
+(x,135>(x,140< (y,100>(y,140< #ffffff
+(x,135>(x,165< (y,135>(y,140< #ffffff
+
+(othree,20<(othree,15>(x,179> #ffffff
+(x,175>(x,180< (y,100>(y,140< #ffffff
+
+(x,215>(x,220< (y,100>(y,130< #ffffff
+(x,215>(x,220< (y,135>(y,140< #ffffff

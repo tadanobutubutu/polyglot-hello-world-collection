@@ -1,0 +1,6 @@
+@ Flips the bit on top of the stack.
+. Outputs the bit on top of the stack (doesn't pop it).
+< Pushes a 0 bit onto the stack.
+> Pops a bit from the stack and throws it away.
+[ While the bit on top of the stack is 1...
+] End while.

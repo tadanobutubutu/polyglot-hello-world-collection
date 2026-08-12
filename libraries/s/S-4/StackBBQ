@@ -1,0 +1,11 @@
+abc
+111 invert the top bit of the stack
+110 if the stack has 2 or more values, pop the top two, OR them, and push result.
+    if it has one, pop it.
+    otherwise, do nothing.
+101 move bottom of stack to the top
+100 duplicate the top stack bit
+011 move third element from the top (top of stack, second, third) to the top of the stack
+010 swap top two bits of the stack
+001 conditional I/O
+000 conditional self modification

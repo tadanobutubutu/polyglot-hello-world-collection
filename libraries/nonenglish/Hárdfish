@@ -1,0 +1,17 @@
+code=input()
+x=0
+while code:
+    c=code[0]
+    code=code[1:]
+    if c=='i':
+        x+=1
+    if c=='o':
+        print(x)
+    if c=='r':
+        code+=code
+    if c=='c':
+        x=(3*x+1 if x%2 else x>>1)
+    if c=='q':
+        x=(2*x+1 if x%3 else x//3)
+    if x in (-1,256):
+        x=0

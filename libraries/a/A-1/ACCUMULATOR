@@ -1,0 +1,17 @@
+cmd = "++>"
+while 1:
+    code = input(cmd)
+    accumulator = 0
+    for i in code:
+        if i == "A":
+            accumulator += 1
+        elif i == "M":
+            accumulator -= 1
+        elif i == "O":
+            print(accumulator)
+        elif i == "C":
+            accumulator = int(str(accumulator)+str(accumulator))
+        elif i == "R":
+            accumulator = 0
+        else:
+            print("Invalid")

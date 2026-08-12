@@ -1,0 +1,59 @@
+>> Control flow
+for                | For every item in a("stack" for the stack), execute the code b.
+while              | While the expression a is true, execute the code b.
+if                 | Same as "while", but only execute the code b for once.
+else               | Used for construct if-else structure.
+elif               | Used for construct if-elif-else structure.
+break              | Quit the loop immediately. If it is in Main program, exit immediately.
+continue           | Jump to next round of loop. If it is in Main program, do nothing.
+>> Stack operation
+push               | Push the specified value onto the stack. If nothing detect, duplicate the ToS.
+pop                | Pop the ToS.
+__tos              | Self-explanatory.
+__2ttos            | 2nd-to-top of stack.
+>> Arithmetics
+add                | Add two values together. You can also use +.
+subtract           | Subtract y from x. Alt: -.
+multiply           | Multiply x with y. Alt: *.
+divide             | Divide x by y, result in float. Alt: /.
+intdiv             | Divide x by y, result in quotient. Alt: //.
+modulo             | Modulo x by y. Alt: %.
+exponent           | Return x^y. Alt: ^.
+negate             | Negate the specified value. Reverse if it is string or an array.
+range              | Python "range(A,B,C)". Returns an array.
+nroot              | Return x^(1/y). Alt: `.
+log                | Returns the logarithm of y with x as the base.
+>> Variables
+let                | Let x to be y. If x doesn't exist, create a variable called x(with the type of y).
+===>
+    num            | Numbers.
+    string         | A string of characters.
+    array          | An array.
+    bool           | A boolean.
+    pair           | A pair of value.
+    none           | Nonetype.
+>> Pair operations
+former             | Former value of a pair.
+latter             | Latter value of a pair.
+>> Array operations
+insert             | Insert x at the index of y. Leave y blank means the tail.
+delete             | Delete the element at the index of x.
+popdel             | Delete the element at the index of x, but store it at y.
+>> I/O
+input              | Raw input, with the prompt x.
+read               | Parsed input, with the prompt x.
+print              | Print the value of x directly.
+output             | Output a serie of value, including seperators and a terminator.
+>> Libraries
+import             | Import a specified library.
+>> Miscallenous
+random             | A random float between 0 and 1.
+randint            | A random integer in the range you've specified.
+choice             | Choose an item randomly from an array.
+sort               | Sort the array immediately.
+and                | Logical AND.
+or                 | Logical OR.
+not                | Logical NOT.
+xor                | Logical XOR.
+>> Constants
+true, false, empty, nan, infinity

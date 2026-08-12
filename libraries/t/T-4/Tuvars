@@ -1,0 +1,5 @@
+read a //Set a to ASCII value of input
+clear //Clear the console
+number a //Print a's value
+linebreak // Print a linebreak
+goto 1 //Restart

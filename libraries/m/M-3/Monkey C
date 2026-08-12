@@ -1,0 +1,4 @@
+using Toybox.System;
+class Hello {
+  function initialize() { System.println("Hello World"); }
+}

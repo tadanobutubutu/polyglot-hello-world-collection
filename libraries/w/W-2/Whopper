@@ -1,0 +1,18 @@
+: hi
+
+: Print the letter 'h'.
+PSH 10
+PSH 10
+MUL
+PSH 4
+ADD
+PPC
+
+: Print the letter 'i'.
+PSH 10
+PSH 10
+MUL
+PSH 5
+ADD
+PPC
+NLN

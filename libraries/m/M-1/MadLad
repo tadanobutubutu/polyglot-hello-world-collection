@@ -1,0 +1,10 @@
+WHATEVER a = 3;
+WHATEVER b = "ahhhh";
+BUTWHATFUCKINGIF (a < 5)
+{
+    PrintString(b);
+}
+WHATTHEFUCKELSE
+{
+   PrintString("no");
+}

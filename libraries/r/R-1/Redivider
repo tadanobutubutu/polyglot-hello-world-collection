@@ -1,0 +1,54 @@
+   # Transforms
+   strip_white:
+     {
+       /\s*/;
+       /.*/
+     }.
+   
+   # Terminals
+   number: strip_white[ /\s*\d+/ ].
+   var:    strip_white[ /\s*[^\W\d_][^\W_]*/ ].
+   plus:   strip_white[ /\s*\+/ ].
+   minus:  strip_white[ /\s*-/ ].
+   times:  strip_white[ /\s*\*/ ].
+   div:    strip_white[ /\s*\// ].
+   lparen: strip_white[ /\s*\(/ ].
+   rparen: strip_white[ /\s*\)/ ].
+   
+   # Non terminals
+   expr:
+     {
+       head: term;
+       tail: expr_tail;
+       head + tail
+     }.
+   
+   expr_tail:
+     {
+       op: plus | minus;
+       " " + expr + " " + op
+     }
+   | "".
+   
+   term: {
+     head: factor;
+     tail: term_tail;
+     head + tail
+   }.
+   
+   term_tail:
+     {
+       op: times | div;
+       " " + expr + " " + op
+     }
+   | "".
+   
+   factor:
+     number
+   | var
+   | {
+       lparen;
+       exp: expr;
+       rparen;
+       exp
+     }.

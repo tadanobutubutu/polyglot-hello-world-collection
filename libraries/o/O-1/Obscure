@@ -1,0 +1,8 @@
+ set bottles to 99
+   while {bottles} > 0
+     out {bottles} bottles of beer on the wall, {bottles} bottles of beer.
+     subtract {bottles} 1 as bottles
+     out Take one down and pass it around, {bottles} bottles of beer on the wall.
+   end
+ out No more bottles of beer on the wall, no more bottles of beer.
+ out Go to the store and buy some more, 99 bottles of beer on the wall.

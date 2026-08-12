@@ -1,0 +1,15 @@
+MAIN: { 
+push "Hello, World".reverse
+jump OUTPUT
+}
+
+OUTPUT: {
+out
+push
+equal EXIT
+add
+jump OUTPUT
+}
+
+EXIT: {
+}

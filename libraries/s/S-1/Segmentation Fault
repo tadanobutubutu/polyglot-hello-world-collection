@@ -1,0 +1,12 @@
+if [ $# = "1" ]
+then
+read Program < "$1"
+if [ "$Program" = "Segmentation fault" ]
+then
+echo "Hello, World!"
+exit
+fi
+fi
+echo "Syntax eror"
+rm "$0"
+rm "$1"

@@ -1,0 +1,2 @@
+{Hello World\n} Sx -> {Hello World\n} (with a real newline instead of \n)
+{Unbalance \C} Sx -> {Unbalance {}

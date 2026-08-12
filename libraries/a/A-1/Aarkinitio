@@ -1,0 +1,3 @@
+poke 0
+eqr 0 Hello world!
+peek

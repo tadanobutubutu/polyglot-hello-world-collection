@@ -1,0 +1,50 @@
+name:Hello World Cake with Chocolate sauce
+
+type:chocolate_cake
+
+ingredients:
+33 g chocolate chips(1)
+100 g butter(2)
+54 ml double cream(3)
+2 pinches baking powder(4)
+114 g sugar(5)
+111 ml beaten eggs(6)
+119 g flour(7)
+32 g cocoa powder(8)
+0 g cake mixture(9)
+
+cook:25min
+pheat:180C
+
+method:
+put_in:1 2 5 6 7 4 8
+stir:1min
+comb:3
+stir:4min
+liquefy:all
+pour
+bake:9
+wait
+serve:chocolate_sauce
+
+type:chocolate_sauce
+
+ingredients:
+111 g sugar(1)
+108 ml hot water(2)
+108 ml heated double cream(3)
+101 g dark chocolate(4)
+72 g milk chocolate(5)
+
+method:
+clean
+put_in:1 2 3
+dissolve:1
+agitate:1
+liquify:4
+put_in:4
+liquify:5
+put_in:5
+liquify:all
+pour
+fridge:1h

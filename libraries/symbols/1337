@@ -1,0 +1,11 @@
+data SkExp = CombS | CombK | SkApp SkExp SkExp
+
+
+skToNum CombS = [1,0] -- (x x) x
+
+skToNum CombK = [0] -- (x x)
+skToNum (SkApp x y) = xs++[n]++ys
+	where
+		xs = skToNum x
+		ys = skToNum y
+		n = max (maximum xs) (maximum ys + 1)

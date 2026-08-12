@@ -1,0 +1,5 @@
+As long as i≠0,
+If i mod 4=0: execute i
+Otherwise if i mod 4=1: execute d
+Othereise if i mod 4=2: execute s
+Otherwise if I mod 4=3: execute o

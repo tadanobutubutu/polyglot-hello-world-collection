@@ -1,0 +1,6 @@
+10 20 + display newline;
+1 1 = 2 0 / 3 cdr 10 ? display newline;;
+"Hello, world!" display newline;;
+3 x 2 * x \ display newline;;
+3 4 x y + y \ x \ display newline;;
+"Tg" "Hello, " display str display ; "!" display ; newline ; str \ ;

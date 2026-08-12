@@ -1,0 +1,1 @@
+export component Hello inherits Window { Text { text: "Hello World"; } }

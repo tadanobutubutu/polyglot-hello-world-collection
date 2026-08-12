@@ -1,0 +1,18 @@
+accumulator=0
+cmds=input(">>> ")
+for cmd in cmds:
+    if cmd.lower() == "a":
+        print(accumulator)
+    elif cmd.lower() == "h":
+        print("Hello, world!")
+    elif cmd.lower() == "q":
+        print(cmds)
+    elif cmd == "9":
+        for i in range(99, 2, -1):
+            print(str(i)+" bottles of beer on the wall, "+str(i)+" bottles of beer.\nTake one down, pass it around, "+str(i-1)+" bottles of beer on the wall.")
+        print("2 bottles of beer on the wall, 2 bottles of beer.\nTake one down, pass it around, 1 bottle of beer on the wall.")
+    elif cmd == "+":
+        accumulator+=1
+    elif cmd == "-":
+        accumulator-=1
+input()

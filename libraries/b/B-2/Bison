@@ -1,0 +1,3 @@
+%%
+start: { puts("Hello World"); }
+%%

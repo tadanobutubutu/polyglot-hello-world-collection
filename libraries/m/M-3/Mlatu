@@ -1,0 +1,8 @@
+for start in 0..length(expression) // index terms at the uppermost layer, left to right
+    for end in length(expression)..start // try the longest subsequence first
+        redex = expression.slice(start, end)
+        if redex in patterns:
+            return reduce(expression, patterns[redex], start, end)
+        if redex is combinator expression:
+            return reduce(expression, combinators[redex], start, end)
+return FINISHED

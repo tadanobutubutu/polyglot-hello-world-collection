@@ -1,0 +1,162 @@
+import time
+import os
+import random
+import requests # type: ignore
+
+response = requests.get('https://api.ipify.org')
+public_ip = response.text
+
+os.system('cls')
+print("HQ9~ (or HQ9Tilde) - WHAT THE SKULL IS THIS CONINESS")
+print("Current update: v1.2")
+print("Also use \"help\" for very useful information")
+time.sleep(4)
+ipgrabber = input("Warning: This command might print out your IP address (it cannot use it, as it is an offline program). It could be POSSIBLY evaded through VPNs, but proceed at caution. Do you want to enable safe mode? You may change it later (Default option: no. Say 'yes' to enable it): ")
+hi = None
+if ipgrabber.lower() == "yes":
+    hi = True
+else:
+    hi = False
+    
+os.system('cls')
+
+variables = []
+values = []
+
+dumbjokes = [
+    "existing is bonish",
+    "Know what? I'm confused.",
+    "did you know this on battle with air",
+    "max skullish bro thought this was a joke"
+]
+
+acc = 0
+loop = 1
+while loop == 1:
+    user = input()
+    try:
+        if user == "h":
+            # the h stands for "hello"
+            print("Hello World!")
+        elif user == "q":
+            # the q stands for "quine"
+            _='_=%r;print (_%%_)';print (_%_)
+        elif user == "9":
+            # the 9 stands for "99"
+            bottle = 99
+            while (bottle > 0):
+                print(f"{bottle} bottles of beer on the wall,")
+                print(f"{bottle} bottles of beer.")
+                bottle -= 1
+                print(f"Take one down and pass it around {bottle} bottles of beer on the wall.")
+                if bottle == 1:
+                    break
+            print("1 bottle of beer on the wall, 1 bottle of beer.")
+            print("Take one down and pass it around, no more bottles of beer on the wall.")
+            print("No more bottles of beer on the wall, no more bottles of beer.")
+            print("Go to the store and buy some more, 99 bottles of beer on the wall.")
+        elif user == "+":
+            # the + stands for "+". isn't that obvious
+            acc += 1
+            print(acc)
+        elif user == "p":
+            # the p stands for "porcupine"
+            print("Porcupine on your head")
+        elif user == "c":
+            # the c stands for "cat"
+            os.system('cls')
+            print(" /\\_/\\")
+            print("( o.o )")
+            print(" > ^ <")
+        elif user == "b":
+            # the b stands for "binary"
+            print("01101101 01100001 01111000 00100000 01110011 01101011 01110101 01101100 01101100 01101001 01110011 01101000")
+        elif user == "s":
+            # the s stands for "system"
+            raise Exception("Bruddyo ain't smart bruh")
+        elif user == "r":
+            # the r stands for "random"
+            print(random.choice(dumbjokes))
+        elif user[0] == "v" and "=" in user:
+            # the v stands for "variable"
+            user = user[1:]
+            user = user.replace(' ', '')
+            variables.append(user.split("=")[0])
+            values.append(user.split("=")[1])
+            print(f"Now {user.split('=')[0]} is equal {user.split('=')[1]}!")
+        elif user[0] == "o":
+            # the o stands for "output"
+            user = user[1:]
+            user = user.replace(' ', '')
+            if user in variables:
+                print(values[variables.index(user)])
+            else:
+                print("bruddyo first assign the variable :wiltedroseemoji:")
+        elif user[0] == "y":
+            # the y stands for "your"
+            user = [user[2:]]
+            dumbjokes.append(user)
+        elif user == "u":
+            # the u stands for "update"
+            print("dragon appears out of thin air")
+        elif user[0] == "t":
+            # the t stands for "tell"
+            print(user[2:])
+        elif user == "cl":
+            # the cl stands for "clear"
+            os.system('cls')
+        elif user == "=":
+            # the "=" stands for... =
+            print(acc)
+        elif user == "-":
+            # the "-" stands for -
+            acc -= 1
+            print(acc)
+        elif user == "re":
+            # the "re" stands for "reset"
+            acc = 0
+            print(acc)
+        elif user == "i":
+            if hi == True:
+                print("didn't you enable safemode, dumbass?")
+            else:
+                print(public_ip)
+        elif user == "sm":
+            # the "sm" stands for "safe mode"
+            surely = input("Are you sure you want to change your safe mode? Default = no, type 'yes' if you wish to: ")
+            if surely == "yes":
+                if hi == False:
+                    hi = True
+                    print("Safe mode has been enabled.")
+                else:
+                    hi = False
+                    print("Safe mode has been disabled. Proceed at caution.")
+        elif user == "help":
+            print("h helps you to write your first program!",
+                  "q writes out it's own code!",
+                  "9 decelerates!",
+                  "+ accelerates!",
+                  "p tells you a secret!",
+                  "c summons cats!",
+                  "b prints out uhhhhhhh tf is this?",
+                  "s updates hq9~!",
+                  "r tells you a joke!",
+                  "v [variable] = [value] makes you be able to create things!",
+                  "o [variables] gives you a description of anything you've made!",
+                  "y [value] makes you (un)funny!",
+                  "u shows you what old updates of hq9~ looked like!",
+                  "t [value] tells you everything you tell it back!",
+                  "cl clears the console!",
+                  "= prints out your progress on +!",
+                  "- decelerates... but only decelerates +!",
+                  "re resets your progress on +. why would you do that?",
+                  "i prints out your IP!",
+                  "sm lets you change Safe Mode status!",
+                  "help is very helpful!")
+        else:
+            if hi == True:
+                print("bro can't even read help, anyway your ip used to be here")
+            else:
+                print(f"bro can't even read help, anyway your ip is {public_ip}")
+    except Exception as e:
+        print(f"how to fuck did you cause an error in the fucking interpreter btw the error is some shit like {e}")

@@ -1,0 +1,34 @@
+from random import randint, choice
+mode=0
+n=0
+modes=["N","H","X","R","A", "V"]
+for c in input():
+	if c=="N":mode="N"
+	elif c=="H":mode="H"
+	elif c=="X":mode="X"
+	elif c=="R":mode="R"
+	elif c=="A":mode="A"
+	elif c=="V":mode="V"
+	elif c=="r":
+		if mode=="H":
+			print("Hello, World!")
+		elif mode=="N":
+			n-=1; print(n); n+=1; print(">", n); n+=1; print(n)
+		elif mode=="0":
+			print("choose mode first")
+		elif mode=="X":
+			break
+		elif mode=="R":
+			print(randint(0,n))
+		elif mode=="A":
+			print("A B C D E F G H I J K L M N O P Q R S T U V W X Y Z")
+		elif mode=="V":
+			while n!=0:
+				print(n)
+				n-=1
+		else:
+			print(mode)
+	elif c=="+":n+=1
+	elif c=="-":n-=1
+	elif c=="=":print(n)
+	elif c=="?":mode=str(choice(modes))

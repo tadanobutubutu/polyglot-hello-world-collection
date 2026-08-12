@@ -1,0 +1,2 @@
+"stdin" _ $$ take input
+"stdout" . $$ print it to stdout

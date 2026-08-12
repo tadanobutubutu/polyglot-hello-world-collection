@@ -1,0 +1,5 @@
+> Move pointer right
+< Move pointer left
+* Flip current cell
+[ Jump past matching ] if cell under pointer is 0
+] Jump back to matching [

@@ -1,0 +1,74 @@
+package Chaingate;
+
+require Exporter;
+our @ISA = qw(Exporter);
+
+our @EXPORT_OK = qw/chaingate chaingate_free_f/;
+
+=head2 $Debug
+
+Set C<$Chaingate::Debug> to a truthy value in order to get debug output to
+stdout (specifically, the state of the program every step).
+
+=cut
+
+our $Debug = 0;
+
+=head2 chaingate 
+
+Implements Chaingate with a given function and program. The function is the
+first argument; all other arguments specify the program.
+
+This implementation assumes that program elements can be compared via C<eq>, and
+that their stringifications will not contain the value of C<$;>. This will often
+be the case, but you should probably avoid references in the program (unless
+they have an overloaded stringifier), as you probably meant to compare the
+I<contents> of the references, rather than the I<values> like this function
+does.
+
+=cut
+
+sub chaingate {
+    my $function = shift;
+    my @program = @_;
+    my $ip = 0;
+    my %seen = ();
+
+    local $" = $;;
+
+    while (!exists $seen{"$ip @program"}) {
+        if ($Debug) {
+            print+($_ == $ip ? "[".$program[$_]."] " : $program[$_]." ")
+                for 0..$#program;
+            print "\n";
+        }
+        $seen{"$ip @program"} = undef;
+        $program[$ip] = $function->($program[$ip]);
+        my @ips = grep {$program[$_] eq $program[$ip]} 0..$#program;
+        if (2 == scalar @ips) {
+            $ip = $ips[$ips[0] == $ip ? 1 : 0];
+        }
+        $ip++;
+        $ip %= scalar @program;
+    }
+}
+
+=head2 chaingate_free_f
+
+An implementation of the I<f> from Free Chaingate. (As such, calling
+C<chaingate> with C<\&chaingate_free_f> as its first argument produces a Free
+Chaingate interpreter.) Can also be used for Freer Chaingate.
+
+The argument format is C<"m/n">, i.e. arguments are strings with I<m> and I<n>
+separated by a slash.
+
+=cut
+
+sub chaingate_free_f {
+    $_[0] =~ m=/=p or die "No / in Free Chaingate element '$_[0]'";
+    (${^PREMATCH} + 1 >= ${^POSTMATCH}) ?
+        (((${^PREMATCH} + 1) - ${^POSTMATCH}) . "/" . ${^POSTMATCH}) :
+        ((${^PREMATCH} + 1) . "/" . ${^POSTMATCH});
+}
+
+1;

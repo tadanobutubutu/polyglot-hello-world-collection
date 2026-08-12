@@ -1,0 +1,7 @@
+MOVE D,R - copies D to R (MOVE A,A being NOP)
+XOR D,R - XORs D and R and puts the result in D. (XOR R,R clearing R). f is set if the result is 0 or 255 and reset otherwise.
+AND D,R - ANDs D and R and puts the result in D. (XOR R,R clearing R). f is set if the result is 0 and reset otherwise.
+OR D,R - ORs D and R and puts the result in D. (XOR R,R clearing R). f is set if the result is 255 and reset otherwise.
+ADD D,R - Adds D and R and puts the result in D. f is the carry bit. 
+ADDF D,R - Same as ADD but ADDs the flag aswell. 
+SUBF D,R - Subracts R and the carry flag from D. f is the borrow bit.

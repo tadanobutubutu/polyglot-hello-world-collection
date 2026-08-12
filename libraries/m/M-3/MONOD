@@ -1,0 +1,72 @@
+pthag@pthag-desktop:~/python/monod$ python monod.py -x bettergenome.dna kadmon.rna -e -s
+      __  __  ___  _   _  ___  ____  
+     |  \/  |/ _ \| \ | |/ _ \|  _ \ 
+     | |\/| | | | |  \| | | | | | | |
+     | |  | | |_| | |\  | |_| | |_| |
+     |_|  |_|\___/|_| \_|\___/|____/ 
+     robert harry nicodemus williams~
+
+                Hello.
+
+Priming with KadA (Kadmon)! ['TRAN', 'BIND', '*tatgag', 'BEND', 'BACK', 'NULL', 'LYSE']
+Starting to execute KadA (Kadmon)
+   KadA finds 4 "*tatgag" in genome.
+   New Protein XhiA! ['PHOS', 'PHOS', 'PHOS', 'META', 21, 'FOOO', 'LYSE'] (genome offset 5)
+   New Protein XagA! ['PHOS', 'META', 13, 'DEPH', 'JESU', 21, 'JESU', 2, 'BACK', 'BIND', '*catgat', 'BEND', 'PHOS', 'PHOS', 'PHOS', 'PHOS', 'JESU', 21, 'BACK', 'LYSE'] (genome offset 18)
+   New Protein DjtA! ['BIND', '*catgat', 'BEND', 'PHOS', 'PHOS', 'PHOS', 'PHOS', 'PHOS', 'META', 8, 'LYSE'] (genome offset 46)
+   New Protein CvjA! ['PHOS', 'PHOS', 'META', 52, 'NULL', 'BIND', '*', 'BEND', 'FOOO', 'FOOO', 'BEND', 'DEPH', 'LYSE'] (genome offset 63)
+   KadA does nothing (BEND)
+   KadA unbinds CvjA!
+   KadA does nothing (NULL)
+   KadA lyses itself.
+Finished executing KadA (Kadmon)
+Starting to execute XhiA.
+   XhiA increased phosphorylation to 1
+   XhiA increased phosphorylation to 2
+   XhiA increased phosphorylation to 3
+   XhiA increased register 21 by 3.
+   XhiA does nothing (FOOO)
+   XhiA lyses itself.
+Finished executing XhiA.
+Starting to execute XagA.
+   XagA increased phosphorylation to 1
+   XagA increased register 13 by 1.
+   XagA decreased phosphorylation to 0
+   XagA phosphor-sets register 0 to 21
+   XagA phosphor-sets register 0 to 2
+   XagA unbound nothing (BACK)
+   XagA activates binding site *catgat
+   XagA binds DjtA through *catgat
+   XagA increases phosphorylation of DjtA to 1
+   XagA increases phosphorylation of DjtA to 2
+   XagA increases phosphorylation of DjtA to 3
+   XagA increases phosphorylation of DjtA to 4
+   XagA phosphor-sets register 4 by 21 to DjtA
+   XagA unbinds DjtA!
+   XagA lyses itself.
+Finished executing XagA.
+Starting to execute DjtA.
+   DjtA does nothing (BIND)
+   DjtA does nothing (BEND)
+   DjtA increased phosphorylation to 5
+   DjtA increased phosphorylation to 6
+   DjtA increased phosphorylation to 7
+   DjtA increased phosphorylation to 8
+   DjtA increased phosphorylation to 9
+   DjtA increased register 8 by 9.
+   DjtA lyses itself.
+Finished executing DjtA.
+Starting to execute CvjA.
+   CvjA increased phosphorylation to 1
+   CvjA increased phosphorylation to 2
+   CvjA increased register 52 by 2.
+   CvjA does nothing (NULL)
+   CvjA does nothing (BIND)
+   CvjA does nothing (BEND)
+   CvjA does nothing (FOOO)
+   CvjA does nothing (FOOO)
+   CvjA does nothing (BEND)
+   CvjA decreased phosphorylation to 1
+   CvjA lyses itself.
+Finished executing CvjA.
+Protein array empty. Stopping.

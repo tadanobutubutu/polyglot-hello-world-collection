@@ -1,0 +1,8 @@
+( - marks the beginning of a loop
+) - marks the end
+% - return back to the last ( command 
+   (if there is none, then restart at the beginning of the program)
+@ - move to the next ) command 
+   (if there is none, the program terminates)
+# - If the value of the current cell is non-zero, skip the next
+    command

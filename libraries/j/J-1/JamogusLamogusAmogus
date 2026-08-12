@@ -1,0 +1,67 @@
+joinGame letter;
+
+joinGame i;
+
+addNewVent hello;
+
+completeTask i;
+
+letter hasCompleted 72 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 101 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 108 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 108 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 111 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 32 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 87 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 111 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 114 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 108 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 100 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 33 tasks;
+
+guysTheImposterIs letter;
+
+letter hasCompleted 10 tasks;
+
+guysTheImposterIs letter;
+
+ventIf i moreSus 10 done;
+
+ventIf i equallySus 10 done;
+
+vent hello;
+
+addNewVent done;

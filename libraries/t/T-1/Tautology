@@ -1,0 +1,6 @@
+ #include <iostream>
+ using namespace std;
+ int main()
+   {char x[65535];
+   while(1){cout << "> ";cin >> x;cout << "True\n";} //Takes an input and outputs true
+   return 0;}

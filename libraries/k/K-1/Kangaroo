@@ -1,0 +1,2 @@
+foo: skip bar
+bar: skip foo, foo

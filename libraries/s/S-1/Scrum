@@ -1,0 +1,4 @@
+   USER STORY "HelloWorld"
+       #REVIEW Our first Scrum Program
+       SAY "Hello world!"
+   END OF STORY

@@ -1,0 +1,6 @@
+main inp = do          -- The main function
+  set_var "x" 5        -- Assign 5 to the global variable "x"
+  x <- next "x" 1      -- Get the value of "x" after 1 assignment (it's 12) <--------------\
+  set_var "x" (x + 7)  -- "x" is now 19, but it would be 12 if the result of next was 5 ---/
+  return x             -- This returns 12 because the value of the local constant x is 12,
+                       -- but the value of the global variable "x" is now 19

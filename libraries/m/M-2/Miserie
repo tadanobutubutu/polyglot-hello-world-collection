@@ -1,0 +1,15 @@
+; collatz (halts if value 1 is reached)
+; debug check1
+
+-1111110 ; initial number in unary (1s followed by 0), expected to be at least 1
+
+check1(-,*)(1,check1a) ; as 0 is never reached here, its data and state are just 'empty' and 'halt'
+check1a(0,*)(1,scroll1) ; halt if number is 1 (meaning 0 was read from queue), otherwise proceed
+
+scroll1(0,div1)(1,scroll2) ; if reach 0 here, number is even
+scroll2(0,mul1)(1,scroll1) ; if reach 0 here, number is odd
+
+div1(0,check1)(-,div2) ; if reach 0 here, dividing is done
+div2(-,*)(1,div1)
+
+mul1(10,check1)(111,mul1) ; append 111 for every 1 (multiply by 3), append 10 for 0 (increase by 1)

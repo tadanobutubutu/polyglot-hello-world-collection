@@ -1,0 +1,4 @@
+main{
+rem($COM$ is comma, because comma symbol is special symbol);
+outputln(Hello$COM$ world!)l
+}

@@ -1,0 +1,30 @@
+__include("librandom")
+
+min = stoi(input("Pick a number: "))
+max = stoi(input("Pick another: "))
+n = unpack(randint(min, max))
+
+guesses = 1
+print(NULL, f{"I'm thinking of a number between {} and {}. Good luck!", min, max})
+
+while true do
+ check = stoi(input("Your guess: "))
+
+ if (check == n) then
+  return print(NULL, f{"You guessed my number in {} tries!", guesses})
+
+ end
+
+ if (check < n) then
+  print(NULL, "Too low!")
+
+ end
+
+ if (check > n) then
+  print(NULL, "Too high!")
+
+ end
+
+ guesses = guesses + 1
+
+end

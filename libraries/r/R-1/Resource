@@ -1,0 +1,4 @@
+š#   Push 353 onto queue.
+ <#  duplicate & rollback.
+  $# Push $ onto the queue(this is not an instruction)
+# Resulting in the output $353353.

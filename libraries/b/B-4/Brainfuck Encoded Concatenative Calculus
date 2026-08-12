@@ -1,0 +1,12 @@
+[A] [B] [[+-] <+-+-] >> +-                  Starting expression; code of cat split with spaces for readability and BECC code substituted for call
+[A] [[B] [+-] <+-+-] > +-                 cons rule
+[[A] [B] [+-] <+-+-] +-                     cons rule; call is executed on the result of cat
+[[A] [B] [+-] <+-+-] [[A] [B] [+-] <+-+-] - dup rule
+[A] [B] [+-] <+-+-                          k rule
+[A] [+- [B]] +-+-                           take rule
+[A] [+- [B]] [+- [B]] -+-                   dup rule
+[A] +- [B] +-                               k rule
+[A] [A] - [B] +-                            dup rule
+A [B] +-                                    k rule; A is executed
+A [B] [B] -                                 dup rule
+A B                                         k rule; B is executed

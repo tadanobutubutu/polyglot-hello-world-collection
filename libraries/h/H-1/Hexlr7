@@ -1,0 +1,51 @@
+var Hexlr7 = function(code) {
+    // H: Print "Hello, World!"
+    // E: Print the link to the Esolangs wiki article on this programming language
+    // X: Print the source code for a minified interpreter that does not support the X command.
+    // L: Print the name of the language the interpreter was written in.
+    // R: Make the interpreter throw an error.
+    // 7: Do the following command 7 times. Only works with up to 2 sevens; 77HH would print "Hello, World!" 50 times.
+    for (var i = 0; i < code.length+1; i++) {
+        switch (code.charAt(i)) {
+            case "H":
+                if (code.charAt(i-1) !== "7") {
+                    println("Hello, World!");
+                }
+                break;
+            case "E":
+                if (code.charAt(i-1) !== "7") {
+                    println("https://esolangs.org/wiki/Hexlr7");
+                }
+                break;
+            case "X":
+                if (code.charAt(i-1) !== "7") {
+                    println("var Hexlr7=function(code){for(var i=0;i<code.length+1;i++){switch(code.charAt(i)){case \"H\":if(code.charAt(i-1)!==\"7\"){println(\"Hello, World!\");}break;case \"E\":if(code.charAt(i-1)!==\"7\"){println(\"http://esolangs.org/wiki/Hexlr7\");}break;case \"L\":if(code.charAt(i-1)!==\"7\"){println(\"JavaScript with ProcessingJS\");}break;case \"R\":if(code.charAt(i-1)!==\"7\"){var a;println(a.error);}break;case \"7\":if(code.charAt(i-1)===\"7\"){}else if(code.charAt(i+1)===\"7\"){for(var j=0;j<49;j++){Hexlr7(code.charAt(i+2));}}else{for(var j=0;j<7;j++){Hexlr7(code.charAt(i+1));}}break;}}};");
+                }
+                break;
+            case "L":
+                if (code.charAt(i-1) !== "7") {
+                    println("JavaScript with ProcessingJS");
+                }
+                break;
+            case "R":
+                if (code.charAt(i-1) !== "7") {
+                    var a;
+                    println(a.error);
+                }
+                break;
+            case "7" /* if you use 7 as an actual number it doesnt work */:
+                if (code.charAt(i-1) === "7") {
+                    
+                } else if (code.charAt(i+1) === "7") {
+                    for (var j = 0; j < 49; j++) {
+                        Hexlr7(code.charAt(i+2));
+                    }
+                } else {
+                    for (var j = 0; j < 7; j++) {
+                        Hexlr7(code.charAt(i+1));
+                    }
+                }
+                break;
+        }
+    }
+};

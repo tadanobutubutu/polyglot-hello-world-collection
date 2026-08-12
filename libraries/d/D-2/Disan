@@ -1,0 +1,14 @@
+(defun interpret-Disan (code)
+  "Interprets the piece of Disan CODE and returns NIL."
+  (declare (type string code))
+  (loop for token of-type character across code do
+    (if (char= token #\D)
+      (let ((n (parse-integer (read-line))))
+        (declare (type integer n))
+        (let ((a 0))
+          (declare (type integer a))
+          (loop while (< a n) do
+            (when (evenp a)
+              (format T "~&~d is even!" a))
+            (incf a 1))))
+      (error "Invalid character: \"~c\"." token))))

@@ -1,0 +1,6 @@
+def jumpmin_to_jumplang(jm):
+  jl = ""
+  for c in jm:
+    if c == "‽": jl += "?!"
+    else: jl += c
+  return jl

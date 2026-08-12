@@ -1,0 +1,7 @@
+function main() {
+    marker mainInner;
+    return;
+    marker mainOuter;
+}
+
+marker mainEnd;

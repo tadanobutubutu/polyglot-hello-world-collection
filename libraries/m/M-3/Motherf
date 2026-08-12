@@ -1,0 +1,3 @@
+npx @pvoronin/motherf -h
+echo "#0#0#0" > code.motherf
+npx @pvoronin/motherf code.motherf -i 123

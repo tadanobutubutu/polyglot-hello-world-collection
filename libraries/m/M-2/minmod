@@ -1,0 +1,1 @@
+World. Hello. -- Execute uninitialized instruction 'World' with indirection level 1 (push it onto 'DP'), then 'Hello' with indirection level 1 (push onto 'DP').

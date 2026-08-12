@@ -1,0 +1,3 @@
+PROGRAM_NAME="Hello"
+DEFINE_START
+SEND_STRING 0,"Hello World"

@@ -1,0 +1,5 @@
+Example Code
+Fibonacci's Sequence
+# (0 + 0 = !f 0 + 1 = !g) #
+# ($RESD $DISP 0 + !f = !f ~ 0 + !g = !g ~) #
+#{[^ !f < 200] $RESD $DISP !f + !g = !f ~ !f + !g = !g ~} #

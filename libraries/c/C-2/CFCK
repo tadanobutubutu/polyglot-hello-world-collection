@@ -1,0 +1,8 @@
+PUSH, 1;
+COND;
+  POP;
+  IN;
+  OUT;
+  PUSH, 33;
+  SUB;
+ENDWHILE;

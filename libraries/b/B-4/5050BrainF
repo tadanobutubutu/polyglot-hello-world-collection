@@ -1,0 +1,18 @@
+C:\factor-0.99\factor\5050brainf>type test.bf
+"++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++."
+
+C:\factor-0.99\factor\5050brainf>.\5050brainf test.bf
+↔
+C:\factor-0.99\factor\5050brainf>.\5050brainf test.bf
++
+C:\factor-0.99\factor\5050brainf>.\5050brainf test.bf
+%
+C:\factor-0.99\factor\5050brainf>.\5050brainf test.bf
+▼
+C:\factor-0.99\factor\5050brainf>.\5050brainf test.bf
+$
+C:\factor-0.99\factor\5050brainf>.\5050brainf test.bf
+↓
+C:\factor-0.99\factor\5050brainf>.\5050brainf test.bf
+"
+C:\factor-0.99\factor\5050brainf>

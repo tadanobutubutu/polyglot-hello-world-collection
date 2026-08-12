@@ -1,0 +1,18 @@
+global stack
+stack = [0 , 0, 0]
+print("Hello! This is the countdown translator!!")
+print("countdown is easy to learn: it has 6 functions. It is unknown programming language.")
+print("This countdown is reacheable through python shell")
+def LTTS(di):
+    global stack
+    stack = di
+def pop():
+    print(stack)
+def h():
+    print("Hello World!")
+def P21_23(args):
+    print(args)
+def MullBull(first, second):
+    print(first * second)
+def TPT():
+    print(2+2)

@@ -1,0 +1,5 @@
+1;1;0;0   // input first number and saves on R1
+1;2;0;0   // input second number and saves on R2
+3;1;2;3   // add R2 value to R1 and saves on R3
+2;3;0;0   // output the value of R3 (result)
+0;0;0;0   // exit program

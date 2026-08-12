@@ -1,0 +1,22 @@
+z - accepts input, stores in variable A
+Z - outputs variable A
+zz - puts values in A
+    z - puts fixed value based on digits. Multiple words are multiple digits.
+        z - one
+        Z - two
+        zz - three
+        zZ - four
+        Zz - five
+        ZZ - six
+        zzz - seven
+        zzZ - eight
+        zZz - nine
+        zZZ - zero
+    Z - gets value at index of A on number grid. Stores in A.
+zZ - move pointer to index A.
+Zz - replace number at pointer with A.
+ZZ - change number at index of pointer
+    z - increase number by A
+    Z - decrease number by A
+zzz - jump to line A
+zzZ - jump to line A if value at pointer is 0

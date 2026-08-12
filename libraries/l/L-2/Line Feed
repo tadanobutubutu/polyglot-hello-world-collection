@@ -1,0 +1,2 @@
+code = "\n\n"
+assert code == "\n" * len(code), "Invalid character in source code"

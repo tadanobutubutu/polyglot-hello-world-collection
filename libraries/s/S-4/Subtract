@@ -1,0 +1,16 @@
+code=`
+!!:-!--!:-!--!:-!--!:-!--!:-!--!:-!--!:-!--!:-!--!:-!--.
+`;//input code here
+input=`1234`//input input here
+
+stk=[];tmp=0;ip=0;next=_=>ip<input.length?input.codePointAt(ip++):0;pop=_=>stk.length?stk.pop():0;eval([...code].map(_=>({
+'!':'stk.push(1)',
+':':'tmp=pop();stk.push(tmp);stk.push(tmp)',
+'-':'tmp=pop();stk.push(pop()-tmp)',
+'[':'while(pop()){',
+']':'}',
+'@':'tmp=pop();stk=stk.slice(0,stk.length-tmp).concat(stk.slice(stk.length-tmp+1)).concat([stk[stk.length-tmp]])',
+',':'stk.push(next())',
+'.':'process.stdout.write(String.fromCharCode(pop()))'
+}[_]||'')).join`
+`)

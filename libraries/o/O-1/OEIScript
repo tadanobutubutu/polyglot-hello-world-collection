@@ -1,0 +1,10 @@
+HelloWorld: A117845
+Ints: A000027
+
+x = 0
+a = 0
+a {
+    a = HelloWorld x
+    x = Ints x
+    ! a
+}

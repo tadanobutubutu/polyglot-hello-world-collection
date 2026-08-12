@@ -1,0 +1,16 @@
+#define   PC_SIZE 12
+#define   W_SIZE 10
+typedef struct {unsigned int a,b;} Instruction;
+int main(void){
+   Instruction  pm[1<< PC_SIZE]={{0,0},{1,0},{1,0}};
+   bool         dm [1<< W_SIZE];
+   unsigned int pc=0;
+   for(;;){
+      pc&=(1<< PC_SIZE)-1;
+      pm[pc].a&=(1<< W_SIZE)-1;
+      pm[pc].b&=(1<< PC_SIZE)-1;
+      dm[pm[pc].a]=!dm[pm[pc].a];
+      if(dm[pm[pc].a]) pc=pm[pc].b; else pc++;
+   }
+   return(0);
+}

@@ -1,0 +1,18 @@
+value hi
+define
+value hi
+print
+value hello
+call
+defined
+value hello
+define
+value hello
+print
+value hi
+call
+defined
+value hi
+call
+value 0 # unreachable
+jump

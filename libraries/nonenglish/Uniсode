@@ -1,0 +1,25 @@
+Program:  ccссс
+
+Execution sequence:  ccссс (ccссс) (ccссс) (ccссс) ...
+                   = c (c сс сc) (c сс сc) (c сс сc) ...
+
+Initial data-string: сcс 
+
+System evolution: 
+
+Commands    Data-
+Executed    String
+--------    -------
+    c       сcс
+    c        cс
+   сс         с
+   сc         сс 
+    c         ссc
+   сс          сc
+   сc          сcс
+    c          сcсc
+   сс           cсc
+   сc           cсc
+    c           cсc
+   сс            сc
+  ...            ...

@@ -1,0 +1,1 @@
+def main : []u8 = "Hello World"

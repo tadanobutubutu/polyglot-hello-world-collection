@@ -1,0 +1,11 @@
++ Increment the current number.
+- Decrement the current number.
+< Move the current number to the stack to the "left".
+> Move the current number to the stack to the "right".
+* Push a zero onto the current stack.
+^ Pop the current number and discard it.
+# Rotate between stacks.
+, Input a number and push it to the current stack.
+. Output the current number.
+[ While the current number is nonzero...
+] End while.

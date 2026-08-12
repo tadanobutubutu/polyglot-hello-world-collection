@@ -1,0 +1,22 @@
+n = 0
+
+filename = input("Enter the code file name: ").strip()
+
+try:
+    with open(filename, "r", encoding="utf-8") as f:
+        code = f.read()
+except FileNotFoundError:
+    print("Error: file not found.")
+    raise SystemExit
+
+for c in code:
+    if c == "+":
+        n += 1
+    elif c == "-":
+        n -= 1
+    elif c == "A":
+        print(chr(n), end="")
+    elif c == "N":
+        print(n, end="")
+    elif c == "v":
+        print("\n")

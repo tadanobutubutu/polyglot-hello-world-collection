@@ -1,0 +1,8 @@
+0A56050CFF48656C6C6F20576F726C6421
+
+Explanation:
+0A   - Output as ASCII text
+5605 - Starting at 5 bytes to the right (56 = right). Relative to the start of the output command, i.e. 0A
+0C   - Number of bytes to read from code and output - in this case 12 (Hello World!)
+FF   - Terminate Program. After reading the entire hex string and outputting it, control returns here.
+The rest of the code is simply the ASCII representation of 'Hello World!' including the space and !

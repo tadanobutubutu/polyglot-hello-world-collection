@@ -1,0 +1,24 @@
+push 0c, 72
+push 1c, 101
+push 2c, 108
+push 3c, 111
+push 4c, 32
+push 5c, 87
+push 6c, 114
+push 7c, 100
+push 8c, 33
+
+snd out, 0c
+snd out, 1c
+snd out, 2c
+snd out, 2c
+snd out, 3c
+snd out, 4c
+snd out, 5c
+snd out, 3c
+snd out, 6c
+snd out, 2c
+snd out, 7c
+snd out, 8c
+
+cll out

@@ -1,0 +1,12 @@
+10 -> maxiter
+1 -> iter
+? -> guess
+
+:::
+
+guess - (guess * guess - 2) / (2 * guess) -> guess
+iter + 1 -> iter : sqrt(maxiter - iter) # exit if iter > 10
+
+:::
+
+P(guess)

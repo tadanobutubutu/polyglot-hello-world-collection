@@ -1,0 +1,7 @@
+stable mutable variable hello: Ligature = "Hello, World!";
+unsynchronised constant variable rawLigature: Ligature = String.raw`
+Bussin X
+Bussin GriddyCode
+Bussin Yappacino
+Bussin Wattesigma
+`;

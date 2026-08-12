@@ -1,0 +1,3 @@
+pragma circom 2.0.0;
+template Hello() {}
+component main = Hello();

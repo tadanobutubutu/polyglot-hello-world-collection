@@ -1,0 +1,13 @@
+def stop(code):
+  reg = 0
+  for i, c in enumerate(code):
+    if c == ",":
+      try:
+        reg = int(input("> "))
+      except ValueError:
+        reg = 0
+    elif c == ":":
+      while True:
+        print(reg)
+        if reg != 1:
+          break

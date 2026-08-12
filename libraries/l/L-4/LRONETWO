@@ -1,0 +1,41 @@
+template <const uint64_t MemSize, const uint64_t ROMSize>
+class LRONETWOMachine
+{
+private:
+	uint8_t* MEM = nullptr;
+	uint8_t* ROM = nullptr;
+	uint64_t MEMByte = 0, ROMByte = 0;
+	int8_t MEMBit = 0; uint8_t ROMBit = 0;
+
+public:
+	LRONETWOMachine(uint8_t* InsertMem, uint8_t* InsertROM) { MEM = InsertMem; ROM = InsertROM; }
+	~LRONETWOMachine() {}
+
+	int Run()
+	{
+		for (uint64_t n = 0; n < ROMSize * 8; ++n)
+		{
+			if (!MEM || !ROM) { return(-1); }
+			if (ROM[ROMByte] & 1 << (7 - ROMBit))
+			{
+				if (MEM[MEMByte] & 1 << (7 - MEMBit))
+				{ MEM[MEMByte] ^= 1 << (7 - MEMBit); MEMBit -= 2; }
+				else { MEM[MEMByte] ^= 1 << (7 - MEMBit); --MEMBit; }
+				++ROMBit;
+			}
+			else
+			{
+				if (MEM[MEMByte] & 1 << (7 - MEMBit))
+				{ MEM[MEMByte] ^= 1 << (7 - MEMBit); MEMBit += 2; }
+				else { MEM[MEMByte] ^= 1 << (7 - MEMBit); ++MEMBit; }
+				++ROMBit;
+			}
+			if (MEMBit > 7) { ++MEMByte; MEMByte %= MemSize; MEMBit %= 8; }
+			else if (MEMBit < 0)
+				{ --MEMByte; if (MEMByte >= MemSize) { MEMByte = MemSize - 1; } MEMBit += 8; }
+			if (ROMBit > 7) { ++ROMByte; ROMByte %= ROMSize; ROMBit %= 8; }
+		}
+		ROMByte = 0; ROMBit = 0; MEMByte = 0; MEMBit = 0;
+		return(0);
+	}
+};

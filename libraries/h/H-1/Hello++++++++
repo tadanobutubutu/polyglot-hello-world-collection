@@ -1,0 +1,26 @@
+using System;
+					
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("welcome to the exquisite Hello++++++++ ide.");
+		Console.WriteLine("gib code");
+		string input = Console.ReadLine();
+		
+		string build = "";
+		for (int i = input.Length; i > 0; i--) {
+		    build += "h";
+		}
+ 		
+		if (input.ToLower() == build) {
+		    foreach (char c in input) {
+		        Console.WriteLine("Hello World");
+		    }
+		} else {
+		    Console.WriteLine("\n" + input);
+		}
+		Console.WriteLine("\nProgram Ended!\n\n");
+		Main();
+	}
+}

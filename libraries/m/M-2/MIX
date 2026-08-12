@@ -1,0 +1,49 @@
+def main():
+	op = ['9','9','9','9']
+	code_ = raw_input("Code: ")
+	index = 3
+	i=0
+	code=[]
+	buffer=65
+	output=''
+	to_ip = 0
+	for chr_ in code_:
+		code.append(int(chr_))
+	while (i < len(code)):
+		op[0] = code[i % len(code)]
+		op[1] = code[(i+op[0]) % len(code)]
+		op[2] = int(int(op[1])+int(op[2])) % 10
+		op[3] = int(int(op[1])*int(op[2])) % 10
+		if(to_ip==''):
+			i+=1
+			continue
+		to_ip = op[i % 4];
+		to_ip = int(to_ip)
+		if(to_ip==0):
+			output += str(chr(buffer))
+		if(to_ip==1):
+			buffer+=1
+		if(to_ip==2):
+			buffer-=1
+		if(to_ip==3):
+			buffer+=60
+		if(to_ip==4):
+			buffer=0
+		if(to_ip==5):
+			buffer = buffer % 256
+		if(to_ip==6):
+			i += buffer
+		if(to_ip==7):
+			i -= buffer
+		if(to_ip==8):
+			index += buffer
+		if(to_ip==9):
+			index -= buffer
+		temp = op[0]
+		#print op
+		#print to_ip
+		index+=1
+		i+=1
+	print output
+main()
+raw_input()

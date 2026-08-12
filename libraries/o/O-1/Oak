@@ -1,0 +1,20 @@
+   /*
+   This is a multi-line
+   comment
+   */
+   
+   // This is a single-line comment
+   
+   // Import the std package, which contains print
+   // Fn names followed by '!' are macros
+   package!("std");
+   
+   // Declare the main function
+   let main() -> i32
+   {
+       // Print hello world to the terminal
+       print("Hello, world!\n");
+   
+       // Return an exit code of zero- no error
+       0
+   }

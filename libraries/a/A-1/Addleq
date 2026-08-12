@@ -1,0 +1,27 @@
+    # Hello world!
+
+    # output *p; 
+    dec a ?+3; Z Z ?-6
+    p a
+    a:1 (-1)
+
+    # p++
+    inc p
+
+    # clear temps
+    dec t1 ?+3; Z Z ?-6
+    dec t2 ?+3; Z Z ?-6
+
+    # t2=(-p+1)
+    p t1
+    dec t1 ?+3
+    dec t2 ?-6
+
+    # check if p<E
+    dec t2
+    dec t2 # now t2==-p-1
+    E t2 (-1)
+    Z Z 0
+
+. p:H Z:0 dec:-1 inc:1 t1:0 t2:0
+. H: "Hello, World!\n" E:E

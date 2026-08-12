@@ -1,0 +1,1 @@
+print("" if input() else "Nope.",end="")

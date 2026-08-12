@@ -1,0 +1,2 @@
+push 72;out;push 101;out;push 108;out;push 108;out;push 111;out;push 32;out;push 119;out;push 111;out;push 114;out;push 108;out;push 100;out;push 33;out;stop
+RUN

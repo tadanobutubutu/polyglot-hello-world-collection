@@ -1,0 +1,40 @@
+# This code by User:Salpynx is python, but is meant to
+# represent pseudo-code for the mathematical
+# function definitions and calculations
+# and could be implemented in any language,
+# or performed on a calculator with sufficient range.
+import math
+
+## The following fn.s all take integers as input, and return only integers
+
+# size(n) => returns the 'size' of a bf8 int (number of bf symbols it represents)
+size = lambda n: int(math.floor(math.log(n, 8)) + 1)
+
+# rep(r, n) => repeats r times the code n (not a loop, and where 0<n<8)
+rep = lambda r, n: (8**r-1)//7 * n
+
+# out(c) => returns bf8 code that prints ASCII value c
+out = lambda c: 8**(c+1) + rep(c, 3) * 8 + 5
+
+# repeatout(n) => appends another output command to n
+repeatout = lambda n: n * 8 + 5
+
+# seq(a, b) => combines two bf8 progams in sequence ab
+seq = lambda a, b: b + a * 8**size(b)
+
+## Every variable(int) below is a standalone Brainfoctal program
+
+h = out(ord('H'))
+e = out(ord('e'))
+l = out(ord('l'))
+o = out(ord('o'))
+w = out(ord('W'))
+r = out(ord('r'))
+d = out(ord('d'))
+space = out(32)
+
+hello = seq(h, seq(e, seq(repeatout(l), o)))
+world = seq(w, seq(o, seq(r, seq(l, d))))
+
+## This variable collects the final Hello World program, it is an int:
+output = seq(hello, seq(space, world))

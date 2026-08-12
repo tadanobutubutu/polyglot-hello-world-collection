@@ -1,3 +1,3 @@
 # Esoteric Languages
 
-See [all.md](all.md).
+See [all.md](all.md) for the full catalog.

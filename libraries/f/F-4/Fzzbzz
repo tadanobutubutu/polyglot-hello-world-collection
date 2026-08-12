@@ -1,0 +1,17 @@
+open = '<'
+close = '>'
+equals = '='
+slash = '/'
+comma = ','
+digit = '0' | '1' | ... | '9'
+lowchar = 'a' | 'b' | ... | 'z'
+capchar = 'A' | 'B' | ... | 'Z'
+alpha = lowchar | capchar
+alphanumeric = alpha | digit
+int = digit | int, digit
+string = alpha | string, alphanumeric
+
+lower = open, int
+upper = int, close
+rules = int, equals, string | rules, comma, int, equals, string
+fzzbzz = lower, slash, rules, slash, upper

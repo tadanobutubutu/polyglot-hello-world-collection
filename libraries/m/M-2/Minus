@@ -1,0 +1,7 @@
+Program := Statement*
+Statement := LeftHand RightHand
+LeftHand:= Letter
+RightHand := Letter | Integer
+Letter := one of 'A' ... 'Z' and 'a' ... 'z'
+Integer := Digit+
+Digit := one of '0' ... '9'

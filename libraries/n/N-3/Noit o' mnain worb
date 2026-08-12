@@ -1,0 +1,7 @@
+  (blank) Empty space
+#         Wall
+.         Bobule
+><^v      Diodes
++         Source
+-         Sink
+!         Load

@@ -1,0 +1,15 @@
+Tag system 
+    m: 2
+    A: {1,2,3,H} 
+    P:
+        1  -->  3321H
+        2  -->  331
+        3  -->  33
+
+Computation
+    Initial word: 211
+                    1331
+                      313321H
+                        3321H33
+                          21H3333
+                            H3333331 (halt).

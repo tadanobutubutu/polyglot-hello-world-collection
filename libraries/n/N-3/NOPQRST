@@ -1,0 +1,9 @@
+   N - push the null value onto the stack
+   O - do nothing.
+   P - print the top value of the stack to standard output.
+       Strings are printed as normal, regular expressions are converted to strings first (without the //),
+       types and null values print nothing, and quining constants print nothing because they are technically not strings).
+   Q - push the quining constant onto the stack.
+   R - push an empty regular expression onto the stack.
+   S - push an empty string onto the stack.
+   T - Unless the stack is empty, pop a value and push its type.

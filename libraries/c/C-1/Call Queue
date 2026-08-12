@@ -1,0 +1,7 @@
+function a() { A; c(); d(); }
+function b() { B; e(); f(); }
+function c() { C; }
+function d() { D; }
+function e() { E; }
+function f() { F; }
+function main() { M; a(); b(); }

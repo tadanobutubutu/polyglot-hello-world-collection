@@ -1,0 +1,21 @@
+def importer():
+    try: CM()
+    except:
+        CM()
+    finally: CM()
+class CM:
+    def __new__(cls):
+        try:
+            return clsmvks2.CM.__new__(cls)
+        except Exception as exc:
+            try: raise Exception from exc
+            except Exception as err:
+                try: raise BaseException from err
+                except BaseException as trd:
+                    try: raise PendingDeprecationWarning from trd
+                    except PendingDeprecationWarning as trderr:
+                        help('hwcae')
+import clsmvks2
+try: importer()
+except: importer()
+finally: importer()

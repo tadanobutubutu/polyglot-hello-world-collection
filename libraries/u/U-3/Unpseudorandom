@@ -1,0 +1,68 @@
+'''Transpiler from Unpseudorandom to brainfuck'''
+import random
+
+def generate(seed, log_func=lambda *s: None):
+    commands = [_left, _right, _up, _down, _in, _out, _around, _stop]
+    random.seed(seed)
+    code = ["@"]
+    #replace @ symbols with more code
+    while "@" in code:
+        log_func(*code)
+        where = code.index("@")
+        new = random.choice(commands)("".join(code[:where]))
+        code[where:where+1] = new
+    code += "." #code that is after the last output of program is redundant
+    log_func()
+    return "".join(code)
+
+#commands:
+def _left(previous):
+    if previous.endswith(">"):
+        # >< is redundant
+        return "@"
+    return "<@"
+
+def _right(previous):
+    if previous.endswith("<"):
+        # <> is redundant
+        return "@"
+    return ">@"
+
+def _up(previous):
+    if previous.endswith("-"):
+        # -+ is redundant
+        return "@"
+    return "+@"
+
+def _down(previous):
+    if previous.endswith("+"):
+        # +- is redundant
+        return "@"
+    return "-@"
+
+def _in(previous):
+    return ",@"
+
+def _out(previous):
+    return ".@"
+
+def _around(previous):
+    if previous.endswith("]"):
+        # [...][...] is redundant
+        return "@"
+    return "[@]@"
+
+def _stop(previous):
+    if previous.endswith("["):
+        # [] is redundant
+        return "@"
+    if previous == "":
+        # no empty programs
+        return "@"
+    return ""
+
+if __name__ == "__main__":
+    seed = input("Enter seed:").strip()
+    while seed.isnumeric():
+        print(generate(int(seed), log_func=print))
+        seed = input("Enter seed:")

@@ -1,0 +1,1 @@
+a=raw_input()\nif a=="0":\n\tprint("0")\nelif a=="1":\n\twhile True:\n\t\tprint("1")

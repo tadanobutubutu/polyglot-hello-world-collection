@@ -1,0 +1,5 @@
+  (λp.p(λa.λb.b)) (cons K (cons L (...)))
+= (cons K (cons L (...))) (λa.λb.b)
+= (λx. x K (cons L (...))) (λa.λb.b)
+= (λa.λb.b) K (cons L (...))
+= (cons L (...))

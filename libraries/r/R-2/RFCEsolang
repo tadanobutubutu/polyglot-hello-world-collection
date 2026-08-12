@@ -1,0 +1,71 @@
+   Network Working Group                                          N. Seriot
+   Request for Comments: 9379                        https://seriot.ch/rfc/
+   Category: Experimental                                        April 2026
+   
+                                 RFC Esolang                               
+   
+   Abstract
+   
+      RFC Esolang is a programming language for Specification-Driven
+      Development (SDD), in which the specification document is the
+      source code.
+   
+      Execution relies on strict, literal adherence to the requirement
+      levels defined in RFC 2119/8174.
+   
+   1.  Machine Model
+   
+      Registers MUST be labels in a packet diagram.  They hold unbounded
+      integers and default to zero.  Overflow is somebody else's problem.
+         
+          0                   1                   2
+          0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3
+         +-----------+-----------+-----------+-----------+
+         |  FLAG     |  N        |  LIMIT    |           |
+         +-----------+-----------+-----------+-----------+
+   
+   2.  Instruction Set
+   
+      Conforming implementations only act on numbered subsection lines
+      (N.M.) matching one of the patterns below.  Everything else is a
+      comment and MUST be ignored by the parser.
+   
+         <Reg> MUST be set to <Expr>.
+         <Reg> MUST be transmitted.
+         Program SHOULD proceed to Section <N.M>.
+         Program MUST proceed to Section <N.M>.
+         Program MAY terminate.
+   
+      The machine maintains a reserved register named FLAG, initialized to
+      zero.  The "SHOULD proceed" instruction transfers control iff FLAG is
+      nonzero.  Comparison expressions evaluate to 1 when true and 0 when
+      false.  Expressions use conventional arithmetic syntax.  The
+      transmission channel is implementation-defined, but defaults to
+      standard output.
+      
+      A minimal, non-normative interpreter is available at URI:
+      <https://seriot.ch/rfc/rfc.py>.  Executing this document yields the
+      powers of two.
+   
+   3.  The Powers of Two
+   
+   3.1.  N MUST be set to 1.
+   3.2.  LIMIT MUST be set to 9379.
+   3.3.  N MUST be transmitted.
+   3.4.  FLAG MUST be set to LIMIT > N * 2.
+   3.5.  Program SHOULD proceed to Section 3.7.
+   3.6.  Program MAY terminate.
+   3.7.  N MUST be set to N * 2.
+   3.8.  Program MUST proceed to Section 3.3.
+   
+   4.  Security Considerations
+   
+      Implementations SHOULD ensure that compliant behavior does not
+      compromise system confidentiality, integrity, or availability.  Any
+      security issue is, by definition, a protocol deviation.
+   
+   5.  Interoperability Considerations
+   
+      Pre-existing RFCs MAY parse as valid RFC Esolang programs,
+      constituting the language standard library.  Such behavior is
+      historically accidental.

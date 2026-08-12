@@ -1,0 +1,5 @@
+MOVSW                         # one byte
+LODSW                         # one byte
+ADD SI,AX                     # two bytes
+XCHG SI,DI                    # two bytes
+JMP SHORT # to the MOVSW line # two bytes

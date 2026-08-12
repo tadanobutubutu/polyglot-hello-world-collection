@@ -1,0 +1,10 @@
+!********   ( The minion will turn right )
+        *
+        
+        *
+!********   ( The minion will pick a random direction )
+        *
+        
+        *
+!*******T   ( The minion can however be forced to turn right in this situation if
+        *     the programmer uses the T instruction )

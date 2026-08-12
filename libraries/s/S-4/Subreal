@@ -1,0 +1,4 @@
+INC A, N      := +0<:N
+INC B, N      := +0>:N
+JZDEC A, N, M := /,M:N
+JZDEC B, N, M := \,M:N

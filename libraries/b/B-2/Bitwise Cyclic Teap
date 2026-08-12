@@ -1,0 +1,14 @@
+Code: 00111
+Data-string: 101
+IP: 0    Data-heap: 011
+IP: 1    Data-heap: 11
+IP: 2    Data-heap: 1
+IP: 4    Data-heap: 11
+IP: 1    Data-heap: 011
+IP: 2    Data-heap: 11
+IP: 4    Data-heap: 111
+IP: 1    Data-heap: 0111
+IP: 2    Data-heap: 111
+IP: 4    Data-heap: 1111
+IP: 1    Data-heap: 01111
+IP: 2    Data-heap: 1111

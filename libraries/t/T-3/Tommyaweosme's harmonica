@@ -1,0 +1,13 @@
+1B XX - declares a variable XX and sets it to 0
+1D XX - prints a variable XX to the screen
+2B XX - increments a variable XX
+2D XX - decrements a variable XX
+3B XX YY - repeat the following code until 3D until a variable XX is equal to a variable YY
+3D - look at 3B's definition
+4B - ends the program
+4D XX - puts users input into a variable XX
+5B XX YY - swaps the content of two variables XX and YY
+5D XX YY - sets a variable XX to a variable YY
+6B XX YY - does the following code until 6D if a variable XX is equal to a variable YY
+6D - look at 6B's definition
+7B to 9D - absurdly high note, definitions may vary per interpreter

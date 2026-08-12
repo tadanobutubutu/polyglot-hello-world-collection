@@ -1,0 +1,17 @@
+<program>       ::= <program_lines>
+<program_lines> ::= <prefix_exp> | <fn_def> <program_lines> | <var_assign> <program_lines>
+<var_assign>    ::= <identifier> = <prefix_exp>
+<fn_def>        ::= fun <identifier> <identifier> = <prefix_exp>
+<prefix_exp>    ::= + <prefix_exp> <prefix_exp>   |
+                    - <prefix_exp> <prefix_exp>   |
+                    * <prefix_exp> <prefix_exp>   |
+                    / <prefix_exp> <prefix_exp>   |
+                    ( <identifier> <prefix_exp> ) |
+                    <identifier>                  |
+                    <number>
+<identifier>    ::= <letter><id_tail> | <letter>
+<id_tail>       ::= <letter><id_tail> | <digit><id_tail> | <letter> | <digit>
+<number>        ::= -<digits> | <digits>
+<digits>        ::= <digit><digits> | .<digits> | <digit>
+<digit>         ::= (0 .. 9)
+<letter>        ::= ('A'..'Z') ++ ('a'..'z')

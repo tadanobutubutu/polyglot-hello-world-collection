@@ -1,0 +1,15 @@
+ I = S K K                          -- I x = x
+ B = S (K S) K                      -- B f g x = f (g x)
+ V = B (S I) K                      -- V x f = f x 
+ 
+ -- [a, b] -> [b, a+b]
+ step = S                           -- "Distributes" [a,b] over the arguments
+         (B (T 2) (V (K I)))        -- [a, b] -> T 2 b
+         (S (B + (V K)) (V (K I)))  -- [a, b] -> a + b
+ 
+ -- n -> fib n
+ fib = S
+     (V step)                       -- n -> n step
+     (K (T 2 0 1))                  -- n -> [0,1]
+ 
+ ! ($ fib) K                        -- Read input & pass it to fib

@@ -1,0 +1,4 @@
+0dp1dp[dt+dpIe] !(Computes Fibonacci sequence, pausing after each number. Remove the Ie to eliminate the pause.)
+Mf2/F?("Even"!()"Odd") !(Pops the top of stack and prints "Even" if it is even or "Odd" if it's odd.)
+H^D[d<\Hr+x>d#?Q]e !(Gets help on all commands. The ^D is a literal Ctrl-D character.)
+2s?!rex !(( cond true false -- ') if statement like in DUP or Factor.)

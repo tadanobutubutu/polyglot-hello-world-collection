@@ -1,0 +1,26 @@
++ increment current cell
+- decrement current cell
+> move one cell to the right
+< move one cell to the left
+. print the value of the current cell as a character
+, input a character and place its value into the current cell
+[ if the current cell is zero, jump past the matching ]
+] if the current cell is not zero, jump back to the matching [
+( if the current cell is zero, jump past the matching ) or |, if present, as in L00P
+| jump past the matching ), as in L00P
+) no operation: this is a placeholder for ( and |, as in L00P
+: bind the next character to the function occurring after the next character to before the matching ;, as in Toadskin
+; ends a function definition, a placeholder for :, can be thought of as a return statement, as in Toadskin
+@ separates concurrent programs in a source file, like Weave's ;
+~ swap data tapes, as in Weave
+% fork the process, like brainfork's Y
+& spawn a new thread, semantically like %
+{ if the current cell is not zero, jump past the matching }
+} if the current cell is zero, jump back to the matching {
+= no operation
+$ return from a function, or end the program if not in a function
+' break out of the current loop: jump past the first unmatched ] or }
+` continue: jump to the first unmatched ] or }
+* yield the processor
+^ V, or up, the current cell, unblocking a thread, if any, blocked on the cell
+_ P, or down, the current cell, blocking if its value is zero

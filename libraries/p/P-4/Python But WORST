@@ -1,0 +1,2 @@
+print('Hello World!')
+1/0 # division by zero will cause an error

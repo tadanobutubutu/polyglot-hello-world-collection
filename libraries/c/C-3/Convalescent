@@ -1,0 +1,6 @@
+1 inc A 2
+2 inc A 3
+3 inc B 4
+4 inc B 5
+5 dec A 4 6
+6 halt

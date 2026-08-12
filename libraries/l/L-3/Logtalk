@@ -1,0 +1,4 @@
+:- object(hello).
+:- public(run/0).
+run :- write('Hello World'), nl.
+:- end_object.

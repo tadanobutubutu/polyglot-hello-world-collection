@@ -1,0 +1,1 @@
+$ evalsfuck ./helloworld.ef | evalsfuck ./print.ef

@@ -1,0 +1,5 @@
+Program ::= {State}.
+State   ::= "*" Name "{" {Rule} ["!" Name] "}".
+Rule    ::= LString "?" RString "!" [Name].
+LString ::= {quoted | "few" | "many" | "start" | "finish"}.
+RString ::= {quoted | digit | Name "(" RString ")"}.

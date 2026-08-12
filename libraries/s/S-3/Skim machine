@@ -1,0 +1,31 @@
+program            := [ linebreaks ]
+                   ,  [ programLine ]
+                   ,  { linebreaks , programLine }
+                   ,  [ linebreaks ]
+                   ;
+programLine        := emptyLine | commandLine ;
+commandLine        := optionalSpaces
+                   ,  ( incInstruction | jzdecInstruction )
+                   ,  optionalSpaces
+                   ;
+emptyLine          := optionalSpaces ;
+incInstruction     := "INC" , mandatorySpaces , accumulatorName ;
+jzdecInstruction   := "JZDEC"
+                   ,  mandatorySpaces
+                   ,  accumulatorName
+                   ,  argumentSeparator
+                   ,  integer
+                   ;
+accumulatorName    := nameCharacter , { nameCharacter } ;
+nameCharacter      := letter | digit | "_" ;
+letter             := "a" | ... | "z" | "A" | ... | "Z" ;
+integer            := [ "+" | "-" ] , digit , { digit } ;
+digit              := "0" | "1" | "2" | "3" | "4"
+                   |  "5" | "6" | "7" | "8" | "9"
+                   ;
+linebreaks         := linebreak , { linebreak } ;
+linebreak          := "\n" ;
+argumentSeparator  := optionalSpaces , "," , optionalSpaces ;
+optionalSpaces     := { space } ;
+mandatorySpaces    := space , { space } ;
+space              := " " | "\t" ;

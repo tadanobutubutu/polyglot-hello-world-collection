@@ -1,0 +1,23 @@
+0=72 1=101 2=108 3=111 4=32 5=87 6=114 7=100 8=1 9=2
+move 0 -1
+move 8 10
+move 1 -1
+move 9 10
+move 2 -1
+move 8 10
+move 2 -1
+move 9 10
+move 3 -1
+move 8 10
+move 4 -1
+move 9 10
+move 5 -1
+move 8 10
+move 3 -1
+move 9 10
+move 6 -1
+move 8 10
+move 2 -1
+move 9 10
+move 7 -1
+move 0 0

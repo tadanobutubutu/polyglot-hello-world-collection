@@ -1,0 +1,19 @@
+(comment(Welcome! View https://wiki.zenoverse.net/w/index.php/Zenoblockly_Wiki for in-depth tutorials on how to use Zenoblockly. Additionally, source code is available at https://git.zenoverse.net/Zenoblockly))
+
+(set(text(costume))(image(text(./example.svg))))
+
+(summon
+ (do
+  (forever
+   (do(play(audio(text(./example.mp3)))))
+  )
+ )
+)
+
+(summon
+ (do
+  (forever
+   (do(set(text(size))(multiply(get(text(size)))(text(1.001)))))
+  )
+ )
+)

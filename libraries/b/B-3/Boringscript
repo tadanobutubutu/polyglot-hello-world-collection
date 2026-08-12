@@ -1,0 +1,7 @@
+import time
+print("boringscript interpreter")
+for c in input(">>>"):
+    if c=="'":pass
+    if c=='"':time.sleep(1); pass
+    if c=="z":time.sleep(1)
+    if c=="n":print("\n")

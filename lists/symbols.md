@@ -1,6 +1,6 @@
 # symbols
 
-53 entries.
+84 entries.
 
 ##### !
 ```text
@@ -16,17 +16,99 @@
 ```
 [Source File](../libraries/symbols/!@#$%^&* __+)
 
+##### !@$%^&* _+
+```text
+ ^dlroW ,olleH(@)
+```
+[Source File](../libraries/symbols/!@$%^&* _+)
+
 ##### !@sharp$pct^andstar_+
 ```text
  ^dlroW ,olleH(@)
 ```
 [Source File](../libraries/symbols/Symbols-2/!@sharp$pct^andstar_+.ecndpcaalr)
 
+##### $+-?
+```text
+$+++++++++A?b$++++++++$-aB$
+$+++C?d$++++++++++$-cD$-
++++++++
+
++++
+$++++++++E?f$--------$-eF$---
+------------
+$+++++++++G?h$++++++$-gH$+
+$++++++I?j$++++$-iJ$
++++
+------
+--------
+$++++++++K?l$--------$-kL$---
+```
+[Source File](../libraries/symbols/$+-?)
+
+##### %^2^-1
+```text
+spmmmmmmiiiiiiiieiepssipeepipe'spmmmmemmiiiesiiepipeiieiise'spmmmmpipse
+```
+[Source File](../libraries/symbols/%^2^-1)
+
 ##### *><>
 ```text
 "Hello, World!"r>Ool?u!|;
 ```
 [Source File](../libraries/symbols/*><>)
+
+##### ++
+```text
+int main() {
+  while (1) {
+  }
+}
+```
+[Source File](../libraries/symbols/++)
+
+##### +++
+```text
+72 !$ 101 !$ +7 !$ !$ +3 !$ 44 !$ 32 !$ 87 !$ 111 !$ 114 !$ 108 !$ +-8 !$ 33 !$
+```
+[Source File](../libraries/symbols/+++)
+
+##### +
+```text
+def run_plus_period_star(code: str, starting_input=''):
+    pointer = 0  # for instructions
+    location = 0  # for tape
+    tape = [0]
+    input_string = starting_input  # allows multiple inputs to happen easily
+
+    while pointer < len(code):
+        if code[pointer] == '>':
+            location += 1
+            if location == len(tape):
+                tape.append(0)
+        elif code[pointer] == '<':
+            if location <= 0:
+                raise ValueError('Cannot move left from position 0')
+            location -= 1
+        elif code[pointer] == '+':
+            tape[location] = (tape[location] + 1) % 256
+        elif code[pointer] == '-':
+            tape[location] = (tape[location] - 1) % 256
+        elif code[pointer] == '.':
+            print(chr(tape[location]), end='')
+        elif code[pointer] == ',':
+            if input_string == '':
+                input_string = input(">>")
+            if len(input_string) > 0:
+                tape[location] = ord(input_string[0])
+                input_string = input_string[1:]
+        elif code[pointer] == '*':
+            if tape[location] == 0:
+                pointer = -1
+        pointer += 1
+    return tape
+```
+[Source File](../libraries/symbols/+.*)
 
 ##### ,,,
 ```text
@@ -39,6 +121,106 @@
 Hello, World!
 ```
 [Source File](../libraries/symbols/---)
+
+##### 0
+```text
+0 - calculates 0
+```
+[Source File](../libraries/symbols/0)
+
+##### 0,1
+```text
+--==-=-::~,.++++":=[.]
+```
+[Source File](../libraries/symbols/0,1)
+
+##### 01
+```text
+hello=0100100001100101011011000110110001101111001000000
+1110111011011110111001001101100011001000010000100001010.
+```
+[Source File](../libraries/symbols/01)
+
+##### 0123456789!
+```text
+# (0123456789!?)
+
+import requests
+import re
+
+stuffamt = 50
+stuff = [0 for i in range(stuffamt)]
+cursor = 0
+
+skipln = False
+
+def run(fname="numberesolang/input.txt"):
+  global cursor, stuff, stuffamt, skipln
+  with open(fname, "r") as file:
+    lines = file.readlines()
+    for i in lines:
+      if skipln:
+        skipln = False
+        continue
+      for j in i.strip():
+        if j == "0":
+          cursor = 0
+        if j == "1":
+          if cursor >= stuffamt-1:
+            print(f"CursorError: cursor value {cursor} exceeds maximum {stuffamt}")
+            break
+          cursor += 1
+        if j == "2":
+          if cursor <= 0:
+            print(f"CursorError: cursor value {cursor} is less than 0")
+            break
+          cursor -= 1
+        if j == "3":
+          stuff[cursor] += 1
+        if j == "4":
+          stuff[cursor] += 10
+        if j == "5":
+          stuff[cursor] -= 1
+        if j == "6":
+          print(stuff[cursor])
+        if j == "7":
+          astr = ""
+          for k in stuff:
+            if k != 0:
+              astr += chr(k)
+          print(astr)
+        if j == "8":
+          for k in stuff:
+            if k != 0:
+              print(k)
+        if j == "9":
+          inp = input(" > ")
+          if re.search(r"[^0-9]", inp):
+            for k in inp:
+              stuff[cursor] = ord(k)
+              cursor += 1
+          else:
+            stuff[cursor] = int(inp)
+        if j == "(":
+          stuff = [0 for i in range(stuffamt)]
+        if j == ")":
+          astr = ""
+          for k in stuff:
+            if k != 0:
+              astr += chr(int(k))
+          res = requests.get(astr)
+          stuff[cursor] = res.text
+        if j == "!":
+          stuff[cursor] = ord(str(stuff[cursor]))
+        if j == "?":
+          if stuff[cursor] <= 0:
+            skipln = True
+        if j == ".":
+          stuff[cursor] = 0
+
+run()
+```
+[Source File](../libraries/symbols/0123456789!)
 
 ##### 0587
 ```text
@@ -73,13 +255,6 @@ $~<:ffffffffffffffb1:+$<:77:~$
 ```
 [Source File](../libraries/symbols/Symbols-1/0815.0815)
 
-##### 0_nop^
-```text
-1$(Hello World
-")`
-```
-[Source File](../libraries/symbols/Symbols-1/0_nop^)
-
 ##### 1
 ```text
 H111*,e111*,l111*,l111*,o111*, 111*,W111*,o111*,r111*,l111*,d111*,!111*,
@@ -101,6 +276,27 @@ H111*,e111*,l111*,l111*,o111*, 111*,W111*,o111*,r111*,l111*,d111*,!111*,
 111++"*1+; [\n]
 ```
 [Source File](../libraries/symbols/Symbols-1/1+)
+
+##### 10 1
+```text
+东东东东东东东东东东崛巨东巨东东东巨东东东东东东东巨东东东东东东东东东东龙龙龙龙方起巨巨巨东东正巨东正东东东东东东东正正东东东正龙龙东东正巨东东东东东东东东东东东东东东东正巨正东东东正方方方方方方正方方方方方方方方正龙龙东正龙正
+```
+[Source File](../libraries/symbols/10 1)
+
+##### 1066
+```text
+九冖丫乣吇乣乢吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇乣乢吇也矕乡也矕乡也邟乞
+九邟丫乣吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇乣乢吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣吇乣吇乣乢吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇也矕乡也人乞
+九矕丫乣吇乣乢吇乣乢吇乣吇乣乢吇乣乢吇乣吇乣吇乣乞
+九人丫乣吇乣乢吇乣乢吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣吇乣吇乣吇乣乢吇乣吇乣乢吇乣吇乣乞
+```
+[Source File](../libraries/symbols/1066)
+
+##### 111
+```text
+1110010
+```
+[Source File](../libraries/symbols/111)
 
 ##### 123
 ```text
@@ -124,6 +320,12 @@ H111*,e111*,l111*,l111*,o111*, 111*,W111*,o111*,r111*,l111*,d111*,!111*,
 ```
 [Source File](../libraries/symbols/Symbols-1/123)
 
+##### 12345678
+```text
+一一一一一一一一七四一一一一七四一一四一一一四一一一四一三三三三二八四一四一四二四四一七三八三二八四四六四二二二六一一 一一一一一六六一一一六四四六三二六三六一一一六二二二二二二六二二二二二二二二六四四一六四一一六
+```
+[Source File](../libraries/symbols/12345678)
+
 ##### 1234567890
 ```text
 ---START 01---
@@ -132,6 +334,46 @@ hello=0100100001100101011011000110110001101111001000000
 ---END---
 ```
 [Source File](../libraries/symbols/1234567890)
+
+##### 129
+```text
+(()(()())()) Version Stack
+((( Pushes a stack that contains:
+ (()((()()))) Input
+ (((()()))()) Output
+ ((())(()())) Duplicate
+ ((((()))())(())) Run
+)( And push the same stack again.
+ (()((()()))) Input
+ (((()()))()) Output
+ ((())(()())) Duplicate
+ ((((()))())(())) Run
+)))
+((((()))())(())) And run the program.
+```
+[Source File](../libraries/symbols/129)
+
+##### 1337
+```text
+data SkExp = CombS | CombK | SkApp SkExp SkExp
+
+
+skToNum CombS = [1,0] -- (x x) x
+
+skToNum CombK = [0] -- (x x)
+skToNum (SkApp x y) = xs++[n]++ys
+	where
+		xs = skToNum x
+		ys = skToNum y
+		n = max (maximum xs) (maximum ys + 1)
+```
+[Source File](../libraries/symbols/1337)
+
+##### 1=0+1
+```text
+x=y1+y2+...+ym
+```
+[Source File](../libraries/symbols/1=0+1)
 
 ##### 1C Enterprise
 ```text
@@ -266,23 +508,163 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 [Source File](../libraries/symbols/2)
 
+##### 2
+```text
+s=2o=.i=+d=-iisiiiisiiiiiiiioiiiiiiiiiiiiiiiiiiiiiiiiiiiiioiiiiiiiooiiiodddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddodddddddddddddddddddddsddoddddddddoiiioddddddoddddddddo
+```
+[Source File](../libraries/symbols/2.+-)
+
+##### 200
+```text
+202202202202202202202202222200202202202202202202202202002020000200202202202202202202202202022200202202202202202202202202222200202202202202202202202202202202202202002020000200202202202202202022202202202202202202202022022202202202022200202202202202202202202202222200202202202202202002020000200202202202202022020020020020020020020020020020020020022002002002002202202202202202202202202202202202202202202202022200200022202202202022020020020020020020022020020020020020020020020022200200202022
+```
+[Source File](../libraries/symbols/200)
+
+##### 2014
+```text
+"use strict";
+const server="129.6.15.30"; // Currently a NIST server; change this to the address of the "2014 server" if it exists.
+const net=require("net");
+let d=Buffer.allocUnsafe(0);
+net.connect(37,server).on("data",x=>{
+  d=Buffer.concat([d,x]);
+  if(d.length>=4) {
+    if(new Date((d.readUInt32BE(0)-2208988800)*1000).getFullYear()==2014) {
+      console.log("Hello, world!");
+      process.exit(0);
+    } else {
+      console.error("");
+      process.exit(1);
+    }
+  }
+}).on("error",()=>{
+  console.error("Error communicating with 2014 server.");
+  process.exit(2);
+}).on("end",()=>{
+  console.error("Failed to receive four bytes of data from server.");
+  process.exit(2);
+});
+```
+[Source File](../libraries/symbols/2014)
+
+##### 2017
+```text
+"use strict";
+const server="129.6.15.30"; // Currently a NIST server; change this to the address of the "2017 server" if it exists.
+const net=require("net");
+let d=Buffer.allocUnsafe(0);
+net.connect(37,server).on("data",x=>{
+  d=Buffer.concat([d,x]);
+  if(d.length>=4) {
+    if(new Date((d.readUInt32BE(0)-2208988800)*1000).getFullYear()==2017) {
+      console.log("2017 is da bomb");
+      process.exit(0);
+    } else {
+      console.error("To 2017 or Not to 2017? You decided Not to 2017.");
+      process.exit(1);
+    }
+  }
+}).on("error",()=>{
+  console.error("Error communicating with 2017 server.");
+  process.exit(2);
+}).on("end",()=>{
+  console.error("Failed to receive four bytes of data from server.");
+  process.exit(2);
+});
+```
+[Source File](../libraries/symbols/2017)
+
+##### 2023
+```text
+import sys,datetime,os
+def bf(code):
+    s=[]
+    matches={}
+    tape=[0]*1000000
+    for i,j in enumerate(code):
+        if j=='[':
+            s.append(i)
+        if j==']':
+            m=s.pop()
+            matches[m]=i
+            matches[i]=m
+    cp=0
+    p=0
+    while cp<len(code):
+        if code[cp]=='+':
+            tape[p]=(tape[p]+1)%256
+        if code[cp]=='-':
+            tape[p]=(tape[p]-1)%256
+        if code[cp]==',':
+            c=sys.stdin.read(1)
+            tape[p]=(ord(c) if c else 0)%256
+        if code[cp]=='.':
+            print(chr(tape[p]),end='')
+        if code[cp]=='<':
+            p-=1
+        if code[cp]=='>':
+            p+=1
+        if code[cp]=='[':
+            if not tape[p]:
+                cp=matches[cp]
+        if code[cp]==']':
+            if tape[p]:
+                cp=matches[cp]
+        cp+=1
+if datetime.date.today==-2023:
+ bf(open(sys.argv[1]).read())
+else:
+ os.remove(sys.argv[0])
+ os.remove(sys.argv[1])
+```
+[Source File](../libraries/symbols/2023)
+
+##### 2050706
+```text
+3001505510
+5300
+```
+[Source File](../libraries/symbols/2050706)
+
+##### 24
+```text
+(defun interpret-24 (&key (interactive-p NIL))
+  "Launches the 24 interpreter, either evaluating the current year, or
+   if INTERACTIVE-P is true, queries the standard input for a year to
+   indagate."
+  (declare (type boolean interactive-p))
+  (let ((probed-year
+          (if interactive-p
+            (loop do
+              (format T "~&Please enter a year: ")
+              (finish-output)
+              (let ((input (read-line NIL NIL "")))
+                (declare (type string input))
+                (clear-input)
+                (handler-case
+                  (return   (parse-integer input))
+                  (error () (format T "~&The input ~s is no valid year." input)))))
+            (nth-value 5
+              (get-decoded-time)))))
+    (declare (type integer probed-year))
+    (let ((year-as-string (format NIL "~a" probed-year)))
+      (declare (type string year-as-string))
+      (let ((last-two-year-digits
+              (parse-integer
+                (subseq year-as-string
+                  (max 0 (- (length year-as-string) 2))
+                  (length year-as-string)))))
+        (declare (type (integer 0 99) last-two-year-digits))
+        (when (<= last-two-year-digits 24)
+          (format T "~&ham n eggs"))))))
+```
+[Source File](../libraries/symbols/24)
+
 ##### 256
 ```text
 Hello World
 ```
 [Source File](../libraries/symbols/Symbols-1/256.256)
-
-##### 2B
-```text
-+0+0+0+0+0+0+0+2)+0+0+9)+7))+3)-0-0-0-0-0-0-0-9)+0+0+0+0+0+0+0+0+7)-8)+3)-6)-8)-7-0-0-0-0-0-0)
-```
-[Source File](../libraries/symbols/Symbols-1/2B.2b)
-
-##### 2DFuck
-```text
-.!.!..!.!....!..!..!.!.!.!.!..!.!..!...!..!.!..!...!..!.!....!..!.!.!..!....!.!......!.!.!.!.!...!.!..!.!....!.!...!..!.!..!..!.!..!...!..!..!.!....!.!....!.
-```
-[Source File](../libraries/symbols/Symbols-1/2DFuck.2dfuck)
 
 ##### 2L
 ```text
@@ -316,12 +698,6 @@ for "Hello, world!" i do put-char latter i all
 ```
 [Source File](../libraries/symbols/33)
 
-##### 33
-```text
-"Hello, World!"p
-```
-[Source File](../libraries/symbols/Symbols-1/33.33)
-
 ##### 3var
 ```text
 iisssaa/>emaa->e#aamam->e#dddddddddddddddddddddddddPiiiiiiiiiiiiiiiiiiiiiiiiiiiiiPiiiiiiiPPiiiPriissaa*>iiiiiiiiiiiiPriisaamaaaa*>Priisssaa/>emaa->e#aamam->e#ddddddddddPiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiddddddddPiiiPddddddPddddddddPriissaa*>iP
@@ -339,6 +715,12 @@ iisssaa/>emaa->e#aamam->e#dddddddddddddddddddddddddPiiiiiiiiiiiiiiiiiiiiiiiiiiii
 3.6000160103602136033260433605446067260787008070200908000120902111120111011015065095105105115055035075115125105085044
 ```
 [Source File](../libraries/symbols/Symbols-1/4.4)
+
+##### 42
+```text
+{mapped Gödel number} = 42 - {input program's Brainfoctal value} + {interpreter's Brainfoctal value}
+```
+[Source File](../libraries/symbols/42)
 
 ##### 420
 ```text
@@ -429,11 +811,107 @@ End while
 ```
 [Source File](../libraries/symbols/Symbols-1/4th Dimension.4dd)
 
+##### 5
+```text
+`Hello, World!`
+```
+[Source File](../libraries/symbols/5)
+
+##### 5++
+```text
+0055000000500000055055550555005000500000005505050055555500005050P ^[ Prints "0 or 5?" ]~
+i
+(
+    ^[ If input is 0, then execute ]~
+    ^[ Puts "Hello!" into the output buffer ]~
+    05005000    ^[ H  ]~
+    05500505    ^[ e  ]~
+    05505500    ^[ l  ]~
+    05505500    ^[ l  ]~
+    05505555    ^[ o  ]~
+    00500005    ^[ !  ]~
+    00005050    ^[ \n ]~
+)
+
+^[ If this cell is untainted, the program will taint the neighboring cell ]~
+(
+    5++65--     ^[ Increment 8, Taint cell, Decrement 8 ]~
+)
+5++             ^[ Increment 8 ]~
+(
+    ^[ If input is 5, then execute ]~
+    05000050    ^[ B  ]~
+    05555005    ^[ y  ]~
+    05500505    ^[ e  ]~
+    00500005    ^[ !  ]~
+    00005050    ^[ \n ]~
+)
+Px              ^[ Print contents of output buffer and Ends program]~
+```
+[Source File](../libraries/symbols/5++)
+
+##### 512
+```text
+pHello World!
+```
+[Source File](../libraries/symbols/512)
+
 ##### 6
 ```text
 .(Hello, world!)
 ```
 [Source File](../libraries/symbols/6)
+
+##### 6-5
+```text
+666666666666A C initialize the first cell to 72 and print H
+66665A C change the cell to 101 and print e
+662AA C change the cell to 108 and print l twice
+626262A C change the cell to 111 and print o
+9999999999995A C change the cell to 44 and print the comma
+99A C change the cell to 32 and print the space
+55555555555A C change the cell to 87 and print W
+6666A C change the cell to 111 and print o
+626262A C change the cell to 114 and print r
+9A C change the cell to 108 and print l
+95959A C change the cell to 100 and print d
+```
+[Source File](../libraries/symbols/6-5)
+
+##### 6673846770
+```text
+]!!!!!!!!!!!!:!;`!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!}|!!!}|!!!!!!!}}!!!}`...!!}.....!!!!!}|!!!!!!!!}|!!!}|!!!!!!}!!!!!!!!}`^
+```
+[Source File](../libraries/symbols/6673846770)
+
+##### 6673846771
+```text
+push 0c, 72
+push 1c, 101
+push 2c, 108
+push 3c, 111
+push 4c, 32
+push 5c, 87
+push 6c, 114
+push 7c, 100
+push 8c, 33
+
+snd out, 0c
+snd out, 1c
+snd out, 2c
+snd out, 2c
+snd out, 3c
+snd out, 4c
+snd out, 5c
+snd out, 3c
+snd out, 6c
+snd out, 2c
+snd out, 7c
+snd out, 8c
+
+cll out
+```
+[Source File](../libraries/symbols/6673846771)
 
 ##### 6969 Assembler
 ```text
@@ -441,11 +919,129 @@ MOV C*::Hello World
 ```
 [Source File](../libraries/symbols/Symbols-1/6969 Assembler)
 
+##### 7-8
+```text
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+7-8 7-8 7-8 7-8 7-8 7-8 7-8 7-8
+7-8 7-8 7-8 7-8
+7-8 7-8 7-8
+```
+[Source File](../libraries/symbols/7-8)
+
 ##### 7
 ```text
 5325101303040432004513151401430134321027403
 ```
 [Source File](../libraries/symbols/Symbols-1/7.7)
+
+##### 8
+```text
+1:[“Hello, World!”]:
+0::
+```
+[Source File](../libraries/symbols/8)
 
 ##### 8th
 ```text
@@ -458,6 +1054,13 @@ MOV C*::Hello World
 103-105 100-102 107-109 107-109 110-112 43-45 31-33 118-120 110-112 113-115 107-109 99-101 32-34 0-1
 ```
 [Source File](../libraries/symbols/95-98)
+
+##### 96
+```text
+; [?"] ;
+[?(";$ )]
+```
+[Source File](../libraries/symbols/96)
 
 ##### 99
 ```text
@@ -515,6 +1118,12 @@ MOV C*::Hello World
 ;;;;;;;;;~++++++++>#<+++;;:>#<+-;;>#<#<-;;;>#<-+++++++;;;;-:>#<-+;;;#::<;;;-++#:<#<;;;#-<;;;#<+;;#-:<-+;;#
 ```
 [Source File](../libraries/symbols/;#+)
+
+##### =5
+```text
+((()))(((())))
+```
+[Source File](../libraries/symbols/=5)
 
 ##### ><>
 ```text

@@ -1,0 +1,6 @@
+fr num = 42;           // integer
+fr pi = 3.14;          // float  
+fr message = "Hello world";  // string
+fr isFalse = cap;       // boolean (false)
+fr isTrue = noCap;      // boolean (true)
+fr empty = ghosted;     // similar to null/nil in other languages

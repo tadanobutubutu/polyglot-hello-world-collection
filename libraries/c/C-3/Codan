@@ -1,0 +1,9 @@
+Α ← 0        # Α points to memory location 0
+Β ← 1        # Β points to memory location 1
+β ← 1        # The value at Β is 1
+α ← Λ        # Prompt user and store input at Α
+«            # Loop
+    α ≠ 100  # Assert that α does not equal 100
+    + → α    # Add α and β and store result at Α
+»
+α → Λ        # Output α

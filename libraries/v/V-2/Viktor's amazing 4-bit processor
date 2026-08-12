@@ -1,0 +1,10 @@
+00   1 A F   LDA FA   // Load input 2
+03   2 A 0   STA 0A   // Store input 2 in ADD argument
+06   1 8 F   LDA F8   // Load input 1
+09   7 0 0   ADD --   // Add input 2 [argument gets overwritten]
+0C   2 C F   STA FC   // Store in output
+0F   0       HLT      // Halt
+
+F8   3 0     03       // Input 1
+FA   5 0     05       // Input 2
+FC   0 0     --       // Output

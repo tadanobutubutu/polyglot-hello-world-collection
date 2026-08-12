@@ -1,0 +1,2 @@
+let main (_ : unit) (_ : unit) : operation list * unit =
+  (print_string "Hello World"; ([], ()))

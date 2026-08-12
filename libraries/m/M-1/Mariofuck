@@ -1,0 +1,11 @@
+#!/usr/bin/ruby
+eval 'm=Hash.new(p=0);'+ARGF.read.gsub(
+        /./,
+        'M'=>'p+=1;',
+        'L'=>'p-=1;',
+        'Y'=>'m[p]+=1;',
+        'C'=>'m[p]-=1;',
+        'D'=>'(',
+        'B'=>')while((m[p]&=255)!=0);',
+        'K'=>'putc m[p];',
+        'T'=>'m[p]=STDIN.getbyte if !STDIN.eof;')

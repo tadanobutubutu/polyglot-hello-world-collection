@@ -1,0 +1,7 @@
+set a print
+random 1 120
+if >= 65
+    print
+    if <= 100
+         set h print
+endif

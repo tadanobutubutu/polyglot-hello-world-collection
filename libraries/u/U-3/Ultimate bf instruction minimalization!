@@ -1,0 +1,3 @@
+< = Move pointer one cell to the left. (If pointer is currently over the first bit, do nothing.)
+( = Move to next bit and flip it, skip next instruction if zero.
+any other character = No-op instruction.

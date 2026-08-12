@@ -1,0 +1,2 @@
+(a : Real) ~ (b : Real) : Real
+    (a + b) / 2

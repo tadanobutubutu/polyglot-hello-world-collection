@@ -1,0 +1,34 @@
+def two_tag_to_qoob(productions, indata, halting=[]):
+    # ensure a consistent order, strictly unnecessary
+    ordered = list(productions.items())
+    # Construct the one-hot vectors
+    lookup = {
+        s: "1" + "0" * i + "10" + "0" * (len(productions) - i - 1)
+        for i, (s, p) in enumerate(ordered)
+    }
+    # And the halting symbols
+    for s in halting:
+        lookup[s] = "0" * len(productions)
+    lookup = str.maketrans(lookup)
+    # Put the input at the start
+    program = indata.translate(lookup)
+    # Overarching loop
+    program += "["
+    # Productions
+    for s, p in ordered:
+        program += "[" + p.translate(lookup) + "]"
+    # Empty discard productions
+    for s, p in ordered:
+        program += "[]"
+    program += "]"
+    return program
+
+# Example
+halt_system = {
+    "a": "ccbaH",
+    "b": "cca",
+    "c": "cc",
+    "H": ""
+}
+
+print(two_tag_to_qoob(halt_system, "baa", halting=["H"]))

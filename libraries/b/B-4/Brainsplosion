@@ -1,0 +1,3 @@
+// Save in a file and call it with 'node <filename> <brainsplosion_code>'
+// Example:     node interpreter.js "++++++<+++++,+,+,"    -> Outputs "ABC"
+[0,...process.argv[2]||''].reduce((v,c) => c == '+' ? v+1 : c == '-' ? v-1 : c == '<' ? v*10 : c == '>' ? v/10 : process.stdout.write(c == '.' ? ''+v : c == ',' ? String.fromCharCode(v) : '') && v);

@@ -1,0 +1,8 @@
+for (const char of "Hello world!") {
+    const ascii = char.charCodeAt(0);
+    if (ascii % 2 === 0) {
+        console.log("right e " + "give ".repeat((char.charCodeAt(0))/2-1) + "addanation his ");
+    } else {
+        console.log("give ".repeat((char.charCodeAt(0))/2) + "addanation his ");
+    }
+}

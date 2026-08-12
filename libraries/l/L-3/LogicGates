@@ -1,0 +1,17 @@
+Gate (0,0) (0,1) (1,0) (1,1) Equivalence (x, y)
+A    0     0     0     0     False
+B    0     0     0     1     AND
+C    0     0     1     0     x AND NOT y
+D    0     0     1     1     x
+E    0     1     0     0     y AND NOT x
+F    0     1     0     1     y
+G    0     1     1     0     XOR
+H    0     1     1     1     OR
+J    1     0     0     0     NOR
+K    1     0     0     1     XNOR
+L    1     0     1     0     NOT y
+M    1     0     1     1     x OR NOT y
+N    1     1     0     0     NOT x
+P    1     1     0     1     y OR NOT x
+Q    1     1     1     0     NAND
+R    1     1     1     1     True

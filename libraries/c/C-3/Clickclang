@@ -1,0 +1,7 @@
+[val]=[val2] Equality, represents if values are the same.
+[val]>[val2] Represents if one value is bigger than another.
+[val]<[val2] Represents if one value is smaller than another.
+leftclicked Returns true if left mouse button went down.
+rightclicked Returns true if right mouse button went down.
+arrowkey.[up/down/left/right] Returns if an arrow key is currently down.
+spacekey Return true when the space bar first goes down.

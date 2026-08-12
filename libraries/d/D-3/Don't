@@ -1,0 +1,34 @@
+/*dont.c
+ *Inputs 1 command per line
+ *No right served
+ */
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char inp[30];
+    while(1) {
+        scanf("%s",&inp);
+        /*In fact, an implementor could have
+         *implemented burning up the user's 
+         *computer and killing the user, but
+         *it is way too risky to implement that.
+         */
+        if(strcmp(inp,"G[]")==0) {
+            /*This theoretically deleted Don't
+             *from existence via deleting every
+             *Don't file and sources and leaving
+             *do.exe alone(it certainly does not)
+             *contain any "Don't" definitions.
+             */
+            system("start do.exe");
+            return 0;
+        } else if(inp[0]=='H') {
+            printf("Hello, world!\n");
+        } else if(inp[0]=='?') {
+            /*Impossible, unless the device is a robot.*/
+            printf("Your device is too heavy to be carried to Dubai\n");
+        }
+    }
+    return 0;
+}

@@ -1,0 +1,9 @@
+while (n >= d) { /* test could also be n >= 4 * d */
+  bignum q = n / d;
+  bignum r = n % d;
+  n = q + r;
+  if (!r) {
+    n += a;
+    a *= m;
+  }
+}

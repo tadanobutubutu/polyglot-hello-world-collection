@@ -1,0 +1,10 @@
+; constant indexes in constants pool
+#const __PyGbl_print = 0
+#const __Py_hello_world = 1
+
+jmp_uchar main
+
+main:
+ push_g __PyGbl_print $KK
+ movk_a __Py_hello_world $KK
+ fastcall 1 $KK

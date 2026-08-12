@@ -1,0 +1,29 @@
+(defun interpret-24 (&key (interactive-p NIL))
+  "Launches the 24 interpreter, either evaluating the current year, or
+   if INTERACTIVE-P is true, queries the standard input for a year to
+   indagate."
+  (declare (type boolean interactive-p))
+  (let ((probed-year
+          (if interactive-p
+            (loop do
+              (format T "~&Please enter a year: ")
+              (finish-output)
+              (let ((input (read-line NIL NIL "")))
+                (declare (type string input))
+                (clear-input)
+                (handler-case
+                  (return   (parse-integer input))
+                  (error () (format T "~&The input ~s is no valid year." input)))))
+            (nth-value 5
+              (get-decoded-time)))))
+    (declare (type integer probed-year))
+    (let ((year-as-string (format NIL "~a" probed-year)))
+      (declare (type string year-as-string))
+      (let ((last-two-year-digits
+              (parse-integer
+                (subseq year-as-string
+                  (max 0 (- (length year-as-string) 2))
+                  (length year-as-string)))))
+        (declare (type (integer 0 99) last-two-year-digits))
+        (when (<= last-two-year-digits 24)
+          (format T "~&ham n eggs"))))))

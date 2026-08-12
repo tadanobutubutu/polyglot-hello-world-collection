@@ -1,0 +1,10 @@
+function interpret(code) {
+    if(code=='\n') {}
+    else {
+        console.log('Syntax Error:')
+        // Uhhh...
+        // How to print the contents of a variable?
+        eval(code)
+        // is that how you do it?
+    }
+}

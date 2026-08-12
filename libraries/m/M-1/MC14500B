@@ -1,0 +1,47 @@
+# Truth-machine: ABEC
+
+input_signal = [0]
+
+curr = 0
+
+Data = 0
+Acc  = 0
+
+code = "ABEC"
+
+ptr = 0
+
+while ptr < len(code):
+	i = code[ptr]
+	if i == "1":
+		R = Data
+	if i == "2":
+		R = 1 - Data
+	if i == "3":
+		R = R & Data
+	if i == "4":
+		R = 1 - (R & Data)
+	if i == "5":
+		R = R | Data
+	if i == "6":
+		R = 1 - (R | Data)
+	if i == "7":
+		R = 1 - (R ^ Data)
+	if i == "8":
+		Data = R
+	if i == "9":
+		Data = 1 - R
+	if i == "A":
+		R = input_signal[curr % len(input_signal)]
+		curr += 1
+	if i == "B":
+		print(R,end="")
+	if i == "C":
+		ptr = 0
+		continue
+	if i == "D":
+		ptr += 1
+	if i == "E":
+		if R == 0:
+			ptr += 1
+	ptr += 1

@@ -1,0 +1,3 @@
+hello: MODULE
+  WRITES("Hello World");
+END hello;

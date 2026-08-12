@@ -1,0 +1,4 @@
+    ADDONEANTOCURRENTCELLVALUEUNDERPOINTERANDMOVCURRENTCELLVALUETIMESTOTHELEFTIFCELLVALUEUNDERPOINTERISLESSTHANOREQUALTOZERO
+    Adds one to current cell value under the pointer, and moves current value under the pointer value times to the left
+    if current cell value under the pointer is less than or equal to zero. Most of the time, the cell value will be negative,
+    so that means the pointer will move to the right.

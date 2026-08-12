@@ -1,6 +1,6 @@
 # Polyglot Hello World Collection
 
-A curated museum of **3095** real Hello World programs (including **18** binary / image / sound / block-based sources).
+A curated museum of **5791** real Hello World programs (including **72** binary / image / sound / block-based sources).
 Every text entry includes source code and a link to its dedicated file; non-textual languages link to the actual program artifact.
 
 ## Inclusion policy
@@ -12,6 +12,7 @@ Entries are drawn from and cross-checked against:
 - [The Hello World Collection](http://helloworldcollection.de/)
 - [Esolangs wiki](https://esolangs.org/) Hello world program pages
 - [Rosetta Code — Hello world/Text](https://rosettacode.org/wiki/Hello_world/Text)
+- [Esolangs Category:Implemented](https://esolangs.org/wiki/Category:Implemented) page crawl for Hello/examples
 - Curated non-textual samples (Piet images, Velato MIDI, Scratch projects, etc.)
 
 **Keep:** documented languages with a real interpreter/compiler/spec and a genuine Hello World artifact.
@@ -463,7 +464,7 @@ Hello #World #in #Whitespace	* # #	* # # #
 ## Repository Structure
 
 ```
-libraries/                 # published Hello World artifacts (3095 files)
+libraries/                 # published Hello World artifacts (5791 files)
   a/…/z/                   # letter buckets with A-1… subdivisions
   nonenglish/              # non-ASCII language names
   symbols/                 # symbolic / numeric language names

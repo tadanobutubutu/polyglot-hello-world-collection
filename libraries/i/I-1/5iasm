@@ -1,0 +1,50 @@
+repeat_program:
+
+; Query input.
+isz I
+
+; Disable input/output.
+inc N
+
+; Handle special case of EOF input, which omits copying to the
+; output register.
+isz I
+jmp copy_input_to_output
+jmp print_input
+
+; Copy input register value to output register.
+; The register 'A' applies itself to an adminicular role, employed
+; for a conditional skipping via 'isz A' during the 'O' register's
+; resetting to zero (0).
+copy_input_to_output:
+inc O
+inc A
+dec I
+isz I
+jmp copy_input_to_output
+
+; Adjust for supernumerary output register incrementation.
+dec O
+dec A
+
+print_input:
+; Enable input/output.
+dec N
+; Print input stored in output register.
+inc O
+inc A
+
+; Disable input/output.
+inc N
+
+; Reset output register to zero.
+reset_output_register:
+dec O
+dec A
+isz A
+jmp reset_output_register
+
+; Enable input/output.
+dec N
+
+jmp repeat_program

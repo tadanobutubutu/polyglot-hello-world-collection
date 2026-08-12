@@ -1,0 +1,4 @@
+while bool one do
+  inputc
+  print one
+done

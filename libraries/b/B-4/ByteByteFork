@@ -1,0 +1,27 @@
+   Rainline
+   (w)ord-input  (i)nstruction-input  (d)ump-words  (o)utput-instructions  (s)tep  (q)uit  > i
+   Enter: Address (aligned) > 9
+   Enter: Source Destination Fork (space-separated) > 27 30 18
+   [9]  Source:27  Destination:30  Fork:18
+   (w)ord-input  (i)nstruction-input  (d)ump-words  (o)utput-instructions  (s)tep  (q)uit  > w
+   Enter: Address Content (space-separated) > 27 55
+   (w)ord-input  (i)nstruction-input  (d)ump-words  (o)utput-instructions  (s)tep  (q)uit  > w
+   Enter: Address Content (space-separated) > 3 9
+   (w)ord-input  (i)nstruction-input  (d)ump-words  (o)utput-instructions  (s)tep  (q)uit  > o
+   Enter: Start (aligned) > 0
+   Enter: Length > 5
+   [0]  Source:0  Destination:9  Fork:0
+   [9]  Source:27  Destination:30  Fork:18
+   [18]  Source:0  Destination:0  Fork:0
+   [27]  Source:55  Destination:0  Fork:0
+   [36]  Source:0  Destination:0  Fork:0
+   (w)ord-input  (i)nstruction-input  (d)ump-words  (o)utput-instructions  (s)tep  (q)uit  > s
+   (w)ord-input  (i)nstruction-input  (d)ump-words  (o)utput-instructions  (s)tep  (q)uit  > o
+   Enter: Start (aligned) > 0
+   Enter: Length > 5
+   [0]  Source:0  Destination:18  Fork:0
+   [9]  Source:27  Destination:30  Fork:18
+   [18]  Source:0  Destination:0  Fork:0
+   [27]  Source:55  Destination:55  Fork:0
+   [36]  Source:0  Destination:0  Fork:0
+   (w)ord-input  (i)nstruction-input  (d)ump-words  (o)utput-instructions  (s)tep  (q)uit  > q

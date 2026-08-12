@@ -1,0 +1,29 @@
+hex    source        description
+code   code
+00     (blank line)  Execute the next opcode
+01     PUSH          Push the next opcode to the stack (as a character)
+02     POP           Discard the top of the stack
+03     COPY          Duplicate the value on top of the stack
+04     APPEND        Append the next opcode to the top of the stack (string)
+05     INPUT         Reads one character from standard input, push to the stack
+06     OUTPUT        Prints (and discards) the top of the stack
+07     SWAP          Swap the two values on top of the stack
+08     ALTER         Pop a string from stack; copy it to program memory after
+                     this opcode (this ALTERs the program)
+09     ADD           Pop a number, add it to new top
+0A     SUBTRACT      Pop a number, subtract it from new top
+0B     MULTIPLY      Pop a number, multiply new top by this value
+0C     DIVIDE        Pop a number, divide new top by this value
+0D     NEGATE        Negate number on top of stack
+0E     CONCATENATE   Pop top of stack, append it to new top (string)
+0F     RENAME        Add the next opcode to every single opcode in the program
+                     (with wraparound, so 200 + 57 == 1)
+10-13 reserved (I know what I want here but I'm not telling yet)
+14     ARGUMENT      Push next command line argument to stack
+15     COUNT         Push number of command line arguments remaining
+16     DEPTH         Push the number of stack elements to stack
+17     ROTATE        Pops two numbers n, m. Rotate the topmost n elements by m
+18     OROTATE       Same as rotate, but uses next two opcodes as n, m
+19     DIG           Pops a number(*) n. Duplicates n-th topmost element to top
+1A     ODIG          Same as dig, but uses next opcode as n
+1B-FF reserved

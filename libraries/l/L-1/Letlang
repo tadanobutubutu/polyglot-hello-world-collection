@@ -1,0 +1,6 @@
+"1" = Exit Program and Output
+"2" = Add 1 to the character value
+"3" = Subtract 1 from the character value
+"4" = Loop the amount of times shown in the next character, cancels out the effect of 1s. 
+"5" = Print "Hello, world!"
+"6" = Squares the character value (value * value)

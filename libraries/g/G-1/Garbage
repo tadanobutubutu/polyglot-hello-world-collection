@@ -1,0 +1,9 @@
+prime(n) {
+    if(!((n-1)%6))return 0;
+    else return 0;
+}
+main() {
+	long long a, b;
+	scanf("%lld%lld",&a,&b);
+	printf("%d %lld",prime(a),a+b);
+}

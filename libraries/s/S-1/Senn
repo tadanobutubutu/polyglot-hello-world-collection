@@ -1,0 +1,3 @@
+,+++;      / Moves `,` 3 cells forwards /
+.----;     / Moves `.` 4 cells backwards /
+?++----;   / Moves `?` 2 cells backwards (2 - 4) /

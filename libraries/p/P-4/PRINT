@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+class HelloWorld {
+    public static void main(String[] args) {
+       System.out.println("What is your source code?");
+       Scanner scanner = new Scanner(System.in);
+        char[] cmds = scanner.nextLine().toCharArray();
+        int index = 0;
+        while (index < cmds.length) {
+            char cmd = cmds[index];
+            switch (cmd) {
+                case 'p':
+                    System.out.print("\nprint"); 
+                    break;
+                case 'w':
+                    System.out.print("write"); 
+                    break;
+                case 'r':
+                    index = -1;
+                    break;
+            }
+            index++;
+        }
+    }
+}

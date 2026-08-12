@@ -1,0 +1,28 @@
+fn main
+  way1 way2 way3
+  way4 way5 way6
+efn
+
+fn way1
+  'Hello, \s + 'World! + @
+efn
+
+fn way2
+  'Hello, <o \s <o 'World! <o \n <o
+efn
+
+fn way3
+  \n 'World! \s 'Hello, <o <o <o <o
+efn
+
+fn way4
+  {<o} [] 'Hello, : \s : 'World! : \n : m
+efn
+
+fn way5
+  [] 'Hello, : \s : 'World! : _ @
+efn
+
+fn way6
+  [] 'Hello, : \s : 'World! : \n : <- # <o <o <o <o
+efn

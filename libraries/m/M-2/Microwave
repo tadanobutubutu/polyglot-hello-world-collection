@@ -1,0 +1,5 @@
+int count = 5;
+string msg = "hello";
+bool flag;
+float r = 3.14;
+int[] arr;

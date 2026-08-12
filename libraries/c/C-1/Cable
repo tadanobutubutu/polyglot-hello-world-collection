@@ -1,0 +1,1 @@
+[Append [Print "Hello"]][Print " World"]

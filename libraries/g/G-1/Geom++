@@ -1,0 +1,6 @@
+> origin > unit
+origin origin @ > _ ( origin origin @ > _ ) > nil
+nil * ( " message " ) > print_message
+nil * ( " Hello, world! " ) > print_hello_world
+print_message *
+print_hello_world *

@@ -1,0 +1,4 @@
+IF s != 0
+ STATE s+1
+ VALUE s
+ MOVE >

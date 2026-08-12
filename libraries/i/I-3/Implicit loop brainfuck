@@ -1,0 +1,1 @@
+esolang where the only conditional is smth like "skip next instruction if [condition]" and loops are achieved by the entire code being executed in a loop until an explicit halt

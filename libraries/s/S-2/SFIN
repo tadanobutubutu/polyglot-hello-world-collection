@@ -1,0 +1,5 @@
+?    Stores the value of Bit 1
+>    Sets the pointer to Bit 2
+v    Bit 2 = Bit 1 NAND Bit 2
+v    Bit 2 is NANDed by Bit 1 again. This sequence sets Bit 2 to the inverse of Bit 1
+?v   Gets the value of Bit 2 and NANDs it with itself. (X NAND X = NOT X)

@@ -1,0 +1,14 @@
+// Comments must be on their own line
+// Variables are always initialized to 0
+// Initial values cannot be assigned on declaration
+// signed integer
+integer var
+// floating point value
+float var
+// Arrays
+type array(length) var
+// Unspecified array size
+type array(?) var
+// Must later be set to a valid size, done with
+var.size = expr
+// Arrays cannot be resized once a size is assigned

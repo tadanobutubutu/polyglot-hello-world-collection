@@ -1,0 +1,62 @@
+from PIL import Image
+import numpy as np
+import sys
+def bf(code):
+    s1=[]
+    s2=[]
+    matches={}
+    tape=[0]*1000000
+    for i,j in enumerate(code):
+        if j=='[':
+            s1.append(i)
+        if j==']':
+            m=s1.pop()
+            matches[m]=i
+            matches[i]=m
+    cp=0
+    p=0
+    while cp<len(code):
+        if code[cp]=='+':
+            tape[p]=(tape[p]+1)%256
+        if code[cp]=='-':
+            tape[p]=(tape[p]-1)%256
+        if code[cp]==',':
+            ch=sys.stdin.read(1)
+            tape[p]=(ord(ch) if ch else 0)%256
+        if code[cp]=='.':
+            print(chr(tape[p]),end='')
+        if code[cp]=='<':
+            p-=1
+        if code[cp]=='>':
+            p+=1
+        if code[cp]=='[':
+            if not tape[p]:
+                cp=matches[cp]
+        if code[cp]==']':
+            if tape[p]:
+                cp=matches[cp]
+        cp+=1
+def bf2pf(bf):
+    f='+-><,.[]'
+    s=''
+    for i in bf:
+        s+='{:03b}'.format(f.index(i))
+    s=s+'0'*((-len(s))%24)
+    pixels=[]
+    for i in range(len(s)//24):
+        pixels.append([int(s[i*24:i*24+8],2),int(s[i*24+8:i*24+16],2),int(s[i*24+16:i*24+24],2)])
+    return Image.fromarray(np.array([pixels],dtype=np.uint8))
+def pf2bf(pf):
+    prog=''
+    tmp=''
+    if pf.mode!='RGB':
+        print('PocketFuck only supports RGB images')
+        return ''
+    dat=pf.tobytes()
+    for i in dat:
+        tmp+='{:08b}'.format(i)
+    for i in range(len(tmp)//3):
+        prog+='+-><,.[]'[int(tmp[i*3:i*3+3],2)]
+    return prog
+if __name__=='__main__':
+    bf(pf2bf(Image.open(sys.argv[1])))

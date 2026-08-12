@@ -1,0 +1,10 @@
+/, \	Reflect beam
++	Split beam into two
+#	Absorb beam
+$D	Emit a beam when a beam touches it
+*D	Emit beam (D = direction)
+1, 0	Sensor: Toggle on hit
+u,n,[,]	Emit a beam if the sensor behind it is 1  (for example 1[ )
+!	Skip instruction 
+<,>,^,V - Two mirrors in one character (for example going into a > from above or bottom will do what you expect 
+but going forwards will make it reflect two times (180 degrees) and going backwards will do nothing)

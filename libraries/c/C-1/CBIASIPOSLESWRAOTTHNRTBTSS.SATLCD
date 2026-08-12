@@ -1,0 +1,7 @@
+set the title of the application to:Loop Test
+write the string:numbers
+set the variable called ascii to:1
+if variable is not 0:ascii
+	write the ascii character for the variable:ascii
+	preform operation + on ascii by:1
+	goto line of the number:4

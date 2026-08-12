@@ -1,0 +1,5 @@
+#basicfuck t=unbounded r=0~ o=nearest
+#allocate a, b, x, y, arr->3, z
+
+y += 23;
+arr->2 += y;

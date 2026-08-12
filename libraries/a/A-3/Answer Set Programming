@@ -1,0 +1,3 @@
+hello :- true.
+#show hello/0.
+% Hello World

@@ -1,0 +1,8 @@
+count a #make a a counter initialized as 0
+a1 #add 1 to counter of a
+a-2 #add -2 to counter of a
+a2 #add 2 to counter of a
+aa #add a to counter of a (double)
+aa #double
+aa #double a is 16 now
+a- #reset a to 0

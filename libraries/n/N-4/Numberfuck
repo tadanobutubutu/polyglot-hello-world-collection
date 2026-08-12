@@ -1,0 +1,74 @@
+def interpret():
+    code = input("Enter Numberfuck code: ")
+    memory = [0] * 30000
+    pointer = 0
+    output_string = ""
+    code_length = len(code)
+    code_pointer = 0
+
+    loop_stack = []
+
+    commands = {
+        '1': lambda: nonlocal_pointer('+'),
+        '2': lambda: nonlocal_pointer('-'),
+        '3': lambda: increment_memory(),
+        '4': lambda: decrement_memory(),
+        '5': lambda: output_to_string(),
+        '6': lambda: take_input(),
+        '7': lambda: start_loop(),
+        '8': lambda: end_loop()
+    }
+
+    def nonlocal_pointer(op):
+        nonlocal pointer
+        if op == '+':
+            pointer += 1
+        else:
+            pointer -= 1
+
+    def increment_memory():
+        nonlocal memory, pointer
+        memory[pointer] = (memory[pointer] + 1) % 256
+
+    def decrement_memory():
+        nonlocal memory, pointer
+        memory[pointer] = (memory[pointer] - 1) % 256
+
+    def output_to_string():
+        nonlocal memory, pointer, output_string
+        output_string += chr(memory[pointer])
+
+    def take_input():
+        nonlocal memory, pointer
+        user_input = input("Enter input (1 character): ")
+        memory[pointer] = ord(user_input[0])
+
+    def start_loop():
+        nonlocal memory, pointer, code_pointer, loop_stack
+        if memory[pointer] == 0:
+            count = 1
+            while count != 0 and code_pointer < code_length - 1:
+                code_pointer += 1
+                if code[code_pointer] == '7':
+                    count += 1
+                elif code[code_pointer] == '8':
+                    count -= 1
+        else:
+            loop_stack.append(code_pointer)
+
+    def end_loop():
+        nonlocal code_pointer, loop_stack
+        if memory[pointer] != 0:
+            code_pointer = loop_stack[-1]
+        else:
+            loop_stack.pop()
+
+    while code_pointer < code_length:
+        command = code[code_pointer]
+        if command in commands:
+            commands[command]()
+        code_pointer += 1
+
+    print("Output:", output_string)
+
+interpret()

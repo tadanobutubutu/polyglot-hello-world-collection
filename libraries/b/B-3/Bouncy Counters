@@ -1,0 +1,16 @@
+# Enter via: A1- or B1-
+# Exits via: C1+
+
+# counter 1 must be 0, for the entry to work
+1 = 0
+# but counter 2 and 3 can have any value
+2 = 0
+3 = 0
+
+A1+ C2-
+C2- A1+
+B1+ C3-
+C3- B1+
+C2+ C3+
+C3+ C1-
+C1- C2+

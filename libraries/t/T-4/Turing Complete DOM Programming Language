@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+ 
+ <code>
+ 	<function name="main" id="1">
+ 		<line>
+ 			<command>PRINT</command>
+ 			<arg1>Hello, world!</arg1>
+ 		</line>
+ 	</function>
+ </code>

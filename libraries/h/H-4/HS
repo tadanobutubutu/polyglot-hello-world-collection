@@ -1,0 +1,10 @@
+ 1. var1=72  //H
+ 2. var2=101 //e
+ 3. var3=108 //l
+ 4. var4=111 //o
+ 5. var5=32  // 
+ 6. var6=87  //W
+ 7. var7=114 //r
+ 8. var8=100 //d
+ 9. print var1 var2 var3 var3 var4 var5
+ var6 var4 var7 var3 var8

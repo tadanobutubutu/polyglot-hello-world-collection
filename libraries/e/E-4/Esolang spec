@@ -1,0 +1,5 @@
+h is an esolang invented by w.
+==Memory==
+This esolang has a stack.
+==Commands==
+* h: Print "Hello, world!"

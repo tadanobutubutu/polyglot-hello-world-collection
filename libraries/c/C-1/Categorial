@@ -1,0 +1,22 @@
+λ - interpret the remainder of the program as Haskell, thus very functional.
+CGOL - print the amount of tomatoes to have existed in a new simulation of the universe, after being run for 12 quadrillion years (async). The universe is particle based and possibly nondeterministic.
+l - push a qubit to the top of the stack. Implementation dependant what operations on this qubit do.
+a - pop from stack to queue
+b - pop from queue to deque
+c - pop from deque to tape
+d - get from the end of deque to tape
+e - move from tape to stack
+> < + - , . [ ] - brainfuck equivalents
+零 - change amount of dimensions to 0
+壹 - change amount of dimensions to 1
+贰 - change amount of dimensions to 2
+😠️ - interpret the remainder of the program as Java, thus very object oriented.
+t - spawn new thread. Implementation dependant.
+r - set state of the program to the previous one, implementation defined, very reversible.
+🍆️ - be an Aubergine derivative. I'm not sure why this is a category. Implementation defined. Implicitly at the start of all programs.
+c - be a 5D Brainfuck With Multiverse Time Travel derivative. Implementation defined. Implicitly at the start of all programs. I'm not sure why this is a category, either.
+J - interpret the remainder of the program as J, thus declarative.
+🏌️ - interpret the remainder of the program as GolfScript, thus golfing language.
+m - Modify the source code.
+! - Modify how the esolang works to make it a push down automaton.
+¡ - Modify how the esolang works to make it a finite state automaton.

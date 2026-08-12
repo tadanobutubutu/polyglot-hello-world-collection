@@ -1,0 +1,3 @@
+  mov [x], 0
+  mov [y], 1
+  mov result, [x]

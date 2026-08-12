@@ -1,0 +1,7 @@
+[Setup]
+AppName=Hello
+[Code]
+procedure InitializeWizard;
+begin
+  MsgBox('Hello World', mbInformation, MB_OK);
+end;

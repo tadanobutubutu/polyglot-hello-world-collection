@@ -1,0 +1,8 @@
+# print “hello world”
+900.006 # multiline statement
+010.000 # print
+700.000 # (
+217.85 llo # "hello "
+401.000 # +
+261.23 orld # "world"
+800.000 # )

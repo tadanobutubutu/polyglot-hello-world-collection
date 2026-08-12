@@ -1,0 +1,11 @@
+ .var variable
+
+ .var array[3]
+
+ .const constant1 10
+
+ .const constant2 42
+
+ ADD :constant1 :constant2 :array[1]
+
+ ADD :array[1] :array :variable

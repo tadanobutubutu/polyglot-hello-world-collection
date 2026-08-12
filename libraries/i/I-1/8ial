@@ -1,0 +1,6 @@
+;repeat
+PUT $1
+OUT $1
+CMJ $1 0 x
+JMP repeat
+;x END

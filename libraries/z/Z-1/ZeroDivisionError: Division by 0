@@ -1,0 +1,4 @@
+  File "<stdin>", line 1
+    [command]
+
+ZeroDivisionError: Division by 0

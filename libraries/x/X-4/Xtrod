@@ -1,0 +1,4 @@
+><+-,.[] The standard bf set
+><+-![] Merged I/O into one command (0 for input, anything else for output)
+()![] Merged + and > (executes > if 0, else executes +) and also merged - and <, which does the the same thing
+()!| Skips an instruction if zero. Otherwise jump to the nearest |

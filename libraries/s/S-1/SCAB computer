@@ -1,0 +1,38 @@
+#define PC_SIZE 12
+#define W_SIZE 10
+typedef enum {S,C,A,B} Instruction;
+void main(void){
+  Instruction  pm[1<< PC_SIZE]={A,A,C,S,C,S,A,C,C,C,C,C,C,C,C,C,C,C,C,A,A,B};
+  bool         dm [1<< W_SIZE];
+  unsigned int w,pc=0,i;
+  for(;;) {
+     pc&=(1<< PC_SIZE)-1;
+     w&=(1<< W_SIZE)-1;
+     switch(pm[pc]) {
+        case S:
+           dm[w]=true;
+           w++;
+           pc++;
+           break;
+        case C:
+           dm[w]=false;
+           w++;
+           pc++;
+           break;
+        case A:
+           for(i=0,w=0;i< W_SIZE;i++) {
+              if(dm[i]) w+=1<< i;
+              dm[i]=false;
+           };
+           pc++;
+           break;
+        case B:
+           if(dm[w])
+              pc++;
+           else
+              for(i=0,pc=0;i< PC_SIZE;i++)
+                 if(dm[W_SIZE+i]) pc+=1<< i;
+     }
+  }
+  return;
+}

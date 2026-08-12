@@ -1,0 +1,2 @@
+tr1 :: forall a b c. a == b -> a == c -> c == b
+tr1 ab ac = Tran (Com ac) ab

@@ -1,0 +1,12 @@
+A,          | Print F(0) = 0.
+B+,         | Print F(1) = 1.
+{           |
+  A-        |
+  {-C+A}    | Set C = A.
+  B-        |
+  {-C+A+B}  | Set C = A + B, while setting A = B.
+  C,        | Print C, which now equals F(n) = F(n-2) + F(n-1).
+  -         |
+  {-B+C}    | Reset C to zero, while setting B = C.
+  A+-       | Set conditional register c to false for infinite loop.
+}           |

@@ -1,0 +1,2 @@
+use aiken/io
+test hello() { io.println("Hello World") }

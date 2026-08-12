@@ -1,0 +1,6 @@
+<program>
+    <import id="!std" />
+    <call id="println">
+        <str>Hello, world!</str>
+    </call>
+</program>

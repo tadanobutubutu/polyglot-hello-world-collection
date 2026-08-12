@@ -1,0 +1,34 @@
+ 0 !99 Bottles v1.0.0
+ 10 #99
+ 19 nul
+ 20 comefromif 205
+ 21 drop
+ 30 dup
+ 40 str
+ 45 dup
+ 50 + 
+ 60 $ bottles of beer on the wall,,
+ 70 println
+ 80 +
+ 90 $ bottles of beer.\nTake one down,, pass it around,,
+ 100 println
+ 120 -
+ 130 #1
+ 140 dup
+ 145 swap
+ 150 str
+ 155 +
+ 160 $ bottles of beer on the wall.\n
+ 170 println
+ 180 dup
+ 190 >
+ 200 #2
+ 215 $1 bottle of beer on the wall,,\n1 bottle of beer.
+ 214 $Take one down,, pass it around,,\nno more bottles of beer on the wall.\n
+ 213 $No more bottles of beer on the wall,,\nno more bottles of beer.
+ 212 $Go to the store,, buy some more,,
+ 211 $99 bottles of beer on the wall.\n
+ 210 $... oh fine I'll stop now.
+ 218 !loop until we've printed the entire stack we just filled
+ 219 comefromif 220
+ 220 println

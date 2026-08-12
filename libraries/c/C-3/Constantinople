@@ -1,0 +1,8 @@
+replace m with n  replaces whatever's at m with n
+repeat n          starts a repeat block, which repeats the commands to the corresponding end command while n evaluates to 0
+end               ends a repeat block
+in n              replaces n with a bit from input
+out n             outputs the bit n.
+head n            returns the first element of n
+tail n            returns everything but the first element of n
+nand m with n     returns m NAND n. m and n

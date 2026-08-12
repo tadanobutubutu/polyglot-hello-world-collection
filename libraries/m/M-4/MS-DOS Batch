@@ -1,0 +1,6 @@
+set a=a
+set b=b
+set ptr=a
+echo %a% %b%
+set %ptr%=b
+echo %a% %b%

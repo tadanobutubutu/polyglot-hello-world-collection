@@ -1,0 +1,23 @@
+00xx - input value xx (in binary) to stack
+0100 - NAND the two top values on stack (8-bit)
+0101 - pop value on stack
+0110 - shift entire stack up
+0111 - shift entire stack down
+1000..1001 - execute code inbetween while the topmost stack value is nonzero
+1010 - output value (as number or char, depends on implementation this time)
+1011 - input value (as char)
+11xx - perform an operation on 2 topmost values:
+
+when xx is:
+00 - +
+01 - -
+10 - *
+11 - /
+
+for example,
+1101 (subtraction)
+
+stack:
+3	->	1
+2		0
+0

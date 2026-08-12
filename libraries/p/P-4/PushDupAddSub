@@ -1,0 +1,6 @@
+1 - push 1
++ - pop a and b, push a+b
+- - pop a and b, push b-a
+/ - pop a and b, push b/a, pushing quotient followed by remainder
+: - duplicate
+[...] - while 0

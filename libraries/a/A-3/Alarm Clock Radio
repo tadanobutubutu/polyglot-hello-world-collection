@@ -1,0 +1,9 @@
+>  HR     increments the memory pointer
++  MIN    increments the current memory cell
+[  LOOP   jumps past the matching ] if the cell under the pointer is 0 
+]  RETZ   jumps back to the matching [ if the cell under the pointer is nonzero 
+,  READ   reads a byte into the current memory cell
+.  WRITE  writes the byte that is in the current memory cell
+@  SNOOZE sleeps for the number of seconds in the current memory cell
+}  PAD    sets the memory size to the inclusive distance between the two furthest non-zero cells,
+          plus PADSIZE cells.

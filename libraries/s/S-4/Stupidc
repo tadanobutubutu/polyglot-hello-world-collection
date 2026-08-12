@@ -1,0 +1,6 @@
+system(&BE_6502);
+include(&lcd.scl);
+$lcd.init(&f14_l1);
+
+$lcd.print(#"Hello, world!");
+halt();

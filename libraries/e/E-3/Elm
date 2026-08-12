@@ -1,5 +1,3 @@
--- Hello world in Elm
-
-import Text
-
-main = Text.plainText "Hello, world!"
+module Main exposing (main)
+import Html exposing (text)
+main = text "Hello World"

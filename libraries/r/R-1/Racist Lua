@@ -1,0 +1,35 @@
+--Base Unit for Church Numerals (Zero)
+base_unit = function() return base_unit end
+
+function f(x)
+  --Wrap A Value In An Empty Function
+  return function()
+    return x
+  end
+end
+
+function suc(x)
+  --Get Succesion
+  return x == nil and base_unit or f(x)
+end
+
+function dec(x)
+  --Get Descendent
+  return (x == nil or x == base_unit) and base_unit or x()
+end
+
+function add(a, b)
+  --Add 2 Church Numerals
+  return (a == nil or a == base_unit) and b or add(dec(a),suc(b))
+end
+
+function subt(a, b)
+  --Subtract Church Numeral From Church Numeral
+  return (b == nil or b == base_unit) and a or subt(dec(a),dec(b))
+end
+
+function mult(a, b, c)
+  --Multiply 2 Church Numerals
+  local c = c or base_unit
+  return (a == nil or a == base_unit) and c or mult(dec(a),b, add(c, b))
+end

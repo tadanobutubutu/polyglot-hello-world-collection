@@ -1,0 +1,56 @@
+class consciousness
+ BEGIN;   from .                   import XF00 as C4    ;' Store the initial values '
+ ...;     from .                   import X000 as I4
+ ...;     from .                   import X000 as C5
+ RECAMAN; from .                   import X000 as C9    ;' Exit the sequence before we overflow '
+ ...;     from .C9                 import PREV as C9
+ ...;     from .C9 .C5             import SAME as C9
+ ...;     from .C9 .END .OUTPUT    import TAKE as STEP
+ OUTPUT;  from .C4 .C5             import SUMM as CB    ;' Output a number with a newline '
+ ...;     from .IB                 import INTO as C0
+ ...;     from .                   import X00A as C1
+ ...;     from .                   import X004 as C2
+ DIGIT;   from .C0 .C1             import CYCL as I2    ;' Repeatedly divide the number by 10 '
+ ...;     from .C0 .C1             import OVER as C0
+ ...;     from .C0                 import ZERO as C3
+ ...;     from .C3 .ZERO .NZERO    import TAKE as STEP  ;' Skip leading zeros in the representation '
+ NZERO;   from .C2                 import PREV as C2
+ ...;     from .C2                 import ZERO as C3
+ ...;     from .C3 .ZERO .DIGIT    import TAKE as STEP
+ ZERO;    from .C0                 import INTO as M0000
+ ...;     from .                   import X005 as C0
+ ...;     from .                   import X030 as C3
+ WRITE;   from .I2 .C3             import SUMM as MFFFB ;' Write the value, repeating if necessary '
+ ...;     from .MFFFA .CONT .WRITE import TAKE as STEP
+ CONT;    from .C2                 import NEXT as C2
+ ...;     from .C2 .C0             import SAME as C1
+ ...;     from .C1 .LINE .WRITE    import TAKE as STEP
+ LINE;    from .                   import X00A as MFFFB ;' Write a newline and flush the output '
+ ...;     from .MFFFA .FLUSH .LINE import TAKE as STEP
+ FLUSH;   from .                   import X000 as MFFF9
+ ...;     from .C5                 import NEXT as C6    ;' Compute the next candidate '
+ ...;     from .C4 .C5             import SUMM as CB
+ ...;     from .IB .C6             import SUBT as C6
+ ...;     from .                   import LGTS as C9    ;' Check for an underflow or a zero result '
+ ...;     from .                   import X003 as CA
+ ...;     from .C9 .CA             import SQZE as C9
+ ...;     from .C9 .OLD .SEARCH    import TAKE as STEP
+ SEARCH;  from .C4                 import INTO as C7    ;' Initialize the sweep index and the bounds '
+ ...;     from .C4 .C5             import SUMM as C8
+ ...;     from .C8                 import NEXT as C8
+ FIND;    from .I7 .C6             import SAME as C9    ;' Check for a match '
+ ...;     from .C9 .OLD .NOT       import TAKE as STEP
+ NOT;     from .C7                 import NEXT as C7    ;' Increment the index and check the bounds '
+ ...;     from .C7 .C8             import SAME as C9
+ ...;     from .C9 .NEW .FIND      import TAKE as STEP
+ OLD;     from .C4 .C5             import SUMM as CB    ;' Store the appropriate result into the sequence '
+ ...;     from .CB                 import NEXT as CC
+ ...;     from .C5                 import NEXT as C5
+ ...;     from .IB .C5             import SUMM as IC
+ ...;     from .RECAMAN            import INTO as STEP
+ NEW;     from .C4 .C5             import SUMM as CB
+ ...;     from .CB                 import NEXT as CC
+ ...;     from .C5                 import NEXT as C5
+ ...;     from .IB .C5             import SUBT as IC
+ ...;     from .RECAMAN            import INTO as STEP
+ END;

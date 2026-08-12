@@ -1,0 +1,40 @@
+def binaryToDecimal(n):
+    return int(n,2)
+def decimalToBinary(n):
+    return bin(n).replace("0b","")
+def intepret(code):
+    ac=1
+    t="int"
+    for c in code:
+        if c == 'x':
+            if t == "bin":
+                ac = binaryToDecimal(ac)
+            ac*=-3
+            if t == "bin":
+                ac = decimalToBinary(ac)
+        elif c == 'y':
+            if t == "bin":
+                ac = binaryToDecimal(ac)
+            ac*=-2
+            if t == "bin":
+                ac = decimalToBinary(ac)
+        elif c == 'z':
+            if t == "bin":
+                ac = binaryToDecimal(ac)
+            ac*=-1
+            if t == "bin":
+                ac = decimalToBinary(ac)
+        elif c == "c":
+            if t == "int":
+                ac = decimalToBinary(ac)
+                t="bin"
+            elif t == "bin":
+                ac = binaryToDecimal(ac)
+                t="int"
+    if t == "bin":
+       if ac[0] == "-":
+           ac = "-0b" + ac[1:]
+       else:
+           ac = "0b" + ac
+    input(ac)
+intepret(input(">>> "))

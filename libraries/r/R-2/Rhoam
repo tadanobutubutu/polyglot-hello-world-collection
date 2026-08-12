@@ -1,0 +1,41 @@
+   Get to the 5th instruction
+   ]]]]]
+   Add enough to ticket to reach "e"
+   :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+   On memory slot 0
+   Adding it to memory slot
+   ]]]]]]]]:
+   Adding enough to the memory slot to get to h
+   [[
+   :::
+   Printing h out
+   [[[[:
+   Printing "e" by printing out the ticket
+   ]]]]]]]]:
+   Adding enough to get to "l" in memory slot
+   [[[[::::
+   Printing L twice
+   [[[[::
+   Adding enough to get to "o" in memory slot
+   ]]]]:::
+   Printing O
+   [[[[:
+   Getting to instruction 18 (print space) and printing
+   ]]:[:
+   Go back and add more to memory to reach "w"
+   ]]:]
+   ::::::::
+   Printing W
+   [[[[:
+   Subtract and print O
+   ]]]]]::::::::[[[[[:
+   Add and print R
+   ]]]]:::[[[[:
+   Subtract and print L
+   ]]]]]::::::[[[[[:
+   Subtract and print d
+   ]]]]]::::::::[[[[[:
+   Subtract and print !
+   ]]]]]:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::[[[[[:
+   Print newline
+   ]]:[[:

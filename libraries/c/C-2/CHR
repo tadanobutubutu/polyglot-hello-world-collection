@@ -1,0 +1,4 @@
+reflexivity  @ implies(X, X) <=> true.
+antisymmetry @ implies(X, Y),  implies(Y, X) <=> X = Y.
+transitivity @ implies(X, Y),  implies(Y, Z) ==> implies(X, Z).
+idempotence  @ implies(X, Y) \ implies(X, Y) <=> true.

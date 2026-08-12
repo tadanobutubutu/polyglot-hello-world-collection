@@ -1,0 +1,11 @@
+v - take the currently pointed cell, push it to the stack
+^ - delete the currently pointed cell
+$ - pop
+: - take the currently pointed cell, make a copy and put it below
+/ - swap the currently pointed cell with the one below it
+{ - move the stack pointer up
+} - move the stack pointer down
+If either of the curly brackets would go outside of the stack, do nothing
+_ - input a character and insert it below the stack pointer. If not a valid instruction, insert ^
+@ - output the currently pointed character, removing it
+[ - push the contents of the entire stack to the stack

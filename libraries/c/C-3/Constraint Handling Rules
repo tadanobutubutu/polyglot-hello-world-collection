@@ -1,0 +1,2 @@
+:- chr_constraint hello/0.
+hello <=> writeln('Hello World').

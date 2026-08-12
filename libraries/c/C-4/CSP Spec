@@ -1,0 +1,7 @@
+params | dim | pair pnat
+def n | mulv dim
+clues grid | grid_squares n n | fin n
+def f \(v p) div p dim
+[rows, cols, group f].all \f (f grid).all neqv
+grid.render_group f \(v p g) [bg white, text v.inc <g black blue>]
+grid.input_int [1, n] dec

@@ -1,0 +1,4 @@
+set a !
+set b !
+add a b
+pint a

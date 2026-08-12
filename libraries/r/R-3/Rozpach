@@ -1,0 +1,17 @@
+main .
+    F T F F T F F F put .
+    F T T F F T F T put .
+    F T T F T T F F put .
+    F T T F T T F F put .
+    F T T F T T T T put .
+    F F T F T T F F put .
+    F F T F F F F F put .
+    F T F T F T T T put .
+    F T T F T T T T put .
+    F T T T F F T F put .
+    F T T F T T F F put .
+    F T T F F T F F put .
+    F F T F F F F T put .
+;
+T a b . a ;
+F a b . b ;

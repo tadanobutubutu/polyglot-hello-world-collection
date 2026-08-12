@@ -1,0 +1,35 @@
+code = ""
+l = len(code)
+i = 0
+
+memory = [0, 0]
+ptr = 0
+
+while i < l:
+    c = code[i]
+    
+    if c == ".":
+        try:
+            memory[ptr] = 1
+        except:
+            break
+        
+    elif c == ">":
+        ptr = 1
+    
+    elif c == "*":
+        try:
+            print(memory[ptr])
+            memory.remove(memory[ptr])
+        except:
+            break
+        
+    elif c == "?":
+        try:
+            if memory[ptr]:
+                i = -1
+            memory.remove(memory[ptr])
+        except:
+            break
+
+    i += 1

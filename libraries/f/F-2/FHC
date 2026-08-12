@@ -1,0 +1,45 @@
+@echo off
+title FHC Interpreter
+:exe
+cls
+echo Type one of these characters (F, H, C) and we execute it...
+set /p fhc=
+if /i %fhc% EQU H goto hello
+if /i %fhc% EQU C goto cat
+if /i %fhc% EQU F goto fizzbuzz
+cls
+echo Error! You chose a wrong character. Only these are accepted: F, H and C
+pause >nul
+goto exe
+:cat
+cls
+set /p cat=
+echo %cat%
+pause >nul
+goto exe
+:hello
+cls
+echo Hello, world!
+pause >nul
+goto exe
+:fizzbuzz
+cls
+set num=1
+goto fizzbuzzloop
+:fizzbuzzloop
+set /a modulobuzz=%num%%%15
+set /a buzzmodulo=%num%%%5
+set /a fizzmodulo=%num%%%3
+if %modulobuzz% equ 0 (
+set num2=Fizz Buzz! ^(%num%^)
+) else if %buzzmodulo% equ 0 (
+set num2=Buzz! ^(%num%^)
+) else if %fizzmodulo% equ 0 (
+set num2=Fizz! ^(%num%^)
+) else (
+set num2=%num%
+)
+echo %num2% >> paper.txt
+set /a num=%num%+1
+if %num% EQU 100 exit
+goto fizzbuzzloop

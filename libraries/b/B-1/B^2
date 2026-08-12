@@ -1,0 +1,12 @@
+number in = input // 1 /; ;
+number out = 0 ;
+if ( in %% 3 ) {
+out = add out 1 ;
+}
+if ( in %% 5 ) {
+out = add out 2 ;
+}
+if ( out == 0 ) {
+out = in ;
+}
+output out ; // 1=fizz, 2=buzz, 3=fizzbuzz /;

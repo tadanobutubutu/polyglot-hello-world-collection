@@ -1,0 +1,8 @@
+        SET=done
+           ^
+ RESET > . . #
+  TEST > . O . > TEST=0
+         # . . < SET
+         | v
+         v RESET=done
+       TEST=1

@@ -1,0 +1,10 @@
+; Input at current cell in decimal notation
+: Output from current cell in decimal notation
+0 Set the current cell to 0
+* Multiply the current cell by 2
+_ Multiply the current cell by -1
+# Move n cells to the right where n is the value in the current cell
+@ Set the current cell to the value of the cell you would reach with a # command
+$ Set the cell you would reach with a # command to the value of the current cell
+& Terminate the program
+S Set the current cell to the sign of the current cell's present value

@@ -1,0 +1,27 @@
+while program not halted
+begin
+    /* at steady state here */
+
+    /* pos: current position of IP
+     * op: operation code
+     *
+     * This method traverses the current tile, so 
+     * the position of IP may likely change when return.
+     * The return value, op, is the code of 
+     * the operation of this execution cycle.
+     */
+    op = OP_Lookup(&pos);
+
+    /* Execute the specified operation, and 
+     * move IP to the proper position.
+     */
+    Execute(op, &pos);
+
+    /* Previous two functions change the 
+     * content of the current tile,
+     * so refine the tile here.
+     */
+    Refine();
+
+    /* steady state again */
+end

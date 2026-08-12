@@ -1,0 +1,13 @@
+; move "101" to 'a' ;
+(101 : : : a)
+ 
+; for 1-signals, execute "(11:::b)" which sends "11" to 'b' ;
+; every time there is 1. for 0-signals, there is no code, ;
+; so the 0-signal gets to out-source, which is 'b' here ;
+(a : (11:::b) : : b)
+ 
+; now output the contents of 'a' and 'b' ;
+(a:::)
+(b:::)
+; 'a' had no data, so it produced no output ;
+; 'b' had "11011", which was output, and now 'b' is empty too ;

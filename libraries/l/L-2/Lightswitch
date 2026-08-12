@@ -1,0 +1,12 @@
+p0 toggle p0
+@in p0
+p1 toggle p1
+@in p1
+p2 toggle p2
+@in p2
+p3 toggle p3
+@in p3
+@out @p p0
+@out @p p1
+@out @p p2
+@out @p p3

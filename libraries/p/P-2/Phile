@@ -1,0 +1,3 @@
+OPEN "stdout.stream";
+WRITE "stdout.stream" "Hello, World!";
+CLOSE "stdout.stream";

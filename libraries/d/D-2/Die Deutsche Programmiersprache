@@ -1,0 +1,11 @@
+[ 2 + 2; ]
+2 plus 2.
+
+[ ToNumber("22" + "4"); ] 
+("22" verkettet mit "4") als Zahl. 
+
+[ ToFloat(2 << 2) == 2^3; ]
+(2 um 2 Bit nach links verschoben) als Kommazahl gleich 2 hoch 3 ist. 
+
+[ true && 2 >= 3 || "test" == "te" + "st"; ]
+wahr und 2 größer als, oder 3 ist oder "test" gleich "te" verkettet mit "st" ist.

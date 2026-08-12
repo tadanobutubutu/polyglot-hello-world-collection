@@ -1,0 +1,2 @@
+integer{ digit | integer digit }
+digit{ [0-9] }

@@ -1,0 +1,33 @@
+create inp
+create _cp
+create _check
+gotvar _check
+  add 1
+comvar _check
+gotvar inp
+  input
+  print
+  sub :ord('0'):
+  while
+    comvar inp
+    gotvar _check
+      sub 1
+    comvar _check
+    gotvar inp
+      while
+        comvar inp
+        gotvar _cp
+          add 1
+        comvar _cp
+        gotvar inp
+      end
+  end
+comvar inp
+gotvar _check
+  while
+    comvar _check
+    gotvar _cp
+      print
+    comvar _cp
+    gotvar _check
+  end

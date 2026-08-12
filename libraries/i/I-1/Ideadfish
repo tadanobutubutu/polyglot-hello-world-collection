@@ -1,0 +1,34 @@
+from PIL import Image
+import numpy as np
+import sys
+if len(sys.argv)!=2:
+    print('must pass one file as command line argument')
+    sys.exit(1)
+fn=sys.argv[1]
+im=Image.open(fn)
+if im.size[1]!=1:
+    print('height must be 1')
+    sys.exit(2)
+if im.mode not in ['RGB','RGBA']:
+    print('mode must be RGB or RGBA')
+    sys.exit(3)
+im=im.convert('RGB')
+a=np.array(im)
+x=0
+mode=True
+I=np.array([127,0,0],dtype=np.uint8)
+d=np.array([0,127,127],dtype=np.uint8)
+s=np.array([0,0,127],dtype=np.uint8)
+o=np.array([127,127,127],dtype=np.uint8)
+c=np.array([0,127,0],dtype=np.uint8)
+for i in a[0]:
+    if (i==I).all():
+        x=(x+1)%256
+    if (i==d).all():
+        x=(x-1)%256
+    if (i==s).all():
+        x=(x*x)%256
+    if (i==o).all():
+        print(chr(x) if mode else x,end=('' if mode else '\n'))
+    if (i==c).all():
+        mode=(not mode)

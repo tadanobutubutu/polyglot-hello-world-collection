@@ -1,0 +1,16 @@
+skibidi map(values, fn) {
+   newValues = []
+   ohio "
+       for i, v in ipairs(values) do 
+           newValues[#newValues+1] = fn(v)
+       end
+   "
+   lowtaperfade newValues
+}
+skibidi fizzBuzz(n) {
+   sus (n % 3 == 0 && n % 5 == 0) lowtaperfade "fizzbuzz"
+   sus (n % 5 == 0) lowtaperfade "buzz"
+   sus (n % 3 == 0 ) lowtaperfade "fizz"
+   lowtaperfade n
+}
+[1,2,3,4,5] :3 map(fizzBuzz) :3 map(skibidi _(n) {print(n)})

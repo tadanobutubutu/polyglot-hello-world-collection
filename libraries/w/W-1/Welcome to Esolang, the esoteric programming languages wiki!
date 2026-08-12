@@ -1,0 +1,20 @@
+import sys
+code=sys.stdin.read()
+reverselist=list(code)
+reverselist.reverse()
+reversecode=''.join(reverselist)
+for i in code.split():
+    if i=='Welcome':
+        print('Hello World!')
+    if i=='to':
+        print('https://esolangs.org/wiki/Main_Page')
+    if i=='Esolang':
+        print('Esolang Wiki')
+    if i=='the':
+        print(code)
+    if i=='esoteric':
+        print(len(code.split()))
+    if i=='programming':
+        print(chr(len(code.split())),end='')
+    if i=='languages':
+        print(reversecode)

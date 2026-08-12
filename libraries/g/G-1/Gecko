@@ -1,0 +1,5 @@
+"<regex>" -> "<substitution>"
+
+// current value is "hello world"
+"([a-z]+) world" -> "\1 universe"
+// now "hello universe"

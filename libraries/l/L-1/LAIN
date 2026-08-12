@@ -1,0 +1,2 @@
+line integer string;
+line 3 "Hello, world!";

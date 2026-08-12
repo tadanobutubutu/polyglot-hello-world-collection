@@ -1,0 +1,16 @@
+Number: 10
+Number: -10
+Number: 10.5
+Number: .5
+
+String: "beans are cool!"
+String: 'hello world'
+NOT a string: "oops'
+NOT a string: 'oops', i did it again'
+String: 'yay,\' fixed now'
+
+Boolean: True
+Boolean: False
+
+Null:
+#yes there's literally just nothing there

@@ -1,0 +1,3 @@
+when 1
+    out "Hello, World!"
+    halt

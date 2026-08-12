@@ -1,0 +1,3 @@
+from string s
+where s = "Hello World"
+select s

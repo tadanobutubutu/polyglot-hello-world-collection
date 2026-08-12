@@ -1,0 +1,10 @@
+if instruction is "."
+  increase value of current register by one
+  move forward two times
+else if instruction is ";"
+  if value of current register is 0
+    move forward three times
+  else if value of current register is larger than 0
+    decrease value of current register by one
+    move forward two times
+  whether decreasing happened or not, switch register focus to next register (if presently in last, switch to first)

@@ -1,0 +1,5 @@
+1in000012in00001                  start of program
+1inxxxxx                          inc 1 by xxxxx
+1in-xxxxiff000TCjmpxxxxx          dec 1 by xxxx unless it's 0, in which case jump to line xxxxx - (number of decrement reg 1 instructions * 2) - number of decrement reg 2 instructions
+2inxxxxx                          inc 2 by xxxxx
+2in-xxxxswpoutiniff000TCjmpxxxxx  dec 2 by xxxx unless it's 0, in which case jump to line xxxxx - (number of decrement reg 1 instructions * 2) - number of decrement reg 2 instructions

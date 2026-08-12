@@ -1,0 +1,28 @@
+{-# LANGUAGE TypeOperators #-}
+
+module P'' where
+
+import Control.Category ((>>>))
+import Control.Lens hiding (Tape)
+import Control.Monad
+
+data Term = R | L | Seq Term Term | Loop Term
+type Tape = Top :>> [Int] :>> Int
+
+-- Run a P'' term over a tape, in an alphabet of size n.
+-- Returns Nothing if the program moves off the tape. Note
+-- that directions are flipped; the left-infinite tape is
+-- implemented as a right-infinite list zipper.
+runTerm :: Int -> Term -> Tape -> Maybe Tape
+runTerm n R         = leftward
+runTerm n L         = focus %~ (\x -> succ x `mod` n) >>> rightward
+runTerm n (Seq p q) = runTerm n p >=> runTerm n q
+runTerm n (Loop p)  = \tape ->
+    case tape ^. focus of
+        0 -> Just tape
+        _ -> runTerm n p >=> runTerm n (Loop p) $ tape
+
+-- Run a P'' program over an empty tape.
+runP'' :: Int -> Term -> Maybe Tape
+runP'' n p = runTerm n p blankTape
+    where blankTape = zipper (repeat 0) & fromWithin traverse

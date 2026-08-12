@@ -1,0 +1,5 @@
+$ bf hi.b
+Hello
+$ newbiefuck hi.b
+Hello Newbie
+$

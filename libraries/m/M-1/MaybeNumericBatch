@@ -1,0 +1,43 @@
+@echo off
+call %1
+:ans
+cls
+set /a ran=%random%
+if /i %ran% GTR 10 goto :ans
+if /i %ran% LSS 1 goto :ans
+if %ran%==2 goto maybe
+if %ran%==6 goto maybe
+goto run
+:maybe
+set str=%str:?eighteen?=a%
+set str=%str:?five?=b%
+set str=%str:?one?=c%
+set str=%str:?nineteen?=d%
+set str=%str:?two?=e%
+set str=%str:?four?=f%
+set str=%str:?twentythree?=g%
+set str=%str:?twenty?=h%
+set str=%str:?fourteen?=i%
+set str=%str:?sixteen?=j%
+set str=%str:?twentyfive?=k%
+set str=%str:?twentyfour?=l%
+set str=%str:?twentyone?=m%
+set str=%str:?nine?=n%
+set str=%str:?twentytwo?=o%
+set str=%str:?ten?=p%
+set str=%str:?twentysix?=q%
+set str=%str:?six?=r%
+set str=%str:?three?=s%
+set str=%str:?eight?=t%
+set str=%str:?thirteen?=u%
+set str=%str:?fifteen?=v%
+set str=%str:?seven?=w%
+set str=%str:?twelve?=x%
+set str=%str:?eleven?=y%
+set str=%str:?seventeen?=z%
+set str=%str:?and?=&%
+set str=%str:!q!=?%
+goto run
+:run
+%str%
+pause

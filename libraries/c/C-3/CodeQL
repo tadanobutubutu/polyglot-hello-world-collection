@@ -1,0 +1,3 @@
+import java
+from File f
+select "Hello World"

@@ -1,0 +1,2 @@
+event Oscillator goes High, causes Oscillator goes Low after 0.5 s;
+event Oscillator goes Low, causes Oscillator goes High after 0.5 s.

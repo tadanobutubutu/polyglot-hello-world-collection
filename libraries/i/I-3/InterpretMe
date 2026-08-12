@@ -1,0 +1,4 @@
+def interpret_me(code):
+    for char in code:
+        if char == '*':
+            interpret_me(input('Please enter some InterpretMe code\n> '))

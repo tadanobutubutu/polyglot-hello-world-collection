@@ -1,0 +1,7 @@
+(.*) io input \1
+0 input input 7
+1 input input 5
+(.*) input pointer \1
+.* _ io 1
+.* _ pointer 3
+.* _ io 0

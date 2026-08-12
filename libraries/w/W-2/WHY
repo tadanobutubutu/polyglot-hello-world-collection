@@ -1,0 +1,39 @@
+#!/usr/bin/env python3
+import argparse
+import subprocess
+
+parser = argparse.ArgumentParser(description="Compile a WHY program")
+parser.add_argument("input", help="File containing WHY source code")
+parser.add_argument("-o", "--output", help="Filename of the output executable to make", default="./a.why")
+parser.add_argument("-O", "--optimize", help="Optimization level", type=int, default="0")
+args = parser.parse_args()
+
+def build_C(code, mx):
+        thing = f"""
+#define QUITELONG long long int
+const QUITELONG max = {mx};
+
+int main() {{
+        volatile QUITELONG i = 0; // disable some "optimizations" that RUIN OUR BEAUTIFUL CODE!
+        while (i < max) {{
+                i++;
+        }}
+        {code}
+}}
+        """
+        return thing
+
+input = args.input
+output = args.output
+temp = "ignore-this-please"
+with open(input, "r") as f:
+        contents = f.read()
+        looplen = max(1000, (2 ** -args.optimize) * 1000000000)
+        code = build_C(
+                contents,
+                looplen
+        )
+        with open(temp, "w") as out:
+                out.write(code)
+
+subprocess.run(["gcc", "-x", "c", "-o", output, temp])

@@ -1,0 +1,8 @@
+A < R < R < R
+R > Z > Z > O
+Z > ZZ > ZZ > ZO
+O > OZ > OZ > OO
+ZZ <1< A <1< A <1>> A
+ZO <0<< A <0<< A <0> A
+OZ <1>> A <1<< A <1<< A
+OO <0> A <0> A <0< A

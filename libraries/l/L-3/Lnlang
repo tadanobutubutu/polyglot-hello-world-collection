@@ -1,0 +1,5 @@
+This line is ignored
+1 example(1, 2, 3) test(69)
+2 hello()
+3 world() helloworld() test(42)
+4 This counts as a valid line, but it does not contain any valid function calls, so it is interpreted as an empty line.

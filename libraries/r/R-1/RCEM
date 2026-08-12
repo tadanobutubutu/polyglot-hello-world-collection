@@ -1,0 +1,2 @@
+ ;; Prints the character 'A' to the standard output.
+ (parse-rcem "r65s1l65(m+r1)mo")

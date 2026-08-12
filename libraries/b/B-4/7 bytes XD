@@ -1,0 +1,4 @@
+# This program is an APLWSI interpreter.
+public static void integer function main with no arguments returns the smallest non-negative integer.
+// The end!
+raise IndexError("list index out of range")

@@ -1,0 +1,5 @@
+MOV register, immediate       e.g.  MOV R8, 141
+MOV register, register              MOV R8, R9
+MOV [register], register            MOV R[R8], R9
+MOV register, [register]            MOV R8, R[R9]
+MOV [register], [register]          MOV R[R8], R[R9]

@@ -1,0 +1,6 @@
+total = 1
+factorialNumber = 9
+loop x = 1 | x < ( factorialNumber + 1 ) | x ++ |
+       total *= x
+}
+print total

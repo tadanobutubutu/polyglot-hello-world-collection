@@ -1,0 +1,2 @@
+using Uno;
+public partial class Main: Application { public Main(){ debug_log "Hello World"; } }

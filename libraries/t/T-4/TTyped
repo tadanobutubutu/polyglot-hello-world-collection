@@ -1,0 +1,10 @@
+id x : a -> a = x ;
+
+const x y : a -> b -> a = x ;
+
+one f x : (a -> a) -> a -> a = f x ;
+
+add m n f x : ((a -> a) -> a -> a)
+           -> ((a -> a) -> a -> a)
+           -> (a -> a) -> a -> a
+  = m f (n f x)

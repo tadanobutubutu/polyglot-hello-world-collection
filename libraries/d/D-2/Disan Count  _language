@@ -1,0 +1,8 @@
+prgm = input('>Disan Count ')
+x = 0
+for i in range(0, len(prgm)):
+    if prgm[i] == "i":
+        x = int(input('>i '))
+    if prgm[i] == "D":
+        for j in range(0, x, 2):
+            print("%d is even!" % j)

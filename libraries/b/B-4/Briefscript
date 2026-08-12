@@ -1,0 +1,40 @@
+1
+Jump to the 1st character in code
+2
+square CX and print it
+i
+input a number into CX
+o
+output CX
+O
+output 1
+Q
+print Q
+z
+print 0
+s
+selection jump(jump to the 2nd byte in code if AX=1, else halts program.)
+I
+input 2 numbers into CX and BX
+R
+convert roman numerals to decimal
+a
+add CX and BX , store it in CX and print it
+[
+If CX == 0, jump over ].
+]
+subtract CX by 1. Jump to [ if CX != 0.
+F
+find the factorial of CX
+C
+coin program(Print 1 if input is "heads", -1 if input is "tails")
+H
+print "Hello, world!"
+9
+print the "99 bottles of beer"
+C
+check if CX is a palindrome
+U
+Underload
+S
+Stramge numbers

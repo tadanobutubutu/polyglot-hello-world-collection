@@ -1,0 +1,3 @@
+object hello {
+  method world() = "Hello World"
+}

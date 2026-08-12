@@ -1,0 +1,27 @@
+("=" followed immediately by delimiter expresses a definition which has no way to be referred.
+ So it can be used to place comments in the source code.)=
+(Defining the Y-combinator.)=
+(=f (=s (s s) f)=s s s)=Y-combinator
+(Short alias)=
+Y-combinator=fix
+
+(=string =world
+ ((=world world)= '\n' putc) world string putc string_output_core
+)=print
+((This language has no special syntaxes for expressing arbitrary immediate values such as numbers and strings.
+  Construct them from list structures.
+  "[", ",", "]", are also not syntaxes.
+  If you forget separating them with delimiter, this language should search a definition named "[1,0,0]".)=
+ (([ 1 , 0 , 0 ]) decimal)=max
+ zero (=self =count =world
+  (count one plus)=count
+  (=base ((=div (=mod)=) undefined count base divmod) zero equal)=core
+  ((5 core)=b
+   ((count num2str)
+    ([ 'b' , 'u' , 'z' , 'z' ]) b)
+   (([ 'f' , 'i' , 'z' , 'z' ])
+    ([ 'f' , 'i' , 'z' , 'z' , '\s' , 'b' , 'u' , 'z' , 'z' ])
+    b) 3 core)=rst
+  ((count self) world rst print)
+  (=next world next) count max big) fix
+) main

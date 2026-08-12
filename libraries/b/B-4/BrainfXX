@@ -1,0 +1,41 @@
+import sys
+def bf(code,member_id): # Member ID: 2 hex digits, XX interprets BrainfXX member
+    s1=[]
+    s2=[]
+    matches={}
+    tape=[0]*1000000
+    k='+-><,.[]'
+    member_id=int(member_id,16)
+    for i in range(8):
+        if not(member_id&(1<<i)):
+            code=code.replace(k[i],'')
+    for i,j in enumerate(code):
+        if j=='[':
+            s1.append(i)
+        if j==']':
+            m=s1.pop()
+            matches[m]=i
+            matches[i]=m
+    cp=0
+    p=0
+    while cp<len(code):
+        if code[cp]=='+':
+            tape[p]=(tape[p]+1)%256
+        if code[cp]=='-':
+            tape[p]=(tape[p]-1)%256
+        if code[cp]==',':
+            tape[p]=ord(sys.stdin.read(1))%256
+        if code[cp]=='.':
+            print(chr(tape[p]),end='')
+        if code[cp]=='<':
+            p-=1
+        if code[cp]=='>':
+            p+=1
+        if code[cp]=='[':
+            if not tape[p]:
+                cp=matches[cp]
+        if code[cp]==']':
+            if tape[p]:
+                cp=matches[cp]
+        cp+=1
+bf(sys.stdin.read(),'21') # Brainf21

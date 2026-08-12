@@ -1,0 +1,36 @@
+program              := { innerLine } , [ terminalLine ] ;
+terminalLine         := [ command ]                      ;
+innerLine            := [ command ] , newline            ;
+command              := addAndJumpCommand
+                     |  addOnlyCommand
+                     |  jumpOnlyCommand
+                     |  outputAndJumpCommand
+                     |  outputOnlyCommand
+                     |  inputAndJumpCommand
+                     |  inputOnlyCommand
+                     |  labelDefinition
+                     ;
+addAndJumpCommand    := ADJ , variable , operand  , jumpTarget ;
+addOnlyCommand       := ADJ , variable , operand  , X          ;
+jumpOnlyCommand      := ADJ , X        , X        , jumpTarget ;
+outputAndJumpCommand := ADJ , "0"      , operand  , jumpTarget ;
+outputOnlyCommand    := ADJ , "0"      , operand  , X          ;
+inputAndJumpCommand  := ADJ , "1"      , variable , jumpTarget ;
+inputOnlyCommand     := ADJ , "1"      , variable , X          ;
+labelDefinition      := labelName , ":" ;
+jumpTarget           := labelName | variable | integerLiteral ;
+labelName            := potentialLabelName - invalidLabelNames ;
+potentialLabelName   := labelCharacter , { labelCharacter } ;
+labelCharacter       := character - ( whitespace | ":" ) ;
+invalidLabelNames    := ADJ | X | variable | integerLiteral ;
+ADJ                  := "ADJ" ;
+X                    := "X"   ;
+operand              := integerLiteral | variable ;
+variable             := "a" | "b" | "c" ;
+integerLiteral       := [ "+" | "-" ] , digit , { digit } ;
+digit                := "0" | "1" | "2" | "3" | "4"
+                     |  "5" | "6" | "7" | "8" | "9"
+                     ;
+whitespace           := newline | space ;
+newline              := "\n" ;
+space                := " " | "\t" ;

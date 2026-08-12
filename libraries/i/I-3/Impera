@@ -1,0 +1,7 @@
+[
+	[1,1,1],[1,1,2],[1,1,3],[1,1,4],[1,1,5], //set the register 1 to 5
+	[1,2,6],[1,2,7],[1,2,8],[1,2,9],[1,2,10],[1,2,11],[1,2,12], //set the register 2 to 7
+	[0,2,14],//while we can decrement the second number...
+	[1,1,12],//...increment the first (the previous instruction has the index 12)
+	[0,1,15],[1,1,16] //finalization
+]

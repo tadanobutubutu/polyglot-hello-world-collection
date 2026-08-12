@@ -1,0 +1,29 @@
+# Based on Jonathan Tod Skinners Python Deadfish interpreter.
+# Changed by Singingbanana & Dan_zh.
+# This code is hereby in public domain.
+# Initialization
+accumulator = 0
+
+# Main program loop
+while True:
+    # Get user input
+    cmd = raw_input('>> ')
+    if accumulator == 1024 or accumulator == -2:
+        # Overflow, reset accumulator
+        accumulator = 0
+    # Process input
+    if cmd == 'i':
+        accumulator += 1 # Increment
+    elif cmd == 'c':
+        accumulator * accumulator * accumulator
+    elif cmd == 'e':
+        accumulator*accumulator+2*2
+        
+    elif cmd == 'd':
+        accumulator += -1 # Decrement
+    elif cmd == 'o':
+        print accumulator # Output
+    elif cmd == 's':
+        accumulator *= accumulator # Square
+    else:
+        print 'Unrecognized command.'

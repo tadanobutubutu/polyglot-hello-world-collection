@@ -1,0 +1,84 @@
+wwe = input('>wwe ')
+wwe = ''.join(format(ord(i), '08b') for i in wwe)
+import math
+for inst in range(0, len(wwe) // 4):
+    cmd = [wwe[4*inst], wwe[4*inst+1], wwe[4*inst+2], wwe[4*inst+3]]
+    cmd = ''.join(cmd)
+    if cmd == "0000":
+        print("Hello, World!")
+    elif cmd == "0001":
+        message = '{0} bottle{1} of beer on the wall.\n{0} bottle{1} of beer.\nTake one down, pass it around\n{2} bottle{3} of beer on the wall.\n'
+        for i in range(99, 0, -1):
+            print(message.format(i, "" if i==1 else "s", i-1 or "No more", "" if i-1==1 else "s"))
+        print("No more bottles of beer on the wall,\nno more bottles of beer.\nGo to the store and buy some more,\n99 bottles of beer on the wall.")
+    elif cmd == "0010":
+        print(''.join(chr(int(wwe[i*8:i*8+8],2)) for i in range(len(wwe)//8)))
+        break
+    elif cmd == "0011":
+        a = 1
+        b = 1
+        print(1)
+        print(1)
+        while True:
+            c = b+a
+            print(c)
+            a = b
+            b = c
+    elif cmd == "0100":
+        print(math.factorial(int(input('> '))))
+    elif cmd == "0101":
+        a = 0
+        b = int(input('> '))
+        while a <= b:
+            print(a)
+            a += 2
+    elif cmd == "0110":
+        print("%s" % input('> '))
+    elif cmd == "0111":
+        a = int(input('> '))
+        print((a - 1) % 9 + 1 if a else 0)
+    elif cmd == "1000":
+        x = 0
+        a = input('> ')
+        for i in range(0, len(a)):
+            if a[i] == "i":
+                x += 1
+            elif a[i] == "d":
+                x -= 1
+            elif a[i] == "s":
+                x **= 2
+            elif a[i] == "o":
+                print(x)
+            if x == -1 or x == 256:
+                x = 0
+    elif cmd == "1001":
+        import codecs
+        print(codecs.encode(input('> '), 'rot13'))
+    elif cmd == "1010":
+        print(math.pi)
+    elif cmd == "1011":
+        a = input('> ')
+        if a == "0":
+            print(0)
+            break
+        if a == "1":
+            while True:
+                print(1)
+    elif cmd == "1100":
+        for i in range(1, 101):
+            if i % 15 == 0:
+                print("FizzBuzz")
+            elif i % 3 == 0:
+                print("Fizz")
+            elif i % 5 == 0:
+                print("Buzz")
+            else: print(i)
+    elif cmd == "1101":
+        while True:
+            pass
+    elif cmd == "1110":
+        a = int(input('> '))
+        for i in range(0, a+1):
+            print(i)
+    elif cmd == "1111":
+        print(1 // 0)

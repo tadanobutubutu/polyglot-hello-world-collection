@@ -1,0 +1,21 @@
+'start # We start with the instruction pointor at the 'start cell
+0 # We use this element to test the or
+
+'0:0 # Some constant pointors to 0 or 1
+'1:1
+
+no_op = (0 0) # An empty operation
+
+stop {~+2 0 ~-2} # Do an infinite loop
+jump { ~+2 0 self.0 } # Jump to cell self.0
+
+or {
+    # self.0 => jump if self.1 or self.2 is '1
+    # self.1 => can be '0 or '1
+    # self.2 => can be '0 or '1
+    self.0 1 self.1 ~+1 0 0 self.2 ~+1 no_op
+}
+
+'start:or('good '0 '0) # start of the program
+stop() # if result is 0
+'good:stop() # if result is 1, will jump to good

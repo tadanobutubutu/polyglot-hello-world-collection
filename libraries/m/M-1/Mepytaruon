@@ -1,0 +1,6 @@
+Abbreviations:
+ptr    – Pointer
+val    – Value in a memory cell selected by the pointer
+dir    – The absolute direction IP attempts to move in
+stdin  – Standard input
+stdout – Standard output

@@ -1,0 +1,5 @@
+* include algs.uni
+
+#hp (:= new .problem(.famous_problems.halting) )
+.solve #hp
+;

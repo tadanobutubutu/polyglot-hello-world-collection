@@ -1,0 +1,48 @@
+1 1 1                           # Harmless fun for the first instruction.  Can't directly jump back to location 0.
+                                # Should really be "/jump Main", which allows for front loading data.
+
+Main:  /push   Text0*           # -132 0 0 
+       /call   Print            # -133 0 42
+       /push   Ten              # -1 0 0 
+       /exec   Malloc           # 0 0 -2 
+       /push   Mten             # -4 0 0 
+       /exec   Malloc           # 0 0 -2 
+       /push   Mten             # -4 0 0 
+       /exec   Free             # 0 0 -3 
+       /push   Ten              # -1 0 0 
+       /exec   Free             # 0 0 -3 
+       /push   Text1*           # -50 0 0     This is much easier than the previous methods of moving a pointer around.
+       /call   Print            # -133 0 42   Unconditional call, adds in a reference to 0.  NextIP is pushed to the return stack.
+       /jump   -1               # 0 -133 -1   Halt
+
+Print:  /pop    print*          # 0 66 0      pop beginning of text reference to print*
+Ploop:  /push   *print*         # 66.0 0 0    Indirect reference.
+        /exec   writechar       # 0 0 -51 
+        /lit-   1 print*        # 1 66 0      Text data is in negative memory, so subtracting one advances along the string.
+        /jump   *print* Pend    # 0 66.0 60   Test for end of string marker (<= 0).
+        /jump   Ploop           # 0 -133 45   Unconditional jump.  Parser appends "ZERO: 0" automatically (in this case, at location -133).
+Pend:   /sub    print*          # 66 66 66    Zeroes out print*.  Not strictly necessary, but good form.
+        /ret                    # 0 0 0       Return stack is popped to NextIP.
+% print*: 0                     # 0           Data in positive memory must be preceded by the '%' indicator.
+
+
+% --NEGATIVE--: --NEGATIVE--   # MUST be here in this form.
+Ten: 10          # 10
+Malloc: 16       # 16
+Free: -16        # -16
+Mten: -10        # -10
+
+Text1: '"' "These are the times that try men's souls." '"' 10 0         # 10 is newline.  0 is end of string marker.
+    #  34 84 104 101 115 101 32 97 114 101 32 116 104 101 32 116 105 109 101 115 32 116 104 97 116 32 
+    #  116 114 121 32 109 101 110 39 115 32 115 111 117 108 115 46 34 10 0
+
+Text1*: Text1    # -5
+writechar: -1    # -1
+
+Text0: "Malloc & Free test." 10 "Use a negative number to allocate or free negative memory." 10 0
+    #  77 97 108 108 111 99 32 38 32 70 114 101 101 32 116 101 115 116 46 10 85 115 101 32 
+    #  97 32 110 101 103 97 116 105 118 101 32 110 117 109 98 101 114 32 116 111 32 
+    #  97 108 108 111 99 97 116 101 32 111 114 32 102 114 101 101 32 110 101 103 97 116 105 118 101 32
+    #  109 101 109 111 114 121 46 10 0
+
+Text0*: Text0    # -52

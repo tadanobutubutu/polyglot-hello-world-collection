@@ -1,0 +1,9 @@
+export const s = 5;
+
+export function a(x){
+    if(floor(x/s) % 2 == 1) {
+        sin(x)
+    } else {
+        cos(x)
+    }
+}

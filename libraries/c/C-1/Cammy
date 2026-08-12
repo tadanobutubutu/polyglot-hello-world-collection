@@ -1,0 +1,4 @@
+$ cammy-frame hive/ <hive/list/gauss.cammy | cammy-jelly
+(comp
+ (comp (pr (pair zero nil) (pair (comp fst succ) cons)) snd)
+ (fold zero (uncurry (pr (curry snd) (curry (comp (uncurry id) succ))))))

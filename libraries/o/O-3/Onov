@@ -1,0 +1,79 @@
+ #Python 2.7.10
+ #ONOV language interpreter
+ from sys import stdout, exit
+ from sre_constants import IN_IGNORE
+ write=stdout.write
+ 
+ def dec(binary_num):
+    return int(binary_num, 2)
+ 
+ def stringify(x):
+     ret=bin(ord(character))[2:]
+     while len(ret)<7:
+         ret='0'+ret
+     return ret
+     
+ 
+ def part(S):
+     l=len(S)
+     if l%4==0:
+         return part(S[:l/2])+part(S[l/2:])
+     elif l%2==0:
+         return [part(S[:l/2]),part(S[l/2:])]
+     else: return S
+ 
+ def part1(S):
+     x=part(S)
+     if isinstance(x, list):
+         return x
+     else:
+         return [x]
+      
+ class Torch:
+     def __init__(self,giver,name):
+         self.name=name
+         self.state=False
+         if giver:
+             self.givers=[giver]
+         else:
+             self.givers=[]
+         
+ code=file(raw_input("""
+ Please enter name of the file to interpret\n""")).read()
+ parted=part1(code)
+ torches=[]
+ current=False
+ for x in parted:
+     repeated=False
+     for torch in torches:
+         if torch.name==x:
+             if current: torch.givers.append(current)
+             repeated=True
+     if not repeated: torches.append(Torch(current,x))
+     current=False if current else x
+
+ out=''
+ in_=[]
+ while True:
+     copy=torches
+     for x in torches:
+         x.state=False
+     if in_:
+         torches[0].state=True if int(in_.pop(0)) else False
+     for x in torches:
+         for name in x.givers:
+             for torch in copy:
+                 if name==torch.name and not torch.state:
+                     x.state=True
+     out+=str(int(torches[-1].state))
+     if len(out)==7:
+         if out=='0'*7:
+             in_=[]
+             for character in raw_input():
+                 for x in stringify(character):
+                     in_.append(x)
+         elif out=='1'*7:
+             exit()
+         else:
+             write(chr(dec(out)))
+         out=''

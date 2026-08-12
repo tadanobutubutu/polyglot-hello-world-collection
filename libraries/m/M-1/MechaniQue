@@ -1,0 +1,17 @@
+@^#EXAMPLE: something different than hello world 
+@[question]^:You are on a purple planet with lemons 
+@^:dancing around you. 
+@^:a. try to imitate a lemon 
+@^:b. ask one of them where the tonic is. 
+@^? 
+@{_a}^->answer1 
+@{_b}^->answer2 
+@^->question 
+@[answer1]^:Hmm
+@^:The other lemons think you dont look like one of them.
+@^? 
+@^->fin 
+@[answer2]^:Good question. Do you like rhetoric questions? 
+@^? 
+@[fin]^#you cannot place a label at the end-line. 
+@fin

@@ -1,0 +1,15 @@
+open helloworld
+add 72
+add 101
+add 108*2
+add 111
+add 44
+add 32
+add 87
+add 111
+add 114
+add 108
+add 100
+add 33
+close helloworld
+out helloworld

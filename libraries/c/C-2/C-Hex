@@ -1,0 +1,10 @@
+{tape_length: 0xFF}
+<main>
+    [00 00]; (print current cell as hex)
+    [00 01]; (print current cell as a letter using ascii)
+    [00 02]; (print current cell as a number)
+    [01 XX]; (set current cell to the value of XX)
+    [03]; (get input, if input is "EEEE" then cells 0, 1, 2 and 3 will all get set to the ascii code of "E")
+    [0A]; (get number, luckily the user does not have to use hex values, but will be converted to hex later)
+    (also puts the input into the cell which the pointer is pointing to)
+<end>

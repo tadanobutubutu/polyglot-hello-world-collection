@@ -1,0 +1,7 @@
+expr ::= expr '+' expr  /* addition */
+       | expr '-' expr  /* subtraction */
+       | expr '*' expr  /* multiplication */
+       | expr '/' expr  /* division of rationals: produces an exact rational result */
+       | '(' expr ')'   /* grouping/precedence override: returns the result of the expression inside */
+       | variablename   /* returns the value of the named variable */
+       | integer        /* returns the integer (integers are written in decimal) */

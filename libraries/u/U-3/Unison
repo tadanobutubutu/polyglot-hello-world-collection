@@ -1,1 +1,1 @@
-main = '(printLine "Hello world!")
+helloWorld = printLine "Hello World"

@@ -1,0 +1,8 @@
+T ::= ‘0’          -- a leaf (an empty tree)
+   |  ‘2’ T T      -- branching to two subtrees
+
+C ::= ‘_’          -- a hole (an empty context)
+   |  ‘2’ C T      -- branching to two subtrees: one with a hole, the other, whole
+   |  ‘2’ T C      -- the same with arguments swapped
+
+Θ ::= T | C        -- in case we don’t care or know

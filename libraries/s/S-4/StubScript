@@ -1,0 +1,9 @@
+function stubScript(code)
+{
+  code = code.split("")
+  for(var i = 0; i < code.length; ++i)
+    if(code[i] === ">")
+      code.push(code[i]);
+    else
+      throw new Error("Invalid command " + code[i]);
+}

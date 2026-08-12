@@ -1,0 +1,2 @@
+mov bx,dx
+mov ax,[bx]

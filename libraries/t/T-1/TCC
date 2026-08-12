@@ -1,0 +1,15 @@
+CREATE hello_world
+INSERT hello_world VALUES ("H")
+INSERT hello_world VALUES ("e")
+INSERT hello_world VALUES ("l")
+INSERT hello_world VALUES ("l")
+INSERT hello_world VALUES ("o")
+INSERT hello_world VALUES (",")
+INSERT hello_world VALUES (" ")
+INSERT hello_world VALUES ("W")
+INSERT hello_world VALUES ("o")
+INSERT hello_world VALUES ("r")
+INSERT hello_world VALUES ("l")
+INSERT hello_world VALUES ("d")
+INSERT hello_world VALUES ("!")
+IN     hello_world CHOOSE 1

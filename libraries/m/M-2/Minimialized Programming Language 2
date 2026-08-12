@@ -1,0 +1,12 @@
+=t"hello"
+=r[
+=i-t~0
+{i>i0)
+  @a r,t i
+  =i-i1
+}
+=i0
+{i< i~r)
+  ?c r i
+  =i+i1
+}

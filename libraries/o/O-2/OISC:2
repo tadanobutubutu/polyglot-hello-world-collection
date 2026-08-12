@@ -1,0 +1,9 @@
+If A & B are both positive: *B = *B - *A
+If A & B are both negative: **B = **B - **A
+If A is positive and B is negative: IF *A <= 0 Jump to |B|
+If A is negative and B is positive: IF **A <= 0 Jump to B
+If A is 0 and B is positive: STDIN --> *B
+If A is 0 and B is negative: STDIN --> **B
+If A is positive and B is 0: *A --> STDOUT
+If A is negative and B is 0: **A --> STDOUT
+If A & B are both 0: HALT

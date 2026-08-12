@@ -1,0 +1,183 @@
+#include <iostream>
+#include <vector>
+#include <set>
+
+using namespace std;
+
+class op {
+public:
+    op() {}
+    op(
+        size_t conditions,
+        vector<vector<long long> > condition,
+        size_t aconditions,
+        vector<vector<long long> > acondition,
+        size_t switches,
+        vector<vector<long long> > toswitch
+    ) : conditions(conditions), condition(condition), aconditions(aconditions), acondition(acondition), switches(switches), toswitch(toswitch) {}
+    bool trycond(const set<vector<long long> >& world) {
+        for (size_t c = 0; c < conditions; c++) {
+            if (!world.count(condition[c])) {
+                return false;
+            }
+        }
+        for (size_t c = 0; c < aconditions; c++) {
+            if (world.count(condition[c])) {
+                return false;
+            }
+        }
+        return true;
+    }
+    void doswitch(set<vector<long long> >& world) {
+        for (size_t s = 0; s < switches; s++) {
+            set<vector<long long> >::iterator found = world.find(toswitch[s]);
+            if (found != world.end()) {
+                world.erase(found);
+            } else {
+                world.insert(toswitch[s]);
+            }
+        }
+    }
+private:
+    size_t conditions;
+    vector<vector<long long> > condition;
+    size_t aconditions;
+    vector<vector<long long> > acondition;
+    size_t switches;
+    vector<vector<long long> > toswitch;
+};
+
+int main()
+{
+    size_t dimensions;
+    cin >> dimensions;
+    size_t operations;
+    cin >> operations;
+    vector<op> operation;
+    operation.resize(operations);
+    vector<long long> v;
+    v.resize(dimensions);
+    for (size_t o = 0; o < operations; o++) {
+        size_t conditions;
+        cin >> conditions;
+        vector<vector<long long> > condition;
+        condition.resize(conditions, v);
+        for (size_t c = 0; c < conditions; c++) {
+            for (size_t d = 0; d < dimensions; d++) {
+                cin >> condition[c][d];
+            }
+        }
+        size_t aconditions;
+        cin >> aconditions;
+        vector<vector<long long> > acondition;
+        acondition.resize(aconditions, v);
+        for (size_t ac = 0; ac < aconditions; ac++) {
+            for (size_t d = 0; d < dimensions; d++) {
+                cin >> acondition[ac][d];
+            }
+        }
+        size_t switches;
+        cin >> switches;
+        vector<vector<long long> > toswitch;
+        toswitch.resize(switches, v);
+        for (size_t s = 0; s < switches; s++) {
+            for (size_t d = 0; d < dimensions; d++) {
+                cin >> toswitch[s][d];
+            }
+        }
+        operation[o] = op(conditions, condition, aconditions, acondition, switches, toswitch);
+    }
+    set<vector<long long>> world;
+    size_t set;
+    cin >> set;
+    for (size_t s = 0; s < set; s++) {
+        vector<long long> coord;
+        coord.resize(dimensions);
+        for (size_t d = 0; d < dimensions; d++) {
+            cin >> coord[d];
+        }
+        world.insert(coord);
+    }
+    unsigned long long steps;
+    cin >> steps;
+    unsigned long long log;
+    cin >> log;
+    if (steps == 0) {
+        bool changed = true;
+        while (changed) {
+            changed = false;
+            for (size_t o = 0; o < operations; o++) {
+                if (operation[o].trycond(world)) {
+                    changed = true;
+                    operation[o].doswitch(world);
+                }
+            }
+            if (log != 0 && steps % log == 0) {
+                cout << world.size() << endl;
+                for (vector<long long> coord : world) {
+                    for (size_t d = 0; d < dimensions; d++) {
+                        if (d != 0) {
+                            cout << " ";
+                        }
+                        cout << coord[d];
+                    }
+                    cout << endl;
+                }
+                cout << steps << endl;
+                cout << endl;
+            }
+            steps++;
+        }
+        steps--;
+        cout << world.size() << endl;
+        for (vector<long long> coord : world) {
+            for (size_t d = 0; d < dimensions; d++) {
+                if (d != 0) {
+                    cout << " ";
+                }
+                cout << coord[d];
+            }
+            cout << endl;
+        }
+        cout << steps << endl;
+    } else {
+        bool changed = true;
+        while (steps > 0 && changed) {
+            changed = false;
+            for (size_t o = operations - 1; o > 0; o--) {
+                operation[o].doswitch(world);
+                if (operation[o].trycond(world)) {
+                    changed = true;
+                } else {
+                    operation[o].doswitch(world);
+                }
+            }
+            if (log != 0 && steps % log == 0) {
+                cout << world.size() << endl;
+                for (vector<long long> coord : world) {
+                    for (size_t d = 0; d < dimensions; d++) {
+                        if (d != 0) {
+                            cout << " ";
+                        }
+                        cout << coord[d];
+                    }
+                    cout << endl;
+                }
+                cout << steps << endl;
+                cout << endl;
+            }
+            steps--;
+        }
+        cout << world.size() << endl;
+        for (vector<long long> coord : world) {
+            for (size_t d = 0; d < dimensions; d++) {
+                if (d != 0) {
+                    cout << " ";
+                }
+                cout << coord[d];
+            }
+            cout << endl;
+        }
+    }
+    return 0;
+}

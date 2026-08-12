@@ -1,0 +1,6 @@
+{ BTree truth machine }
+{ "-" is 0 and "+" is 1 }
+
+  ;i;aA
+ o     ;^;o;^-
+. .   0

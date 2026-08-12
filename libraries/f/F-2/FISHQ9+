@@ -1,0 +1,60 @@
+//FISHQ9+ Interpreter
+//Based off of a deadfish interpreter
+
+#include <stdio.h>
+
+int bottles() {
+   int b;
+
+   puts("99 bottles of beer on the wall, 99 bottles of beer.");
+
+   for (b = 98; b > 1; b--) {
+       printf("Take one down and pass it around, %d bottles of beer on the wall.\n\n", b);
+       printf("%d bottles of beer on the wall, %d bottles of beer.\n", b, b);
+   }
+
+   puts("Take one down and pass it around, 1 bottle of beer on the wall.\n");
+   puts("1 bottle of beer on the wall, 1 bottle of beer.");
+   puts("Take one down and pass it around, no more bottles of beer on the wall.\n");
+   puts("No more bottles of beer on the wall, no more bottles of beer.");
+   puts("Go to the store and buy some more, 99 bottles of beer on the wall.");
+
+   return 0;
+}
+
+int main(void) {
+   int acc = 0;
+   int pl = 0;
+   char code[256];                 //It looked good at the time. It causes a bug, but I'll call it a feature that prevents spaghetti code
+   
+   for(int i = 0; i < 256; i++)
+       code[i] = 0;
+
+   while(1) {
+       char input; 
+
+       scanf("%c", &input);        //This line is from the deadfish interpreter. Probably causes a bug, but I still won't change it because it's one of the only lines I didn't completely change
+       code[pl] = input;
+       pl++;
+        
+       if(acc == -1 || acc == 256)
+           acc = 0;
+
+       if(input == 'i' || input == 'I' || input == 43)
+           acc++;
+       else if(input == 'd' || input == 'D')
+           acc--;
+       else if(input == 's' || input == 'S')
+           acc *= acc;
+       else if(input == 'o' || input == 'O')
+           printf("%d\n", acc);
+       else if(input == 'h' || input == 'H')
+           puts("Hello World.");
+       else if(input == 'q' || input == 'Q')
+           puts(code);
+       else if(input == '9')
+           bottles();
+       else if(input == 'k' || input == 'K')
+           return 0;
+   }
+}

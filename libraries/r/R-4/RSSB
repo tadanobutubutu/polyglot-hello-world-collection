@@ -1,0 +1,42 @@
+; RSSB Hello World, John Metcalf
+
+loop    rssb   acc       ; acc = character from ptr
+ptr     rssb   hello        
+
+        rssb   out       ; display character
+
+        rssb   zero      ; acc = -acc
+
+        rssb   zero      ; always skipped
+
+        rssb   sum       ; subtract acc from sum
+
+        rssb   ip        ; skipped if sum is <0
+                         ; otherwise jump to 0
+
+        rssb   acc       ; subtract 1 from ptr
+        rssb   one
+        rssb   ptr
+
+        rssb   acc       ; jump to loop
+        rssb   loopoff
+        rssb   ip
+loopoff rssb   $-loop
+
+sum     rssb   -1116
+
+one     rssb   1
+
+        rssb   33        ; '!'
+        rssb   100       ; 'd'
+        rssb   108       ; 'l'
+        rssb   114       ; 'r'
+        rssb   111       ; 'o'
+        rssb   87        ; 'W'
+        rssb   32        ; ' '
+        rssb   44        ; ','
+        rssb   111       ; 'o'
+        rssb   108       ; 'l'
+        rssb   108       ; 'l'
+        rssb   101       ; 'e'
+hello   rssb   72        ; 'H'

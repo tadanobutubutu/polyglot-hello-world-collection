@@ -1,0 +1,21 @@
+'use strict';
+
+const crypto = require('crypto');
+
+const run = (src, inp) => {
+  src = Buffer.from(src);
+  inp = Buffer.from(inp);
+  
+  let h = Buffer.alloc(0);
+  let a = 1n;
+  let n = -2n;
+  
+  while(n++, a){
+    const hash = crypto.createHash('sha256');
+    hash.update(Buffer.concat([src, h, inp]));
+    h = hash.digest();
+    a += [0n, -1n, 1n][h[0] % 3];
+  }
+  
+  return n;
+};

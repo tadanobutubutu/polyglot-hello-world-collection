@@ -1,0 +1,8 @@
+function main(PE_CONSOLE)
+ printf("Hello world!\n")
+
+end
+
+--[[
+STDOUT: Hello world!
+]]

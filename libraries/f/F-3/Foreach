@@ -1,0 +1,5 @@
+main _ { // Declare main function, ignore input (always []).
+  bit := io.bits[] => { // Loop over bits of io.bits[].
+    io.out bit; // Print each bit in order
+  }
+}

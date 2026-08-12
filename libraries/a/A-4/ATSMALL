@@ -1,0 +1,3 @@
+prog = int(input())
+pinA = not prog
+pinB = prog

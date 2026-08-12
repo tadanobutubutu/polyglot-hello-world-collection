@@ -1,0 +1,256 @@
+\x00  → \x00
+\x01  → \x01
+\x02  → \x02
+\x03  → \x03
+\x04  → \x04
+\x05  → \x05
+\x06  → \x06
+\x07  → \x07
+\x08  → \x08
+\t    → \t
+\n    → \n
+\x0b  → \x0b
+\x0c  → \x0c
+\r    → \r
+\x0e  → \x0e
+\x0f  → \x0f
+\x10  → \x10
+\x11  → \x11
+\x12  → \x12
+\x13  → \x13
+\x14  → \x14
+\x15  → \x15
+\x16  → \x16
+\x17  → \x17
+\x18  → \x18
+\x19  → \x19
+\x1a  → \x1a
+\x1b  → \x1b
+\x1c  → \x1c
+\x1d  → \x1d
+\x1e  → \x1e
+\x1f  → \x1f
+      →
+!     → !
+"     → "
+#     → #
+$     → $
+%     → %
+&     → &
+'     → '
+(     → (
+)     → )
+*     → *
++     → +
+,     → ,
+-     → -
+.     → .
+/     → /
+0     → 0
+1     → 1
+2     → 2
+3     → 3
+4     → 4
+5     → 5
+6     → 6
+7     → 7
+8     → 8
+9     → 9
+:     → :
+;     → ;
+<     → <
+=     → =
+>     → >
+?     → ?
+@     → @
+A     → A
+B     → B
+C     → C
+D     → D
+E     → E
+F     → F
+G     → G
+H     → H
+I     → I
+J     → J
+K     → K
+L     → L
+M     → M
+N     → N
+O     → O
+P     → P
+Q     → Q
+R     → R
+S     → S
+T     → T
+U     → Infinite Loop
+V     → Infinite Loop
+W     → Infinite Loop
+X     → °
+Y     → Infinite Loop
+Z     → ´
+[     → Infinite Loop
+\     → ¸
+]     → Infinite Loop
+^     → ¼
+_     → Infinite Loop
+`     → À
+a     → Â
+b     → Ä
+c     → Infinite Loop
+d     → Infinite Loop
+e     → Infinite Loop
+f     → Infinite Loop
+g     → Infinite Loop
+h     → Ð
+i     → Ò
+j     → Ô
+k     → Infinite Loop
+l     → Infinite Loop
+m     → Infinite Loop
+n     → Infinite Loop
+o     → Infinite Loop
+p     → à
+q     → â
+r     → ä
+s     → Infinite Loop
+t     → Infinite Loop
+u     → Infinite Loop
+v     → Infinite Loop
+w     → Infinite Loop
+x     → ð
+y     → ò
+z     → ô
+{     → Infinite Loop
+|     → Infinite Loop
+}     → Infinite Loop
+~     → Infinite Loop
+\x7f  → Infinite Loop
+\x80  → \x01
+\x81  → \x03
+\x82  → \x05
+\x83  → \x07
+\x84  → \t
+\x85  → \x0b
+\x86  → \r
+\x87  → \x0f
+\x88  → \x11
+\x89  → \x13
+\x8a  → \x15
+\x8b  → .
+\x8c  → Infinite Loop
+\x8d  → Infinite Loop
+\x8e  → Infinite Loop
+\x8f  → Infinite Loop
+\x90  → B
+\x91  → Infinite Loop
+\x92  → \x94
+\x93  → \x9c
+\x94  → R
+\x95  → Infinite Loop
+\x96  → ´
+\x97  → ¼
+\x98  → b
+\x99  → Infinite Loop
+\x9a  → Ô
+\x9b  → Ü
+\x9c  → r
+\x9d  → Infinite Loop
+\x9e  → ô
+\x9f  → ü
+\xa0  → A
+¡     → C
+¢     → E
+£     → G
+¤     → I
+¥     → K
+¦     → M
+§     → O
+¨     → Q
+©     → S
+ª     → Infinite Loop
+«     → Infinite Loop
+¬     → Infinite Loop
+\xad  → Infinite Loop
+®     → Infinite Loop
+¯     → Infinite Loop
+°     → Â
+±     → Infinite Loop
+²     → Infinite Loop
+³     → Infinite Loop
+´     → Ò
+µ     → Infinite Loop
+¶     → Infinite Loop
+·     → Infinite Loop
+¸     → â
+¹     → Infinite Loop
+º     → Infinite Loop
+»     → Infinite Loop
+¼     → ò
+½     → Infinite Loop
+¾     → Infinite Loop
+¿     → Infinite Loop
+À     → \x81
+Á     → \x83
+Â     → \x85
+Ã     → \x87
+Ä     → \x89
+Å     → \x8b
+Æ     → \x8d
+Ç     → \x8f
+È     → \x91
+É     → \x93
+Ê     → Infinite Loop
+Ë     → /
+Ì     → Infinite Loop
+Í     → Infinite Loop
+Î     → Infinite Loop
+Ï     → Infinite Loop
+Ð     → C
+Ñ     → Infinite Loop
+Ò     → -
+Ó     → =
+Ô     → S
+Õ     → Infinite Loop
+Ö     → Infinite Loop
+×     → Infinite Loop
+Ø     → c
+Ù     → Infinite Loop
+Ú     → Infinite Loop
+Û     → Infinite Loop
+Ü     → s
+Ý     → Infinite Loop
+Þ     → Infinite Loop
+ß     → Infinite Loop
+à     → Á
+á     → Ã
+â     → Å
+ã     → Ç
+ä     → É
+å     → Ë
+æ     → Í
+ç     → Ï
+è     → Ñ
+é     → Ó
+ê     → Infinite Loop
+ë     → Infinite Loop
+ì     → Infinite Loop
+í     → Infinite Loop
+î     → Infinite Loop
+ï     → Infinite Loop
+ð     → Ã
+ñ     → Infinite Loop
+ò     → /
+ó     → ?
+ô     → Ó
+õ     → Infinite Loop
+ö     → Infinite Loop
+÷     → Infinite Loop
+ø     → ã
+ù     → Infinite Loop
+ú     → Infinite Loop
+û     → Infinite Loop
+ü     → ó
+ý     → Infinite Loop
+þ     → Infinite Loop
+ÿ     → Infinite Loop

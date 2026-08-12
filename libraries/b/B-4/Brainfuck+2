@@ -1,0 +1,36 @@
+>+++++ +++           8 (loop counter)
+[
+	>
+    +++++ ++++       72  (perfect)
+    >
+    +++++ +++++ ++   96  (5 up) (used twice)
+    >
+    +++++ +++++ +++  104 (4 up) (used twice)
+    >
+    +++++ +++++ ++++ 112 (1 down)
+    >
+    +++++ +          48  (4 down)
+    >
+    ++++             32  (perfect) (space)
+    >
+    +++++ +++++ +    84  (1 down)
+    >
+    +++++ +++++ ++++ 112 (1 down) (used 3 times)
+    last one is ! but we can use space and add 1
+    
+    
+    [<]>-
+]
+
+>.      H
+>+++++. e
+>++++.. ll
+>-.     o
+>----.  (comma)
+>.      (space)
+>-.     W
+<<<.    o
++++.    r
+<.      l
+<-.     d
+>>>>+.  !

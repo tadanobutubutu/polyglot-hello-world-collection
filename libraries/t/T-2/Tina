@@ -1,0 +1,5 @@
+.zstr MSG "Hello, world!\n"
+
+start:
+  OUTZ MSG
+  HALT

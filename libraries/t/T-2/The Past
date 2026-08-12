@@ -1,0 +1,14 @@
+import sys
+import time
+
+with open(sys.argv[1]) as f: code = f.read()
+dt = 0.1*code.count('.') - 0.001*code.count('<')
+acc = code.count('+') - code.count('-')
+if dt >= 0:
+    print('Starting program...')
+    time.sleep(dt)
+    print(f'Accumulator: {acc}')
+else:
+    print(f'Accumulator: {acc}')
+    time.sleep(-dt)
+    print('Starting program...')

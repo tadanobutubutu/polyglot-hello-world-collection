@@ -1,0 +1,8 @@
+tema5002@polyester:~$ git clone https://github.com/antigrav-technologies/TheLang.git
+...
+tema5002@polyester:~$ cd TheLang/
+tema5002@polyester:~/TheLang$ make all
+gcc main.c -o TheLang -O3 -Wall -Wextra -Werror -lm
+tema5002@polyester:~/TheLang$ python3 -c 'print("the "*0o433)' > a.the
+tema5002@polyester:~/TheLang$ ./TheLang a.the
+þ

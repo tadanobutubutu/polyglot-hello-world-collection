@@ -1,0 +1,12 @@
+Pinit -° Tstart                                                                        
+PIN -49-> Tstart
+Tstart -> Pdata
+Tstart -> Pinit
+Pdata -> Ttrue
+Pdata -° Tfalse
+Pblock -° Tfalse
+Tfalse -48-> POUT
+Tfalse -> Pblock
+Ttrue -49-> POUT
+Ttrue -32-> POUT
+Ttrue -> Pdata

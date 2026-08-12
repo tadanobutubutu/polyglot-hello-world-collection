@@ -1,0 +1,1 @@
+allow if "Hello World" = "Hello World";

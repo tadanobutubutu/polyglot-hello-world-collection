@@ -1,0 +1,36 @@
+import sys
+def hzfsck(code):
+    s=[]
+    matches={}
+    tape=[0]*1000000
+    for i,j in enumerate(code):
+        if j=='咖':
+            s.append(i)
+        if j=='啡':
+            m=s.pop()
+            matches[m]=i
+            matches[i]=m
+    cp=0
+    p=0
+    while cp<len(code):
+        if code[cp]=='音':
+            tape[p]=(tape[p]+1)%256
+        if code[cp]=='你':
+            tape[p]=(tape[p]-1)%256
+        if code[cp]=='还':
+            c=sys.stdin.read(1)
+            tape[p]=(ord(c) if c else 0)%256
+        if code[cp]=='行':
+            print(chr(tape[p]),end='')
+        if code[cp]=='乐':
+            p+=1
+        if code[cp]=='蓝':
+            p-=1
+        if code[cp]=='咖':
+            if not tape[p]:
+                cp=matches[cp]
+        if code[cp]=='啡':
+            if tape[p]:
+                cp=matches[cp]
+        cp+=1
+hzfsck(sys.stdin.read())

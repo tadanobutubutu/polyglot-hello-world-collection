@@ -1,0 +1,4 @@
+Example:
+, This line will be ignored
+12+;
+The last line will end and therefore so will the program, this is never executed.

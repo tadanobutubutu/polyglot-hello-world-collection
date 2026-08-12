@@ -1,0 +1,10 @@
+/ Infinite loop program. Start the accumulator at zero.
+/ If the accumulator is non-zero, it will not infinite loop.
+/ f(0)=InfiniteLoop
+/ f(x)=x if x>0
+/ f(x)=x+2 if x<0 and x is even
+/ f(x)=x-2 if x<0 and x is odd
+TEL '#=0
+IEDO
+IODE
+TEL 1

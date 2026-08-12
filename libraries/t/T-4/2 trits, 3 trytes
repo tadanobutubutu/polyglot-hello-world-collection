@@ -1,0 +1,19 @@
+*This uses a 4-trit version of ASCII. Here's a chart:
+  012345678
+
+0 ○░▒π∞↊↋×÷
+1 ¬µ█/'"\?~
+2 `!@#$%^&*
+3 012345678
+4 9.,:;=-_+
+5 ()[]{}<>|
+6 ▓ABCDEFGH
+7 IJKLMNOPQ
+8 RSTUVWXYZ
+
+**Tritwise confusion uses this table (side is input 1 and top is input 2):
+  012
+
+0 212
+1 022
+2 011

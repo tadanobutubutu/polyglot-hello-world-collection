@@ -1,0 +1,25 @@
+0
+1
+
+One program loop does one of the two following things:
+* If the control counter is not near zero, subtracts 3 from it and adds 5 to the data counter.
+* If the control counter is near zero, performs the following map:
+  * control = 3: halt
+  * control = 2: data counter increased by 9
+  * control = 1: data counter increased by 6
+  then sets the control counter to the data counter plus 1 and the data counter to 0.
+This emulates the rules of the 5 state 2 color Busy Beaver winner program
+(by storing the value of x plus 1 in one counter whenever the other is zero).
+
++ Ensure data counter is nonzero, so that we can change the control counter.
+
+\---\$\+++\ If control counter is 3, halt.
+
+++++++/-/ If control counter was at least 1, increase data counter by 6.
++++/-/    If control counter was at least 2, increase data counter by 3 more = 9.
+----/-/   If control counter was at least 3, reduce data counter increase by 4 = 5.
+
+- If the control counter was large, undo the increase that ensured a nonzero data counter.
+  (If it wasn't large, this will do nothing, effectively adding 1 to the data counter.)
+
+/\ If the control counter is now 0, swap it with the data counter.

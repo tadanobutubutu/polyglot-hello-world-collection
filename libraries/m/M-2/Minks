@@ -1,0 +1,13 @@
+b INC b INC b INC b INC b INC b INC b INC b INC b INC b INC 
+b INC b INC b INC b INC b INC b INC b INC b INC b INC b INC
+b INC b INC b INC b INC b INC b INC b INC b INC b INC b INC
+b INC b INC b INC b INC b INC b INC b INC b INC b INC b INC
+b INC b INC b INC b INC b INC b INC b INC b INC b INC b INC
+b INC b INC b INC b INC b INC b INC b INC b INC b INC b INC
+b INC b INC b INC b INC b INC b INC b INC b INC b INC b INC
+b INC b INC b OUT
+b DEC c b DEC c b DEC c b OUT
+b INC b INC b INC b INC b INC b INC b INC b OUT b OUT
+b INC b INC b INC b OUT
+b inc   b inc   b inc   b inc   b inc   b inc   b inc   b inc   b inc   b inc   b out
+b dec b b dec b b dec b b dec b b dec b b dec b b dec b b dec b b dec b b dec b b dec b

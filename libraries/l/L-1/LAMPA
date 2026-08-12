@@ -1,0 +1,37 @@
+as main.
+-- DECLARATION
+module stop where.
+hiding -1.
+module cr where.
+let lf 10.
+type as lf.
+rec proc.
+-- END DECLARATION
+
+-- MAIN MODULE
+module main where.
+let H 72.
+type as H.
+let e 101.
+type as e.
+let l 108.
+type as l.type as l.
+let o 111.
+type as o.
+let comma 44.
+type as comma.
+let space 32.
+type as space.
+let W 87.
+type as W.
+type as o.
+let r 114.
+type as r.
+type as l.
+let d 100.
+type as d.
+let ! 33.
+type as !.
+as cr.
+as stop.
+-- END MAIN MODULE

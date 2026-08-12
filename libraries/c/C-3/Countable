@@ -1,0 +1,12 @@
+1+2         // This will be used to track the current accumulator.
+1*1<        // Outer loop to act as a breaking mechanism
+  2*∞<      // Actual read-write loop
+    a1@     // Store input into the current accumulator
+    *aa1<   // If that input isn't zero...
+      %aa1  // Print it
+      1+1   // Update the pointer to point to the next empty accumulator
+      2&    // Skip the break
+    >
+    1&      // If the input is zero, break
+  >
+>

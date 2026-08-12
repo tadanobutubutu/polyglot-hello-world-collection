@@ -1,0 +1,4 @@
+p        *(push (another?) 'p')
+(        *(pop something, initially the 'p' we just pushed, and try to prove it. If it's not provable, skip past the matching ')')
+ pp?)    *(push two 'p's, then pop one of them and output whether or not it's provable - always yes. Then go back to the '(')
+a?       *(push 'a' and output whether it's provable - always no, since it's not mentioned anywhere in the stack)

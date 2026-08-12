@@ -1,0 +1,8 @@
+label loop {
+ print [blue, red]
+ counter = [counter, [counter, [counter ,end]]]
+ call counter
+}
+label end { print end }
+counter = loop
+call loop

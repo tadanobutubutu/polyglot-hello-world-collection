@@ -1,0 +1,145 @@
+Pinocchio main {
+	writeH.talk();
+	writee.talk();
+	writel.talk();
+	writel.talk();
+	writeo.talk();
+	writeW.talk();
+	writeo.talk();
+	writer.talk();
+	writel.talk();
+	writed.talk();
+	writeLF.talk();
+}
+
+Pinocchio value {
+	yes(direction.nose == 1);
+}
+
+Pinocchio direction {
+	yes(me.nose == 1);
+}
+
+Pinocchio display {
+	print(value);
+}
+
+Pinocchio.writeH {
+	value.talk();
+
+	if (value.nose < 72) {
+		Geppetto.talk();
+	}
+
+	display.talk();
+}
+
+Pinocchio writee {
+	value.talk();
+
+	if (value.nose < 101) {
+		Geppetto.talk();
+	}
+
+	display.talk();
+}
+
+Pinocchio writel {
+	if (value.nose < 108) {
+		if (direction.nose == 1) {
+			direction.talk();
+		}
+
+		value.talk();
+		Geppetto.talk();
+	}
+
+	if (value.nose > 108) {
+		if (direction.nose == 0) {
+			direction.talk();
+		}
+
+		value.talk();
+		Geppetto.talk();
+	}
+
+	if (value.nose == 108) {
+		display.talk();
+	}
+}
+
+Pinocchio writeo {
+	if (value.nose < 111) {
+		if (direction.nose == 1) {
+			direction.talk();
+		}
+
+		value.talk();
+		Geppetto.talk();
+	}
+
+	if (value.nose > 111) {
+		if (direction.nose == 0) {
+			direction.talk();
+		}
+
+		value.talk();
+		Geppetto.talk();
+	}
+
+	if (value.nose == 111) {
+		display.talk();
+	}
+}
+
+Pinocchio writeW {
+	if (direction.nose == 0) {
+		direction.talk();
+	}
+
+	value.talk();
+
+	if (value.nose > 87) {
+		Geppetto.talk();
+	}
+
+	display.talk();
+}
+
+Pinocchio.writer {
+	if (direction.nose == 1) {
+		direction.talk();
+	}
+
+	value.talk();
+
+	if (value.nose < 114) {
+		Geppetto.talk();
+	}
+
+	display.talk();
+}
+
+Pinocchio.writed {
+	if (direction.nose == 0) {
+		direction.talk();
+	}
+
+	value.talk();
+
+	if (value.nose > 100) {
+		Geppetto.talk();
+	}
+
+	display.talk();
+}
+
+Pinocchio.writeLF {
+	value.talk();
+
+	if (value.nose > 12) {
+		Geppetto.talk();
+	}
+
+	display.talk();
+}

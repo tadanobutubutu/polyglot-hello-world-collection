@@ -1,0 +1,20 @@
+relative ::= <token "\\\\relative">
+begin_relative ::= <relative> <spaces>
+                   <pitch> <accidental>? <octave>? <spaces> '{'
+close_brace ::= '}'
+directive ::= <begin_relative> | <close_brace>
+sharp ::= 'i' 's' => "is"
+flat ::= 'e' 's' => "es"
+accidental ::= (<sharp> | <flat>)+
+pitch ::= 'r' | 'c' | 'd' | <flat> | 'e' | 'f' | 'g' | 'a' | 'b'
+octave ::= ('\ | ',')+
+duration ::= <digit>+ '.'*
+note ::= <spaces>? <pitch> <accidental>? <octave>? <duration>?
+notes ::= <note>*
+chord ::= <token '<'> <notes> <token '>'>
+measure_marker ::= <token '|'>
+partial_marker ::= <token "\\\\partial">
+marker ::= <measure_marker> | <partial_marker>
+protonote ::= <marker> | <chord> | <note>
+protonote_cluster ::= <spaces>? <protonote> (<spaces>? <protonote>)*
+melody ::= <directive>? <protonote_cluster> <directive>?

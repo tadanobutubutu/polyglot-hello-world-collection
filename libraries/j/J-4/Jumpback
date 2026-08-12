@@ -1,0 +1,6 @@
+MOV #0, 10
+MOV #1, 0
+LBL
+SHOW #0
+SUB #0, 1
+JNE #0, #1

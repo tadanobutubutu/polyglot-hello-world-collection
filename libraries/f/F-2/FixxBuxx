@@ -1,0 +1,3 @@
+range(1,1)            ) The range is from 1 to 1
+when(1)Hello, World!  ) When you need to print 1, print "Hello, World!" instead.
+Fi1Bu1                ) Multiples of 1(Only 1), print "FizzBuzz". But you need to print "Hello, World!" because of the "when" command.

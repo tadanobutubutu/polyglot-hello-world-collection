@@ -1,0 +1,13 @@
+sub sd {
+    if ($_[0]=~/\A([3-7]*)1([0-9]+)2\z/) {
+        my$t=$2;
+        for my$p(reverse split//,$1) {
+            $t = 3 eq$p ? $t x2 : 4 eq$p ? reverse$t :
+                5 eq$p ? (1<length$t?substr($t,1):return undef) :
+                6 eq$p ? 1 .$t : 7 eq$p ? 2 .$t : die;
+            }
+        return $t;
+    } else {
+        return undef;
+    }
+}

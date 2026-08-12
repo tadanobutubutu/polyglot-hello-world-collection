@@ -1,0 +1,4 @@
+Bootstrap: docker
+From: alpine
+%runscript
+echo Hello World

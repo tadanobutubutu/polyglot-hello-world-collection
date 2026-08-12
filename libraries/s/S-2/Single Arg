@@ -1,0 +1,4 @@
+term ::= '.' | '-' | '+' | '<' | '>'
+  | '{' term '}'
+  | term term          (application, left‑associative)
+  | '(' term ')'       (grouping, transparent)

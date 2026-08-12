@@ -1,0 +1,28 @@
+4 4x 6 ; The interpreter begins at the second "4", increases the instruction pointer,
+       ; and thus gets to the next instruction, without executing "4".
+
+4 4 6x ; The character 2 ("6") is the first that is executed.
+       ; The next cell (cell 3, which is initially 0) will get character "6" to its value.
+
+       ; In the next cycle the interpreter checks if the instruction pointer is x.
+       ; (x is the length of the program, measured before starting execution, and never changed after.)
+       ; The instruction pointer is not at 3 (which x is in this case) but in 2.
+       ; The instruction pointer is incremented, and thus set to 3.
+
+4 4 6 6x ; The "6" is executed and the next cell will get character "6" to its value.
+         ; In the next cycle the IP is equal to x (3 in this case), and the IP is thus
+         ; moved to 0. Then it's incremented, and ends up to 1.
+
+4 4x 6 6 6 ; The direction of the pointer is changed there. On the next cycle
+           ; the IP is decremented (as the direction is different now), and it ends up
+           ; to the cell 0.
+
+4x 4 6 6 6 ; In cell 0 the direction is changed again. On the next cycle the interpreter
+           ; finds out the IP is at cell 0, and thus sets it to x (3). Then it's incremented,
+           ; as always in the beginning of cycle, and it ends up to 4.
+
+4 4 6 6 6x ; The next 0 cell will get character "6" to its value. The pointer is moved one forward.
+
+4 4 6 6 6 6x ; Same as above. A pattern has started.
+
+4 4 6 6 6 6 6x ; And so forth.

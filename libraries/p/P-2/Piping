@@ -1,0 +1,5 @@
+   pipe self into g
+   pipe 23 into g as times
+   pipe {pipe 'Hello World!' through output} into g as content
+   pipe (g) through loop
+   pipe exit

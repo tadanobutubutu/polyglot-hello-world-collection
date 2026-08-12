@@ -1,0 +1,5 @@
+0 - push 0 to the current stack
+1 - push 1 to the current stack
+~ - switch to another stack
+[...] - while top of the stack is 1
+* - pop top element

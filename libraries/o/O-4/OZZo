@@ -1,0 +1,73 @@
+import textwrap
+
+memory = ""
+inp = ""
+errorlevel = 0
+
+code = input()
+
+# 1111 = sets memory to true
+# 0000 = sets memory to false
+# 1001 = print memory
+# 1110 = input
+# 1010 = save input in memory
+# 1101 = clear memory
+# 0101 = set errorlevel to 1
+# 1011 = set errorlevel to 0
+# 0100 = check if errorlevel is 1 than go to the next instruction
+# 0110 = check if errorlevel is 0 than go to the next instruction
+# 0111 = stops the program
+
+instructions = textwrap.wrap(code,4)
+
+for part in instructions:
+	if part == "1110":
+		inp = input()
+	elif part == "1010":
+		memory = inp
+	elif part == "1001":
+		print(memory[::-1])
+	elif part == "1101":
+		memory = ""
+	elif part == "0101":
+		errorlevel = 1
+	elif part == "1011":
+		errorlevel = 0
+	elif part == "0111":
+		break
+	elif part == "0100":
+		if errorlevel == 1:
+			if instructions[instructions.index(part)+1] == "1110":
+				inp = input()
+			if instructions[instructions.index(part)+1] == "1010":
+				memory = inp
+			if instructions[instructions.index(part)+1] == "1001":
+				print(memory[::-1])
+			if instructions[instructions.index(part)+1] == "1101":
+				memory = ""
+			if instructions[instructions.index(part)+1] == "0111":
+				break
+			if instructions[instructions.index(part)+1] == "1111":
+				memory = "eurt"
+			if instructions[instructions.index(part)+1] == "0000":
+				memory = "eslaf"
+	elif part == "0110":
+		if errorlevel == 0:
+			if instructions[instructions.index(part)+1] == "1110":
+				inp = input()
+			if instructions[instructions.index(part)+1] == "1010":
+				memory = inp
+			if instructions[instructions.index(part)+1] == "1001":
+				print(memory[::-1])
+			if instructions[instructions.index(part)+1] == "1101":
+				memory = ""
+			if instructions[instructions.index(part)+1] == "0111":
+				break
+			if instructions[instructions.index(part)+1] == "1111":
+				memory = "eurt"
+			if instructions[instructions.index(part)+1] == "0000":
+				memory = "eslaf"
+	elif part == "1111":
+		memory = "eurt"
+	elif part == "0000":
+		memory = "eslaf"

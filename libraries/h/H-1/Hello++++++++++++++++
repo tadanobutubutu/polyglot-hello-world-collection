@@ -1,0 +1,8 @@
+h              -  Print "Hello World"
+H              -  Equivalent to h
+"Hello World"  -  Equivalent to h
+[ any input ]  -  Print the input
+hw             -  Equivalent to h
+wh             -  Print "dlroW olleH"
+HELLO          -  Start program
+GOODBYE        -  End program

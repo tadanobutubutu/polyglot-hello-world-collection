@@ -1,0 +1,10 @@
+terminal
+
+luci --version
+luci --update
+luci --forceupdate
+luci --zen
+luci --sin
+luci --grace
+luci --lucifer
+luci --shackle

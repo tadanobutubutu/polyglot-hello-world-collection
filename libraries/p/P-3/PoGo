@@ -1,0 +1,84 @@
+po - add current position in code to the top of the po stack
+go - pop the most recent po location off the stack and jump there
+no - pop the most recent po location off the stack as to remove it
+bi - pop the most recent po location and push it onto the reserve po stack
+hi - pop the most recent po from the reserve po stack and push it onto the po stack
+wy - switch the top and second values of the po stack
+ok - pop the most recent po location off the stack and place the value in the current memory cell
+in - push the value in the current memory cell onto the po stack
+du - duplicate the top member of the po stack
+bo - move the top value from the top of the po stack to the bottom
+uw - move the bottom value from the bottom of the po stack to the top
+yp - switch the po stack with the reserve po stack
+pe - put the total number of values on the po stack into the current memory cell
+
+to - execute the following command only if the value in the current memory cell is >0
+un - execute the following command only if the value in the current memory cell is =0
+ni - execute the following command only if the value in the current memory cell is <0
+ki - skip the number of following commands as specified by the value in the current memory cell
+
+nu - move the memory pointer north
+su - move the memory pointer south
+tu - move the memory pointer east
+wu - move the memory pointer west
+
+le - rotate the entire horizontal row of the memory array the memory pointer is currently in left once. 
+(also has the effect of moving the pointer right once)
+ri - rotate the entire horizontal row of the memory array the memory pointer is currently in right once. 
+(also has the effect of moving the pointer left once)
+up - rotate the entire vertical row of the memory array the memory pointer is currently in up once. 
+(also has the effect of moving the pointer down once)
+do - rotate the entire vertical row of the memory array the memory pointer is currently in down once. 
+(also has the effect of moving the pointer up once)
+
+op - pop from the memory stack and place the value in the current memory cell
+os - push the value from the current memory cell onto the stack
+ow - pop a value from the memory stack and do nothing with it, as to destroy it
+an - duplicate the top member of the memory stack
+as - switch the top and second values of the memory stack
+ob - move the top value from the top of the memory stack to the bottom
+bu - move the bottom value from the bottom of the memory stack to the top
+te - put the total number of values on the memory stack into the current memory cell
+wi - switch the memory stack with the secondary memory stack
+
+ad - add the top two values of the memory stack and push the result (+)
+ub - subtract the second from the top value of the memory stack and push the result (-)
+mu - multiply the top two values of the memory stack and push the result (*)
+vi - divide the top by the second value of the memory stack and push the result (/)
+ke - raise the top to the second power from the memory stack and push the result (^)
+do - modulo the top by the second value of the memory stack and push the result (%)
+da - binary and the top two values of the memory stack and push the result
+or - binary or the top two values of the memory stack and push the result
+xo - binary xor the top two values of the memory stack and push the result
+
+en - increment the memory cell under the memory pointer
+de - decrement the memory cell under the memory pointer
+ne - negate the memory cell under the memory pointer
+ab - make the memory cell under the memory pointer positive (abs)
+be - bit shift the memory cell under the memory pointer left once
+by - bit shift the memory cell under the memory pointer right once
+re - rotate the bits of the memory cell under the memory pointer left once
+ry - rotate the bits of the memory cell under the memory pointer right once
+ot - flip all the bits of the memory cell under the memory pointer
+me - flip the leftmost bit of the memory cell under the memory pointer
+my - flip the rightmost bit of the memory cell under the memory pointer
+
+si - push the sign of the current memory cell onto the memory stack
+he - push the masculinity of the current memory cell onto the memory stack (Chuck Norris may cause stack overflow)
+
+qi - output "poqigo" to the console
+wo - output "Hello, world!" to the console
+be - output the lyrics of "99 bottles of beer on the wall" to the console
+fi - output the first 16 numbers of the Fibonacci sequence to the console
+ko - output the Collatz sequence of the number in the current memory cell to the console
+pi - output pi and its first several digits to the console
+ra - worship the sun god
+am - think and therefore be (become self-aware)
+ho - mistakenly put one before bros
+is - have an existentialist crisis
+
+if - accept numerical input and place the result into the current memory cell
+ic - accept ASCII input and place the value of the first character into the current memory cell
+uf - output the value in the current memory cell as a number
+uc - output the value in the current memory cell as a character
+ly - print a newline to the console

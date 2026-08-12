@@ -1,0 +1,33 @@
+:^) :o) :o) :o) :^) :^(						~Store 10 into the zero memory postiion
+<;^}								~begin loop, increment pointer and copy new mem value to the register
+:^) :^) :^) :^) :^) :^) :^(					~Add 7 to the current register and store in memory
+;^}								~increment ptr and copy new mem value to the register
+:^) :^) :^) :^) :^) :^) :^) :^) :^) :^(				~Add 10 to the current register and store in memory
+;^}								~increment ptr and copy new mem value to the register
+:^) :^) :^(							~add 3 to the current register and store in memory
+;^}								~increment ptr and copy new mem value to the register
+:^(								~add 1 to the current register and store in memory
+;-| ;-|	;-| ;-}							~more the ptr down 4 and copy memory to register
+:-(>								~decrement current register and store in memory then loop back
+;^}								~increment ptr and copy new mem value to the register
+:^) :^)	:( :@							~Increment the register by 2, sore in memory, and print 'H'
+;^}								~increment ptr and copy new mem value to the register
+:^) :@								~increment register by 1 and print 'e'
+:^) :^) :^) :^) :^) :^) :^) :@					~increment register by 7 and print 'l'
+:@								~print 'l'
+:^) :^) :^) :@							~increment register by 3 and print 'o'
+:(								~store register into memory
+;^}								~increment ptr and copy new mem value to the register
+:^) :^) :@							~increment register by 2 and print 'W'
+:(								~store register into memory
+;-| ;-}								~Decrement ptr twice and copy memory to register
+:^) :^) :^) :^) :^) :^) :^) :^) :^) :^) :^) :^) :^) :^) :^) :@	~increment register by 15 and print 'o'
+:(								~store register into memory
+;^}								~increment ptr and copy new mem value to the register
+:@								~print 'o'
+:^) :^) :^) :@							~increment register by 3 and print 'r'
+:-) :-) :-) :-) :-) :-) :@					~decrement register by 6 and print 'l'
+:-) :-) :-) :-) :-) :-) :-) :-) :@				~decrement register by 8 and print 'd'
+;^}								~increment ptr and copy new mem value to the register
+:^) :@								~increment register and print '!'
+;^| ;@								~decrement ptr, and print '\n'

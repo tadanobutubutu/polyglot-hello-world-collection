@@ -1,0 +1,3 @@
+void HelloWorld()
+{
+   Float j = 0; // a throw-away value that would become zero anyway
