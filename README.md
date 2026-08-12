@@ -5,12 +5,14 @@ A curated museum of **6263** real Hello World programs (including **69** image /
 
 Non-textual media:
 
-| Kind | Display in lists / README |
-|------|---------------------------|
-| Images (Piet, Brainloller, …) | Embedded preview `![…](…)` + Source File link |
-| Sound / MIDI (Velato, …) | Generated **score** + **piano roll** images, **WAV/MP3** audio, MIDI download |
-| Block / binary projects | Description + Source File (Scratch `.sb*`, App Inventor `.aia`) |
-| SVG as program | Embedded image |
+| Kind | Display |
+|------|---------|
+| Images (Piet, Brainloller, SVG, …) | Embedded `![…](…)` preview |
+| MIDI / sound (Velato, …) | Staff score + piano roll + MP3/WAV + MIDI |
+| Scratch / Catrobat / App Inventor / Playgrounds | Extracted costume/screenshot preview + source summary |
+| ZIP / other archives | Preview when present + extracted text |
+| PE / ELF / opaque binaries | Hex dump + strings summary (not raw dump in page) |
+| gzip payloads | Decompressed text or image preview |
 
 ---
 

@@ -1,0 +1,310 @@
+// archive members:
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Manifest.plist  (408 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/Manifest.plist  (337 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift  (1 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/Manifest.plist  (337 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift  (1 bytes)
+//   My Playground.playgroundbook/Contents/Manifest.plist  (749 bytes)
+//   My Playground.playgroundbook/Contents/UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift  (75 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist  (237 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta  (594 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/UserManifest.plist  (285 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Manifest.plist  (1182 bytes)
+
+// --- My Playground.playgroundbook/Contents/UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift ---
+// Code inside modules can be shared between pages and other source files.
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta ---
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>print("Hello World")
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 21}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
+
+// --- My Playground.playgroundbook/Contents/Manifest.plist ---
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Chapters</key>
+	<array>
+		<string>Chapter1.playgroundchapter</string>
+	</array>
+	<key>ContentIdentifier</key>
+	<string>com.apple.playgrounds.blank</string>
+	<key>ContentVersion</key>
+	<string>1.0</string>
+	<key>DeploymentTarget</key>
+	<string>ios-current</string>
+	<key>DevelopmentRegion</key>
+	<string>en</string>
+	<key>SwiftVersion</key>
+	<string>5.5</string>
+	<key>Version</key>
+	<string>8.0</string>
+	<key>UserAutoImportedAuxiliaryModules</key>
+	<array/>
+	<key>UserModuleMode</key>
+	<string>Full</string>
+	<key>HasMeaningfulResetPoint</key>
+	<false/>
+</dict>
+</plist>
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Manifest.plist ---
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseVersion</key>
+	<string>1.0</string>
+	<key>DiffPackType</key>
+	<string>UserEdit</string>
+	<key>DocumentType</key>
+	<string>PlaygroundBook</string>
+	<key>Name</key>
+	<string>com.apple.playgrounds.blank</string>
+	<key>UpdateVersion</key>
+	<string>1.0</string>
+	<key>Updates</key>
+	<dict>
+		<key>Added</key>
+		<array>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/UserManifest.plist</string>
+			</dict>
+		</array>
+		<key>Modified</key>
+		<array>
+			<dict>
+				<key>Diff</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta</string>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+			</dict>
+		</array>
+		<key>Removed</key>
+		<array/>
+		<key>Replaced</key>
+		<array/>
+	</dict>
+</dict>
+</plist>
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Manifest.plist (content 408 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>My Playground</string>
+	<key>TemplatePageFilename</key>
+	<string>Template.playgroundpage</string>
+	<key>InitialUserPages</key>
+	<array>
+		<string>My Playground.playgroundpage</string>
+	</array>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/Manifest.plist (content 337 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>My Playground</string>
+	<key>LiveViewEdgeToEdge</key>
+	<false/>
+	<key>LiveViewMode</key>
+	<string>HiddenByDefault</string>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift (content 1 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+
+
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/Manifest.plist (content 337 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>Template Page</string>
+	<key>LiveViewEdgeToEdge</key>
+	<false/>
+	<key>LiveViewMode</key>
+	<string>HiddenByDefault</string>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift (content 1 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+
+
+
+// --- My Playground.playgroundbook/Contents/Manifest.plist (content 749 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Chapters</key>
+	<array>
+		<string>Chapter1.playgroundchapter</string>
+	</array>
+	<key>ContentIdentifier</key>
+	<string>com.apple.playgrounds.blank</string>
+	<key>ContentVersion</key>
+	<string>1.0</string>
+	<key>DeploymentTarget</key>
+	<string>ios-current</string>
+	<key>DevelopmentRegion</key>
+	<string>en</string>
+	<key>SwiftVersion</key>
+	<string>5.5</string>
+	<key>Version</key>
+	<string>8.0</string>
+	<key>UserAutoImportedAuxiliaryModules</key>
+	<array/>
+	<key>UserModuleMode</key>
+	<string>Full</string>
+	<key>HasMeaningfulResetPoint</key>
+	<false/>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Contents/UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift (content 75 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+// Code inside modules can be shared between pages and other source files.
+
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist (content 237 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>My Playground</string>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta (content 594 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>print("Hello World")
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 21}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/UserManifest.plist (content 285 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UserPageFilenames</key>
+	<array>
+		<string>My Playground.playgroundpage</string>
+	</array>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Manifest.plist (content 1182 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseVersion</key>
+	<string>1.0</string>
+	<key>DiffPackType</key>
+	<string>UserEdit</string>
+	<key>DocumentType</key>
+	<string>PlaygroundBook</string>
+	<key>Name</key>
+	<string>com.apple.playgrounds.blank</string>
+	<key>UpdateVersion</key>
+	<string>1.0</string>
+	<key>Updates</key>
+	<dict>
+		<key>Added</key>
+		<array>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/UserManifest.plist</string>
+			</dict>
+		</array>
+		<key>Modified</key>
+		<array>
+			<dict>
+				<key>Diff</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta</string>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+			</dict>
+		</array>
+		<key>Removed</key>
+		<array/>
+		<key>Replaced</key>
+		<array/>
+	</dict>
+</dict>
+</plist>
+

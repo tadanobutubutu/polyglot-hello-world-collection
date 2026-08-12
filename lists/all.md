@@ -5548,7 +5548,7 @@ $scope.message = "Hello World";
 
 ![Annoying Alice 2D](../libraries/a/A-3/Annoying%20Alice%202D.png)
 
-*画像プログラム（PNG / 390 bytes）*
+*画像プログラム（IMAGE / 390 bytes）*
 
 [Source File](../libraries/a/A-3/Annoying%20Alice%202D.png)
 
@@ -5915,9 +5915,77 @@ This program does nothing
 
 ##### App Inventor
 
-*ブロック／バイナリ言語（App Inventor プロジェクト / 1099 bytes）*
+*MIT App Inventor プロジェクト / 1099 bytes*
 
-リポジトリ上の実体ファイルを参照してください（プレビュー非対応形式）。
+**抽出ソース / 要約**
+
+```text
+// archive members:
+//   src/appinventor/ai_whighamg2028/hello_world/Screen1.bky  (0 bytes)
+//   src/appinventor/ai_whighamg2028/hello_world/Screen1.scm  (341 bytes)
+//   youngandroidproject/project.properties  (384 bytes)
+
+// --- src/appinventor/ai_whighamg2028/hello_world/Screen1.scm ---
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"213","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"30","AppName":"hello_world","Title":"Screen1","Uuid":"0","$Components":[{"$Name":"TextBox1","$Type":"TextBox","$Version":"6","Hint":"Hint for TextBox1","Text":"Hello World","Uuid":"-1412496346"}]}}
+|#
+
+// --- youngandroidproject/project.properties ---
+#
+#Wed Feb 02 15:22:06 UTC 2022
+source=../src
+name=hello_world
+defaultfilescope=App
+main=appinventor.ai_whighamg2028.hello_world.Screen1
+color.accent=&HFFFF4081
+sizing=Responsive
+assets=../assets
+theme=Classic
+showlistsasjson=True
+useslocation=False
+aname=hello_world
+actionbar=False
+color.primary=&HFF3F51B5
+build=../build
+versionname=1.0
+versioncode=1
+color.primary.dark=&HFF303F9F
+
+// --- src/appinventor/ai_whighamg2028/hello_world/Screen1.bky (content 0 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+(empty or whitespace-only content)
+
+// --- src/appinventor/ai_whighamg2028/hello_world/Screen1.scm (content 341 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+#|
+$JSON
+{"authURL":["ai2.appinventor.mit.edu"],"YaVersion":"213","Source":"Form","Properties":{"$Name":"Screen1","$Type":"Form","$Version":"30","AppName":"hello_world","Title":"Screen1","Uuid":"0","$Components":[{"$Name":"TextBox1","$Type":"TextBox","$Version":"6","Hint":"Hint for TextBox1","Text":"Hello World","Uuid":"-1412496346"}]}}
+|#
+
+// --- youngandroidproject/project.properties (content 384 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+#
+#Wed Feb 02 15:22:06 UTC 2022
+source=../src
+name=hello_world
+defaultfilescope=App
+main=appinventor.ai_whighamg2028.hello_world.Screen1
+color.accent=&HFFFF4081
+sizing=Responsive
+assets=../assets
+theme=Classic
+showlistsasjson=True
+useslocation=False
+aname=hello_world
+actionbar=False
+color.primary=&HFF3F51B5
+build=../build
+versionname=1.0
+versioncode=1
+color.primary.dark=&HFF303F9F
+
+```
 
 [Source File](../libraries/a/A-4/App%20Inventor.aia)
 
@@ -6189,7 +6257,7 @@ Answer: A
 
 ![Ark](../libraries/a/A-4/Ark.png)
 
-*画像プログラム（PNG / 440733 bytes）*
+*画像プログラム（IMAGE / 440733 bytes）*
 
 [Source File](../libraries/a/A-4/Ark.png)
 
@@ -12609,7 +12677,7 @@ a?b?[aa-b+]b!
 
 ![BiTrax](../libraries/b/B-2/BiTrax.PNG)
 
-*画像プログラム（PNG / 192 bytes）*
+*画像プログラム（IMAGE / 192 bytes）*
 
 [Source File](../libraries/b/B-2/BiTrax.PNG)
 
@@ -12912,7 +12980,7 @@ output string Hello World
 
 ![Black Pentagon](../libraries/b/B-3/Black%20Pentagon.png)
 
-*画像プログラム（PNG / 42066 bytes）*
+*画像プログラム（IMAGE / 42066 bytes）*
 
 [Source File](../libraries/b/B-3/Black%20Pentagon.png)
 
@@ -13637,7 +13705,7 @@ procedure main() {
 
 ![Boolfish](../libraries/b/B-3/Boolfish.png)
 
-*画像プログラム（PNG / 7616 bytes）*
+*画像プログラム（IMAGE / 7616 bytes）*
 
 [Source File](../libraries/b/B-3/Boolfish.png)
 
@@ -15554,7 +15622,7 @@ What am I supposed to print? Like, theres no variables, and I guess with the loo
 
 ![Brainloller _short](../libraries/b/B-4/Brainloller%20_short.png)
 
-*画像プログラム（PNG / 967 bytes）*
+*画像プログラム（IMAGE / 967 bytes）*
 
 [Source File](../libraries/b/B-4/Brainloller%20_short.png)
 
@@ -15562,7 +15630,7 @@ What am I supposed to print? Like, theres no variables, and I guess with the loo
 
 ![Brainloller](../libraries/b/B-4/Brainloller.png)
 
-*画像プログラム（PNG / 199 bytes）*
+*画像プログラム（IMAGE / 199 bytes）*
 
 [Source File](../libraries/b/B-4/Brainloller.png)
 
@@ -16183,7 +16251,7 @@ $"Hello World"
 
 ![BSoD](../libraries/b/B-4/BSoD.png)
 
-*画像プログラム（PNG / 928 bytes）*
+*画像プログラム（IMAGE / 928 bytes）*
 
 [Source File](../libraries/b/B-4/BSoD.png)
 
@@ -18222,8 +18290,29 @@ cathy
 [Source File](../libraries/c/C-1/CATHY)
 
 ##### Catrobat
+
+*Catrobat / Pocket Code プロジェクト / 71825 bytes*
+
+**プレビュー**
+
+![Catrobat preview](../libraries/c/C-1/Catrobat.preview.png)
+
+**抽出ソース / 要約**
+
 ```text
-PK  �{OT               code.xmlF��<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+// archive members:
+//   code.xml  (3654 bytes)
+//   manual_screenshot.png  (13876 bytes)
+//   automatic_screenshot.png  (19558 bytes)
+//   シーン 1/images/.nomedia  (0 bytes)
+//   シーン 1/manual_screenshot.png  (13876 bytes)
+//   シーン 1/automatic_screenshot.png  (19558 bytes)
+//   シーン 1/.nomedia  (0 bytes)
+//   シーン 1/sounds/.nomedia  (0 bytes)
+//   .nomedia  (0 bytes)
+
+// --- code.xml ---
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <program>
   <header>
     <applicationBuildName></applicationBuildName>
@@ -18319,12 +18408,66 @@ PK  �{OT               code.xmlF��<?xml version="1.0" encoding="U
   </programVariableList>
   <programListOfLists/>
   <programMultiplayerVariableList/>
-</program>PK�BYK  F  PK  �{OT               manual_screenshot.png46�ɉPNG
-
-   
-IHDR  8  T   T���   sRGB ���   sBIT|d�    IDATx��ڱ	�@�{��[�/�*�x�33;    a��    �zw8   �6    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �    O�    �   
+</program>
+
+// --- code.xml (content 3654 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<program>
+  <header>
+    <applicationBuildName></applicationBuildName>
+    <applicationBuildNumber>0</applicationBuildNumber>
+    <applicationBuildType>signedRelease</applicationBuildType>
+    <applicationName>ポケット
+コード</applicationName>
+    <applicationVersion>1.0.3</applicationVersion>
+    <catrobatLanguageVersion>1.03</catrobatLanguageVersion>
+    <dateTimeUpload></dateTimeUpload>
+    <description></description>
+    <deviceName>Redmi Note 8 Pro</deviceName>
+    <isCastProject>false</isCastProject>
+    <landscapeMode>false</landscapeMode>
+    <listeningLanguageTag></listeningLanguageTag>
+    <mediaLicense></mediaLicense>
+    <notesAndCredits></notesAndCredits>
+    <platform>Android</platform>
+    <platformVersion>31</platformVersion>
+    <programLicense></programLicense>
+    <programName>Hello World</programName>
+    <remixOf></remixOf>
+    <scenesEnabled>true</scenesEnabled>
+    <screenHeight>2132</screenHeight>
+    <screenMode>STRETCH</screenMode>
+    <screenWidth>1080</screenWidth>
+    <tags></tags>
+    <url></url>
+    <userHandle></userHandle>
+  </header>
+  <settings/>
+  <scenes>
+    <scene>
+      <name>シーン 1</name>
+      <objectList>
+        <object type="Sprite" name="背景">
+          <lookList/>
+          <soundList/>
+          <scriptList>
+            <script type="StartScript" posX="0.0" posY="0.0">
+              <brickList>
+                <brick type="SetVariableBrick">
+                  <brickId>b89c300e-b7d4-46a4-bcf5-de285bb0c7a6</brickId>
+                  <commentedOut>false</commentedOut>
+                  <formulaList>
+                    <formula category="VARIABLE">
+                      <additionalChildren/>
+                      <type>STRING</type>
+                      <value>Hello World</value>
+                    </formula>
+                  </formulaList>
+                
 …
 ```
+
 [Source File](../libraries/c/C-1/Catrobat.catrobat)
 
 ##### Catshark
@@ -19643,7 +19786,7 @@ AGb-A#A#+A+%A#DF-AC#
 
 ![Chordfuck](../libraries/c/C-2/Chordfuck.png)
 
-*画像プログラム（PNG / 162028 bytes）*
+*画像プログラム（IMAGE / 162028 bytes）*
 
 [Source File](../libraries/c/C-2/Chordfuck.png)
 
@@ -19660,7 +19803,7 @@ idempotence  @ implies(X, Y) \ implies(X, Y) <=> true.
 
 ![ChromaCode](../libraries/c/C-2/ChromaCode.png)
 
-*画像プログラム（PNG / 311 bytes）*
+*画像プログラム（IMAGE / 311 bytes）*
 
 [Source File](../libraries/c/C-2/ChromaCode.png)
 
@@ -20810,7 +20953,7 @@ component {
 
 ![Color Scheme](../libraries/c/C-3/Color%20Scheme.png)
 
-*画像プログラム（PNG / 11435 bytes）*
+*画像プログラム（IMAGE / 11435 bytes）*
 
 [Source File](../libraries/c/C-3/Color%20Scheme.png)
 
@@ -20818,7 +20961,7 @@ component {
 
 ![Colours](../libraries/c/C-3/Colours.png)
 
-*画像プログラム（PNG / 189 bytes）*
+*画像プログラム（IMAGE / 189 bytes）*
 
 [Source File](../libraries/c/C-3/Colours.png)
 
@@ -21076,9 +21219,18 @@ END Hello.
 [Source File](../libraries/c/C-3/CompressedBF)
 
 ##### CompressedFuck
+
+*バイナリプログラム / 84 bytes*
+
 ```text
-�3������=��le���I��������I��I1���
+0000  ef bf bd 33 ef bf bd ef bf bd ef bf bd ef bf bd
+0010  ef bf bd ef bf bd 3d ef bf bd ef bf bd 6c 65 ef
+0020  bf bd ef bf bd ef bf bd 49 ef bf bd ef bf bd ef
+0030  bf bd ef bf bd ef bf bd ef bf bd ef bf bd ef bf
+0040  bd 49 ef bf bd ef bf bd 49 31 ef bf bd ef bf bd
+0050  ef bf bd 0a
 ```
+
 [Source File](../libraries/c/C-3/CompressedFuck)
 
 ##### Compute
@@ -22004,7 +22156,7 @@ puts "Hello World"
 
 ![Cryptoleq](../libraries/c/C-4/Cryptoleq.jpg)
 
-*画像プログラム（JPG / 922215 bytes）*
+*画像プログラム（IMAGE / 922215 bytes）*
 
 [Source File](../libraries/c/C-4/Cryptoleq.jpg)
 
@@ -22712,7 +22864,7 @@ select row { "Hello World" AMessage }
 
 ![DAEANAAACP](../libraries/d/D-1/DAEANAAACP.jpg)
 
-*画像プログラム（JPG / 327403 bytes）*
+*画像プログラム（IMAGE / 327403 bytes）*
 
 [Source File](../libraries/d/D-1/DAEANAAACP.jpg)
 
@@ -22988,7 +23140,7 @@ Example:
 
 ![Dathanna](../libraries/d/D-1/Dathanna.png)
 
-*画像プログラム（PNG / 2047 bytes）*
+*画像プログラム（IMAGE / 2047 bytes）*
 
 [Source File](../libraries/d/D-1/Dathanna.png)
 
@@ -23089,7 +23241,7 @@ psHello, World!;pa10;e;
 
 ![DBR](../libraries/d/D-1/DBR.png)
 
-*画像プログラム（PNG / 197 bytes）*
+*画像プログラム（IMAGE / 197 bytes）*
 
 [Source File](../libraries/d/D-1/DBR.png)
 
@@ -26611,7 +26763,7 @@ console.log "Hello World"
 
 ![earth](../libraries/e/E-1/earth.bmp)
 
-*画像プログラム（BMP / 1572920 bytes）*
+*画像プログラム（IMAGE / 1572920 bytes）*
 
 [Source File](../libraries/e/E-1/earth.bmp)
 
@@ -28031,7 +28183,7 @@ LDA A, 9
 
 ![Entish](../libraries/e/E-3/Entish.png)
 
-*画像プログラム（PNG / 11472 bytes）*
+*画像プログラム（IMAGE / 11472 bytes）*
 
 [Source File](../libraries/e/E-3/Entish.png)
 
@@ -29358,84 +29510,81 @@ ter
 [Source File](../libraries/e/E-4/Execode)
 
 ##### Executable
-```text
-MZ�       ��  �       @                                   �   � �	�!�L�!This program cannot be run in DOS mode.
 
-$       PE  d�
-      � 	  � "  �  x     ��      @                       �#         `�                                             �! �                           �! �g                                                   � H                          .text   ǵ     �                   `.rdata  ��	  �  �	  �             @  @.data      �  x  �             @  �/4         �     �             @ B/19     ��  �  �  �             @ B/32     �V   �  X   �             @ B/46     0                       @ B/65     �     "               @ B/78     ��  @  �  :             @ B/90     ��    !  �   �             @ B.idata  �   �!     �             @  �.reloc  �g   �!  h   �             @  B.symtab 8s   "  t  �                B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                � Go build ID: "QZjqEdmx3ZPf4J3eMNCB/HQ39YR8qPGotj50ADPCQ/Yw4P9adDlqQykmizk6zI/wbK2GzuWMZXyNce5zLSn"
- ��������������������������I;fv8H��H�l$H�l$H�D$ H�\$(f��{  H�D$ H�\$(�,   H�l$H���H�D$H�\$�3� H�D$H�\$��������L�d$�M;f��  H��   H��$�   H��$�   H��$�   �H��L��H���  1��  H������H��}E1�1�H���1@ H9���  H�qH9��}  H)�H�{�I��H��H��?H!�H�H��|��8cpu.u�1� �I  H������H�t$pL�D$PH���K  �H9��  H���  H�z�I��H��H��?H��H�8L�RL9���  L�L$HH�\$`H)�L�Y�L�\$M��I��I��?M!�N�L�\$XH��uF�fA��ont!�fH��u`F�,fA��ofuSF�TA��fuGH��u)D�8fA��alu�|8@��luH�=m 1� ��  H�L$@H�W H�T$81��r   �5 H�|^
- �   �> H�D$XH�\$�{> H���
- �    �j> H�D$`H�\$H�[> H�->
- �   �J> ��5 H�t$pL�D$P�&���H�L$ H�D$h�'5 H�
-�
- �!   �> H�D$hH�\$ �> H��=
- �   ��= �q5 H�t$pL�D$P�����H�� H�
-t H��~	H�D$P1��H��$�   H�Ĩ   �H�� �$�   A�$�   ��$�    �	  H�T$HH�L$x��$�   ��tyH��$�   �> t��ur�fH��$�   H�D$pH��$�   H�L$@�E4 H�.�
- �   �4= H�D$pH�\$@�%= H�b~
- �   �= �4 H�D$PH�L$xH�T$H�z��$�    uH��$�   ��dH��$�   H�D$pH��$�   H�L$@��3 H�P�
- �   �< H�D$pH�\$@�< H���
- �   �< �4 H�D$PH�L$xH�T$HH�H9����������H��H9��l����4f�@��,u��b���H��H9�������<D  @��=u�����I�BH9���   H�=�
- L��
- L9��  I��H��L�\H�<�M9�u�H�D$0L�T$(H��L���F  ��u%H�L$@H�T$8H�\$`H�t$pL�D$PL�L$HL�T$(�H�
-^
- H�5O
- H�D$(H9���   H�|$0�D>H�
-8
- H�5)
- H9�snH�<>H�L�L$@I���H�t$pL�D$P�Q�����[2 H�	�
- �   �J; H�D$`H�\$H�;; H�
-;
- �   �*; �2 H�t$pL�D$P������ �� L���� E�TI�AH9������L�
-� L�� @ L9�s`I��H��A�DH��u
-A�   f��L�_ L�P M9�s$E�TL�F L�%7 M9�r�L��L���g� L��L�ѐ�[� L���S� L���� �   H�� ��� H��H��H���m� H��H���� H���Z� �H�D$H�\$�
-� H�D$H�\$��������������������������������I;f�R  H��0H�l$(H�l$(H�!9	 ��{�  H��H�5An f�     �     H�l$�H�l$��M� H�m �=�K  fD  ��   H�
-�Q H�HH�
-�Q H�H0H�
-Q H�HPH�
-uQ H�HpH�
-kQ H���   H�
-^Q H���   H�
-QQ H���   H�
-DQ H���   H�
-8Q H��  H�
-+Q H��0  H�
-Q H��P  H�
-Q H��p  H�
-Q H���  H�
-�P H���  H�
-�P H���  �  H�xH�
-�P @ ��� H�x0H�
-�P �� H�xPH�
-�P �۲ H�xpH�
-�P �˲ H���   H�
-�P 踲 H���   H�
-oP 襲 H���   H�
-]P 蒲 H���   H�
-KP @ �{� H��  H�
-6P �h� H��0  H�
-$P �U� H��P  H�
-P �B� H��p  H�
-P �/� H���  H�
-�O ��� H���  H�
-�O �� H���  H�
-�O ��� H�R	    H�O	    �=�I  u	H�/	 �H�=&	 ��� H�$    ��  EW�eL�4%(   M��    �D$����  �D$ �   �H�$��  EW�eL�4%(   M��    �D$��F H�$   �  EW�eL�4%(   M��    �D$�L$����N �� ��N ����N ��	��N ����N ����N ����N ����N �����
-�N ����!ʈ�N ��f�r1��7�D$$�  EW�eL�4%(   M��    �$��s	�����1����D$$����!Ȉ6N �D$ ��s
-H�l$(H��0ÈL$H�$   �   EW�eL�4%(   M��    �D$����M �����T$!ʈ�M ����M ��	��M ����M H�l$(H��0�H�l$(H��0�@ �{� �������������������������̋D$�L$��D$�\$�L$�T$�����̹    ЉD$�T$����������������I;fvcH�� H�l$H�l$H�HH�H�0f�H9KuH�D$(H�\$0H��H���e  ��u1��H�T$(H�BH�T$0H�Z�   �A  H�l$H�� �H�D$H�\$訋 H�D$H�\$�y����������������������������I;fvoH�� H�l$H�l$H�D$(H�\$01��H�T$H�JH�D$(H�\$0H��}+H�L$H��H�4H�H��H���
-�����u�1�H�l$H�� ø   H�l$H�� �H�D$H�\$���� H�D$H�\$�l���������������H��H��H�UUUUUUUUH!�H!�H�H��H��H�33333333H!�H!�H�H��H��H�H�H!�H��H��H�H��H��H�H��H�� H�H�������������������̀=|K  t
-H��C ?   �H��C    �������������������������������H9��"  H9�I��LL�I����   I��?v�=K ��  �  I��v[�o�oft�f��H5��  u*H��H��I����H��0H��0�H�� H�� �H��H��H��H1��:��H�E�����I��vH�H�H9�uJ�D�J�L�H9�tuH�H�H1�H��H��H��H�E�����J��    H��tK@���wH�6�J�t�H��H��@���wH�?�J�|�H��H��H�H�H1�tH��H��H��H�u�����H1�H1�H9�����H�DA���o�oft�f��H5��  �!����oF�oOft�f��H5��  ������oF �oO ft�f��H5��  ������oF0�oO0ft�f��H5��  �����H��@H��@I��@I��@�i����o�����o��o��of ��oo ��t�����5����u#��t�����5����uH��@H��@I��@I��@r���w�`�����w�F�����w�����������������������H��H��H������������������������H����   H��@��   �=�H thH��@��   �o�o�oV�o_�of �oo �ov0�o0ft�ft�ft�ft�f��f��f��f��H��@H��@H��@����  t�H1��H��@r=��o��o��oV ��o_ ��t���t���������H��@H��@H��@������t���wH1����wH��vH�H�H��H��H��H9�t�H1��H�L�H�T�H9����H�� t7H��    H��@���wH�6�H�t�H��@���wH�?�H�|�H��H)�H�������H9�uH��   �H��H��H�����������H9�uH��   �H��H��H�Z��������fHn�f`�f`�fp� H��|TH��H�� ��   H�D���oft�f����u%H��H9�r�H���oft�f����uI� �����H)�H�I�8�H��t�H�Ff��t�oft�f����t�9�s�I���oL�ft�f�щ�������t�I�À=�F �f���fHn�L�\���}x���o��t���}�u&H�� L9�|�L����o��t���}�u��wI� �����������H)�H�I���w����������H�t$H�\$�D$L�D$ �������������I;fv"H�� H�l$H�l$�
-  �b���H�l$H�� �H�D$H�\$�Ʉ H�D$H�\$������������������������������I;fv"H�� H�l$H�l$�   袥 H�l$H�� �H�D$H�\$�i� H�D$H�\$������������������������������I;fv)H�� H�l$H�l$H�H�HH��f��{f  H�l$H�� �H�D$H�\$�� H�D$H�\$�����������������������I;f��   H�� H�l$H�l$� W�.�u{y.�u{^I�N0���   ���   ���   ����1���1���1����1׉��   �>H1�H�!�Vj�nu H1�H��c��k�R H��H�l$H�� ù   �k� H�l$H�� �H�!�Vj�nu H1�H��c��k�R H��H�l$H�� �H�D$H�\$�
-� H�D$H�\$ �������������������������������I;f��   H�� H�l$H�l$� W�f.�u{zf.�u{^I�N0���   ���   ���   ����1���1���1����1׉��   �>H1�H�!�Vj�nu H1�H��c��k�R H��H�l$H�� ù   �i� H�l$H�� �H�!�Vj�nu H1�H��c��k�R H��H�l$H�� �H�D$H�\$�� H�D$H�\$��������������������������������I;fv=H��H�l$H�l$H�D$ � D  �����H�L$ H��H��H�������H�l$H���H�D$H�\$莁 H�D$H�\$���I;fv=H��H�l$H�l$H�D$ � D  �{���H�L$ H��H��H���g���H�l$H���H�D$H�\$�.� H�D$H�\$���I;f��   H��0H�l$(H�l$(H�D  H��t}H�RH�z t�r@�� t4H�pH�!�Vj�nu H1�H��H����  H��c��k�R H��H�l$(H��0�H�pH�!�Vj�nu H1�H��H���  H��c��k�R H��H�l$(H��0�H��H�l$(H��0�H���I �   H��H��1�H�6p
- ��] ��q  H��H�AU	 ��; �H�D$H�\$�+� H�D$H�\$���������������������������������I;f��   H��0H�l$(H�l$(H�D  H��tyH�z t�r@�� t4H�pH�!�Vj�nu H1�H��H����   H��c��k�R H��H�l$(H��0�H�pH�!�Vj�nu H1�H��H���   H��c��k�R H��H�l$(H��0�H��H�l$(H��0�H���- �   H��H��1�H�o
- �\ ��p  H��H�%T	 D  �  �H�D$H�\$� H�D$H�\$���������������������������������I;f��  H��pH�l$hH�l$h�P@ ���&  �P������   H��$�   ��wT��uH�D$x1��T  f�     ���;
-…
+*Windows 実行ファイル (PE) / 1926144 bytes*
+
+**バイナリ要約（hex / strings）**
+
+```text
+Binary Hello World artifact: Executable.exe
+Size: 1926144 bytes
+Detected kind: pe
+Magic: 4d 5a 90 00 03 00 04 00 00 00 00 00 ff ff 00 00
+
+Format: Windows PE executable (MZ header)
+PE header offset: 0x80
+Machine: 0x8664
+
+Hex dump (first 128 bytes):
+  0000  4d 5a 90 00 03 00 04 00 00 00 00 00 ff ff 00 00   MZ..............
+  0010  8b 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00   ........@.......
+  0020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+  0030  00 00 00 00 00 00 00 00 00 00 00 00 80 00 00 00   ................
+  0040  0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68   ........!..L.!Th
+  0050  69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f   is program canno
+  0060  74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20   t be run in DOS 
+  0070  6d 6f 64 65 2e 0d 0d 0a 24 00 00 00 00 00 00 00   mode....$.......
+
+Strings (sample):
+  !This program cannot be run in DOS mode.
+  .text
+  `.rdata
+  @.data
+  B/19
+  B/32
+  B/46
+  B/65
+  B/78
+  B/90
+  B.idata
+  .reloc
+  B.symtab
+   Go build ID: "QZjqEdmx3ZPf4J3eMNCB/HQ39YR8qPGotj50ADPCQ/Yw4P9adDlqQykmizk6zI/wbK2GzuWMZXyNce5zLSn"
+  D$ H
+  \$(f
+  D$ H
+  8cpu.u
+  t$pL
+  D$PH
+  L$HH
+  \$`H)
+  \$XH
+  ont!
+  ofuSF
+  fuGH
+  L$@H
+  T$81
+  D$XH
+  D$`H
+  t$pL
+  L$ H
+  D$hH
+  t$pL
+  D$P1
+  T$HH
+  D$pH
+  D$pH
+  D$PH
+  L$xH
 ```
+
 [Source File](../libraries/e/E-4/Executable.exe)
 
 ##### Exemoji
 
 ![Exemoji](../libraries/e/E-4/Exemoji.png)
 
-*画像プログラム（PNG / 5075 bytes）*
+*画像プログラム（IMAGE / 5075 bytes）*
 
 [Source File](../libraries/e/E-4/Exemoji.png)
 
@@ -30722,7 +30871,7 @@ Your faithful student, Twilight Sparkle.
 
 ![Firefly](../libraries/f/F-2/Firefly.png)
 
-*画像プログラム（PNG / 241520 bytes）*
+*画像プログラム（IMAGE / 241520 bytes）*
 
 [Source File](../libraries/f/F-2/Firefly.png)
 
@@ -31208,7 +31357,7 @@ FLOORPLAN
 
 ![Flow chart](../libraries/f/F-3/Flow%20chart.png)
 
-*画像プログラム（PNG / 5526 bytes）*
+*画像プログラム（IMAGE / 5526 bytes）*
 
 [Source File](../libraries/f/F-3/Flow%20chart.png)
 
@@ -31348,7 +31497,7 @@ cd
 
 ![Folders](../libraries/f/F-3/Folders.png)
 
-*画像プログラム（PNG / 391067 bytes）*
+*画像プログラム（IMAGE / 391067 bytes）*
 
 [Source File](../libraries/f/F-3/Folders.png)
 
@@ -33228,7 +33377,7 @@ fuck
 
 ![Fugue](../libraries/f/F-4/Fugue.png)
 
-*画像プログラム（PNG / 613 bytes）*
+*画像プログラム（IMAGE / 613 bytes）*
 
 [Source File](../libraries/f/F-4/Fugue.png)
 
@@ -33374,7 +33523,7 @@ println( 'Hello world!' )
 
 ![FurASM](../libraries/f/F-4/FurASM.png)
 
-*画像プログラム（PNG / 94336 bytes）*
+*画像プログラム（IMAGE / 94336 bytes）*
 
 [Source File](../libraries/f/F-4/FurASM.png)
 
@@ -33435,7 +33584,7 @@ PRINT "Hello world!"
 
 ![FXYT](../libraries/f/F-4/FXYT.png)
 
-*画像プログラム（PNG / 47138 bytes）*
+*画像プログラム（IMAGE / 47138 bytes）*
 
 [Source File](../libraries/f/F-4/FXYT.png)
 
@@ -35528,7 +35677,7 @@ digraph { a [label="Hello World"] }
 
 ![Grasp](../libraries/g/G-4/Grasp.png)
 
-*画像プログラム（PNG / 20528 bytes）*
+*画像プログラム（IMAGE / 20528 bytes）*
 
 [Source File](../libraries/g/G-4/Grasp.png)
 
@@ -35743,7 +35892,7 @@ X?,()       // No effects
 
 ![Grid logic](../libraries/g/G-4/Grid%20logic.png)
 
-*画像プログラム（PNG / 3498 bytes）*
+*画像プログラム（IMAGE / 3498 bytes）*
 
 [Source File](../libraries/g/G-4/Grid%20logic.png)
 
@@ -39527,7 +39676,7 @@ IndentationError: unexpected indent
 
 ![IndXd](../libraries/i/I-3/IndXd.png)
 
-*画像プログラム（PNG / 5144 bytes）*
+*画像プログラム（IMAGE / 5144 bytes）*
 
 [Source File](../libraries/i/I-3/IndXd.png)
 
@@ -43208,7 +43357,7 @@ The last line will end and therefore so will the program, this is never executed
 
 ![Kawa](../libraries/k/K-1/Kawa.png)
 
-*画像プログラム（PNG / 136 bytes）*
+*画像プログラム（IMAGE / 136 bytes）*
 
 [Source File](../libraries/k/K-1/Kawa.png)
 
@@ -43977,7 +44126,7 @@ _h1 Hello world!\n
 
 ![Lambdus](../libraries/l/L-1/Lambdus.png)
 
-*画像プログラム（PNG / 313 bytes）*
+*画像プログラム（IMAGE / 313 bytes）*
 
 [Source File](../libraries/l/L-1/Lambdus.png)
 
@@ -44224,7 +44373,7 @@ i`k``s`k``s``s`kski``s``s`ksk```sii``s``s`kski`k``s``si`k```sii```sii``s``s`kski
 
 ![Lbj](../libraries/l/L-1/Lbj.jpg)
 
-*画像プログラム（JPG / 75269 bytes）*
+*画像プログラム（IMAGE / 75269 bytes）*
 
 [Source File](../libraries/l/L-1/Lbj.jpg)
 
@@ -44943,7 +45092,7 @@ legendes-980904/legasm.c
 
 ![Legit](../libraries/l/L-1/Legit.png)
 
-*画像プログラム（PNG / 39686 bytes）*
+*画像プログラム（IMAGE / 39686 bytes）*
 
 [Source File](../libraries/l/L-1/Legit.png)
 
@@ -45311,74 +45460,32 @@ END
 [Source File](../libraries/l/L-2/LindenMASM)
 
 ##### LINE entry
-```text
-�      �M� F{�t�eJҫ����Ÿ���(c $�-�f����_q M$B���R�/�mtہK���k��@�f�'�
-|�FM��x��{n�KT��x�昛�j��l��ݪ�5B
->�Z)�B�U���_a� ���|���'iw��Q6�I�����J�J%����T ��ڕ��7O{ܼ�qӲ�͛�r��E�%@������%�%�ܤ%��
- �� Ȩ2�A��ʂT���Լ��Ҽ��Ғ�������l���Ģ��b���Ҝ�X�0b��35�,
-��/KL��RHI�I-0O�8�0�+����?� $:z�)&���(ǡ���;�;��s-��a�(�'rG�8B� *����v�t�n�ň� �#�E+���Z�F/�}�3��9�YZb9�|�������G��|
-f��%��LpBڐ�uNs�E��m��Ak|�6A� ��
-R%�L >1�{^+�@~�њ�&��SA�dE*z��4�Cs�����`򵤕$�yIQ�Lf��d���Ő���QVtL�hyW:uĕo��:��4})=7�l�j��>���dNApF��Āw�@��˿�i:8q��X/�j	M�R���}�]�ƺ�/�L ��xp���&�$���'�'�$&[ -˗en�!���j������i9)�xC��� ��R-�!@�f�B�)�Yd�@Ny��YN�6wdZf�
-cRC �G(�� !�!!�!�4/�R:(szrIjJ $�x"e����lXnW�%��`� ��J�`�(5�c���� s���9	���Am 
-�"���<K g�M���x@��e楦T( ]^�Y��
-EP�S�3��@�N!�4*7mܼ
-��*K,��c
-pE;7w<nn~�<_M+��FX�I*��@�pe�9��`?�L�Fh	0m�4;�䗦�5d�&�d�"�H)pI,A�@
-Lh��sp���9�� =_;�qc́�e���d����ļ�r*����pt��̹�����N���,��8�[� P���-��̼�Ԣ��dp�̜��Фa�LN�+K,����D`n�����=�� ���@�j~bfhIf�zC�H,J)O,J�V/��
-�(/1�7?��B4Ap�����Nu�QH�CX��� v�a�Wjp���
-/�H�J-9+W�6p\��"R-�d�?5K)_,�q6�gN|��Kl�_/���q��Y��-����]�~vc�qJ~�*���{QW}z���+YG$��y0�p��
-��.���?�����Hu+����
-㯡����?��
-�������`�5����������� 
-%�����GI�V���Wk�3У�5�w#�{�����5tWg��;/��������100:p�Y+"� )���bn!f�t�((a���Rq��\�&7#��wo{�*�(���U����[	II���2�}���t\�@cR��)�.J�t�y+,H�ӭ�����}�	� <U3�Q��������_�)~5g�Uhl�������޿�������K0S�k��:�λqk�՟��U�0|�m�����D�[g�gbr����Q�ǮG�LlC�*,�^�-��pv�G�׹�C����{��������y?  ����<��_������O�����=>��z���nx� ����%�뛿�D����������z�yo(М����ړlJH��=���_�m!' ��|��ޙ���{BN ⰵ��&l�5}o9�| <Ū-)?  ����?���Ǐ�S?z2�����ׅ�7|yby���ӯ��W�x(�C����x�����?x����4�ޟ��s'��}�,��B�<�xb��y����I�~H*!�� uD�G�#��D�O�ҍ�{:*��QfNȭI  ���ߞ���Q�?Y�I��ɟ��F�,۫/��7���t�;�3�RҶ������zG/�,���9��g���ƍ�/�a���i���ܣ���}��L��l1�ء�-��q�F��+)��O���g�g[�y�q��  ��."�������L�HꑔfP$Z�xKy��9eȔ��~�$|�sf"eN!Y�b��!�=
-�ܤ��ݲd��]e���Xb_n�HJR�yME,��3��
-E�m�d�ٗ�\��-�t�M��+o���Q�&ea  ���\�<�т�攕S�PӰ5֔�:��.�\����|}���|b�>�ea�b['`bX�Y��U��`j�w�ZE�w�3F�8�pk��qleuE�����S�=�:K�91���k�:ŨUt`��5}�M
-  ���]ȣ�<�LWV�BfW�}/���H�M_�������3���`i4�������orTjO1h��#�� ���@����w�����O�[�U_%�R=�󞎰+��{�}��)La�^RzCS  ������4qm�>H�V��a�<�´1�0dzR ��>b:*�s"��T��O�v�#�+�-v���v�p�oO�|��� b��2|o��E_S���F^1�
-����Ѧ����9�I�=��[�퍙z��^��  ��|o�K��.qD s��	c��&������h]����:��F�	`]��|��>�o:p�/�|m�n�>��
-?C6�U��[�!h]��hA-8��_AL&��k���S"�>����BFH���5��,�  ��|�Kֽձ��1,]�-���)~���%/o5���s2R܅r̶UY�B�㱚{NTjG�.�}�����c�1�	m����㓿5��G�3~��ѳmKh;,MĸWL���5vkvy�0�g��[�F�+�J�  ��N���&��i�\�|�%u����i��"�����4*���]7�F�|r�y'� *&u7�����gz)C�q��Z���\ ���Jrl�L�����4�)���N�x�t�mr�-aY���9D  ���v��5��4\N4<)�1��-���V��1�� {
-ѿ4
-n������M�+�0V��o�W�����=X�6
-��	pG몫%�M�[;��_��1]�DH�S^Yw&��f9!-U���z�q���-�=� � }��fX�rZ�J,�96���[|[yx9�9��'�s����OR7�a��x�&�;BX���&^����R�U�����5GT��]�a=zM򖯳��k��b[
->�*�;����؈��hh]����z���M  ��vn���.a��v-���������G����p^3�pv��F8;�	*ld�l���CY���FV��r/P�Uz6Ԇ��wه����F���@ˡ�F`��r�3����D�&Y��+<ֆ`#[�D���  ��6�~fV�g�Ʀ2mr�2�d��@(?�:��0y��<Aa�h����,,b.��_r8�W�8�x������QgA�{��q����//G��IN�AbfQ����\N�hS���"&���r#���F�g*�� � ~��^ǒ�Z#��%斊,�Z�UI��ӄ��y�2�����ٻ9F� f��e��D�Wl�L"BY�ٚ���iG��[�)�@�V�� ��1c�/��	1�1c�b2U2`UIĄ��L�;S�11�	1/��������  ��?>���>���?�������?�|��ϯ�ϕ>&�B+����Љ����{��/�c���g���W�l &����O��%���M�ey���X�^+����Ldryȯ|�����;��G�u��_��=��w�  ����7�=~��~��5���y��m��/~�]��>���}DFp�-�U�����6���ʿ~��y��q�%�Ă�њd򪐳u�j�V{0kl")dmJ�:bBΨ���q1�=����d�����Vmy�N�q � ~��++c_\��7UO���I(۔���6�C�Ⱦ�ݐ�pm�nM��F#]O�l1��#���	�h]
-[�p � �-	i�;e�s!�9��޲Iu���o;~�3�7!�,@������d��<V,�B�
-  ��am�Ζ�2��k7��^kC$�������Nҽ�'�=I�����2�{��5�$���[Ƙ�
-�/󺴖ʬ�4�ՖH"bJb�X�F�v&C( ��.�S�mb�u�y{�#1�j�&���Ĕ����=�-  ��pK�����#�K?���/��jG56�0�Q��� 
-1˭�cv�~���I�L�xp_b��)������h]������!�MKL��ٕ�9ӡ�ݚ�A8����ޥV �@L�Շ�<
-g�C�]����M�  ���!�܉���s%�º�`�K��ٽ�SL�t%��H�y�%�|��ɽ�V�cO�U��7!��%o���U�֍4�
-��n�n�$V����\A�*���;��?�x�����
-R�����AC7vx���6  ���vͺB]��M<�B;.�%����k6���$���/�
-�C��������:��k6��m���2���jb7�ѷ��sV�Wؾ޼Mҕ�s��:&H6�.�q0��4��(���tH��Ķ���R� � ~�C$�)��9�
-<!��y��EC��i3z���آN��D!�-Z�sF�ʔV��^�*�ycL�r���+C\���q���z9��&���̱=����=
-aU��xP�٦����"�/rΕ�z�[[�+i���IO���  �����>}�s���D�P��	s�P��"Ha���)��e<��s���o��;7r":����{�)AEHi`编�E�P��ዐ6�J�CK�6�L!�Z6QED���8��g_�'�ݦ�Cؾ�za\��&;��  ��)���K�oR�
-{����R٦)���c
-9�P[���ӡ�E��V�9!e�ʽ�y��E| 9�_S����4�^.��R9�.���q;�-K�9���S�E	9��7듔�+� fJrJ��a����$��  ��;!o�UڽC�xJ��M���(Ȝ
-?* ��3!fs�Bv��������V<��gB�f���X2�B��� Luy�cOO�RLG�@︱5�>���R��x�u��O3t����ei���
-�Q
-�A��TW  ��Y��v�w�8�<��u��~��U��c�}�C�|��s�Y;F/阉|����$��[_Ȫ�����'��:�s�^�\`�7"�jغs}(���x�.a��e*��}�J7.�BƑ�f�_�\^��0��� �R�  ��&l�E0�,�9�$Y���\Ry��D]���6��_}.�r�ƐV8^�Y�I��Kx���C�/#�L�q��E�Kk��"6_8�Դ*ϸ�lN��rAӄ�>Y��c�L:>�u��똊.�������4.WS$�  ��#��^vA�>'o�1ͪ���a�j��պ�c�чG�r�)o��%C����s�H���wk:��%{�S^y0���(^�ߕI2��I
-a��yeV!읙�u嗁P+$�K>*Ϣ�[^/D�r�?�  �����#��K3�k���	b���"�
-S��rq�B���S�<�UNU�{3�=<���C9�5��y\� �狄z���sl���|^Rf%$��û{������"�L��u��D<}��|z!���z  ��B_�>%2Q�'
-��&�ۘ��։"B�}Ж�>k��b�b�OUd��֞+)�)-�҇�h�3Dm�Q��1��=�)��6���
-�*�M�YC^P?O�P?_a��<�u�&�{/o�bj����L��9��0�  ���?WO�/!�okŹ%rc2FE�0�6�>���6띇'����\��0be+�N�J
-jҁ�a�V��3e��O����؆�}�j�1��eW]�h
-�����!f�[��i��1�M�Y�/���ZX��ߴ�  ��-B�Jr�����|�el�'b ����!1Q�`��2��4b��p�H#���EV�k��u.B� d7�׮c5�K{�HE �"n�W�����E�>f���)�$��l@�͖�N��l*�6�6I���m�  ��!�y2�%�;�A�{��8�E��\�qa��XK��!\A���r�[�-�X���X��HN�}j�Jh&���ͭn��B������갈�������f�u��|��4�iQ,/�cc9sج��L��EX  ��(/օ�]����U2�@�{tdx˰�ܰ�n2�ޕ�	,�J���.ב��s�jc�w ^�K{��N k�(4�ݟ����MF���]�8����9���H���g\Gxr6/�W��=2���R��ae��J,<a�5  �����MXp�蓏g]��/
-ee.�V�>`ؑ_�����ZEO?��h�e�0�ɒ�H�/���~�_�䨊�k��(����Td�x�=�
-$%&DK�-W+��o	 &� �9hߒJ,��1�U�� � |��l���X@��}!��T� o	#��%�u*��.B
-��욣z#�"_ݲ1������ ��ɱ43��yf�
-�76u��Լ%W��l/���=�v���B�=$k��Y]�p=t����;  ��
->�	@���zzyF4&��:�n��}bc2^]Y\��p(�;nʇN![�j���,i���Q��^q�31�J�΂�qg��ޛ�����9W?x~k�T��ʰ�'��v��<�{�9n�U8���<��Mg  ��/J�
-�PY�����]�P\��y�`��X����.i��55�*$De>��y�I��������N�)$9z��s�f^�\s�[���yM �Ͳa���
 
-�e�ŵ]=�YC;��D  ��j�u��s�<����������Y�9Ӛ	��nA +��[(�z]��;��LGH�"i��!g�y&m� ��w�#���^���8g^���������b�![#>��ȉ:b���H�BCҮ�V��"DK  ��BLD�Z����LI��NB[���;��嘗rP��*V�ě����	|޲�`��`=xO�9�eK�l(ZַB#tH�f��%,L�5"
-m�ʍZ�_h=�[�f�X�����=}��EP�Tj��ds^樨|  ����d"�okqYO�[�Ҡ���>����ۂ������ٚ��7�f���U�堞�?�I2ǭ�Њ���P�uxK6�j��^*���s�z.��[�ꢭ�ߦ�
-�
-E���p?b6�MK�"��S�C  ��!��\�`|�,4t��ȫJ���P�Ȝa�L���*&t�s��d��$����D/�yt��X�P)wCPK�1{���Κ�a��X�\��͎��pS>(
-'�)w��>Ƌ^�X���G/)��?c\	��  ����p[�`���xz�C�4 A�� ����c��n+����>��"���"�"�TD
-�-�p�@*w��!'Q<}̝���:{�]l^*�ʣ*��(&�����W���D@�<��l ��v�g/MRi��  ��U�MU8�&t���K]N[���`�^�8���p��AH����Cn�x�{ӿ����M�]<j��[BV�ҋT�nC����������>� \vw���a�k�X����6 f�+;��3�ul�c� �  ���d�Kw�P�,y� ��훜�(ˍ����d�E]�	�% ���#rJӥ��!%5 ����u�^<#[��hIέ�Y�Q�'U�F�
-)�)cj�ke��S-�@J `�󞦙d�[� 葠M�yZ�%b�`;m��]O�{�>��ۍ�g�wa��ԇ�4����e�SB����J c�����L��������`��s�������k���	߀���pF�^�ʦ7y���
-�ZZ\LF\\]�2DutI->6�F�$5���>[���7]3��]���2���}� � }�$}1}�_��iҴ�������r��z��}���[߹�9{�{�k����|4�G��|4�ǝ?&�<�޿(��������{��c��uL8yP� >
-eJa����w� �em?O�6á���L�D�S����Sx(��?3�  ���U���6ѝ@r�C��,N��Q϶�)#�ʋ�i�W�ێ/�՞�1��Gvč?		��c_���E���Gb���U?���A�8�)P��@t�v�ڲ7ϯ�e�S��=73I{�0U;�t��b��  ���)ѽ�{M�!�v@�Q��aXp �jך��iE���������Q(F��)���6�x�S�n�\��m˙H��jO����qڦ��ګ��9���y�.����(y1�E�HE<@���y6��KsR)=�  ��z�ir=�j�͔�4�i�Z�� 9L���!�뎙I�G���A8����	��,���^�R���Xݮe���ts�����邵_���
-…
+*gzip 圧縮プログラム / 36386 bytes*
+
+**展開プレビュー**
+
+![LINE entry](../libraries/l/L-2/LINE%20entry.preview.png)
+
+**展開テキスト**
+
+```text
+// decompressed tar from gzip
+
+// preview from temp/gm/wl/image/gmwlyd9plawup97200115955570rd0zd.png
+// --- temp/project.json ---
+{"objects":[{"id":"7y0y","name":"歩くブラウン","script":"[[{\"id\":\"3bmb\",\"x\":50,\"y\":30,\"type\":\"when_run_button_click\",\"params\":[null],\"statements\":[],\"movable\":null,\"deletable\":1,\"emphasized\":false,\"readOnly\":null,\"copyable\":true,\"assemble\":true,\"extensions\":[]},{\"id\":\"kjv5\",\"x\":0,\"y\":0,\"type\":\"dialog\",\"params\":[{\"id\":\"fjab\",\"x\":0,\"y\":0,\"type\":\"text\",\"params\":[\"Hello World\"],\"statements\":[],\"movable\":null,\"deletable\":1,\"emphasized\":false,\"readOnly\":null,\"copyable\":true,\"assemble\":true,\"extensions\":[]},\"speak\",null],\"statements\":[],\"movable\":null,\"deletable\":1,\"emphasized\":false,\"readOnly\":null,\"copyable\":true,\"assemble\":true,\"extensions\":[]}]]","objectType":"sprite","rotateMethod":"free","scene":"7dwq","sprite":{"pictures":[{"id":"pcm7","dimension":{"width":230,"height":320,"scaleX":0.363636363636364,"scaleY":0.363636363636364},"filename":"gmwlyd9plawup97200115955570rd0zd","name":"歩くブラウン_1","scale":100,"imageType":"png","fileurl":"temp/gm/wl/image/gmwlyd9plawup97200115955570rd0zd.png"},{"_id":"5d1b321da3457b0017a4b1c8","id":"vj13","dimension":{"width":230,"height":320},"filename":"mfe8jddalawup97200115955570rfldo","name":"歩くブラウン_2","scale":100,"imageType":"png","fileurl":"temp/mf/e8/image/mfe8jddalawup97200115955570rfldo.png"},{"_id":"5d1b321da3457b0017a4b1c7","id":"0doj","dimension":{"width":230,"height":320},"filename":"lwq86lg0lawup97200115955570riq9k","name":"歩くブラウン_3","scale":100,"imageType":"png","fileurl":"temp/lw/q8/image/lwq86lg0lawup97200115955570riq9k.png"}],"sounds":[]},"selectedPictureId":"pcm7","lock":false,"entity":{"x":0,"y":0,"regX":115,"regY":160,"scaleX":0.363636363636364,"scaleY":0.363636363636364,"rotation":0,"direction":90,"width":230,"height":320,"font":"undefinedpx ","visible":true}}],"scenes":[{"id":"7dwq","name":"シーン 1"}],"variables":[{"name":"ストップウォッチ","id":"brih","visible":false,"value":0,"variableType":"timer","isCloud":false,"isRealTime":false,"cloudDate":false,"object":null,"x":74,"y":-70},{"name":"答え","id":"1vu8","visible":false,"value":"0","variableType":"answer","isCloud":false,"isRealTime":false,"cloudDate":false,"object":null,"x":150,"y":-100}],"messages":[],"functions":[],"tables":[],"speed":60,"interface":{"menuWidth":280,"canvasWidth":480,"object":"7y0y"},"expansionBlocks":[],"aiUtilizeBlocks":[],"hardwareLiteBlocks":[],"externalModules":[],"externalModulesLite":[],"likeCnt":0,"visit":0,"isopen":true,"name":"221126_作品","isPracticalCourse":false,"recentLikeCnt":0,"childCnt":0,"comment":0}
+
+// tar members:
+//   temp/project.json (2634 bytes)
+//   temp/gm/wl/image/gmwlyd9plawup97200115955570rd0zd.png (6270 bytes)
+//   temp/gm/wl/thumb/gmwlyd9plawup97200115955570rd0zd.png (5158 bytes)
+//   temp/lw/q8/image/lwq86lg0lawup97200115955570riq9k.png (6250 bytes)
+//   temp/lw/q8/thumb/lwq86lg0lawup97200115955570riq9k.png (5153 bytes)
+//   temp/mf/e8/image/mfe8jddalawup97200115955570rfldo.png (6240 bytes)
+//   temp/mf/e8/thumb/mfe8jddalawup97200115955570rfldo.png (5064 bytes)
 ```
+
 [Source File](../libraries/l/L-2/LINE%20entry.ent)
 
 ##### Line Feed
@@ -45392,7 +45499,7 @@ assert code == "\n" * len(code), "Invalid character in source code"
 
 ![Line](../libraries/l/L-2/Line.png)
 
-*画像プログラム（PNG / 190 bytes）*
+*画像プログラム（IMAGE / 190 bytes）*
 
 [Source File](../libraries/l/L-2/Line.png)
 
@@ -45459,7 +45566,7 @@ s
 
 ![Lines are cool](../libraries/l/L-2/Lines%20are%20cool.png)
 
-*画像プログラム（PNG / 3863 bytes）*
+*画像プログラム（IMAGE / 3863 bytes）*
 
 [Source File](../libraries/l/L-2/Lines%20are%20cool.png)
 
@@ -47381,7 +47488,7 @@ output without "output"
 
 ![MakarafaC](../libraries/m/M-1/MakarafaC.png)
 
-*画像プログラム（PNG / 6420 bytes）*
+*画像プログラム（IMAGE / 6420 bytes）*
 
 [Source File](../libraries/m/M-1/MakarafaC.png)
 
@@ -48328,7 +48435,7 @@ while ptr < len(code):
 
 ![MCBlocks](../libraries/m/M-1/MCBlocks.png)
 
-*画像プログラム（PNG / 133445 bytes）*
+*画像プログラム（IMAGE / 133445 bytes）*
 
 [Source File](../libraries/m/M-1/MCBlocks.png)
 
@@ -49088,7 +49195,7 @@ print("Hello World")
 
 ![milkyway](../libraries/m/M-2/milkyway.jpg)
 
-*画像プログラム（JPG / 969532 bytes）*
+*画像プログラム（IMAGE / 969532 bytes）*
 
 [Source File](../libraries/m/M-2/milkyway.jpg)
 
@@ -49124,10 +49231,20 @@ mov 13 0x1
 [Source File](../libraries/m/M-2/Minaac)
 
 ##### Mind
+
+*バイナリプログラム / 118 bytes*
+
 ```text
-�ᥤ��Ȥ�
-����������Hello World�פ�ɽ�����ơ����Ԥ��뤳�ȡ�
+0000  ef bf bd e1 a5 a4 ef bf bd ef bf bd c8 a4 ef bf
+0010  bd 0a ef bf bd ef bf bd ef bf bd ef bf bd ef bf
+0020  bd ef bf bd ef bf bd ef bf bd ef bf bd ef bf bd
+0030  48 65 6c 6c 6f 20 57 6f 72 6c 64 ef bf bd d7 a4
+0040  ef bf bd c9 bd ef bf bd ef bf bd ef bf bd ef bf
+0050  bd ef bf bd c6 a1 ef bf bd ef bf bd ef bf bd ef
+0060  bf bd d4 a4 ef bf bd ef bf bd eb a4 b3 ef bf bd
+0070  c8 a1 ef bf bd 0a
 ```
+
 [Source File](../libraries/m/M-1/Mind.src)
 
 ##### MindScuffed
@@ -49278,7 +49395,7 @@ writeln("Hello World");
 
 ![Minim](../libraries/m/M-2/Minim.png)
 
-*画像プログラム（PNG / 404593 bytes）*
+*画像プログラム（IMAGE / 404593 bytes）*
 
 [Source File](../libraries/m/M-2/Minim.png)
 
@@ -50565,7 +50682,7 @@ fn main {
 
 ![MOONBlock](../libraries/m/M-3/MOONBlock.png)
 
-*画像プログラム（PNG / 13554 bytes）*
+*画像プログラム（IMAGE / 13554 bytes）*
 
 [Source File](../libraries/m/M-3/MOONBlock.png)
 
@@ -53435,7 +53552,7 @@ fn main() {
 
 ![NOisE](../libraries/n/N-3/NOisE.png)
 
-*画像プログラム（PNG / 158 bytes）*
+*画像プログラム（IMAGE / 158 bytes）*
 
 [Source File](../libraries/n/N-3/NOisE.png)
 
@@ -53809,7 +53926,7 @@ global g;
 
 ![Nothing](../libraries/n/N-3/Nothing.png)
 
-*画像プログラム（PNG / 959 bytes）*
+*画像プログラム（IMAGE / 959 bytes）*
 
 [Source File](../libraries/n/N-3/Nothing.png)
 
@@ -54783,7 +54900,7 @@ end.
 
 ![ObjectArt](../libraries/o/O-1/ObjectArt.png)
 
-*画像プログラム（PNG / 2373 bytes）*
+*画像プログラム（IMAGE / 2373 bytes）*
 
 [Source File](../libraries/o/O-1/ObjectArt.png)
 
@@ -55708,7 +55825,7 @@ clochando. Clochando clochativo.
 
 ![ONABOBFE4P](../libraries/o/O-3/ONABOBFE4P.gif)
 
-*画像プログラム（GIF / 648111 bytes）*
+*画像プログラム（IMAGE / 648111 bytes）*
 
 [Source File](../libraries/o/O-3/ONABOBFE4P.gif)
 
@@ -58316,7 +58433,7 @@ A x:2 y:7 -> B x:1 z:3
 
 ![Piet _dm-hw1](../libraries/p/P-2/Piet%20_dm-hw1.gif)
 
-*画像プログラム（GIF / 16042 bytes）*
+*画像プログラム（IMAGE / 16042 bytes）*
 
 [Source File](../libraries/p/P-2/Piet%20_dm-hw1.gif)
 
@@ -58324,7 +58441,7 @@ A x:2 y:7 -> B x:1 z:3
 
 ![Piet _dm-hw2](../libraries/p/P-2/Piet%20_dm-hw2.gif)
 
-*画像プログラム（GIF / 18584 bytes）*
+*画像プログラム（IMAGE / 18584 bytes）*
 
 [Source File](../libraries/p/P-2/Piet%20_dm-hw2.gif)
 
@@ -58332,7 +58449,7 @@ A x:2 y:7 -> B x:1 z:3
 
 ![Piet _variant2](../libraries/p/P-2/Piet%20_variant2.png)
 
-*画像プログラム（PNG / 548 bytes）*
+*画像プログラム（IMAGE / 548 bytes）*
 
 [Source File](../libraries/p/P-2/Piet%20_variant2.png)
 
@@ -58352,7 +58469,7 @@ A x:2 y:7 -> B x:1 z:3
 
 ![Piet-Q](../libraries/p/P-2/Piet-Q.png)
 
-*画像プログラム（PNG / 963 bytes）*
+*画像プログラム（IMAGE / 963 bytes）*
 
 [Source File](../libraries/p/P-2/Piet-Q.png)
 
@@ -58360,7 +58477,7 @@ A x:2 y:7 -> B x:1 z:3
 
 ![Piet](../libraries/p/P-2/Piet.gif)
 
-*画像プログラム（GIF / 7287 bytes）*
+*画像プログラム（IMAGE / 7287 bytes）*
 
 [Source File](../libraries/p/P-2/Piet.gif)
 
@@ -58368,7 +58485,7 @@ A x:2 y:7 -> B x:1 z:3
 
 ![Piet](../libraries/p/P-2/Piet.png)
 
-*画像プログラム（PNG / 764 bytes）*
+*画像プログラム（IMAGE / 764 bytes）*
 
 [Source File](../libraries/p/P-2/Piet.png)
 
@@ -61468,12 +61585,21 @@ xe
 [Source File](../libraries/p/P-4/Pxem)
 
 ##### Pxem
+
+*ZIP アーカイブ型プログラム / 134 bytes*
+
+**抽出ソース / 要約**
+
 ```text
-PK
-     �vjTC߈4         Hello World.p.pxe 
-PK?
-     �vjTC߈4                 ��    Hello World.p.pxePK      ?   1     
+// archive members:
+//   Hello World.p.pxe  (2 bytes)
+
+// --- Hello World.p.pxe (content 2 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+ 
+
 ```
+
 [Source File](../libraries/p/P-4/Pxem.zip)
 
 ##### PyChr
@@ -66437,7 +66563,7 @@ _*
 [Source File](../libraries/s/S-1/Scheme)
 
 ##### Scheme
-```text
+```scheme
 (display "Hello World") (newline)
 ```
 [Source File](../libraries/s/S-1/Scheme.scm)
@@ -66559,25 +66685,258 @@ endif
 
 ##### Scratch 1
 
-*ブロック／バイナリ言語（Scratch 1 プロジェクト / 47404 bytes）*
+*Scratch 1.x プロジェクト（バイナリ / 47404 bytes）*
 
-リポジトリ上の実体ファイルを参照してください（プレビュー非対応形式）。
+```text
+Binary Hello World artifact: Scratch 1.sb
+Size: 47404 bytes
+Detected kind: scratch1
+Magic: 53 63 72 61 74 63 68 56 30 32 00 00 08 be 4f 62
+
+Format: Scratch 1.x project (binary object serialization)
+Header: b'ScratchV02\x00\x00'
+
+Hex dump (first 128 bytes):
+  0000  53 63 72 61 74 63 68 56 30 32 00 00 08 be 4f 62   ScratchV02....Ob
+  0010  6a 53 01 53 74 63 68 01 00 00 00 22 18 00 00 00   jS.Stch...."....
+  0020  07 63 00 00 02 63 00 00 03 63 00 00 04 63 00 00   .c...c...c...c..
+  0030  05 63 00 00 06 63 00 00 07 63 00 00 08 63 00 00   .c...c...c...c..
+  0040  09 63 00 00 0a 63 00 00 0b 63 00 00 0c 63 00 00   .c...c...c...c..
+  0050  0d 63 00 00 0e 63 00 00 0f 09 00 00 00 07 68 69   .c...c........hi
+  0060  73 74 6f 72 79 09 00 00 00 23 32 30 32 30 2d 33   story....#2020-3
+  0070  2d 33 30 20 30 35 3a 33 33 3a 35 38 09 73 61 76   -30 05:33:58.sav
+
+Strings (sample):
+  ScratchV02
+  ObjS
+  Stch
+  history
+  #2020-3-30 05:33:58
+  save
+  scratch1
+  platform
+  Win32
+  language
+  os-version
+  scratch-version
+  1.4 of 30-Jun-09
+  thumbnail#
+  author
+  ObjS
+  Stch
+  Stage
+  background1"
+  Sprite1
+  normal
+  popm
+  costume1#
+  S#<$
+  aJo}p#a
+  `Dvpy
+  Wkf)_
+  I4+N
+  R'9]
+  z z6
+  k%~: A
+  *30x+
+  costume2#
+  meowm
+  """!
+  """"!
+  """!
+  """!
+  """"!
+  """!
+```
 
 [Source File](../libraries/s/S-1/Scratch%201.sb)
 
 ##### Scratch 2
 
-*ブロック／バイナリ言語（Scratch 2 プロジェクト / 54633 bytes）*
+*Scratch 2 プロジェクト / 54633 bytes*
 
-リポジトリ上の実体ファイルを参照してください（プレビュー非対応形式）。
+**プレビュー**
+
+![Scratch 2 preview](../libraries/s/S-1/Scratch%202.preview.png)
+
+**抽出ソース / 要約**
+
+```json
+// archive members:
+//   project.json  (1684 bytes)
+//   0.png  (1263 bytes)
+//   1.svg  (6594 bytes)
+//   2.svg  (6190 bytes)
+//   3.png  (1264 bytes)
+//   0.wav  (37420 bytes)
+//   1.wav  (560 bytes)
+
+// extracted from project.json
+Scratch project summary:
+  objName: Stage
+  scripts: 0
+  contains: enFlag"], ["say:", "Hello World"]]]], "sounds": [{"soundName
+
+// --- project.json (content 1684 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+{
+	"objName": "Stage",
+	"sounds": [{
+			"soundName": "pop",
+			"soundID": 1,
+			"md5": "83a9787d4cb6f3b7632b4ddfebf74367.wav",
+			"sampleCount": 258,
+			"rate": 11025,
+			"format": ""
+		}],
+	"costumes": [{
+			"costumeName": "backdrop1",
+			"baseLayerID": 3,
+			"baseLayerMD5": "739b5e2a2435f6e1ec2993791b423146.png",
+			"bitmapResolution": 1,
+			"rotationCenterX": 240,
+			"rotationCenterY": 180
+		}],
+	"currentCostumeIndex": 0,
+	"penLayerMD5": "5c81a336fab8be57adc039a8a2b33ca9.png",
+	"penLayerID": 0,
+	"tempoBPM": 60,
+	"videoAlpha": 0.5,
+	"children": [{
+			"objName": "Sprite1",
+			"scripts": [[16, 13, [["whenGreenFlag"], ["say:", "Hello World"]]]],
+			"sounds": [{
+					"soundName": "meow",
+					"soundID": 0,
+					"md5": "83c36d806dc92327b9e7049a565c6bff.wav",
+					"sampleCount": 18688,
+					"rate": 22050,
+					"format": ""
+				}],
+			"costumes": [{
+					"costumeName": "costume1",
+					"baseLayerID": 1,
+					"baseLayerMD5": "f9a1c175dbe2e5dee472858dd30d16bb.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				},
+				{
+					"costumeName": "costume2",
+					"baseLayerID": 2,
+					"baseLayerMD5": "6e8bd9ae68fdb02b7e1e3df656a75635.svg",
+					"bitmapResolution": 1,
+					"rotationCenterX": 47,
+					"rotationCenterY": 55
+				}],
+			"currentCostumeIndex": 0,
+			"scratchX": 0,
+			"scratchY": 0,
+			"scale": 1,
+			"direction": 90,
+			"rotationStyle": "normal",
+			"isDraggable": false,
+			"indexInLibrary": 1,
+			"visible": true,
+			"spriteInfo": {
+			}
+		}],
+	"info": {
+		"scriptCount": 1,
+		"spriteCount": 1,
+		"videoOn": false,
+		"userAgent": "Scratch 2.0 Offline Editor",
+		"flashVersion": "WIN 32,0,0,182",
+		"swfVersion": "v461"
+	}
+}
+
+// --- 1.svg (content 6594 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<svg version="1.1" id="cat" x="0px" y="0px" width="95px" height="111px" viewBox="0 0 95 111" enable-background="new 0 0 95 111" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <g id="Layer_3">
+      <path fill="#FAA51D" stroke="#000000" d="M22.462,79.039c-2.415-0.451-5.304-1.309-7.742-3.503&#xD;&#xA;&#x9;&#x9;C9.268,70.629,7.526,62.535,3.672,64.622c-3.856,2.088-3.782,15.165,8.353,19.194c4.182,1.391,7.998,1.396,11.091,1.312&#xD;&#xA;&#x9;&#x9;c0.811-0.025,7.717-0.654,10.079-4.074c2.361-3.42,0.719-4.272-0.09-4.744C32.295,75.838,25.878,79.677,22.462,79.039z"/>
+      <path fill="#FFFFFF" d="M4.236,64.877c-1.989,0.613-3.075,4.998-2.076,8.484c0.998,3.49,2.634,5.022,3.863,6.398&#xD;&#xA;&#x9;&#x9;c1.528,1.038-0.72-2.402,1.361-4.15c2.075-1.744,5.733-0.914,5.733-0.914s-2.909-3.987-4.57-6.396&#xD;&#xA;&#x9;&#x9;C6.975,65.988,6.359,64.375,4.236,64.877z"/>
+    </g>
+    <g>
+      <path fill="#FAA51D" d="M38.217,86.756c0,0-8.832,6.2-17.071,8.412l0.086,0.215c1.247,1.824,5.87,7.497-0.334,9.496&#xD;&#xA;&#x9;&#x9;c-5.333,1.717-15.12-13.104-10.821-15.902c2.626-1.713,4.892-0.252,4.892-0.252s3.474-1.07,6.001-2.345&#xD;&#xA;&#x9;&#x9;c4.303-2.161,5.784-3.453,5.784-3.453s4.184-4.306,6.856-4.137C36.281,78.96,41.669,83.504,38.217,86.756z"/>
+      <path fill="none" stroke="#231F20" stroke-width="1.2" d="M21.232,95.383c1.247,1.824,5.87,7.497-0.334,9.496&#xD;&#xA;&#x9;&#x9;c-5.333,1.717-15.329-13.344-11.03-16.145c2.626-1.713,5.101-0.01,5.101-0.01s3.474-1.072,6.001-2.348&#xD;&#xA;&#x9;&#x9;c4.303-2.161,5.784-3.453,5.784-3.453"/>
+      <path fill="none" stroke="#231F20" stroke-width="1.2" d="M38.217,86.756c0,0-10.123,7.107-18.804,8.819"/>
+    </g>
+    <path fill="#FAA51D" stroke="#231F20" stroke-width="1.2" d="M52.169,74.885c0,0,1.235,0.165,4.744,3.676&#xD;&#xA;&#x9;c3.509,3.508,6.026,2.16,8.911,0.724c2.877-1.443,10.537-6.126,6.49-9.817c-4.049-3.688-6.207,1.146-9.715,2.405&#xD;&#xA;&#x9;c-3.512,1.26-5.061-2.487-6.858-4.287c-0.589-0.593-1.188-1.099-1.729-1.505c0,0-0.971-0.76-1.906,2.79&#xD;&#xA;&#x9;C51.172,72.412,50.162,73.415,52.169,74.885z"/>
+    <g id="Layer_2_1_">
+      <path fill="#FAA51D" stroke="#231F20" stroke-width="1.2" d="M46.753,82.012c1.188-0.912,2.397-2.402,3.951-4.713&#xD;&#xA;&#x9;&#x9;c1.296-1.927,2.7-5.578,2.7-5.578c0.875-2.521,1.934-6.576-1.902-7.296c-1.553-0.291-4.079-0.098-7.67-0.776&#xD;&#xA;&#x9;&#x9;c-3.593-0.681-6.798-2.522-9.517,2.233c-2.718,4.757-9.59,8.271-1.056,16.563c0,0,4.901,3.842,10.764,9.639&#xD;&#xA;&#x9;&#x9;c4.831,4.775,12.045,10.602,12.045,10.602s18.972,2.188,19.535-0.693c1.922-9.79-14.777-6.911-14.777-6.911&#xD;&#xA;&#x9;&#x9;s-4.605-3.933-6.725-5.794c-3.478-3.059-11.125-10.771-11.125-10.771"/>
+      <path fill="#FFFFFF" d="M51.253,75.434c0,0,2.47-2.66-2.469-5.317c-4.939-2.657-7.213-0.017-8.739,1.521&#xD;&#xA;&#x9;&#x9;c-2.644,2.655,3.443,6.611,3.443,6.611l3.176,3.204c0,0,1.738-1.647,2.499-2.979C50.036,77.26,51.253,75.434,51.253,75.434"/>
+    </g>
+    <g id="Layer_8"/>
+    <path fill="#FAA51D" stroke="#231F20" stroke-width="1.2" d="M29.926,73.218c0.749-0.571,2.889-2.202,4.854-3.657&#xD;&#xA;&#x9;c2.428-1.799,6.117-5.849,1.077-7.646c-5.04-1.801-7.507,1.604-11.519,4.946c-2.159,1.801-5.308,2.699-4.319,6.209&#xD;&#xA;&#x9;c0.993,3.511,4.862,13.408,11.789,10.17c6.929-3.239-1.799-9.18-3.06-11.157"/>
+    <g id="Layer_2">
+      <path fill="#FAA51D" stroke="#231F20" stroke-width="1.2" d="M52.709,14.156c-1.54-0.143-4.75-0.316-6.518-0.231&#xD;&#xA;&#x9;&#x9;c-4.728,0.225-9.224,1.928-9.224,1.928L23.949,7.357l2.235,18.906c0.646-0.782-10.555,12.804-3.479,24.224&#xD;&#xA;&#x9;&#x9;c7.08,11.426,22.233,16.518,40.988,12.792c18.755-3.729,23.229-14.531,21.986-20.246c-1.242-5.714-8.322-7.823-8.322-7.823&#xD;&#xA;&#x9;&#x9;s-0.09-4.48-3.3
+…
+```
 
 [Source File](../libraries/s/S-1/Scratch%202.sb2)
 
 ##### Scratch 3
 
-*ブロック／バイナリ言語（Scratch 3 プロジェクト / 42123 bytes）*
+*Scratch 3 プロジェクト / 42123 bytes*
 
-リポジトリ上の実体ファイルを参照してください（プレビュー非対応形式）。
+**プレビュー（SVG）**
+
+![Scratch 3 preview](../libraries/s/S-1/Scratch%203.preview.svg)
+
+**抽出ソース / 要約**
+
+```json
+// archive members:
+//   project.json  (2101 bytes)
+//   83a9787d4cb6f3b7632b4ddfebf74367.wav  (560 bytes)
+//   83c36d806dc92327b9e7049a565c6bff.wav  (37420 bytes)
+//   cd21514d0531fdffb22204e0ec5ed84a.svg  (202 bytes)
+//   b7853f557e4426412e64bb3da6531a99.svg  (6081 bytes)
+//   e6ddc55a6ddd9cc9d84fe0b4c21e016f.svg  (6058 bytes)
+
+// extracted from project.json
+Scratch project summary:
+  sprite/stage: Stage (0 blocks)
+  sprite/stage: Sprite1 (2 blocks)
+    opcodes: event_whenflagclicked, looks_say
+    says: [1, [10, 'Hello World']]
+
+// --- project.json (content 2101 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+{"targets":[{"isStage":true,"name":"Stage","variables":{"`jEk@4|i[#Fk?(8x)AV.-my variable":["my variable",0]},"lists":{},"broadcasts":{},"blocks":{},"comments":{},"currentCostume":0,"costumes":[{"assetId":"cd21514d0531fdffb22204e0ec5ed84a","name":"backdrop1","md5ext":"cd21514d0531fdffb22204e0ec5ed84a.svg","dataFormat":"svg","rotationCenterX":240,"rotationCenterY":180}],"sounds":[{"assetId":"83a9787d4cb6f3b7632b4ddfebf74367","name":"pop","dataFormat":"wav","format":"","rate":48000,"sampleCount":1123,"md5ext":"83a9787d4cb6f3b7632b4ddfebf74367.wav"}],"volume":100,"layerOrder":0,"tempo":60,"videoTransparency":50,"videoState":"on","textToSpeechLanguage":null},{"isStage":false,"name":"Sprite1","variables":{},"lists":{},"broadcasts":{},"blocks":{"l=@OS!{n03]hsPSFCPwr":{"opcode":"event_whenflagclicked","next":"g)/[QdJ/4/Kh#2#uRVXZ","parent":null,"inputs":{},"fields":{},"shadow":false,"topLevel":true,"x":37,"y":49},"g)/[QdJ/4/Kh#2#uRVXZ":{"opcode":"looks_say","next":null,"parent":"l=@OS!{n03]hsPSFCPwr","inputs":{"MESSAGE":[1,[10,"Hello World"]]},"fields":{},"shadow":false,"topLevel":false}},"comments":{},"currentCostume":0,"costumes":[{"assetId":"b7853f557e4426412e64bb3da6531a99","name":"costume1","bitmapResolution":1,"md5ext":"b7853f557e4426412e64bb3da6531a99.svg","dataFormat":"svg","rotationCenterX":48,"rotationCenterY":50},{"assetId":"e6ddc55a6ddd9cc9d84fe0b4c21e016f","name":"costume2","bitmapResolution":1,"md5ext":"e6ddc55a6ddd9cc9d84fe0b4c21e016f.svg","dataFormat":"svg","rotationCenterX":46,"rotationCenterY":53}],"sounds":[{"assetId":"83c36d806dc92327b9e7049a565c6bff","name":"Meow","dataFormat":"wav","format":"","rate":48000,"sampleCount":40681,"md5ext":"83c36d806dc92327b9e7049a565c6bff.wav"}],"volume":100,"layerOrder":1,"visible":true,"x":0,"y":0,"size":100,"direction":90,"draggable":false,"rotationStyle":"all around"}],"monitors":[],"extensions":[],"meta":{"semver":"3.0.0","vm":"0.2.0-prerelease.20190822194548","agent":"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) ScratchDesktop/3.6.0 Chrome/69.0.3497.128 Electron/4.2.9 Safari/537.36"}}
+
+// --- cd21514d0531fdffb22204e0ec5ed84a.svg (content 202 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<svg version="1.1" width="2" height="2" viewBox="-1 -1 2 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Exported by Scratch - http://scratch.mit.edu/ -->
+</svg>
+
+// --- b7853f557e4426412e64bb3da6531a99.svg (content 6081 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<svg width="96px" height="101px" viewBox="0 0 96 101" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+  <g>
+    <title>costume1.1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="costume1" transform="translate(-13.000000, -10.000000)">
+        <g id="costume1.1" transform="translate(13.000000, 10.000000)">
+          <g id="tail" transform="translate(0.000000, 59.000000)">
+            <path d="M21.9,14.8 C19.5,14.3 16.6,13.5 14.2,11.3 C8.7,6.4 7,-1.7 3.2,0.4 C-0.7,2.5 -0.6,15.6 11.6,19.6 C15.8,21 19.6,21 22.7,20.9 C23.5,20.9 30.4,20.2 32.8,16.8 C35.2,13.4 33.5,12.5 32.7,12.1 C31.8,11.6 25.3,15.4 21.9,14.8 Z" stroke="#001026" stroke-width="1.2" fill="#FFAB19" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M3.8,0.6 C1.8,1.2 0.8,5.4 1.8,8.9 C2.8,12.4 4.4,14.2 5.7,15.5 C5.5,14.8 5.1,12.6 6.8,11.3 C8.9,9.6 12.6,10.5 12.6,10.5 C12.6,10.5 9.5,6.7 7.9,4 C6.3,1.7 5.8,0.2 3.8,0.6 Z" id="detail" fill="#FFFFFF"/>
+          </g>
+          <path d="M37.7,81.5 C35.9,82.7 29.7,87.1 21.8,89.6 L21.4,89.7 C21,89.8 20.8,90.3 21,90.7 C22.7,93.1 25.8,97.9 20.3,99.6 C15,101.3 5.1,87.2 9.3,83.5 C11.2,82.1 12.9,82.8 13.8,83.2 C14.3,83.4 14.8,83.4 15.3,83.3 C16.5,82.9 18.7,82.1 20.4,81.2 C24.7,79 25.7,78.1 27.7,76.6 C29.7,75.1 34.3,71.4 38,74.6 C41.2,77.3 39.4,80.3 37.7,81.5 Z" id="leg" stroke="#001026" stroke-width="1.2" fill="#FFAB19" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M53.6,60.7 C54.1,61.1 60.2,68.3 62.2,66.5 C64.6,64.4 67.9,60.3 71.5,63.6 C75.1,66.9 68.3,72.5 65.4,74 C58.5,77.1 52.9,71.2 51.7,69.6 C50.5,68 48.4,65.3 48.4,62.7 C48.5,59.9 51.9,59.2 53.6,60.7 Z" id="arm" stroke="#001026" stroke-width="1.2" fill="#FFAB19" stroke-linecap="round" stroke-linejoin="round"/>
+          <g id="body-and-leg" transform="translate(28.000000, 57.000000)">
+            <path d="M18.2,19.7 C19.4,18.8 20.6,17.3 22.2,15 C23.5,13.1 24.9,9.4 24.9,9.4 C25.8,6.9 26.4,2.1 23.1,2.2 C20.9,2.3 18.9,2 15.5,1.5 C9.5,0.3 8.4,-0.5 5.9,3.6 C3.2,8.4 -3.7,11.9 4.8,20.2 C4.8,20.2 9.7,24 15.6,29.8 C19.6,33.7 25.9,39.3 28.1,41.2 C28.6,41.6 29.2,41.8 29.8,41.9 C39.5,42.8 46.7,41.8 46.7,37.5 C46.7,30.3 32.4,32.8 32.4,32.8 C32.4,32.8 27.8,28.9 25.7,27 L18.2,19.7 Z" id="body" stroke="#001026" stroke-width="1.2" fill="#FFAB19" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M22.6,13 C22.6,13 24.5,10.5 20.2,7.8 C15.7,4.9 14,8.1 12.2,10.5 C10.2,13.6 12.2,15.1 14.2,16.9 C15.8,18.4 17.3,19.6 17.3,19.6 C17.3,19.6 20.4,17.5 22.6,13 Z" id="tummy" fill="#FFFFFF"/>
+          </g>
+          <path d="M30.2,68.4 C32.4,7
+…
+```
 
 [Source File](../libraries/s/S-1/Scratch%203.sb3)
 
@@ -67323,7 +67682,7 @@ q"Hello, World!"i#]:#,_@
 
 ![SF Code](../libraries/s/S-2/SF%20Code.png)
 
-*画像プログラム（PNG / 851762 bytes）*
+*画像プログラム（IMAGE / 851762 bytes）*
 
 [Source File](../libraries/s/S-2/SF%20Code.png)
 
@@ -68410,7 +68769,7 @@ jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjs
 
 ![Skastic](../libraries/s/S-3/Skastic.png)
 
-*画像プログラム（PNG / 12661 bytes）*
+*画像プログラム（IMAGE / 12661 bytes）*
 
 [Source File](../libraries/s/S-3/Skastic.png)
 
@@ -69281,7 +69640,7 @@ val () = print "Hello World\n"
 
 ![Smolder](../libraries/s/S-3/Smolder.png)
 
-*画像プログラム（PNG / 126047 bytes）*
+*画像プログラム（IMAGE / 126047 bytes）*
 
 [Source File](../libraries/s/S-3/Smolder.png)
 
@@ -69442,7 +69801,7 @@ rule all:
 [Source File](../libraries/s/S-3/Snakemake)
 
 ##### Snap!
-```text
+```xml
 <project name="Hello World" app="Snap! 7, https://snap.berkeley.edu" version="2"><notes></notes><thumbnail>data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAKAAAAB4CAYAAAB1ovlvAAACw0lEQVR4Xu3drbKxcRQF8HEDGjPaKYoRJNegSpoguQn5KSJdkETFCZqrELgSQTdjpG3P2L/8tnfWWV97PX+t9t98MF6cVtumN73cJqfm/OiOZ+v9/bD573d21+NyOPLv/n+i8NECQH9gmQQDgBg+VeEAEAABMFMCeNxcC4IBMSAGxIB1UzYGxIAYEANiQEW0Ij7lEEGCSTAJJsEkmASTYBJsDFFvDMID8oA8IA/IA/KAPCAPyAPygBbRFuFfXcQLIUKIECKECCFCiBAihAghQogQIoQIIb5LrvNdthQsBUvBUrAULAVLwVKwFCwFS8FSsBQsBUvBnmfzPN1XnudTw6hh1DBqGDWMGkYNo4ZRw6hh1DBqGDWMGkYNo4ZRw6hh/EzE7/9Mhh5QD6gH1APqAfWAekA9oB5QD6gH1APqAfWAekA9oB5QD6gH1AP6vWA9YWhPqIgGsFCAffoxSAAEQAB0CXEJcQlxCXEJcQlxCXEJcQlxCXEJcQlxCXEJcQlxCXEJcQnRE4b2hIpoAAsFmEsIgKUCDAABEACd2uqe2jAgBsSAGBADbt/c2qVgDJnKkAAIgABIoutKNAbEgBgQA2JAi2iLaItoi2iLaItoi2iLaItoi2iLaItoi2iLaItoi2g9YWhPqIgGsFCAmWMBWCrAABAAAdCpre6pDQNiQAyIATGgRbSxQcrYgASTYBJMgkkwCSbBJNjer97ejwfkAXlAHpAH5AF5QB6QB+QBm5dPHsyxeMRUjwiAAAiAQkrdkIIBMSAGxIAY0NMcapqUmoYEk2ASTIJJMAkmwSTYpaTepYQH5AF5QB6QB+QBeUAekAfkAb2Q6oVUL6R6IdULqV5I9UKqF1K9kOqFVC+k6glDe0JFNICFAsx3wQCWCjAABEAAdGqre2rDgBgQA2JADOhpDmODlLEBCSbBJJgEk+B3EvwEtqevNKJUxG0AAAAASUVORK5CYII=</thumbnail><scenes select="1"><scene name="Hello World"><notes></notes><hidden></hidden><headers></headers><code></code><blocks></blocks><stage name="Stage" width="480" height="360" costume="0" color="255,255,255,1" tempo="60" threadsafe="false" penlog="false" volume="100" pan="0" lines="round" ternary="false" hyperops="true" codify="false" inheritance="true" sublistIDs="false" id="5"><pentrails>data:image/png;base64,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
 …
 ```
@@ -70476,7 +70835,7 @@ $^`<.;k:?>^b;^P><`<;< >>^P>.,%h,%e,%l,%l,%o,% ,%w,%o,%r,%l %d
 
 ![Splang](../libraries/s/S-4/Splang.png)
 
-*画像プログラム（PNG / 122994 bytes）*
+*画像プログラム（IMAGE / 122994 bytes）*
 
 [Source File](../libraries/s/S-4/Splang.png)
 
@@ -71227,7 +71586,7 @@ print("Hello World")
 
 ![Starstuff](../libraries/s/S-4/Starstuff.png)
 
-*画像プログラム（PNG / 1740 bytes）*
+*画像プログラム（IMAGE / 1740 bytes）*
 
 [Source File](../libraries/s/S-4/Starstuff.png)
 
@@ -71272,7 +71631,7 @@ phrase Hello, World!
 
 ![StegFuck](../libraries/s/S-4/StegFuck.png)
 
-*画像プログラム（PNG / 1628 bytes）*
+*画像プログラム（IMAGE / 1628 bytes）*
 
 [Source File](../libraries/s/S-4/StegFuck.png)
 
@@ -72197,19 +72556,11 @@ amogus
 [Source File](../libraries/s/S-4/Svelte.svelte)
 
 ##### SVG
-```text
-<?xml version="1.0" encoding="utf-8" standalone="no"?>
-<!-- Hello World in SVG -->
 
-<svg width="240" height="100" viewBox="0 0 240 100" zoomAndPan="disable"
-     xmlns="http://www.w3.org/2000/svg"  xmlns:xlink="http://www.w3.org/1999/xlink">
-  <title>Hello World</title>
-    <g>
-      <text x="10" y="50">Hello World</text>
-      <animate attributeName='opacity' values='0;1' dur='4s' fill='freeze' begin="0s"/>
-    </g>
-</svg>
-```
+![SVG](../libraries/s/S-4/SVG)
+
+*画像プログラム（SVG / 428 bytes）*
+
 [Source File](../libraries/s/S-4/SVG)
 
 ##### SVG
@@ -72282,9 +72633,170 @@ println("Hello, world!")
 
 ##### Swift Playgrounds
 
-*ブロック／バイナリ言語（Swift Playgrounds / 6299 bytes）*
+*Swift Playgrounds ブック / 6299 bytes*
 
-リポジトリ上の実体ファイルを参照してください（プレビュー非対応形式）。
+**抽出ソース / 要約**
+
+```text
+// archive members:
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Manifest.plist  (408 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/Manifest.plist  (337 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift  (1 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/Manifest.plist  (337 bytes)
+//   My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift  (1 bytes)
+//   My Playground.playgroundbook/Contents/Manifest.plist  (749 bytes)
+//   My Playground.playgroundbook/Contents/UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift  (75 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist  (237 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta  (594 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/UserManifest.plist  (285 bytes)
+//   My Playground.playgroundbook/Edits/UserEdits.diffpack/Manifest.plist  (1182 bytes)
+
+// --- My Playground.playgroundbook/Contents/UserModules/UserModule.playgroundmodule/Sources/SharedCode.swift ---
+// Code inside modules can be shared between pages and other source files.
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta ---
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>print("Hello World")
+</string>
+			<key>ModifiedRange</key>
+			<string>{1, 21}</string>
+			<key>OriginalContent</key>
+			<string></string>
+			<key>OriginalRange</key>
+			<string>{1, 0}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+</dict>
+</plist>
+
+// --- My Playground.playgroundbook/Contents/Manifest.plist ---
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Chapters</key>
+	<array>
+		<string>Chapter1.playgroundchapter</string>
+	</array>
+	<key>ContentIdentifier</key>
+	<string>com.apple.playgrounds.blank</string>
+	<key>ContentVersion</key>
+	<string>1.0</string>
+	<key>DeploymentTarget</key>
+	<string>ios-current</string>
+	<key>DevelopmentRegion</key>
+	<string>en</string>
+	<key>SwiftVersion</key>
+	<string>5.5</string>
+	<key>Version</key>
+	<string>8.0</string>
+	<key>UserAutoImportedAuxiliaryModules</key>
+	<array/>
+	<key>UserModuleMode</key>
+	<string>Full</string>
+	<key>HasMeaningfulResetPoint</key>
+	<false/>
+</dict>
+</plist>
+
+// --- My Playground.playgroundbook/Edits/UserEdits.diffpack/Manifest.plist ---
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseVersion</key>
+	<string>1.0</string>
+	<key>DiffPackType</key>
+	<string>UserEdit</string>
+	<key>DocumentType</key>
+	<string>PlaygroundBook</string>
+	<key>Name</key>
+	<string>com.apple.playgrounds.blank</string>
+	<key>UpdateVersion</key>
+	<string>1.0</string>
+	<key>Updates</key>
+	<dict>
+		<key>Added</key>
+		<array>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/UserManifest.plist</string>
+			</dict>
+			<dict>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/UserManifest.plist</string>
+			</dict>
+		</array>
+		<key>Modified</key>
+		<array>
+			<dict>
+				<key>Diff</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift.delta</string>
+				<key>File</key>
+				<string>Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift</string>
+			</dict>
+		</array>
+		<key>Removed</key>
+		<array/>
+		<key>Replaced</key>
+		<array/>
+	</dict>
+</dict>
+</plist>
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Manifest.plist (content 408 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>My Playground</string>
+	<key>TemplatePageFilename</key>
+	<string>Template.playgroundpage</string>
+	<key>InitialUserPages</key>
+	<array>
+		<string>My Playground.playgroundpage</string>
+	</array>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/Manifest.plist (content 337 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Name</key>
+	<string>My Playground</string>
+	<key>LiveViewEdgeToEdge</key>
+	<false/>
+	<key>LiveViewMode</key>
+	<string>HiddenByDefault</string>
+</dict>
+</plist>
+
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/My Playground.playgroundpage/main.swift (content 1 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+
+
+
+// --- My Playground.playgroundbook/Contents/Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/Manifest.plist (content 337 bytes) ---
+# filename is significant for some esolangs (e.g. Pxem)
+<?xml version="1.0" encoding="UTF
+…
+```
 
 [Source File](../libraries/s/S-4/Swift%20Playgrounds.playgroundbook)
 
@@ -74248,16 +74760,30 @@ lambda name,param1,param2: { body }
 [Source File](../libraries/t/T-2/ThonkLang)
 
 ##### ThotPatrol
+
+*バイナリプログラム / 215 bytes*
+
+**バイナリ要約（hex / strings）**
+
 ```text
-��=���J A C K I N G   I N =���
- 
- 
- =�u�  <�Q�=���  � H e l l o   W o r l d � 
- 
- 
- <���<���R E P O R T   U N P A T R I O T I C   A C T I V I T Y <���<���
- 
+Binary Hello World artifact: ThotPatrol
+Size: 215 bytes
+Detected kind: binary
+Magic: ef bf bd ef bf bd 3d ef bf bd ef bf bd ef bf bd
+
+Format: opaque binary program
+
+Hex dump (first 128 bytes):
+  0000  ef bf bd ef bf bd 3d ef bf bd ef bf bd ef bf bd   ......=.........
+  0010  4a 00 41 00 43 00 4b 00 49 00 4e 00 47 00 20 00   J.A.C.K.I.N.G. .
+  0020  49 00 4e 00 3d ef bf bd ef bf bd ef bf bd 0a 00   I.N.=...........
+  0030  0a 00 0a 00 3d ef bf bd 75 ef bf bd 20 00 3c ef   ....=...u... .<.
+  0040  bf bd 51 ef bf bd 3d ef bf bd ef bf bd ef bf bd   ..Q...=.........
+  0050  20 00 ef bf bd 00 48 00 65 00 6c 00 6c 00 6f 00    .....H.e.l.l.o.
+  0060  20 00 57 00 6f 00 72 00 6c 00 64 00 ef bf bd 00    .W.o.r.l.d.....
+  0070  0a 00 0a 00 0a 00 3c ef bf bd ef bf bd ef bf bd   ......<.........
 ```
+
 [Source File](../libraries/t/T-2/ThotPatrol)
 
 ##### THP
@@ -74602,7 +75128,7 @@ write("Hello, World!")
 
 ![Tile](../libraries/t/T-2/Tile.png)
 
-*画像プログラム（PNG / 3545 bytes）*
+*画像プログラム（IMAGE / 3545 bytes）*
 
 [Source File](../libraries/t/T-2/Tile.png)
 
@@ -74610,7 +75136,7 @@ write("Hello, World!")
 
 ![TileDots](../libraries/t/T-2/TileDots.png)
 
-*画像プログラム（PNG / 27783 bytes）*
+*画像プログラム（IMAGE / 27783 bytes）*
 
 [Source File](../libraries/t/T-2/TileDots.png)
 
@@ -75089,7 +75615,7 @@ Hello = "World"
 
 ![Tommyaweosme unary](../libraries/t/T-3/Tommyaweosme%20unary.png)
 
-*画像プログラム（PNG / 13091 bytes）*
+*画像プログラム（IMAGE / 13091 bytes）*
 
 [Source File](../libraries/t/T-3/Tommyaweosme%20unary.png)
 
@@ -75708,7 +76234,7 @@ N = p × q
 
 ![Tree Chart](../libraries/t/T-4/Tree%20Chart.png)
 
-*画像プログラム（PNG / 42615 bytes）*
+*画像プログラム（IMAGE / 42615 bytes）*
 
 [Source File](../libraries/t/T-4/Tree%20Chart.png)
 
@@ -75716,7 +76242,7 @@ N = p × q
 
 ![Tree language earth](../libraries/t/T-4/Tree%20language%20earth.bmp)
 
-*画像プログラム（BMP / 1572920 bytes）*
+*画像プログラム（IMAGE / 1572920 bytes）*
 
 [Source File](../libraries/t/T-4/Tree%20language%20earth.bmp)
 
@@ -75724,7 +76250,7 @@ N = p × q
 
 ![Tree language milkyway](../libraries/t/T-4/Tree%20language%20milkyway.jpg)
 
-*画像プログラム（JPG / 969532 bytes）*
+*画像プログラム（IMAGE / 969532 bytes）*
 
 [Source File](../libraries/t/T-4/Tree%20language%20milkyway.jpg)
 
@@ -76528,7 +77054,7 @@ State   Read   |   Write     Step    Next state
 
 ![Turing Paint](../libraries/t/T-4/Turing%20Paint.png)
 
-*画像プログラム（PNG / 5899 bytes）*
+*画像プログラム（IMAGE / 5899 bytes）*
 
 [Source File](../libraries/t/T-4/Turing%20Paint.png)
 
@@ -78472,9 +78998,9 @@ GET THE TOP ELEMENT OF THE STACK AND CONVERT IT TO AN ASCII CHARACTER AND OUTPUT
 
 ![Velato _hi piano roll](../libraries/v/V-1/Velato%20_hi.pianoroll.png)
 
-**音源:** [MP3 再生/ダウンロード](../libraries/v/V-1/Velato%20_hi.mp3) · [WAV](../libraries/v/V-1/Velato%20_hi.wav) · [MIDI 原ファイル](../libraries/v/V-1/Velato%20_hi.mid)
+**音源:** [MP3](../libraries/v/V-1/Velato%20_hi.mp3) · [WAV](../libraries/v/V-1/Velato%20_hi.wav) · [MIDI](../libraries/v/V-1/Velato%20_hi.mid)
 
-<audio controls preload="none" src="../libraries/v/V-1/Velato%20_hi.mp3">ブラウザが audio タグに非対応の場合は上の MP3 リンクを利用してください。</audio>
+<audio controls preload="none" src="../libraries/v/V-1/Velato%20_hi.mp3">MP3 リンクを利用してください。</audio>
 
 [Source File](../libraries/v/V-1/Velato%20_hi.mid)
 
@@ -78552,9 +79078,9 @@ mus = {
 
 ![Velato piano roll](../libraries/v/V-1/Velato.pianoroll.png)
 
-**音源:** [MP3 再生/ダウンロード](../libraries/v/V-1/Velato.mp3) · [WAV](../libraries/v/V-1/Velato.wav) · [MIDI 原ファイル](../libraries/v/V-1/Velato.mid) · [LilyPond ソース](../libraries/v/V-1/Velato.ly)
+**音源:** [MP3](../libraries/v/V-1/Velato.mp3) · [WAV](../libraries/v/V-1/Velato.wav) · [MIDI](../libraries/v/V-1/Velato.mid) · [LilyPond](../libraries/v/V-1/Velato.ly)
 
-<audio controls preload="none" src="../libraries/v/V-1/Velato.mp3">ブラウザが audio タグに非対応の場合は上の MP3 リンクを利用してください。</audio>
+<audio controls preload="none" src="../libraries/v/V-1/Velato.mp3">MP3 リンクを利用してください。</audio>
 
 [Source File](../libraries/v/V-1/Velato.mid)
 
@@ -78568,7 +79094,7 @@ Hello World
 
 ![VenetianScript](../libraries/v/V-1/VenetianScript.png)
 
-*画像プログラム（PNG / 2558 bytes）*
+*画像プログラム（IMAGE / 2558 bytes）*
 
 [Source File](../libraries/v/V-1/VenetianScript.png)
 
@@ -80993,7 +81519,7 @@ program hello {
 
 ![Woodchuck](../libraries/w/W-3/Woodchuck.png)
 
-*画像プログラム（PNG / 3241 bytes）*
+*画像プログラム（IMAGE / 3241 bytes）*
 
 [Source File](../libraries/w/W-3/Woodchuck.png)
 
@@ -81661,7 +82187,7 @@ end
 [Source File](../libraries/x/X-3/XML%20Property%20List)
 
 ##### XML
-```text
+```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <text><![CDATA[Hello World]]></text>
 ```
@@ -82093,7 +82619,7 @@ puts "Hello World"
 
 ![YASBE](../libraries/y/Y-1/YASBE.jpg)
 
-*画像プログラム（JPG / 10021 bytes）*
+*画像プログラム（IMAGE / 10021 bytes）*
 
 [Source File](../libraries/y/Y-1/YASBE.jpg)
 
@@ -82144,7 +82670,7 @@ int main()
 
 ![Yet Another Musical Esolang](../libraries/y/Y-1/Yet%20Another%20Musical%20Esolang.png)
 
-*画像プログラム（PNG / 24567 bytes）*
+*画像プログラム（IMAGE / 24567 bytes）*
 
 [Source File](../libraries/y/Y-1/Yet%20Another%20Musical%20Esolang.png)
 

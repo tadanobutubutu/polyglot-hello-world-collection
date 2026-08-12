@@ -1,0 +1,60 @@
+Binary Hello World artifact: Executable.exe
+Size: 1926144 bytes
+Detected kind: pe
+Magic: 4d 5a 90 00 03 00 04 00 00 00 00 00 ff ff 00 00
+
+Format: Windows PE executable (MZ header)
+PE header offset: 0x80
+Machine: 0x8664
+
+Hex dump (first 128 bytes):
+  0000  4d 5a 90 00 03 00 04 00 00 00 00 00 ff ff 00 00   MZ..............
+  0010  8b 00 00 00 00 00 00 00 40 00 00 00 00 00 00 00   ........@.......
+  0020  00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00   ................
+  0030  00 00 00 00 00 00 00 00 00 00 00 00 80 00 00 00   ................
+  0040  0e 1f ba 0e 00 b4 09 cd 21 b8 01 4c cd 21 54 68   ........!..L.!Th
+  0050  69 73 20 70 72 6f 67 72 61 6d 20 63 61 6e 6e 6f   is program canno
+  0060  74 20 62 65 20 72 75 6e 20 69 6e 20 44 4f 53 20   t be run in DOS 
+  0070  6d 6f 64 65 2e 0d 0d 0a 24 00 00 00 00 00 00 00   mode....$.......
+
+Strings (sample):
+  !This program cannot be run in DOS mode.
+  .text
+  `.rdata
+  @.data
+  B/19
+  B/32
+  B/46
+  B/65
+  B/78
+  B/90
+  B.idata
+  .reloc
+  B.symtab
+   Go build ID: "QZjqEdmx3ZPf4J3eMNCB/HQ39YR8qPGotj50ADPCQ/Yw4P9adDlqQykmizk6zI/wbK2GzuWMZXyNce5zLSn"
+  D$ H
+  \$(f
+  D$ H
+  8cpu.u
+  t$pL
+  D$PH
+  L$HH
+  \$`H)
+  \$XH
+  ont!
+  ofuSF
+  fuGH
+  L$@H
+  T$81
+  D$XH
+  D$`H
+  t$pL
+  L$ H
+  D$hH
+  t$pL
+  D$P1
+  T$HH
+  D$pH
+  D$pH
+  D$PH
+  L$xH

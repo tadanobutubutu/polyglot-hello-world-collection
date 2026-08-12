@@ -1,0 +1,59 @@
+Binary Hello World artifact: Scratch 1.sb
+Size: 47404 bytes
+Detected kind: scratch1
+Magic: 53 63 72 61 74 63 68 56 30 32 00 00 08 be 4f 62
+
+Format: Scratch 1.x project (binary object serialization)
+Header: b'ScratchV02\x00\x00'
+
+Hex dump (first 128 bytes):
+  0000  53 63 72 61 74 63 68 56 30 32 00 00 08 be 4f 62   ScratchV02....Ob
+  0010  6a 53 01 53 74 63 68 01 00 00 00 22 18 00 00 00   jS.Stch...."....
+  0020  07 63 00 00 02 63 00 00 03 63 00 00 04 63 00 00   .c...c...c...c..
+  0030  05 63 00 00 06 63 00 00 07 63 00 00 08 63 00 00   .c...c...c...c..
+  0040  09 63 00 00 0a 63 00 00 0b 63 00 00 0c 63 00 00   .c...c...c...c..
+  0050  0d 63 00 00 0e 63 00 00 0f 09 00 00 00 07 68 69   .c...c........hi
+  0060  73 74 6f 72 79 09 00 00 00 23 32 30 32 30 2d 33   story....#2020-3
+  0070  2d 33 30 20 30 35 3a 33 33 3a 35 38 09 73 61 76   -30 05:33:58.sav
+
+Strings (sample):
+  ScratchV02
+  ObjS
+  Stch
+  history
+  #2020-3-30 05:33:58
+  save
+  scratch1
+  platform
+  Win32
+  language
+  os-version
+  scratch-version
+  1.4 of 30-Jun-09
+  thumbnail#
+  author
+  ObjS
+  Stch
+  Stage
+  background1"
+  Sprite1
+  normal
+  popm
+  costume1#
+  S#<$
+  aJo}p#a
+  `Dvpy
+  Wkf)_
+  I4+N
+  R'9]
+  z z6
+  k%~: A
+  *30x+
+  costume2#
+  meowm
+  """!
+  """"!
+  """!
+  """!
+  """"!
+  """!

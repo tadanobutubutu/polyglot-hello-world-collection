@@ -1,0 +1,16 @@
+Binary Hello World artifact: ThotPatrol
+Size: 215 bytes
+Detected kind: binary
+Magic: ef bf bd ef bf bd 3d ef bf bd ef bf bd ef bf bd
+
+Format: opaque binary program
+
+Hex dump (first 128 bytes):
+  0000  ef bf bd ef bf bd 3d ef bf bd ef bf bd ef bf bd   ......=.........
+  0010  4a 00 41 00 43 00 4b 00 49 00 4e 00 47 00 20 00   J.A.C.K.I.N.G. .
+  0020  49 00 4e 00 3d ef bf bd ef bf bd ef bf bd 0a 00   I.N.=...........
+  0030  0a 00 0a 00 3d ef bf bd 75 ef bf bd 20 00 3c ef   ....=...u... .<.
+  0040  bf bd 51 ef bf bd 3d ef bf bd ef bf bd ef bf bd   ..Q...=.........
+  0050  20 00 ef bf bd 00 48 00 65 00 6c 00 6c 00 6f 00    .....H.e.l.l.o.
+  0060  20 00 57 00 6f 00 72 00 6c 00 64 00 ef bf bd 00    .W.o.r.l.d.....
+  0070  0a 00 0a 00 0a 00 3c ef bf bd ef bf bd ef bf bd   ......<.........
