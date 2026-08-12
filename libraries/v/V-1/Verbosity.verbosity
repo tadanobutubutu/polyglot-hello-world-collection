@@ -1,0 +1,17 @@
+Include<Integer>
+Include<MetaFunctions>
+Include<Output>
+Include<String>
+
+Integer:DefineVariable<IntegerOne; 1>
+Output:DefineVariable<STDOUTfile; 0>
+String:DefineVariable<OutputString; "Hello, World!">
+
+String:RedefineVariable<OutputString; String:RemoveCharactersFromStart<OutputString; IntegerOne>>
+String:RedefineVariable<OutputString; String:TakeFirstCharacters<OutputString; IntegerOne>>
+
+Output:DisplayAsText<STDOUTfile; OutputString>
+
+DefineMain<> [
+    MetaFunctions:ExecuteScript<MetaFunctions@FILE>
+]

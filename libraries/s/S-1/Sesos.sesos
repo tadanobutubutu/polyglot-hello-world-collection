@@ -1,0 +1,29 @@
+add 72
+put
+fwd 1
+add 101
+put
+add 7
+put
+put
+add 3
+put
+fwd 1
+add 44
+put
+sub 12
+put
+rwd 2
+add 15
+put
+fwd 1
+put
+add 3
+put
+sub 6
+put
+sub 8
+put
+fwd 1
+add 1
+put

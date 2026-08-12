@@ -1,0 +1,23 @@
+<14
+MALLOC
+CPY
+SAV
+SAV
+<0
+<'!'
+<'d'
+<'l'
+<'r'
+<'o'
+<'W'
+<' '
+<','
+<'o'
+<'l'
+<'l'
+<'e'
+<'H'
+LOD
+STRLOAD
+LOD
+PRINTZ

@@ -1,1 +1,0 @@
-program hello;\nbegin\n  writeln('Hello World');\nend.\n

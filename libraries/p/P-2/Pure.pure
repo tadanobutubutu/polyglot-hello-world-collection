@@ -1,1 +1,2 @@
-print("Hello World")
+using system;
+puts "Hello, World!";

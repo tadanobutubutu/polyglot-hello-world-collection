@@ -1,1 +1,0 @@
-cat <<EOF\nHello World\nEOF\n

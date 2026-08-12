@@ -1,1 +1,0 @@
-GET /_search\n{\n  \"query\": {\n    \"match_all\": {}\n  }\n}\n

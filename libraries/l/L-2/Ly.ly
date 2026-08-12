@@ -1,1 +1,1 @@
-(println \"Hello World\")\n
+"Hello, World!"&o

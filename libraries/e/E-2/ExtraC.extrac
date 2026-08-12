@@ -1,0 +1,1 @@
+printf(quote(Hello)CHAR CHAR quote(World)CHAR,44,32,33)

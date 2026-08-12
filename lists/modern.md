@@ -2,70 +2,141 @@
 
 # Modern Languages
 
-A collection of modern programming languages, sorted by industry relevance and popularity.
+Modern programming languages with active ecosystems.
 
 ##### Rust
-```rs
+```rust
 fn main() {
     println!("Hello World");
 }
 ```
-[Source File](../libraries/r/R-2/rust.rs)
+[Source File](../libraries/r/R-2/Rust.rs)
 
 ##### Go
-```golang
-print("Hello World")
+```go
+package main
+
+import "fmt"
+
+func main() {
+    fmt.Println("Hello World")
+}
 ```
-[Source File](../libraries/g/G-1/Go.golang)
+[Source File](../libraries/g/G-2/Go.go)
 
 ##### Kotlin
 ```kotlin
-print("Hello World")
+fun main() {
+    println("Hello World")
+}
 ```
-[Source File](../libraries/k/K-2/Kotlin.kotlin)
+[Source File](../libraries/k/K-2/Kotlin.kt)
 
 ##### Swift
 ```swift
 print("Hello World")
 ```
-[Source File](../libraries/s/S-4/swift.swift)
+[Source File](../libraries/s/S-4/Swift.swift)
 
 ##### TypeScript
-```ts
+```typescript
 console.log("Hello World");
 ```
 [Source File](../libraries/t/T-2/TypeScript.ts)
 
 ##### Zig
 ```zig
-print("Hello, World!")
+const std = @import("std");
+
+pub fn main() void {
+    std.debug.print("Hello World
+", .{});
+}
 ```
-[Source File](../libraries/z/Z-1/zig.zig)
+[Source File](../libraries/z/Z-1/Zig.zig)
 
 ##### Julia
-```jl
-println("Hello, World!")
+```julia
+println("Hello World")
 ```
-[Source File](../libraries/j/J-2/julia.jl)
+[Source File](../libraries/j/J-2/Julia.jl)
 
 ##### Dart
 ```dart
-main() {\n  print('Hello World');\n}\n
+void main() {
+  print("Hello World");
+}
 ```
-[Source File](../libraries/d/D-1/dart.dart)
+[Source File](../libraries/d/D-1/Dart.dart)
 
 ##### Elixir
-```ex
-IO.puts "Hello World"
+```elixir
+IO.puts("Hello World")
 ```
-[Source File](../libraries/e/E-1/elixir.ex)
+[Source File](../libraries/e/E-1/Elixir.exs)
 
 ##### Crystal
 ```crystal
-print("Hello World")
+puts "Hello World"
 ```
-[Source File](../libraries/c/C-2/Crystal.crystal)
+[Source File](../libraries/c/C-3/Crystal.cr)
 
+##### Nim
+```nim
+echo "Hello World"
+```
+[Source File](../libraries/n/N-1/Nim.nim)
+
+##### V
+```v
+println("Hello World")
+```
+[Source File](../libraries/v/V-1/V.v)
+
+##### Odin
+```odin
+package main
+
+import "core:fmt"
+
+main :: proc() {
+    fmt.println("Hello World")
+}
+```
+[Source File](../libraries/o/O-1/Odin.odin)
+
+##### Gleam
+```gleam
+import gleam/io
+
+pub fn main() {
+  io.println("Hello World")
+}
+```
+[Source File](../libraries/g/G-1/Gleam.gleam)
+
+##### Uiua
+```uiua
+&p "Hello World"
+```
+[Source File](../libraries/u/U-1/Uiua.ua)
+
+##### Mojo
+```mojo
+fn main():
+    print("Hello World")
+```
+[Source File](../libraries/m/M-2/Mojo.mojo)
+
+##### Hare
+```hare
+use fmt;
+
+export fn main() void = {
+    fmt::println("Hello World")!;
+};
+```
+[Source File](../libraries/h/H-1/Hare.ha)
 
 
 [← Back to Home](../README.md)

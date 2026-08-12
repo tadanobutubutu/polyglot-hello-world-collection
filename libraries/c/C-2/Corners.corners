@@ -1,1 +1,0 @@
-module HelloWorld {\n  interface Hello {\n    string sayHello();\n  };\n};\n

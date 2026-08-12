@@ -1,0 +1,4 @@
+<attache>
+Print["Hello, World!"]
+Exit[]
+</attache>

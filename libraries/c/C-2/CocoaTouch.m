@@ -1,1 +1,0 @@
-import cocoa\n\nprint \"Hello World\"\n

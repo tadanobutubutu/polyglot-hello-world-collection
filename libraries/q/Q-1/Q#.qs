@@ -1,1 +1,0 @@
-namespace HelloWorld {\n    open Microsoft.Quantum.Print;\n\n    @EntryPoint()\n    operation SayHello() : Unit {\n        Message(\"Hello World\");\n    }\n}\n

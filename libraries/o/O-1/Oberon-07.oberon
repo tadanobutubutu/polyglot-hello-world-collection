@@ -1,0 +1,7 @@
+MODULE M;
+
+	IMPORT Out;
+
+BEGIN
+	Out.String("Hello, World!");
+END M.

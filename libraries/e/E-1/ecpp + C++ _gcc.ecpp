@@ -1,0 +1,7 @@
+#include <cstdio>
+
+#def `f x` f(x)
+
+int main() {
+	puts "Hello, World!";
+}

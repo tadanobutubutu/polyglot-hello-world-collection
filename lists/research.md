@@ -2,7 +2,23 @@
 
 # Research Languages
 
-A collection of research programming languages, sorted by industry relevance and popularity.
+Theoretical and academic programming languages.
+
+##### Coq
+```v
+Require Import Coq.Lists.List.
+Require Import Io.All.
+Require Import Io.System.All.
+Require Import ListString.All.
+
+Import ListNotations.
+Import C.Notations.
+
+(** The classic Hello World program. *)
+Definition hello_world (argv : list LString.t) : C.t System.effect unit :=
+  System.log (LString.s "Hello World").
+```
+[Source File](../libraries/c/C-3/Coq.v)
 
 ##### Agda
 ```agda
@@ -11,52 +27,36 @@ open import IO
 
 main = run (putStrLn "Hello World")
 ```
-[Source File](../libraries/a/A-1/agda.agda)
-
-##### Coq
-```coq
-print("Hello World")
-```
-[Source File](../libraries/c/C-2/Coq.coq)
+[Source File](../libraries/a/A-1/Agda.agda)
 
 ##### Idris
 ```idr
-print("Hello World")
+module Main
+
+main : IO ()
+main = putStrLn "Hello World"
 ```
 [Source File](../libraries/i/I-1/Idris.idr)
 
-##### Curry
-```curry
-print("Hello World")
+##### Lean
+```lean
+#print "Hello World"
 ```
-[Source File](../libraries/c/C-2/Curry.curry)
+[Source File](../libraries/l/L-1/Lean.lean)
 
-##### Standard ML
-```sml
-fun hello() = print(\"Hello World\\n\");\n\nhello()\n
+##### Mercury
+```m
+:- module hello.
+:- interface.
+:- import_module io.
+:- pred main(io::di, io::uo) is det.
+
+:- implementation.
+main(!IO) :-
+	io.write_string("Hello World
+", !IO).
 ```
-[Source File](../libraries/s/S-3/Standard ML.sml)
-
-##### OCaml
-```ocaml
-print("Hello World")
-```
-[Source File](../libraries/o/O-1/OCaml.ocaml)
-
-##### Erlang
-```erl
--module(hello).
--export([hello_world/0]).
-hello_world() -> io:fwrite("Hello World\n").
-```
-[Source File](../libraries/e/E-2/erlang.erl)
-
-##### Haskell
-```ghc
-print("Hello World")
-```
-[Source File](../libraries/h/H-1/Haskell.ghc)
-
+[Source File](../libraries/m/M-1/Mercury.m)
 
 
 [← Back to Home](../README.md)

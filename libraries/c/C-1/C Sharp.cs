@@ -1,1 +1,0 @@
-main() {\n    printf(\"Hello World\\n\");\n}\n

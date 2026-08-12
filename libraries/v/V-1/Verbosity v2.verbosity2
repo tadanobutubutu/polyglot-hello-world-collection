@@ -1,0 +1,6 @@
+IncludeTypePackage<OutputSystem>
+IncludeTypePackage<StringArray>
+
+output = OutputSystem:NewOutput<DEFAULT>
+
+OutputSystem:DisplayAsText<output; "Hello, World!">
