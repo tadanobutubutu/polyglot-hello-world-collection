@@ -1,0 +1,3 @@
+GET https://example.com
+HTTP 200
+# Hello World Hurl test

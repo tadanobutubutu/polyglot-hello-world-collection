@@ -1,0 +1,3 @@
+// Scratch is block-based; see Scratch 3.sb3 binary
+when flag clicked
+say [Hello World]

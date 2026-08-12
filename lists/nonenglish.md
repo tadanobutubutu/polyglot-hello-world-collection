@@ -1,6 +1,6 @@
 # nonenglish
 
-206 entries.
+207 entries.
 
 ##### !lyricly☭demote☭establish☭communism!
 ```text
@@ -1859,6 +1859,12 @@ main
 end main
 ```
 [Source File](../libraries/nonenglish/Genero%20BDL)
+
+##### Gödel
+```text
+print("Hello World").
+```
+[Source File](../libraries/nonenglish/Gödel)
 
 ##### Gödelang
 ```text

@@ -1,0 +1,4 @@
+Hello: PROGRAM =
+  BEGIN
+    WriteString["Hello World"]
+  END.

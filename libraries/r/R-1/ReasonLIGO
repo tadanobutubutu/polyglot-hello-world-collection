@@ -1,0 +1,2 @@
+let main = (p: unit, s: unit): (list(operation) * unit) =>
+  (print_string("Hello World"); ([], ()));

@@ -1,0 +1,2 @@
+# @ECLASS: hello
+einfo "Hello World"

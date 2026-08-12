@@ -1,0 +1,3 @@
+circuit Hello:
+  module Hello:
+    ; Hello World FIRRTL stub

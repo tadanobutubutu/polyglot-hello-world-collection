@@ -1,0 +1,2 @@
+stream input from "std_in" to "std_out"
+  Hello World;

@@ -1,0 +1,4 @@
+PROC HELLO MAIN;
+BEGIN
+  CALL WRITETEXT("Hello World");
+END;

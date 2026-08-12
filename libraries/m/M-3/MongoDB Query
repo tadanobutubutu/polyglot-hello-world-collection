@@ -1,0 +1,1 @@
+db.hello.insert({msg: "Hello World"})

@@ -1,0 +1,2 @@
+/* Averest / Quartz */
+emit Hello("Hello World");

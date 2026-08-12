@@ -1,0 +1,6 @@
+%Define {
+  Hello = "Hello World"
+}
+%HTML(Report) {
+  $(Hello)
+}

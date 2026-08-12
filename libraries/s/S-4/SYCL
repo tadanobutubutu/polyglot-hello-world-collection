@@ -1,0 +1,5 @@
+#include <sycl/sycl.hpp>
+int main() {
+  // Hello World SYCL stub
+  return 0;
+}

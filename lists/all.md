@@ -1,6 +1,6 @@
 # All libraries
 
-6263 entries.
+6658 entries.
 
 ##### !
 ```text
@@ -2670,6 +2670,13 @@ A
 ```
 [Source File](../libraries/a/A-1/A++)
 
+##### A-0 System
+```text
+; A-0 System (Grace Hopper, 1952) — conceptual order codes
+; PRINT HELLO WORLD
+```
+[Source File](../libraries/a/A-4/A-0%20System)
+
 ##### A-DU
 ```text
 A-DU HA-RO WO-RU-DU
@@ -3007,6 +3014,12 @@ peek
 ```
 [Source File](../libraries/a/A-1/Aarkinitio)
 
+##### ABAP CDS
+```text
+define view ZHELLO as select from dummy { 'Hello World' as msg }
+```
+[Source File](../libraries/a/A-1/ABAP%20CDS)
+
 ##### ABAP
 ```text
 REPORT ZHELLO_WORLD.
@@ -3178,6 +3191,15 @@ Write 100
 Write 33
 ```
 [Source File](../libraries/a/A-1/Acc!!.accbb)
+
+##### Accent
+```text
+program Hello;
+begin
+  write("Hello World")
+end.
+```
+[Source File](../libraries/a/A-1/Accent)
 
 ##### Accufuck
 ```text
@@ -3578,6 +3600,13 @@ END Hello.
 ```
 [Source File](../libraries/a/A-1/Active%20Oberon)
 
+##### Actor
+```text
+/* Actor language */
+(print "Hello World")
+```
+[Source File](../libraries/a/A-1/Actor)
+
 ##### Actually
 ```text
 H
@@ -3637,6 +3666,16 @@ begin
 end Hello;
 ```
 [Source File](../libraries/a/A-1/Ada%202012)
+
+##### Ada 2012 ISO
+```text
+with Ada.Text_IO; use Ada.Text_IO;
+procedure Hello is
+begin
+   Put_Line ("Hello World");
+end Hello;
+```
+[Source File](../libraries/a/A-1/Ada%202012%20ISO)
 
 ##### Ada 83
 ```text
@@ -3848,6 +3887,13 @@ IFZ temp IO 0
 .data H: 72 101 108 108 111 44 32 119 111 114 108 100 33 E:E
 ```
 [Source File](../libraries/a/A-1/AddSubJump)
+
+##### Adenine
+```text
+; Adenine (Haystack) example
+(print "Hello World")
+```
+[Source File](../libraries/a/A-1/Adenine)
 
 ##### Adina
 ```text
@@ -4103,11 +4149,23 @@ TGC CCA TAC TGT
 ```
 [Source File](../libraries/a/A-2/Aggressthon)
 
+##### Agilent VEE
+```text
+print "Hello World";
+```
+[Source File](../libraries/a/A-2/Agilent%20VEE)
+
 ##### Agony
 ```text
 <[.<]$$$,{}~<~)+{~*@+{${)~*~)~)~@<-
 ```
 [Source File](../libraries/a/A-1/Agony.agony)
+
+##### Agora
+```text
+Hello World!
+```
+[Source File](../libraries/a/A-2/Agora)
 
 ##### AGS Script
 ```text
@@ -4189,6 +4247,14 @@ for cmd in cmds:
 input()
 ```
 [Source File](../libraries/a/A-2/AHQ9+-)
+
+##### AIDL
+```text
+interface IHello {
+  String greet();
+}
+```
+[Source File](../libraries/a/A-2/AIDL)
 
 ##### Aiken
 ```text
@@ -4459,6 +4525,13 @@ Say LineFeed - Alex.
 powiedz "Hello world!"
 ```
 [Source File](../libraries/a/A-3/AlexScript)
+
+##### ALF
+```text
+hello.
+% Algebraic Logic Functional language
+```
+[Source File](../libraries/a/A-3/ALF)
 
 ##### Algae
 ```text
@@ -4896,6 +4969,14 @@ iiciccepepceaiiiaiaiaicccsascciijceeeeeejccijjccjcejaajaajcccjeeejaajaaijcccej
 ```
 [Source File](../libraries/a/A-2/Alphuck.alphuck)
 
+##### Alpine Abuild
+```text
+pkgname=hello
+pkgver=1.0
+build() { echo Hello World; }
+```
+[Source File](../libraries/a/A-3/Alpine%20Abuild)
+
 ##### Alternative
 ```text
  >"Hello World!"0r>o:?v;
@@ -5187,6 +5268,13 @@ IDK WHAT GREEN IS BUT ITS BETWEEN 65 AND 90            //Generates random letter
 GREEN CAN VOUCH GO AND TELL THEM COME ON               //Outputs random letter
 ```
 [Source File](../libraries/a/A-3/AMONGUSISABIGSUSSYBAKAHAHAHAHAHATHISLANGUAGEISREALLYCOOLPLEASEUSEITMYLIFEDEPENDSONITORELSEPLSPLSPLSP%20_5)
+
+##### AMONGUSISABIGSUSSYBAKAHAHAHAHAHATHISLANGUAGEISREALLYCOOLPLEASEUSEITMYLIFEDEPENDSONITORELSEPLSPLSPLSP _6
+```text
+IDK WHAT GREEN IS BUT ITS BETWEEN 65 AND 90            //Generates random letter
+GREEN CAN VOUCH GO AND TELL THEM COME ON               //Outputs random letter
+```
+[Source File](../libraries/a/A-3/AMONGUSISABIGSUSSYBAKAHAHAHAHAHATHISLANGUAGEISREALLYCOOLPLEASEUSEITMYLIFEDEPENDSONITORELSEPLSPLSPLSP%20_6)
 
 ##### AMOS
 ```text
@@ -5913,6 +6001,21 @@ This program does nothing
 ```
 [Source File](../libraries/a/A-4/APOL)
 
+##### Apollo Guidance Computer
+```text
+CAF ZERO
+TC  LIB0
+# Hello World AGC (no string I/O)
+```
+[Source File](../libraries/a/A-4/Apollo%20Guidance%20Computer)
+
+##### App Inventor for Android
+```text
+// Block language — see App Inventor.aia
+// Text: Hello World
+```
+[Source File](../libraries/a/A-4/App%20Inventor%20for%20Android)
+
 ##### App Inventor
 
 *MIT App Inventor プロジェクト / 1099 bytes*
@@ -6042,6 +6145,14 @@ display dialog "Hello World"
 out 72, 101, 108, 108, 111, 44, 32, 87, 111, 114, 108, 100, 33, 10
 ```
 [Source File](../libraries/a/A-4/Apsw)
+
+##### APT
+```text
+PARTNO / HELLO
+CLPRNT
+$$ Hello World APT
+```
+[Source File](../libraries/a/A-4/APT)
 
 ##### ARBLE
 ```text
@@ -6179,6 +6290,14 @@ use std
 print "Hello world!"
 ```
 [Source File](../libraries/a/A-4/Argile)
+
+##### Argus
+```text
+enter Hello()!
+  write("Hello World")
+end Hello.
+```
+[Source File](../libraries/a/A-4/Argus)
 
 ##### Aria
 ```text
@@ -6504,6 +6623,12 @@ ___|
 ```
 [Source File](../libraries/a/A-4/ASCII%20art-)
 
+##### AsciiDoc
+```text
+Hello World
+```
+[Source File](../libraries/a/A-4/AsciiDoc)
+
 ##### AsciiDots
 ```text
 .-$'Hello, World!'
@@ -6614,6 +6739,12 @@ public class Ash {
 ~{|@greeting}
 ```
 [Source File](../libraries/a/A-4/Asig)
+
+##### ASL
+```text
+Hello World
+```
+[Source File](../libraries/a/A-4/ASL)
 
 ##### asm2bf
 ```text
@@ -9563,6 +9694,12 @@ Gd Np Fm Fm Lr Cr Au Lr Sg Fm U Mn
 ```
 [Source File](../libraries/a/A-4/AuFI)
 
+##### Augeas
+```text
+set /files/etc/hello "Hello World"
+```
+[Source File](../libraries/a/A-4/Augeas)
+
 ##### Auld Lang
 ```text
 Happy New Year World!
@@ -9742,6 +9879,13 @@ Print: "Hello World!";
 ```
 [Source File](../libraries/a/A-4/Avail)
 
+##### Averest
+```text
+/* Averest / Quartz */
+emit Hello("Hello World");
+```
+[Source File](../libraries/a/A-4/Averest)
+
 ##### AviSynth
 ```text
 # Hello World for AviSynth video editor
@@ -9755,6 +9899,14 @@ Subtitle("Hello, world!")
 MessageClip("Hello World")
 ```
 [Source File](../libraries/a/A-4/Avisynth.avs)
+
+##### Avro IDL
+```text
+protocol Hello {
+  string greet();
+}
+```
+[Source File](../libraries/a/A-4/Avro%20IDL)
 
 ##### AWA5
 ```text
@@ -9836,6 +9988,16 @@ H & e  2222222222222201    200001      2201     200001     22201   20000
  >( ^
 ```
 [Source File](../libraries/a/A-4/axo.axo)
+
+##### Axum
+```text
+domain Hello {
+  agent Main() {
+    Console.WriteLine("Hello World");
+  }
+}
+```
+[Source File](../libraries/a/A-4/Axum)
 
 ##### A˸;
 ```text
@@ -9985,6 +10147,14 @@ and w and o and r and l and d and excl and newline
 hello_world is text
 ```
 [Source File](../libraries/b/B-1/Babalang)
+
+##### Babbage
+```text
+START
+  DISPLAY "Hello World"
+STOP
+```
+[Source File](../libraries/b/B-1/Babbage)
 
 ##### Babel
 ```text
@@ -10427,6 +10597,12 @@ get x
 show x
 ```
 [Source File](../libraries/b/B-1/Baz)
+
+##### Bazel
+```text
+print("Hello World")
+```
+[Source File](../libraries/b/B-1/Bazel)
 
 ##### BazzBasic
 ```text
@@ -12033,6 +12209,15 @@ ZEROONEONEONEONEZEROLINENUMBERONEZEROONEONEONEONEZEROCODEPRINTZEROGOTOONEZEROON
 EONEONEONEONELINENUMBERONEZEROONEONEONEONEONECODEPRINTONE
 ```
 [Source File](../libraries/b/B-2/BIT.bit)
+
+##### BitBake
+```text
+python do_hello() {
+    bb.plain("Hello World")
+}
+addtask hello
+```
+[Source File](../libraries/b/B-2/BitBake)
 
 ##### BitBitJump
 ```text
@@ -13745,6 +13930,12 @@ _+_+^+_+_+^+^]=
 _+^+_+^+*]
 ```
 [Source File](../libraries/b/B-3/BoolX)
+
+##### Boomerang
+```text
+print("Hello World");
+```
+[Source File](../libraries/b/B-3/Boomerang)
 
 ##### bootBASIC
 ```text
@@ -18026,6 +18217,12 @@ service Hello {
 ```
 [Source File](../libraries/c/C-1/CAP%20CDS)
 
+##### Cap'n Proto
+```text
+const hello @0x0 :Text = "Hello World";
+```
+[Source File](../libraries/c/C-1/Cap'n%20Proto)
+
 ##### Caps
 ```text
 NOTE Hello world in Caps STOP BUILD BLOCK 1 STOP ENTRY H STOP ENTRY e STOP ENTRY l STOP ENTRY l STOP ENTRY o STOP ENTRY %s STOP ENTRY w STOP ENTRY o STOP ENTRY r STOP ENTRY l STOP ENTRY d STOP ENTRY ! STOP ENTRY %n STOP LOAD &0 STOP LOAD &1 STOP LOAD &2 STOP LOAD &3 STOP LOAD &4 STOP LOAD &5 STOP LOAD &6 STOP LOAD &7 STOP LOAD &8 STOP LOAD &9 STOP LOAD &10 STOP LOAD &11 STOP LOAD &12 STOP BUILD BLOCK 5 STOP BUILD IO STOP CONNECT &0 /dev/stdout STOP UNLOAD +A STOP IO_PUSH &1 &0 STOP IO_PUSH &2 &0 STOP IO_PUSH &3 &0 STOP IO_PUSH &4 &0 STOP IO_PUSH &5 &0 STOP IO_PUSH &6 &0 STOP IO_PUSH &7 &0 STOP IO_PUSH &8 &0 STOP IO_PUSH &9 &0 STOP IO_PUSH &10 &0 STOP IO_PUSH &11 &0 STOP IO_PUSH &12 &0 STOP IO_PUSH &13 &0 STOP
@@ -18143,6 +18340,14 @@ Otherwise if I mod 4=3: execute o
 Hello, World!
 ```
 [Source File](../libraries/c/C-1/Carrot.carrot)
+
+##### CartoCSS
+```text
+#hello {
+  text-name: "Hello World";
+}
+```
+[Source File](../libraries/c/C-1/CartoCSS)
 
 ##### Cascade
 ```text
@@ -18501,6 +18706,12 @@ while 1:
 (print "Hello, World!")
 ```
 [Source File](../libraries/c/C-1/Cauliflower.cauliflowe)
+
+##### Cayenne
+```text
+hello = "Hello World"
+```
+[Source File](../libraries/c/C-1/Cayenne)
 
 ##### CBIASIPOSLESWRAOTTHNRTBTSS
 ```text
@@ -19079,6 +19290,12 @@ Hello World
 +^<**----^!+<<+!+<<*--!+<<*--!+<<*+!+++++<****---!+<<*+!+<<*++++!+<<*--!+<<!***+++!
 ```
 [Source File](../libraries/c/C-2/CharCode)
+
+##### Charity
+```text
+def hello: 1 -> string = fn _ => "Hello World".
+```
+[Source File](../libraries/c/C-2/Charity)
 
 ##### Charly
 ```text
@@ -20194,6 +20411,14 @@ finish
 ```
 [Source File](../libraries/c/C-3/ClearBF)
 
+##### Click
+```text
+Idle
+  -> Print("Hello World")
+  -> Discard;
+```
+[Source File](../libraries/c/C-3/Click)
+
 ##### Clickclang
 ```text
 [val]=[val2] Equality, represents if values are the same.
@@ -20546,6 +20771,14 @@ message("Hello World")
 &TYPE Hello World
 ```
 [Source File](../libraries/c/C-3/CMS%20EXEC)
+
+##### CMS-2
+```text
+PROCEDURE HELLO.
+  DISPLAY 'Hello World'.
+END-PROC.
+```
+[Source File](../libraries/c/C-3/CMS-2)
 
 ##### COBOL
 ```text
@@ -21088,6 +21321,18 @@ Hello has been selling out worldwide!
 ```
 [Source File](../libraries/c/C-3/Commodore%20BASIC)
 
+##### Common Intermediate Language
+```text
+.assembly Hello {}
+.method static void Main() cil managed {
+  .entrypoint
+  ldstr "Hello World"
+  call void [mscorlib]System.Console::WriteLine(string)
+  ret
+}
+```
+[Source File](../libraries/c/C-3/Common%20Intermediate%20Language)
+
 ##### Common Lisp
 ```text
 ;;; Hello world in Common Lisp
@@ -21124,6 +21369,14 @@ arguments: ["Hello World"]
 !Hello, world!;
 ```
 [Source File](../libraries/c/C-3/Common-S3C)
+
+##### COMPASS
+```text
+HELLO   START 0
+        PRINT  'Hello World'
+        END   HELLO
+```
+[Source File](../libraries/c/C-3/COMPASS)
 
 ##### Complack
 ```text
@@ -21238,6 +21491,12 @@ END Hello.
 Hello World
 ```
 [Source File](../libraries/c/C-3/Compute)
+
+##### COMTRAN
+```text
+PRINT 'Hello World'.
+```
+[Source File](../libraries/c/C-3/COMTRAN)
 
 ##### Comun
 ```text
@@ -21677,6 +21936,13 @@ var.size = expr
 ```
 [Source File](../libraries/c/C-3/Coral%2066.cor)
 
+##### Core War
+```text
+; Redcode Hello World (no I/O — IMP classic)
+MOV 0, 1
+```
+[Source File](../libraries/c/C-3/Core%20War)
+
 ##### Corea
 ```text
 Hello, World!
@@ -21700,6 +21966,12 @@ print Hello world!
 main(a) := a
 ```
 [Source File](../libraries/c/C-3/Cornucopia)
+
+##### CorVision
+```text
+DISPLAY "Hello World"
+```
+[Source File](../libraries/c/C-3/CorVision)
 
 ##### COSOL26
 ```text
@@ -21883,6 +22155,12 @@ print(intToStr(fib(6)))
 print(intToStr(fib(20)))
 ```
 [Source File](../libraries/c/C-3/Cowlang)
+
+##### COWSEL
+```text
+(print "Hello World")
+```
+[Source File](../libraries/c/C-3/COWSEL)
 
 ##### CPF
 ```text
@@ -22073,6 +22351,12 @@ int rax 01h
 say! Hello, world!
 ```
 [Source File](../libraries/c/C-4/CreativeScript)
+
+##### Creole
+```text
+Hello World
+```
+[Source File](../libraries/c/C-4/Creole)
 
 ##### Crest
 ```text
@@ -22275,6 +22559,25 @@ p&1*+1*+++1+++1p_~+++++++1pD_~+++++1pD&++1pD&*+++1+++++1pD&*++1++++1pp&&D+++++1D
 prints "Hello World\n"
 ```
 [Source File](../libraries/c/C-4/Csound)
+
+##### Csound Document
+```text
+<CsoundSynthesizer>
+<CsInstruments>
+instr 1
+  prints "Hello World\n"
+endin
+</CsInstruments>
+</CsoundSynthesizer>
+```
+[Source File](../libraries/c/C-4/Csound%20Document)
+
+##### Csound Score
+```text
+i 1 0 1
+; Hello World score event
+```
+[Source File](../libraries/c/C-4/Csound%20Score)
 
 ##### CSP Spec
 ```text
@@ -22544,6 +22847,13 @@ in Bash *{
 ```
 [Source File](../libraries/c/C-4/Cupid)
 
+##### Curl
+```text
+{curl 8.0 applet}
+{text Hello World}
+```
+[Source File](../libraries/c/C-4/Curl)
+
 ##### Curlyfrick
 ```text
 {}{}.{}	(({}+{}+{}+{})^({}+{}+{}))+(({}+{})^({}+{}+{}))
@@ -22663,6 +22973,15 @@ header, \.{<stdio.h>}.
 ```
 [Source File](../libraries/c/C-4/Cy.cy)
 
+##### Cybil
+```text
+procedure hello;
+begin
+  write('Hello World');
+end;
+```
+[Source File](../libraries/c/C-4/Cybil)
+
 ##### CYBOL
 ```text
 <!-- Hello World in Cybernetics Oriented Language (CYBOL) -->
@@ -22697,6 +23016,12 @@ console.log("Hello World")
 RETURN "Hello World" AS greeting
 ```
 [Source File](../libraries/c/C-4/Cypher)
+
+##### Cypher Query Language
+```text
+RETURN "Hello World" AS greeting;
+```
+[Source File](../libraries/c/C-4/Cypher%20Query%20Language)
 
 ##### CypherNeo4j
 ```text
@@ -23050,6 +23375,18 @@ echo Hello, World!
 ```
 [Source File](../libraries/d/D-1/Dashes)
 
+##### Daslang
+```text
+print("Hello World")
+```
+[Source File](../libraries/d/D-1/Daslang)
+
+##### Data Analysis Expressions
+```text
+"Hello World"
+```
+[Source File](../libraries/d/D-1/Data%20Analysis%20Expressions)
+
 ##### Data Parallel Haskell
 ```text
 main = putStrLn "Hello World"
@@ -23102,6 +23439,12 @@ page tela
 hello("Hello World").
 ```
 [Source File](../libraries/d/D-1/Datalog)
+
+##### DATATRIEVE
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/d/D-1/DATATRIEVE)
 
 ##### DataWeave
 ```text
@@ -23166,6 +23509,12 @@ $ ./dawg example.dawg
 SUP?
 ```
 [Source File](../libraries/d/D-1/Dawg)
+
+##### DAX
+```text
+"Hello World"
+```
+[Source File](../libraries/d/D-1/DAX)
 
 ##### Daydream
 ```text
@@ -23252,6 +23601,12 @@ psHello, World!;pa10;e;
 [Hello world!]p
 ```
 [Source File](../libraries/d/D-1/dc)
+
+##### dc  _computer program
+```text
+[Hello World]p
+```
+[Source File](../libraries/d/D-1/dc%20%20_computer%20program)
 
 ##### dc _2
 ```text
@@ -23922,6 +24277,12 @@ output Hello, World!
 ```
 [Source File](../libraries/d/D-1/DeathScript)
 
+##### DEC Text Processing Utility
+```text
+MESSAGE ("Hello World");
+```
+[Source File](../libraries/d/D-1/DEC%20Text%20Processing%20Utility)
+
 ##### Decimal
 ```text
 13072069076076079044032087079082076068033010D 301
@@ -24022,6 +24383,15 @@ LBBB4440
 ```
 [Source File](../libraries/d/D-1/Del-m-t.delimit)
 
+##### Delphi  _software
+```text
+program Hello;
+begin
+  Writeln('Hello World');
+end.
+```
+[Source File](../libraries/d/D-1/Delphi%20%20_software)
+
 ##### Delphi language
 ```text
 program Hello;
@@ -24060,6 +24430,12 @@ end.
 :
 ```
 [Source File](../libraries/d/D-1/Delvs)
+
+##### DenizenScript
+```text
+- narrate "Hello World"
+```
+[Source File](../libraries/d/D-1/DenizenScript)
 
 ##### Deno
 ```typescript
@@ -24755,6 +25131,15 @@ buzz=5
 +[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+.
 ```
 [Source File](../libraries/d/D-2/DJ%20Qarkegs%20-%20Above%20The%20Sky)
+
+##### Django
+```text
+from django.http import HttpResponse
+
+def index(request):
+    return HttpResponse("Hello World")
+```
+[Source File](../libraries/d/D-2/Django)
 
 ##### DJN OISC
 ```text
@@ -25511,6 +25896,12 @@ v
 ```
 [Source File](../libraries/d/D-3/DownRight)
 
+##### Doxygen
+```text
+/** @brief Hello World */
+```
+[Source File](../libraries/d/D-3/Doxygen)
+
 ##### DPATL Python
 ```text
 {start python}
@@ -25597,6 +25988,12 @@ echo "Hello world!"
 ] Jump to associated [ if not zero.
 ```
 [Source File](../libraries/d/D-4/Drainfuck)
+
+##### DRAKON
+```text
+// DRAKON visual language — silhouette title: Hello World
+```
+[Source File](../libraries/d/D-4/DRAKON)
 
 ##### Draten
 ```text
@@ -26511,6 +26908,12 @@ for c in code:
 ```
 [Source File](../libraries/d/D-4/Dumbf*ck)
 
+##### Dune
+```text
+(rule (action (echo "Hello World")))
+```
+[Source File](../libraries/d/D-4/Dune)
+
 ##### Duocentehexaquinquagesimal
 ```text
 1Ƶ¸ñ=öu¯2–sε`;ÈùˆζT¿āΔIÈ3Wÿ»
@@ -26553,6 +26956,12 @@ PrintLn('Hello world!');
 print("Hello world!")
 ```
 [Source File](../libraries/d/D-4/Dyalect)
+
+##### Dyalog APL
+```text
+⎕←'Hello World'
+```
+[Source File](../libraries/d/D-4/Dyalog%20APL)
 
 ##### Dylan
 ```text
@@ -26775,6 +27184,12 @@ hello:
 ```
 [Source File](../libraries/e/E-1/Earthly)
 
+##### Ease
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/e/E-1/Ease)
+
 ##### easm
 ```text
 // Hello World in easm (Win32).
@@ -26802,6 +27217,15 @@ section code
 +[.,]Hello, world!
 ```
 [Source File](../libraries/e/E-1/Easy)
+
+##### Easy Programming Language
+```text
+.版本 2
+.程序集 窗口程序集1
+.子程序 __启动窗口_创建完毕
+信息框 (“Hello World”, 0, , )
+```
+[Source File](../libraries/e/E-1/Easy%20Programming%20Language)
 
 ##### EasyFlakes
 ```text
@@ -27037,6 +27461,12 @@ OUTPUT('Hello world!');
 ```
 [Source File](../libraries/e/E-1/ECL)
 
+##### ECLiPSe
+```text
+:- writeln('Hello World').
+```
+[Source File](../libraries/e/E-1/ECLiPSe)
+
 ##### Ecliptica
 ```text
  - >++++++++[<+++++++++>-?0(t)]<O>++++[<+++++++>-?0(t)]<+O+++++++OO+++O>>++++++[<+++++++>-?0(t)]<++O------------O>++++++[<+++++++++>-?0(t)]<+O<O+++O------O--------O>>>++++[<++++++++>-?0(t)]<+O
@@ -27139,6 +27569,14 @@ main = putStrLn "Hello World"
 SELECT "Hello World";
 ```
 [Source File](../libraries/e/E-1/EdgeQL)
+
+##### Edinburgh IMP
+```text
+BEGIN
+  WRITE("Hello World")
+END
+```
+[Source File](../libraries/e/E-1/Edinburgh%20IMP)
 
 ##### EDSAC order code
 ```text
@@ -27611,6 +28049,12 @@ writeLine("Hello world!")
 3.0.3.-4.-5.1.0.2.1
 ```
 [Source File](../libraries/e/E-3/Emanator)
+
+##### EmberScript
+```text
+console.log "Hello World"
+```
+[Source File](../libraries/e/E-3/EmberScript)
 
 ##### Emblia
 ```text
@@ -28293,6 +28737,13 @@ Text.zeileHinzufügen("Hello, World!")
 ```
 [Source File](../libraries/nonenglish/EOS%202)
 
+##### Epigram
+```text
+hello : String
+hello = "Hello World"
+```
+[Source File](../libraries/e/E-4/Epigram)
+
 ##### EPL Main
 ```text
 extern printf ExitProcess
@@ -28469,6 +28920,12 @@ Hello, world!
 ```
 [Source File](../libraries/e/E-4/Error:%20The%20system%20didn't%20find%20the%20object,%20program,%20or%20command%20that%20you're%20trying%20to%20access%20or%20execut%20_5)
 
+##### Error: The system didn't find the object, program, or command that you're trying to access or execut _6
+```text
+Hello, world!
+```
+[Source File](../libraries/e/E-4/Error:%20The%20system%20didn't%20find%20the%20object,%20program,%20or%20command%20that%20you're%20trying%20to%20access%20or%20execut%20_6)
+
 ##### ErrorFuck
 ```text
 import sys
@@ -28552,6 +29009,18 @@ echo Hello World
 echo Hello, World!
 ```
 [Source File](../libraries/e/E-4/es)
+
+##### es  _Unix shell
+```text
+echo Hello World
+```
+[Source File](../libraries/e/E-4/es%20%20_Unix%20shell)
+
+##### Escher
+```text
+print("Hello World")
+```
+[Source File](../libraries/e/E-4/Escher)
 
 ##### Esimpl
 ```text
@@ -28948,6 +29417,14 @@ END
 ```
 [Source File](../libraries/e/E-4/Esowar)
 
+##### ESPOL
+```text
+BEGIN
+  WRITE("Hello World");
+END.
+```
+[Source File](../libraries/e/E-4/ESPOL)
+
 ##### Espruino
 ```text
 console.log("Hello World");
@@ -29096,6 +29573,12 @@ end;
 ```
 [Source File](../libraries/e/E-4/EtomemoteetomemoteetomemoteetomemotE)
 
+##### Etoys
+```text
+"Hello World" asMorph openInHand
+```
+[Source File](../libraries/e/E-4/Etoys)
+
 ##### Etre
 ```text
 1 inc B 2
@@ -29189,6 +29672,18 @@ puts(1, "Hello World")
  (x)inprimatu
 ```
 [Source File](../libraries/e/E-4/EuskoPy)
+
+##### EusLisp
+```text
+(print "Hello World")
+```
+[Source File](../libraries/e/E-4/EusLisp)
+
+##### EusLisp Robot Programming Language
+```text
+(print "Hello World")
+```
+[Source File](../libraries/e/E-4/EusLisp%20Robot%20Programming%20Language)
 
 ##### Eval
 ```text
@@ -29654,6 +30149,17 @@ a .
 @1_0+1
 ```
 [Source File](../libraries/e/E-2/Explode.explode)
+
+##### Express
+```text
+const express = require('express')
+const app = express()
+
+app.get('/', (_, res) => res.send("Hello World"))
+
+app.listen(8080)
+```
+[Source File](../libraries/e/E-4/Express)
 
 ##### Expression
 ```text
@@ -30311,6 +30817,18 @@ howl
 ```
 [Source File](../libraries/f/F-1/Farnsworth.farnsworth)
 
+##### FastAPI
+```text
+from fastapi import Body, FastAPI
+
+app = FastAPI()
+
+@app.get("/")
+async def root():
+    return {"message": "Hello World"}
+```
+[Source File](../libraries/f/F-1/FastAPI)
+
 ##### Fastlane
 ```text
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++.+++++++++++++++++++++++++++++.+++++++..+++.-------------------------------------------------------------------.------------.+++++++++++++++++++++++++++++++++++++++++++++++++++++++.++++++++++++++++++++++++.+++.------.--------.-------------------------------------------------------------------.-----------------------.$
@@ -30652,6 +31170,12 @@ say "Hello world!"
 ```
 [Source File](../libraries/f/F-2/FFM-FFB)
 
+##### FFP
+```text
+Hello World
+```
+[Source File](../libraries/f/F-2/FFP)
+
 ##### FFRISC
 ```text
 MOVE D,R - copies D to R (MOVE A,A being NOP)
@@ -30874,6 +31398,14 @@ Your faithful student, Twilight Sparkle.
 *画像プログラム（IMAGE / 241520 bytes）*
 
 [Source File](../libraries/f/F-2/Firefly.png)
+
+##### FIRRTL
+```text
+circuit Hello:
+  module Hello:
+    ; Hello World FIRRTL stub
+```
+[Source File](../libraries/f/F-2/FIRRTL)
 
 ##### First
 ```go
@@ -31180,6 +31712,12 @@ ffffffffffffffffffffffffjjfjfjffffffffffffjjfjfjffffffjfjfffffffffjfjfffffffffjf
 ```
 [Source File](../libraries/nonenglish/Fjölnir)
 
+##### FL
+```text
+Hello World
+```
+[Source File](../libraries/f/F-3/FL)
+
 ##### flag
 ```text
 Hello World_!
@@ -31208,6 +31746,42 @@ main() -> main {
 aueI90ds¢£³m%#oiDijij@¨!&#&#IO21(()=§§ªD@@
 ```
 [Source File](../libraries/f/F-3/Flash%20shockwave%20has%20been%20discontinued)
+
+##### Flask
+```text
+from flask import Flask
+app = Flask(__name__)
+
+@app.route("/")
+def hello():
+    return "Hello World"
+
+if __name__ == "__main__":
+    app.run()
+```
+[Source File](../libraries/f/F-3/Flask)
+
+##### FlatBuffers
+```text
+namespace Hello;
+table World { msg:string; }
+root_type World;
+```
+[Source File](../libraries/f/F-3/FlatBuffers)
+
+##### Flavors
+```text
+(print "Hello World")
+```
+[Source File](../libraries/f/F-3/Flavors)
+
+##### Flex
+```text
+%%
+%%
+int main(){ puts("Hello World"); return 0; }
+```
+[Source File](../libraries/f/F-3/Flex)
 
 ##### Flij
 ```text
@@ -31400,6 +31974,12 @@ void main() {
 ```
 [Source File](../libraries/f/F-1/Flutter.dart)
 
+##### FLUX
+```text
+print("Hello World")
+```
+[Source File](../libraries/f/F-3/FLUX)
+
 ##### Flux  _Esolangist
 ```text
 <v"Hello, World!"
@@ -31487,6 +32067,12 @@ g
 ```
 [Source File](../libraries/f/F-3/Fohc)
 
+##### FOIL
+```text
+WRITE Hello World
+```
+[Source File](../libraries/f/F-3/FOIL)
+
 ##### Folder
 ```text
 cd
@@ -31540,6 +32126,13 @@ Check the spelling of the name, or if a path was included, verify that the path 
 Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
 ```
 [Source File](../libraries/f/F-3/Foo%20:%20The%20term%20'foo'%20is%20not%20recognized%20as%20the%20name%20of%20a%20cmdlet,%20function,%20script%20file,%20or%20operable%20p%20_4)
+
+##### Foo : The term 'foo' is not recognized as the name of a cmdlet, function, script file, or operable p _5
+```text
+[command] : The term '[command]' is not recognized as the name of a cmdlet, function, script file, or operable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+```
+[Source File](../libraries/f/F-3/Foo%20:%20The%20term%20'foo'%20is%20not%20recognized%20as%20the%20name%20of%20a%20cmdlet,%20function,%20script%20file,%20or%20operable%20p%20_5)
 
 ##### Foo _2
 ```text
@@ -31682,6 +32275,12 @@ push 72;cleanse;pop;out;push 101;cleanse;pop;out;push 108;cleanse;pop;out;push 1
 PRINT "Hello World";
 ```
 [Source File](../libraries/f/F-3/FORMAC)
+
+##### Formula language
+```text
+@Prompt([Ok]; ""; "Hello World")
+```
+[Source File](../libraries/f/F-3/Formula%20language)
 
 ##### Forobj
 ```text
@@ -33886,6 +34485,12 @@ show_message("Hello World");
 ```
 [Source File](../libraries/g/G-1/Game%20of%20Life)
 
+##### Game Oriented Assembly Lisp
+```text
+(format #t "Hello World~%")
+```
+[Source File](../libraries/g/G-1/Game%20Oriented%20Assembly%20Lisp)
+
 ##### GameMonkey Script
 ```text
 // Hello World in GameMonkey Script
@@ -33965,6 +34570,12 @@ WriteLine(f, "Hello world!\n");
 CloseStream(f);
 ```
 [Source File](../libraries/g/G-1/GAP)
+
+##### GAP computer algebra system
+```text
+Print("Hello World\n");
+```
+[Source File](../libraries/g/G-1/GAP%20computer%20algebra%20system)
 
 ##### GAP
 ```text
@@ -34078,11 +34689,23 @@ main
 ```
 [Source File](../libraries/g/G-1/Gbagbo)
 
+##### GCC Machine Description
+```text
+/* Hello World MD pattern stub */
+```
+[Source File](../libraries/g/G-1/GCC%20Machine%20Description)
+
 ##### GDB
 ```text
 printf "Hello World\n"
 ```
 [Source File](../libraries/g/G-1/GDB)
+
+##### GDL
+```text
+print "Hello World"
+```
+[Source File](../libraries/g/G-1/GDL)
 
 ##### GDScript
 ```text
@@ -34092,6 +34715,13 @@ func _ready():
 	print("Hello World")
 ```
 [Source File](../libraries/g/G-1/GDScript.gd)
+
+##### GDShader
+```text
+shader_type canvas_item;
+// Hello World shader stub
+```
+[Source File](../libraries/g/G-1/GDShader)
 
 ##### GDSII
 ```text
@@ -34329,6 +34959,12 @@ ABCDE
 ```
 [Source File](../libraries/g/G-1/Genera%20Tag)
 
+##### General Algebraic Modeling System
+```text
+display "Hello World";
+```
+[Source File](../libraries/g/G-1/General%20Algebraic%20Modeling%20System)
+
 ##### Generic 2D Brainfuck
 ```text
 d                         r^---.+++++++..+++.^^.v-.v.+++.------.--------.^^+.
@@ -34336,6 +34972,14 @@ d                         r^---.+++++++..+++.^^.v-.v.+++.------.--------.^^+.
 r++++++++[^++++[^++^+++^+++^+vvvv-]^+^+^-^^+[v]v-]^^.u
 ```
 [Source File](../libraries/g/G-1/Generic%202D%20Brainfuck)
+
+##### Genero 4gl
+```text
+MAIN
+  DISPLAY "Hello World"
+END MAIN
+```
+[Source File](../libraries/g/G-1/Genero%204gl)
 
 ##### Genero BDL
 ```text
@@ -34377,6 +35021,12 @@ init
 ```
 [Source File](../libraries/g/G-1/Genie.gs)
 
+##### Genshi
+```text
+Hello World
+```
+[Source File](../libraries/g/G-1/Genshi)
+
 ##### Gentee
 ```text
 // Hello World in Gentee
@@ -34396,6 +35046,22 @@ func hello <main>
 func hello<main> : @"Hello, World!"
 ```
 [Source File](../libraries/g/G-1/Gentee-simple)
+
+##### Gentoo Ebuild
+```text
+EAPI=8
+DESCRIPTION="Hello World"
+SLOT="0"
+src_install() { einfo "Hello World"; }
+```
+[Source File](../libraries/g/G-1/Gentoo%20Ebuild)
+
+##### Gentoo Eclass
+```text
+# @ECLASS: hello
+einfo "Hello World"
+```
+[Source File](../libraries/g/G-1/Gentoo%20Eclass)
 
 ##### Gentzen
 ```text
@@ -34532,6 +35198,12 @@ print_hello_world *
 ```
 [Source File](../libraries/g/G-1/Geom++)
 
+##### Geometric Description Language
+```text
+print "Hello World"
+```
+[Source File](../libraries/g/G-1/Geometric%20Description%20Language)
+
 ##### Geometry Dash
 ```text
 id 106785428
@@ -34543,6 +35215,12 @@ id 106785428
 □________⦾◢____⦾◢__◢___◢___◢_▴▴▴▴▲■◢_◢_◢▲◢◢_⦾▴■▴▲■◢◢›◢▲▲▲›_______››___›◢◢›▴▲›▴›___›▲▲▲▲▲▲›▲▲▲▲▲▲▲▲›◢◢_›◢__›]
 ```
 [Source File](../libraries/g/G-1/Geometryjunp)
+
+##### GEORGE
+```text
+PRINT Hello World
+```
+[Source File](../libraries/g/G-1/GEORGE)
 
 ##### Ger
 ```text
@@ -34815,6 +35493,12 @@ io.print "Hello World"
 ```
 [Source File](../libraries/g/G-1/Gluon.glu)
 
+##### Glyph
+```text
+print("Hello World")
+```
+[Source File](../libraries/g/G-3/Glyph)
+
 ##### Glypho  _shorthand
 ```text
 1d+d1+d*+ddd++ddd++1+d11+d*d++d11+1+d++d1-dd+++d1<d>+-d++11+d*d*d+<d>d+d+d<d>+d+1+d1-dd+++d1-<d>+d*1+11+1+d+d*d+<d-+>[o]
@@ -34845,6 +35529,25 @@ draw_text(1, 1, "Hello World");
 print("Hello World")
 ```
 [Source File](../libraries/g/G-3/GN)
+
+##### GNU APL
+```text
+⎕←'Hello World'
+```
+[Source File](../libraries/g/G-3/GNU%20APL)
+
+##### GNU E
+```text
+println("Hello World")
+```
+[Source File](../libraries/g/G-3/GNU%20E)
+
+##### GNU Guile
+```text
+(display "Hello World")
+(newline)
+```
+[Source File](../libraries/g/G-3/GNU%20Guile)
 
 ##### GNU Octave
 ```text
@@ -34897,6 +35600,12 @@ func main() {
 }
 ```
 [Source File](../libraries/g/G-2/Go.go)
+
+##### GOAL
+```text
+(format #t "Hello World~%")
+```
+[Source File](../libraries/g/G-3/GOAL)
 
 ##### Goatoo
 ```text
@@ -35061,6 +35770,22 @@ println_str "Hello World"
 "Hello World!"
 ```
 [Source File](../libraries/g/G-3/Godencode)
+
+##### Godot  _game engine
+```text
+extends Node
+func _ready():
+	print("Hello World")
+```
+[Source File](../libraries/g/G-3/Godot%20%20_game%20engine)
+
+##### Godot GDScript
+```text
+extends Node
+func _ready():
+	print("Hello World")
+```
+[Source File](../libraries/g/G-3/Godot%20GDScript)
 
 ##### Gofe
 ```text
@@ -35505,6 +36230,14 @@ print("Hello World")
 ```
 [Source File](../libraries/g/G-4/Grain%20language)
 
+##### Grammatical Framework
+```text
+concrete HelloEng of Hello = {
+  lin Greeting = "Hello World";
+}
+```
+[Source File](../libraries/g/G-4/Grammatical%20Framework)
+
 ##### GRAMophone
 ```text
 //Hello World in GRAMophone
@@ -35771,6 +36504,18 @@ WWWWWWWWWWWWWwwwwwwwwwwwwwwwwwwwwwwwwww
 ```
 [Source File](../libraries/g/G-2/Grass.grass)
 
+##### Grasshopper
+```text
+// Grasshopper visual; panel: Hello World
+```
+[Source File](../libraries/g/G-4/Grasshopper)
+
+##### Grasshopper 3D
+```text
+// Grasshopper panel: Hello World
+```
+[Source File](../libraries/g/G-4/Grasshopper%203D)
+
 ##### Gravbox
 ```text
  ‘
@@ -35864,6 +36609,12 @@ var x = 1
 class Man : power = 10 action walk : print walking...
 ```
 [Source File](../libraries/g/G-4/GreenBerry)
+
+##### Gremlin
+```text
+g.inject("Hello World")
+```
+[Source File](../libraries/g/G-4/Gremlin)
 
 ##### Gri
 ```text
@@ -36143,6 +36894,12 @@ println "Hello World"
 ```
 [Source File](../libraries/g/G-4/Groovy)
 
+##### Groovy Server Pages
+```text
+<%= "Hello World" %>
+```
+[Source File](../libraries/g/G-4/Groovy%20Server%20Pages)
+
 ##### Groovy
 ```text
 println "Hello World"
@@ -36284,6 +37041,12 @@ y / 3 - x => rslant
 ```
 [Source File](../libraries/g/G-4/GS2)
 
+##### GSC
+```text
+print("Hello World");
+```
+[Source File](../libraries/g/G-4/GSC)
+
 ##### GTA3Script
 ```text
 SCRIPT_START
@@ -36407,6 +37170,12 @@ include io; io.prn("Hello, World!");
 ```
 [Source File](../libraries/g/G-4/GynkoSoft)
 
+##### Gödel
+```text
+print("Hello World").
+```
+[Source File](../libraries/nonenglish/Gödel)
+
 ##### Gödelang
 ```text
 59250896327476337572570276385712371250000000000
@@ -36516,6 +37285,12 @@ out:'Hello, World!'
 ```
 [Source File](../libraries/h/H-1/HadesLang.hades)
 
+##### HAGGIS
+```text
+DISPLAY "Hello World"
+```
+[Source File](../libraries/h/H-1/HAGGIS)
+
 ##### Haifuckqueue
 ```text
 {Hel}
@@ -36542,6 +37317,12 @@ install "show"
 show "Hello world!"
 ```
 [Source File](../libraries/h/H-1/HakerScript)
+
+##### HAL-S
+```text
+WRITE(6) 'Hello World';
+```
+[Source File](../libraries/h/H-1/HAL-S)
 
 ##### Half-Broken Car in Heavy Traffic
 ```text
@@ -36632,11 +37413,24 @@ show "Hello world!"
 ```
 [Source File](../libraries/h/H-1/Half-Broken%20Car%20in%20Heavy%20Traffic.hbcht)
 
+##### Halide
+```text
+#include <Halide.h>
+// Hello World Halide pipeline stub
+```
+[Source File](../libraries/h/H-1/Halide)
+
 ##### Halon
 ```text
 echo "Hello world!";
 ```
 [Source File](../libraries/h/H-1/Halon)
+
+##### Hamilton C shell
+```text
+echo "Hello World"
+```
+[Source File](../libraries/h/H-1/Hamilton%20C%20shell)
 
 ##### Haml
 ```text
@@ -36792,6 +37586,12 @@ extract 1 - (extract.)
 ```
 [Source File](../libraries/h/H-1/Happy%20Fantasy)
 
+##### Harbour  _software
+```text
+? "Hello World"
+```
+[Source File](../libraries/h/H-1/Harbour%20%20_software)
+
 ##### Harbour
 ```text
 PROCEDURE Main()
@@ -36869,6 +37669,18 @@ trampolinetrampolinetrampolinetrampolinetrampolinetrampolinetrampolinetrampoline
 aaaaaaaaadddcoaadddaddacaaaaaaaccaaacoaaddddcdaaaaaaaaaaaaaaaaaaaaaaacoaaaaaaaaadddaaaaaaacaaacoaaaaaaaaadddaaaacoaadddaddce
 ```
 [Source File](../libraries/h/H-1/HARSH)
+
+##### Hartmann pipeline
+```text
+Hello World
+```
+[Source File](../libraries/h/H-1/Hartmann%20pipeline)
+
+##### Hartmann pipelines
+```text
+Hello World
+```
+[Source File](../libraries/h/H-1/Hartmann%20pipelines)
 
 ##### HashedPoem
 ```text
@@ -37385,6 +38197,12 @@ ea0=:Q{"HhEeLlOoWwRrDd,!AaPpQq"Q|["Hh""ello"a[',L]Sa"Ww""orld"a['!L]]:m*:`[{riri
 ```
 [Source File](../libraries/h/H-1/Help,%20WarDoq!)
 
+##### Hermes
+```text
+print("Hello World")
+```
+[Source File](../libraries/h/H-1/Hermes)
+
 ##### HEX
 ```text
 GBL;
@@ -37543,6 +38361,18 @@ WRITE() 'Hello world!'
 ```
 [Source File](../libraries/h/H-2/HicEst)
 
+##### High Level Assembly
+```text
+stdout.put("Hello World", nl);
+```
+[Source File](../libraries/h/H-2/High%20Level%20Assembly)
+
+##### High Level Shader Language
+```text
+float4 main(): SV_TARGET { return float4(1,1,1,1); }
+```
+[Source File](../libraries/h/H-2/High%20Level%20Shader%20Language)
+
 ##### High Rise
 ```text
 ®L
@@ -37578,6 +38408,14 @@ int main()
 ./---.+++++++..+++././/////+++++++++++++++./.+++.------.--------./+.
 ```
 [Source File](../libraries/h/H-2/HighFive)
+
+##### HIP
+```text
+#include <stdio.h>
+__global__ void k() {}
+int main(){ printf("Hello World\n"); return 0; }
+```
+[Source File](../libraries/h/H-2/HIP)
 
 ##### Hito
 ```text
@@ -37685,6 +38523,12 @@ call loop
 ```
 [Source File](../libraries/h/H-2/Hollow.hollow)
 
+##### Hollywood
+```text
+Print("Hello World")
+```
+[Source File](../libraries/h/H-3/Hollywood)
+
 ##### Holy C
 ```text
 U0 main() {
@@ -37703,6 +38547,12 @@ main();
 "Hello world";
 ```
 [Source File](../libraries/h/H-3/HolyC)
+
+##### HolyC TempleOS
+```text
+"Hello World\n";
+```
+[Source File](../libraries/h/H-3/HolyC%20TempleOS)
 
 ##### HolyFuck
 ```text
@@ -37799,6 +38649,18 @@ Universe bear hatchery powers world.
 ```
 [Source File](../libraries/h/H-2/HOP)
 
+##### Hop  _software
+```text
+(print "Hello World")
+```
+[Source File](../libraries/h/H-3/Hop%20%20_software)
+
+##### Hope
+```text
+hello = "Hello World";
+```
+[Source File](../libraries/h/H-3/Hope)
+
 ##### Hopper
 ```text
 program Hello
@@ -37817,6 +38679,12 @@ program Hello
 }
 ```
 [Source File](../libraries/h/H-3/Hopper)
+
+##### Hopscotch
+```text
+// Hopscotch visual: Hello World
+```
+[Source File](../libraries/h/H-3/Hopscotch)
 
 ##### Horse
 ```text
@@ -38376,6 +39244,13 @@ Increment the memory cell under the pointerIncrement the memory cell under the p
 ```
 [Source File](../libraries/h/H-4/Human's%20mind%20have%20sex%20with%20someone)
 
+##### Hume
+```text
+stream input from "std_in" to "std_out"
+  Hello World;
+```
+[Source File](../libraries/h/H-4/Hume)
+
 ##### Humo
 ```text
 public class HumoInterpreter
@@ -38410,6 +39285,14 @@ public class HumoInterpreter
 }
 ```
 [Source File](../libraries/h/H-4/Humo)
+
+##### Hurl
+```text
+GET https://example.com
+HTTP 200
+# Hello World Hurl test
+```
+[Source File](../libraries/h/H-4/Hurl)
 
 ##### Husk
 ```text
@@ -38460,6 +39343,12 @@ put "Hello World"
 h1("Hello, world")
 ```
 [Source File](../libraries/h/H-4/HypertextingScript)
+
+##### HyPhy
+```text
+fprintf(stdout, "Hello World\n");
+```
+[Source File](../libraries/h/H-4/HyPhy)
 
 ##### HZCode
 ```text
@@ -38519,9 +39408,7 @@ hwww - Prints out "Hello, world, world, world!".
 
 ##### i
 ```text
-software {
-    print("Hello world!")
-}
+print("Hello World")
 ```
 [Source File](../libraries/i/I-1/i)
 
@@ -38801,6 +39688,59 @@ OutChar
 ```
 [Source File](../libraries/i/I-1/I%20Ate%20562%20Metric%20Tons%20Of%20Air%20And%20Now%20I%20Am%20Floating%20Into%20The%20Atmosphere's%20Various%20Layers%20At%20Approxima%20_5)
 
+##### I Ate 562 Metric Tons Of Air And Now I Am Floating Into The Atmosphere's Various Layers At Approxima _6
+```text
+# H
+x35 562
+x478 0.401m/s
+OutChar
+# e
+x36 562
+x491 0.401m/s
+OutChar
+# l
+x32 562
+x436 0.401m/s
+OutChar
+# l
+x32 562
+x436 0.401m/s
+OutChar
+# o
+562
+x11 0.401m/s
+OutChar
+# comma
+x10 562
+x136 0.401m/s
+OutChar
+# space
+x11 562
+x150 0.401m/s
+OutChar
+# w
+x14 562
+x189 0.401m/s
+OutChar
+# o
+562
+x11 0.401m/s
+OutChar
+# r
+x11 562
+x148 0.401m/s
+OutChar
+# l
+x32 562
+x436 0.401m/s
+OutChar
+# d
+x19 562
+x258 0.401m/s
+OutChar
+```
+[Source File](../libraries/i/I-1/I%20Ate%20562%20Metric%20Tons%20Of%20Air%20And%20Now%20I%20Am%20Floating%20Into%20The%20Atmosphere's%20Various%20Layers%20At%20Approxima%20_6)
+
 ##### I fuck, you fuck
 ```text
 fuck "SGVsbG8sIFdvcmxkIQ=="
@@ -38867,6 +39807,42 @@ sim> b cdr
            DENDSTART
 ```
 [Source File](../libraries/i/I-1/IBM%201620%20SPS)
+
+##### IBM BASIC
+```text
+10 PRINT "Hello World"
+```
+[Source File](../libraries/i/I-1/IBM%20BASIC)
+
+##### IBM Basic assembly language
+```text
+HELLO   START 0
+         WTO   'Hello World'
+         END   HELLO
+```
+[Source File](../libraries/i/I-1/IBM%20Basic%20assembly%20language)
+
+##### IBM HAScript
+```text
+say "Hello World"
+```
+[Source File](../libraries/i/I-1/IBM%20HAScript)
+
+##### IBM Informix-4GL
+```text
+MAIN
+  DISPLAY "Hello World"
+END MAIN
+```
+[Source File](../libraries/i/I-1/IBM%20Informix-4GL)
+
+##### IBM RPG
+```text
+**FREE
+dsply 'Hello World';
+return;
+```
+[Source File](../libraries/i/I-1/IBM%20RPG)
 
 ##### IBM Z HL-ASM
 ```text
@@ -39286,6 +40262,24 @@ Hello, World!
 ```
 [Source File](../libraries/i/I-2/IGNORED)
 
+##### IGOR Pro
+```text
+print "Hello World"
+```
+[Source File](../libraries/i/I-2/IGOR%20Pro)
+
+##### IL Assembly
+```text
+.assembly Hello {}
+.method static void Main() cil managed {
+  .entrypoint
+  ldstr "Hello World"
+  call void [mscorlib]System.Console::WriteLine(string)
+  ret
+}
+```
+[Source File](../libraries/i/I-3/IL%20Assembly)
+
 ##### Il
 ```text
 
@@ -39383,6 +40377,12 @@ END
 DATA 1, 2, 3, 5, 9, 8, 7, 4, 6
 ```
 [Source File](../libraries/i/I-3/Imeight)
+
+##### ImHex Pattern Language
+```text
+char hello[12] @ 0x0; // Hello World
+```
+[Source File](../libraries/i/I-3/ImHex%20Pattern%20Language)
 
 ##### IMP
 ```text
@@ -40357,6 +41357,12 @@ Output
 ```
 [Source File](../libraries/i/I-2/Ioke.ik)
 
+##### IoT
+```text
+print("Hello World")
+```
+[Source File](../libraries/i/I-3/IoT)
+
 ##### Iota
 ```text
 K x y = x;
@@ -40386,6 +41392,12 @@ S x y z = (x z) (y z);
 1113
 ```
 [Source File](../libraries/i/I-4/IP)
+
+##### IPL
+```text
+PRINT HELLO WORLD
+```
+[Source File](../libraries/i/I-4/IPL)
 
 ##### Iptscrae
 ```text
@@ -40660,6 +41672,47 @@ interpret('> ')
 ```
 [Source File](../libraries/i/I-4/Is%20not%20recognized%20as%20the%20name%20of%20a%20cmdlet,%20function,%20script%20file,%20or%20operable%20program.%20Check%20the%20spe%20_5)
 
+##### Is not recognized as the name of a cmdlet, function, script file, or operable program
+```text
+print('INRATNOACFSFOOPCTSOTNOIAPWIVTTPICATA interpreter')
+print('Send EOF to stop')
+w='is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.'
+import tkinter
+from tkinter.messagebox import showerror
+def interpret(prompt):
+    while 1:
+        try:
+            k=input(prompt).strip()
+        except:
+            return
+        if k=='You\'re':
+            x=tkinter.Tk()
+            x.withdraw()
+            showerror('SCREAMS AT YOU','THIS IS THE INTERNET!!',parent=x)
+        elif k==w:
+            print('Hello, World!')
+        elif k==w*2:
+            print(input())
+        elif k==w*3:
+            print(''.join(reversed(input())))
+        elif k==w*4:
+            a=input()
+            if int(a):
+                while 1:
+                    print(1)
+            else:
+                print(0)
+        elif k==w*5:
+            for i in range(99,2,-1):
+                print(f'{i} bottles of beer on the wall, {i} bottles of beer.\nTake one down and pass it around, {i-1} bottles of beer on the wall.\n')
+            print(f'2 bottles of beer on the wall, 2 bottles of beer.\nTake one down and pass it around, 1 bottle of beer on the wall.\n\n1 bottle of beer on the wall, 1 bottle of beer.\nTake one down and pass it around, no bottles of beer on the wall.\n\nNo bottles of beer on the wall, no bottles of beer.\nGo to the store and buy some more, 99 bottles of beer on the wall.')
+        elif k==w*6:
+            print('Self interpreting...')
+            interpret('>'+prompt)
+interpret('> ')
+```
+[Source File](../libraries/i/I-4/Is%20not%20recognized%20as%20the%20name%20of%20a%20cmdlet,%20function,%20script%20file,%20or%20operable%20program.%20Check%20the%20spe%20_6)
+
 ##### IS-BASIC
 ```text
 PRINT "Hello world!"
@@ -40722,6 +41775,13 @@ end
 10111100
 ```
 [Source File](../libraries/i/I-4/Isolated)
+
+##### ISPC
+```text
+#include <stdio.h>
+int main() { printf("Hello World\n"); return 0; }
+```
+[Source File](../libraries/i/I-4/ISPC)
 
 ##### IsThatAMotherFrickingSpecificAnimeReferenceLang
 ```text
@@ -41657,6 +42717,16 @@ public class HelloWorld
 ```
 [Source File](../libraries/j/J-1/J#.jsl)
 
+##### J++
+```text
+public class Hello {
+  public static void main(String[] a) {
+    System.out.println("Hello World");
+  }
+}
+```
+[Source File](../libraries/j/J-1/J++)
+
 ##### J-uby
 ```text
 put = :puts & $>
@@ -41969,6 +43039,20 @@ function main() {
 ```
 [Source File](../libraries/j/J-1/Jakt.jakt)
 
+##### JAL
+```text
+include 16f877a
+print_string("Hello World")
+```
+[Source File](../libraries/j/J-1/JAL)
+
+##### JAL  _compiler
+```text
+include 16f877a
+print_string("Hello World")
+```
+[Source File](../libraries/j/J-1/JAL%20%20_compiler)
+
 ##### JamogusLamogusAmogus
 ```text
 joinGame letter;
@@ -42204,6 +43288,14 @@ addNewVent done;
 ```
 [Source File](../libraries/j/J-1/Jasp)
 
+##### JASS
+```text
+function main takes nothing returns nothing
+  call DisplayTextToPlayer(GetLocalPlayer(),0,0,"Hello World")
+endfunction
+```
+[Source File](../libraries/j/J-1/JASS)
+
 ##### Jaune
 ```text
 program        := mainProgram, [ subroutines ] ;
@@ -42348,6 +43440,12 @@ hello=Hello World
 ```
 [Source File](../libraries/nonenglish/Java%20Server%20Pages)
 
+##### Java Template Engine
+```text
+Hello World
+```
+[Source File](../libraries/j/J-1/Java%20Template%20Engine)
+
 ##### Java
 ```java
 public class HelloWorld {
@@ -42357,6 +43455,12 @@ public class HelloWorld {
 }
 ```
 [Source File](../libraries/j/J-1/Java.java)
+
+##### Javadoc
+```text
+/** Hello World */
+```
+[Source File](../libraries/j/J-1/Javadoc)
 
 ##### JavaFX Script
 ```text
@@ -42432,6 +43536,12 @@ print('Hello, World!')
 ```
 [Source File](../libraries/j/J-1/JavaScript%20%20_V8)
 
+##### JavaScript+ERB
+```text
+<%= "Hello World" %>
+```
+[Source File](../libraries/j/J-1/JavaScript+ERB)
+
 ##### JavaScript
 ```javascript
 console.log("Hello World");
@@ -42499,6 +43609,12 @@ jcln -1, 5
 ```
 [Source File](../libraries/j/J-1/Jcram)
 
+##### JEAN
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/j/J-1/JEAN)
+
 ##### Jelly
 ```text
 “Hello World”
@@ -42552,11 +43668,25 @@ print("Hello World");
 ```
 [Source File](../libraries/j/J-1/Jess.cpl)
 
+##### JetBrains MPS
+```text
+// MPS projectional editor — Hello World concept
+```
+[Source File](../libraries/j/J-1/JetBrains%20MPS)
+
 ##### Jezik
 ```text
 .j
 ```
 [Source File](../libraries/j/J-1/Jezik)
+
+##### JFlex
+```text
+%%
+%%
+// Hello World JFlex stub
+```
+[Source File](../libraries/j/J-2/JFlex)
 
 ##### Jinja
 ```text
@@ -42572,6 +43702,14 @@ start: { console.log("Hello World"); }
 %%
 ```
 [Source File](../libraries/j/J-2/Jison)
+
+##### Jison Lex
+```text
+%%
+%%
+// Hello World
+```
+[Source File](../libraries/j/J-2/Jison%20Lex)
 
 ##### Jitejix
 ```text
@@ -42601,6 +43739,24 @@ _@>>>@>>!
 "Hello World"
 ```
 [Source File](../libraries/j/J-3/JMESPath)
+
+##### Job Control Language
+```text
+//JOB HELLO
+//STEP1 EXEC PGM=HELLO
+//* Hello World JCL
+```
+[Source File](../libraries/j/J-3/Job%20Control%20Language)
+
+##### Join Java
+```text
+public class Hello {
+  public static void main(String[] a) {
+    System.out.println("Hello World");
+  }
+}
+```
+[Source File](../libraries/j/J-3/Join%20Java)
 
 ##### Joke computer programming language
 ```text
@@ -42664,6 +43820,12 @@ Jot ::= (0|1)*
 [11...12n+1]  ->   (([1n]S)K)
 ```
 [Source File](../libraries/j/J-3/Jottary)
+
+##### Joule
+```text
+print("Hello World")
+```
+[Source File](../libraries/j/J-3/Joule)
 
 ##### JOVIAL
 ```text
@@ -42883,6 +44045,12 @@ WScript.Echo("Hello World");
 print("Hello World");
 ```
 [Source File](../libraries/j/J-4/JScript.NET)
+
+##### JSDoc
+```text
+/** Hello World */
+```
+[Source File](../libraries/j/J-4/JSDoc)
 
 ##### JSE
 ```text
@@ -43293,6 +44461,13 @@ echo Hello World
 ```
 [Source File](../libraries/k/K-1/KakouneScript)
 
+##### Kaleidoscope
+```text
+; Kaleidoscope LLVM tutorial language
+; extern putchard(x);
+```
+[Source File](../libraries/k/K-1/Kaleidoscope)
+
 ##### Kangaroo
 ```text
 foo: skip bar
@@ -43322,6 +44497,12 @@ bar: skip foo, foo
 o(( >ω<))o 👈(⌒▽⌒)👉 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) 👈(ﾟヮﾟ👈) ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉 ᕦ(ò_óˇ)ᕤ o(( >ω<))o (👉ﾟヮﾟ)👉ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o((>ω< ))o ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔)  👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔ 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) ✍️(◔◡◔) ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉 o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o o(( >ω<))o ᕦ(ò_óˇ)ᕤ o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o o((>ω< ))o 👈(⌒▽⌒)👉 ✍️(◔◡◔) 👈(⌒▽⌒)👉  ᕦ(ò_óˇ)ᕤ 👈(⌒▽⌒)👉
 ```
 [Source File](../libraries/nonenglish/KaoLang%20%20_👉ﾟヮﾟ👉)
+
+##### Kap
+```text
+⎕←'Hello World'
+```
+[Source File](../libraries/k/K-1/Kap)
 
 ##### Kardz
 ```text
@@ -43411,6 +44592,12 @@ Hello\, World\!
 `|
 ```
 [Source File](../libraries/k/K-1/KEMURI)
+
+##### Kent Recursive Calculator
+```text
+hello = "Hello World";
+```
+[Source File](../libraries/k/K-1/Kent%20Recursive%20Calculator)
 
 ##### KerboScript
 ```text
@@ -43572,6 +44759,13 @@ $ReturnCode = SendKeys("~{F4}Y")
 ```
 [Source File](../libraries/k/K-2/Kix)
 
+##### KiXtart
+```text
+?
+"Hello World"
+```
+[Source File](../libraries/k/K-2/KiXtart)
+
 ##### KL1
 ```text
 :- module main.
@@ -43588,12 +44782,24 @@ main :-
 ```
 [Source File](../libraries/k/K-1/Klein.klein)
 
+##### Klerer-May System
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/k/K-3/Klerer-May%20System)
+
 ##### Klon
 ```text
 in Hello_world
 out
 ```
 [Source File](../libraries/k/K-3/Klon)
+
+##### Klong
+```text
+.p("Hello World")
+```
+[Source File](../libraries/k/K-3/Klong)
 
 ##### Kmid
 ```text
@@ -43644,6 +44850,12 @@ done
 ```
 [Source File](../libraries/k/K-3/KnightJump)
 
+##### Knowledge Interchange Format
+```text
+(Hello World)
+```
+[Source File](../libraries/k/K-3/Knowledge%20Interchange%20Format)
+
 ##### Koa
 ```javascript
 const Koa = require('koa');
@@ -43665,6 +44877,12 @@ app.listen(8080);
 ```
 [Source File](../libraries/k/K-2/Kobeři-C.koberice)
 
+##### Kodu Game Lab
+```text
+// Kodu visual game language: Hello World
+```
+[Source File](../libraries/k/K-3/Kodu%20Game%20Lab)
+
 ##### Kojo
 ```text
 println("Hello World")
@@ -43678,6 +44896,12 @@ fun main() {
 }
 ```
 [Source File](../libraries/k/K-2/Koka.kk)
+
+##### KoLmafia ASH
+```text
+print("Hello World");
+```
+[Source File](../libraries/k/K-3/KoLmafia%20ASH)
 
 ##### Kolmogorov
 ```text
@@ -43767,7 +44991,9 @@ print 'Hello world!'
 
 ##### KRL
 ```text
-Hello World
+DEF Hello()
+  ; Hello World
+END
 ```
 [Source File](../libraries/k/K-4/KRL)
 
@@ -43776,6 +45002,12 @@ Hello World
 \LL$72.L$101.L$108.L$108.L$111.L$44.L$32.L$87.L$111.L$114.L$108.L$100.L$33.E
 ```
 [Source File](../libraries/k/K-2/krrp.krrp)
+
+##### KRYPTON
+```text
+(print "Hello World")
+```
+[Source File](../libraries/k/K-4/KRYPTON)
 
 ##### KS
 ```text
@@ -43826,6 +45058,14 @@ func main()
 end func
 ```
 [Source File](../libraries/k/K-2/Kuin.kn)
+
+##### KUKA Robot Language
+```text
+DEF Hello()
+  ; Hello World KRL
+END
+```
+[Source File](../libraries/k/K-4/KUKA%20Robot%20Language)
 
 ##### Kumir
 ```text
@@ -44046,6 +45286,12 @@ a;b;c;d
 ```
 [Source File](../libraries/l/L-1/Lag)
 
+##### Lagoona
+```text
+print("Hello World");
+```
+[Source File](../libraries/l/L-1/Lagoona)
+
 ##### LAIN
 ```text
 line integer string;
@@ -44076,6 +45322,13 @@ variable "hello world"
 hello :- print "Hello World", nl.
 ```
 [Source File](../libraries/l/L-1/Lambda%20Prolog)
+
+##### Lambdapi
+```text
+symbol hello : TYPE;
+// Hello World
+```
+[Source File](../libraries/l/L-1/Lambdapi)
 
 ##### Lambdastack
 ```text
@@ -44197,11 +45450,23 @@ fn.println(Hello world!)
 ```
 [Source File](../libraries/l/L-1/Langton's%20ant)
 
+##### Language H
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/l/L-1/Language%20H)
+
 ##### langur
 ```text
 writeln "Hello world!"
 ```
 [Source File](../libraries/l/L-1/langur)
+
+##### LANSA
+```text
+DISPLAY 'Hello World'
+```
+[Source File](../libraries/l/L-1/LANSA)
 
 ##### LargeFish
 ```text
@@ -44330,6 +45595,12 @@ putln "Hello world!".
 ⁪​(ISS, U+206A): Run the command
 ```
 [Source File](../libraries/nonenglish/Laughing%20my%20⁫%20off)
+
+##### Lava
+```text
+print("Hello World");
+```
+[Source File](../libraries/l/L-1/Lava)
 
 ##### LayerASM
 ```text
@@ -45011,6 +46282,12 @@ def main : IO Unit := IO.println "Hello World"
 ```
 [Source File](../libraries/l/L-1/Lean)
 
+##### Lean  _proof assistant
+```text
+def main : IO Unit := IO.println "Hello World"
+```
+[Source File](../libraries/l/L-1/Lean%20%20_proof%20assistant)
+
 ##### Lean 3
 ```text
 def main : io unit := io.put_str_ln "Hello World"
@@ -45121,6 +46398,12 @@ v0ocv0oci0i0i0v0ocv1s9v2s9d2i1ifv2exb5v2s9d2i1ifv2exb5v2s9d2i1ifv2exb5i1i1i1i1i1
 exb5i0i0i0i0i0i0v0oci0i0i0v0ocd0d0d0d0d0d0v0ocd0d0d0d0d0d0d0d0v0oci1v1oc
 ```
 [Source File](../libraries/l/L-1/Lenum)
+
+##### Leo
+```text
+// Leo outlinescript: Hello World
+```
+[Source File](../libraries/l/L-1/Leo)
 
 ##### Less
 ```text
@@ -45445,6 +46728,22 @@ msgbox("hello world")
 ```
 [Source File](../libraries/nonenglish/LIMS%20Basic)
 
+##### LINC 4GL
+```text
+DISPLAY HELLO WORLD
+```
+[Source File](../libraries/l/L-2/LINC%204GL)
+
+##### Linden Scripting Language
+```text
+default {
+  state_entry() {
+    llSay(0, "Hello World");
+  }
+}
+```
+[Source File](../libraries/l/L-2/Linden%20Scripting%20Language)
+
 ##### LindenMASM
 ```text
 STT
@@ -45600,6 +46899,13 @@ end
 ```
 [Source File](../libraries/l/L-2/Linguine)
 
+##### LinkerScript
+```text
+/* Hello World linker script stub */
+ENTRY(_start)
+```
+[Source File](../libraries/l/L-2/LinkerScript)
+
 ##### Linotte
 ```text
 // Hello World in Linotte
@@ -45609,6 +46915,12 @@ BonjourLeMonde:
      affiche "Hello World!"
 ```
 [Source File](../libraries/l/L-2/Linotte)
+
+##### LINQ
+```text
+from x in new[]{1} select "Hello World"
+```
+[Source File](../libraries/l/L-2/LINQ)
 
 ##### LINR
 ```text
@@ -45630,6 +46942,18 @@ BonjourLeMonde:
  NUL Literally anything can go here, probably;
 ```
 [Source File](../libraries/l/L-2/LINR)
+
+##### Linux Kernel Module
+```text
+#include <linux/module.h>
+#include <linux/kernel.h>
+static int __init hello_init(void){ printk(KERN_INFO "Hello World\n"); return 0; }
+static void __exit hello_exit(void){}
+module_init(hello_init);
+module_exit(hello_exit);
+MODULE_LICENSE("GPL");
+```
+[Source File](../libraries/l/L-2/Linux%20Kernel%20Module)
 
 ##### LinuxLang
 ```text
@@ -45658,6 +46982,12 @@ Hello World
 -------  --------
 ```
 [Source File](../libraries/l/L-2/Liquid%20DownRight)
+
+##### Liquidsoap
+```text
+print("Hello World")
+```
+[Source File](../libraries/l/L-2/Liquidsoap)
 
 ##### Lisaac
 ```text
@@ -45732,6 +47062,12 @@ Section Public
 ```
 [Source File](../libraries/l/L-2/Lisparser)
 
+##### Lispy
+```text
+(print "Hello World")
+```
+[Source File](../libraries/l/L-2/Lispy)
+
 ##### Listack
 ```text
  "Hello, world!" .println
@@ -45768,11 +47104,34 @@ main = run (putStrLn "Hello World")
 ```
 [Source File](../libraries/l/L-1/Literate%20Haskell.haskell)
 
+##### Lithe
+```text
+print("Hello World")
+```
+[Source File](../libraries/l/L-2/Lithe)
+
 ##### Little
 ```text
 puts("Hello world!");
 ```
 [Source File](../libraries/l/L-2/Little)
+
+##### Little b
+```text
+(print "Hello World")
+```
+[Source File](../libraries/l/L-2/Little%20b)
+
+##### Little Computer 3
+```text
+.ORIG x3000
+LEA R0, MSG
+PUTS
+HALT
+MSG .STRINGZ "Hello World"
+.END
+```
+[Source File](../libraries/l/L-2/Little%20Computer%203)
 
 ##### Littleman
 ```text
@@ -45793,6 +47152,12 @@ answer "Hello World!"
 answer "Hello World!"
 ```
 [Source File](../libraries/l/L-2/LiveCode)
+
+##### LiveCode Script
+```text
+put "Hello World"
+```
+[Source File](../libraries/l/L-2/LiveCode%20Script)
 
 ##### Livefish
 ```text
@@ -46409,6 +47774,12 @@ view: hello {
 }
 ```
 [Source File](../libraries/l/L-3/LookML)
+
+##### LoomScript
+```text
+print("Hello World");
+```
+[Source File](../libraries/l/L-3/LoomScript)
 
 ##### Loose Circular Brainfuck  _LCBF
 ```text
@@ -47121,6 +48492,12 @@ def main:
 ```
 [Source File](../libraries/l/L-4/Luna)
 
+##### Lustre
+```text
+-- Lustre: Hello World node stub
+```
+[Source File](../libraries/l/L-4/Lustre)
+
 ##### LWC
 ```html
 <template>
@@ -47138,6 +48515,12 @@ def main:
 "Hello, World!"&o
 ```
 [Source File](../libraries/l/L-2/Ly.ly)
+
+##### LYaPAS
+```text
+PRINT Hello World
+```
+[Source File](../libraries/l/L-4/LYaPAS)
 
 ##### Lye
 ```text
@@ -47163,6 +48546,12 @@ protonote_cluster ::= <spaces>? <protonote> (<spaces>? <protonote>)*
 melody ::= <directive>? <protonote_cluster> <directive>?
 ```
 [Source File](../libraries/l/L-4/Lye)
+
+##### Lynx
+```text
+print("Hello World")
+```
+[Source File](../libraries/l/L-4/Lynx)
 
 ##### Lythnology
 ```text
@@ -47205,6 +48594,12 @@ WRITE "Hello World",!
 ```
 [Source File](../libraries/m/M-1/M)
 
+##### M Formula language
+```text
+="Hello World"
+```
+[Source File](../libraries/m/M-2/M%20Formula%20language)
+
 ##### M-code
 ```text
 4[28]j[4]}[15].i[5]}[5]?[4];_Hello,[32]world!
@@ -47216,6 +48611,12 @@ WRITE "Hello World",!
 “Hello, World!
 ```
 [Source File](../libraries/m/M-1/M.m)
+
+##### M2000
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/m/M-1/M2000)
 
 ##### M2000 Interpreter
 ```text
@@ -47396,6 +48797,12 @@ END OF PROGRAM
 ```
 [Source File](../libraries/m/M-1/MAD)
 
+##### MAD-I
+```text
+PRINT COMMENT $Hello World$
+```
+[Source File](../libraries/m/M-1/MAD-I)
+
 ##### Madbrain
 ```text
 9 5 9 9 5 7 8 7 5 5 9 5 8
@@ -47444,6 +48851,12 @@ HELLO.WORLD
 ```
 [Source File](../libraries/m/M-1/Magic)
 
+##### Magik
+```text
+write("Hello World")
+```
+[Source File](../libraries/m/M-1/Magik)
+
 ##### MagiStack
 ```text
 "Hello, world!"~|,?0=#@
@@ -47455,6 +48868,12 @@ HELLO.WORLD
 print "Hello World";
 ```
 [Source File](../libraries/m/M-1/Magma)
+
+##### Magma computer algebra system
+```text
+print "Hello World";
+```
+[Source File](../libraries/m/M-1/Magma%20computer%20algebra%20system)
 
 ##### Magnesium
 ```text
@@ -47752,6 +49171,12 @@ class HelloWorld(Scene):
 ```
 [Source File](../libraries/m/M-1/MANOOL)
 
+##### MANTIS
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/m/M-1/MANTIS)
+
 ##### Manufactoria
 ```text
 @brrbrrrbbrrbrbbbrbbrrbbrbbrrbbrbbbbrbrbbrrrbrrrrrbrbrbbbbbrbbbbbbbrrbrbbrbbrrbbrrbrrrbrrrrb$
@@ -47765,11 +49190,23 @@ Hello world!
 ```
 [Source File](../libraries/m/M-1/Maple)
 
+##### Maple  _software
+```text
+print("Hello World");
+```
+[Source File](../libraries/m/M-1/Maple%20%20_software)
+
 ##### Maple
 ```text
 printf("Hello World");
 ```
 [Source File](../libraries/m/M-1/Maple.mpl)
+
+##### MAPPER
+```text
+TYPE Hello World
+```
+[Source File](../libraries/m/M-1/MAPPER)
 
 ##### Marb
 ```text
@@ -47888,6 +49325,12 @@ End
 ```
 [Source File](../libraries/m/M-1/Mark)
 
+##### MARK-IV
+```text
+PRINT 'Hello World'
+```
+[Source File](../libraries/m/M-1/MARK-IV)
+
 ##### Markdown
 ```markdown
 Hello World
@@ -47933,6 +49376,12 @@ O::*0->0
 _->
 ```
 [Source File](../libraries/m/M-1/Marthue)
+
+##### Mary
+```text
+print("Hello World")
+```
+[Source File](../libraries/m/M-1/Mary)
 
 ##### Mascarpone
 ```text
@@ -47994,6 +49443,19 @@ Hello World
 ```
 [Source File](../libraries/m/M-1/MASL)
 
+##### MASM
+```text
+.386
+.model flat, stdcall
+.data
+  msg db "Hello World", 0
+.code
+start:
+  ; Win32 MessageBox or WriteConsole stub
+end start
+```
+[Source File](../libraries/m/M-1/MASM)
+
 ##### Mastermind
 ```text
 output "Hello world!\n";
@@ -48011,6 +49473,12 @@ main: _ -> println("Hello, world!");;
 <any variable name>
 ```
 [Source File](../libraries/m/M-1/Math++)
+
+##### MATH-MATIC
+```text
+PRINT HELLO WORLD.
+```
+[Source File](../libraries/m/M-1/MATH-MATIC)
 
 ##### Mathcad
 ```text
@@ -48155,6 +49623,12 @@ red sayBye .
 ```
 [Source File](../libraries/m/M-1/Maude)
 
+##### Maude system
+```text
+red "Hello World" .
+```
+[Source File](../libraries/m/M-1/Maude%20system)
+
 ##### Maverick
 ```text
 outc(32+40`69`76`76`79`12`0`55`79`82`76`68`1)
@@ -48173,6 +49647,12 @@ outc(32+40`69`76`76`79`12`0`55`79`82`76`68`1)
 ```
 [Source File](../libraries/m/M-1/Max)
 
+##### Max  _software
+```text
+// Max message box: Hello World
+```
+[Source File](../libraries/m/M-1/Max%20%20_software)
+
 ##### Max-MSP
 ```text
 // Max patcher message box: Hello World
@@ -48184,6 +49664,12 @@ outc(32+40`69`76`76`79`12`0`55`79`82`76`68`1)
 print("Hello world!");
 ```
 [Source File](../libraries/m/M-1/Maxima)
+
+##### Maxima  _software
+```text
+print("Hello World")$
+```
+[Source File](../libraries/m/M-1/Maxima%20%20_software)
 
 ##### Maxima _2
 ```text
@@ -48470,6 +49956,12 @@ sub m3 {
 ```
 [Source File](../libraries/m/M-1/McCulloch's%20third%20machine)
 
+##### mcfunction
+```text
+say Hello World
+```
+[Source File](../libraries/m/M-1/mcfunction)
+
 ##### MCSBL
 ```text
 ; Hello world in MCSBL
@@ -48529,6 +50021,12 @@ fib (n + 2) = (fib (n + 1)) + (fib n)
 @fin
 ```
 [Source File](../libraries/m/M-1/MechaniQue)
+
+##### MediaWiki
+```text
+Hello World
+```
+[Source File](../libraries/m/M-1/MediaWiki)
 
 ##### MEL
 ```text
@@ -48743,6 +50241,15 @@ graph LR
 #######
 ```
 [Source File](../libraries/m/M-1/Merriment)
+
+##### Mesa
+```text
+Hello: PROGRAM =
+  BEGIN
+    WriteString["Hello World"]
+  END.
+```
+[Source File](../libraries/m/M-1/Mesa)
 
 ##### Meson
 ```text
@@ -48990,6 +50497,12 @@ S0  RS  Dir  WS  S1
 ```
 [Source File](../libraries/m/M-1/Metropolis)
 
+##### MeTTa
+```text
+!(Hello World)
+```
+[Source File](../libraries/m/M-1/MeTTa)
+
 ##### MEX
 ```text
 // "Hello, World!" in MEX for Maximus BBS
@@ -49037,6 +50550,12 @@ WWWWWWWWWWWW WWWWWWWWWWWWW+W
 ```
 [Source File](../libraries/m/M-2/Mice%20in%20a%20maze)
 
+##### Microcode
+```text
+; Microcode Hello World stub
+```
+[Source File](../libraries/m/M-2/Microcode)
+
 ##### MicroPython language
 ```text
 print("Hello World")
@@ -49060,6 +50579,22 @@ print("Hello World")
 "Hello, World!"
 ```
 [Source File](../libraries/m/M-2/Microscript%20II)
+
+##### Microsoft Macro Assembler
+```text
+.data
+  msg db "Hello World", 0
+.code
+start:
+end start
+```
+[Source File](../libraries/m/M-2/Microsoft%20Macro%20Assembler)
+
+##### Microsoft Power Fx
+```text
+="Hello World"
+```
+[Source File](../libraries/m/M-2/Microsoft%20Power%20Fx)
 
 ##### Microsoft Small Basic
 ```text
@@ -49136,6 +50671,12 @@ print("Hello World")
 ```
 [Source File](../libraries/m/M-2/Migol%2011)
 
+##### MIIS
+```text
+WRITE "Hello World"
+```
+[Source File](../libraries/m/M-2/MIIS)
+
 ##### MiLambda
 ```text
 >  EEEEEEEΔΔΘς       v
@@ -49178,6 +50719,12 @@ iiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiomiiiiii
 ```
 [Source File](../libraries/m/M-2/Mildfuck)
 
+##### Milk
+```text
+print("Hello World")
+```
+[Source File](../libraries/m/M-2/Milk)
+
 ##### MilkScript
 ```text
 #import "basic"
@@ -49208,6 +50755,12 @@ void main() {
 }
 ```
 [Source File](../libraries/m/M-1/Millfork.mfk)
+
+##### MIMIC
+```text
+TYPE HELLO WORLD
+```
+[Source File](../libraries/m/M-2/MIMIC)
 
 ##### Mimsy
 ```text
@@ -49848,6 +51401,12 @@ raw_input()
 ```
 [Source File](../libraries/m/M-2/MIX%20%20_Knuth)
 
+##### ML
+```text
+print "Hello World\n";
+```
+[Source File](../libraries/m/M-3/ML)
+
 ##### ML-I
 ```text
 Hello world!
@@ -50121,6 +51680,12 @@ trace("Hello World\n");
 ```
 [Source File](../libraries/m/M-3/Moddable%20XS)
 
+##### Model 204
+```text
+PRINT 'Hello World'
+```
+[Source File](../libraries/m/M-3/Model%20204)
+
 ##### Modelica
 ```text
 model Hello
@@ -50271,6 +51836,12 @@ iprintln "Hello World!"
 ```
 [Source File](../libraries/m/M-3/MoHAA-Script)
 
+##### Mohol
+```text
+print("Hello World")
+```
+[Source File](../libraries/m/M-3/Mohol)
+
 ##### Mojo
 ```text
 fn main():
@@ -50302,6 +51873,12 @@ do println "Hello World";
 print("Hello World")
 ```
 [Source File](../libraries/m/M-2/Mongo.sh)
+
+##### MongoDB Query
+```text
+db.hello.insert({msg: "Hello World"})
+```
+[Source File](../libraries/m/M-3/MongoDB%20Query)
 
 ##### Monkey
 ```text
@@ -50899,6 +52476,12 @@ Take Northern Line to Mornington Crescent
 ```
 [Source File](../libraries/m/M-3/Morte)
 
+##### Mortran
+```text
+PRINT *, 'Hello World'
+```
+[Source File](../libraries/m/M-3/Mortran)
+
 ##### Mosaic
 ```text
 proc main =
@@ -51335,6 +52918,12 @@ main 'passon stdout 'Hello, world!' '
 ```
 [Source File](../libraries/m/M-4/MSIL)
 
+##### MSL
+```text
+echo Hello World
+```
+[Source File](../libraries/m/M-4/MSL)
+
 ##### MSM
 ```text
 !dlrow ',olleH............
@@ -51726,6 +53315,12 @@ print("Hello World")
 ```
 [Source File](../libraries/m/M-2/Muriel.muriel)
 
+##### Murphi
+```text
+/* Murphi model checker stub */
+```
+[Source File](../libraries/m/M-4/Murphi)
+
 ##### Muse
 ```text
 Hello World
@@ -51829,6 +53424,14 @@ print "Hello, World!"
 mydef_run hello.def
 ```
 [Source File](../libraries/m/M-4/MyDef)
+
+##### Myghty
+```text
+<%args>
+</%args>
+Hello World
+```
+[Source File](../libraries/m/M-4/Myghty)
 
 ##### MyHDL
 ```text
@@ -52014,6 +53617,12 @@ println "Hello world!"
 ```
 [Source File](../libraries/n/N-1/Nanoquery)
 
+##### Napier88
+```text
+write "Hello World"
+```
+[Source File](../libraries/n/N-1/Napier88)
+
 ##### NASAL
 ```text
 print("Hello World\n");
@@ -52038,6 +53647,13 @@ display("Hello World\n");
 Write "Hello, World!".
 ```
 [Source File](../libraries/n/N-1/Natural)
+
+##### Natural Docs
+```text
+# Function: Hello
+# Hello World
+```
+[Source File](../libraries/n/N-1/Natural%20Docs)
 
 ##### Natyre
 ```text
@@ -52345,6 +53961,12 @@ $print("Hello World\n");
 ```
 [Source File](../libraries/n/N-1/Neko.neko)
 
+##### NELIAC
+```text
+PRINT HELLO WORLD
+```
+[Source File](../libraries/n/N-1/NELIAC)
+
 ##### Nelua
 ```text
 print 'Hello World'
@@ -52418,6 +54040,17 @@ print("Hello World\n");
 ```
 [Source File](../libraries/n/N-1/NestFuck)
 
+##### Net
+```text
+%Define {
+  Hello = "Hello World"
+}
+%HTML(Report) {
+  $(Hello)
+}
+```
+[Source File](../libraries/n/N-1/Net.Data)
+
 ##### NetFuck
 ```text
 Classic notation: &
@@ -52450,6 +54083,24 @@ say  'Hello world!'
 say 'Hello World'
 ```
 [Source File](../libraries/n/N-1/NetRexx.nrx)
+
+##### Netwide Assembler
+```text
+section .data
+msg db "Hello World", 10
+section .text
+global _start
+_start:
+  mov eax, 4
+  mov ebx, 1
+  mov ecx, msg
+  mov edx, 12
+  int 0x80
+  mov eax, 1
+  xor ebx, ebx
+  int 0x80
+```
+[Source File](../libraries/n/N-1/Netwide%20Assembler)
 
 ##### Network Headache
 ```text
@@ -52657,6 +54308,18 @@ $
 ```
 [Source File](../libraries/n/N-1/NewLISP.lsp)
 
+##### NEWP
+```text
+DISPLAY "Hello World";
+```
+[Source File](../libraries/n/N-1/NEWP)
+
+##### Newspeak
+```text
+'Hello World' print
+```
+[Source File](../libraries/n/N-1/Newspeak)
+
 ##### Newton
 ```text
 /#\
@@ -52729,6 +54392,24 @@ println "Hello World"
 5 ,.[,.]
 ```
 [Source File](../libraries/n/N-2/NFuck)
+
+##### Nginx
+```text
+return 200 'Hello World';
+```
+[Source File](../libraries/n/N-2/Nginx)
+
+##### NGL
+```text
+print("Hello World")
+```
+[Source File](../libraries/n/N-2/NGL)
+
+##### ngn-apl
+```text
+⎕←'Hello World'
+```
+[Source File](../libraries/n/N-2/ngn-apl)
 
 ##### Nhohnhehr
 ```text
@@ -53165,6 +54846,12 @@ builtins.trace "Hello World" null
 ```
 [Source File](../libraries/n/N-2/Nix)
 
+##### Nix  _package manager
+```text
+builtins.trace "Hello World" null
+```
+[Source File](../libraries/n/N-2/Nix%20%20_package%20manager)
+
 ##### NLP++
 ```text
 @CODE
@@ -53178,6 +54865,15 @@ builtins.trace "Hello World" null
 >#Hello, World!
 ```
 [Source File](../libraries/n/N-3/NLRNIS)
+
+##### NMODL
+```text
+TITLE Hello
+COMMENT
+Hello World
+ENDCOMMENT
+```
+[Source File](../libraries/n/N-3/NMODL)
 
 ##### Nndstojmp
 ```text
@@ -53842,6 +55538,12 @@ Stack Pointer:      00
 ```
 [Source File](../libraries/n/N-3/NoRAL)
 
+##### Nord Programming Language
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/n/N-3/Nord%20Programming%20Language)
+
 ##### Norfuck
 ```text
 >><>>>>>!>>>>><>>>>>>>>! 
@@ -53888,11 +55590,27 @@ Initial State:
 ```
 [Source File](../libraries/n/N-3/Not)
 
+##### Not eXactly C
+```text
+task main() {
+  // Hello World NXC
+}
+```
+[Source File](../libraries/n/N-3/Not%20eXactly%20C)
+
 ##### Not Python
 ```text
 {<Hello World> printer:}
 ```
 [Source File](../libraries/n/N-2/Not%20Python)
+
+##### Not Quite C
+```text
+task main() {
+  // Hello World NQC
+}
+```
+[Source File](../libraries/n/N-3/Not%20Quite%20C)
 
 ##### Not The Main Worb
 ```text
@@ -54083,6 +55801,12 @@ NULL-NULL-NONE NULL-NULL-NONE NULL-NULL-NONE NULL-NULL-NONE NONE-NULL-NULL NULL-
 ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]],
 ```
 [Source File](../libraries/n/N-4/NullScript%202)
+
+##### Nullsoft Scriptable Install System
+```text
+DetailPrint "Hello World"
+```
+[Source File](../libraries/n/N-4/Nullsoft%20Scriptable%20Install%20System)
 
 ##### Numba
 ```text
@@ -54377,6 +56101,12 @@ task main()
 }
 ```
 [Source File](../libraries/n/N-2/NXC.nxc)
+
+##### NXT-G
+```text
+// NXT-G visual blocks: Hello World display
+```
+[Source File](../libraries/n/N-4/NXT-G)
 
 ##### Nyank
 ```text
@@ -54823,6 +56553,21 @@ stdout println:'Hello World'.
 ```
 [Source File](../libraries/o/O-1/Obj.st)
 
+##### OBJ2
+```text
+obj HELLO is
+  sort Hello .
+  op hello : -> Hello .
+endo
+```
+[Source File](../libraries/o/O-1/OBJ2)
+
+##### ObjDump
+```text
+; disassembly listing Hello World stub
+```
+[Source File](../libraries/o/O-1/ObjDump)
+
 ##### Objeck
 ```text
 class Hello {
@@ -54832,6 +56577,12 @@ class Hello {
 }
 ```
 [Source File](../libraries/o/O-1/Objeck)
+
+##### Object Lisp
+```text
+(print "Hello World")
+```
+[Source File](../libraries/o/O-1/Object%20Lisp)
 
 ##### Object oriented Thue
 ```text
@@ -54895,6 +56646,12 @@ begin
 end.
 ```
 [Source File](../libraries/o/O-1/Object%20Pascal.pp)
+
+##### Object REXX
+```text
+say "Hello World"
+```
+[Source File](../libraries/o/O-1/Object%20REXX)
 
 ##### ObjectArt
 
@@ -55009,6 +56766,12 @@ int main() {
 ```
 [Source File](../libraries/o/O-1/Objective-C++)
 
+##### ObjectLOGO
+```text
+print "Hello World
+```
+[Source File](../libraries/o/O-1/ObjectLOGO)
+
 ##### ObjectScript
 ```text
  write "Hello World",!
@@ -55026,6 +56789,12 @@ CALL ENDMSG('HELLO WORLD');
 e9oFcHJpbnRbAQAAAPoNSGVsbG8sIFdvcmxkITA=
 ```
 [Source File](../libraries/o/O-1/ObjLang)
+
+##### Obliq
+```text
+print("Hello World")
+```
+[Source File](../libraries/o/O-1/Obliq)
 
 ##### OBLIVIA
 ```text
@@ -55815,6 +57584,24 @@ clochando. Clochando clochativo.
 ```
 [Source File](../libraries/o/O-3/Omnis%20Clocha%20Clochabilis%20in%20Clocherio%20Clochando%20Clochans%20Clochativo%20Clochare%20facit%20Clochabiliter%20Clo%20_5)
 
+##### Omnis Clocha Clochabilis in Clocherio Clochando Clochans Clochativo Clochare facit Clochabiliter Clo _6
+```text
+Clochando clocha clochando, clochando clochando clochando, clochando clochando, clochando. Clochabilis clocha
+clochans clochando, clochando clochando clochando. Clocha clochabilis clochans, clochando clocha clochando
+clochans. Clochando clochando clochando: clocha clochans clochando clochando et clochando clochans, clochando
+clocha et clochare clochare. Clochare clocha clochare in clocherio clochabiliter clochans, facit clochando
+clochans clochando. Clocha clochans clocherio clochans, clocha clochans clochando clochabilis: clochare clocha
+et clochabiliter clocha clochare in clocherio clochabiliter. Clocha clochans, clochans clochativo, clochans
+clocherio et clocherio clocha. Clocherio clochativo clochando, clochando clochando clochando, clocha clochando
+clochando, et clochando clochativo. Clocha clochativo clochando. Clochando clocha clochando clochativo clochans.
+Clocha habet clochans, et clochativo clochare in clocherio clocha clochativo: clochare clochativo clocha,
+clochando clochando clochando et clochativo in clocherio clocha. Clocherio in clocherio et clocherio et clocherio
+in clocherio. Clocha clochativo in clocherio. Clocherio clocha et clocherio clocherio clocherio, clocherio
+clocherio clocherio. Clocha clochativo clochans. Clochans clocha clochando et clochativo facit clocha clochans
+clochando. Clochando clochativo.
+```
+[Source File](../libraries/o/O-3/Omnis%20Clocha%20Clochabilis%20in%20Clocherio%20Clochando%20Clochans%20Clochativo%20Clochare%20facit%20Clochabiliter%20Clo%20_6)
+
 ##### ON THE WAY TO WHO KNOWS WHERE
 ```text
 11
@@ -56127,6 +57914,14 @@ default msg := "Hello World"
 ```
 [Source File](../libraries/o/O-4/Open%20Policy%20Agent)
 
+##### Open Programming Language
+```text
+PROC main:
+  PRINT "Hello World"
+ENDP
+```
+[Source File](../libraries/o/O-4/Open%20Programming%20Language)
+
 ##### OpenCL
 ```text
 kernel void hello() {
@@ -56147,6 +57942,12 @@ format-out("Hello World\n");
 MESSAGE "Hello World" VIEW-AS ALERT-BOX.
 ```
 [Source File](../libraries/o/O-4/OpenEdge%20ABL)
+
+##### OpenEdge Advanced Business Language
+```text
+MESSAGE "Hello World" VIEW-AS ALERT-BOX.
+```
+[Source File](../libraries/o/O-4/OpenEdge%20Advanced%20Business%20Language)
 
 ##### OpenGL Shading Language
 ```text
@@ -56179,6 +57980,14 @@ OPENQASM 2.0;
 qreg q[1];
 ```
 [Source File](../libraries/o/O-4/OpenQASM)
+
+##### OpenRC runscript
+```text
+#!/sbin/openrc-run
+depend() { }
+start() { ebegin "Hello World"; eend $?; }
+```
+[Source File](../libraries/o/O-4/OpenRC%20runscript)
 
 ##### Openscad
 ```text
@@ -56254,6 +58063,18 @@ ENDP
 ```
 [Source File](../libraries/o/O-4/OPL.simple)
 
+##### OPS5
+```text
+(write |Hello World| crlf)
+```
+[Source File](../libraries/o/O-4/OPS5)
+
+##### OptimJ
+```text
+System.out.println("Hello World");
+```
+[Source File](../libraries/o/O-4/OptimJ)
+
 ##### Or
 ```text
  m f ma f
@@ -56312,6 +58133,13 @@ Cb............
 ```
 [Source File](../libraries/o/O-4/Orca)
 
+##### ORCA-C
+```text
+#include <stdio.h>
+int main(void){ printf("Hello World\n"); return 0; }
+```
+[Source File](../libraries/o/O-4/ORCA-C)
+
 ##### OREO
 ```text
 ORERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE&O
@@ -56332,9 +58160,21 @@ ORERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERERE&O
 
 ##### Org-mode
 ```text
+* Hello World
+```
+[Source File](../libraries/o/O-4/Org-mode)
+
+##### Org-mode
+```text
 Hello World
 ```
 [Source File](../libraries/o/O-2/Org-mode.org)
+
+##### Oriel
+```text
+print("Hello World")
+```
+[Source File](../libraries/o/O-4/Oriel)
 
 ##### Orion
 ```text
@@ -56401,6 +58241,12 @@ Writer.write("Hello, world!");
 16 0 ret
 ```
 [Source File](../libraries/o/O-4/Orthagonal)
+
+##### Orwell
+```text
+main = "Hello World"
+```
+[Source File](../libraries/o/O-4/Orwell)
 
 ##### OSColang
 ```text
@@ -56536,6 +58382,20 @@ fajront pyco
 Output "Hello World!"
 ```
 [Source File](../libraries/o/O-4/Output)
+
+##### OverpassQL
+```text
+[out:json];
+// Hello World
+out;
+```
+[Source File](../libraries/o/O-4/OverpassQL)
+
+##### OverPy
+```text
+print("Hello World")
+```
+[Source File](../libraries/o/O-4/OverPy)
 
 ##### OW-1
 ```text
@@ -56872,6 +58732,12 @@ Package : IO {
 ```
 [Source File](../libraries/p/P-1/Packlang)
 
+##### Pact
+```text
+(defun hello () "Hello World")
+```
+[Source File](../libraries/p/P-1/Pact)
+
 ##### Pain-Flak
 ```text
 )))))}{}{)))}{))(}{((((])][][][([(])()()([((]][[()()()(])}{][][)][(][([())(]][][][][][[))(]][[)][][)][][][][))(}{}{))))(}{)}{)}{))()()()((((((((((((}><{
@@ -57153,6 +59019,13 @@ Hw
 ```
 [Source File](../libraries/p/P-1/Paradoc)
 
+##### Parallax Propeller
+```text
+PUB main
+  ' Hello World Propeller Spin
+```
+[Source File](../libraries/p/P-1/Parallax%20Propeller)
+
 ##### Parallel Haskell
 ```text
 main = putStrLn "Hello World"
@@ -57348,6 +59221,14 @@ end
 ```
 [Source File](../libraries/p/P-1/Parrot%20Assembly)
 
+##### Parrot Internal Representation
+```text
+.sub main
+  print "Hello World\n"
+.end
+```
+[Source File](../libraries/p/P-1/Parrot%20Internal%20Representation)
+
 ##### Parse this sic: Revised
 ```text
 (o&&,&)(p&&aah&)(suc&((n&&1&)ollyoop&)&)123&-/(&*)(s&&*)(c&
@@ -57411,6 +59292,14 @@ begin
 end.
 ```
 [Source File](../libraries/p/P-1/Pascal%20language)
+
+##### Pascal Script
+```text
+begin
+  WriteLn('Hello World');
+end.
+```
+[Source File](../libraries/p/P-1/Pascal%20Script)
 
 ##### Pascal
 ```text
@@ -58084,6 +59973,12 @@ say "Hello, World!";
 ```
 [Source File](../libraries/p/P-1/Perl%206%20_Niecza.perl6)
 
+##### Perl Data Language
+```text
+print "Hello World\n";
+```
+[Source File](../libraries/p/P-1/Perl%20Data%20Language)
+
 ##### Perl
 ```text
    #!/usr/local/bin/perl -w
@@ -58206,6 +60101,12 @@ Neho phene.
 print("Hello World")
 ```
 [Source File](../libraries/p/P-1/Phi)
+
+##### PHIGS
+```text
+/* PHIGS graphics — text output stub */
+```
+[Source File](../libraries/p/P-2/PHIGS)
 
 ##### Phile
 ```text
@@ -58369,6 +60270,12 @@ main =>
   println("Hello World").
 ```
 [Source File](../libraries/p/P-1/PiCat.pi)
+
+##### Pico
+```text
+display("Hello World")
+```
+[Source File](../libraries/p/P-2/Pico)
 
 ##### Pico Scheme
 ```text
@@ -58789,6 +60696,12 @@ Oh dear! No useful programs here!
 #^-+?!:~<>=;()[]
 ```
 [Source File](../libraries/p/P-2/Pipe)
+
+##### Pipelines
+```text
+Hello World
+```
+[Source File](../libraries/p/P-2/Pipelines)
 
 ##### Piping
 ```text
@@ -59232,6 +61145,35 @@ hello = "Hello World"
 ```
 [Source File](../libraries/p/P-3/Pkl%20language)
 
+##### PL-0
+```text
+const hello = "Hello World";
+begin
+  ! hello
+end.
+```
+[Source File](../libraries/p/P-3/PL-0)
+
+##### PL-11
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/p/P-3/PL-11)
+
+##### PL-B
+```text
+DISPLAY "Hello World"
+```
+[Source File](../libraries/p/P-3/PL-B)
+
+##### PL-C
+```text
+HELLO: PROCEDURE OPTIONS(MAIN);
+  PUT LIST('Hello World');
+END HELLO;
+```
+[Source File](../libraries/p/P-3/PL-C)
+
 ##### PL-I
 ```text
 goodbye:proc options(main);
@@ -59256,6 +61198,20 @@ end goodbye;
 EOF
 ```
 [Source File](../libraries/p/P-3/PL-M)
+
+##### PL-P
+```text
+PRINT 'Hello World'
+```
+[Source File](../libraries/p/P-3/PL-P)
+
+##### PL-S
+```text
+HELLO: PROC OPTIONS(MAIN);
+  PUT SKIP LIST('Hello World');
+END;
+```
+[Source File](../libraries/p/P-3/PL-S)
 
 ##### PL-SQL
 ```text
@@ -59298,6 +61254,14 @@ end Hello;
 ```
 [Source File](../libraries/p/P-3/PL1)
 
+##### PL360
+```text
+BEGIN
+  WRITE("Hello World");
+END
+```
+[Source File](../libraries/p/P-3/PL360)
+
 ##### Plain English
 ```text
 \This prints Hello World within the CAL-4700 IDE.
@@ -59333,6 +61297,12 @@ MSG1B          11/MSG1A
 ```
 [Source File](../libraries/p/P-3/Plan)
 
+##### PLANC
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/p/P-3/PLANC)
+
 ##### Planes
 ```text
 'H.'e.'l'l..'o.',.' .'W.'o.'r.'l.'d.'!.'2'(-.H
@@ -59365,6 +61335,12 @@ Alice -> Bob: Hello World
 @enduml
 ```
 [Source File](../libraries/p/P-3/PlantUML)
+
+##### PLASMA
+```text
+print("Hello World")
+```
+[Source File](../libraries/p/P-3/PLASMA)
 
 ##### Platts
 ```text
@@ -59408,6 +61384,20 @@ Looping Unique
 1 Please porige hot or cold Hello World
 ```
 [Source File](../libraries/p/P-1/Please%20Porige%20Hot.pph)
+
+##### PLEX
+```text
+PRINT "Hello World";
+```
+[Source File](../libraries/p/P-3/PLEX)
+
+##### PLEXIL
+```text
+<Node NodeType="CommandNode">
+  <!-- Hello World PLEXIL -->
+</Node>
+```
+[Source File](../libraries/p/P-3/PLEXIL)
 
 ##### PLI
 ```text
@@ -59671,6 +61661,16 @@ if __name__=='__main__':
     bf(pf2bf(Image.open(sys.argv[1])))
 ```
 [Source File](../libraries/p/P-3/PocketFuck+)
+
+##### POD
+```text
+=pod
+
+Hello World
+
+=cut
+```
+[Source File](../libraries/p/P-3/POD)
 
 ##### Poetic
 ```text
@@ -60215,6 +62215,12 @@ sniff
 ```
 [Source File](../libraries/p/P-3/POP-11)
 
+##### POP-2
+```text
+pr('Hello World');
+```
+[Source File](../libraries/p/P-3/POP-2)
+
 ##### Pop11
 ```text
 printf('Hello world!\n');
@@ -60234,6 +62240,14 @@ Prints the message "Hello, world!" to console output.
 €72O€101O€108%OO€111O€32O€119O€111O€114O€108O€100O€33O
 ```
 [Source File](../libraries/p/P-3/Pops%20Are%20Overrated)
+
+##### PortablE
+```text
+PROC main()
+  WriteF('Hello World\n')
+ENDPROC
+```
+[Source File](../libraries/p/P-3/PortablE)
 
 ##### Portal
 ```text
@@ -60543,6 +62557,18 @@ text{ttf "timrom.ttf" "Hello World!" .3,0
 ```
 [Source File](../libraries/p/P-3/Powder)
 
+##### Power Fx
+```text
+Text("Hello World")
+```
+[Source File](../libraries/p/P-3/Power%20Fx)
+
+##### Power Query
+```text
+let Source = "Hello World" in Source
+```
+[Source File](../libraries/p/P-3/Power%20Query)
+
 ##### Powerbasic
 ```text
 #COMPILE EXE
@@ -60575,6 +62601,12 @@ showln "Hello World"
 system
 ```
 [Source File](../libraries/p/P-3/Powerflex)
+
+##### Powerhouse
+```text
+DISPLAY "Hello World"
+```
+[Source File](../libraries/p/P-3/Powerhouse)
 
 ##### PowerQuery M
 ```text
@@ -61042,6 +63074,12 @@ print(Hello world!)
 ```
 [Source File](../libraries/p/P-4/Programming%20Language)
 
+##### Programming Language for Business
+```text
+DISPLAY 'Hello World'
+```
+[Source File](../libraries/p/P-4/Programming%20Language%20for%20Business)
+
 ##### Prograph
 ```text
 // Prograph is visual dataflow; conceptual: print "Hello World"
@@ -61056,11 +63094,29 @@ message "Hello World" view-as alert-box.
 ```
 [Source File](../libraries/p/P-4/Progress)
 
+##### Progress ABL
+```text
+MESSAGE "Hello World" VIEW-AS ALERT-BOX.
+```
+[Source File](../libraries/p/P-4/Progress%20ABL)
+
 ##### ProgressBASIC
 ```text
 10 PRINT "Hello world"
 ```
 [Source File](../libraries/p/P-4/ProgressBASIC)
+
+##### PROIV
+```text
+DISPLAY "Hello World"
+```
+[Source File](../libraries/p/P-4/PROIV)
+
+##### Project Verona
+```text
+print("Hello World"); // Verona research language
+```
+[Source File](../libraries/p/P-4/Project%20Verona)
 
 ##### PROLAN-M
 ```text
@@ -61130,6 +63186,25 @@ PUB main
   ' Hello World on Propeller (serial out depends on hardware)
 ```
 [Source File](../libraries/p/P-4/Propeller%20Spin)
+
+##### PROSE
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/p/P-4/PROSE)
+
+##### PROTEL
+```text
+DISPLAY "Hello World"
+```
+[Source File](../libraries/p/P-4/PROTEL)
+
+##### Protobuf
+```text
+syntax = "proto3";
+message Hello { string world = 1; }
+```
+[Source File](../libraries/p/P-4/Protobuf)
 
 ##### Protogen
 ```text
@@ -62023,6 +64098,12 @@ print('Hello World!')
 ```
 [Source File](../libraries/p/P-4/Python%20console)
 
+##### Python for S60
+```text
+print "Hello World"
+```
+[Source File](../libraries/p/P-4/Python%20for%20S60)
+
 ##### Python is Magic
 ```text
 __name__.__class__.__name__.__len__().__sub__(__name__.__class__.__name__.__len__())
@@ -62262,6 +64343,12 @@ print "Hello World";
 
 ##### Qi
 ```text
+(output "Hello World~%")
+```
+[Source File](../libraries/q/Q-2/Qi)
+
+##### Qi
+```text
 系统。打印行（"Hello World"）
 ```
 [Source File](../libraries/q/Q-1/Qi.qi)
@@ -62398,6 +64485,12 @@ class HelloWorld
 ```
 [Source File](../libraries/q/Q-2/Qore.q)
 
+##### QPL
+```text
+print("Hello World")
+```
+[Source File](../libraries/q/Q-4/QPL)
+
 ##### QSharp
 ```text
 ﻿namespace Quantum.HelloWorld {
@@ -62508,6 +64601,12 @@ v'Hello, world!:!
 &.&....&.&
 ```
 [Source File](../libraries/q/Q-4/Quantum%20brainfuck)
+
+##### Quantum Computation Language
+```text
+qcl> print "Hello World"
+```
+[Source File](../libraries/q/Q-4/Quantum%20Computation%20Language)
 
 ##### Quantum INTERCAL
 ```text
@@ -62910,6 +65009,14 @@ Hello, World!
 ```
 [Source File](../libraries/q/Q-4/Quinish)
 
+##### Quint
+```text
+module hello {
+  // Hello World
+}
+```
+[Source File](../libraries/q/Q-4/Quint)
+
 ##### Quintefunge-97  _MTFI
 ```text
 q"Hello, World!"i#]:#,_@
@@ -63027,6 +65134,12 @@ cat("Hello world\n")
 ```
 [Source File](../libraries/r/R-1/R%20_2)
 
+##### R++
+```text
+cout << "Hello World" << endl;
+```
+[Source File](../libraries/r/R-1/R++)
+
 ##### R
 ```r
 cat("Hello World")
@@ -63127,6 +65240,12 @@ end
 4 4 45 15 121 15 3 4 56 15 1102 15 46 15 3 2 15 15 3 4 5 15
 ```
 [Source File](../libraries/r/R-1/Radixal.radixal)
+
+##### Rafflalang
+```text
+TODO MUNDO FALA DE MIM "Hello World" BRO;
+```
+[Source File](../libraries/r/R-1/Rafflalang)
 
 ##### RAGE!!!
 ```text
@@ -63258,6 +65377,16 @@ print("Hello World")
 ```
 [Source File](../libraries/r/R-1/Rao)
 
+##### RAPID
+```text
+MODULE Hello
+  PROC main()
+    TPWrite "Hello World";
+  ENDPROC
+ENDMODULE
+```
+[Source File](../libraries/r/R-1/RAPID)
+
 ##### Rapira
 ```text
 \ Hello world in Rapira
@@ -63308,6 +65437,12 @@ void main() {
 ```
 [Source File](../libraries/r/R-1/Rascal)
 
+##### RAScript
+```text
+print("Hello World")
+```
+[Source File](../libraries/r/R-1/RAScript)
+
 ##### RASEL
 ```text
 A"!dlroW ,olleH">:?@,Hj
@@ -63343,6 +65478,12 @@ OUT[0xB,1]
 EXT
 ```
 [Source File](../libraries/r/R-1/Rasen)
+
+##### Ratfiv
+```text
+print *, 'Hello World'
+```
+[Source File](../libraries/r/R-1/Ratfiv)
 
 ##### ratfor
 ```text
@@ -63476,12 +65617,30 @@ print("Hello World")
 ```
 [Source File](../libraries/r/R-1/Razor)
 
+##### rc
+```text
+echo Hello World
+```
+[Source File](../libraries/r/R-1/rc)
+
+##### rc  _Unix shell
+```text
+echo Hello World
+```
+[Source File](../libraries/r/R-1/rc%20%20_Unix%20shell)
+
 ##### RCEM
 ```text
  ;; Prints the character 'A' to the standard output.
  (parse-rcem "r65s1l65(m+r1)mo")
 ```
 [Source File](../libraries/r/R-1/RCEM)
+
+##### RDoc
+```text
+# Hello World
+```
+[Source File](../libraries/r/R-1/RDoc)
 
 ##### Re-direction
 ```text
@@ -63709,6 +65868,13 @@ Js.log("Hello World!")
 print_string "Hello World"
 ```
 [Source File](../libraries/r/R-1/Reason.re)
+
+##### ReasonLIGO
+```text
+let main = (p: unit, s: unit): (list(operation) * unit) =>
+  (print_string("Hello World"); ([], ()));
+```
+[Source File](../libraries/r/R-1/ReasonLIGO)
 
 ##### ReasonML
 ```text
@@ -64091,7 +66257,7 @@ Start   MOV     0,2455
 
 ##### Redis
 ```text
-set Hello World
+ECHO Hello World
 ```
 [Source File](../libraries/r/R-1/Redis)
 
@@ -64153,6 +66319,12 @@ set Hello World
      }.
 ```
 [Source File](../libraries/r/R-1/Redivider)
+
+##### Redscript
+```text
+Log("Hello World");
+```
+[Source File](../libraries/r/R-1/Redscript)
 
 ##### Reduce
 ```text
@@ -65220,6 +67392,12 @@ rk:end
 ```
 [Source File](../libraries/r/R-1/rk.rk)
 
+##### Rlab
+```text
+printf("Hello World\n")
+```
+[Source File](../libraries/r/R-3/Rlab)
+
 ##### RMarkdown
 ```text
 Hello World
@@ -65243,6 +67421,12 @@ UGGACAAAAAGCCUAUAA
 ii^{comments exist in curly brackets!}^+o
 ```
 [Source File](../libraries/r/R-3/Robinfish)
+
+##### RoboDoc
+```text
+#****f* Hello/World
+```
+[Source File](../libraries/r/R-3/RoboDoc)
 
 ##### Robot Framework
 ```text
@@ -65333,6 +67517,12 @@ Require Import Coq.Strings.String.
 Eval compute in ("Hello world!"%string).
 ```
 [Source File](../libraries/r/R-3/Rocq)
+
+##### Rocq Prover
+```text
+Compute "Hello World".
+```
+[Source File](../libraries/r/R-3/Rocq%20Prover)
 
 ##### Roff
 ```text
@@ -65490,6 +67680,12 @@ T a b . a ;
 F a b . b ;
 ```
 [Source File](../libraries/r/R-3/Rozpach)
+
+##### RPC
+```text
+/* RPC IDL Hello World stub */
+```
+[Source File](../libraries/r/R-4/RPC)
 
 ##### RPG
 ```text
@@ -66046,6 +68242,24 @@ cat("Hello world\n")
 ```
 [Source File](../libraries/s/S-4/S-Plus)
 
+##### S-SL
+```text
+Input:
+  Hello
+Output:
+  World
+```
+[Source File](../libraries/s/S-4/S-SL)
+
+##### S-SL programming language
+```text
+Input:
+  Hello
+Output:
+  World
+```
+[Source File](../libraries/s/S-4/S-SL%20programming%20language)
+
 ##### S.B.M.F
 ```text
 €(+[-->-[>>+>-----<<]<--<---]>-.>>>+.>>..+++[.>]<<<<.+++.------.<<-.>>>>+.)run
@@ -66058,11 +68272,23 @@ print Hello, World!
 ```
 [Source File](../libraries/s/S-1/S.I.L.O.S.silos)
 
+##### S2
+```text
+print("Hello World")
+```
+[Source File](../libraries/s/S-1/S2)
+
 ##### Sabdt
 ```text
 pr "hello world";
 ```
 [Source File](../libraries/s/S-1/Sabdt)
+
+##### SabreTalk
+```text
+DISPLAY 'Hello World'
+```
+[Source File](../libraries/s/S-1/SabreTalk)
 
 ##### SaC
 ```text
@@ -66140,6 +68366,12 @@ print("Hello World")
  $i_ex_ do
 ```
 [Source File](../libraries/s/S-1/SaHuTOrEPoL)
+
+##### SAIL
+```text
+PRINT("Hello World");
+```
+[Source File](../libraries/s/S-1/SAIL)
 
 ##### SAKO
 ```text
@@ -66255,6 +68487,14 @@ put "Hello world!";
 run;
 ```
 [Source File](../libraries/s/S-1/SAS)
+
+##### SAS language
+```text
+data _null_;
+  put 'Hello World';
+run;
+```
+[Source File](../libraries/s/S-1/SAS%20language)
 
 ##### SAS-8
 ```text
@@ -66443,6 +68683,12 @@ emit stdout <- "Hello, World!";
 "Hello, world!"
 ```
 [Source File](../libraries/s/S-1/Sb)
+
+##### SBCL
+```text
+(format t "Hello World~%")
+```
+[Source File](../libraries/s/S-1/SBCL)
 
 ##### SBFM
 ```text
@@ -66682,6 +68928,14 @@ endif
 <letter>        ::= ('A'..'Z') ++ ('a'..'z')
 ```
 [Source File](../libraries/s/S-1/Scotty)
+
+##### Scratch
+```text
+// Scratch is block-based; see Scratch 3.sb3 binary
+when flag clicked
+say [Hello World]
+```
+[Source File](../libraries/s/S-1/Scratch)
 
 ##### Scratch 1
 
@@ -66975,6 +69229,12 @@ Q=14"Hello, World!
 cL0cWN
 ```
 [Source File](../libraries/s/S-1/Scrip7)
+
+##### Script
+```text
+print("Hello World");
+```
+[Source File](../libraries/s/S-1/Script.NET)
 
 ##### ScriptJava
 ```text
@@ -67518,6 +69778,12 @@ q"Hello, World!"i#]:#,_@
 ```
 [Source File](../libraries/s/S-1/Septefunge-97%20_MTFI.septefunge)
 
+##### SequenceL
+```text
+HelloWorld := "Hello World";
+```
+[Source File](../libraries/s/S-1/SequenceL)
+
 ##### Sequential Function Chart
 ```text
 // SFC visual: Hello World
@@ -68027,6 +70293,13 @@ bbbbbbbbbbbbbbb##b###b##bb##b###b##b##b##bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb
 ```
 [Source File](../libraries/s/S-2/Sharp%20flat)
 
+##### Shell script
+```text
+#!/bin/sh
+echo "Hello World"
+```
+[Source File](../libraries/s/S-2/Shell%20script)
+
 ##### Shell
 ```bash
 #!/bin/sh
@@ -68169,6 +70442,12 @@ println("Hello, World!")
 ( Hello World! ) print
 ```
 [Source File](../libraries/s/S-2/Shoelips)
+
+##### Short Code
+```text
+Hello World  // Short Code historical
+```
+[Source File](../libraries/s/S-2/Short%20Code)
 
 ##### shortC
 ```text
@@ -68408,6 +70687,14 @@ require ["fileinto"];
 ```
 [Source File](../libraries/s/S-2/Sieve)
 
+##### SIGNAL
+```text
+process Hello =
+  put "Hello World"
+end;
+```
+[Source File](../libraries/s/S-2/SIGNAL)
+
 ##### Sike
 ```text
 # hello
@@ -68575,6 +70862,13 @@ out y
 ```
 [Source File](../libraries/s/S-2/SimPPLe)
 
+##### SIMSCRIPT
+```text
+PRINT 1 LINE WITH "Hello World" THUS
+Hello World
+```
+[Source File](../libraries/s/S-2/SIMSCRIPT)
+
 ##### Simula
 ```text
 ! Hello World in Simula;
@@ -68611,6 +70905,12 @@ Begin
 End;
 ```
 [Source File](../libraries/s/S-2/Simula.sim)
+
+##### Simulink
+```text
+// Simulink model: Hello World display block
+```
+[Source File](../libraries/s/S-2/Simulink)
 
 ##### SinclairBasic
 ```text
@@ -68808,6 +71108,12 @@ skibidi fizzBuzz(n) {
 [1,2,3,4,5] :3 map(fizzBuzz) :3 map(skibidi _(n) {print(n)})
 ```
 [Source File](../libraries/s/S-3/SkibLang)
+
+##### SKILL
+```text
+println("Hello World")
+```
+[Source File](../libraries/s/S-3/SKILL)
 
 ##### Skim machine
 ```text
@@ -69145,6 +71451,12 @@ export component Hello inherits Window { Text { text: "Hello World"; } }
 ```
 [Source File](../libraries/s/S-3/Slint)
 
+##### SLIP
+```text
+print("Hello World")
+```
+[Source File](../libraries/s/S-3/SLIP)
+
 ##### Slope
 ```text
 (write "Hello, world!")
@@ -69316,6 +71628,12 @@ PRONOUNCE
 .end method
 ```
 [Source File](../libraries/s/S-2/Smali.smali)
+
+##### SMALL
+```text
+print("Hello World")
+```
+[Source File](../libraries/s/S-3/SMALL)
 
 ##### small s.c.r.i.p
 ```text
@@ -69854,6 +72172,18 @@ END
 ```
 [Source File](../libraries/s/S-3/SNOBOL4%20%20_CSNOBOL4)
 
+##### Snowball
+```text
+stringdef hello 'Hello World'
+```
+[Source File](../libraries/s/S-3/Snowball)
+
+##### Snowball programming language
+```text
+stringdef hello 'Hello World'
+```
+[Source File](../libraries/s/S-3/Snowball%20programming%20language)
+
 ##### Snowman
 ```text
 ("Hello World!"sPvG
@@ -69971,6 +72301,12 @@ h:10,13,72,101,108,108,111,44,32,119,111,114,108,100,33
 rwu
 ```
 [Source File](../libraries/s/S-3/Sokolang)
+
+##### SOL
+```text
+SELECT 'Hello World' FROM DUAL;
+```
+[Source File](../libraries/s/S-3/SOL)
 
 ##### Solbofuck
 ```text
@@ -70357,6 +72693,12 @@ public void OnPluginStart() {
 ```
 [Source File](../libraries/s/S-3/SovietCode)
 
+##### SP-k
+```text
+put "Hello World"
+```
+[Source File](../libraries/s/S-4/SP-k)
+
 ##### Spacebar
 ```text
 F = ![]
@@ -70455,6 +72797,12 @@ I just want to say, you are fooled.
 ```
 [Source File](../libraries/s/S-4/Spam)
 
+##### SPAN
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/s/S-4/SPAN)
+
 ##### SPARC Assembly
 ```text
 	.section	".text"
@@ -70502,6 +72850,12 @@ print("Hello world!");
 ```
 [Source File](../libraries/s/S-4/Sparkling)
 
+##### SPARQL 1
+```text
+SELECT "Hello World" AS ?h WHERE {}
+```
+[Source File](../libraries/s/S-4/SPARQL%201.1)
+
 ##### SparQL
 ```text
 SELECT ?h WHERE { 
@@ -70510,11 +72864,23 @@ SELECT ?h WHERE {
 ```
 [Source File](../libraries/s/S-3/SparQL.sparql)
 
+##### Speakeasy
+```text
+print "Hello World"
+```
+[Source File](../libraries/s/S-4/Speakeasy)
+
 ##### Specman e
 ```text
 write("Hello World");
 ```
 [Source File](../libraries/s/S-4/Specman%20e)
+
+##### Speedcoding
+```text
+PRINT HELLO WORLD
+```
+[Source File](../libraries/s/S-4/Speedcoding)
 
 ##### SpeedScript
 ```text
@@ -70804,6 +73170,13 @@ END
 ```
 [Source File](../libraries/s/S-4/SPITBOL)
 
+##### SPITBOL compiler
+```text
+        OUTPUT = "Hello World"
+END
+```
+[Source File](../libraries/s/S-4/SPITBOL%20compiler)
+
 ##### Spite
 ```text
 $^`<.;k:?>^b;^P><`<;< >>^P>.,%h,%e,%l,%l,%o,% ,%w,%o,%r,%l %d
@@ -70964,6 +73337,12 @@ ds d l r o w SP o l l e h sd upper print
 echo "Hello World"
 ```
 [Source File](../libraries/s/S-4/Spry)
+
+##### SPS
+```text
+PRINT HELLO WORLD
+```
+[Source File](../libraries/s/S-4/SPS)
 
 ##### SPSS
 ```text
@@ -71205,6 +73584,13 @@ Hello World
  "com.say:Hello, World!"
 ```
 [Source File](../libraries/s/S-4/SRlang)
+
+##### SSI
+```text
+<!--#echo encoding="none" var="DATE_LOCAL" -->
+<!-- Hello World SSI -->
+```
+[Source File](../libraries/s/S-4/SSI)
 
 ##### ST-Guide
 ```text
@@ -71576,6 +73962,12 @@ print("Hello World")
 ```
 [Source File](../libraries/s/S-3/Starlark.star)
 
+##### Starlogo
+```text
+print "Hello World"
+```
+[Source File](../libraries/s/S-4/Starlogo)
+
 ##### Starry
 ```text
         + + +* +  * + + +* + .* +         + +* * +      +* .  + + . + . +        + +   +* + . +          +   * +* + .         + +  * +* . +*      + * . + .* . . .  + * .
@@ -71608,6 +74000,12 @@ void HelloWorld()
 .hello
 ```
 [Source File](../libraries/s/S-4/Stata)
+
+##### Stateflow
+```text
+// Stateflow chart: Hello World message
+```
+[Source File](../libraries/s/S-4/Stateflow)
 
 ##### Stax
 ```text
@@ -71754,6 +74152,14 @@ print "Hello, World!"()
 ```
 [Source File](../libraries/s/S-4/STOD)
 
+##### STON
+```text
+HelloWorld {
+  message: 'Hello World'
+}
+```
+[Source File](../libraries/s/S-4/STON)
+
 ##### Stone
 ```text
 "Hello World"
@@ -71853,6 +74259,12 @@ def stop(code):
 ```
 [Source File](../libraries/s/S-3/str.str)
 
+##### Strand
+```text
+main :- stdout <- "Hello World\n".
+```
+[Source File](../libraries/s/S-4/Strand)
+
 ##### Strang
 ```text
 !::Hello, world!
@@ -71903,6 +74315,12 @@ T = (X / X) * X + (X = 0) * T REM INCREMENT TICK
 ```
 [Source File](../libraries/s/S-4/Strelnokoff)
 
+##### Strex
+```text
+print("Hello World")
+```
+[Source File](../libraries/s/S-4/Strex)
+
 ##### String-rewriting paradigm
 ```text
 Hello, World!
@@ -71942,6 +74360,12 @@ Hello World
 ||||||+||||||+||||||+||||||+||||||+||||||+||||||+||||||+||||||+|||||||
 ```
 [Source File](../libraries/s/S-4/Stroke+-)
+
+##### Strongtalk
+```text
+'Hello World' print
+```
+[Source File](../libraries/s/S-4/Strongtalk)
 
 ##### Structured Text
 ```text
@@ -72052,7 +74476,6 @@ avqmimcfdddfviiffvddfavdegmfavdmcwfwdddfvddfwdfwdddf
 
 ##### Stylus
 ```text
-/* Hello World */
 body:before { content: "Hello World" }
 ```
 [Source File](../libraries/s/S-4/Stylus)
@@ -72195,6 +74618,12 @@ type Set 0
 0{s0>?{c0#}}"Hello world!"$0#
 ```
 [Source File](../libraries/s/S-4/Subterra)
+
+##### Subtext
+```text
+// Subtext visual language: Hello World
+```
+[Source File](../libraries/s/S-4/Subtext)
 
 ##### Subtract
 ```text
@@ -72339,6 +74768,12 @@ if outputascii fi
 ```
 [Source File](../libraries/s/S-3/SuperMarioLang.supermario)
 
+##### SuperTalk
+```text
+put "Hello World"
+```
+[Source File](../libraries/s/S-4/SuperTalk)
+
 ##### Surface
 ```text
 ++++++++(-v        .     o]v    
@@ -72359,6 +74794,12 @@ if outputascii fi
    -+              .+
 ```
 [Source File](../libraries/s/S-3/Surface.surface)
+
+##### SurrealQL
+```text
+RETURN 'Hello World';
+```
+[Source File](../libraries/s/S-4/SurrealQL)
 
 ##### Surtic
 ```text
@@ -72893,6 +75334,16 @@ Hello:, \
 ```
 [Source File](../libraries/s/S-4/Swordfish)
 
+##### SYCL
+```text
+#include <sycl/sycl.hpp>
+int main() {
+  // Hello World SYCL stub
+  return 0;
+}
+```
+[Source File](../libraries/s/S-4/SYCL)
+
 ##### SYCPOL
 ```text
 COMMENT           CARD
@@ -72947,6 +75398,12 @@ _=_*_*_-([]==[])
 _=____%(-~-~(_*__),-~_*__+_)
 ```
 [Source File](../libraries/s/S-4/Symbolic%20Python.symbolic)
+
+##### SYMPL
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/s/S-4/SYMPL)
 
 ##### Syms
 ```text
@@ -73149,6 +75606,28 @@ Comment -- Hello World for TACL (Tandem Advanced Command Language)
 @"Hello, World!"
 ```
 [Source File](../libraries/t/T-1/TacO.taco)
+
+##### TACPOL
+```text
+DISPLAY "Hello World"
+```
+[Source File](../libraries/t/T-1/TACPOL)
+
+##### Tact
+```text
+fun hello(): String {
+  return "Hello World";
+}
+```
+[Source File](../libraries/t/T-1/Tact)
+
+##### TADS
+```text
+versionInfo: GameID
+  name = 'Hello World'
+;
+```
+[Source File](../libraries/t/T-1/TADS)
 
 ##### Tag
 ```text
@@ -73702,6 +76181,12 @@ SHF 8;
 ```
 [Source File](../libraries/t/T-1/Tedius)
 
+##### TELCOMP
+```text
+TYPE "Hello World"
+```
+[Source File](../libraries/t/T-1/TELCOMP)
+
 ##### Telephone
 ```text
 #How to Spell HELLO WORLD on a standard telephone keypad
@@ -73729,6 +76214,12 @@ Exit[]
 St<72,'e','l','l','o',44,32,87,'o',114,'l','d',33>
 ```
 [Source File](../libraries/t/T-1/Templates%20Considered%20Harmful.templates)
+
+##### TempleOS
+```text
+"Hello World\n";
+```
+[Source File](../libraries/t/T-1/TempleOS)
 
 ##### Tengo
 ```text
@@ -74106,6 +76597,20 @@ Hello World!
 Hello World!
 ```
 [Source File](../libraries/t/T-1/Text)
+
+##### Text Adventure Development System
+```text
+versionInfo: GameID
+  name = 'Hello World'
+;
+```
+[Source File](../libraries/t/T-1/Text%20Adventure%20Development%20System)
+
+##### Text Editor and Corrector
+```text
+HTHello World$$ES$$
+```
+[Source File](../libraries/t/T-1/Text%20Editor%20and%20Corrector)
 
 ##### TextGarbage
 ```text
@@ -75118,6 +77623,12 @@ write("Hello, World!")
 ```
 [Source File](../libraries/t/T-1/Tidy.tidy)
 
+##### TIE
+```text
+print("Hello World")
+```
+[Source File](../libraries/t/T-2/TIE)
+
 ##### Tier
 ```text
 "hello, world!"{#
@@ -75419,6 +77930,16 @@ pack .l
 ```
 [Source File](../libraries/t/T-1/Tk.tk)
 
+##### Tkinter
+```text
+import tkinter as tk
+root = tk.Tk()
+greeting = tk.Label(text="Hello World")
+greeting.pack()
+root.mainloop()
+```
+[Source File](../libraries/t/T-3/Tkinter)
+
 ##### TL
 ```text
 ---
@@ -75593,6 +78114,23 @@ tOLtOLtolTOl
 ```
 [Source File](../libraries/t/T-3/Tol)
 
+##### Tolk
+```text
+fun main() {
+  // Hello World Tolk
+}
+```
+[Source File](../libraries/t/T-3/Tolk)
+
+##### Tom
+```text
+%include { string.tom }
+void main() {
+  System.out.println("Hello World");
+}
+```
+[Source File](../libraries/t/T-3/Tom)
+
 ##### Tome
 ```text
 Show "Hello, World!".
@@ -75714,6 +78252,15 @@ H
 "Hello World"
 ```
 [Source File](../libraries/t/T-2/TopShell)
+
+##### Topspeed
+```text
+MODULE Hello;
+BEGIN
+  WriteString("Hello World")
+END Hello.
+```
+[Source File](../libraries/t/T-3/Topspeed)
 
 ##### TopSpeed Modula-2
 ```text
@@ -76002,6 +78549,18 @@ EXIT
 ```
 [Source File](../libraries/t/T-4/TPPL)
 
+##### TPU
+```text
+MESSAGE ("Hello World");
+```
+[Source File](../libraries/t/T-4/TPU)
+
+##### Trac
+```text
+#(ps,Hello World)
+```
+[Source File](../libraries/t/T-4/Trac)
+
 ##### Track
 ```text
 V<
@@ -76080,6 +78639,15 @@ output get [X:1];
 PRINT "Hello world!"
 ```
 [Source File](../libraries/t/T-4/Transact-SQL)
+
+##### Transaction Application Language
+```text
+PROC HELLO MAIN;
+BEGIN
+  CALL WRITETEXT("Hello World");
+END;
+```
+[Source File](../libraries/t/T-4/Transaction%20Application%20Language)
 
 ##### Transceternal
 ```text
@@ -76644,6 +79212,12 @@ module HelloWorld
  }
 ```
 [Source File](../libraries/t/T-2/TTCN3.ttcn)
+
+##### TTM
+```text
+print("Hello World")
+```
+[Source File](../libraries/t/T-4/TTM)
 
 ##### TTSneo
 ```text
@@ -77304,6 +79878,17 @@ end function
 ```
 [Source File](../libraries/t/T-4/TXL)
 
+##### TXL Programming Language
+```text
+function main
+  replace [program]
+    P [program]
+  by
+    P [message "Hello World"]
+end function
+```
+[Source File](../libraries/t/T-4/TXL%20Programming%20Language)
+
 ##### Typefuck
 ```text
 DDDDDDDDBIDDDDDDDDFLVIDDDDDDDDSIDDDDDDDDBIDDDDDDDDDDDDFLVIDDDDDSDDDDDDDSSDDDSIDDDDDDDDBIDDDDDFLVIDDDDSLLLLLLLLLLLLSFFFFDDDDDDDDDDDDDDDSIISDDDSLLLLLLSLLLLLLLLSIIDS
@@ -77350,6 +79935,14 @@ console.log("Hello World");
 _c {H-{e-{l--{o-{ -{W-{o-{r-{l-{d-
 ```
 [Source File](../libraries/t/T-4/Typespam)
+
+##### TypeSpec
+```text
+model Hello {
+  message: "Hello World";
+}
+```
+[Source File](../libraries/t/T-4/TypeSpec)
 
 ##### TypeString
 ```text
@@ -77471,6 +80064,21 @@ A0 72 A1 A0 6C A1 A0 64 A1 AA
 ```
 [Source File](../libraries/u/U-1/UClang*)
 
+##### ucode
+```text
+print("Hello World\n");
+```
+[Source File](../libraries/u/U-1/ucode)
+
+##### UCSD Pascal
+```text
+program Hello;
+begin
+  writeln('Hello World');
+end.
+```
+[Source File](../libraries/u/U-1/UCSD%20Pascal)
+
 ##### Udage
 ```text
 A
@@ -77566,6 +80174,16 @@ fn main() {
 }
 ```
 [Source File](../libraries/u/U-1/Umka.um)
+
+##### Umple
+```text
+class Hello {
+  public static void main(String[] a) {
+    System.out.println("Hello World");
+  }
+}
+```
+[Source File](../libraries/u/U-3/Umple)
 
 ##### Unarian
 ```text
@@ -77936,6 +80554,16 @@ unite Hello, with World!
 print
 ```
 [Source File](../libraries/u/U-3/UNITE)
+
+##### UNITY
+```text
+program Hello
+  declare n : integer
+  initially n = 0
+  assign n := 1  []  n = 1 -> print("Hello World")
+end
+```
+[Source File](../libraries/u/U-3/UNITY)
 
 ##### Unity3D Asset
 ```text
@@ -79457,6 +82085,18 @@ endmodule
 ```
 [Source File](../libraries/v/V-1/Verilog.v)
 
+##### Verse
+```text
+Print("Hello World")
+```
+[Source File](../libraries/v/V-1/Verse)
+
+##### Verse  _coding
+```text
+Print("Hello World")
+```
+[Source File](../libraries/v/V-1/Verse%20%20_coding)
+
 ##### Versert
 ```text
 6~6*}2*~.{+7-~.~7+~..~3+~.~{8+~.~{4-~.~4*9-~.~8-~.~3+~.~6-~.~8-~.~{3-~.~2~5*~.@
@@ -79799,6 +82439,14 @@ End Sub
 ```
 [Source File](../libraries/v/V-2/Visual%20Basic)
 
+##### Visual Basic  _classic
+```text
+Private Sub Form_Load()
+  MsgBox "Hello World"
+End Sub
+```
+[Source File](../libraries/v/V-2/Visual%20Basic%20%20_classic)
+
 ##### Visual Basic 
 ```text
 'Hello World in Visual Basic .NET (VB.NET)
@@ -79891,6 +82539,14 @@ End Sub
 ```
 [Source File](../libraries/nonenglish/Visual%20Basic%206)
 
+##### Visual Basic 6
+```text
+Private Sub Form_Load()
+  MsgBox "Hello World"
+End Sub
+```
+[Source File](../libraries/v/V-2/Visual%20Basic%206.0)
+
 ##### Visual Basic for Applications
 ```text
 Sub HelloWorld()
@@ -79915,12 +82571,42 @@ End Module
 ```
 [Source File](../libraries/v/V-1/Visual%20Basic.vb)
 
+##### Visual DataFlex
+```text
+Showln "Hello World"
+```
+[Source File](../libraries/v/V-2/Visual%20DataFlex)
+
+##### Visual DialogScript
+```text
+Message("Hello World")
+```
+[Source File](../libraries/v/V-2/Visual%20DialogScript)
+
 ##### Visual FoxPro
 ```text
 *Hello World in Microsoft Visual FoxPro 5-9
 ? "Hello World!"
 ```
 [Source File](../libraries/nonenglish/Visual%20FoxPro)
+
+##### Visual J++
+```text
+public class Hello {
+  public static void main(String[] a) {
+    System.out.println("Hello World");
+  }
+}
+```
+[Source File](../libraries/v/V-2/Visual%20J++)
+
+##### Visual Objects
+```text
+FUNCTION Start() AS VOID
+  ? "Hello World"
+RETURN
+```
+[Source File](../libraries/v/V-2/Visual%20Objects)
 
 ##### Visual Prolog
 ```text
@@ -80005,6 +82691,12 @@ struct HelloWorld extends array
 endstruct
 ```
 [Source File](../libraries/v/V-1/VJass.j)
+
+##### Vlang
+```text
+println("Hello World")
+```
+[Source File](../libraries/v/V-3/Vlang)
 
 ##### VMS-DCL
 ```text
@@ -80573,6 +83265,18 @@ OutUnicode
 ```
 [Source File](../libraries/w/W-1/WAT)
 
+##### WATFIV
+```text
+PRINT, 'Hello World'
+```
+[Source File](../libraries/w/W-1/WATFIV)
+
+##### WATFOR
+```text
+PRINT, 'Hello World'
+```
+[Source File](../libraries/w/W-1/WATFOR)
+
 ##### Watnoxt
 ```text
 !>!>>!>>>!?
@@ -80708,6 +83412,12 @@ io.writeln io.stdout 'Hello world!';
 )
 ```
 [Source File](../libraries/w/W-1/WebAssembly.wat)
+
+##### WebDNA
+```text
+Hello World
+```
+[Source File](../libraries/w/W-1/WebDNA)
 
 ##### WebGPU Shading Language
 ```text
@@ -82178,6 +84888,14 @@ end
 ```
 [Source File](../libraries/x/X-1/Xlogo.lgo)
 
+##### Xmake
+```text
+target("hello")
+    set_kind("binary")
+    -- Hello World xmake
+```
+[Source File](../libraries/x/X-3/Xmake)
+
 ##### XML Property List
 ```text
 <?xml version="1.0"?>
@@ -82203,6 +84921,12 @@ end
 </program>
 ```
 [Source File](../libraries/x/X-3/XMLang)
+
+##### XOD
+```text
+// XOD visual patch: Hello World
+```
+[Source File](../libraries/x/X-3/XOD)
 
 ##### Xojo
 ```text
@@ -82316,6 +85040,12 @@ return $i
 ```
 [Source File](../libraries/x/X-4/XQuery)
 
+##### XQuery 1
+```text
+"Hello World"
+```
+[Source File](../libraries/x/X-4/XQuery%201.0)
+
 ##### XQuery
 ```text
 let $hello := "Hello World"
@@ -82348,6 +85078,12 @@ void hello()
 ```
 [Source File](../libraries/x/X-4/XS)
 
+##### XSB
+```text
+:- write('Hello World'), nl.
+```
+[Source File](../libraries/x/X-4/XSB)
+
 ##### XSL-FO
 ```text
 <?xml version="1.0" encoding="utf-8"?>
@@ -82378,6 +85114,24 @@ void hello()
 </xsl:stylesheet>
 ```
 [Source File](../libraries/x/X-4/XSLT)
+
+##### XSLT 1
+```text
+<?xml version="1.0"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">Hello World</xsl:template>
+</xsl:stylesheet>
+```
+[Source File](../libraries/x/X-4/XSLT%201.0)
+
+##### XSLT 2
+```text
+<?xml version="1.0"?>
+<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <xsl:template match="/">Hello World</xsl:template>
+</xsl:stylesheet>
+```
+[Source File](../libraries/x/X-4/XSLT%202.0)
 
 ##### XSLT
 ```text
@@ -82766,6 +85520,18 @@ _ - input a character and insert it below the stack pointer. If not a valid inst
 ```
 [Source File](../libraries/y/Y-4/Ypsilax)
 
+##### yq
+```text
+"Hello World"
+```
+[Source File](../libraries/y/Y-4/yq)
+
+##### YQL
+```text
+SELECT "Hello World";
+```
+[Source File](../libraries/y/Y-4/YQL)
+
 ##### YueScript
 ```text
 print "Hello World"
@@ -82813,12 +85579,27 @@ zzZ - jump to line A if value at pointer is 0
 ```
 [Source File](../libraries/z/Z-1/Z)
 
+##### Z notation
+```text
+┌ Hello
+│ hello : Message
+│ hello = HelloWorld
+└
+```
+[Source File](../libraries/z/Z-3/Z%20notation)
+
 ##### Z Shell
 ```text
 #!/bin/zsh
 echo "Hello World"
 ```
 [Source File](../libraries/z/Z-1/Z%20Shell.zsh)
+
+##### Z++
+```text
+print("Hello World");
+```
+[Source File](../libraries/z/Z-1/Z++)
 
 ##### Z3
 ```text
@@ -82879,6 +85660,12 @@ A̝̝̝̝̝̝̝̝̝̝̝̝̝̐̈̄̐̅̆̐̌̆̐̌̆̐̏̆̐̌̂̐̀̂̐̇̇̐̏�
  + Mr.B says "Hello Friend" 
 ```
 [Source File](../libraries/z/Z-1/ZBD)
+
+##### Zebra
+```text
+print("Hello World")
+```
+[Source File](../libraries/z/Z-1/Zebra)
 
 ##### Zeek
 ```text
@@ -82985,6 +85772,12 @@ ZeroDivisionError: Division by 0
 python ZeroGrid2D.py [path/to/program.txt]
 ```
 [Source File](../libraries/z/Z-1/ZeroGrid2D)
+
+##### ZetaLisp
+```text
+(print "Hello World")
+```
+[Source File](../libraries/z/Z-1/ZetaLisp)
 
 ##### Zetaplex
 ```text
@@ -83230,6 +86023,12 @@ end HelloWorld.
 print "Hello world!"
 ```
 [Source File](../libraries/z/Z-3/Zoomscript)
+
+##### ZOPL
+```text
+PRINT "Hello World"
+```
+[Source File](../libraries/z/Z-3/ZOPL)
 
 ##### ZOWIE
 ```text

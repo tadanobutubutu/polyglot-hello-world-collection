@@ -1,0 +1,1 @@
+from x in new[]{1} select "Hello World"

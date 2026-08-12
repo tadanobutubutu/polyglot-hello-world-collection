@@ -1,0 +1,5 @@
+domain Hello {
+  agent Main() {
+    Console.WriteLine("Hello World");
+  }
+}

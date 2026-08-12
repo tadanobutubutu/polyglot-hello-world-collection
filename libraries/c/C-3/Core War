@@ -1,0 +1,2 @@
+; Redcode Hello World (no I/O — IMP classic)
+MOV 0, 1

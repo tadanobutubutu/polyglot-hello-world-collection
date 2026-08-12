@@ -1,0 +1,4 @@
+obj HELLO is
+  sort Hello .
+  op hello : -> Hello .
+endo

@@ -1,0 +1,5 @@
+program Hello
+  declare n : integer
+  initially n = 0
+  assign n := 1  []  n = 1 -> print("Hello World")
+end

@@ -1,0 +1,3 @@
+Idle
+  -> Print("Hello World")
+  -> Discard;

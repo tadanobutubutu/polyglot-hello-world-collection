@@ -1,0 +1,2 @@
+; Kaleidoscope LLVM tutorial language
+; extern putchard(x);

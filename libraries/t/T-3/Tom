@@ -1,0 +1,4 @@
+%include { string.tom }
+void main() {
+  System.out.println("Hello World");
+}

@@ -1,0 +1,3 @@
+PROCEDURE HELLO.
+  DISPLAY 'Hello World'.
+END-PROC.

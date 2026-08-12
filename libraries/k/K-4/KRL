@@ -1,1 +1,3 @@
-Hello World
+DEF Hello()
+  ; Hello World
+END

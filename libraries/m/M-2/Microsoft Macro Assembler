@@ -1,0 +1,5 @@
+.data
+  msg db "Hello World", 0
+.code
+start:
+end start

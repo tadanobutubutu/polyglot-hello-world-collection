@@ -1,0 +1,4 @@
+MODULE Hello;
+BEGIN
+  WriteString("Hello World")
+END Hello.

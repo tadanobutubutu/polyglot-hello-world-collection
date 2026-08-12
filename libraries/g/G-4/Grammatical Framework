@@ -1,0 +1,3 @@
+concrete HelloEng of Hello = {
+  lin Greeting = "Hello World";
+}

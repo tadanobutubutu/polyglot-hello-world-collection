@@ -1,0 +1,3 @@
+pkgname=hello
+pkgver=1.0
+build() { echo Hello World; }

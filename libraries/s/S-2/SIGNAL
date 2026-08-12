@@ -1,0 +1,3 @@
+process Hello =
+  put "Hello World"
+end;

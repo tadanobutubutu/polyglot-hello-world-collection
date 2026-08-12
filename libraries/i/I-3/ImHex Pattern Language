@@ -1,0 +1,1 @@
+char hello[12] @ 0x0; // Hello World
