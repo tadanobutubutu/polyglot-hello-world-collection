@@ -1,6 +1,6 @@
 # All libraries
 
-6259 entries.
+6257 entries.
 
 ##### !
 ```text
@@ -16854,21 +16854,6 @@ Print Eb4 (!)
 ```
 [Source File](../libraries/c/C-2/C Flat)
 
-##### C sharp|C#
-```text
-namespace HelloWorld
-{
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            System.Console.WriteLine("Hello world!");
-        }
-    }
-}
-```
-[Source File](../libraries/c/C-4/C sharp|C#)
-
 ##### C Shell
 ```text
 #!/bin/csh -f
@@ -16882,6 +16867,21 @@ echo "Hello world!\!"
 echo "Hello World"
 ```
 [Source File](../libraries/c/C-1/C Shell.csh)
+
+##### C#
+```text
+namespace HelloWorld
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            System.Console.WriteLine("Hello world!");
+        }
+    }
+}
+```
+[Source File](../libraries/c/C-1/C#)
 
 ##### C#  _
 ```text
@@ -23870,12 +23870,6 @@ end.
 ```
 [Source File](../libraries/d/D-1/Delvs)
 
-##### Del|m|t
-```text
-=#:#Hello, World!#/##3#=#?#9#"
-```
-[Source File](../libraries/d/D-1/Del|m|t)
-
 ##### Deno
 ```typescript
 console.log("Hello World");
@@ -29658,9 +29652,7 @@ What do we appreciate! What do we appreciate! F! K! What do we appreciate! F! F!
 
 ##### F#
 ```text
-(* Hello World in F# *)
-
-printf "Hello World!\n"
+printfn "%s" "Hello world!"
 ```
 [Source File](../libraries/f/F-1/F#)
 
@@ -29695,12 +29687,6 @@ program hello
 end program hello
 ```
 [Source File](../libraries/f/F-1/F.f95)
-
-##### F_Sharp|F#
-```text
-printfn "%s" "Hello world!"
-```
-[Source File](../libraries/f/F-4/F_Sharp|F#)
 
 ##### face
 ```text
