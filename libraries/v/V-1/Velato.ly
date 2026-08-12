@@ -1,102 +1,59 @@
-on "2.19.64"
+\version "2.16.0"  % necessary for upgrading to future LilyPond versions.
 
 \header{
-  title = "Hello World"
+  title = "Hello, World! (With Root Note Changes)"
+  subtitle = "A test program for Velato"
 }
 
-\language "english"
+mus = { 
 
-\paper {
-  top-margin = 1.5\in
-  left-margin = 2.0\in
-  right-margin = 2.0\in
-}
+	f'4 % sets root note
+	d c % print
+	a bes % value -> char
+	d gis c % 'H': digits 7 and 2 (for Unicode value 72) ending with a perfect 5th
+	    
+	d c a bes % print
+	g fis g c % 'e'
 
-\score {
-  \transpose c c' {
-    % H
-    <c a>4
-    g8(
-    e8 f8
-    gs8 d8
-    g8) |
+	f''
 
-    % e
-    a8
-    <g e>4.
-    <f cs>4
-    c16( cs16
-    g8 |
+	f g c % change key to c
 
-    % l
-    a8)
-    <g e>8
-    <f cs>4
-    <c a>4
-    g4( |
+	a g e f d cis ais g % l
 
-    % l
-    a16 g16
-    e16 f8
-    cs8.) <c a g>2 |
+	a g e f d cis ais g % l
 
-    % o
-    a8( g8 e8)
-    f8.
-    cs16( cs8 cs8 g8 |
+	c d f
 
-    % ,
-    a8 g4
-    e8 f8
-    e e
-    g8) |
+	d c a bes g g g c % o
 
-    % space
-    a8
-    <g e>4.
-    f8(
-    ds d
-    g8 |
+	d c a bes ais ais c % ,
 
-    % W
-    a8 g4
-    e8 f8
-    a8 gs8
-    g8) |
+	d c a bes a gis c % space
 
-    % o
-    a8( g8
-    e8 f8
-    cs8 cs8) <cs g>4 |
+	d c a bes dis d c % W
 
-    % r
-    a8( g8
-    e8 f8
-    cs8 cs8 e8. g16 |
+	f g d % change key to d
 
-    % l
-    c16 a16)
-    <g e>8
-    <f cs>4
-    <c a>4
-    g4( |
+	d d'
 
-    % d
-    a8 g4
-    e16 f16
-    cs8 c8 c8
-    g8 |
+	b a fis g e e e a % o
 
-    % !
-    a16)
-    <g e>4
-    f16( ds16 ds16)
-    <g c>2 |
-  }
-  \layout {
-    indent = 0\cm
-  }
-  \midi {
-    \tempo 4 = 120
-  }
-}
+	b a fis g e e g a % r
+
+	b a fis g e dis c a % l
+
+	e f
+
+	d c a bes g fis fis c % d
+
+	d c a bes a a c % !
+
+} % same sequence but for the 'e' (101)
+
+\score { 
+        \new Staff \with { \remove Time_signature_engraver } { \clef bass  \mus } 
+        \layout { } 
+        \midi { } 
+} 
+
