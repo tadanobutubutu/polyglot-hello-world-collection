@@ -1,4 +1,4 @@
- spellbook sb = ()
+spellbook sb = ()
  merchant m = ()
  # We can create a new char for each letter, because we need less than 10
  char h = (72, 0)

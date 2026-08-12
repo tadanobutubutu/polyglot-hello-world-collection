@@ -1,0 +1,6 @@
+package HelloWorld api;
+library default;
+fn Run() -> i32 {
+  Print("Hello World");
+  return 0;
+}

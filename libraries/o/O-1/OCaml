@@ -1,1 +1,3 @@
-print_string "Hello, World!";;
+(* Hello World in OCaml *)
+
+print_string "Hello World!\n";;

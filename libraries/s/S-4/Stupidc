@@ -1,6 +1,9 @@
-system(&BE_6502);
-include(&lcd.scl);
-$lcd.init(&f14_l1);
+system(&BE6502);
+include(#"lcd.sc");
 
-$lcd.print(#"Hello, world!");
-halt();
+reset({
+	$lcd.init(:lcd.init.8x10);
+	$lcd.print(:hworld);
+});
+
+mem(:hworld,#"Hello, world!");

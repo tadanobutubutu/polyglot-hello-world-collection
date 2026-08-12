@@ -1,2 +1,4 @@
 using Uno;
-public partial class Main: Application { public Main(){ debug_log "Hello World"; } }
+public class Program {
+  public static void Main() { Console.WriteLine("Hello World"); }
+}

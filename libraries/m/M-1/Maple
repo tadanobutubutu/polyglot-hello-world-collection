@@ -1,3 +1,2 @@
-# Hello World in Maple
-
->> printf("Hello World!");
+> printf( "Hello world!\n" ): # print without quotes
+Hello world!

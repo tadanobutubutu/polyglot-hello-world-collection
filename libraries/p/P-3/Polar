@@ -1,1 +1,1 @@
-allow if "Hello World" = "Hello World";
+hello() if cut and debug("Hello World");

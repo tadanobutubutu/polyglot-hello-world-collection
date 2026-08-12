@@ -1,2 +1,5 @@
-model Hello { id Int @id
-  msg String @default("Hello World") }
+datasource db {
+  provider = "sqlite"
+  url      = "file:./hello.db"
+}
+// Hello World schema stub

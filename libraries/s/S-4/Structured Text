@@ -1,0 +1,3 @@
+PROGRAM Hello
+  ; Hello World IEC 61131-3 ST
+END_PROGRAM

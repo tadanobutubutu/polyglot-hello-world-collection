@@ -1,0 +1,4 @@
+FILE NAME F(80)
+JOB INPUT NULL
+  DISPLAY 'Hello World'
+  STOP

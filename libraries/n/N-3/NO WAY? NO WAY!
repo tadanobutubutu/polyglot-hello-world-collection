@@ -1,0 +1,21 @@
+push 0
+push 00100001
+push 01100100
+push 01101100
+push 01110010
+push 01101111
+push 01110111
+push 00100000
+push 00101100
+push 01101111
+push 01101100
+push 01101100
+push 01100101
+push 01001000
+dup
+que
+if
+  out 1
+  jmp 1110
+end
+halt

@@ -1,4 +1,2 @@
-// Hello World in GML (Game Maker Language)
-draw_text(10,10,"Hello World")
-screen_refresh()
-keyboard_wait()
+show_message("Hello world!"); // displays a pop-up message
+show_debug_message("Hello world!"); // sends text to the debug log or IDE

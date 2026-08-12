@@ -1,4 +1,4 @@
 %%{
   machine hello;
-  main := "Hello World" @{ printf("%s", "Hello World"); } ;
+  main := "Hello World" @{ printf("%s\n", "Hello World"); };
 }%%

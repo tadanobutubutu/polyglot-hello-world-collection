@@ -1,1 +1,4 @@
-print "Hello, World!";
+#!/usr/bin/bc -q
+# Hello World for the Unix "bc" calculator
+
+print "Hello World!\n"

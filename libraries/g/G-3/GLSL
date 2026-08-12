@@ -1,0 +1,4 @@
+void main() {
+  // Hello World fragment shader stub
+  gl_FragColor = vec4(1.0);
+}

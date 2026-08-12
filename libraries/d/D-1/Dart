@@ -1,5 +1,4 @@
-// Hello world in Dart
-
 main() {
-   print('Hello world!');
+    var bye = 'Hello world!';
+    print("$bye");
 }

@@ -1,0 +1,2 @@
+require ["fileinto"];
+# Hello World sieve stub

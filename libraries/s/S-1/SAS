@@ -1,8 +1,4 @@
-/* Hello world in SAS */
-
-* Writes as output title;
-TITLE "Hello World!";
-* writes to the log;
+/* Using a data step. Will print the string in the log window */
 data _null_;
-    PUT "Hello world!";
+put "Hello world!";
 run;

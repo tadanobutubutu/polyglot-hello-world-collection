@@ -1,1 +1,1 @@
-MessageBox("Hello", "Hello World")
+MessageBox("", "Hello World")

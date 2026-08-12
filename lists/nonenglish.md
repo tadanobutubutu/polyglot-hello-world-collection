@@ -1,6 +1,6 @@
 # nonenglish
 
-202 entries.
+206 entries.
 
 ##### !lyricly☭demote☭establish☭communism!
 ```text
@@ -1642,6 +1642,17 @@ showpage
 ```
 [Source File](../libraries/nonenglish/Console Postscript)
 
+##### Céu
+```text
+output std()/string std;
+par/and do
+  emit std => "Hello World\n";
+with
+  await 1s;
+end
+```
+[Source File](../libraries/nonenglish/Céu)
+
 ##### Cíonom
 ```text
 copy*[+]=c 3
@@ -1888,6 +1899,14 @@ while code:
         x=0
 ```
 [Source File](../libraries/nonenglish/Hárdfish)
+
+##### H̱
+```text
+H̱hHhhH̱hHhhH̱hhH̱hhHH̱hHHH̱HHH̱hHhH̱hhhhH̱hhhhH̱hhH̱HH̱hHhH̱hhhHH̱HH̱hHhH̱hHhH̱HhHH̱hHHH̱HhhH̱HhẖH̱HH̱HHhH̱hh
+H̱hHhHH̱HhHH̱hhhhH̱hHhH̱HHHH̱HhHH̱HhẖH̱hhH̱hhHhH̱hH̱hH̱hhHH̱hHHH̱HhẖH̱hH̱hHHH̱HHH̱HhhH̱HhẖH̱HhhH̱HH̱HhhH̱HHH̱Hhh
+H̱HhẖH̱hHhH̱hhHHHH̱HH̱hhhH̱hHHH̱Hh
+```
+[Source File](../libraries/nonenglish/H̱)
 
 ##### H🌍+
 ```text
@@ -2682,6 +2701,12 @@ FrameWindow new
 ```
 [Source File](../libraries/nonenglish/Smalltalk MT)
 
+##### Smasnug 🕳️ABrainFIsHCHIHqFRSI9efuck+-~B2D
+```text
+H #hello, world
+```
+[Source File](../libraries/nonenglish/Smasnug 🕳️ABrainFIsHCHIHqFRSI9efuck+-~B2D)
+
 ##### Splunk SPL
 ```text
 | makeresults `comment("Hello world in Splunk SPL")` | eval mystring="Hello, World!"
@@ -2763,6 +2788,15 @@ read(11)
 read(12)
 ```
 [Source File](../libraries/nonenglish/Tjʊrɪŋ məʃin)
+
+##### Translated 中文
+```text
+T[UNK]kikik сиңa һ UNK]r character[UNK]chenbarder.1(0,0,72)1(0,0,101)1(0,0,108)1(0,0,108)1(0,0,111)1(0,0,44)1(0,0,32)1(0,0,119)1(0,0,111)1(0,0,114)1(0,0,108)1(0,0,100)*
+nothing here
+nothing here
+nothing here-
+```
+[Source File](../libraries/nonenglish/Translated 中文)
 
 ##### TSO CLIST
 ```text

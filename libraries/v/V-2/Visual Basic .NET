@@ -1,7 +1,11 @@
-Imports System
+'Hello World in Visual Basic .NET (VB.NET)
 
-Module HelloWorld
-    Sub Main()
-        Console.WriteLine("Hello world!")
+Imports System.Console
+
+Class HelloWorld
+
+    Public Shared Sub Main()
+        WriteLine("Hello, world!")
     End Sub
-End Module
+
+End Class

@@ -1,0 +1,3 @@
+module Hello {
+  const string World = "Hello World";
+};

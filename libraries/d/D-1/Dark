@@ -1,10 +1,12 @@
-+hello hell
-hello$twist sign hws
-hello$twist stalker io
++helloworld hell
+helloworld$twist stalker io
+helloworld$twist sign string
 io$stalk
 io$personal
-hws$scrawl " Hello, world!
-hws$read
+string$scrawl " Hello World
+string$read ~
 io$echo
-hello$empty
-hello$apocalypse
+helloworld$consume io
+helloworld$consume string
+helloworld$empty
+helloworld$apocalypse

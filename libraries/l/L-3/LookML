@@ -1,0 +1,3 @@
+view: hello {
+  dimension: world { sql: 'Hello World' ;; }
+}

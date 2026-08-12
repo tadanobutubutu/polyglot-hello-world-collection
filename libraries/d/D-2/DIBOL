@@ -1,0 +1,3 @@
+PROC
+  XCALL TTSTS(1,"Hello World")
+END

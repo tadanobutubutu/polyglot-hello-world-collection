@@ -1,0 +1,4 @@
+---- MODULE Hello ----
+EXTENDS Naturals
+\* Hello World
+====

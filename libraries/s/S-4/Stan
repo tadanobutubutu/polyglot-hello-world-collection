@@ -1,1 +1,3 @@
-generated quantities { print("Hello World"); }
+generated quantities {
+  print("Hello World");
+}

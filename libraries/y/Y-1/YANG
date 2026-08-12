@@ -1,0 +1,5 @@
+module hello {
+  namespace "urn:hello";
+  prefix h;
+  // Hello World
+}

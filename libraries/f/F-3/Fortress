@@ -1,4 +1,3 @@
-(* Hello World in Fortress *)
-
-export Executable
-run(args) = print "Hello, world!"
+export Executable                                                                                                                       
+                                                                                                                                        
+run() = println("Hello world!")

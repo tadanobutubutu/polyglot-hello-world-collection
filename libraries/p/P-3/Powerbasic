@@ -1,7 +1,7 @@
-' Hello World in Powerbasic Console Compiler
+#COMPILE EXE
+#COMPILER PBCC 6
 
 FUNCTION PBMAIN () AS LONG
-
-    PRINT "Hello World"
-
+  CON.PRINT "Hello world!"
+  CON.WAITKEY$
 END FUNCTION

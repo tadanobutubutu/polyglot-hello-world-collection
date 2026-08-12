@@ -1,1 +1,4 @@
-Debug.Notification("Hello World")
+Scriptname Hello
+Event OnInit()
+  Debug.Trace("Hello World")
+EndEvent

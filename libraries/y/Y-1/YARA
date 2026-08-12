@@ -1,0 +1,4 @@
+rule Hello {
+  strings: $a = "Hello World"
+  condition: $a
+}

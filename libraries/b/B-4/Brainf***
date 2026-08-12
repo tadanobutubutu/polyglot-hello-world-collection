@@ -1,9 +1,50 @@
-10	close to newline and carriage return
-30	close to ! and SPACE
-40	close to COMMA
-70	close to G
-80	close to W
-90	close to b
-100	is d and close to e and l
-110	close to o
-120	close to y
++++++ +++++		First cell 10 (its a counter and we will be "multiplying")
+
+[
+>+			10 times 1 is 10
+>+++			10 times 3 is 30
+>++++			etc etc
+>+++++ ++
+>+++++ +++
+>+++++ ++++
+>+++++ +++++
+>+++++ ++++++
+>+++++ +++++++
+<<<<<<<<< -		go back to counter and subtract 1
+]
+
+printing H
+>>>> ++ .
+
+e
+>>>+.
+
+l twice
++++++++..
+
+o
+>+.
+
+SPACE
+<<<<<<++.
+
+w
+>>>>>>>-.
+
+o
+<.
+
+r
++++.
+
+l
+<.
+
+d
+--------.
+
+!
+<<<<<+.
+
+CRLF
+< +++ . --- .

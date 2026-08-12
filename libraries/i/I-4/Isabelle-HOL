@@ -1,0 +1,3 @@
+theory Hello imports Main begin
+value "''Hello World''"
+end

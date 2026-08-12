@@ -1,5 +1,7 @@
-class Main {
-  static public function main():Void {
-    Sys.print("Hello, World!");
-  }
+// Hello world in Haxe
+
+class Hello {
+    static public function main() {
+        trace("Hello world!");
+    }
 }

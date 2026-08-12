@@ -1,1 +1,3 @@
-actor { public func hello() : async Text { "Hello World" } }
+actor {
+  public query func hello() : async Text { "Hello World" }
+}

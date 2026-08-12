@@ -1,2 +1,6 @@
-workflow Hello { call World }
-task World { command { echo Hello World } }
+workflow Hello {
+  call HelloTask
+}
+task HelloTask {
+  command { echo Hello World }
+}

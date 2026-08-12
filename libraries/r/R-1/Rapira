@@ -1,1 +1,5 @@
-output: "Hello, World!"
+\ Hello world in Rapira
+
+ПРОЦ СТАРТ()
+    ВЫВОД: 'Hello World!'
+КОН ПРОЦ

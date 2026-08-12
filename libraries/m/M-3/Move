@@ -1,3 +1,4 @@
 module hello::world {
-    public fun greeting(): vector<u8> { b"Hello World" }
+  use std::debug;
+  fun main() { debug::print(&b"Hello World"); }
 }

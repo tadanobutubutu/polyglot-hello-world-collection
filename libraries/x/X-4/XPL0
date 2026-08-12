@@ -1,4 +1,3 @@
-\Hello World in XPL0
 code Text=12;
-Text(0, "Hello World!
+Text(0, "Hello world!
 ")

@@ -1,1 +1,2 @@
-<PRINTI "Hello World">
+<ROUTINE GO ()
+  <TELL "Hello World" CR>>

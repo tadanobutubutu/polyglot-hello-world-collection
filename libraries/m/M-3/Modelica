@@ -1,4 +1,5 @@
 model Hello
+  annotation(experiment(StopTime=0));
 equation
   // Hello World
 end Hello;

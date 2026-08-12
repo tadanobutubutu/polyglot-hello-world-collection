@@ -1,0 +1,6 @@
+output std()/string std;
+par/and do
+  emit std => "Hello World\n";
+with
+  await 1s;
+end

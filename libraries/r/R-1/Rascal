@@ -1,2 +1,4 @@
 import IO;
-void main() { println("Hello World"); }
+void main() {
+  println("Hello World");
+}

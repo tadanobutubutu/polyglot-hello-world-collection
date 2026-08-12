@@ -1,6 +1,4 @@
-$(info Hello, World!)
+# Hello world as a makefile
 
-.PHONY: main
-
-main:
-	@:
+all:
+    @echo "Hello world!"

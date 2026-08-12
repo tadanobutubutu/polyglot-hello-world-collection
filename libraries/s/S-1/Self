@@ -1,4 +1,1 @@
-(|  "Hello World in Self"
-
-  hello = (| | 'Hello World!' print)
-|)
+'Hello world!' printLine.

@@ -1,1 +1,5 @@
-printf("Hello World\n")
+module Hello
+import System(stdout,write)
+export entry
+entry: void
+entry = write(stdout,"Hello World\n")

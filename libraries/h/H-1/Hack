@@ -1,3 +1,1 @@
-<?hh
-// Hello world in Hack
-echo 'Hello World';
+<?hh echo 'Hello world!'; ?>

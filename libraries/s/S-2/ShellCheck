@@ -1,0 +1,2 @@
+# ShellCheck is a linter; sample shell:
+echo "Hello World"
