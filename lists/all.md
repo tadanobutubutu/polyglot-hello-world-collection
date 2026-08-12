@@ -1,6 +1,6 @@
 # All libraries
 
-3046 entries.
+3095 entries.
 
 ##### !
 ```text
@@ -22,11 +22,23 @@ dlroW olleH(@)
 ```
 [Source File](../libraries/nonenglish/!@#$%^&∗ __+)
 
+##### !@#$%^&∗()_+
+```text
+dlroW olleH(@)
+```
+[Source File](../libraries/s/S-1/!@#$%^&∗()_+)
+
 ##### !@sharp$pct^andstar_+
 ```text
  ^dlroW ,olleH(@)
 ```
 [Source File](../libraries/symbols/Symbols-2/!@sharp$pct^andstar_+.ecndpcaalr)
+
+##### ()˸;#？!
+```text
+:H:e:l:l:o: :W:o:r:l:d!
+```
+[Source File](../libraries/s/S-1/()˸;#？!)
 
 ##### *><>
 ```text
@@ -60,6 +72,13 @@ R:
 ```
 [Source File](../libraries/n/N-3/0 _nop^)
 
+##### 0(nop^)
+```text
+1$(Hello World
+")`
+```
+[Source File](../libraries/n/N-1/0(nop^))
+
 ##### 0587
 ```text
 04(Hello World)
@@ -71,6 +90,12 @@ R:
 "Hello, World!"
 ```
 [Source File](../libraries/a/A-1/05AB1E)
+
+##### 05AB1E
+```text
+"Hello World
+```
+[Source File](../libraries/symbols/Symbols-1/05AB1E)
 
 ##### 05AB1E  _legacy
 ```text
@@ -152,6 +177,22 @@ print(‘Hello world!’)
  222122221212112112112112112112112222122221212112112112112112122222211121121112112121122222221112112111211222222211121111211211222222211121111212222221112111121121122222221112111121222222111211111212112222222111211111222222111111222221111112222221111112222211111222222211211121111122222221121112111122222221112111112121122222221112111112222222111121121112112222222111121121122222211121111211211222222211121111212222221112112111211211222222211121121112122222112112112112111222222112112112112112
 ```
 [Source File](../libraries/symbols/123)
+
+##### 123
+```text
+2221222212121121121121121121121122221222212121121121121121121
+222222111211211121121211222222211121121112112
+2222221112111121121122222221112111121
+2222221112111121121122222221112111121
+2222221112111112121122222221112111112
+222221111112222211111122222211111122222111112
+2222221121112111112222222112111211112
+2222221112111112121122222221112111112
+2222221111211211121122222221111211211
+2222221112111121121122222221112111121
+22222211121121112112112222222111211211121
+```
+[Source File](../libraries/symbols/Symbols-1/123)
 
 ##### 1234567890
 ```text
@@ -589,6 +630,13 @@ testcase printHelloWorld()
 ```
 [Source File](../libraries/t/T-1/4Test)
 
+##### 4test
+```text
+testcase printHelloWorld()
+    print("Hello World")
+```
+[Source File](../libraries/symbols/Symbols-1/4test)
+
 ##### 4th Dimension
 ```text
 OPEN WINDOW (10;45;500;330;0;"Hello Window")
@@ -723,6 +771,12 @@ END START
 "Hello, world!\n" .
 ```
 [Source File](../libraries/t/T-2/8th)
+
+##### 8th
+```text
+"Hello World\n" .
+```
+[Source File](../libraries/symbols/Symbols-1/8th)
 
 ##### 8xn
 ```text
@@ -1337,6 +1391,14 @@ end Hello_World;
 ```
 [Source File](../libraries/a/A-1/Adapt.adapt)
 
+##### Add++
+```text
+D,f,^,"Hello World"
+$f
+O
+```
+[Source File](../libraries/a/A-1/Add++)
+
 ##### Add++ _2
 ```text
 D,f,^,"Hello, World!"
@@ -1367,6 +1429,16 @@ IFZ temp IO 0
 }     AgR};      AgR};      A=AgR};         AgR};       AgR};      AgR};        AgR};         AgR};        AgR};      AgR};      AgR};      AC
 ```
 [Source File](../libraries/a/A-1/ADJUST.adjust)
+
+##### Advpl
+```text
+User Function Hello()
+Local cMsg := "Hello World"
+conout(cMsg)
+MsgInfo(cMsg)
+Return
+```
+[Source File](../libraries/a/A-1/Advpl)
 
 ##### ADVPL _2
 ```text
@@ -1831,6 +1903,12 @@ Print "Hello world!"
 ```
 [Source File](../libraries/a/A-3/AMOS)
 
+##### Amos
+```text
+Print "Hello World"
+```
+[Source File](../libraries/a/A-2/Amos)
+
 ##### AnalF∗ck
 ```text
 あくしろよ
@@ -1936,6 +2014,12 @@ public class HelloWorld extends Activity {
 void main() { print("Hello world\n"); }
 ```
 [Source File](../libraries/a/A-3/AngelScript)
+
+##### AngelScript
+```text
+void main() { print("Hello World\n"); }
+```
+[Source File](../libraries/a/A-2/AngelScript)
 
 ##### Anguish
 ```text
@@ -5151,6 +5235,12 @@ Print["Hello, World!"]
 ```text
 Print["Hello World"]
 ```
+[Source File](../libraries/a/A-1/Attache.@)
+
+##### Attache
+```text
+Print["Hello World"]
+```
 [Source File](../libraries/a/A-3/Attache.txt)
 
 ##### Aubergine
@@ -5392,6 +5482,12 @@ hello_world is text
 "ol!,ld elWHro"
 ```
 [Source File](../libraries/b/B-1/Backhand.backhand)
+
+##### Backshift
+```text
+ Hello World
+```
+[Source File](../libraries/b/B-1/Backshift)
 
 ##### Backshift _2
 ```text
@@ -7639,6 +7735,14 @@ PePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePePeO
 ```
 [Source File](../libraries/b/B-4/BuddyScript)
 
+##### BuddyScript
+```text
+=AnythingPerfect
+
+  - Hello World
+```
+[Source File](../libraries/b/B-3/BuddyScript)
+
 ##### bugSophia
 ```text
  "+-+-+-+-+-+-+-+-+-+-+-+-+
@@ -8692,6 +8796,12 @@ d
 "Hello World!"
 ```
 [Source File](../libraries/nonenglish/Casio BASIC)
+
+##### Casio BASIC
+```text
+"Hello World"
+```
+[Source File](../libraries/c/C-1/Casio BASIC)
 
 ##### CASL2
 ```text
@@ -10482,6 +10592,13 @@ say! Hello, world!
 ##### Cryptol
 ```text
 :set ascii=on
+"Hello World"
+```
+[Source File](../libraries/c/C-3/Cryptol)
+
+##### Cryptol
+```text
+:set ascii=on
 "Hello, World!"
 ```
 [Source File](../libraries/c/C-4/Cryptol)
@@ -11007,6 +11124,20 @@ END
 ```
 [Source File](../libraries/d/D-1/Databasic)
 
+##### DataFlex
+```text
+/tela
+
+Hello World
+
+/*
+
+clearscreen
+
+page tela
+```
+[Source File](../libraries/d/D-1/DataFlex)
+
 ##### Dataflex _2
 ```text
 // Hello World in Dataflex Procedural
@@ -11083,6 +11214,12 @@ END
 ]n
 ```
 [Source File](../libraries/d/D-1/Dc.dc)
+
+##### DCL
+```text
+WRITE SYS$OUTPUT "Hello World"
+```
+[Source File](../libraries/d/D-1/DCL)
 
 ##### DCL _2
 ```text
@@ -11517,6 +11654,17 @@ Begin
 End.
 ```
 [Source File](../libraries/d/D-1/Delphi.delphi)
+
+##### Delphi
+```text
+program HelloWorld;
+{$APPTYPE CONSOLE}
+
+begin
+	WriteLn('Hello World');
+end.
+```
+[Source File](../libraries/d/D-1/Delphi.pas)
 
 ##### Del|m|t
 ```text
@@ -13016,6 +13164,12 @@ end
 
 ##### Elixir
 ```elixir
+ IO.puts "Hello World"
+```
+[Source File](../libraries/e/E-1/Elixir.ex)
+
+##### Elixir
+```elixir
 IO.puts("Hello World")
 ```
 [Source File](../libraries/e/E-1/Elixir.exs)
@@ -13117,6 +13271,12 @@ end mainProgram
 ;#58#126#63#36!;#46#36#!;#0#1!;#0#2!;#0#3!;#0#4!;#0#5!;#0#6!;#0#7!#0#33#100#108#114#111#119#32#44#111#108#108#101#72$
 ```
 [Source File](../libraries/e/E-1/Emmental.emmental)
+
+##### Emoji
+```text
+💬Hello World💬➡
+```
+[Source File](../libraries/e/E-1/Emoji)
 
 ##### Emoji
 ```text
@@ -13362,6 +13522,12 @@ Hello World :Q S::P :P
 
 ##### Emotinomicon
 ```text
+😭dlroW olleH😲⏪⏬⏩
+```
+[Source File](../libraries/e/E-1/Emotinomicon)
+
+##### Emotinomicon
+```text
 😭!dlroW ,olleH😲⏪⏬⏩
 ```
 [Source File](../libraries/e/E-3/Emotinomicon)
@@ -13550,6 +13716,12 @@ BEGIN
 END PROGRAM
 ```
 [Source File](../libraries/e/E-4/ERRE)
+
+##### es
+```text
+echo Hello World
+```
+[Source File](../libraries/e/E-2/es)
 
 ##### es
 ```text
@@ -14773,6 +14945,12 @@ g
 <ins>Hello World</ins>
 ```
 [Source File](../libraries/f/F-3/Fog.fog)
+
+##### Fog.fog
+```markdown
+<ins>Hello World</ins>
+```
+[Source File](../libraries/f/F-1/Fog.fog.md)
 
 ##### Foo _2
 ```text
@@ -17343,6 +17521,12 @@ print("Hello World from Gosu!!")
 ```
 [Source File](../libraries/g/G-2/Gosu.gosu)
 
+##### Gosu
+```text
+print("Hello World")
+```
+[Source File](../libraries/g/G-1/Gosu.gs)
+
 ##### GOTO++
 ```text
 GOTOPRINTDUTEXTE() ; «Hello World»
@@ -18937,6 +19121,13 @@ closeC
 ```
 [Source File](../libraries/i/I-1/IDK.idk)
 
+##### IDL
+```text
+print, "Hello World"
+end
+```
+[Source File](../libraries/i/I-1/IDL)
+
 ##### IDL _2
 ```text
 IDL> ; Hello World in IDL (Interactive Data Language)
@@ -20283,6 +20474,29 @@ console.log(React.renderToString(<HelloWorld />));
 ```
 [Source File](../libraries/j/J-4/JSX _Facebook.js)
 
+##### JSX(DeNA)
+```text
+ class _Main {
+     static function main(args : string[]) : void {
+         log "Hello World";
+     }
+ }
+```
+[Source File](../libraries/j/J-1/JSX(DeNA).jsx)
+
+##### JSX(Facebook)
+```javascript
+var React = require('react');
+
+var HelloWorld = function() {
+    return <span>Hello World</span>;
+};
+HelloWorld.displayName = 'HelloWorld';
+
+console.log(React.renderToString(<HelloWorld />));
+```
+[Source File](../libraries/j/J-1/JSX(Facebook).js)
+
 ##### JSX_DeNA
 ```text
  class _Main {
@@ -20313,6 +20527,12 @@ console.log(React.renderToString(<HelloWorld />));
 . "Hello World";
 ```
 [Source File](../libraries/j/J-4/JudoScript)
+
+##### JudoScript
+```text
+. "Hello World";
+```
+[Source File](../libraries/j/J-2/JudoScript)
 
 ##### Julia
 ```text
@@ -21951,6 +22171,12 @@ puts("Hello world!");
 
 ##### LiveCode
 ```text
+answer "Hello World!" 
+```
+[Source File](../libraries/l/L-1/LiveCode)
+
+##### LiveCode
+```text
 -- Hello world in LiveCode (formerly called Revolution, formerly called Transcript)
 
 answer "Hello World!"
@@ -22416,6 +22642,12 @@ v<<<<<<<<<<<>>>>>>>>>>>>
 %"Hello World"@
 ```
 [Source File](../libraries/l/L-2/Lost.txt)
+
+##### Lost
+```text
+%"Hello World"@
+```
+[Source File](../libraries/l/L-1/Lost.？？？)
 
 ##### LOTOS
 ```text
@@ -23867,6 +24099,71 @@ IOTXP:Hello World;
 ```
 [Source File](../libraries/m/M-3/MML-AXE10)
 
+##### Mmmm()
+```text
+Mmm=m[m.m()].m(m.m());
+Mmmm=m[mm].m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();Mmmmm=mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();m[mmmm].m(mmm.m());
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();Mmmmmm=mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+Mmmmmmmmm=mmm.m();
+m[mmmm].m(mmm.m());
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();Mmmmmmm=mmm.m();
+m[mmmm].m(mmmmmm);m[mmmm].m(mmmmmm);
+mmm.m();mmm.m();
+Mmmmmmmm=mmm.m();
+m[mmmm].m(mmmmmmm);
+mmm.m();mmm.m();
+Mmmmmmmmmm=mmm.m();
+Mmmm=m[mm].m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();
+Mmmmmmmmmmm=mmm.m();
+Mmmmmmmmmmmm=mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();mmm.m();mmm.m();
+mmm.m();mmm.m();
+m[mmmm].m(mmm.m());
+m[mmmm].m(mmmmmmmmmm);
+m[mmmm].m(mmmmm);
+m[mmmm].m(mmmmmmm);
+m[mmmm].m(mmmmmmmmm);
+m[mmmm].m(mmmmmm);
+m[mmmm].m(mmmmmmmm);
+m[mmmm].m(mmmmmmmmmmm);
+```
+[Source File](../libraries/m/M-1/Mmmm().mmmm)
+
 ##### Mmmm
 ```text
 Mmm=m[m.m()].m(m.m());
@@ -24012,6 +24309,13 @@ fn main():
     print("Hello World")
 ```
 [Source File](../libraries/m/M-2/Mojo.mojo)
+
+##### Mojo
+```text
+fn main():
+  print("Hello World")
+```
+[Source File](../libraries/m/M-1/Mojo.🔥)
 
 ##### Mokkosu
 ```text
@@ -25455,6 +25759,22 @@ var sys = require('sys');
 sys.puts('Hello World');
 ```
 [Source File](../libraries/n/N-3/Node _2.js)
+
+##### Node
+```javascript
+#!/usr/bin/env node
+
+console.log('Hello World');
+```
+[Source File](../libraries/n/N-2/Node.js)
+
+##### Node.js
+```javascript
+#!/usr/bin/env node
+
+console.log('Hello World');
+```
+[Source File](../libraries/n/N-1/Node.js.js)
 
 ##### Noether
 ```text
@@ -27342,6 +27662,12 @@ int main(void) {
 ```
 [Source File](../libraries/p/P-1/Pebble.c)
 
+##### PeopleCode
+```text
+MessageBox(0, "", 0, 0, "Hello World");
+```
+[Source File](../libraries/p/P-1/PeopleCode)
+
 ##### PeopleCode _2
 ```text
 /* Hello World in PeopleCode 8.45
@@ -27441,6 +27767,13 @@ say "Hello, World!";
  # http://perldoc.perl.org/CGI.html
 ```
 [Source File](../libraries/p/P-1/Perl.cgi)
+
+##### Perl
+```perl
+#!/usr/bin/perl
+print "Hello World\n";
+```
+[Source File](../libraries/p/P-1/Perl.pl)
 
 ##### Perl6
 ```text
@@ -29157,6 +29490,12 @@ print "Hello, world!"
 ```
 [Source File](../libraries/p/P-4/Printscript)
 
+##### Printscript
+```text
+print "Hello World"
+```
+[Source File](../libraries/p/P-2/Printscript)
+
 ##### ProC
 ```text
 /* Hello World in Pro*C, the Oracle's embedded SQL environment */
@@ -29211,6 +29550,12 @@ print "Hello World!"
 waitkey
 ```
 [Source File](../libraries/p/P-4/Profan)
+
+##### Profan
+```text
+print "Hello World"
+```
+[Source File](../libraries/p/P-2/Profan)
 
 ##### ProgFk
 ```text
@@ -29904,6 +30249,12 @@ namespace qsharp
 "Hello World"
 ```
 [Source File](../libraries/q/Q-1/Q.q)
+
+##### Qalb
+```text
+(قول "Hello World")
+```
+[Source File](../libraries/q/Q-1/Qalb)
 
 ##### Qalb _2
 ```text
@@ -30827,6 +31178,12 @@ print "Hello World"
 ```
 [Source File](../libraries/r/R-1/Rebol.r)
 
+##### Rebol
+```text
+print "Hello World"
+```
+[Source File](../libraries/r/R-1/Rebol.reb)
+
 ##### Record
 ```text
 D "Hello, World!"
@@ -31595,6 +31952,12 @@ h
 ```
 [Source File](../libraries/r/R-3/Rotor)
 
+##### Rotor
+```text
+"Hello World
+```
+[Source File](../libraries/r/R-2/Rotor)
+
 ##### Roy
 ```text
 console.log "Hello World"
@@ -32150,6 +32513,12 @@ d. ["",None-of-the-above,]
 ```
 [Source File](../libraries/s/S-1/Sawa.txt)
 
+##### Sawa
+```text
+ꦥꦿꦶꦤ꧀("Hello World")
+```
+[Source File](../libraries/s/S-1/Sawa.ꦱꦮ)
+
 ##### Sawzall
 ```text
 # Hello world in Sawzall
@@ -32295,6 +32664,12 @@ Hello World
 q
 ```
 [Source File](../libraries/s/S-1/Sed.sed)
+
+##### Seed
+```text
+20 77698190481213510983405846204529755428212736563278528088055816123655499433757607718113585773285686740433752335768949721107461077652705328567448384490378909463204984642622585570301449419608763821501335954761638946551568252142160714228369356054944595121742743720935369219143086698092657062614382519069928478344861416117079283276656675368390764675728501797178208908097054412833019383889935034413095990596139618411133857423995278221670378808372393943846302426674985203826030563290800228881174929701934609803807325868775242909948272754141956168876233403760199007405891058308908050926690654387065882097924294620229833663324754801060691573338185912369627367088050915813931912943122729210762147280440619571047157836177316082899933374851699282897590433145623725705072835054748369992455883804733164985993447304652512229557984322495162682327137071900307763332392727562988633724175094951314863886096190608268953115914497741446723188169519334729165647294618083444761551231012944903572063441813639201051793052623561949314826491616145873848990439549320951496534538450810083853945092224500179417650727351532486362656533602860500906935826231374501097567347929533018944533000919137863885267937690665655625569011036163950983389810112758403211861147501289650757555111271813737813381172074709337306647481507917983021055643749698971365256395367215437223669891280521155247529741719633106765965869860677198632388808752014013939448563313855130972968670015202479226496876067874099463222366536167126653600056389712632892652810365218798697007191747287017174284819764736012653205048166550645507761123345279502597627995423826537299795220169894222867163817508592362092945387317777666016102146798532337718546431888424995701016828542559577710937459975677354300708252448630110787487122698124054544454425586794841157136743408274159313823745226919626156949004386804874236325506583268311452185182143521552429596087556634158778951670223004413763782647825362665491934988477225698133609360969370513836064317152213804169538880632390908441210809806024082600637872813704781431414342781727628446451808751293046212690472851527294326981763969926510021099532791692362104324026231160941956411410511639925420026544463125250979130259151326444714248961523031316570018708849878676230362246913063109584502143502908906243190007062857721367402065760878808920961082444422470813023453274563914735545463757909757689866565064353853099958949763412521666109346825939993377745919874506439752272141853783745051726268592621080457687000431023453539135927140364910898906534604541224314820195082362228787083990333757268808864746297304451768935814651205074884015268982492445996542040655715230139673520569765431617018824427859214902954216246257690105154030408059145566852643855789351907818461502260430297487602982850090037405732117988720732457199005151517240766953718440639691354185802798689950155164379549518496065038927905828230066053603755553745353618846804435103593395141938947781375633374976924393453162350331593801284839409264892975739791751842620029351535320807733966984270102067017902086335370470815153908942490581427972998999752666174807935897314584088695849094389002316139005810918748032068307783088481430339303809949409414892479892121893571274086727250767713365523021125610242269894861374297866741571608166536165735922984579027986499758294460652554897534526492251140681138244025665400003029337114012766773010641359450599171473565675885966777145500248501370644599274741842644014722083732709145488157998306684831419559774212264003518406013032514468522158218837161285401631773099549510145156007147884565387852623860047153609138110997222297132678660783411624002400927435687937355446057878202312894093195453248164648271580944753933355967626542678764854079218206499479071658357103085513937246462858404881973219571392564909528645166637501279457604649906515968389831094896970731573714836150178126997674563415266672131632765794599548356902607125568792417432226125654028873443580337866760487651905138461301986816386866811155111486155341154153322710638921116465132825486519667178335471102213200521032618562169530188826434060179505699797068436325168526618824444305122475837890944742004331675952611756641739756206337285946
+```
+[Source File](../libraries/s/S-1/Seed)
 
 ##### Seed _2
 ```text
@@ -33484,6 +33859,13 @@ Sys.println("Hello World");
         OUTPUT = "Hello World!"
 ```
 [Source File](../libraries/s/S-3/Snobol)
+
+##### SNOBOL
+```text
+          OUTPUT = "Hello World"
+END
+```
+[Source File](../libraries/s/S-2/SNOBOL)
 
 ##### SNOBOL4
 ```text
@@ -34792,6 +35174,12 @@ c,x,Hello World!,v,x
 'Hello World' -> !OUT::write
 ```
 [Source File](../libraries/t/T-1/Tailspin)
+
+##### Takeover
+```text
+[Hello World
+```
+[Source File](../libraries/t/T-1/Takeover)
 
 ##### Takeover _2
 ```text
@@ -36150,6 +36538,12 @@ State   Read   |   Write     Step    Next state
 0 103 1 1 104 1 1
 ```
 [Source File](../libraries/t/T-2/Turing Machine But Way Worse.tmbww)
+
+##### Turing
+```text
+put "Hello World"
+```
+[Source File](../libraries/t/T-1/Turing.oot)
 
 ##### Turing
 ```text
@@ -38105,6 +38499,36 @@ Hello #World #in #Whitespace	* # #	* # # #
 ```
 [Source File](../libraries/w/W-2/Whitespace)
 
+##### Whitespace
+```text
+   	  	   
+	
+     		  	 	
+	
+     		 		  
+	
+     		 		  
+	
+     		 				
+	
+      	     
+	
+     	 	 			
+	
+     		 				
+	
+     			  	 
+	
+     		 		  
+	
+     		  	  
+	
+  
+
+
+```
+[Source File](../libraries/w/W-1/Whitespace.ws)
+
 ##### Whizz
 ```text
 p72+!29+!7+!!3+!79-!55+!24+!3+!6-!8-!67-!
@@ -39422,6 +39846,12 @@ v  ΘEEEEEEEEEEς      <
 >  ςEEEΔΔΔΘ          λ
 ```
 [Source File](../libraries/nonenglish/μλ)
+
+##### قلب
+```text
+‫(قول "مرحبا يا عالم")
+```
+[Source File](../libraries/symbols/قلب)
 
 ##### قلب _2
 ```text
